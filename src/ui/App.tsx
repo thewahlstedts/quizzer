@@ -834,6 +834,7 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
       className="answer-box"
       onSubmit={(e) => {
         e.preventDefault()
+        if (!text.trim()) return // an empty Answer can't be submitted (running out of time still counts as wrong)
         dismissKeyboard()
         onSubmit(text)
       }}
@@ -847,7 +848,7 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
         autoCorrect="off"
         spellCheck={false}
       />
-      <button className="primary" type="submit">
+      <button className="primary" type="submit" disabled={!text.trim()}>
         Submit
       </button>
     </form>
@@ -932,17 +933,10 @@ function RevealActions({
   const autoOn = useState(() => auto && loadAutoContinue())[0]
   // The countdown restarts after an Override and pauses while the Flag dialog is open.
   const [autoFrom, setAutoFrom] = useState(() => Date.now())
-  const [left, setLeft] = useState(AUTO_CONTINUE_MS)
   useEffect(() => {
     if (!autoOn || flagging) return
-    const id = setInterval(() => {
-      const rest = AUTO_CONTINUE_MS - (Date.now() - autoFrom)
-      if (rest <= 0) {
-        clearInterval(id)
-        dispatch({ type: 'continue' })
-      } else setLeft(rest)
-    }, 200)
-    return () => clearInterval(id)
+    const t = setTimeout(() => dispatch({ type: 'continue' }), Math.max(0, AUTO_CONTINUE_MS - (Date.now() - autoFrom)))
+    return () => clearTimeout(t)
   }, [autoOn, flagging, autoFrom, dispatch])
 
   return (
@@ -964,9 +958,8 @@ function RevealActions({
         <button className="ghost" disabled={flagged} onClick={() => setFlagging(true)}>
           {flagged ? 'Flagged ✓' : 'Flag clue'}
         </button>
-        <button ref={ref} className={'primary' + (autoOn && !flagging ? ' auto' : '')} onClick={() => dispatch({ type: 'continue' })}>
-          Continue{autoOn && !flagging ? ` · ${Math.ceil(left / 1000)}` : ''}
-          {autoOn && !flagging && <span key={autoFrom} className="auto-bar" style={{ animationDuration: `${AUTO_CONTINUE_MS}ms` }} aria-hidden />}
+        <button ref={ref} className="primary" onClick={() => dispatch({ type: 'continue' })}>
+          Continue
         </button>
       </div>
       {flagging && (
@@ -974,14 +967,12 @@ function RevealActions({
           onCancel={() => {
             setFlagging(false)
             setAutoFrom(Date.now())
-            setLeft(AUTO_CONTINUE_MS)
           }}
           onSubmit={(reason, note) => {
             logFlag(state.level, clue, reason, note)
             setFlagging(false)
             setFlagged(true)
             setAutoFrom(Date.now())
-            setLeft(AUTO_CONTINUE_MS)
           }}
         />
       )}

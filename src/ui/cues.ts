@@ -1,4 +1,4 @@
-import type { GameState } from '../engine/game'
+import { clueTiming, TIMING, type GameState } from '../engine/game'
 import type { Cue } from './sound'
 
 /** Countdown ticks play for the last this-many seconds of a timer the Human is on. */
@@ -19,6 +19,30 @@ export function countdownSecond(s: GameState, now: number): number | null {
   if (until === undefined) return null
   const left = Math.ceil((until - now) / 1000)
   return left >= 1 && left <= COUNTDOWN_SECONDS ? left : null
+}
+
+/**
+ * Whole seconds left (1..n) of the wait before the Human can act, or null: a normal Clue's reading
+ * time before Ring In opens (not during the selection animation), and the reading time before the
+ * Human answers a Daily Double or the Final Round.
+ */
+export function waitSecond(s: GameState, now: number): number | null {
+  const p = s.phase
+  let until: number | undefined
+  let readMs = 0
+  if (p.kind === 'reading') {
+    until = p.until
+    readMs = clueTiming(s.mode).readMs
+  } else if (p.kind === 'ddReading' && s.selector === 'human') {
+    until = p.until
+    readMs = TIMING.readMs
+  } else if (p.kind === 'finalReading' && s.final.eligible.includes('human')) {
+    until = p.until
+    readMs = TIMING.readMs
+  }
+  if (until === undefined || readMs <= 0 || now < until - readMs) return null
+  const left = Math.ceil((until - now) / 1000)
+  return left >= 1 ? left : null
 }
 
 /** The sound cues for one state change. Pure, so the mapping is testable without audio. */
