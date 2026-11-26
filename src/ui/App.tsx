@@ -77,7 +77,6 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
   return (
     <main className="setup">
       <section className="setup-card">
-        <p className="eyebrow">You vs. two Bots</p>
         <h2>Ready to play?</h2>
 
         <label className="field">
