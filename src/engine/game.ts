@@ -37,6 +37,8 @@ export const TIMING = {
   finalAnswerMs: 120_000,
   botPickMs: 1_800,
   botWagerMs: 1_500,
+  /** Once the Human has answered the Final (or sits it out), Bots still thinking answer within this. */
+  finalRushMs: 2_000,
 }
 
 /** Reading time and Ring In window for a normal Clue. Daily Doubles and the Final Round don't change. */
@@ -314,9 +316,11 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
     case 'finalReading': {
       if (now < p.until) return null
       const clue = finalClue(s)!
+      // Nobody to wait for if the Human sits the Final out.
+      const humanIn = s.final.eligible.includes('human')
       for (const id of s.final.eligible.filter(isBot)) {
         s.final.botKnows[id] = rollKnows(s.botDifficulty, clue.rank, rng)
-        s.final.botSubmitAt[id] = p.until + randomDelay(rng, 8_000, 45_000)
+        s.final.botSubmitAt[id] = p.until + (humanIn ? randomDelay(rng, 8_000, 45_000) : randomDelay(rng, 500, TIMING.finalRushMs))
       }
       s.phase = { kind: 'finalAnswering', until: p.until + TIMING.finalAnswerMs }
       return s
@@ -435,6 +439,11 @@ function submitHuman(s: GameState, prev: GameState, text: string, now: number, r
     const clue = finalClue(s)!
     const { correct, matchScore } = judge(text, clue)
     s.final.answers.human = { contestant: 'human', typed: text, display: text, correct, matchScore, delta: 0 }
+    // The only Human has answered: Bots still thinking answer within finalRushMs.
+    for (const id of s.final.eligible.filter((x) => isBot(x) && !s.final.answers[x])) {
+      const at = now + randomDelay(rng, 400, TIMING.finalRushMs)
+      s.final.botSubmitAt[id] = Math.min(s.final.botSubmitAt[id] ?? at, at)
+    }
     return allFinalAnswered(s) ? finishFinal(s, rng) : s
   }
   return prev

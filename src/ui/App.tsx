@@ -1215,12 +1215,69 @@ function GameOverEarnings({ earned }: { earned: number }) {
   )
 }
 
+const CONFETTI = 48
+const CONFETTI_COLORS = ['var(--gold)', 'var(--teal)', 'var(--coral)', 'var(--violet)', '#fff']
+
+/** The Human won: a trophy pops in and confetti falls over the screen for a few seconds. */
+function WinCelebration() {
+  const [on, setOn] = useState(true)
+  useEffect(() => {
+    const t = setTimeout(() => setOn(false), 5_000)
+    return () => clearTimeout(t)
+  }, [])
+  // Deterministic spread (no Math.random in render), varied enough to look random.
+  const pieces = Array.from({ length: CONFETTI }, (_, i) => {
+    // hash-based so position, delay and speed aren't correlated (a linear formula lined the pieces up)
+    const r = (n: number) => {
+      const x = Math.sin(i * 12.9898 + n * 78.233) * 43758.5453
+      return x - Math.floor(x)
+    }
+    return {
+      left: `${Math.round(r(1) * 100)}%`,
+      delay: `${(r(2) * 0.9).toFixed(2)}s`,
+      duration: `${(2.4 + r(3) * 1.6).toFixed(2)}s`,
+      drift: `${Math.round((r(4) - 0.5) * 160)}px`,
+      spin: `${Math.round(360 + r(5) * 720)}deg`,
+      color: CONFETTI_COLORS[i % CONFETTI_COLORS.length],
+      w: `${6 + Math.round(r(6) * 6)}px`,
+    }
+  })
+  return (
+    <>
+      <div className="trophy" aria-hidden>
+        🏆
+      </div>
+      {on && (
+        <div className="confetti" aria-hidden>
+          {pieces.map((p, i) => (
+            <span
+              key={i}
+              style={
+                {
+                  left: p.left,
+                  width: p.w,
+                  background: p.color,
+                  animationDelay: p.delay,
+                  animationDuration: p.duration,
+                  '--drift': p.drift,
+                  '--spin': p.spin,
+                } as React.CSSProperties
+              }
+            />
+          ))}
+        </div>
+      )}
+    </>
+  )
+}
+
 function GameOver({ state }: { state: GameState }) {
   const winners = state.winners ?? []
   const names = winners.map((id) => contestant(state, id).name)
   const humanWon = winners.includes('human')
   return (
-    <div className="interstitial gameover">
+    <div className={'interstitial gameover' + (humanWon ? ' won' : '')}>
+      {humanWon && <WinCelebration />}
       <p className="eyebrow">Game over</p>
       <h2>
         {humanWon

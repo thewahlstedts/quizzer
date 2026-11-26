@@ -345,4 +345,31 @@ describe('Final Round', () => {
     expect(g.get().phase.kind).toBe('finalReveal')
     expect(contestant(g.get(), 'human').score).toBe(1800)
   })
+
+  it('has the Bots answer within 2s once the Human has answered', () => {
+    const g = atFinal([1000, 3000, 2000])
+    g.dispatch({ type: 'finalChoose', categoryId: g.get().final.options[0].id, now: 0 })
+    g.dispatch({ type: 'finalWager', amount: 500, now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    expect(g.get().phase.kind).toBe('finalAnswering')
+    const t = TIMING.readMs + 1_000 // well before any Bot's own 8-45s answer time
+    g.dispatch({ type: 'submitAnswer', text: 'zzzz', now: t })
+    expect(g.get().phase.kind).toBe('finalAnswering')
+    g.dispatch({ type: 'tick', now: t + TIMING.finalRushMs })
+    expect(g.get().phase.kind).toBe('finalReveal')
+  })
+
+  it('has the Bots answer within 2s when the Human sits the Final out', () => {
+    const g = atFinal([-200, 3000, 1000])
+    expect(g.get().phase.kind).toBe('finalChoose') // bot2 (last eligible) chooses
+    g.dispatch({ type: 'tick', now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.botPickMs })
+    const reading = g.get().phase
+    expect(reading.kind).toBe('finalReading')
+    const until = reading.kind === 'finalReading' ? reading.until : 0
+    g.dispatch({ type: 'tick', now: until })
+    expect(g.get().phase.kind).toBe('finalAnswering')
+    g.dispatch({ type: 'tick', now: until + TIMING.finalRushMs })
+    expect(g.get().phase.kind).toBe('finalReveal')
+  })
 })
