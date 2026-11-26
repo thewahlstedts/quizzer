@@ -53,7 +53,10 @@ function keepRevealed(input: HTMLInputElement, selector: string): () => void {
     if (b - t + 2 * margin > vv.height) shift = below // too tall: the input wins
     else if (above < 0) shift = above
     else if (below > 0) shift = below
-    if (Math.abs(shift) > 1) window.scrollBy(0, shift)
+    if (Math.abs(shift) > 1) {
+      const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      window.scrollBy({ top: shift, behavior: smooth ? 'smooth' : 'auto' })
+    }
   }
   vv.addEventListener('resize', fit)
   // iOS scrolls the input into view itself as the keyboard animates in; correct after it settles.

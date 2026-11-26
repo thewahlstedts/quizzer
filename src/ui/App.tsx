@@ -444,6 +444,31 @@ function Timer({ until, total, now, label }: { until: number; total: number; now
 
 const FLIP_MS = 650
 
+const GLIDE_MS = 350
+
+/**
+ * When `key` changes, the layout can jump (on phones the Clue screen moves from centred to the top
+ * and its card turns compact while the Human types). Animate `el` from where it was to where it is
+ * now; the card's own size change is a CSS transition.
+ */
+function useGlideOnChange(ref: React.RefObject<HTMLElement | null>, key: unknown) {
+  const last = useRef<{ key: unknown; top: number } | null>(null)
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const top = el.getBoundingClientRect().top + window.scrollY
+    const prev = last.current
+    last.current = { key, top }
+    if (!prev || prev.key === key) return
+    const dy = prev.top - top
+    if (Math.abs(dy) < 2 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    el.animate([{ transform: `translateY(${dy}px)` }, { transform: 'none' }], {
+      duration: GLIDE_MS,
+      easing: 'cubic-bezier(.2,.8,.25,1)',
+    })
+  })
+}
+
 /** Animate `el` from the `from` rectangle (a Board tile) to where it actually sits. */
 function useFlip(ref: React.RefObject<HTMLElement | null>, from: DOMRect | undefined) {
   useLayoutEffect(() => {
@@ -500,9 +525,13 @@ function ClueView({
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
+  const humanTyping = (p.kind === 'answering' && p.contestant === 'human') || (p.kind === 'ddAnswering' && state.selector === 'human')
+  const screenRef = useRef<HTMLDivElement>(null)
+  useGlideOnChange(screenRef, humanTyping)
 
   return (
     <div
+      ref={screenRef}
       className={'clue-screen' + (entering ? ' entering' : '')}
       style={{ '--enter-delay': `${ENTER_DELAY_MS}ms` } as React.CSSProperties}
     >
@@ -851,6 +880,8 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
   const humanIn = f.eligible.includes('human')
   const clue = finalClue(state)
   const category = f.options.find((o) => o.id === f.categoryId)?.name
+  const finalRef = useRef<HTMLDivElement>(null)
+  useGlideOnChange(finalRef, p.kind === 'finalAnswering' && humanIn && !f.answers.human)
 
   if (p.kind === 'finalChoose') {
     const chooser = contestant(state, f.chooser!)
@@ -876,7 +907,7 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
   }
 
   return (
-    <div className="final">
+    <div ref={finalRef} className="final">
       <p className="eyebrow">Final Round</p>
       <div className="clue-meta">
         <span className="clue-cat">{category}</span>
