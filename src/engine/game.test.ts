@@ -138,7 +138,7 @@ describe('Bot Answers', () => {
 
 describe('Mode', () => {
   it('opens Ring In as soon as the selection animation ends', () => {
-    const g = setup(1, BANKS[1], 'fast')
+    const g = setup(1, BANKS[1], 'instant')
     g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
     g.dispatch({ type: 'tick', now: TIMING.selectMs - 1 })
     expect(g.get().phase.kind).toBe('reading')
@@ -152,7 +152,7 @@ describe('Mode', () => {
   })
 
   it('reveals after 15s if nobody rings in', () => {
-    const g = setup(4, BANKS[1], 'fast')
+    const g = setup(4, BANKS[1], 'instant')
     g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
     g.dispatch({ type: 'tick', now: TIMING.selectMs })
     const s = structuredClone(g.get())
@@ -164,10 +164,11 @@ describe('Mode', () => {
     expect(g.get().phase.kind).toBe('reveal')
   })
 
-  it('times Slow, Medium and Fast', () => {
+  it('times Slow, Medium, Fast and Instant', () => {
     expect(clueTiming('slow')).toEqual({ readMs: TIMING.readMs, ringMs: TIMING.ringMs })
     expect(clueTiming('medium')).toEqual({ readMs: 5_000, ringMs: 20_000 })
-    expect(clueTiming('fast')).toEqual({ readMs: 0, ringMs: 15_000 })
+    expect(clueTiming('fast')).toEqual({ readMs: 2_000, ringMs: 15_000 })
+    expect(clueTiming('instant')).toEqual({ readMs: 0, ringMs: 15_000 })
   })
 
   it('opens a 20s Ring In window after 5s of reading in Medium', () => {
@@ -186,17 +187,29 @@ describe('Mode', () => {
     expect(g.get().phase.kind).toBe('reveal')
   })
 
+  it('makes Fast wait 2s before Ring In opens', () => {
+    const g = setup(1, BANKS[1], 'fast')
+    g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 1_999 })
+    expect(g.get().phase.kind).toBe('reading')
+    g.dispatch({ type: 'ringIn', now: TIMING.selectMs + 1_000 })
+    expect(g.get().phase.kind).toBe('reading')
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 2_000 })
+    expect(g.get().phase.kind).toBe('ringIn')
+  })
+
   it('maps Modes saved before the rename', () => {
     expect(normalizeMode('classic')).toBe('slow')
     expect(normalizeMode('quick')).toBe('fast')
     expect(normalizeMode('medium')).toBe('medium')
+    expect(normalizeMode('instant')).toBe('instant')
     expect(normalizeMode(null)).toBe('slow')
   })
 
   it.each([
     [1, 'fast'],
     [2, 'medium'],
-    [3, 'fast'],
+    [3, 'instant'],
     [4, 'medium'],
   ] as const)('a whole game terminates (seed %i, %s)', (seed, mode) => {
     expect(autoplay(seed, 1, mode).phase.kind).toBe('gameOver')

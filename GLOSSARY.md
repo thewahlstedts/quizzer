@@ -53,7 +53,7 @@ A Contestant claiming the right to Answer the current Clue.
 _Avoid_: Buzz, buzz in
 
 **Mode**:
-How a game paces Ring In, chosen at setup. **Slow**: 10 seconds to read a Clue, then 30 seconds to Ring In. **Medium**: 5 seconds to read, then 20 seconds. **Fast**: Ring In as soon as the Clue appears, within 15 seconds. Daily Doubles and the Final Round play the same in all three. (Slow and Fast were once called Classic and Quick.)
+How a game paces Ring In, chosen at setup. **Slow**: 10 seconds to read a Clue, then 30 seconds to Ring In. **Medium**: 5 seconds to read, then 20 seconds. **Fast**: 2 seconds to read, then 15 seconds. **Instant**: Ring In as soon as the Clue appears, within 15 seconds. Daily Doubles and the Final Round play the same in every Mode. (Slow was once called Classic; Quick, which had no wait, became Fast.)
 _Avoid_: Speed, game type
 
 **Round**:

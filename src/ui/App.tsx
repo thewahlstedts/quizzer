@@ -15,7 +15,8 @@ import { MODE_LABEL } from './format'
 const MODE_NOTE: Record<GameMode, string> = {
   slow: '10 seconds to read, then 30 seconds to ring in.',
   medium: '5 seconds to read, then 20 seconds to ring in.',
-  fast: 'Ring in as soon as the clue appears. 15 seconds to ring in.',
+  fast: '2 seconds to read, then 15 seconds to ring in.',
+  instant: 'Ring in as soon as the clue appears. 15 seconds to ring in.',
 }
 import { useGame } from './useGame'
 import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, type FlagReason } from './review'
@@ -175,7 +176,7 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
           <summary>How to play</summary>
           <ul>
             <li>Pick a clue from the board. How long you get to read it and ring in depends on the Mode:</li>
-            <li>Slow: 10 seconds to read, then 30 seconds to ring in. Medium: 5 seconds to read, then 20 seconds. Fast: ring in as soon as the clue appears, within 15 seconds.</li>
+            <li>Slow: 10 seconds to read, then 30 seconds to ring in. Medium: 5 seconds to read, then 20 seconds. Fast: 2 seconds to read, then 15 seconds. Instant: ring in as soon as the clue appears, within 15 seconds.</li>
             <li>
               To ring in, press <kbd>Space</kbd> or the ring-in button.
             </li>
