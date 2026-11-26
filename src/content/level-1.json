@@ -1,0 +1,928 @@
+{
+  "level": 1,
+  "categories": [
+    {
+      "id": "l1-animal-crackers",
+      "name": "Animal Crackers",
+      "clues": [
+        {
+          "id": "l1-animal-crackers-1",
+          "rank": 1,
+          "clue": "This gray animal with a long trunk is the largest land animal.",
+          "answer": "Elephant",
+          "alternates": []
+        },
+        {
+          "id": "l1-animal-crackers-2",
+          "rank": 2,
+          "clue": "This tall spotted animal has the longest neck of any animal.",
+          "answer": "Giraffe",
+          "alternates": []
+        },
+        {
+          "id": "l1-animal-crackers-3",
+          "rank": 3,
+          "clue": "This black-and-white bear from China munches mostly on bamboo.",
+          "answer": "Panda",
+          "alternates": [
+            "giant panda",
+            "panda bear"
+          ]
+        },
+        {
+          "id": "l1-animal-crackers-4",
+          "rank": 4,
+          "clue": "This big cat with a shaggy mane is called the King of the Jungle.",
+          "answer": "Lion",
+          "alternates": []
+        },
+        {
+          "id": "l1-animal-crackers-5",
+          "rank": 5,
+          "clue": "This spotted big cat is the fastest land animal.",
+          "answer": "Cheetah",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-color-me-curious",
+      "name": "Color Me Curious",
+      "clues": [
+        {
+          "id": "l1-color-me-curious-1",
+          "rank": 1,
+          "clue": "Mix red and yellow paint to get this color.",
+          "answer": "Orange",
+          "alternates": []
+        },
+        {
+          "id": "l1-color-me-curious-2",
+          "rank": 2,
+          "clue": "Mix blue and yellow paint to get this color.",
+          "answer": "Green",
+          "alternates": []
+        },
+        {
+          "id": "l1-color-me-curious-3",
+          "rank": 3,
+          "clue": "The three primary colors of paint are red, yellow, and this.",
+          "answer": "Blue",
+          "alternates": []
+        },
+        {
+          "id": "l1-color-me-curious-4",
+          "rank": 4,
+          "clue": "Mix red and blue paint to get this color.",
+          "answer": "Purple",
+          "alternates": [
+            "violet"
+          ]
+        },
+        {
+          "id": "l1-color-me-curious-5",
+          "rank": 5,
+          "clue": "In a rainbow, this color sits right between orange and green.",
+          "answer": "Yellow",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-continental-breakfast",
+      "name": "Continental Breakfast",
+      "clues": [
+        {
+          "id": "l1-continental-breakfast-1",
+          "rank": 1,
+          "clue": "The United States, Canada, and Mexico are on this continent.",
+          "answer": "North America",
+          "alternates": []
+        },
+        {
+          "id": "l1-continental-breakfast-2",
+          "rank": 2,
+          "clue": "This icy continent at the South Pole is home to lots of penguins.",
+          "answer": "Antarctica",
+          "alternates": []
+        },
+        {
+          "id": "l1-continental-breakfast-3",
+          "rank": 3,
+          "clue": "China and India are on this continent, the largest in the world.",
+          "answer": "Asia",
+          "alternates": []
+        },
+        {
+          "id": "l1-continental-breakfast-4",
+          "rank": 4,
+          "clue": "Egypt, Kenya, and Nigeria are all on this continent.",
+          "answer": "Africa",
+          "alternates": []
+        },
+        {
+          "id": "l1-continental-breakfast-5",
+          "rank": 5,
+          "clue": "This is the only continent that is also a single country.",
+          "answer": "Australia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-state-your-business",
+      "name": "State Your Business",
+      "clues": [
+        {
+          "id": "l1-state-your-business-1",
+          "rank": 1,
+          "clue": "This state, made up of islands in the Pacific Ocean, was the 50th to join the US.",
+          "answer": "Hawaii",
+          "alternates": []
+        },
+        {
+          "id": "l1-state-your-business-2",
+          "rank": 2,
+          "clue": "The biggest US state, it borders Canada and is home to many moose and bears.",
+          "answer": "Alaska",
+          "alternates": []
+        },
+        {
+          "id": "l1-state-your-business-3",
+          "rank": 3,
+          "clue": "This state is nicknamed the Lone Star State.",
+          "answer": "Texas",
+          "alternates": []
+        },
+        {
+          "id": "l1-state-your-business-4",
+          "rank": 4,
+          "clue": "Nicknamed the Sunshine State, this is home to Walt Disney World.",
+          "answer": "Florida",
+          "alternates": []
+        },
+        {
+          "id": "l1-state-your-business-5",
+          "rank": 5,
+          "clue": "The Golden Gate Bridge and Hollywood are in this state.",
+          "answer": "California",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-once-upon-a-time",
+      "name": "Once Upon a Time",
+      "clues": [
+        {
+          "id": "l1-once-upon-a-time-1",
+          "rank": 1,
+          "clue": "She lost a glass slipper while hurrying away from the royal ball.",
+          "answer": "Cinderella",
+          "alternates": []
+        },
+        {
+          "id": "l1-once-upon-a-time-2",
+          "rank": 2,
+          "clue": "This girl tasted the porridge and sat in the chairs of the three bears.",
+          "answer": "Goldilocks",
+          "alternates": []
+        },
+        {
+          "id": "l1-once-upon-a-time-3",
+          "rank": 3,
+          "clue": "This boy climbed a giant beanstalk and found a giant's castle.",
+          "answer": "Jack",
+          "alternates": []
+        },
+        {
+          "id": "l1-once-upon-a-time-4",
+          "rank": 4,
+          "clue": "This girl with very long hair was locked away in a tall tower.",
+          "answer": "Rapunzel",
+          "alternates": []
+        },
+        {
+          "id": "l1-once-upon-a-time-5",
+          "rank": 5,
+          "clue": "This wooden puppet's nose grew longer every time he told a lie.",
+          "answer": "Pinocchio",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-body-talk",
+      "name": "Body Talk",
+      "clues": [
+        {
+          "id": "l1-body-talk-1",
+          "rank": 1,
+          "clue": "You use these to see.",
+          "answer": "Eyes",
+          "alternates": [
+            "eye"
+          ]
+        },
+        {
+          "id": "l1-body-talk-2",
+          "rank": 2,
+          "clue": "This organ in your chest pumps blood all through your body.",
+          "answer": "Heart",
+          "alternates": []
+        },
+        {
+          "id": "l1-body-talk-3",
+          "rank": 3,
+          "clue": "These two organs in your chest fill with air when you breathe.",
+          "answer": "Lungs",
+          "alternates": [
+            "lung"
+          ]
+        },
+        {
+          "id": "l1-body-talk-4",
+          "rank": 4,
+          "clue": "Your skull protects this organ, which you use to think.",
+          "answer": "Brain",
+          "alternates": []
+        },
+        {
+          "id": "l1-body-talk-5",
+          "rank": 5,
+          "clue": "The frame made of all the bones inside your body is called this.",
+          "answer": "Skeleton",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-food-fight",
+      "name": "Food Fight",
+      "clues": [
+        {
+          "id": "l1-food-fight-1",
+          "rank": 1,
+          "clue": "Monkeys love this long yellow fruit that you peel.",
+          "answer": "Banana",
+          "alternates": [
+            "bananas"
+          ]
+        },
+        {
+          "id": "l1-food-fight-2",
+          "rank": 2,
+          "clue": "French fries are made from this vegetable.",
+          "answer": "Potato",
+          "alternates": [
+            "potatoes"
+          ]
+        },
+        {
+          "id": "l1-food-fight-3",
+          "rank": 3,
+          "clue": "This Italian dish has crust, tomato sauce, and cheese, and is often topped with pepperoni.",
+          "answer": "Pizza",
+          "alternates": []
+        },
+        {
+          "id": "l1-food-fight-4",
+          "rank": 4,
+          "clue": "This yellow vegetable grows in rows of kernels on a cob, and its kernels pop into a movie snack.",
+          "answer": "Corn",
+          "alternates": [
+            "maize"
+          ]
+        },
+        {
+          "id": "l1-food-fight-5",
+          "rank": 5,
+          "clue": "Guacamole is made mostly from this green fruit.",
+          "answer": "Avocado",
+          "alternates": [
+            "avocados"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-play-ball",
+      "name": "Play Ball!",
+      "clues": [
+        {
+          "id": "l1-play-ball-1",
+          "rank": 1,
+          "clue": "In this sport, players dribble a ball and shoot it through a hoop.",
+          "answer": "Basketball",
+          "alternates": []
+        },
+        {
+          "id": "l1-play-ball-2",
+          "rank": 2,
+          "clue": "In this sport, players kick a ball into a net and only the goalie may use their hands.",
+          "answer": "Soccer",
+          "alternates": [
+            "football",
+            "association football"
+          ]
+        },
+        {
+          "id": "l1-play-ball-3",
+          "rank": 3,
+          "clue": "In baseball, this player stands on the mound and throws the ball to the batter.",
+          "answer": "Pitcher",
+          "alternates": []
+        },
+        {
+          "id": "l1-play-ball-4",
+          "rank": 4,
+          "clue": "In this sport, players use clubs to hit a small ball into a hole.",
+          "answer": "Golf",
+          "alternates": []
+        },
+        {
+          "id": "l1-play-ball-5",
+          "rank": 5,
+          "clue": "A touchdown in American football is worth this many points.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-math-snacks",
+      "name": "Math Snacks",
+      "clues": [
+        {
+          "id": "l1-math-snacks-1",
+          "rank": 1,
+          "clue": "What is 2 plus 2?",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l1-math-snacks-2",
+          "rank": 2,
+          "clue": "There are this many days in one week.",
+          "answer": "7",
+          "alternates": [
+            "seven"
+          ]
+        },
+        {
+          "id": "l1-math-snacks-3",
+          "rank": 3,
+          "clue": "A dozen eggs is this many eggs.",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        },
+        {
+          "id": "l1-math-snacks-4",
+          "rank": 4,
+          "clue": "There are this many minutes in one hour.",
+          "answer": "60",
+          "alternates": [
+            "sixty"
+          ]
+        },
+        {
+          "id": "l1-math-snacks-5",
+          "rank": 5,
+          "clue": "There are this many years in a century.",
+          "answer": "100",
+          "alternates": [
+            "one hundred",
+            "hundred",
+            "a hundred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-holiday-hoopla",
+      "name": "Holiday Hoopla",
+      "clues": [
+        {
+          "id": "l1-holiday-hoopla-1",
+          "rank": 1,
+          "clue": "On this holiday, kids wear costumes and go trick-or-treating.",
+          "answer": "Halloween",
+          "alternates": []
+        },
+        {
+          "id": "l1-holiday-hoopla-2",
+          "rank": 2,
+          "clue": "On this February holiday, people give cards covered with hearts.",
+          "answer": "Valentine's Day",
+          "alternates": [
+            "valentines day",
+            "valentines",
+            "valentine's",
+            "saint valentine's day",
+            "st valentine's day"
+          ]
+        },
+        {
+          "id": "l1-holiday-hoopla-3",
+          "rank": 3,
+          "clue": "Americans celebrate the nation's birthday with fireworks on this summer holiday.",
+          "answer": "Fourth of July",
+          "alternates": [
+            "independence day",
+            "july 4th",
+            "july 4",
+            "4th of july",
+            "july fourth"
+          ]
+        },
+        {
+          "id": "l1-holiday-hoopla-4",
+          "rank": 4,
+          "clue": "Many families eat turkey and give thanks on this November holiday.",
+          "answer": "Thanksgiving",
+          "alternates": [
+            "thanksgiving day"
+          ]
+        },
+        {
+          "id": "l1-holiday-hoopla-5",
+          "rank": 5,
+          "clue": "On this February holiday, people wait to see if a furry animal sees its shadow.",
+          "answer": "Groundhog Day",
+          "alternates": [
+            "groundhogs day",
+            "groundhog's day"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-space-cadets",
+      "name": "Space Cadets",
+      "clues": [
+        {
+          "id": "l1-space-cadets-1",
+          "rank": 1,
+          "clue": "We all live on this planet.",
+          "answer": "Earth",
+          "alternates": []
+        },
+        {
+          "id": "l1-space-cadets-2",
+          "rank": 2,
+          "clue": "This star is at the center of our solar system.",
+          "answer": "Sun",
+          "alternates": []
+        },
+        {
+          "id": "l1-space-cadets-3",
+          "rank": 3,
+          "clue": "This planet is nicknamed the Red Planet.",
+          "answer": "Mars",
+          "alternates": []
+        },
+        {
+          "id": "l1-space-cadets-4",
+          "rank": 4,
+          "clue": "This is the largest planet in our solar system.",
+          "answer": "Jupiter",
+          "alternates": []
+        },
+        {
+          "id": "l1-space-cadets-5",
+          "rank": 5,
+          "clue": "This planet is most famous for its beautiful, bright rings.",
+          "answer": "Saturn",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-weather-or-not",
+      "name": "Weather or Not",
+      "clues": [
+        {
+          "id": "l1-weather-or-not-1",
+          "rank": 1,
+          "clue": "Frozen flakes of this fall from the clouds on cold winter days.",
+          "answer": "Snow",
+          "alternates": [
+            "snowflakes"
+          ]
+        },
+        {
+          "id": "l1-weather-or-not-2",
+          "rank": 2,
+          "clue": "This colorful arc can appear in the sky when the sun shines after rain.",
+          "answer": "Rainbow",
+          "alternates": []
+        },
+        {
+          "id": "l1-weather-or-not-3",
+          "rank": 3,
+          "clue": "In a storm, you see this bright flash before you hear the thunder.",
+          "answer": "Lightning",
+          "alternates": []
+        },
+        {
+          "id": "l1-weather-or-not-4",
+          "rank": 4,
+          "clue": "This spinning, funnel-shaped windstorm reaches down to the ground.",
+          "answer": "Tornado",
+          "alternates": [
+            "twister"
+          ]
+        },
+        {
+          "id": "l1-weather-or-not-5",
+          "rank": 5,
+          "clue": "This tool tells you how hot or cold it is.",
+          "answer": "Thermometer",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-bug-out",
+      "name": "Bug Out",
+      "clues": [
+        {
+          "id": "l1-bug-out-1",
+          "rank": 1,
+          "clue": "This buzzing insect makes honey.",
+          "answer": "Bee",
+          "alternates": [
+            "bees",
+            "honeybee",
+            "honey bee"
+          ]
+        },
+        {
+          "id": "l1-bug-out-2",
+          "rank": 2,
+          "clue": "A caterpillar wraps itself in a chrysalis and comes out as this colorful insect.",
+          "answer": "Butterfly",
+          "alternates": []
+        },
+        {
+          "id": "l1-bug-out-3",
+          "rank": 3,
+          "clue": "All insects have this many legs.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l1-bug-out-4",
+          "rank": 4,
+          "clue": "This little red insect with black spots is often said to be lucky.",
+          "answer": "Ladybug",
+          "alternates": [
+            "ladybird",
+            "lady beetle",
+            "ladybird beetle"
+          ]
+        },
+        {
+          "id": "l1-bug-out-5",
+          "rank": 5,
+          "clue": "This insect's tail glows on warm summer nights.",
+          "answer": "Firefly",
+          "alternates": [
+            "lightning bug",
+            "fireflies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-under-the-sea",
+      "name": "Under the Sea",
+      "clues": [
+        {
+          "id": "l1-under-the-sea-1",
+          "rank": 1,
+          "clue": "This sea creature has eight arms covered in suckers.",
+          "answer": "Octopus",
+          "alternates": []
+        },
+        {
+          "id": "l1-under-the-sea-2",
+          "rank": 2,
+          "clue": "This ocean animal walks sideways and pinches with its claws.",
+          "answer": "Crab",
+          "alternates": []
+        },
+        {
+          "id": "l1-under-the-sea-3",
+          "rank": 3,
+          "clue": "This giant ocean mammal is the largest animal that has ever lived.",
+          "answer": "Blue whale",
+          "alternates": [
+            "whale"
+          ]
+        },
+        {
+          "id": "l1-under-the-sea-4",
+          "rank": 4,
+          "clue": "This is the biggest ocean on Earth.",
+          "answer": "Pacific Ocean",
+          "alternates": [
+            "pacific"
+          ]
+        },
+        {
+          "id": "l1-under-the-sea-5",
+          "rank": 5,
+          "clue": "In this small fish with a horse-shaped head, the dad carries the babies.",
+          "answer": "Seahorse",
+          "alternates": [
+            "sea horse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-shape-up",
+      "name": "Shape Up",
+      "clues": [
+        {
+          "id": "l1-shape-up-1",
+          "rank": 1,
+          "clue": "This shape has three sides and three corners.",
+          "answer": "Triangle",
+          "alternates": []
+        },
+        {
+          "id": "l1-shape-up-2",
+          "rank": 2,
+          "clue": "This shape has four equal sides and four right angles.",
+          "answer": "Square",
+          "alternates": []
+        },
+        {
+          "id": "l1-shape-up-3",
+          "rank": 3,
+          "clue": "This round shape has no corners at all, like a pizza or a wheel.",
+          "answer": "Circle",
+          "alternates": []
+        },
+        {
+          "id": "l1-shape-up-4",
+          "rank": 4,
+          "clue": "A stop sign has this eight-sided shape.",
+          "answer": "Octagon",
+          "alternates": []
+        },
+        {
+          "id": "l1-shape-up-5",
+          "rank": 5,
+          "clue": "A ball has this round 3-D shape.",
+          "answer": "Sphere",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-opposites-attract",
+      "name": "Opposites Attract",
+      "clues": [
+        {
+          "id": "l1-opposites-attract-1",
+          "rank": 1,
+          "clue": "This is the opposite of hot.",
+          "answer": "Cold",
+          "alternates": []
+        },
+        {
+          "id": "l1-opposites-attract-2",
+          "rank": 2,
+          "clue": "This is the opposite of up.",
+          "answer": "Down",
+          "alternates": []
+        },
+        {
+          "id": "l1-opposites-attract-3",
+          "rank": 3,
+          "clue": "This is the opposite of day.",
+          "answer": "Night",
+          "alternates": [
+            "nighttime"
+          ]
+        },
+        {
+          "id": "l1-opposites-attract-4",
+          "rank": 4,
+          "clue": "This is the opposite of empty.",
+          "answer": "Full",
+          "alternates": []
+        },
+        {
+          "id": "l1-opposites-attract-5",
+          "rank": 5,
+          "clue": "This is the opposite of always.",
+          "answer": "Never",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-baby-talk",
+      "name": "Baby Talk",
+      "clues": [
+        {
+          "id": "l1-baby-talk-1",
+          "rank": 1,
+          "clue": "A baby dog is called this.",
+          "answer": "Puppy",
+          "alternates": [
+            "pup"
+          ]
+        },
+        {
+          "id": "l1-baby-talk-2",
+          "rank": 2,
+          "clue": "A baby cat is called this.",
+          "answer": "Kitten",
+          "alternates": [
+            "kitty"
+          ]
+        },
+        {
+          "id": "l1-baby-talk-3",
+          "rank": 3,
+          "clue": "A baby cow is called this.",
+          "answer": "Calf",
+          "alternates": []
+        },
+        {
+          "id": "l1-baby-talk-4",
+          "rank": 4,
+          "clue": "A baby frog that swims with a tail and no legs is called this.",
+          "answer": "Tadpole",
+          "alternates": [
+            "polliwog",
+            "pollywog"
+          ]
+        },
+        {
+          "id": "l1-baby-talk-5",
+          "rank": 5,
+          "clue": "A baby horse is called this.",
+          "answer": "Foal",
+          "alternates": [
+            "colt",
+            "filly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-rhyme-time",
+      "name": "Rhyme Time",
+      "clues": [
+        {
+          "id": "l1-rhyme-time-1",
+          "rank": 1,
+          "clue": "It rhymes with cat, and you wear it on your head.",
+          "answer": "Hat",
+          "alternates": []
+        },
+        {
+          "id": "l1-rhyme-time-2",
+          "rank": 2,
+          "clue": "It rhymes with moon, and you eat soup with it.",
+          "answer": "Spoon",
+          "alternates": []
+        },
+        {
+          "id": "l1-rhyme-time-3",
+          "rank": 3,
+          "clue": "It rhymes with boat, and you wear it when it's cold outside.",
+          "answer": "Coat",
+          "alternates": []
+        },
+        {
+          "id": "l1-rhyme-time-4",
+          "rank": 4,
+          "clue": "It rhymes with rain, and it chugs along on railroad tracks.",
+          "answer": "Train",
+          "alternates": []
+        },
+        {
+          "id": "l1-rhyme-time-5",
+          "rank": 5,
+          "clue": "It rhymes with clock, and you pull it onto your foot before your shoe.",
+          "answer": "Sock",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1-dino-mite",
+      "name": "Dino-Mite",
+      "clues": [
+        {
+          "id": "l1-dino-mite-1",
+          "rank": 1,
+          "clue": "This huge meat-eating dinosaur with tiny arms is often called the king of the dinosaurs.",
+          "answer": "Tyrannosaurus rex",
+          "alternates": [
+            "t rex",
+            "trex",
+            "tyrannosaurus"
+          ]
+        },
+        {
+          "id": "l1-dino-mite-2",
+          "rank": 2,
+          "clue": "This plant-eating dinosaur had three horns on its face.",
+          "answer": "Triceratops",
+          "alternates": []
+        },
+        {
+          "id": "l1-dino-mite-3",
+          "rank": 3,
+          "clue": "This dinosaur had big plates along its back and spikes on its tail.",
+          "answer": "Stegosaurus",
+          "alternates": []
+        },
+        {
+          "id": "l1-dino-mite-4",
+          "rank": 4,
+          "clue": "Dinosaur bones that have turned to stone over millions of years are called these.",
+          "answer": "Fossils",
+          "alternates": [
+            "fossil"
+          ]
+        },
+        {
+          "id": "l1-dino-mite-5",
+          "rank": 5,
+          "clue": "This is the name for a scientist who digs up and studies dinosaur fossils.",
+          "answer": "Paleontologist",
+          "alternates": [
+            "palaeontologist",
+            "paleontologists"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1-music-makers",
+      "name": "Music Makers",
+      "clues": [
+        {
+          "id": "l1-music-makers-1",
+          "rank": 1,
+          "clue": "This instrument has black and white keys.",
+          "answer": "Piano",
+          "alternates": [
+            "keyboard"
+          ]
+        },
+        {
+          "id": "l1-music-makers-2",
+          "rank": 2,
+          "clue": "Drummers hit these with sticks.",
+          "answer": "Drums",
+          "alternates": [
+            "drum",
+            "drum set",
+            "drum kit"
+          ]
+        },
+        {
+          "id": "l1-music-makers-3",
+          "rank": 3,
+          "clue": "This instrument usually has six strings that you strum.",
+          "answer": "Guitar",
+          "alternates": []
+        },
+        {
+          "id": "l1-music-makers-4",
+          "rank": 4,
+          "clue": "You tuck this stringed instrument under your chin and play it with a bow.",
+          "answer": "Violin",
+          "alternates": [
+            "fiddle"
+          ]
+        },
+        {
+          "id": "l1-music-makers-5",
+          "rank": 5,
+          "clue": "This brass instrument has a long slide that moves in and out.",
+          "answer": "Trombone",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

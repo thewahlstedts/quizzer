@@ -1,0 +1,80 @@
+# Quizzer
+
+A Jeopardy-style quiz game where one Human plays against two Bots across a board of Categories.
+
+## Contestants
+
+**Contestant**:
+Anyone competing in a game — either a Human or a Bot.
+_Avoid_: Player, participant
+
+**Human**:
+The single real person playing.
+_Avoid_: User, player one
+
+**Bot**:
+A computer-controlled Contestant.
+_Avoid_: AI, CPU, computer player, NPC
+
+**Bot Difficulty**:
+How strong the Bots are in a game (Easy, Normal, Hard), chosen independently of Level.
+_Avoid_: Bot level, AI skill
+
+## Content
+
+**Clue**:
+The prompt shown to Contestants, belonging to one Category, one Level, and one Rank.
+_Avoid_: Question, prompt
+
+**Answer**:
+What a Contestant types in reply to a Clue. A Clue has one canonical Answer plus accepted alternates.
+_Avoid_: Response, guess
+
+**Rank**:
+A Clue's difficulty within its Level, 1 (easiest) to 5 (hardest). Point value is derived from Rank and Round, never stored on the Clue.
+_Avoid_: Value, row, points
+
+**Category**:
+A themed column of Clues on the Board.
+_Avoid_: Topic, subject
+
+**Level**:
+A difficulty tier (1–4) of Clues; one Level is used for a whole game. Not tied to age.
+_Avoid_: Age group, grade, tier
+
+## Play
+
+**Board**:
+The grid of Categories and point values from which Clues are selected.
+_Avoid_: Grid, game board
+
+**Ring In**:
+A Contestant claiming the right to Answer the current Clue.
+_Avoid_: Buzz, buzz in
+
+**Round**:
+One full Board of play. A game has Round 1, Round 2, then the Final Round.
+
+**Wager**:
+The amount a Contestant risks on a Daily Double or the Final Round instead of a face value.
+_Avoid_: Bet, stake
+
+**Daily Double**:
+A hidden Clue on the Board that only the selecting Contestant answers, for a wager instead of the face value.
+
+**Final Round**:
+The closing Clue, answered by all Contestants with wagers, from a Category the last-place Contestant chooses among three offered.
+_Avoid_: Final Jeopardy
+
+**Masked Answer**:
+What is shown when a Bot answers: asterisks matching the Answer's character count, with spaces placed at random.
+
+## Review
+
+**Override**:
+The Human declaring a rejected Answer correct ("I was right"). Overrides are kept as evidence for improving judging.
+_Avoid_: Appeal, dispute, challenge
+
+**Flag**:
+The Human marking a Clue as bad so it can be reviewed later.
+_Avoid_: Report, mark

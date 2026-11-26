@@ -1,0 +1,225 @@
+{
+  "level": 4,
+  "categories": [
+    {
+      "id": "l4-capital-gains",
+      "name": "Capital Gains",
+      "clues": [
+        { "id": "l4-capital-gains-1", "rank": 1, "clue": "This nation's capital, Canberra, was purpose-built as a compromise between rivals Sydney and Melbourne.", "answer": "Australia", "alternates": [] },
+        { "id": "l4-capital-gains-2", "rank": 2, "clue": "Canada's capital city, which sits on the border between Ontario and Quebec.", "answer": "Ottawa", "alternates": [] },
+        { "id": "l4-capital-gains-3", "rank": 3, "clue": "In 1991 this planned city replaced Lagos as the capital of Nigeria.", "answer": "Abuja", "alternates": [] },
+        { "id": "l4-capital-gains-4", "rank": 4, "clue": "Kazakhstan's capital, which was officially called Nur-Sultan from 2019 to 2022.", "answer": "Astana", "alternates": [] },
+        { "id": "l4-capital-gains-5", "rank": 5, "clue": "Bolivia's constitutional capital and home of its Supreme Court, even though the government sits in La Paz.", "answer": "Sucre", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-taking-the-lead",
+      "name": "Taking the Lead",
+      "clues": [
+        { "id": "l4-taking-the-lead-1", "rank": 1, "clue": "In 1940 this British prime minister told Parliament he had nothing to offer but \"blood, toil, tears and sweat.\"", "answer": "Winston Churchill", "alternates": ["Churchill"] },
+        { "id": "l4-taking-the-lead-2", "rank": 2, "clue": "After 27 years in prison, he became South Africa's first Black president in 1994.", "answer": "Nelson Mandela", "alternates": ["Mandela"] },
+        { "id": "l4-taking-the-lead-3", "rank": 3, "clue": "Britain's first female prime minister, nicknamed \"The Iron Lady.\"", "answer": "Margaret Thatcher", "alternates": ["Thatcher"] },
+        { "id": "l4-taking-the-lead-4", "rank": 4, "clue": "He served as India's first prime minister, from independence in 1947 until 1964.", "answer": "Jawaharlal Nehru", "alternates": ["Nehru"] },
+        { "id": "l4-taking-the-lead-5", "rank": 5, "clue": "Born in Kyiv and raised in Milwaukee, she became Israel's first female prime minister in 1969.", "answer": "Golda Meir", "alternates": ["Meir"] }
+      ]
+    },
+    {
+      "id": "l4-elementary-my-dear",
+      "name": "Elementary, My Dear",
+      "clues": [
+        { "id": "l4-elementary-my-dear-1", "rank": 1, "clue": "The precious metal with the chemical symbol Au.", "answer": "Gold", "alternates": [] },
+        { "id": "l4-elementary-my-dear-2", "rank": 2, "clue": "Its symbol Hg comes from the Greek-derived Latin \"hydrargyrum,\" meaning \"liquid silver.\"", "answer": "Mercury", "alternates": [] },
+        { "id": "l4-elementary-my-dear-3", "rank": 3, "clue": "Its symbol W comes from its other name, wolfram; it has the highest melting point of any metal.", "answer": "Tungsten", "alternates": ["Wolfram"] },
+        { "id": "l4-elementary-my-dear-4", "rank": 4, "clue": "Marie Curie named this radioactive element after her native country.", "answer": "Polonium", "alternates": [] },
+        { "id": "l4-elementary-my-dear-5", "rank": 5, "clue": "This noble gas, discovered in 1898, gets its name from the Greek word for \"hidden.\"", "answer": "Krypton", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-novel-ideas",
+      "name": "Novel Ideas",
+      "clues": [
+        { "id": "l4-novel-ideas-1", "rank": 1, "clue": "\"Call me Ishmael\" opens this Herman Melville novel.", "answer": "Moby-Dick", "alternates": ["Moby Dick"] },
+        { "id": "l4-novel-ideas-2", "rank": 2, "clue": "She wrote \"Pride and Prejudice\" and \"Sense and Sensibility.\"", "answer": "Jane Austen", "alternates": ["Austen"] },
+        { "id": "l4-novel-ideas-3", "rank": 3, "clue": "In this George Orwell novel, posters warn citizens of Oceania that \"Big Brother is watching you.\"", "answer": "Nineteen Eighty-Four", "alternates": ["1984", "Nineteen Eighty Four"] },
+        { "id": "l4-novel-ideas-4", "rank": 4, "clue": "This Colombian Nobel laureate wrote \"One Hundred Years of Solitude.\"", "answer": "Gabriel Garcia Marquez", "alternates": ["Gabriel García Márquez", "Garcia Marquez", "García Márquez", "Marquez"] },
+        { "id": "l4-novel-ideas-5", "rank": 5, "clue": "Many of his novels, including \"The Sound and the Fury,\" take place in fictional Yoknapatawpha County, Mississippi.", "answer": "William Faulkner", "alternates": ["Faulkner"] }
+      ]
+    },
+    {
+      "id": "l4-brush-strokes",
+      "name": "Brush Strokes",
+      "clues": [
+        { "id": "l4-brush-strokes-1", "rank": 1, "clue": "This Dutch Post-Impressionist painted \"The Starry Night\" in 1889.", "answer": "Vincent van Gogh", "alternates": ["Van Gogh"] },
+        { "id": "l4-brush-strokes-2", "rank": 2, "clue": "Between 1508 and 1512 he painted the ceiling of the Sistine Chapel.", "answer": "Michelangelo", "alternates": ["Michelangelo Buonarroti"] },
+        { "id": "l4-brush-strokes-3", "rank": 3, "clue": "This Spanish Surrealist painted melting pocket watches in \"The Persistence of Memory.\"", "answer": "Salvador Dali", "alternates": ["Dali", "Salvador Dalí", "Dalí"] },
+        { "id": "l4-brush-strokes-4", "rank": 4, "clue": "This painter of Delft created \"Girl with a Pearl Earring.\"", "answer": "Johannes Vermeer", "alternates": ["Vermeer", "Jan Vermeer"] },
+        { "id": "l4-brush-strokes-5", "rank": 5, "clue": "Georges Seurat's pointillist masterpiece shows \"A Sunday Afternoon on the Island of\" this place.", "answer": "La Grande Jatte", "alternates": ["Grande Jatte"] }
+      ]
+    },
+    {
+      "id": "l4-classical-gas",
+      "name": "Classical Gas",
+      "clues": [
+        { "id": "l4-classical-gas-1", "rank": 1, "clue": "This composer was almost completely deaf when he wrote his Ninth Symphony, featuring the \"Ode to Joy.\"", "answer": "Ludwig van Beethoven", "alternates": ["Beethoven"] },
+        { "id": "l4-classical-gas-2", "rank": 2, "clue": "This Venetian Baroque composer wrote the violin concertos known as \"The Four Seasons.\"", "answer": "Antonio Vivaldi", "alternates": ["Vivaldi"] },
+        { "id": "l4-classical-gas-3", "rank": 3, "clue": "This Russian composed the ballets \"Swan Lake\" and \"The Nutcracker.\"", "answer": "Tchaikovsky", "alternates": ["Pyotr Ilyich Tchaikovsky", "Peter Tchaikovsky"] },
+        { "id": "l4-classical-gas-4", "rank": 4, "clue": "This German composed the four-opera cycle \"Der Ring des Nibelungen.\"", "answer": "Richard Wagner", "alternates": ["Wagner"] },
+        { "id": "l4-classical-gas-5", "rank": 5, "clue": "Bedrich Smetana's \"Ma vlast\" includes a famous tone poem depicting this river that flows through Prague.", "answer": "Vltava", "alternates": ["Moldau"] }
+      ]
+    },
+    {
+      "id": "l4-reel-talk",
+      "name": "Reel Talk",
+      "clues": [
+        { "id": "l4-reel-talk-1", "rank": 1, "clue": "\"Rosebud\" is the famous dying word in this 1941 Orson Welles film.", "answer": "Citizen Kane", "alternates": [] },
+        { "id": "l4-reel-talk-2", "rank": 2, "clue": "He directed \"Jaws,\" \"E.T.\" and \"Schindler's List.\"", "answer": "Steven Spielberg", "alternates": ["Spielberg"] },
+        { "id": "l4-reel-talk-3", "rank": 3, "clue": "The name of Scarlett O'Hara's family plantation in \"Gone with the Wind.\"", "answer": "Tara", "alternates": [] },
+        { "id": "l4-reel-talk-4", "rank": 4, "clue": "\"Ben-Hur,\" \"Titanic\" and \"The Return of the King\" share the record for most Academy Awards won by a single film, with this many.", "answer": "11", "alternates": ["eleven"] },
+        { "id": "l4-reel-talk-5", "rank": 5, "clue": "This Japanese director made \"Rashomon\" and \"Seven Samurai.\"", "answer": "Akira Kurosawa", "alternates": ["Kurosawa"] }
+      ]
+    },
+    {
+      "id": "l4-rhyme-time",
+      "name": "Rhyme Time",
+      "clues": [
+        { "id": "l4-rhyme-time-1", "rank": 1, "clue": "An overweight housecat (also slang for a rich, powerful person).", "answer": "Fat cat", "alternates": [] },
+        { "id": "l4-rhyme-time-2", "rank": 2, "clue": "A gorilla that's simply terrific.", "answer": "Great ape", "alternates": [] },
+        { "id": "l4-rhyme-time-3", "rank": 3, "clue": "A crimson place to sleep.", "answer": "Red bed", "alternates": [] },
+        { "id": "l4-rhyme-time-4", "rank": 4, "clue": "A clergyman who seems menacing and evil.", "answer": "Sinister minister", "alternates": [] },
+        { "id": "l4-rhyme-time-5", "rank": 5, "clue": "A lyric poem written in praise of a warty amphibian.", "answer": "Toad ode", "alternates": ["Ode to a toad"] }
+      ]
+    },
+    {
+      "id": "l4-order-in-the-court",
+      "name": "Order in the Court",
+      "clues": [
+        { "id": "l4-order-in-the-court-1", "rank": 1, "clue": "The number of justices on the U.S. Supreme Court, a figure set by Congress in 1869.", "answer": "9", "alternates": ["nine"] },
+        { "id": "l4-order-in-the-court-2", "rank": 2, "clue": "The length, in years, of a single term for a U.S. senator.", "answer": "6", "alternates": ["six"] },
+        { "id": "l4-order-in-the-court-3", "rank": 3, "clue": "Ratified in 1865, this amendment to the U.S. Constitution abolished slavery.", "answer": "Thirteenth Amendment", "alternates": ["13th Amendment", "Thirteenth", "13th", "13"] },
+        { "id": "l4-order-in-the-court-4", "rank": 4, "clue": "This 1803 Supreme Court case established the principle of judicial review.", "answer": "Marbury v. Madison", "alternates": ["Marbury v Madison", "Marbury vs Madison", "Marbury versus Madison", "Marbury"] },
+        { "id": "l4-order-in-the-court-5", "rank": 5, "clue": "A co-author of The Federalist Papers, he was the first Chief Justice of the United States.", "answer": "John Jay", "alternates": ["Jay"] }
+      ]
+    },
+    {
+      "id": "l4-mythed-opportunities",
+      "name": "Mythed Opportunities",
+      "clues": [
+        { "id": "l4-mythed-opportunities-1", "rank": 1, "clue": "This Norse god of thunder wields the hammer Mjolnir.", "answer": "Thor", "alternates": [] },
+        { "id": "l4-mythed-opportunities-2", "rank": 2, "clue": "This Greek goddess of wisdom sprang fully armed from the head of Zeus.", "answer": "Athena", "alternates": ["Athene", "Pallas Athena"] },
+        { "id": "l4-mythed-opportunities-3", "rank": 3, "clue": "With the help of Ariadne's thread, this Athenian hero slew the Minotaur in the Labyrinth.", "answer": "Theseus", "alternates": [] },
+        { "id": "l4-mythed-opportunities-4", "rank": 4, "clue": "This jackal-headed Egyptian god presided over embalming and mummification.", "answer": "Anubis", "alternates": [] },
+        { "id": "l4-mythed-opportunities-5", "rank": 5, "clue": "In Greek myth, this ferryman carried the souls of the dead across the River Styx for the price of a coin.", "answer": "Charon", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-body-of-knowledge",
+      "name": "Body of Knowledge",
+      "clues": [
+        { "id": "l4-body-of-knowledge-1", "rank": 1, "clue": "By both weight and surface area, it's the largest organ of the human body.", "answer": "Skin", "alternates": [] },
+        { "id": "l4-body-of-knowledge-2", "rank": 2, "clue": "The common name for the patella.", "answer": "Kneecap", "alternates": ["Knee cap"] },
+        { "id": "l4-body-of-knowledge-3", "rank": 3, "clue": "The islets of Langerhans in this organ produce insulin.", "answer": "Pancreas", "alternates": [] },
+        { "id": "l4-body-of-knowledge-4", "rank": 4, "clue": "Located in the middle ear, it's the smallest bone in the human body.", "answer": "Stapes", "alternates": ["Stirrup"] },
+        { "id": "l4-body-of-knowledge-5", "rank": 5, "clue": "Named for its resemblance to a bishop's hat, this heart valve sits between the left atrium and left ventricle.", "answer": "Mitral valve", "alternates": ["Mitral", "Bicuspid valve", "Bicuspid"] }
+      ]
+    },
+    {
+      "id": "l4-corporate-ladder",
+      "name": "Corporate Ladder",
+      "clues": [
+        { "id": "l4-corporate-ladder-1", "rank": 1, "clue": "Steve Jobs and Steve Wozniak started this company in 1976.", "answer": "Apple", "alternates": ["Apple Inc", "Apple Computer"] },
+        { "id": "l4-corporate-ladder-2", "rank": 2, "clue": "Ingvar Kamprad founded this flat-pack furniture retailer in Sweden in 1943.", "answer": "IKEA", "alternates": [] },
+        { "id": "l4-corporate-ladder-3", "rank": 3, "clue": "Jeff Bezos founded this company in 1994, originally as an online bookstore.", "answer": "Amazon", "alternates": ["Amazon.com"] },
+        { "id": "l4-corporate-ladder-4", "rank": 4, "clue": "Warren Buffett transformed this former textile company into a giant holding company based in Omaha.", "answer": "Berkshire Hathaway", "alternates": ["Berkshire"] },
+        { "id": "l4-corporate-ladder-5", "rank": 5, "clue": "Popularized by Toyota, this Japanese business term means \"continuous improvement.\"", "answer": "Kaizen", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-food-for-thought",
+      "name": "Food for Thought",
+      "clues": [
+        { "id": "l4-food-for-thought-1", "rank": 1, "clue": "The mashed fruit that forms the base of guacamole.", "answer": "Avocado", "alternates": ["Avocados"] },
+        { "id": "l4-food-for-thought-2", "rank": 2, "clue": "Harvested from the stigmas of the Crocus sativus flower, it's the world's most expensive spice by weight.", "answer": "Saffron", "alternates": [] },
+        { "id": "l4-food-for-thought-3", "rank": 3, "clue": "This creamy northern Italian dish is made by slowly stirring broth into Arborio rice.", "answer": "Risotto", "alternates": [] },
+        { "id": "l4-food-for-thought-4", "rank": 4, "clue": "This emulsified sauce of egg yolks, butter and lemon juice is spooned over Eggs Benedict.", "answer": "Hollandaise", "alternates": ["Hollandaise sauce"] },
+        { "id": "l4-food-for-thought-5", "rank": 5, "clue": "This Italian phrase, meaning \"to the tooth,\" describes pasta cooked to be firm when bitten.", "answer": "Al dente", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-sporting-chance",
+      "name": "Sporting Chance",
+      "clues": [
+        { "id": "l4-sporting-chance-1", "rank": 1, "clue": "The number of players each soccer team has on the field at one time, including the goalkeeper.", "answer": "11", "alternates": ["eleven"] },
+        { "id": "l4-sporting-chance-2", "rank": 2, "clue": "First awarded in 1893, this trophy goes to the champion of the NHL.", "answer": "Stanley Cup", "alternates": ["Lord Stanley's Cup"] },
+        { "id": "l4-sporting-chance-3", "rank": 3, "clue": "This tennis Grand Slam tournament is the only one played on red clay.", "answer": "French Open", "alternates": ["Roland Garros", "Roland-Garros"] },
+        { "id": "l4-sporting-chance-4", "rank": 4, "clue": "In golf, the name for scoring three strokes under par on a single hole.", "answer": "Albatross", "alternates": ["Double eagle"] },
+        { "id": "l4-sporting-chance-5", "rank": 5, "clue": "In cricket, the term for a batter dismissed for zero by the very first ball faced.", "answer": "Golden duck", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-faith-facts",
+      "name": "Faith Facts",
+      "clues": [
+        { "id": "l4-faith-facts-1", "rank": 1, "clue": "The holy book of Islam, revealed to the Prophet Muhammad.", "answer": "Quran", "alternates": ["Koran", "Qur'an"] },
+        { "id": "l4-faith-facts-2", "rank": 2, "clue": "Hindus, Sikhs and Jains celebrate this autumn \"festival of lights\" with oil lamps called diyas.", "answer": "Diwali", "alternates": ["Deepavali", "Divali"] },
+        { "id": "l4-faith-facts-3", "rank": 3, "clue": "This eight-night Jewish holiday commemorates the rededication of the Second Temple in Jerusalem.", "answer": "Hanukkah", "alternates": ["Chanukah", "Hanukah", "Chanukkah"] },
+        { "id": "l4-faith-facts-4", "rank": 4, "clue": "The Golden Temple, Sikhism's holiest shrine, is located in this city in Punjab, India.", "answer": "Amritsar", "alternates": [] },
+        { "id": "l4-faith-facts-5", "rank": 5, "clue": "Siddhartha Gautama, the Buddha, was born in Lumbini, in what is now this country.", "answer": "Nepal", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-ancient-history",
+      "name": "Ancient History",
+      "clues": [
+        { "id": "l4-ancient-history-1", "rank": 1, "clue": "Howard Carter discovered this boy pharaoh's nearly intact tomb in the Valley of the Kings in 1922.", "answer": "Tutankhamun", "alternates": ["Tutankhamen", "King Tut", "Tut"] },
+        { "id": "l4-ancient-history-2", "rank": 2, "clue": "This Carthaginian general famously led war elephants across the Alps to invade Italy.", "answer": "Hannibal", "alternates": ["Hannibal Barca"] },
+        { "id": "l4-ancient-history-3", "rank": 3, "clue": "Along with Herculaneum, this Roman city was buried by the eruption of Mount Vesuvius in A.D. 79.", "answer": "Pompeii", "alternates": [] },
+        { "id": "l4-ancient-history-4", "rank": 4, "clue": "This Babylonian king is known for one of the oldest written law codes, carved on a basalt stele.", "answer": "Hammurabi", "alternates": ["Hammurapi"] },
+        { "id": "l4-ancient-history-5", "rank": 5, "clue": "The word \"mausoleum\" comes from the tomb at Halicarnassus built for this Persian satrap of Caria.", "answer": "Mausolus", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-wet-and-wild",
+      "name": "Wet & Wild",
+      "clues": [
+        { "id": "l4-wet-and-wild-1", "rank": 1, "clue": "By volume of water discharged, it's the largest river in the world, flowing through Brazil to the Atlantic.", "answer": "Amazon", "alternates": ["Amazon River"] },
+        { "id": "l4-wet-and-wild-2", "rank": 2, "clue": "Its shores, between Israel and Jordan, are the lowest land elevation on Earth.", "answer": "Dead Sea", "alternates": [] },
+        { "id": "l4-wet-and-wild-3", "rank": 3, "clue": "Located in Siberia, it's the world's deepest lake.", "answer": "Lake Baikal", "alternates": ["Baikal"] },
+        { "id": "l4-wet-and-wild-4", "rank": 4, "clue": "This narrow waterway connects the Atlantic Ocean to the Mediterranean, separating Spain from Morocco.", "answer": "Strait of Gibraltar", "alternates": ["Gibraltar", "Straits of Gibraltar"] },
+        { "id": "l4-wet-and-wild-5", "rank": 5, "clue": "Iraq's capital, Baghdad, straddles this river.", "answer": "Tigris", "alternates": ["Tigris River"] }
+      ]
+    },
+    {
+      "id": "l4-the-bards-words",
+      "name": "The Bard's Words",
+      "clues": [
+        { "id": "l4-the-bards-words-1", "rank": 1, "clue": "\"Wherefore art thou\" asks the heroine of this tragedy about star-crossed lovers in Verona.", "answer": "Romeo and Juliet", "alternates": ["Romeo & Juliet"] },
+        { "id": "l4-the-bards-words-2", "rank": 2, "clue": "This Prince of Denmark ponders \"To be, or not to be.\"", "answer": "Hamlet", "alternates": [] },
+        { "id": "l4-the-bards-words-3", "rank": 3, "clue": "Iago manipulates this \"Moor of Venice\" into jealousy against his wife, Desdemona.", "answer": "Othello", "alternates": [] },
+        { "id": "l4-the-bards-words-4", "rank": 4, "clue": "In this play, the magician Prospero rules an island along with the spirit Ariel and the creature Caliban.", "answer": "The Tempest", "alternates": ["Tempest"] },
+        { "id": "l4-the-bards-words-5", "rank": 5, "clue": "In \"King Lear,\" she's the youngest daughter, who refuses to flatter her father.", "answer": "Cordelia", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-space-case",
+      "name": "Space Case",
+      "clues": [
+        { "id": "l4-space-case-1", "rank": 1, "clue": "This largest planet in our solar system is home to the Great Red Spot.", "answer": "Jupiter", "alternates": [] },
+        { "id": "l4-space-case-2", "rank": 2, "clue": "Saturn's largest moon, it has a thick, nitrogen-rich atmosphere.", "answer": "Titan", "alternates": [] },
+        { "id": "l4-space-case-3", "rank": 3, "clue": "In May 1961 he became the first American in space; a decade later he hit golf balls on the Moon.", "answer": "Alan Shepard", "alternates": ["Shepard"] },
+        { "id": "l4-space-case-4", "rank": 4, "clue": "Found in Canis Major, it's the brightest star in the night sky.", "answer": "Sirius", "alternates": ["Dog Star"] },
+        { "id": "l4-space-case-5", "rank": 5, "clue": "The discovery of this dwarf planet, announced in 2005, helped lead to Pluto's reclassification.", "answer": "Eris", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4-before-and-after",
+      "name": "Before & After",
+      "clues": [
+        { "id": "l4-before-and-after-1", "rank": 1, "clue": "Nickname for New York City + a classic American dessert baked in a crust.", "answer": "Big Apple Pie", "alternates": [] },
+        { "id": "l4-before-and-after-2", "rank": 2, "clue": "Spread on a PB&J + a swimming stroke with a dolphin kick.", "answer": "Peanut Butterfly", "alternates": [] },
+        { "id": "l4-before-and-after-3", "rank": 3, "clue": "New York Harbor's copper lady + Philadelphia's cracked symbol of independence.", "answer": "Statue of Liberty Bell", "alternates": [] },
+        { "id": "l4-before-and-after-4", "rank": 4, "clue": "1939 Scarlett O'Hara epic + a flute, oboe or clarinet.", "answer": "Gone with the Wind Instrument", "alternates": [] },
+        { "id": "l4-before-and-after-5", "rank": 5, "clue": "Tolstoy's epic novel of the Napoleonic era + the volunteer program created by JFK in 1961.", "answer": "War and Peace Corps", "alternates": ["War & Peace Corps"] }
+      ]
+    }
+  ]
+}

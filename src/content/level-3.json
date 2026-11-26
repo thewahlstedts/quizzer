@@ -1,0 +1,973 @@
+{
+  "level": 3,
+  "categories": [
+    {
+      "id": "l3-capital-gains",
+      "name": "Capital Gains",
+      "clues": [
+        {
+          "id": "l3-capital-gains-1",
+          "rank": 1,
+          "clue": "This city in Ontario is the capital of Canada.",
+          "answer": "Ottawa",
+          "alternates": []
+        },
+        {
+          "id": "l3-capital-gains-2",
+          "rank": 2,
+          "clue": "Not Sydney or Melbourne, this planned city is Australia's capital.",
+          "answer": "Canberra",
+          "alternates": []
+        },
+        {
+          "id": "l3-capital-gains-3",
+          "rank": 3,
+          "clue": "Istanbul is Turkey's largest city, but this city is its capital.",
+          "answer": "Ankara",
+          "alternates": []
+        },
+        {
+          "id": "l3-capital-gains-4",
+          "rank": 4,
+          "clue": "This futuristic city, inaugurated in 1960, replaced Rio de Janeiro as Brazil's capital.",
+          "answer": "Brasília",
+          "alternates": [
+            "Brasilia"
+          ]
+        },
+        {
+          "id": "l3-capital-gains-5",
+          "rank": 5,
+          "clue": "This windy harbor city on the North Island is the capital of New Zealand.",
+          "answer": "Wellington",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3-elemental-my-dear",
+      "name": "Elemental, My Dear",
+      "clues": [
+        {
+          "id": "l3-elemental-my-dear-1",
+          "rank": 1,
+          "clue": "This element has atomic number 1 and is the most abundant in the universe.",
+          "answer": "Hydrogen",
+          "alternates": [
+            "H"
+          ]
+        },
+        {
+          "id": "l3-elemental-my-dear-2",
+          "rank": 2,
+          "clue": "The chemical symbol Na stands for this element.",
+          "answer": "Sodium",
+          "alternates": []
+        },
+        {
+          "id": "l3-elemental-my-dear-3",
+          "rank": 3,
+          "clue": "This noble gas glows red-orange in classic glowing signs.",
+          "answer": "Neon",
+          "alternates": [
+            "Ne"
+          ]
+        },
+        {
+          "id": "l3-elemental-my-dear-4",
+          "rank": 4,
+          "clue": "On the pH scale, pure water at room temperature has this value.",
+          "answer": "7",
+          "alternates": [
+            "seven"
+          ]
+        },
+        {
+          "id": "l3-elemental-my-dear-5",
+          "rank": 5,
+          "clue": "The chemical symbol K stands for this element, found in bananas.",
+          "answer": "Potassium",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3-founding-fathers-and-friends",
+      "name": "Founding Fathers & Friends",
+      "clues": [
+        {
+          "id": "l3-founding-fathers-and-friends-1",
+          "rank": 1,
+          "clue": "He was the primary author of the Declaration of Independence.",
+          "answer": "Thomas Jefferson",
+          "alternates": [
+            "Jefferson"
+          ]
+        },
+        {
+          "id": "l3-founding-fathers-and-friends-2",
+          "rank": 2,
+          "clue": "The first ten amendments to the US Constitution are known by this name.",
+          "answer": "Bill of Rights",
+          "alternates": []
+        },
+        {
+          "id": "l3-founding-fathers-and-friends-3",
+          "rank": 3,
+          "clue": "This 1803 land deal with France roughly doubled the size of the United States.",
+          "answer": "Louisiana Purchase",
+          "alternates": []
+        },
+        {
+          "id": "l3-founding-fathers-and-friends-4",
+          "rank": 4,
+          "clue": "He served as the first US Secretary of the Treasury and appears on the $10 bill.",
+          "answer": "Alexander Hamilton",
+          "alternates": [
+            "Hamilton"
+          ]
+        },
+        {
+          "id": "l3-founding-fathers-and-friends-5",
+          "rank": 5,
+          "clue": "This 1857 Supreme Court decision held that Black Americans could not be US citizens.",
+          "answer": "Dred Scott v. Sandford",
+          "alternates": [
+            "Dred Scott",
+            "Dred Scott decision",
+            "Scott v. Sandford"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-lit-happens",
+      "name": "Lit Happens",
+      "clues": [
+        {
+          "id": "l3-lit-happens-1",
+          "rank": 1,
+          "clue": "She wrote \"To Kill a Mockingbird,\" featuring Scout and Atticus Finch.",
+          "answer": "Harper Lee",
+          "alternates": [
+            "Lee"
+          ]
+        },
+        {
+          "id": "l3-lit-happens-2",
+          "rank": 2,
+          "clue": "Narrated by Nick Carraway, this F. Scott Fitzgerald novel features green light at the end of a dock.",
+          "answer": "The Great Gatsby",
+          "alternates": [
+            "Great Gatsby",
+            "Gatsby"
+          ]
+        },
+        {
+          "id": "l3-lit-happens-3",
+          "rank": 3,
+          "clue": "Big Brother is watching in this George Orwell novel.",
+          "answer": "1984",
+          "alternates": [
+            "Nineteen Eighty-Four",
+            "Nineteen Eighty Four"
+          ]
+        },
+        {
+          "id": "l3-lit-happens-4",
+          "rank": 4,
+          "clue": "He wrote \"The Scarlet Letter,\" set in Puritan Boston.",
+          "answer": "Nathaniel Hawthorne",
+          "alternates": [
+            "Hawthorne"
+          ]
+        },
+        {
+          "id": "l3-lit-happens-5",
+          "rank": 5,
+          "clue": "In \"Lord of the Flies,\" the boys blow this seashell to call meetings.",
+          "answer": "Conch",
+          "alternates": [
+            "conch shell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-brush-with-greatness",
+      "name": "Brush with Greatness",
+      "clues": [
+        {
+          "id": "l3-brush-with-greatness-1",
+          "rank": 1,
+          "clue": "This Renaissance genius painted the \"Mona Lisa.\"",
+          "answer": "Leonardo da Vinci",
+          "alternates": [
+            "Leonardo",
+            "da Vinci"
+          ]
+        },
+        {
+          "id": "l3-brush-with-greatness-2",
+          "rank": 2,
+          "clue": "This Dutch painter created \"The Starry Night.\"",
+          "answer": "Vincent van Gogh",
+          "alternates": [
+            "van Gogh"
+          ]
+        },
+        {
+          "id": "l3-brush-with-greatness-3",
+          "rank": 3,
+          "clue": "This Spanish artist co-founded Cubism and painted \"Guernica.\"",
+          "answer": "Pablo Picasso",
+          "alternates": [
+            "Picasso"
+          ]
+        },
+        {
+          "id": "l3-brush-with-greatness-4",
+          "rank": 4,
+          "clue": "He painted the ceiling of the Sistine Chapel and sculpted \"David.\"",
+          "answer": "Michelangelo",
+          "alternates": [
+            "Michelangelo Buonarroti"
+          ]
+        },
+        {
+          "id": "l3-brush-with-greatness-5",
+          "rank": 5,
+          "clue": "This Norwegian artist painted \"The Scream.\"",
+          "answer": "Edvard Munch",
+          "alternates": [
+            "Munch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-classical-gas",
+      "name": "Classical Gas",
+      "clues": [
+        {
+          "id": "l3-classical-gas-1",
+          "rank": 1,
+          "clue": "This composer kept writing music after losing his hearing; his Ninth Symphony includes \"Ode to Joy.\"",
+          "answer": "Ludwig van Beethoven",
+          "alternates": [
+            "Beethoven"
+          ]
+        },
+        {
+          "id": "l3-classical-gas-2",
+          "rank": 2,
+          "clue": "This Austrian child prodigy composed \"The Magic Flute.\"",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": [
+            "Mozart"
+          ]
+        },
+        {
+          "id": "l3-classical-gas-3",
+          "rank": 3,
+          "clue": "This Russian composer wrote the music for \"The Nutcracker\" and \"Swan Lake.\"",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "alternates": [
+            "Tchaikovsky",
+            "Tschaikovsky"
+          ]
+        },
+        {
+          "id": "l3-classical-gas-4",
+          "rank": 4,
+          "clue": "This Italian Baroque composer wrote \"The Four Seasons.\"",
+          "answer": "Antonio Vivaldi",
+          "alternates": [
+            "Vivaldi"
+          ]
+        },
+        {
+          "id": "l3-classical-gas-5",
+          "rank": 5,
+          "clue": "This German Baroque composer wrote the \"Brandenburg Concertos.\"",
+          "answer": "Johann Sebastian Bach",
+          "alternates": [
+            "Bach",
+            "J.S. Bach",
+            "JS Bach"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-may-the-force-be-with-you",
+      "name": "May the Force Be with You",
+      "clues": [
+        {
+          "id": "l3-may-the-force-be-with-you-1",
+          "rank": 1,
+          "clue": "This force keeps your feet on the ground and the Moon in orbit around Earth.",
+          "answer": "Gravity",
+          "alternates": [
+            "gravitation"
+          ]
+        },
+        {
+          "id": "l3-may-the-force-be-with-you-2",
+          "rank": 2,
+          "clue": "A rolling ball has this type of energy, the energy of motion.",
+          "answer": "Kinetic energy",
+          "alternates": [
+            "kinetic"
+          ]
+        },
+        {
+          "id": "l3-may-the-force-be-with-you-3",
+          "rank": 3,
+          "clue": "\"For every action, there is an equal and opposite reaction\" is Newton's law with this number.",
+          "answer": "Third",
+          "alternates": [
+            "3rd",
+            "3",
+            "three",
+            "third law"
+          ]
+        },
+        {
+          "id": "l3-may-the-force-be-with-you-4",
+          "rank": 4,
+          "clue": "The SI unit of force is named after this scientist.",
+          "answer": "Newton",
+          "alternates": [
+            "Isaac Newton",
+            "newtons"
+          ]
+        },
+        {
+          "id": "l3-may-the-force-be-with-you-5",
+          "rank": 5,
+          "clue": "Electrical resistance is measured in this unit, symbolized by the Greek letter omega.",
+          "answer": "Ohm",
+          "alternates": [
+            "ohms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-cell-mates",
+      "name": "Cell Mates",
+      "clues": [
+        {
+          "id": "l3-cell-mates-1",
+          "rank": 1,
+          "clue": "This molecule shaped like a double helix carries genetic information.",
+          "answer": "DNA",
+          "alternates": [
+            "deoxyribonucleic acid"
+          ]
+        },
+        {
+          "id": "l3-cell-mates-2",
+          "rank": 2,
+          "clue": "Often called the powerhouse of the cell, these organelles produce energy.",
+          "answer": "Mitochondria",
+          "alternates": [
+            "mitochondrion"
+          ]
+        },
+        {
+          "id": "l3-cell-mates-3",
+          "rank": 3,
+          "clue": "Plants use sunlight, water, and carbon dioxide to make sugar in this process.",
+          "answer": "Photosynthesis",
+          "alternates": []
+        },
+        {
+          "id": "l3-cell-mates-4",
+          "rank": 4,
+          "clue": "This green pigment lets plants absorb light.",
+          "answer": "Chlorophyll",
+          "alternates": []
+        },
+        {
+          "id": "l3-cell-mates-5",
+          "rank": 5,
+          "clue": "This type of cell division produces sperm and egg cells.",
+          "answer": "Meiosis",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3-checks-and-balances",
+      "name": "Checks & Balances",
+      "clues": [
+        {
+          "id": "l3-checks-and-balances-1",
+          "rank": 1,
+          "clue": "The Supreme Court heads this branch of the US government.",
+          "answer": "Judicial branch",
+          "alternates": [
+            "judicial",
+            "judiciary"
+          ]
+        },
+        {
+          "id": "l3-checks-and-balances-2",
+          "rank": 2,
+          "clue": "The president uses this power to reject a bill passed by Congress.",
+          "answer": "Veto",
+          "alternates": []
+        },
+        {
+          "id": "l3-checks-and-balances-3",
+          "rank": 3,
+          "clue": "This is the total number of US senators.",
+          "answer": "100",
+          "alternates": [
+            "one hundred"
+          ]
+        },
+        {
+          "id": "l3-checks-and-balances-4",
+          "rank": 4,
+          "clue": "A member of the US House of Representatives serves a term of this many years.",
+          "answer": "2",
+          "alternates": [
+            "two"
+          ]
+        },
+        {
+          "id": "l3-checks-and-balances-5",
+          "rank": 5,
+          "clue": "A candidate needs this many electoral votes to win the presidency.",
+          "answer": "270",
+          "alternates": [
+            "two hundred seventy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-empires-strike-back",
+      "name": "Empires Strike Back",
+      "clues": [
+        {
+          "id": "l3-empires-strike-back-1",
+          "rank": 1,
+          "clue": "This French leader crowned himself emperor in 1804 and was defeated at Waterloo.",
+          "answer": "Napoleon",
+          "alternates": [
+            "Napoleon Bonaparte",
+            "Bonaparte"
+          ]
+        },
+        {
+          "id": "l3-empires-strike-back-2",
+          "rank": 2,
+          "clue": "This barrier divided a German city from 1961 until 1989.",
+          "answer": "Berlin Wall",
+          "alternates": []
+        },
+        {
+          "id": "l3-empires-strike-back-3",
+          "rank": 3,
+          "clue": "This Mongol leader founded the largest contiguous land empire in history.",
+          "answer": "Genghis Khan",
+          "alternates": [
+            "Chinggis Khan",
+            "Temujin"
+          ]
+        },
+        {
+          "id": "l3-empires-strike-back-4",
+          "rank": 4,
+          "clue": "Meaning \"rebirth,\" this cultural movement began in Italy in the 1300s.",
+          "answer": "Renaissance",
+          "alternates": []
+        },
+        {
+          "id": "l3-empires-strike-back-5",
+          "rank": 5,
+          "clue": "Formerly known as Octavian, he became the first Roman emperor.",
+          "answer": "Augustus",
+          "alternates": [
+            "Caesar Augustus",
+            "Augustus Caesar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-word-up",
+      "name": "Word Up",
+      "clues": [
+        {
+          "id": "l3-word-up-1",
+          "rank": 1,
+          "clue": "\"Hot\" and \"cold\" are examples of this type of word pair.",
+          "answer": "Antonym",
+          "alternates": [
+            "antonyms"
+          ]
+        },
+        {
+          "id": "l3-word-up-2",
+          "rank": 2,
+          "clue": "\"Pair\" and \"pear\" are examples of these words that sound alike but differ in meaning.",
+          "answer": "Homophone",
+          "alternates": [
+            "homophones"
+          ]
+        },
+        {
+          "id": "l3-word-up-3",
+          "rank": 3,
+          "clue": "\"I've told you a million times\" is an example of this figure of speech, extreme exaggeration.",
+          "answer": "Hyperbole",
+          "alternates": []
+        },
+        {
+          "id": "l3-word-up-4",
+          "rank": 4,
+          "clue": "This adjective means present or found everywhere.",
+          "answer": "Ubiquitous",
+          "alternates": [
+            "omnipresent"
+          ]
+        },
+        {
+          "id": "l3-word-up-5",
+          "rank": 5,
+          "clue": "This adjective describes something that lasts a very short time, like a mayfly's life.",
+          "answer": "Ephemeral",
+          "alternates": [
+            "fleeting",
+            "transient"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-lingo-bingo",
+      "name": "Lingo Bingo",
+      "clues": [
+        {
+          "id": "l3-lingo-bingo-1",
+          "rank": 1,
+          "clue": "\"Gracias\" means \"thank you\" in this language.",
+          "answer": "Spanish",
+          "alternates": [
+            "Español",
+            "Espanol"
+          ]
+        },
+        {
+          "id": "l3-lingo-bingo-2",
+          "rank": 2,
+          "clue": "\"Danke\" means \"thank you\" in this language.",
+          "answer": "German",
+          "alternates": [
+            "Deutsch"
+          ]
+        },
+        {
+          "id": "l3-lingo-bingo-3",
+          "rank": 3,
+          "clue": "The ancient Romans spoke this language.",
+          "answer": "Latin",
+          "alternates": []
+        },
+        {
+          "id": "l3-lingo-bingo-4",
+          "rank": 4,
+          "clue": "This is the official language of Brazil.",
+          "answer": "Portuguese",
+          "alternates": []
+        },
+        {
+          "id": "l3-lingo-bingo-5",
+          "rank": 5,
+          "clue": "Written in the Devanagari script, this is the most widely spoken language in India.",
+          "answer": "Hindi",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3-money-talks",
+      "name": "Money Talks",
+      "clues": [
+        {
+          "id": "l3-money-talks-1",
+          "rank": 1,
+          "clue": "This is the currency of Japan.",
+          "answer": "Yen",
+          "alternates": [
+            "Japanese yen"
+          ]
+        },
+        {
+          "id": "l3-money-talks-2",
+          "rank": 2,
+          "clue": "This term describes a general rise in prices over time.",
+          "answer": "Inflation",
+          "alternates": []
+        },
+        {
+          "id": "l3-money-talks-3",
+          "rank": 3,
+          "clue": "A market with only one seller is called this.",
+          "answer": "Monopoly",
+          "alternates": []
+        },
+        {
+          "id": "l3-money-talks-4",
+          "rank": 4,
+          "clue": "This three-letter abbreviation measures the total value of goods and services a country produces.",
+          "answer": "GDP",
+          "alternates": [
+            "gross domestic product"
+          ]
+        },
+        {
+          "id": "l3-money-talks-5",
+          "rank": 5,
+          "clue": "The value of the next-best alternative you give up when making a choice is called this.",
+          "answer": "Opportunity cost",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3-tech-support",
+      "name": "Tech Support",
+      "clues": [
+        {
+          "id": "l3-tech-support-1",
+          "rank": 1,
+          "clue": "In web addresses, \"www\" stands for this.",
+          "answer": "World Wide Web",
+          "alternates": []
+        },
+        {
+          "id": "l3-tech-support-2",
+          "rank": 2,
+          "clue": "He co-founded Microsoft with Paul Allen.",
+          "answer": "Bill Gates",
+          "alternates": [
+            "Gates"
+          ]
+        },
+        {
+          "id": "l3-tech-support-3",
+          "rank": 3,
+          "clue": "Short for \"binary digit,\" this smallest unit of data is a 0 or 1.",
+          "answer": "Bit",
+          "alternates": []
+        },
+        {
+          "id": "l3-tech-support-4",
+          "rank": 4,
+          "clue": "This British computer scientist invented the World Wide Web in 1989.",
+          "answer": "Tim Berners-Lee",
+          "alternates": [
+            "Berners-Lee",
+            "Tim Berners Lee"
+          ]
+        },
+        {
+          "id": "l3-tech-support-5",
+          "rank": 5,
+          "clue": "This mathematician helped break the Enigma code and is considered a father of computer science.",
+          "answer": "Alan Turing",
+          "alternates": [
+            "Turing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-good-sports",
+      "name": "Good Sports",
+      "clues": [
+        {
+          "id": "l3-good-sports-1",
+          "rank": 1,
+          "clue": "This is the number of players each team has on the field in soccer.",
+          "answer": "11",
+          "alternates": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "l3-good-sports-2",
+          "rank": 2,
+          "clue": "This Grand Slam tennis tournament is played on grass in London.",
+          "answer": "Wimbledon",
+          "alternates": []
+        },
+        {
+          "id": "l3-good-sports-3",
+          "rank": 3,
+          "clue": "In golf, a score of one stroke under par on a hole is called this.",
+          "answer": "Birdie",
+          "alternates": []
+        },
+        {
+          "id": "l3-good-sports-4",
+          "rank": 4,
+          "clue": "The first modern Olympic Games were held in 1896 in this country.",
+          "answer": "Greece",
+          "alternates": []
+        },
+        {
+          "id": "l3-good-sports-5",
+          "rank": 5,
+          "clue": "In bowling, three strikes in a row are called this bird.",
+          "answer": "Turkey",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3-reel-talk",
+      "name": "Reel Talk",
+      "clues": [
+        {
+          "id": "l3-reel-talk-1",
+          "rank": 1,
+          "clue": "Luke Skywalker and Darth Vader are characters in this film franchise.",
+          "answer": "Star Wars",
+          "alternates": []
+        },
+        {
+          "id": "l3-reel-talk-2",
+          "rank": 2,
+          "clue": "Woody and Buzz Lightyear star in this Pixar film.",
+          "answer": "Toy Story",
+          "alternates": []
+        },
+        {
+          "id": "l3-reel-talk-3",
+          "rank": 3,
+          "clue": "Harry Potter attends this school of witchcraft and wizardry.",
+          "answer": "Hogwarts",
+          "alternates": []
+        },
+        {
+          "id": "l3-reel-talk-4",
+          "rank": 4,
+          "clue": "James Cameron directed this 1997 film about a doomed ocean liner.",
+          "answer": "Titanic",
+          "alternates": []
+        },
+        {
+          "id": "l3-reel-talk-5",
+          "rank": 5,
+          "clue": "He directed \"Jaws,\" \"E.T.,\" and \"Jurassic Park.\"",
+          "answer": "Steven Spielberg",
+          "alternates": [
+            "Spielberg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-rock-the-map",
+      "name": "Rock the Map",
+      "clues": [
+        {
+          "id": "l3-rock-the-map-1",
+          "rank": 1,
+          "clue": "This is the largest and deepest ocean on Earth.",
+          "answer": "Pacific Ocean",
+          "alternates": [
+            "Pacific"
+          ]
+        },
+        {
+          "id": "l3-rock-the-map-2",
+          "rank": 2,
+          "clue": "This is the highest mountain above sea level, on the Nepal-China border.",
+          "answer": "Mount Everest",
+          "alternates": [
+            "Everest",
+            "Mt. Everest"
+          ]
+        },
+        {
+          "id": "l3-rock-the-map-3",
+          "rank": 3,
+          "clue": "This is the largest hot desert in the world, in northern Africa.",
+          "answer": "Sahara",
+          "alternates": [
+            "Sahara Desert"
+          ]
+        },
+        {
+          "id": "l3-rock-the-map-4",
+          "rank": 4,
+          "clue": "This mountain range in Russia is traditionally considered a boundary between Europe and Asia.",
+          "answer": "Ural Mountains",
+          "alternates": [
+            "Urals",
+            "Ural"
+          ]
+        },
+        {
+          "id": "l3-rock-the-map-5",
+          "rank": 5,
+          "clue": "Located in Siberia, this is the deepest lake in the world.",
+          "answer": "Lake Baikal",
+          "alternates": [
+            "Baikal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-bard-times",
+      "name": "Bard Times",
+      "clues": [
+        {
+          "id": "l3-bard-times-1",
+          "rank": 1,
+          "clue": "The Montagues and Capulets feud in this Shakespeare play.",
+          "answer": "Romeo and Juliet",
+          "alternates": [
+            "Romeo & Juliet"
+          ]
+        },
+        {
+          "id": "l3-bard-times-2",
+          "rank": 2,
+          "clue": "This Danish prince asks, \"To be, or not to be?\"",
+          "answer": "Hamlet",
+          "alternates": []
+        },
+        {
+          "id": "l3-bard-times-3",
+          "rank": 3,
+          "clue": "Three witches predict a Scottish nobleman will be king in this play.",
+          "answer": "Macbeth",
+          "alternates": []
+        },
+        {
+          "id": "l3-bard-times-4",
+          "rank": 4,
+          "clue": "Shakespeare's plays were performed at this round London playhouse.",
+          "answer": "Globe Theatre",
+          "alternates": [
+            "Globe",
+            "Globe Theater"
+          ]
+        },
+        {
+          "id": "l3-bard-times-5",
+          "rank": 5,
+          "clue": "Shylock demands a pound of flesh in this Shakespeare play.",
+          "answer": "The Merchant of Venice",
+          "alternates": [
+            "Merchant of Venice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-math-class-act",
+      "name": "Math Class Act",
+      "clues": [
+        {
+          "id": "l3-math-class-act-1",
+          "rank": 1,
+          "clue": "A stop sign is shaped like this eight-sided polygon.",
+          "answer": "Octagon",
+          "alternates": []
+        },
+        {
+          "id": "l3-math-class-act-2",
+          "rank": 2,
+          "clue": "Rounded to two decimal places, pi equals this.",
+          "answer": "3.14",
+          "alternates": []
+        },
+        {
+          "id": "l3-math-class-act-3",
+          "rank": 3,
+          "clue": "This is the square root of 144.",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        },
+        {
+          "id": "l3-math-class-act-4",
+          "rank": 4,
+          "clue": "The equation a² + b² = c² for right triangles is known as this theorem.",
+          "answer": "Pythagorean theorem",
+          "alternates": [
+            "Pythagorean",
+            "Pythagoras",
+            "Pythagoras theorem"
+          ]
+        },
+        {
+          "id": "l3-math-class-act-5",
+          "rank": 5,
+          "clue": "The interior angles of a hexagon add up to this many degrees.",
+          "answer": "720",
+          "alternates": [
+            "seven hundred twenty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3-space-case",
+      "name": "Space Case",
+      "clues": [
+        {
+          "id": "l3-space-case-1",
+          "rank": 1,
+          "clue": "This planet is nicknamed the Red Planet.",
+          "answer": "Mars",
+          "alternates": []
+        },
+        {
+          "id": "l3-space-case-2",
+          "rank": 2,
+          "clue": "This is the largest planet in our solar system.",
+          "answer": "Jupiter",
+          "alternates": []
+        },
+        {
+          "id": "l3-space-case-3",
+          "rank": 3,
+          "clue": "Our solar system is located in this spiral galaxy.",
+          "answer": "Milky Way",
+          "alternates": [
+            "Milky Way Galaxy"
+          ]
+        },
+        {
+          "id": "l3-space-case-4",
+          "rank": 4,
+          "clue": "In 1969, he became the first person to walk on the Moon.",
+          "answer": "Neil Armstrong",
+          "alternates": [
+            "Armstrong"
+          ]
+        },
+        {
+          "id": "l3-space-case-5",
+          "rank": 5,
+          "clue": "Thanks to its thick carbon dioxide atmosphere, this is the hottest planet in our solar system.",
+          "answer": "Venus",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}
