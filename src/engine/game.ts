@@ -28,6 +28,8 @@ import { maskAnswer } from './mask'
 import { pick } from './rng'
 
 export const TIMING = {
+  /** Selection animation before a Clue's reading time starts (Ring In is ignored). */
+  selectMs: 1_500,
   readMs: 10_000,
   ringMs: 30_000,
   answerMs: 60_000,
@@ -327,7 +329,7 @@ function selectCell(s: GameState, ref: CellRef, now: number, rng: Rng): GameStat
   cell.played = true
   s.clue = { ref, attempts: [], botKnows: {}, botRingAt: {} }
   for (const id of IDS.filter(isBot)) s.clue.botKnows[id] = rollKnows(s.botDifficulty, cell.clue.rank, rng)
-  s.phase = cell.dailyDouble ? { kind: 'ddWager' } : { kind: 'reading', until: now + TIMING.readMs }
+  s.phase = cell.dailyDouble ? { kind: 'ddWager' } : { kind: 'reading', until: now + TIMING.selectMs + TIMING.readMs }
   return s
 }
 

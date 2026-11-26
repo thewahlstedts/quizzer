@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import {
   contestant,
   currentCell,
@@ -8,7 +8,7 @@ import {
   TIMING,
   type GameState,
 } from '../engine/game'
-import type { Attempt, BotDifficulty, Clue, ContestantId, Level } from '../engine/types'
+import type { Attempt, BotDifficulty, CellRef, Clue, ContestantId, Level } from '../engine/types'
 import { useGame } from './useGame'
 import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, type FlagReason } from './review'
 import { isMuted, setMuted } from './sound'
@@ -149,8 +149,27 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
 
 // ---------------- Game ----------------
 
+/** How long the chosen tile pulses on the Board before it flies out (part of TIMING.selectMs). */
+const HIGHLIGHT_MS = 700
+
+const cellKey = (r: CellRef) => `${r.col}-${r.row}`
+
 function Game({ state, now, dispatch }: { state: GameState; now: number; dispatch: Dispatch }) {
   const p = state.phase
+  // Board tile positions, kept fresh so a chosen tile can fly out from where it was.
+  const tileRects = useRef(new Map<string, DOMRect>())
+  // The Clue just selected: pulse it on the Board, then fly it into the Clue screen.
+  const [selection, setSelection] = useState<{ clueId: string; ref: CellRef; at: number } | null>(null)
+  const clueId = state.clue ? currentCell(state)!.clue.id : null
+  useEffect(() => {
+    if (clueId && state.clue && selection?.clueId !== clueId) {
+      setSelection({ clueId, ref: state.clue.ref, at: Date.now() })
+    }
+  }, [clueId]) // eslint-disable-line react-hooks/exhaustive-deps
+  const fresh = !!selection && selection.clueId === clueId
+  const highlighting =
+    (!!clueId && !fresh) || (fresh && (p.kind === 'reading' || p.kind === 'ddWager') && now - selection!.at < HIGHLIGHT_MS)
+  const flipFrom = fresh ? tileRects.current.get(cellKey(selection!.ref)) : undefined
 
   // Space to ring in (when not typing).
   useEffect(() => {
@@ -170,7 +189,7 @@ function Game({ state, now, dispatch }: { state: GameState; now: number; dispatc
   let body: React.ReactNode
   switch (p.kind) {
     case 'board':
-      body = <BoardView state={state} dispatch={dispatch} />
+      body = <BoardView state={state} dispatch={dispatch} rects={tileRects.current} />
       break
     case 'reading':
     case 'ringIn':
@@ -179,7 +198,11 @@ function Game({ state, now, dispatch }: { state: GameState; now: number; dispatc
     case 'ddReading':
     case 'ddAnswering':
     case 'reveal':
-      body = <ClueView state={state} now={now} dispatch={dispatch} />
+      body = highlighting ? (
+        <BoardView state={state} dispatch={dispatch} rects={tileRects.current} chosen={state.clue!.ref} />
+      ) : (
+        <ClueView key={clueId} state={state} now={now} dispatch={dispatch} flipFrom={flipFrom} />
+      )
       break
     case 'roundIntro':
       body = (
@@ -241,14 +264,41 @@ function Avatar({ id }: { id: ContestantId }) {
   return <div className={`avatar avatar-${id}`}>{glyph}</div>
 }
 
-function BoardView({ state, dispatch }: { state: GameState; dispatch: Dispatch }) {
-  const humanPicks = state.selector === 'human'
+function BoardView({
+  state,
+  dispatch,
+  rects,
+  chosen,
+}: {
+  state: GameState
+  dispatch: Dispatch
+  rects: Map<string, DOMRect>
+  chosen?: CellRef
+}) {
+  const humanPicks = state.selector === 'human' && !chosen
+  const boardRef = useRef<HTMLDivElement>(null)
+  useLayoutEffect(() => {
+    boardRef.current?.querySelectorAll<HTMLElement>('[data-cell]').forEach((el) => {
+      rects.set(el.dataset.cell!, el.getBoundingClientRect())
+    })
+  })
+  const picker = contestant(state, state.selector).name
+  const chosenCat = chosen ? state.board.categories[chosen.col].name : ''
+  const chosenValue = chosen ? state.board.cells[chosen.col][chosen.row].value : 0
   return (
     <div className="board-wrap">
-      <p className="hint">
-        {humanPicks ? 'Your pick. Choose a clue.' : `${contestant(state, state.selector).name} is choosing…`}
+      <p className="hint" aria-live="polite">
+        {chosen
+          ? `${state.selector === 'human' ? 'You picked' : `${picker} picked`} ${chosenCat} for $${chosenValue}`
+          : humanPicks
+            ? 'Your pick. Choose a clue.'
+            : `${picker} is choosing…`}
       </p>
-      <div className="board" style={{ gridTemplateColumns: `repeat(${state.board.categories.length}, 1fr)` }}>
+      <div
+        ref={boardRef}
+        className={'board' + (chosen ? ' has-chosen' : '')}
+        style={{ gridTemplateColumns: `repeat(${state.board.categories.length}, minmax(0, 1fr))` }}
+      >
         {state.board.categories.map((c) => (
           <div key={c.id} className="cat">
             {c.name}
@@ -257,14 +307,16 @@ function BoardView({ state, dispatch }: { state: GameState; dispatch: Dispatch }
         {[0, 1, 2, 3, 4].map((row) =>
           state.board.cells.map((col, ci) => {
             const cell = col[row]
+            const isChosen = !!chosen && chosen.col === ci && chosen.row === row
             return (
               <button
                 key={`${ci}-${row}`}
-                className={'tile' + (cell.played ? ' played' : '')}
+                data-cell={`${ci}-${row}`}
+                className={'tile' + (isChosen ? ' chosen' : cell.played ? ' played' : '')}
                 disabled={cell.played || !humanPicks}
                 onClick={() => dispatch({ type: 'select', ref: { col: ci, row } })}
               >
-                {cell.played ? '' : `$${cell.value}`}
+                {isChosen || !cell.played ? `$${cell.value}` : ''}
               </button>
             )
           }),
@@ -290,16 +342,58 @@ function Timer({ until, total, now, label }: { until: number; total: number; now
   )
 }
 
-function ClueView({ state, now, dispatch }: { state: GameState; now: number; dispatch: Dispatch }) {
+const FLIP_MS = 650
+
+/** Animate `el` from the `from` rectangle (a Board tile) to where it actually sits. */
+function useFlip(ref: React.RefObject<HTMLElement | null>, from: DOMRect | undefined) {
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (!el || !from || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const to = el.getBoundingClientRect()
+    if (!to.width || !to.height) return
+    const dx = from.left - to.left
+    const dy = from.top - to.top
+    el.animate(
+      [
+        {
+          transformOrigin: 'top left',
+          transform: `translate(${dx}px, ${dy}px) scale(${from.width / to.width}, ${from.height / to.height})`,
+        },
+        { transformOrigin: 'top left', transform: 'none' },
+      ],
+      { duration: FLIP_MS, easing: 'cubic-bezier(.2,.75,.25,1)' },
+    )
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+}
+
+function ClueView({
+  state,
+  now,
+  dispatch,
+  flipFrom,
+}: {
+  state: GameState
+  now: number
+  dispatch: Dispatch
+  flipFrom?: DOMRect
+}) {
   const p = state.phase
   const cell = currentCell(state)!
+  const cardRef = useRef<HTMLDivElement>(null)
+  useFlip(cardRef, flipFrom)
+  const [flying, setFlying] = useState(!!flipFrom)
+  useEffect(() => {
+    if (!flying) return
+    const t = setTimeout(() => setFlying(false), FLIP_MS + 400)
+    return () => clearTimeout(t)
+  }, [flying])
   const clueState = state.clue!
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
 
   return (
-    <div className="clue-screen">
+    <div className={'clue-screen' + (flipFrom ? ' entering' : '')}>
       <div className="clue-meta">
         <span className="clue-cat">{category}</span>
         <span className="clue-val">
@@ -308,9 +402,13 @@ function ClueView({ state, now, dispatch }: { state: GameState; now: number; dis
       </div>
 
       {p.kind === 'ddWager' ? (
-        <DailyDoubleWager state={state} dispatch={dispatch} />
+        <div ref={cardRef} className="flip-target">
+          {flying && <FlipFace category={category} label={`$${cell.value}`} />}
+          <DailyDoubleWager state={state} dispatch={dispatch} />
+        </div>
       ) : (
-        <div className="clue-card">
+        <div ref={cardRef} className="clue-card flip-target">
+          {flying && <FlipFace category={category} label={isDD ? 'Daily Double' : `$${cell.value}`} />}
           <p className="clue-text">{cell.clue.clue}</p>
           {p.kind === 'reveal' && (
             <p className="answer-reveal">
@@ -365,6 +463,16 @@ function ClueView({ state, now, dispatch }: { state: GameState; now: number; dis
           }
         />
       )}
+    </div>
+  )
+}
+
+/** The tile's face, shown on the flying card and faded out as it lands. */
+function FlipFace({ category, label }: { category: string; label: string }) {
+  return (
+    <div className="flip-face" aria-hidden>
+      <span className="flip-cat">{category}</span>
+      <span className="flip-val">{label}</span>
     </div>
   )
 }

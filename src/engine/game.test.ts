@@ -4,6 +4,9 @@ import { seeded } from './rng'
 import type { ClueBank } from './types'
 import { BANKS } from '../content'
 
+/** Time from selecting a normal Clue to the ring-in window opening. */
+const READ = TIMING.selectMs + TIMING.readMs
+
 function setup(seed = 1, bank: ClueBank = BANKS[1]) {
   const rng = seeded(seed)
   let s = newGame(bank, 'normal', rng)
@@ -31,16 +34,16 @@ describe('normal Clue', () => {
     expect(g.get().phase.kind).toBe('reading')
     g.dispatch({ type: 'ringIn', now: 1000 })
     expect(g.get().phase.kind).toBe('reading')
-    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    g.dispatch({ type: 'tick', now: READ })
     expect(g.get().phase.kind).toBe('ringIn')
     // stop bots from ringing in
     const s = structuredClone(g.get())
     s.clue!.botRingAt = {}
     g.set(s)
-    g.dispatch({ type: 'ringIn', now: TIMING.readMs + 500 })
+    g.dispatch({ type: 'ringIn', now: READ + 500 })
     expect(g.get().phase.kind).toBe('answering')
     const cell = currentCell(g.get())!
-    g.dispatch({ type: 'submitAnswer', text: cell.clue.answer, now: TIMING.readMs + 3000 })
+    g.dispatch({ type: 'submitAnswer', text: cell.clue.answer, now: READ + 3000 })
     expect(g.get().phase.kind).toBe('reveal')
     expect(contestant(g.get(), 'human').score).toBe(cell.value)
     expect(g.get().selector).toBe('human')
@@ -50,22 +53,22 @@ describe('normal Clue', () => {
     const g = setup(2)
     const ref = firstNormalCell(g.get())
     g.dispatch({ type: 'select', ref, now: 0 })
-    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    g.dispatch({ type: 'tick', now: READ })
     const s = structuredClone(g.get())
     silenceBots(s)
     g.set(s)
-    g.dispatch({ type: 'ringIn', now: TIMING.readMs + 10_000 })
-    g.dispatch({ type: 'submitAnswer', text: 'zzzz nonsense', now: TIMING.readMs + 15_000 })
+    g.dispatch({ type: 'ringIn', now: READ + 10_000 })
+    g.dispatch({ type: 'submitAnswer', text: 'zzzz nonsense', now: READ + 15_000 })
     const value = currentCell(g.get())!.value
     expect(contestant(g.get(), 'human').score).toBe(-value)
     const p = g.get().phase
     expect(p.kind).toBe('ringIn')
-    if (p.kind === 'ringIn') expect(p.until).toBe(TIMING.readMs + 15_000 + 20_000)
+    if (p.kind === 'ringIn') expect(p.until).toBe(READ + 15_000 + 20_000)
     // human can't ring in twice
-    g.dispatch({ type: 'ringIn', now: TIMING.readMs + 16_000 })
+    g.dispatch({ type: 'ringIn', now: READ + 16_000 })
     expect(g.get().phase.kind).toBe('ringIn')
     // window expires -> reveal
-    g.dispatch({ type: 'tick', now: TIMING.readMs + 40_000 })
+    g.dispatch({ type: 'tick', now: READ + 40_000 })
     expect(g.get().phase.kind).toBe('reveal')
     g.dispatch({ type: 'override', now: 0 })
     expect(contestant(g.get(), 'human').score).toBe(value)
@@ -78,23 +81,23 @@ describe('normal Clue', () => {
   it('times out an unanswered ring-in as wrong', () => {
     const g = setup(3)
     g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
-    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    g.dispatch({ type: 'tick', now: READ })
     const s = structuredClone(g.get())
     silenceBots(s)
     g.set(s)
-    g.dispatch({ type: 'ringIn', now: TIMING.readMs })
-    g.dispatch({ type: 'tick', now: TIMING.readMs + TIMING.answerMs })
+    g.dispatch({ type: 'ringIn', now: READ })
+    g.dispatch({ type: 'tick', now: READ + TIMING.answerMs })
     expect(contestant(g.get(), 'human').score).toBeLessThan(0)
   })
 
   it('reveals after 30s if nobody rings in', () => {
     const g = setup(4)
     g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
-    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    g.dispatch({ type: 'tick', now: READ })
     const s = structuredClone(g.get())
     silenceBots(s)
     g.set(s)
-    g.dispatch({ type: 'tick', now: TIMING.readMs + TIMING.ringMs })
+    g.dispatch({ type: 'tick', now: READ + TIMING.ringMs })
     expect(g.get().phase.kind).toBe('reveal')
     expect(g.get().contestants.every((c) => c.score === 0)).toBe(true)
   })
@@ -110,9 +113,9 @@ describe('Daily Double', () => {
     expect(g.get().phase.kind).toBe('ddWager')
     g.dispatch({ type: 'ddWager', amount: 99999, now: 0 })
     expect(g.get().clue!.wager).toBe(1000)
-    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    g.dispatch({ type: 'tick', now: READ })
     expect(g.get().phase.kind).toBe('ddAnswering')
-    g.dispatch({ type: 'submitAnswer', text: currentCell(g.get())!.clue.answer, now: TIMING.readMs + 1 })
+    g.dispatch({ type: 'submitAnswer', text: currentCell(g.get())!.clue.answer, now: READ + 1 })
     expect(contestant(g.get(), 'human').score).toBe(1000)
   })
 })
@@ -206,10 +209,10 @@ describe('Final Round', () => {
     const g = atFinal([1000, 3000, 2000])
     g.dispatch({ type: 'finalChoose', categoryId: g.get().final.options[1].id, now: 0 })
     g.dispatch({ type: 'finalWager', amount: 800, now: 0 })
-    g.dispatch({ type: 'tick', now: TIMING.readMs })
+    g.dispatch({ type: 'tick', now: READ })
     expect(g.get().phase.kind).toBe('finalAnswering')
-    g.dispatch({ type: 'tick', now: TIMING.readMs + 50_000 }) // all bots submitted by 45s
-    g.dispatch({ type: 'submitAnswer', text: finalClue(g.get())!.answer, now: TIMING.readMs + 50_001 })
+    g.dispatch({ type: 'tick', now: READ + 50_000 }) // all bots submitted by 45s
+    g.dispatch({ type: 'submitAnswer', text: finalClue(g.get())!.answer, now: READ + 50_001 })
     expect(g.get().phase.kind).toBe('finalReveal')
     expect(contestant(g.get(), 'human').score).toBe(1800)
   })
