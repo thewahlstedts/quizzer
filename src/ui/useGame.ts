@@ -3,6 +3,7 @@ import { newGame, step, type Action, type GameState } from '../engine/game'
 import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
+import { cuesFor } from './cues'
 import { addRecord, recordFromState } from './history'
 
 type Payload = Action extends infer A ? (A extends { now: number } ? Omit<A, 'now'> : never) : never
@@ -34,6 +35,8 @@ export function useGame() {
   const start = useCallback(
     (level: Level, difficulty: BotDifficulty, name: string, mode: GameMode) => {
       ref.current = null
+      // Also unlocks Web Audio inside this tap, which iOS requires before any sound plays.
+      play('start')
       commit(newGame(BANKS[level], difficulty, rng, name || 'You', mode))
     },
     [commit],
@@ -57,16 +60,5 @@ export function useGame() {
 }
 
 function cues(prev: GameState, next: GameState) {
-  const pk = prev.phase.kind
-  const nk = next.phase.kind
-  const prevAttempts = prev.clue?.attempts.length ?? 0
-  const nextAttempts = next.clue?.attempts.length ?? 0
-  if (nextAttempts > prevAttempts && next.clue) {
-    play(next.clue.attempts[nextAttempts - 1].correct ? 'correct' : 'wrong')
-    return
-  }
-  if (nk === 'answering' && pk !== 'answering') play('ring')
-  else if (nk === 'ddWager' && pk !== 'ddWager') play('dailyDouble')
-  else if (nk === 'reveal' && pk === 'ringIn' && nextAttempts === prevAttempts) play('timeup')
-  else if (nk === 'finalReveal' && pk !== 'finalReveal') play('reveal')
+  for (const c of cuesFor(prev, next)) play(c)
 }
