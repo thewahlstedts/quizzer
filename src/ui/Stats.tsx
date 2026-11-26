@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { money } from './format'
+import { MODE_LABEL, money } from './format'
 import { clearHistory, loadHistory, PERIODS, periodStart, summarize, type GameRecord, type Period } from './history'
 
 const PLACE = ['1st', '2nd', '3rd']
@@ -113,7 +113,8 @@ function HistoryRow({ r }: { r: GameRecord }) {
       </div>
       <div className="history-meta">
         {when} · Level {r.level} · {r.botDifficulty[0].toUpperCase() + r.botDifficulty.slice(1)}
-        {r.mode === 'quick' ? ' · Quick' : ''} · {r.correct}/{r.correct + r.wrong} correct
+        {' · '}
+        {MODE_LABEL[r.mode]} · {r.correct}/{r.correct + r.wrong} correct
       </div>
       <div className="history-meta">vs {others.map((o) => `${o.name} ${money(o.score)}`).join(', ')}</div>
     </li>

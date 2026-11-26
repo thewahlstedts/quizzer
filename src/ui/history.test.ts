@@ -6,7 +6,7 @@ import { periodStart, recordFromState, summarize, type GameRecord } from './hist
 
 function rec(endedAt: Date, earnings: number, won: boolean, correct = 0, wrong = 0): GameRecord {
   return {
-    v: 1, id: String(+endedAt), endedAt: +endedAt, level: 1, botDifficulty: 'normal', mode: 'classic',
+    v: 1, id: String(+endedAt), endedAt: +endedAt, level: 1, botDifficulty: 'normal', mode: 'slow',
     contestants: [], earnings, place: won ? 1 : 2, won, correct, wrong,
   }
 }
@@ -52,14 +52,14 @@ describe('summarize', () => {
 
 describe('recordFromState', () => {
   it('captures the result, place and tally', () => {
-    const s = newGame(BANKS[1], 'hard', seeded(3), 'Sam', 'quick')
+    const s = newGame(BANKS[1], 'hard', seeded(3), 'Sam', 'fast')
     s.contestants[0].score = 2000
     s.contestants[1].score = 5000
     s.contestants[2].score = 2000
     s.winners = ['bot1']
     s.tally = { correct: 5, wrong: 2 }
     const r = recordFromState(s, 1_000)
-    expect(r).toMatchObject({ endedAt: 1_000, level: 1, botDifficulty: 'hard', mode: 'quick', earnings: 2000, place: 2, won: false, correct: 5, wrong: 2 })
+    expect(r).toMatchObject({ endedAt: 1_000, level: 1, botDifficulty: 'hard', mode: 'fast', earnings: 2000, place: 2, won: false, correct: 5, wrong: 2 })
     expect(r.contestants.map((c) => c.name)[0]).toBe('Sam')
   })
 })

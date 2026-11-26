@@ -9,7 +9,14 @@ import {
   TIMING,
   type GameState,
 } from '../engine/game'
-import type { Attempt, BotDifficulty, CellRef, Clue, ContestantId, GameMode, Level } from '../engine/types'
+import { GAME_MODES, normalizeMode, type Attempt, type BotDifficulty, type CellRef, type Clue, type ContestantId, type GameMode, type Level } from '../engine/types'
+import { MODE_LABEL } from './format'
+
+const MODE_NOTE: Record<GameMode, string> = {
+  slow: '10 seconds to read, then 30 seconds to ring in.',
+  medium: '5 seconds to read, then 20 seconds to ring in.',
+  fast: 'Ring in as soon as the clue appears. 15 seconds to ring in.',
+}
 import { useGame } from './useGame'
 import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, type FlagReason } from './review'
 import { isMuted, setMuted } from './sound'
@@ -39,7 +46,7 @@ export default function App() {
           {game.state && (
             <span className="round-tag">
               {game.state.round === 'final' ? 'Final Round' : `Round ${game.state.round}`} · Level {game.state.level}
-              {game.state.mode === 'quick' ? ' · Quick' : ''}
+              {game.state.mode !== 'slow' ? ` · ${MODE_LABEL[game.state.mode]}` : ''}
             </span>
           )}
           <button className="ghost" onClick={toggleMute} aria-label={muted ? 'Unmute' : 'Mute'}>
@@ -65,7 +72,7 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
     () => (localStorage.getItem('quizzer.difficulty') as BotDifficulty) || 'normal',
   )
   const [name, setName] = useState(() => localStorage.getItem('quizzer.name') ?? '')
-  const [mode, setMode] = useState<GameMode>(() => (localStorage.getItem('quizzer.mode') === 'quick' ? 'quick' : 'classic'))
+  const [mode, setMode] = useState<GameMode>(() => normalizeMode(localStorage.getItem('quizzer.mode')))
   const [log, setLog] = useState(loadLog)
 
   const start = () => {
@@ -124,14 +131,14 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
         <div className="field">
           <span>Mode</span>
           <div className="segmented">
-            {(['classic', 'quick'] as GameMode[]).map((m) => (
+            {GAME_MODES.map((m) => (
               <button key={m} className={m === mode ? 'on' : ''} onClick={() => setMode(m)}>
-                {m === 'classic' ? 'Classic' : 'Quick'}
+                {MODE_LABEL[m]}
               </button>
             ))}
           </div>
           <small className="field-note">
-            {mode === 'classic' ? '10 seconds to read, then 30 seconds to ring in.' : 'Ring in as soon as the clue appears. 15 seconds to ring in.'}
+            {MODE_NOTE[mode]}
           </small>
         </div>
 
@@ -142,8 +149,8 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
         <details className="rules">
           <summary>How to play</summary>
           <ul>
-            <li>Pick a clue from the board. In Classic mode you get 10 seconds to read it, then 30 seconds to ring in.</li>
-            <li>In Quick mode you can ring in as soon as the clue appears, and you have 15 seconds.</li>
+            <li>Pick a clue from the board. How long you get to read it and ring in depends on the Mode:</li>
+            <li>Slow: 10 seconds to read, then 30 seconds to ring in. Medium: 5 seconds to read, then 20 seconds. Fast: ring in as soon as the clue appears, within 15 seconds.</li>
             <li>
               To ring in, press <kbd>Space</kbd> or the ring-in button.
             </li>
@@ -597,7 +604,9 @@ function ClueView({
         </div>
       )}
 
-      {p.kind === 'reading' && state.mode === 'classic' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
+      {p.kind === 'reading' && clueTiming(state.mode).readMs > 0 && (
+        <Timer until={p.until} total={clueTiming(state.mode).readMs} now={now} label="Read the clue" />
+      )}
       {p.kind === 'ddReading' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
       {p.kind === 'ringIn' && <Timer until={p.until} total={clueTiming(state.mode).ringMs} now={now} label="Ring in!" />}
       {(p.kind === 'answering' || p.kind === 'ddAnswering') && (

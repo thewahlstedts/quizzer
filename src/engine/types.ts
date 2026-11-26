@@ -2,8 +2,16 @@ export type Level = 1 | 2 | 3 | 4
 export type Rank = 1 | 2 | 3 | 4 | 5
 export type BotDifficulty = 'easy' | 'normal' | 'hard'
 
-/** Classic: read the Clue, then Ring In. Quick: Ring In as soon as the Clue appears, with a shorter window. */
-export type GameMode = 'classic' | 'quick'
+/** How a game paces Ring In: Slow reads first with a long window; Fast opens Ring In at once with a short one. */
+export type GameMode = 'slow' | 'medium' | 'fast'
+export const GAME_MODES: GameMode[] = ['slow', 'medium', 'fast']
+
+/** Modes saved before the rename (Classic → Slow, Quick → Fast). */
+export function normalizeMode(m: unknown): GameMode {
+  if (m === 'quick' || m === 'fast') return 'fast'
+  if (m === 'medium') return 'medium'
+  return 'slow'
+}
 export type ContestantId = 'human' | 'bot1' | 'bot2'
 export type Rng = () => number
 

@@ -1,5 +1,5 @@
 import type { GameState } from '../engine/game'
-import type { BotDifficulty, ContestantId, GameMode, Level } from '../engine/types'
+import { normalizeMode, type BotDifficulty, type ContestantId, type GameMode, type Level } from '../engine/types'
 
 /** One finished game, saved in this browser for the Human to review. Quit games aren't recorded. */
 export interface GameRecord {
@@ -86,7 +86,8 @@ export function loadHistory(): GameRecord[] {
   try {
     const raw = localStorage.getItem(KEY)
     const list = raw ? (JSON.parse(raw) as GameRecord[]) : []
-    return Array.isArray(list) ? list.filter((r) => r && r.v === 1) : []
+    // Records saved before the Mode rename say 'classic' / 'quick'.
+    return Array.isArray(list) ? list.filter((r) => r && r.v === 1).map((r) => ({ ...r, mode: normalizeMode(r.mode) })) : []
   } catch {
     return []
   }
