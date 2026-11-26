@@ -1,6 +1,26 @@
 import type { GameState } from '../engine/game'
 import type { Cue } from './sound'
 
+/** Countdown ticks play for the last this-many seconds of a timer the Human is on. */
+export const COUNTDOWN_SECONDS = 5
+
+/**
+ * Whole seconds left (1..COUNTDOWN_SECONDS) on a timer the Human is racing, or null. That is the
+ * Ring In window until the Human has tried, and the Human's own answering time (normal Clue, Daily
+ * Double, Final Round). Bots' answering time doesn't tick.
+ */
+export function countdownSecond(s: GameState, now: number): number | null {
+  const p = s.phase
+  let until: number | undefined
+  if (p.kind === 'ringIn' && !s.clue?.attempts.some((a) => a.contestant === 'human')) until = p.until
+  else if (p.kind === 'answering' && p.contestant === 'human') until = p.until
+  else if (p.kind === 'ddAnswering' && s.selector === 'human') until = p.until
+  else if (p.kind === 'finalAnswering' && s.final.eligible.includes('human') && !s.final.answers.human) until = p.until
+  if (until === undefined) return null
+  const left = Math.ceil((until - now) / 1000)
+  return left >= 1 && left <= COUNTDOWN_SECONDS ? left : null
+}
+
 /** The sound cues for one state change. Pure, so the mapping is testable without audio. */
 export function cuesFor(prev: GameState, next: GameState): Cue[] {
   const pk = prev.phase.kind

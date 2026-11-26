@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { newGame, step, TIMING, type Action, type GameState } from '../engine/game'
 import { seeded } from '../engine/rng'
 import { BANKS } from '../content'
-import { cuesFor } from './cues'
+import { countdownSecond, cuesFor } from './cues'
 
 const READ = TIMING.selectMs + TIMING.readMs
 
@@ -80,5 +80,38 @@ describe('cuesFor', () => {
   it('is silent when nothing notable changes', () => {
     const s = newGame(BANKS[1], 'normal', seeded(1))
     expect(cuesFor(s, { ...s })).toEqual([])
+  })
+})
+
+describe('countdownSecond', () => {
+  it('counts the last 5 seconds of the Ring In window, until the Human has tried', () => {
+    const g = game()
+    g.act({ type: 'select', ref: cell(g.get(), false), now: 0 })
+    g.act({ type: 'tick', now: READ })
+    g.set(quietBots(g.get()))
+    const end = READ + TIMING.ringMs
+    expect(countdownSecond(g.get(), end - 5_001)).toBeNull()
+    expect(countdownSecond(g.get(), end - 5_000)).toBe(5)
+    expect(countdownSecond(g.get(), end - 4_200)).toBe(5)
+    expect(countdownSecond(g.get(), end - 999)).toBe(1)
+    expect(countdownSecond(g.get(), end)).toBeNull()
+    // once the Human has answered (wrong), the reopened window no longer ticks for them
+    g.act({ type: 'ringIn', now: READ + 100 })
+    g.act({ type: 'submitAnswer', text: 'zzzz', now: READ + 200 })
+    expect(g.get().phase.kind).toBe('ringIn')
+    expect(countdownSecond(g.get(), end - 2_000)).toBeNull()
+  })
+
+  it("ticks for the Human's answering time but not a Bot's", () => {
+    const g = game()
+    g.act({ type: 'select', ref: cell(g.get(), false), now: 0 })
+    g.act({ type: 'tick', now: READ })
+    g.set(quietBots(g.get()))
+    g.act({ type: 'ringIn', now: READ + 100 })
+    const until = READ + 100 + TIMING.answerMs
+    expect(countdownSecond(g.get(), until - 3_000)).toBe(3)
+    const s = structuredClone(g.get())
+    s.phase = { kind: 'answering', contestant: 'bot1', until, windowLeft: 0 }
+    expect(countdownSecond(s, until - 3_000)).toBeNull()
   })
 })
