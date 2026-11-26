@@ -103,6 +103,35 @@ describe('normal Clue', () => {
   })
 })
 
+describe('Bot Answers', () => {
+  function botAnswers(knows: boolean) {
+    const g = setup(2)
+    g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
+    g.dispatch({ type: 'tick', now: READ })
+    const s = structuredClone(g.get())
+    s.clue!.botKnows = { bot1: knows, bot2: false }
+    s.clue!.botRingAt = { bot1: READ + 100 }
+    g.set(s)
+    g.dispatch({ type: 'tick', now: READ + 100 })
+    expect(g.get().phase.kind).toBe('answering')
+    g.dispatch({ type: 'tick', now: READ + 100 + TIMING.answerMs })
+    const a = g.get().clue!.attempts.find((x) => x.contestant === 'bot1')!
+    return { a, answer: currentCell(g.get())!.clue.answer }
+  }
+
+  it('shows a correct Bot Answer in full', () => {
+    const { a, answer } = botAnswers(true)
+    expect(a.correct).toBe(true)
+    expect(a.display).toBe(answer)
+  })
+
+  it('shows a wrong Bot Answer as asterisks', () => {
+    const { a } = botAnswers(false)
+    expect(a.correct).toBe(false)
+    expect(a.display).toMatch(/^[* ]+$/)
+  })
+})
+
 describe('Quick mode', () => {
   it('opens Ring In as soon as the selection animation ends', () => {
     const g = setup(1, BANKS[1], 'quick')

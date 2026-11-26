@@ -82,7 +82,20 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
 
         <label className="field">
           <span>Your name</span>
-          <input value={name} maxLength={16} placeholder="You" onChange={(e) => setName(e.target.value)} />
+          <input
+            value={name}
+            maxLength={16}
+            placeholder="You"
+            autoComplete="nickname"
+            onChange={(e) => {
+              setName(e.target.value)
+              try {
+                localStorage.setItem('quizzer.name', e.target.value)
+              } catch {
+                // storage unavailable (private mode): the name still works for this game
+              }
+            }}
+          />
         </label>
 
         <div className="field">
@@ -134,7 +147,7 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
               To ring in, press <kbd>Space</kbd> or the ring-in button.
             </li>
             <li>Once you ring in, you have 60 seconds to type your answer. Wrong answers cost you the clue's value.</li>
-            <li>Bots' answers show as asterisks, one per letter. That's a hint about how long the answer is.</li>
+            <li>When a Bot answers wrong, its answer shows as asterisks, one per letter of the correct answer. That's a hint about how long it is.</li>
             <li>Daily Doubles are hidden. Wager on them and answer alone.</li>
             <li>The Final Round is chosen by whoever's in last place (among players above $0).</li>
           </ul>
@@ -465,6 +478,7 @@ function ClueView({
     return () => clearTimeout(t)
   }, [entering])
   const clueState = state.clue!
+  const verdict = useHumanVerdict(clueState.attempts)
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
@@ -487,8 +501,13 @@ function ClueView({
           <DailyDoubleWager state={state} dispatch={dispatch} />
         </div>
       ) : (
-        <div ref={cardRef} className="clue-card flip-target">
+        <div
+          ref={cardRef}
+          className={'clue-card flip-target' + (verdict ? (verdict.correct ? ' verdict-ok' : ' verdict-bad') : '')}
+          data-verdict={verdict?.key}
+        >
           {flying && <FlipFace category={category} label={isDD ? 'Daily Double' : `$${cell.value}`} />}
+          {verdict && <VerdictStamp key={verdict.key} correct={verdict.correct} delta={verdict.delta} />}
           <p className="clue-text">{cell.clue.clue}</p>
           {p.kind === 'reveal' && (
             <p className="answer-reveal">
@@ -548,6 +567,50 @@ function ClueView({
 }
 
 /** The tile's face, shown on the flying card and faded out as it lands. */
+const VERDICT_MS = 1_600
+
+/** The Human's newest judged Attempt on this Clue, for VERDICT_MS after it lands. */
+function useHumanVerdict(attempts: Attempt[]) {
+  const humanCount = attempts.filter((a) => a.contestant === 'human').length
+  const seen = useRef(humanCount)
+  const [verdict, setVerdict] = useState<{ correct: boolean; delta: number; key: number } | null>(null)
+  useEffect(() => {
+    if (humanCount <= seen.current) return
+    seen.current = humanCount
+    const a = [...attempts].reverse().find((x) => x.contestant === 'human')!
+    setVerdict((v) => ({ correct: a.correct, delta: a.delta, key: (v?.key ?? 0) + 1 }))
+    const t = setTimeout(() => setVerdict(null), VERDICT_MS)
+    return () => clearTimeout(t)
+  }, [humanCount]) // eslint-disable-line react-hooks/exhaustive-deps
+  return verdict
+}
+
+const SPARKS = 14
+
+function VerdictStamp({ correct, delta }: { correct: boolean; delta: number }) {
+  return (
+    <div className={'verdict ' + (correct ? 'ok' : 'bad')} aria-live="assertive">
+      {correct &&
+        Array.from({ length: SPARKS }, (_, i) => (
+          <span
+            key={i}
+            className="spark"
+            style={{ '--a': `${(360 / SPARKS) * i}deg`, '--d': `${i % 2 ? 90 : 130}px` } as React.CSSProperties}
+          />
+        ))}
+      <div className="verdict-stamp">
+        <span className="verdict-word">{correct ? 'Correct!' : 'Not quite'}</span>
+        {delta !== 0 && (
+          <span className="verdict-delta">
+            {delta > 0 ? '+' : '−'}
+            {money(Math.abs(delta))}
+          </span>
+        )}
+      </div>
+    </div>
+  )
+}
+
 function FlipFace({ category, label }: { category: string; label: string }) {
   return (
     <div className="flip-face" aria-hidden style={{ animationDelay: `${FACE_HOLD_MS}ms`, animationDuration: `${FACE_FADE_MS}ms` }}>
@@ -565,7 +628,7 @@ function Attempts({ state, attempts }: { state: GameState; attempts: Attempt[] }
         <li key={i} className={a.correct ? 'ok' : 'bad'}>
           <Avatar id={a.contestant} />
           <span className="who">{contestant(state, a.contestant).name}</span>
-          <span className={'what' + (a.contestant !== 'human' ? ' masked' : '')}>{a.display || '(no answer)'}</span>
+          <span className={'what' + (a.contestant !== 'human' && !a.correct ? ' masked' : '')}>{a.display || '(no answer)'}</span>
           <span className="delta">
             {a.overridden ? 'overridden ' : ''}
             {a.delta > 0 ? '+' : ''}
@@ -860,7 +923,7 @@ function FinalReveal({ state, dispatch }: { state: GameState; dispatch: Dispatch
             <li key={id} className={(a.correct ? 'ok' : 'bad') + ' pop'}>
               <Avatar id={id} />
               <span className="who">{contestant(state, id).name}</span>
-              <span className={'what' + (id !== 'human' ? ' masked' : '')}>{a.display || '(no answer)'}</span>
+              <span className={'what' + (id !== 'human' && !a.correct ? ' masked' : '')}>{a.display || '(no answer)'}</span>
               <span className="delta">
                 wagered {money(f.wagers[id] ?? 0)} → {a.delta >= 0 ? '+' : ''}
                 {money(a.delta)}
