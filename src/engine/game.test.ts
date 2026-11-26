@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import { clueTiming, contestant, currentCell, finalClue, newGame, step, TIMING, type Action, type GameState } from './game'
 import { seeded } from './rng'
-import type { ClueBank, GameMode } from './types'
+import { normalizeMode, type ClueBank, type GameMode } from './types'
 import { BANKS } from '../content'
 
 /** Time from selecting a normal Clue to the ring-in window opening. */
 const READ = TIMING.selectMs + TIMING.readMs
 
-function setup(seed = 1, bank: ClueBank = BANKS[1], mode: GameMode = 'classic') {
+function setup(seed = 1, bank: ClueBank = BANKS[1], mode: GameMode = 'slow') {
   const rng = seeded(seed)
   let s = newGame(bank, 'normal', rng, 'You', mode)
   const dispatch = (a: Action) => (s = step(s, a, rng))
@@ -136,9 +136,9 @@ describe('Bot Answers', () => {
   })
 })
 
-describe('Quick mode', () => {
+describe('Mode', () => {
   it('opens Ring In as soon as the selection animation ends', () => {
-    const g = setup(1, BANKS[1], 'quick')
+    const g = setup(1, BANKS[1], 'fast')
     g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
     g.dispatch({ type: 'tick', now: TIMING.selectMs - 1 })
     expect(g.get().phase.kind).toBe('reading')
@@ -152,7 +152,7 @@ describe('Quick mode', () => {
   })
 
   it('reveals after 15s if nobody rings in', () => {
-    const g = setup(4, BANKS[1], 'quick')
+    const g = setup(4, BANKS[1], 'fast')
     g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
     g.dispatch({ type: 'tick', now: TIMING.selectMs })
     const s = structuredClone(g.get())
@@ -164,13 +164,42 @@ describe('Quick mode', () => {
     expect(g.get().phase.kind).toBe('reveal')
   })
 
-  it('leaves Classic timing unchanged', () => {
-    expect(clueTiming('classic')).toEqual({ readMs: TIMING.readMs, ringMs: TIMING.ringMs })
-    expect(clueTiming('quick')).toEqual({ readMs: 0, ringMs: 15_000 })
+  it('times Slow, Medium and Fast', () => {
+    expect(clueTiming('slow')).toEqual({ readMs: TIMING.readMs, ringMs: TIMING.ringMs })
+    expect(clueTiming('medium')).toEqual({ readMs: 5_000, ringMs: 20_000 })
+    expect(clueTiming('fast')).toEqual({ readMs: 0, ringMs: 15_000 })
   })
 
-  it.each([1, 2, 3, 4])('a whole Quick game terminates (seed %i)', (seed) => {
-    expect(autoplay(seed, 1, 'quick').phase.kind).toBe('gameOver')
+  it('opens a 20s Ring In window after 5s of reading in Medium', () => {
+    const g = setup(4, BANKS[1], 'medium')
+    g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 4_999 })
+    expect(g.get().phase.kind).toBe('reading')
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 5_000 })
+    expect(g.get().phase.kind).toBe('ringIn')
+    const s = structuredClone(g.get())
+    silenceBots(s)
+    g.set(s)
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 25_000 - 1 })
+    expect(g.get().phase.kind).toBe('ringIn')
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 25_000 })
+    expect(g.get().phase.kind).toBe('reveal')
+  })
+
+  it('maps Modes saved before the rename', () => {
+    expect(normalizeMode('classic')).toBe('slow')
+    expect(normalizeMode('quick')).toBe('fast')
+    expect(normalizeMode('medium')).toBe('medium')
+    expect(normalizeMode(null)).toBe('slow')
+  })
+
+  it.each([
+    [1, 'fast'],
+    [2, 'medium'],
+    [3, 'fast'],
+    [4, 'medium'],
+  ] as const)('a whole game terminates (seed %i, %s)', (seed, mode) => {
+    expect(autoplay(seed, 1, mode).phase.kind).toBe('gameOver')
   })
 })
 
@@ -208,7 +237,7 @@ describe('Daily Double', () => {
 })
 
 /** Drive a whole game with the Human never answering, to check it always terminates. */
-function autoplay(seed: number, level: 1 | 2 | 3 | 4, mode: GameMode = 'classic') {
+function autoplay(seed: number, level: 1 | 2 | 3 | 4, mode: GameMode = 'slow') {
   const g = setup(seed, BANKS[level], mode)
   let now = 0
   for (let i = 0; i < 20000 && g.get().phase.kind !== 'gameOver'; i++) {

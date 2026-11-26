@@ -41,7 +41,9 @@ export const TIMING = {
 
 /** Reading time and Ring In window for a normal Clue. Daily Doubles and the Final Round don't change. */
 export function clueTiming(mode: GameMode): { readMs: number; ringMs: number } {
-  return mode === 'quick' ? { readMs: 0, ringMs: 15_000 } : { readMs: TIMING.readMs, ringMs: TIMING.ringMs }
+  if (mode === 'fast') return { readMs: 0, ringMs: 15_000 }
+  if (mode === 'medium') return { readMs: 5_000, ringMs: 20_000 }
+  return { readMs: TIMING.readMs, ringMs: TIMING.ringMs }
 }
 
 export type Phase =
@@ -118,7 +120,7 @@ export function newGame(
   botDifficulty: BotDifficulty,
   rng: Rng,
   humanName = 'You',
-  mode: GameMode = 'classic',
+  mode: GameMode = 'slow',
 ): GameState {
   const deal = dealCategories(bank, rng)
   const board = buildBoard(deal.round1, 1, rng)
