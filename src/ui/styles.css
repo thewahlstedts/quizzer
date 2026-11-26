@@ -271,6 +271,37 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 
 .typing { text-align: center; color: var(--muted); font-size: 18px; margin: 0; }
 
+/* ---------- a Bot's Answer ---------- */
+.bot-answer {
+  --who: var(--coral); --who-soft: rgba(255, 93, 115, 0.2);
+  align-self: center; width: min(100%, 420px); display: grid; justify-items: center; gap: 8px;
+  padding: 14px 18px 16px; border-radius: 20px; border: 2px solid var(--who);
+  background: linear-gradient(180deg, var(--who-soft), rgba(29, 24, 56, 0.92));
+  box-shadow: 0 0 36px var(--who-soft);
+  animation: bot-answer-in 0.35s cubic-bezier(.2, 1.4, .4, 1) both, bot-answer-out 0.35s ease 2.05s forwards;
+}
+.bot-answer-bot2 { --who: var(--teal); --who-soft: rgba(62, 230, 196, 0.18); }
+.bot-answer-head { display: flex; align-items: center; gap: 8px; color: var(--who); font-weight: 800; font-size: 15px; }
+.bot-answer-head .avatar { width: 28px; height: 28px; font-size: 13px; }
+.bot-answer-text {
+  font-family: var(--display); font-weight: 800; font-size: 26px; line-height: 1.2; text-align: center;
+  min-height: 1.2em; overflow-wrap: anywhere; color: var(--text);
+}
+.bot-answer-text.masked { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.15em; }
+.caret { display: inline-block; width: 3px; height: 0.95em; margin-left: 3px; vertical-align: -0.1em; background: var(--who); animation: caret 0.5s steps(1) infinite; }
+@keyframes caret { 50% { opacity: 0; } }
+.bot-answer-badge {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 999px;
+  font-family: var(--display); font-weight: 800; font-size: 18px;
+  animation: stamp-in 0.4s cubic-bezier(.2, 1.6, .4, 1) both;
+}
+.bot-answer-badge .mark { font-size: 20px; line-height: 1; }
+.bot-answer.ok .bot-answer-badge { color: #06261f; background: var(--teal); box-shadow: 0 0 24px rgba(62, 230, 196, 0.55); }
+.bot-answer.bad .bot-answer-badge { color: #fff; background: var(--coral); box-shadow: 0 0 24px rgba(255, 93, 115, 0.5); }
+.bot-answer.bad { animation: bot-answer-in 0.35s cubic-bezier(.2, 1.4, .4, 1) both, verdict-shake 0.45s ease 0.1s, bot-answer-out 0.35s ease 2.05s forwards; }
+@keyframes bot-answer-in { from { opacity: 0; transform: translateY(10px) scale(0.92); } to { opacity: 1; transform: none; } }
+@keyframes bot-answer-out { to { opacity: 0; transform: translateY(-6px) scale(0.97); } }
+
 /* ---------- a Bot Rang In ---------- */
 .bot-rang { --who: var(--coral); --who-soft: rgba(255, 93, 115, 0.22); position: relative; display: grid; justify-items: center; gap: 8px; align-self: center; }
 .bot-rang-bot2 { --who: var(--teal); --who-soft: rgba(62, 230, 196, 0.2); }

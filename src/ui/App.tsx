@@ -525,6 +525,7 @@ function ClueView({
   }, [entering])
   const clueState = state.clue!
   const verdict = useHumanVerdict(clueState.attempts)
+  const botAnswer = useBotAnswer(clueState.attempts)
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
@@ -579,7 +580,15 @@ function ClueView({
         />
       )}
 
-      <Attempts state={state} attempts={clueState.attempts} />
+      <Attempts state={state} attempts={clueState.attempts} hideIndex={botAnswer?.index} />
+
+      {botAnswer && (
+        <BotAnswerReveal
+          key={botAnswer.index}
+          attempt={botAnswer.attempt}
+          name={contestant(state, botAnswer.attempt.contestant).name}
+        />
+      )}
 
       {(p.kind === 'reading' || p.kind === 'ringIn') && !isDD && (
         <button className="ring" disabled={p.kind === 'reading' || humanTried} onClick={() => dispatch({ type: 'ringIn' })}>
@@ -638,6 +647,63 @@ function useHumanVerdict(attempts: Attempt[]) {
   return verdict
 }
 
+const BOT_ANSWER_MS = 2_400
+const BOT_TYPE_MS = 700
+
+/** A Bot's newest Attempt on this Clue, for BOT_ANSWER_MS after it lands. */
+function useBotAnswer(attempts: Attempt[]) {
+  const count = attempts.length
+  const seen = useRef(count)
+  const [shown, setShown] = useState<{ attempt: Attempt; index: number } | null>(null)
+  useEffect(() => {
+    if (count <= seen.current) return
+    seen.current = count
+    const index = count - 1
+    const attempt = attempts[index]
+    if (attempt.contestant === 'human') return
+    setShown({ attempt, index })
+    const t = setTimeout(() => setShown(null), BOT_ANSWER_MS)
+    return () => clearTimeout(t)
+  }, [count]) // eslint-disable-line react-hooks/exhaustive-deps
+  return shown
+}
+
+/** The Bot's Answer types out in its colour, then a verdict badge stamps in. */
+function BotAnswerReveal({ attempt, name }: { attempt: Attempt; name: string }) {
+  const text = attempt.display || '(no answer)'
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  const [typed, setTyped] = useState(reduced ? text.length : 0)
+  useEffect(() => {
+    if (typed >= text.length) return
+    const step = Math.max(25, Math.min(80, BOT_TYPE_MS / text.length))
+    const t = setTimeout(() => setTyped((n) => n + 1), step)
+    return () => clearTimeout(t)
+  }, [typed, text.length])
+  const done = typed >= text.length
+  const masked = !attempt.correct && !!attempt.display
+  return (
+    <div className={`bot-answer bot-answer-${attempt.contestant}` + (done ? (attempt.correct ? ' ok' : ' bad') : '')} role="status">
+      <div className="bot-answer-head">
+        <Avatar id={attempt.contestant} />
+        <span>{name} answers</span>
+      </div>
+      <div className={'bot-answer-text' + (masked ? ' masked' : '')}>
+        {text.slice(0, typed)}
+        {!done && <span className="caret" aria-hidden />}
+      </div>
+      {done && (
+        <div className="bot-answer-badge">
+          <span className="mark" aria-hidden>
+            {attempt.correct ? '✓' : '✗'}
+          </span>
+          {attempt.correct ? 'Correct' : 'Wrong'} {attempt.delta > 0 ? '+' : '−'}
+          {money(Math.abs(attempt.delta))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 const SPARKS = 14
 
 function VerdictStamp({ correct, delta }: { correct: boolean; delta: number }) {
@@ -673,11 +739,12 @@ function FlipFace({ category, label }: { category: string; label: string }) {
   )
 }
 
-function Attempts({ state, attempts }: { state: GameState; attempts: Attempt[] }) {
-  if (!attempts.length) return null
+function Attempts({ state, attempts, hideIndex }: { state: GameState; attempts: Attempt[]; hideIndex?: number }) {
+  const visible = attempts.map((a, i) => ({ a, i })).filter(({ i }) => i !== hideIndex)
+  if (!visible.length) return null
   return (
     <ul className="attempts">
-      {attempts.map((a, i) => (
+      {visible.map(({ a, i }) => (
         <li key={i} className={a.correct ? 'ok' : 'bad'}>
           <Avatar id={a.contestant} />
           <span className="who">{contestant(state, a.contestant).name}</span>
