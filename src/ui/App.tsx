@@ -1004,9 +1004,12 @@ function RevealActions({
         <button className="ghost" disabled={flagged} onClick={() => setFlagging(true)}>
           {flagged ? 'Flagged ✓' : 'Flag clue'}
         </button>
-        <button ref={ref} className="primary" onClick={() => dispatch({ type: 'continue' })}>
-          Continue
-        </button>
+        {/* With Auto continue on, the game moves on by itself, so there's no Continue button. */}
+        {!autoOn && (
+          <button ref={ref} className="primary" onClick={() => dispatch({ type: 'continue' })}>
+            Continue
+          </button>
+        )}
       </div>
       {flagging && (
         <FlagDialog
