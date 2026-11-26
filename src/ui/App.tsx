@@ -260,9 +260,49 @@ function Podiums({ state }: { state: GameState }) {
         >
           <Avatar id={c.id} />
           <div className="podium-name">{c.name}</div>
-          <div className={'podium-score' + (c.score < 0 ? ' neg' : '')}>{money(c.score)}</div>
+          <PodiumScore score={c.score} />
         </div>
       ))}
+    </div>
+  )
+}
+
+const SCORE_COUNT_MS = 700
+
+/** A score that counts to its new value and floats the change above it. */
+function PodiumScore({ score }: { score: number }) {
+  const [shown, setShown] = useState(score)
+  const [delta, setDelta] = useState<{ amount: number; key: number } | null>(null)
+  const prev = useRef(score)
+  useEffect(() => {
+    const from = prev.current
+    prev.current = score
+    if (from === score) return
+    setDelta((d) => ({ amount: score - from, key: (d?.key ?? 0) + 1 }))
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setShown(score)
+      return
+    }
+    const start = performance.now()
+    let frame = requestAnimationFrame(function tick(t) {
+      const k = Math.min(1, (t - start) / SCORE_COUNT_MS)
+      const eased = 1 - Math.pow(1 - k, 3)
+      setShown(Math.round(from + (score - from) * eased))
+      if (k < 1) frame = requestAnimationFrame(tick)
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [score])
+  return (
+    <div className={'podium-score' + (shown < 0 ? ' neg' : '')}>
+      <span key={delta?.key} className={delta ? (delta.amount > 0 ? 'bump up' : 'bump down') : undefined}>
+        {money(shown)}
+      </span>
+      {delta && (
+        <span key={`d${delta.key}`} className={'score-delta ' + (delta.amount > 0 ? 'up' : 'down')} aria-hidden>
+          {delta.amount > 0 ? '+' : '−'}
+          {money(Math.abs(delta.amount))}
+        </span>
+      )}
     </div>
   )
 }

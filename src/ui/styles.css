@@ -100,7 +100,10 @@ input, textarea { font: inherit; color: var(--text); }
 kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; font-size: 12px; }
 
 /* ---------- game layout ---------- */
-.game { flex: 1; display: flex; flex-direction: column; padding: 0 clamp(10px, 3vw, 32px) 18px; gap: 16px; min-width: 0; }
+.game {
+  flex: 1; display: flex; flex-direction: column; gap: 16px; min-width: 0;
+  padding: 0 clamp(10px, 3vw, 32px) calc(32px + env(safe-area-inset-bottom, 0px));
+}
 .play-area { flex: 1; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
 .hint { color: var(--muted); text-align: center; margin: 0 0 12px; }
 
@@ -137,6 +140,27 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 .podium-name { font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .podium-score { font-family: var(--display); font-weight: 800; font-size: 24px; color: var(--gold); }
 .podium-score.neg { color: var(--coral); }
+
+/* score change: the number counts (App.tsx), pops, and the change floats up and fades */
+.podium { position: relative; }
+.podium-score .bump { display: inline-block; }
+.podium-score .bump.up { animation: score-pop-up 0.7s ease-out; }
+.podium-score .bump.down { animation: score-pop-down 0.7s ease-out; }
+@keyframes score-pop-up { 30% { transform: scale(1.18); color: var(--teal); } }
+@keyframes score-pop-down { 30% { transform: scale(1.18); color: var(--coral); } }
+.score-delta {
+  position: absolute; left: 50%; translate: -50% 0; bottom: calc(100% + 4px); white-space: nowrap; pointer-events: none;
+  font-size: 0.85em; font-weight: 800; opacity: 0;
+  animation: score-float 1.6s ease-out forwards;
+}
+.score-delta.up { color: var(--teal); }
+.score-delta.down { color: var(--coral); }
+@keyframes score-float {
+  0% { opacity: 0; transform: translateY(6px); }
+  15% { opacity: 1; transform: translateY(0); }
+  70% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-14px); }
+}
 .podium.active { border-color: var(--teal); box-shadow: 0 0 0 2px rgba(62, 230, 196, 0.35), 0 0 30px rgba(62, 230, 196, 0.25); }
 .podium.selecting { border-color: rgba(255, 201, 74, 0.6); }
 .podium.winner { border-color: var(--gold); box-shadow: 0 0 40px rgba(255, 201, 74, 0.35); }
