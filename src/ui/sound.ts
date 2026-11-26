@@ -97,6 +97,7 @@ export type Cue =
   | 'lose'
   | 'tick'
   | 'tickLast'
+  | 'beep'
 
 /** When the chosen tile flies into the Clue card (App.tsx HIGHLIGHT_MS). */
 const FLIP_AT = 1.0
@@ -166,6 +167,10 @@ export function play(cue: Cue) {
       // a woodblock-ish click for each of the last seconds
       tone(1100, 0, 0.05, 'square', 0.05)
       tone(2200, 0, 0.03, 'sine', 0.04)
+      break
+    case 'beep':
+      // the wait before you can Ring In / answer: one per second
+      tone(740, 0, 0.09, 'sine', 0.08)
       break
     case 'tickLast':
       tone(1650, 0, 0.09, 'square', 0.06)

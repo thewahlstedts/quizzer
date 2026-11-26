@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { newGame, step, TIMING, type Action, type GameState } from '../engine/game'
 import { seeded } from '../engine/rng'
 import { BANKS } from '../content'
-import { countdownSecond, cuesFor } from './cues'
+import { countdownSecond, cuesFor, waitSecond } from './cues'
 
 const READ = TIMING.selectMs + TIMING.readMs
 
@@ -113,5 +113,48 @@ describe('countdownSecond', () => {
     const s = structuredClone(g.get())
     s.phase = { kind: 'answering', contestant: 'bot1', until, windowLeft: 0 }
     expect(countdownSecond(s, until - 3_000)).toBeNull()
+  })
+})
+
+describe('waitSecond', () => {
+  it('counts each second of the reading wait, but not during the selection animation', () => {
+    const g = game()
+    g.act({ type: 'select', ref: cell(g.get(), false), now: 0 })
+    const s = g.get() // Slow: 10s reading after the 3s selection animation
+    expect(waitSecond(s, TIMING.selectMs - 1)).toBeNull()
+    expect(waitSecond(s, TIMING.selectMs)).toBe(10)
+    expect(waitSecond(s, TIMING.selectMs + 999)).toBe(10)
+    expect(waitSecond(s, TIMING.selectMs + 1_000)).toBe(9)
+    expect(waitSecond(s, READ - 1)).toBe(1)
+    const seconds = new Set<number>()
+    for (let t = 0; t < READ; t += 100) {
+      const w = waitSecond(s, t)
+      if (w !== null) seconds.add(w)
+    }
+    expect(seconds.size).toBe(10) // one beep per second
+  })
+
+  it('has no wait in Instant and a 2s wait in Fast', () => {
+    for (const [mode, n] of [['instant', 0], ['fast', 2]] as const) {
+      const rng = seeded(1)
+      let s = newGame(BANKS[1], 'normal', rng, 'You', mode)
+      s = step(s, { type: 'select', ref: cell(s, false), now: 0 }, rng)
+      const seconds = new Set<number>()
+      for (let t = 0; t < TIMING.selectMs + 3_000; t += 100) {
+        const w = waitSecond(s, t)
+        if (w !== null) seconds.add(w)
+      }
+      expect(seconds.size).toBe(n)
+    }
+  })
+
+  it("is silent for a Bot's Daily Double reading", () => {
+    const g = game(5)
+    g.act({ type: 'select', ref: cell(g.get(), true), now: 0 })
+    g.act({ type: 'ddWager', amount: 500, now: 0 })
+    expect(waitSecond(g.get(), 1_000)).toBe(9)
+    const bot = structuredClone(g.get())
+    bot.selector = 'bot1'
+    expect(waitSecond(bot, 1_000)).toBeNull()
   })
 })

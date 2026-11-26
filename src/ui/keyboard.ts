@@ -58,12 +58,28 @@ function keepRevealed(input: HTMLInputElement, selector: string): () => void {
       window.scrollBy({ top: shift, behavior: smooth ? 'smooth' : 'auto' })
     }
   }
-  vv.addEventListener('resize', fit)
-  // iOS scrolls the input into view itself as the keyboard animates in; correct after it settles.
-  const timer = window.setTimeout(fit, 400)
+  // Measure only once the Clue screen has stopped moving (its glide, the card shrinking), and
+  // debounce: iOS keeps adjusting the scroll while the keyboard animates in, and may scroll the
+  // input into view again after it settles, so re-check on every visual-viewport resize or scroll.
+  let alive = true
+  let debounce = 0
+  const schedule = () => {
+    window.clearTimeout(debounce)
+    debounce = window.setTimeout(async () => {
+      const moving = top.getAnimations({ subtree: true }).filter((a) => a.playState === 'running')
+      await Promise.race([Promise.all(moving.map((a) => a.finished.catch(() => {}))), new Promise((r) => setTimeout(r, 600))])
+      if (alive) fit()
+    }, 120)
+  }
+  vv.addEventListener('resize', schedule)
+  vv.addEventListener('scroll', schedule)
+  const timers = [400, 900].map((ms) => window.setTimeout(schedule, ms))
   return () => {
-    vv.removeEventListener('resize', fit)
-    window.clearTimeout(timer)
+    alive = false
+    vv.removeEventListener('resize', schedule)
+    vv.removeEventListener('scroll', schedule)
+    timers.forEach((t) => window.clearTimeout(t))
+    window.clearTimeout(debounce)
   }
 }
 

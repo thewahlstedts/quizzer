@@ -3,7 +3,7 @@ import { newGame, step, type Action, type GameState } from '../engine/game'
 import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
-import { countdownSecond, cuesFor } from './cues'
+import { countdownSecond, cuesFor, waitSecond } from './cues'
 import { addRecord, recordFromState } from './history'
 
 type Payload = Action extends infer A ? (A extends { now: number } ? Omit<A, 'now'> : never) : never
@@ -46,6 +46,7 @@ export function useGame() {
 
   useEffect(() => {
     let lastTick: string | null = null
+    let lastBeep: string | null = null
     const id = setInterval(() => {
       const t = Date.now()
       setNow(t)
@@ -58,6 +59,11 @@ export function useGame() {
         const key = sec === null ? null : `${s!.phase.kind}:${'until' in s!.phase ? s!.phase.until : ''}:${sec}`
         if (key !== null && key !== lastTick) play(sec === 1 ? 'tickLast' : 'tick')
         lastTick = key
+        // A beep per second through the wait before the Human can Ring In / answer.
+        const w = s ? waitSecond(s, t) : null
+        const wKey = w === null ? null : `${s!.phase.kind}:${'until' in s!.phase ? s!.phase.until : ''}:${w}`
+        if (wKey !== null && wKey !== lastBeep) play('beep')
+        lastBeep = wKey
       }
     }, 100)
     return () => clearInterval(id)
