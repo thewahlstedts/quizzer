@@ -530,7 +530,7 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
   const ref = useRef<HTMLInputElement>(null)
   useEffect(() => ref.current?.select(), [])
   const n = Number(value)
-  const valid = Number.isFinite(n) && n >= min && n <= max
+  const valid = value.trim() !== '' && Number.isInteger(n) && n >= min && n <= max
   return (
     <form
       className="wager-box"
@@ -543,7 +543,7 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
         {label} <small>({money(min)}–{money(max)})</small>
       </label>
       <div className="row">
-        <input ref={ref} type="number" min={min} max={max} step={100} value={value} onChange={(e) => setValue(e.target.value)} />
+        <input ref={ref} type="number" inputMode="numeric" min={min} max={max} step={1} value={value} onChange={(e) => setValue(e.target.value)} />
         <button className="primary" type="submit" disabled={!valid}>
           Lock it in
         </button>
