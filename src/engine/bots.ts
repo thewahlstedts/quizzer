@@ -1,5 +1,5 @@
 import type { BotDifficulty, Board, CellRef, Rng } from './types'
-import { pick, randInt } from './rng'
+import { pick, randInt, shuffle } from './rng'
 
 interface SkillProfile {
   /** Chance of knowing a Rank 1 Clue. */
@@ -87,7 +87,20 @@ export function clamp(n: number, lo: number, hi: number): number {
   return Math.min(hi, Math.max(lo, n))
 }
 
-export const BOT_NAMES: Record<'bot1' | 'bot2', string> = { bot1: 'Ada', bot2: 'Max' }
+/** Pool the two Bots' names are dealt from each game. */
+export const BOT_NAMES: readonly string[] = [
+  'Ada', 'Max', 'Ruby', 'Leo', 'Nora', 'Felix', 'Iris', 'Otto', 'Mabel', 'Hugo',
+  'June', 'Theo', 'Pearl', 'Milo', 'Hazel', 'Jasper', 'Wren', 'Arlo', 'Cleo', 'Rex',
+  'Ivy', 'Gus', 'Stella', 'Ezra', 'Opal', 'Dex', 'Rosa', 'Kip', 'Lola', 'Abe',
+  'Priya', 'Kenji', 'Amara', 'Diego', 'Sana', 'Tariq', 'Mei', 'Kofi', 'Lena', 'Omar',
+]
+
+/** Two distinct Bot names, never matching the Human's name (case-insensitive). */
+export function dealBotNames(rng: Rng, humanName: string): [string, string] {
+  const taken = humanName.trim().toLowerCase()
+  const [a, b] = shuffle(rng, BOT_NAMES.filter((n) => n.toLowerCase() !== taken))
+  return [a, b]
+}
 
 export function randomDelay(rng: Rng, lo: number, hi: number): number {
   return randInt(rng, lo, hi)

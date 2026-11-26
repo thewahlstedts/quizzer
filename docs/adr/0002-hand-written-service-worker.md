@@ -1,0 +1,7 @@
+# Hand-written service worker instead of vite-plugin-pwa
+
+Quizzer is installable as a PWA (`public/manifest.webmanifest`) and works offline via `public/sw.js`, a small hand-written service worker. We chose this over `vite-plugin-pwa`/Workbox because the build emits one HTML page plus a couple of content-hashed files in `/assets/`, so the worker only needs three rules: pages network-first (falling back to the cached shell), `/assets/*` cache-first, Google Fonts stale-while-revalidate. On install it reads the cached `index.html` and caches every `/assets/` file it references, so the app opens offline after the first visit; on each online page load it drops cached assets the new `index.html` no longer references. This avoids a large build-time dependency tree for ~100 lines of code.
+
+## Consequences
+
+A deploy reaches an installed app on its next online launch, with no "update available" prompt. A game in progress is never swapped out mid-session. Cached-asset lookups use `ignoreVary`, because servers may send `Vary: Origin` and Vite's `<script crossorigin>` request carries an `Origin` header the precache request lacks. If the build starts emitting lazily loaded chunks that `index.html` does not reference, they will be cached only once fetched, and pruning will delete them. At that point, generate a precache manifest at build time (or adopt `vite-plugin-pwa`). Bump the cache names in `sw.js` to force a full refresh. Offline, the Bricolage Grotesque font falls back to system fonts until it has been fetched once with the worker active.

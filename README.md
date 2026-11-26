@@ -1,6 +1,6 @@
 # Quizzer
 
-A quiz-show game in the browser: one Human against two Bots (Ada and Max), two Rounds of 6 Categories × 5 Clues, Daily Doubles, and a Final Round.
+A quiz-show game in the browser: one Human against two Bots (with names dealt at random each game), two Rounds of 6 Categories × 5 Clues, Daily Doubles, and a Final Round.
 
 Live at https://quizzer.thewahlstedts.com
 
@@ -23,6 +23,10 @@ npm run build
 ## Review loop
 
 While playing, **Flag** bad Clues and use **I was right** to Override rejected Answers. Both are kept in the browser; use **Download review log** on the start screen to export them as JSON for fixing the bank and tuning the matcher.
+
+## Install (PWA)
+
+Quizzer can be installed to the Home Screen (iOS Safari: Share → Add to Home Screen; Android/desktop Chrome: Install app). It runs standalone and works offline after the first visit. The manifest and icons are in `public/`, and the service worker is `public/sw.js`. It is registered in production builds only (see `docs/adr/0002-hand-written-service-worker.md`).
 
 ## Deploy
 

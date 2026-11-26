@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { dailyDoubleWager, finalWager, knowChance } from './bots'
+import { BOT_NAMES, dailyDoubleWager, dealBotNames, finalWager, knowChance } from './bots'
+import { seeded } from './rng'
 
 describe('knowChance', () => {
   it('falls with Rank and rises with difficulty', () => {
@@ -25,5 +26,32 @@ describe('dailyDoubleWager', () => {
         expect(w).toBeLessThanOrEqual(1000)
       }
     }
+  })
+})
+
+describe('dealBotNames', () => {
+  it('deals two distinct names from the pool', () => {
+    for (let seed = 1; seed <= 200; seed++) {
+      const [a, b] = dealBotNames(seeded(seed), 'You')
+      expect(a).not.toBe(b)
+      expect(BOT_NAMES).toContain(a)
+      expect(BOT_NAMES).toContain(b)
+    }
+  })
+
+  it('never gives a Bot the Human’s name, ignoring case and spaces', () => {
+    for (let seed = 1; seed <= 200; seed++) {
+      const names = dealBotNames(seeded(seed), ' ada ')
+      expect(names).not.toContain('Ada')
+    }
+  })
+
+  it('varies between games', () => {
+    const pairs = new Set(Array.from({ length: 50 }, (_, i) => dealBotNames(seeded(i + 1), 'You').join('|')))
+    expect(pairs.size).toBeGreaterThan(30)
+  })
+
+  it('has unique names in the pool', () => {
+    expect(new Set(BOT_NAMES.map((n) => n.toLowerCase())).size).toBe(BOT_NAMES.length)
   })
 })
