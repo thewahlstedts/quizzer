@@ -287,7 +287,9 @@ function Podiums({ state }: { state: GameState }) {
           className={[
             'podium',
             c.kind,
+            c.id,
             active === c.id ? 'active' : '',
+            p.kind === 'answering' && p.contestant === c.id ? 'rang' : '',
             p.kind === 'board' && state.selector === c.id ? 'selecting' : '',
             state.winners?.includes(c.id) ? 'winner' : '',
           ].join(' ')}
@@ -337,6 +339,22 @@ function PodiumScore({ score }: { score: number }) {
           {money(Math.abs(delta.amount))}
         </span>
       )}
+    </div>
+  )
+}
+
+/** A Bot just Rang In: make it impossible to miss, then show it typing. */
+function BotRangIn({ id, name }: { id: ContestantId; name: string }) {
+  return (
+    <div className={`bot-rang bot-rang-${id}`} role="status">
+      <span className="bot-rang-wave" aria-hidden />
+      <div className="bot-rang-pill">
+        <Avatar id={id} />
+        <span>{name} rang in!</span>
+      </div>
+      <p className="typing">
+        typing<span className="dots" />
+      </p>
     </div>
   )
 }
@@ -542,9 +560,12 @@ function ClueView({
         <AnswerBox onSubmit={(text) => dispatch({ type: 'submitAnswer', text })} />
       )}
 
-      {((p.kind === 'answering' && p.contestant !== 'human') || (p.kind === 'ddAnswering' && state.selector !== 'human')) && (
+      {p.kind === 'answering' && p.contestant !== 'human' && (
+        <BotRangIn key={`${p.contestant}-${clueState.attempts.length}`} id={p.contestant} name={contestant(state, p.contestant).name} />
+      )}
+      {p.kind === 'ddAnswering' && state.selector !== 'human' && (
         <p className="typing">
-          {contestant(state, p.kind === 'answering' ? p.contestant : state.selector).name} is typing<span className="dots" />
+          {contestant(state, state.selector).name} is typing<span className="dots" />
         </p>
       )}
 
