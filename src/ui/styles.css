@@ -335,6 +335,15 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
   .round-tag { display: none; }
 }
 
+/* While the Human types an Answer on a phone, keep the Clue at the top and compact so the
+   Category, Clue, timer and answer box fit above the on-screen keyboard. */
+@media (max-width: 640px), (max-height: 700px) {
+  .play-area:has(.answer-box) { justify-content: flex-start; }
+  .clue-screen:has(.answer-box), .final:has(.answer-box) { gap: 10px; }
+  .clue-screen:has(.answer-box) .clue-card, .final:has(.answer-box) .clue-card { min-height: 0; padding: 18px 20px; }
+  .clue-screen:has(.answer-box) .clue-text, .final:has(.answer-box) .clue-text { font-size: 22px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }

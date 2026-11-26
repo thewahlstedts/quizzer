@@ -580,7 +580,7 @@ function Attempts({ state, attempts }: { state: GameState; attempts: Attempt[] }
 function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' }: { onSubmit: (t: string) => void; placeholder?: string }) {
   const [text, setText] = useState('')
   const ref = useRef<HTMLInputElement>(null)
-  useKeyboardInput(ref)
+  useKeyboardInput(ref, { revealFrom: '.clue-screen, .final' })
   return (
     <form
       className="answer-box"
@@ -609,7 +609,7 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
 function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onSubmit: (n: number) => void; label: string }) {
   const [value, setValue] = useState(String(Math.min(max, Math.max(min, Math.round(max / 2 / 100) * 100))))
   const ref = useRef<HTMLInputElement>(null)
-  useKeyboardInput(ref, true)
+  useKeyboardInput(ref, { select: true })
   const n = Number(value)
   const valid = value.trim() !== '' && Number.isInteger(n) && n >= min && n <= max
   return (
