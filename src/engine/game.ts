@@ -122,8 +122,10 @@ export function newGame(
   rng: Rng,
   humanName = 'You',
   mode: GameMode = 'slow',
+  /** Answers (answerKey) from recent games, to avoid dealing again. */
+  avoidAnswers: ReadonlySet<string> = new Set(),
 ): GameState {
-  const deal = dealCategories(bank, rng)
+  const deal = dealCategories(bank, rng, avoidAnswers)
   const board = buildBoard(deal.round1, 1, rng)
   const nextBoard = buildBoard(deal.round2, 2, rng)
   const [bot1Name, bot2Name] = dealBotNames(rng, humanName)

@@ -4,6 +4,7 @@ import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
 import { countdownSecond, cuesFor, waitSecond } from './cues'
+import { loadRecentAnswers, rememberDeal } from './recent'
 import { addRecord, recordFromState } from './history'
 
 type Payload = Action extends infer A ? (A extends { now: number } ? Omit<A, 'now'> : never) : never
@@ -37,7 +38,11 @@ export function useGame() {
       ref.current = null
       // Also unlocks Web Audio inside this tap, which iOS requires before any sound plays.
       play('start')
-      commit(newGame(BANKS[level], difficulty, rng, name || 'You', mode))
+      const game = newGame(BANKS[level], difficulty, rng, name || 'You', mode, loadRecentAnswers())
+      // Remember what was dealt (not just finished games), so the next game avoids these Answers.
+      const dealt = new Set([...game.board.categories, ...game.nextBoard.categories, ...game.final.options].map((c) => c.id))
+      rememberDeal(BANKS[level].categories.filter((c) => dealt.has(c.id)))
+      commit(game)
     },
     [commit],
   )

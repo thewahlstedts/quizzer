@@ -1,5 +1,15 @@
 import type { Board, Category, Cell, Clue, ClueBank, Rng } from './types'
 import { shuffle } from './rng'
+import { normalize } from './matcher'
+
+/** Two Clues with the same key have essentially the same Answer. */
+export function answerKey(answer: string): string {
+  return normalize(answer)
+}
+
+export function categoryAnswerKeys(category: Category): string[] {
+  return category.clues.map((c) => answerKey(c.answer))
+}
 
 export const CATEGORIES_PER_ROUND = 6
 export const FINAL_OPTIONS = 3
@@ -55,17 +65,40 @@ export interface GameDeal {
   finalOptions: Category[]
 }
 
-/** Randomly deal distinct Categories for both Rounds and the Final Round options. */
-export function dealCategories(bank: ClueBank, rng: Rng): GameDeal {
+/**
+ * Randomly deal distinct Categories for both Rounds and the Final Round options, so that the same
+ * Answer doesn't come up twice: no two dealt Categories share an Answer, and Categories whose
+ * Answers are in `avoid` (Answers from recent games, any Level) are dealt only when there aren't
+ * enough others. If the bank can't satisfy that, it falls back to the least-repeating Categories.
+ */
+export function dealCategories(bank: ClueBank, rng: Rng, avoid: ReadonlySet<string> = new Set()): GameDeal {
   const needed = CATEGORIES_PER_ROUND * 2 + FINAL_OPTIONS
   if (bank.categories.length < needed) {
     throw new Error(`Level ${bank.level} needs at least ${needed} Categories, has ${bank.categories.length}`)
   }
+  // Fewest recently-seen Answers first; the shuffle (and a stable sort) keeps it random among equals.
   const deck = shuffle(rng, bank.categories)
+    .map((c) => ({ c, keys: categoryAnswerKeys(c) }))
+    .map((x) => ({ ...x, recent: x.keys.filter((k) => avoid.has(k)).length }))
+    .sort((a, b) => a.recent - b.recent)
+  const chosen: Category[] = []
+  const used = new Set<string>()
+  // Pass 1: no Answer shared with another dealt Category. Pass 2 (rarely needed): fill the rest.
+  for (const strict of [true, false]) {
+    for (const x of deck) {
+      if (chosen.length === needed) break
+      if (chosen.includes(x.c)) continue
+      if (strict && x.keys.some((k) => used.has(k))) continue
+      chosen.push(x.c)
+      x.keys.forEach((k) => used.add(k))
+    }
+  }
+  // The board order shouldn't reveal which Categories were preferred.
+  const dealt = shuffle(rng, chosen)
   return {
-    round1: deck.slice(0, 6),
-    round2: deck.slice(6, 12),
-    finalOptions: deck.slice(12, 15),
+    round1: dealt.slice(0, 6),
+    round2: dealt.slice(6, 12),
+    finalOptions: dealt.slice(12, 15),
   }
 }
 

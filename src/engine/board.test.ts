@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildBoard, dealCategories, valueFor } from './board'
+import { buildBoard, categoryAnswerKeys, dealCategories, valueFor, type GameDeal } from './board'
 import { seeded } from './rng'
 import { BANKS } from '../content'
 
@@ -13,6 +13,28 @@ describe('board', () => {
     const d = dealCategories(BANKS[1], seeded(1))
     const ids = [...d.round1, ...d.round2, ...d.finalOptions].map((c) => c.id)
     expect(new Set(ids).size).toBe(15)
+  })
+  it('never deals two Categories that share an Answer', () => {
+    for (const level of [1, 2, 3, 4] as const) {
+      for (let seed = 0; seed < 100; seed++) {
+        const keys = dealtKeys(dealCategories(BANKS[level], seeded(seed)))
+        expect(new Set(keys).size).toBe(keys.length)
+      }
+    }
+  })
+  it("avoids recent games' Answers, across Levels", () => {
+    for (let seed = 0; seed < 50; seed++) {
+      const rng = seeded(seed)
+      // a Level 3 game, then a Level 4 game remembering it (the reported case)
+      const first = new Set(dealtKeys(dealCategories(BANKS[3], rng)))
+      const second = dealtKeys(dealCategories(BANKS[4], rng, first))
+      expect(second.filter((k) => first.has(k))).toEqual([])
+    }
+  })
+  it('still deals a full game when almost everything is to be avoided', () => {
+    const all = new Set(BANKS[1].categories.flatMap(categoryAnswerKeys))
+    const d = dealCategories(BANKS[1], seeded(1), all)
+    expect(new Set([...d.round1, ...d.round2, ...d.finalOptions].map((c) => c.id)).size).toBe(15)
   })
   it('places 1 Daily Double in Round 1 and 2 in Round 2, never in the top row', () => {
     for (let seed = 0; seed < 200; seed++) {
@@ -28,3 +50,7 @@ describe('board', () => {
     }
   })
 })
+
+function dealtKeys(d: GameDeal): string[] {
+  return [...d.round1, ...d.round2, ...d.finalOptions].flatMap(categoryAnswerKeys)
+}
