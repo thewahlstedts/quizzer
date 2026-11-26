@@ -73,6 +73,16 @@ _Avoid_: Final Jeopardy
 **Masked Answer**:
 What is shown when a Bot answers wrong: asterisks matching the correct Answer's character count, with spaces placed at random. A correct Bot shows its Answer.
 
+## Stats
+
+**Earnings**:
+The Human's final score in a game (can be negative). Stats add them up for Today, This week (from Sunday), This month and All time.
+_Avoid_: Winnings, money, total
+
+**Game History**:
+The finished games kept in this browser for the Human to review: when, Level, Bot Difficulty, Mode, every Contestant's final score, the Human's place, Earnings and correct/wrong Answers. Quit games aren't recorded.
+_Avoid_: Log, past games
+
 ## Review
 
 **Override**:

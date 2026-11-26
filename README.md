@@ -24,6 +24,10 @@ npm run build
 
 While playing, **Flag** bad Clues and use **I was right** to Override rejected Answers. Both are kept in the browser; use **Download review log** on the start screen to export them as JSON for fixing the bank and tuning the matcher.
 
+## Stats and history
+
+Every finished game is saved in the browser (`src/ui/history.ts`). The start screen shows Earnings, games, wins, accuracy and best game for Today, This week (from Sunday), This month and All time, with the game history below. Quit games aren't recorded. On iOS the Home Screen app's storage is separate from Safari's.
+
 ## Install (PWA)
 
 Quizzer can be installed to the Home Screen (iOS Safari: Share → Add to Home Screen; Android/desktop Chrome: Install app). It runs standalone and works offline after the first visit. The manifest and icons are in `public/`, and the service worker is `public/sw.js`. It is registered in production builds only (see `docs/adr/0002-hand-written-service-worker.md`).

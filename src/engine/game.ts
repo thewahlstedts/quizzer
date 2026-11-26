@@ -95,6 +95,8 @@ export interface GameState {
   final: FinalState
   phase: Phase
   winners?: ContestantId[]
+  /** The Human's judged Answers this game (Overrides move one from wrong to correct). */
+  tally: { correct: number; wrong: number }
 }
 
 export type Action =
@@ -144,6 +146,7 @@ export function newGame(
       botSubmitAt: {},
     },
     phase: { kind: 'board' },
+    tally: { correct: 0, wrong: 0 },
   }
 }
 
@@ -400,6 +403,7 @@ function resolveClueAnswer(
   const delta = correct ? cell.value : -cell.value
   contestant(s, id).score += delta
   s.clue!.attempts.push({ contestant: id, typed, display, correct, matchScore, delta })
+  if (id === 'human') countHuman(s, correct)
   if (correct) {
     s.clue!.correctBy = id
     s.selector = id
@@ -441,6 +445,7 @@ function resolveDailyDouble(s: GameState, typed: string, display: string, botKno
   const delta = correct ? wager : -wager
   contestant(s, id).score += delta
   s.clue!.attempts.push({ contestant: id, typed, display, correct, matchScore, delta })
+  if (id === 'human') countHuman(s, correct)
   if (correct) s.clue!.correctBy = id
   s.phase = { kind: 'reveal' }
   return s
@@ -528,9 +533,15 @@ function finishFinal(s: GameState, rng: Rng): GameState {
     const wager = s.final.wagers[id] ?? 0
     answer.delta = answer.correct ? wager : -wager
     contestant(s, id).score += answer.delta
+    if (id === 'human') countHuman(s, answer.correct)
   }
   s.phase = { kind: 'finalReveal' }
   return s
+}
+
+function countHuman(s: GameState, correct: boolean) {
+  if (correct) s.tally.correct += 1
+  else s.tally.wrong += 1
 }
 
 function endGame(s: GameState): GameState {
@@ -548,6 +559,8 @@ function applyOverride(s: GameState, prev: GameState): GameState {
   const stake = Math.abs(target.delta)
   target.correct = true
   target.overridden = true
+  s.tally.correct += 1
+  s.tally.wrong -= 1
   target.delta = stake
   contestant(s, 'human').score += 2 * stake
   if (s.phase.kind === 'reveal' && s.clue && !s.clue.correctBy) {
