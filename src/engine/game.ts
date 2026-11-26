@@ -29,7 +29,7 @@ import { pick } from './rng'
 
 export const TIMING = {
   /** Selection animation before a Clue's reading time starts (Ring In is ignored). */
-  selectMs: 1_500,
+  selectMs: 3_000,
   readMs: 10_000,
   ringMs: 30_000,
   answerMs: 60_000,
@@ -332,7 +332,10 @@ function selectCell(s: GameState, ref: CellRef, now: number, rng: Rng): GameStat
   cell.played = true
   s.clue = { ref, attempts: [], botKnows: {}, botRingAt: {} }
   for (const id of IDS.filter(isBot)) s.clue.botKnows[id] = rollKnows(s.botDifficulty, cell.clue.rank, rng)
-  s.phase = cell.dailyDouble ? { kind: 'ddWager' } : { kind: 'reading', until: now + TIMING.selectMs + TIMING.readMs }
+  s.phase = cell.dailyDouble
+    ? // A Bot's Wager waits for the selection animation, so its reading time isn't spent behind it.
+      { kind: 'ddWager', botWagerAt: isBot(s.selector) ? now + TIMING.selectMs + TIMING.botWagerMs : undefined }
+    : { kind: 'reading', until: now + TIMING.selectMs + TIMING.readMs }
   return s
 }
 

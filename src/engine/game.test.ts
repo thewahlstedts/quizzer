@@ -118,6 +118,22 @@ describe('Daily Double', () => {
     g.dispatch({ type: 'submitAnswer', text: currentCell(g.get())!.clue.answer, now: READ + 1 })
     expect(contestant(g.get(), 'human').score).toBe(1000)
   })
+
+  it('makes a Bot wait out the selection animation before Wagering', () => {
+    const g = setup(5)
+    const s0 = g.get()
+    s0.selector = 'bot1'
+    // Leave only the Daily Double unplayed so the Bot must pick it.
+    s0.board.cells.forEach((col) => col.forEach((cell) => (cell.played = !cell.dailyDouble)))
+    g.dispatch({ type: 'tick', now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.botPickMs })
+    expect(g.get().phase.kind).toBe('ddWager')
+    const wagerAt = TIMING.botPickMs + TIMING.selectMs + TIMING.botWagerMs
+    g.dispatch({ type: 'tick', now: wagerAt - 1 })
+    expect(g.get().phase.kind).toBe('ddWager')
+    g.dispatch({ type: 'tick', now: wagerAt })
+    expect(g.get().phase).toEqual({ kind: 'ddReading', until: wagerAt + TIMING.readMs })
+  })
 })
 
 /** Drive a whole game with the Human never answering, to check it always terminates. */

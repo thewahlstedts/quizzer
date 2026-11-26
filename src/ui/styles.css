@@ -261,7 +261,13 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 
 /* ---------- selection animation ---------- */
 .board.has-chosen .tile:not(.chosen),
-.board.has-chosen .cat { opacity: 0.35; transition: opacity 0.3s ease; }
+.board.has-chosen .cat:not(.chosen) { opacity: 0.35; transition: opacity 0.3s ease; }
+.board.has-chosen .cat.chosen {
+  position: relative; z-index: 2; color: var(--gold);
+  border-color: var(--gold); box-shadow: 0 0 24px rgba(255, 201, 74, 0.45);
+  animation: chosen-cat 0.3s ease-out both;
+}
+@keyframes chosen-cat { from { transform: scale(1); } to { transform: scale(1.08); } }
 .tile.chosen {
   position: relative; z-index: 2; color: #2a1a00;
   background: linear-gradient(180deg, var(--gold), var(--gold-deep));
@@ -279,13 +285,17 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
   position: absolute; inset: 0; z-index: 1; border-radius: inherit;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
   background: linear-gradient(180deg, var(--gold), var(--gold-deep)); color: #2a1a00;
-  animation: flip-face-out 0.45s ease 0.45s forwards;
+  animation: flip-face-out 0.4s ease 1.6s forwards; /* timing overridden inline from App.tsx */
   pointer-events: none;
 }
-.flip-cat { font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: clamp(12px, 1.6vw, 16px); opacity: 0.8; text-align: center; padding: 0 12px; }
-.flip-val { font-family: var(--display); font-weight: 800; font-size: clamp(40px, 8vw, 88px); line-height: 1; }
+.flip-cat {
+  font-family: var(--display); font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em;
+  font-size: clamp(24px, 5vw, 52px); line-height: 1.1; text-align: center; text-wrap: balance;
+  overflow-wrap: anywhere; padding: 0 16px;
+}
+.flip-val { font-family: var(--display); font-weight: 700; font-size: clamp(18px, 3vw, 30px); line-height: 1; opacity: 0.75; }
 @keyframes flip-face-out { to { opacity: 0; visibility: hidden; } }
-.clue-screen.entering > .clue-meta, .clue-screen.entering > .timer, .clue-screen.entering > .ring { animation: rise 0.35s ease 0.55s both; }
+.clue-screen.entering > .clue-meta, .clue-screen.entering > .timer, .clue-screen.entering > .ring { animation: rise 0.35s ease var(--enter-delay, 1.8s) both; }
 
 @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
