@@ -1,6 +1,6 @@
 # Quizzer
 
-A quiz-show game in the browser: one Human against two Bots (Ada and Max), two Rounds of 6 Categories × 5 Clues, Daily Doubles, and a Final Round.
+A quiz-show game in the browser: one Human against two Bots (with names dealt at random each game), two Rounds of 6 Categories × 5 Clues, Daily Doubles, and a Final Round.
 
 Live at https://quizzer.thewahlstedts.com
 

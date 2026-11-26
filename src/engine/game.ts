@@ -13,7 +13,7 @@ import type {
 } from './types'
 import { boardCleared, buildBoard, clueOfRank, dealCategories, topValue } from './board'
 import {
-  BOT_NAMES,
+  dealBotNames,
   chooseCell,
   clamp,
   dailyDoubleWager,
@@ -111,17 +111,20 @@ export function newGame(
   humanName = 'You',
 ): GameState {
   const deal = dealCategories(bank, rng)
+  const board = buildBoard(deal.round1, 1, rng)
+  const nextBoard = buildBoard(deal.round2, 2, rng)
+  const [bot1Name, bot2Name] = dealBotNames(rng, humanName)
   return {
     level: bank.level,
     botDifficulty,
     round: 1,
     contestants: [
       { id: 'human', name: humanName, kind: 'human', score: 0 },
-      { id: 'bot1', name: BOT_NAMES.bot1, kind: 'bot', score: 0 },
-      { id: 'bot2', name: BOT_NAMES.bot2, kind: 'bot', score: 0 },
+      { id: 'bot1', name: bot1Name, kind: 'bot', score: 0 },
+      { id: 'bot2', name: bot2Name, kind: 'bot', score: 0 },
     ],
-    board: buildBoard(deal.round1, 1, rng),
-    nextBoard: buildBoard(deal.round2, 2, rng),
+    board,
+    nextBoard,
     selector: 'human',
     final: {
       options: deal.finalOptions.map((c) => ({ id: c.id, name: c.name, clue: clueOfRank(c, 5) })),
