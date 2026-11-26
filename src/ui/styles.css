@@ -360,6 +360,15 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
   border: 1px solid rgba(255, 201, 74, 0.5); animation: rise 0.4s ease;
 }
 .dd-splash h2 { font-family: var(--display); font-weight: 800; font-size: clamp(36px, 7vw, 72px); margin: 0 0 18px; color: var(--gold); letter-spacing: -0.02em; text-shadow: 0 4px 30px rgba(255, 201, 74, 0.5); }
+.bot-wager { --who: var(--coral); display: grid; justify-items: center; gap: 6px; }
+.bot-wager-bot2 { --who: var(--teal); }
+.bot-wager h2 { margin-bottom: 8px; }
+.bot-wager-line { display: flex; align-items: center; gap: 10px; color: var(--who); font-weight: 800; font-size: 20px; }
+.bot-wager-line .avatar { width: 34px; height: 34px; font-size: 16px; }
+.bot-wager-amount {
+  font-family: var(--display); font-weight: 800; font-size: clamp(44px, 9vw, 80px); line-height: 1; color: var(--who);
+  text-shadow: 0 0 30px var(--who); animation: stamp-in 0.45s cubic-bezier(.2, 1.6, .4, 1) 0.15s both;
+}
 .wager-box { display: grid; gap: 10px; justify-items: center; }
 .wager-box label { font-weight: 700; }
 .wager-box label small { color: var(--muted); font-weight: 500; }
