@@ -25,6 +25,7 @@ import { money } from './format'
 import { loadHistory, recordFromState, summarize } from './history'
 import { resultText } from './share'
 import { ShareButton } from './ShareButton'
+import { AUTO_CONTINUE_MS, loadAutoContinue, saveAutoContinue } from './settings'
 import { StatsCard } from './Stats'
 
 type Dispatch = ReturnType<typeof useGame>['dispatch']
@@ -75,6 +76,7 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
   )
   const [name, setName] = useState(() => localStorage.getItem('quizzer.name') ?? '')
   const [mode, setMode] = useState<GameMode>(() => normalizeMode(localStorage.getItem('quizzer.mode')))
+  const [autoContinue, setAutoContinue] = useState(loadAutoContinue)
   const [log, setLog] = useState(loadLog)
 
   const start = () => {
@@ -141,6 +143,27 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
           </div>
           <small className="field-note">
             {MODE_NOTE[mode]}
+          </small>
+        </div>
+
+        <div className="field">
+          <span>Auto continue</span>
+          <div className="segmented">
+            {[false, true].map((on) => (
+              <button
+                key={String(on)}
+                className={on === autoContinue ? 'on' : ''}
+                onClick={() => {
+                  setAutoContinue(on)
+                  saveAutoContinue(on)
+                }}
+              >
+                {on ? 'On' : 'Off'}
+              </button>
+            ))}
+          </div>
+          <small className="field-note">
+            {autoContinue ? `After each clue, the next one starts by itself in ${AUTO_CONTINUE_MS / 1000} seconds.` : 'Press Continue after each clue.'}
           </small>
         </div>
 
@@ -652,6 +675,7 @@ function ClueView({
 
       {p.kind === 'reveal' && (
         <RevealActions
+          auto
           state={state}
           clue={cell.clue}
           dispatch={dispatch}
@@ -890,17 +914,35 @@ function RevealActions({
   clue,
   dispatch,
   summary,
+  auto = false,
 }: {
   state: GameState
   clue: Clue
   dispatch: Dispatch
   summary: string
+  /** Continue by itself after AUTO_CONTINUE_MS when the Auto continue setting is on. */
+  auto?: boolean
 }) {
   const [flagging, setFlagging] = useState(false)
   const [flagged, setFlagged] = useState(false)
   const overridable = overridableAttempt(state)
   const ref = useRef<HTMLButtonElement>(null)
   useEffect(() => ref.current?.focus(), [])
+  const autoOn = useState(() => auto && loadAutoContinue())[0]
+  // The countdown restarts after an Override and pauses while the Flag dialog is open.
+  const [autoFrom, setAutoFrom] = useState(() => Date.now())
+  const [left, setLeft] = useState(AUTO_CONTINUE_MS)
+  useEffect(() => {
+    if (!autoOn || flagging) return
+    const id = setInterval(() => {
+      const rest = AUTO_CONTINUE_MS - (Date.now() - autoFrom)
+      if (rest <= 0) {
+        clearInterval(id)
+        dispatch({ type: 'continue' })
+      } else setLeft(rest)
+    }, 200)
+    return () => clearInterval(id)
+  }, [autoOn, flagging, autoFrom, dispatch])
 
   return (
     <div className="reveal-actions">
@@ -912,6 +954,7 @@ function RevealActions({
             onClick={() => {
               logOverride(state.level, clue, overridable.typed, overridable.matchScore)
               dispatch({ type: 'override' })
+              setAutoFrom(Date.now())
             }}
           >
             I was right
@@ -920,17 +963,24 @@ function RevealActions({
         <button className="ghost" disabled={flagged} onClick={() => setFlagging(true)}>
           {flagged ? 'Flagged ✓' : 'Flag clue'}
         </button>
-        <button ref={ref} className="primary" onClick={() => dispatch({ type: 'continue' })}>
-          Continue
+        <button ref={ref} className={'primary' + (autoOn && !flagging ? ' auto' : '')} onClick={() => dispatch({ type: 'continue' })}>
+          Continue{autoOn && !flagging ? ` · ${Math.ceil(left / 1000)}` : ''}
+          {autoOn && !flagging && <span key={autoFrom} className="auto-bar" style={{ animationDuration: `${AUTO_CONTINUE_MS}ms` }} aria-hidden />}
         </button>
       </div>
       {flagging && (
         <FlagDialog
-          onCancel={() => setFlagging(false)}
+          onCancel={() => {
+            setFlagging(false)
+            setAutoFrom(Date.now())
+            setLeft(AUTO_CONTINUE_MS)
+          }}
           onSubmit={(reason, note) => {
             logFlag(state.level, clue, reason, note)
             setFlagging(false)
             setFlagged(true)
+            setAutoFrom(Date.now())
+            setLeft(AUTO_CONTINUE_MS)
           }}
         />
       )}
