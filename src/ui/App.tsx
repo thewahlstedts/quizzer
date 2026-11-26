@@ -22,7 +22,9 @@ import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, typ
 import { isMuted, setMuted } from './sound'
 import { dismissKeyboard, useKeyboardInput } from './keyboard'
 import { money } from './format'
-import { loadHistory, summarize } from './history'
+import { loadHistory, recordFromState, summarize } from './history'
+import { resultText } from './share'
+import { ShareButton } from './ShareButton'
 import { StatsCard } from './Stats'
 
 type Dispatch = ReturnType<typeof useGame>['dispatch']
@@ -1137,6 +1139,7 @@ function GameOver({ state }: { state: GameState }) {
       </h2>
       {state.round === 'final' && !state.final.categoryId && <p>Nobody had more than $0, so there was no Final Round.</p>}
       <GameOverEarnings earned={contestant(state, 'human').score} />
+      <ShareButton className="primary big" label="Share result" getText={() => resultText(recordFromState(state, Date.now()))} />
       <p className="hint">Press New game to play again. Your stats are on the start screen.</p>
     </div>
   )
