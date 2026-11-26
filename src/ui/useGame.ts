@@ -3,7 +3,7 @@ import { newGame, step, type Action, type GameState } from '../engine/game'
 import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
-import { cuesFor } from './cues'
+import { countdownSecond, cuesFor } from './cues'
 import { addRecord, recordFromState } from './history'
 
 type Payload = Action extends infer A ? (A extends { now: number } ? Omit<A, 'now'> : never) : never
@@ -45,12 +45,19 @@ export function useGame() {
   const quit = useCallback(() => commit(null), [commit])
 
   useEffect(() => {
+    let lastTick: string | null = null
     const id = setInterval(() => {
       const t = Date.now()
       setNow(t)
       if (ref.current) {
         const next = step(ref.current, { type: 'tick', now: t }, rng)
         if (next !== ref.current) commit(next)
+        // Countdown: one tick per second for the last few seconds of the Human's timer.
+        const s = ref.current
+        const sec = s ? countdownSecond(s, t) : null
+        const key = sec === null ? null : `${s!.phase.kind}:${'until' in s!.phase ? s!.phase.until : ''}:${sec}`
+        if (key !== null && key !== lastTick) play(sec === 1 ? 'tickLast' : 'tick')
+        lastTick = key
       }
     }, 100)
     return () => clearInterval(id)

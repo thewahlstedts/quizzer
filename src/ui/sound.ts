@@ -20,6 +20,26 @@ export function setMuted(m: boolean) {
   }
 }
 
+/** Overall loudness. The cues are written quietly; this lifts them for phone speakers. */
+const MASTER_GAIN = 2.5
+let out: AudioNode | null = null
+
+/** Everything plays through a master gain and a limiter, so stacked notes don't distort. */
+function output(c: AudioContext): AudioNode {
+  if (out) return out
+  const limiter = c.createDynamicsCompressor()
+  limiter.threshold.value = -8
+  limiter.knee.value = 0
+  limiter.ratio.value = 20
+  limiter.attack.value = 0.002
+  limiter.release.value = 0.15
+  const master = c.createGain()
+  master.gain.value = MASTER_GAIN
+  master.connect(limiter).connect(c.destination)
+  out = master
+  return out
+}
+
 function tone(freq: number, start: number, dur: number, type: OscillatorType = 'sine', gain = 0.12, slideTo?: number) {
   if (!ctx) return
   const t = ctx.currentTime + start
@@ -31,7 +51,7 @@ function tone(freq: number, start: number, dur: number, type: OscillatorType = '
   g.gain.setValueAtTime(0, t)
   g.gain.linearRampToValueAtTime(gain, t + 0.01)
   g.gain.exponentialRampToValueAtTime(0.0001, t + dur)
-  o.connect(g).connect(ctx.destination)
+  o.connect(g).connect(output(ctx))
   o.start(t)
   o.stop(t + dur + 0.05)
 }
@@ -55,7 +75,7 @@ function whoosh(start: number, dur: number, gain = 0.08) {
   g.gain.setValueAtTime(0, t)
   g.gain.linearRampToValueAtTime(gain, t + dur * 0.4)
   g.gain.exponentialRampToValueAtTime(0.0001, t + dur)
-  src.connect(filter).connect(g).connect(ctx.destination)
+  src.connect(filter).connect(g).connect(output(ctx))
   src.start(t)
   src.stop(t + dur + 0.05)
 }
@@ -75,6 +95,8 @@ export type Cue =
   | 'reveal'
   | 'win'
   | 'lose'
+  | 'tick'
+  | 'tickLast'
 
 /** When the chosen tile flies into the Clue card (App.tsx HIGHLIGHT_MS). */
 const FLIP_AT = 1.0
@@ -139,6 +161,15 @@ export function play(cue: Cue) {
     case 'win':
       ;[523, 659, 784, 1047].forEach((f, i) => tone(f, i * 0.14, 0.35, 'triangle', 0.1))
       ;[1047, 1319, 1568].forEach((f) => tone(f, 0.6, 0.9, 'sine', 0.06))
+      break
+    case 'tick':
+      // a woodblock-ish click for each of the last seconds
+      tone(1100, 0, 0.05, 'square', 0.05)
+      tone(2200, 0, 0.03, 'sine', 0.04)
+      break
+    case 'tickLast':
+      tone(1650, 0, 0.09, 'square', 0.06)
+      tone(3300, 0, 0.05, 'sine', 0.05)
       break
     case 'lose':
       ;[440, 392, 349, 294].forEach((f, i) => tone(f, i * 0.22, 0.35, 'triangle', 0.08))
