@@ -84,6 +84,38 @@ input, textarea { font: inherit; color: var(--text); }
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
 }
 .review-card { padding: 18px 22px; }
+
+/* ---------- stats & history ---------- */
+.stats-card {
+  background: linear-gradient(180deg, var(--panel), var(--bg-2));
+  border: 1px solid var(--line); border-radius: 22px; padding: 20px 22px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45); display: grid; gap: 14px; min-width: 0;
+}
+.stats-card h3 { margin: 0; font-family: var(--display); }
+.stats-periods button { font-size: 14px; padding-left: 4px; padding-right: 4px; }
+.stats-earnings { display: grid; gap: 2px; }
+.stats-label { color: var(--muted); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+.stats-big { font-family: var(--display); font-weight: 800; font-size: 34px; color: var(--gold); line-height: 1.1; }
+.stats-earnings.neg .stats-big, .stats-big.neg { color: var(--coral); }
+.stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 0; }
+.stats-grid div { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; min-width: 0; }
+.stats-grid dt { color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.stats-grid dd { margin: 2px 0 0; font-family: var(--display); font-weight: 800; font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.stats-grid small { font-family: system-ui, sans-serif; font-weight: 600; font-size: 12px; color: var(--muted); }
+.stats-empty { margin: 0; color: var(--muted); font-size: 14px; }
+.history { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.history li { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; min-width: 0; }
+.history li.won { border-color: rgba(255, 201, 74, 0.45); }
+.history-top { display: flex; justify-content: space-between; gap: 8px; font-weight: 800; font-family: var(--display); }
+.history li.won .history-place { color: var(--gold); }
+.history-earn { color: var(--gold); }
+.history-earn.neg { color: var(--coral); }
+.history-meta { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.gameover-earnings { display: flex; justify-content: center; gap: 28px; margin: 6px 0 4px; }
+.gameover-earnings > div { display: grid; justify-items: center; gap: 2px; }
+@media (max-width: 420px) {
+  .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 .review-card h3 { margin: 0 0 4px; font-family: var(--display); }
 .review-card p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
 .setup-card h2 { font-family: var(--display); font-size: 40px; margin: 4px 0 22px; letter-spacing: -0.02em; }

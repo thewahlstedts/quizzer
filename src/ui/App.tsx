@@ -14,10 +14,12 @@ import { useGame } from './useGame'
 import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, type FlagReason } from './review'
 import { isMuted, setMuted } from './sound'
 import { dismissKeyboard, useKeyboardInput } from './keyboard'
+import { money } from './format'
+import { loadHistory, summarize } from './history'
+import { StatsCard } from './Stats'
 
 type Dispatch = ReturnType<typeof useGame>['dispatch']
 
-const money = (n: number) => (n < 0 ? `-$${Math.abs(n).toLocaleString()}` : `$${n.toLocaleString()}`)
 
 export default function App() {
   const game = useGame()
@@ -152,6 +154,8 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
           </ul>
         </details>
       </section>
+
+      <StatsCard />
 
       <section className="review-card">
         <h3>Review log</h3>
@@ -990,6 +994,23 @@ function FinalReveal({ state, dispatch }: { state: GameState; dispatch: Dispatch
   )
 }
 
+/** This game's Earnings and the lifetime total (the game was recorded as it ended). */
+function GameOverEarnings({ earned }: { earned: number }) {
+  const [lifetime] = useState(() => summarize(loadHistory()).earnings)
+  return (
+    <div className="gameover-earnings">
+      <div>
+        <span className="stats-label">This game</span>
+        <span className={'stats-big' + (earned < 0 ? ' neg' : '')}>{money(earned)}</span>
+      </div>
+      <div>
+        <span className="stats-label">Lifetime</span>
+        <span className={'stats-big' + (lifetime < 0 ? ' neg' : '')}>{money(lifetime)}</span>
+      </div>
+    </div>
+  )
+}
+
 function GameOver({ state }: { state: GameState }) {
   const winners = state.winners ?? []
   const names = winners.map((id) => contestant(state, id).name)
@@ -1005,7 +1026,8 @@ function GameOver({ state }: { state: GameState }) {
           : `${names.join(' & ')} win${names.length > 1 ? '' : 's'}.`}
       </h2>
       {state.round === 'final' && !state.final.categoryId && <p>Nobody had more than $0, so there was no Final Round.</p>}
-      <p className="hint">Press New game to play again.</p>
+      <GameOverEarnings earned={contestant(state, 'human').score} />
+      <p className="hint">Press New game to play again. Your stats are on the start screen.</p>
     </div>
   )
 }

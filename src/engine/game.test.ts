@@ -47,6 +47,7 @@ describe('normal Clue', () => {
     expect(g.get().phase.kind).toBe('reveal')
     expect(contestant(g.get(), 'human').score).toBe(cell.value)
     expect(g.get().selector).toBe('human')
+    expect(g.get().tally).toEqual({ correct: 1, wrong: 0 })
   })
 
   it('deducts on a wrong Answer, resumes the remaining window, and allows an Override', () => {
@@ -61,6 +62,7 @@ describe('normal Clue', () => {
     g.dispatch({ type: 'submitAnswer', text: 'zzzz nonsense', now: READ + 15_000 })
     const value = currentCell(g.get())!.value
     expect(contestant(g.get(), 'human').score).toBe(-value)
+    expect(g.get().tally).toEqual({ correct: 0, wrong: 1 })
     const p = g.get().phase
     expect(p.kind).toBe('ringIn')
     if (p.kind === 'ringIn') expect(p.until).toBe(READ + 15_000 + 20_000)
@@ -73,9 +75,11 @@ describe('normal Clue', () => {
     g.dispatch({ type: 'override', now: 0 })
     expect(contestant(g.get(), 'human').score).toBe(value)
     expect(g.get().selector).toBe('human')
+    expect(g.get().tally).toEqual({ correct: 1, wrong: 0 })
     // only once
     g.dispatch({ type: 'override', now: 0 })
     expect(contestant(g.get(), 'human').score).toBe(value)
+    expect(g.get().tally).toEqual({ correct: 1, wrong: 0 })
   })
 
   it('times out an unanswered ring-in as wrong', () => {

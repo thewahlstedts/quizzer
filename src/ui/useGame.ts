@@ -3,6 +3,7 @@ import { newGame, step, type Action, type GameState } from '../engine/game'
 import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
+import { addRecord, recordFromState } from './history'
 
 type Payload = Action extends infer A ? (A extends { now: number } ? Omit<A, 'now'> : never) : never
 
@@ -17,6 +18,8 @@ export function useGame() {
     const prev = ref.current
     ref.current = next
     if (prev && next && prev !== next) cues(prev, next)
+    // Record a finished game once, as it reaches Game Over (quit games aren't recorded).
+    if (next?.phase.kind === 'gameOver' && prev?.phase.kind !== 'gameOver') addRecord(recordFromState(next, Date.now()))
     setState(next)
   }, [])
 
