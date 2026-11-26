@@ -1,0 +1,2395 @@
+{
+  "level": 3,
+  "categories": [
+    {
+      "id": "l3c-novel-approach",
+      "name": "Novel Approach",
+      "clues": [
+        {
+          "id": "l3c-novel-approach-1",
+          "rank": 1,
+          "clue": "In \"Of Mice and Men,\" this large, gentle ranch hand dreams of tending rabbits.",
+          "answer": "Lennie",
+          "alternates": [
+            "Lennie Small"
+          ]
+        },
+        {
+          "id": "l3c-novel-approach-2",
+          "rank": 2,
+          "clue": "Holden Caulfield narrates this J.D. Salinger novel.",
+          "answer": "The Catcher in the Rye",
+          "alternates": [
+            "Catcher in the Rye"
+          ]
+        },
+        {
+          "id": "l3c-novel-approach-3",
+          "rank": 3,
+          "clue": "In \"Fahrenheit 451,\" Guy Montag holds this job, which means burning books.",
+          "answer": "Fireman",
+          "alternates": [
+            "firefighter"
+          ]
+        },
+        {
+          "id": "l3c-novel-approach-4",
+          "rank": 4,
+          "clue": "In \"Animal Farm,\" this pig takes power and drives out Snowball.",
+          "answer": "Napoleon",
+          "alternates": []
+        },
+        {
+          "id": "l3c-novel-approach-5",
+          "rank": 5,
+          "clue": "\"It was the best of times, it was the worst of times\" opens this Charles Dickens novel.",
+          "answer": "A Tale of Two Cities",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-bard-to-the-bone",
+      "name": "Bard to the Bone",
+      "clues": [
+        {
+          "id": "l3c-bard-to-the-bone-1",
+          "rank": 1,
+          "clue": "This jealous general is manipulated by the scheming Iago.",
+          "answer": "Othello",
+          "alternates": []
+        },
+        {
+          "id": "l3c-bard-to-the-bone-2",
+          "rank": 2,
+          "clue": "In \"A Midsummer Night's Dream,\" Puck gives this weaver a donkey's head.",
+          "answer": "Bottom",
+          "alternates": [
+            "Nick Bottom"
+          ]
+        },
+        {
+          "id": "l3c-bard-to-the-bone-3",
+          "rank": 3,
+          "clue": "In \"Julius Caesar,\" a soothsayer warns Caesar to beware this date.",
+          "answer": "Ides of March",
+          "alternates": [
+            "March 15",
+            "15th of March"
+          ]
+        },
+        {
+          "id": "l3c-bard-to-the-bone-4",
+          "rank": 4,
+          "clue": "In \"King Lear,\" this youngest daughter refuses to flatter her father.",
+          "answer": "Cordelia",
+          "alternates": []
+        },
+        {
+          "id": "l3c-bard-to-the-bone-5",
+          "rank": 5,
+          "clue": "This exiled duke and magician rules an island in \"The Tempest.\"",
+          "answer": "Prospero",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-poetic-justice",
+      "name": "Poetic Justice",
+      "clues": [
+        {
+          "id": "l3c-poetic-justice-1",
+          "rank": 1,
+          "clue": "\"Two roads diverged in a yellow wood\" begins this Robert Frost poem.",
+          "answer": "The Road Not Taken",
+          "alternates": [
+            "Road Not Taken"
+          ]
+        },
+        {
+          "id": "l3c-poetic-justice-2",
+          "rank": 2,
+          "clue": "This writer's poem \"The Raven\" repeats the word \"Nevermore.\"",
+          "answer": "Edgar Allan Poe",
+          "alternates": [
+            "Poe"
+          ]
+        },
+        {
+          "id": "l3c-poetic-justice-3",
+          "rank": 3,
+          "clue": "\"Because I could not stop for Death\" is by this reclusive poet from Amherst, Massachusetts.",
+          "answer": "Emily Dickinson",
+          "alternates": [
+            "Dickinson"
+          ]
+        },
+        {
+          "id": "l3c-poetic-justice-4",
+          "rank": 4,
+          "clue": "This American poet wrote the collection \"Leaves of Grass.\"",
+          "answer": "Walt Whitman",
+          "alternates": [
+            "Whitman"
+          ]
+        },
+        {
+          "id": "l3c-poetic-justice-5",
+          "rank": 5,
+          "clue": "This Harlem Renaissance poet asked, \"What happens to a dream deferred?\"",
+          "answer": "Langston Hughes",
+          "alternates": [
+            "Hughes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-meter-maids",
+      "name": "Meter Maids",
+      "clues": [
+        {
+          "id": "l3c-meter-maids-1",
+          "rank": 1,
+          "clue": "This three-line Japanese poem has lines of 5, 7, and 5 syllables.",
+          "answer": "Haiku",
+          "alternates": []
+        },
+        {
+          "id": "l3c-meter-maids-2",
+          "rank": 2,
+          "clue": "This humorous five-line poem has an AABBA rhyme scheme.",
+          "answer": "Limerick",
+          "alternates": []
+        },
+        {
+          "id": "l3c-meter-maids-3",
+          "rank": 3,
+          "clue": "Shakespeare wrote 154 of these 14-line poems.",
+          "answer": "Sonnet",
+          "alternates": [
+            "sonnets"
+          ]
+        },
+        {
+          "id": "l3c-meter-maids-4",
+          "rank": 4,
+          "clue": "The repetition of starting consonant sounds, as in \"Peter Piper picked a peck,\" is called this.",
+          "answer": "Alliteration",
+          "alternates": []
+        },
+        {
+          "id": "l3c-meter-maids-5",
+          "rank": 5,
+          "clue": "Unrhymed iambic pentameter, used in much of Shakespeare's dialogue, has this two-word name.",
+          "answer": "Blank verse",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-silver-screen-classics",
+      "name": "Silver Screen Classics",
+      "clues": [
+        {
+          "id": "l3c-silver-screen-classics-1",
+          "rank": 1,
+          "clue": "\"There's no place like home,\" says Dorothy in this 1939 film.",
+          "answer": "The Wizard of Oz",
+          "alternates": [
+            "Wizard of Oz"
+          ]
+        },
+        {
+          "id": "l3c-silver-screen-classics-2",
+          "rank": 2,
+          "clue": "\"Here's looking at you, kid\" is said by Rick in this 1942 film set in Morocco.",
+          "answer": "Casablanca",
+          "alternates": []
+        },
+        {
+          "id": "l3c-silver-screen-classics-3",
+          "rank": 3,
+          "clue": "Alfred Hitchcock's 1960 thriller features the Bates Motel and a famous shower scene.",
+          "answer": "Psycho",
+          "alternates": []
+        },
+        {
+          "id": "l3c-silver-screen-classics-4",
+          "rank": 4,
+          "clue": "The mysterious last word \"Rosebud\" drives the plot of this 1941 Orson Welles film.",
+          "answer": "Citizen Kane",
+          "alternates": []
+        },
+        {
+          "id": "l3c-silver-screen-classics-5",
+          "rank": 5,
+          "clue": "This heroine of \"Gone with the Wind\" vows to save her family's plantation, Tara.",
+          "answer": "Scarlett O'Hara",
+          "alternates": [
+            "Scarlett"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-directors-cut",
+      "name": "Director's Cut",
+      "clues": [
+        {
+          "id": "l3c-directors-cut-1",
+          "rank": 1,
+          "clue": "Known as the \"Master of Suspense,\" he directed \"The Birds\" and \"Vertigo.\"",
+          "answer": "Alfred Hitchcock",
+          "alternates": [
+            "Hitchcock"
+          ]
+        },
+        {
+          "id": "l3c-directors-cut-2",
+          "rank": 2,
+          "clue": "He co-created Mickey Mouse, who debuted in the cartoon \"Steamboat Willie.\"",
+          "answer": "Walt Disney",
+          "alternates": [
+            "Disney"
+          ]
+        },
+        {
+          "id": "l3c-directors-cut-3",
+          "rank": 3,
+          "clue": "This silent-film star played the bowler-hatted character known as \"The Tramp.\"",
+          "answer": "Charlie Chaplin",
+          "alternates": [
+            "Chaplin"
+          ]
+        },
+        {
+          "id": "l3c-directors-cut-4",
+          "rank": 4,
+          "clue": "He directed \"2001: A Space Odyssey,\" featuring the computer HAL 9000.",
+          "answer": "Stanley Kubrick",
+          "alternates": [
+            "Kubrick"
+          ]
+        },
+        {
+          "id": "l3c-directors-cut-5",
+          "rank": 5,
+          "clue": "He directed \"The Godfather\" and \"Apocalypse Now.\"",
+          "answer": "Francis Ford Coppola",
+          "alternates": [
+            "Coppola"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-animation-station",
+      "name": "Animation Station",
+      "clues": [
+        {
+          "id": "l3c-animation-station-1",
+          "rank": 1,
+          "clue": "In this 1994 Disney film, the lion cub Simba is heir to Pride Rock.",
+          "answer": "The Lion King",
+          "alternates": [
+            "Lion King"
+          ]
+        },
+        {
+          "id": "l3c-animation-station-2",
+          "rank": 2,
+          "clue": "In this Pixar film, a clownfish dad crosses the ocean to find his son.",
+          "answer": "Finding Nemo",
+          "alternates": []
+        },
+        {
+          "id": "l3c-animation-station-3",
+          "rank": 3,
+          "clue": "This 1937 film was Disney's first full-length animated feature.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "alternates": [
+            "Snow White"
+          ]
+        },
+        {
+          "id": "l3c-animation-station-4",
+          "rank": 4,
+          "clue": "Hayao Miyazaki co-founded this Japanese animation studio, maker of \"Spirited Away.\"",
+          "answer": "Studio Ghibli",
+          "alternates": [
+            "Ghibli"
+          ]
+        },
+        {
+          "id": "l3c-animation-station-5",
+          "rank": 5,
+          "clue": "In Disney's \"Beauty and the Beast,\" Belle's inventor father has this name.",
+          "answer": "Maurice",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-say-it-on-screen",
+      "name": "Say It on Screen",
+      "clues": [
+        {
+          "id": "l3c-say-it-on-screen-1",
+          "rank": 1,
+          "clue": "\"Phone home\" is a famous line from this 1982 Steven Spielberg film about a stranded alien.",
+          "answer": "E.T.",
+          "alternates": [
+            "ET",
+            "E.T. the Extra-Terrestrial"
+          ]
+        },
+        {
+          "id": "l3c-say-it-on-screen-2",
+          "rank": 2,
+          "clue": "\"Life is like a box of chocolates\" is a famous line from this 1994 film.",
+          "answer": "Forrest Gump",
+          "alternates": []
+        },
+        {
+          "id": "l3c-say-it-on-screen-3",
+          "rank": 3,
+          "clue": "\"You're gonna need a bigger boat\" is said in this 1975 shark film.",
+          "answer": "Jaws",
+          "alternates": []
+        },
+        {
+          "id": "l3c-say-it-on-screen-4",
+          "rank": 4,
+          "clue": "Arnold Schwarzenegger's cyborg says \"I'll be back\" in this 1984 film.",
+          "answer": "The Terminator",
+          "alternates": [
+            "Terminator"
+          ]
+        },
+        {
+          "id": "l3c-say-it-on-screen-5",
+          "rank": 5,
+          "clue": "\"Houston, we have a problem\" is a line from this 1995 film about a troubled moon mission.",
+          "answer": "Apollo 13",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-genre-bender",
+      "name": "Genre Bender",
+      "clues": [
+        {
+          "id": "l3c-genre-bender-1",
+          "rank": 1,
+          "clue": "Born in New Orleans, this improvisational music genre gave rise to swing and bebop.",
+          "answer": "Jazz",
+          "alternates": []
+        },
+        {
+          "id": "l3c-genre-bender-2",
+          "rank": 2,
+          "clue": "Nashville, Tennessee, is known as the capital of this music genre.",
+          "answer": "Country",
+          "alternates": [
+            "country music",
+            "country and western"
+          ]
+        },
+        {
+          "id": "l3c-genre-bender-3",
+          "rank": 3,
+          "clue": "Bob Marley popularized this genre from Jamaica.",
+          "answer": "Reggae",
+          "alternates": []
+        },
+        {
+          "id": "l3c-genre-bender-4",
+          "rank": 4,
+          "clue": "This genre, built on DJing and rapping, began at block parties in the Bronx in the 1970s.",
+          "answer": "Hip-hop",
+          "alternates": [
+            "hip hop",
+            "rap"
+          ]
+        },
+        {
+          "id": "l3c-genre-bender-5",
+          "rank": 5,
+          "clue": "Born in the Mississippi Delta, this genre often follows a 12-bar chord pattern.",
+          "answer": "Blues",
+          "alternates": [
+            "the blues"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-rock-legends",
+      "name": "Rock Legends",
+      "clues": [
+        {
+          "id": "l3c-rock-legends-1",
+          "rank": 1,
+          "clue": "Known as \"The King of Rock and Roll,\" he lived at Graceland in Memphis.",
+          "answer": "Elvis Presley",
+          "alternates": [
+            "Elvis"
+          ]
+        },
+        {
+          "id": "l3c-rock-legends-2",
+          "rank": 2,
+          "clue": "John, Paul, George, and Ringo made up this band from Liverpool.",
+          "answer": "The Beatles",
+          "alternates": [
+            "Beatles"
+          ]
+        },
+        {
+          "id": "l3c-rock-legends-3",
+          "rank": 3,
+          "clue": "Freddie Mercury fronted this band, known for \"Bohemian Rhapsody.\"",
+          "answer": "Queen",
+          "alternates": []
+        },
+        {
+          "id": "l3c-rock-legends-4",
+          "rank": 4,
+          "clue": "This guitarist played a famous electric \"Star-Spangled Banner\" at Woodstock in 1969.",
+          "answer": "Jimi Hendrix",
+          "alternates": [
+            "Hendrix"
+          ]
+        },
+        {
+          "id": "l3c-rock-legends-5",
+          "rank": 5,
+          "clue": "Known as \"The Man in Black,\" this singer recorded \"Ring of Fire.\"",
+          "answer": "Johnny Cash",
+          "alternates": [
+            "Cash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-opera-tunity-knocks",
+      "name": "Opera-tunity Knocks",
+      "clues": [
+        {
+          "id": "l3c-opera-tunity-knocks-1",
+          "rank": 1,
+          "clue": "This term names a solo song sung by one character in an opera.",
+          "answer": "Aria",
+          "alternates": []
+        },
+        {
+          "id": "l3c-opera-tunity-knocks-2",
+          "rank": 2,
+          "clue": "Bizet's opera is named for this fiery Spanish woman who works in a cigarette factory.",
+          "answer": "Carmen",
+          "alternates": []
+        },
+        {
+          "id": "l3c-opera-tunity-knocks-3",
+          "rank": 3,
+          "clue": "The written words, or text, of an opera are called this.",
+          "answer": "Libretto",
+          "alternates": []
+        },
+        {
+          "id": "l3c-opera-tunity-knocks-4",
+          "rank": 4,
+          "clue": "This German composer wrote the four-opera \"Ring\" cycle.",
+          "answer": "Richard Wagner",
+          "alternates": [
+            "Wagner"
+          ]
+        },
+        {
+          "id": "l3c-opera-tunity-knocks-5",
+          "rank": 5,
+          "clue": "Puccini's opera about poor artists in Paris inspired the musical \"Rent.\"",
+          "answer": "La Bohème",
+          "alternates": [
+            "La Boheme",
+            "Boheme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-composers-corner",
+      "name": "Composer's Corner",
+      "clues": [
+        {
+          "id": "l3c-composers-corner-1",
+          "rank": 1,
+          "clue": "This German-born composer wrote \"Messiah,\" with its famous \"Hallelujah\" chorus.",
+          "answer": "George Frideric Handel",
+          "alternates": [
+            "Handel"
+          ]
+        },
+        {
+          "id": "l3c-composers-corner-2",
+          "rank": 2,
+          "clue": "This Polish-born composer wrote many piano nocturnes, polonaises, and mazurkas.",
+          "answer": "Frédéric Chopin",
+          "alternates": [
+            "Chopin",
+            "Frederic Chopin"
+          ]
+        },
+        {
+          "id": "l3c-composers-corner-3",
+          "rank": 3,
+          "clue": "This American composer wrote \"Rhapsody in Blue.\"",
+          "answer": "George Gershwin",
+          "alternates": [
+            "Gershwin"
+          ]
+        },
+        {
+          "id": "l3c-composers-corner-4",
+          "rank": 4,
+          "clue": "This French composer wrote the dreamy piano piece \"Clair de lune.\"",
+          "answer": "Claude Debussy",
+          "alternates": [
+            "Debussy"
+          ]
+        },
+        {
+          "id": "l3c-composers-corner-5",
+          "rank": 5,
+          "clue": "This English composer wrote \"The Planets,\" including \"Mars, the Bringer of War.\"",
+          "answer": "Gustav Holst",
+          "alternates": [
+            "Holst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-orchestra-pit",
+      "name": "Orchestra Pit",
+      "clues": [
+        {
+          "id": "l3c-orchestra-pit-1",
+          "rank": 1,
+          "clue": "This person leads an orchestra, often waving a baton.",
+          "answer": "Conductor",
+          "alternates": []
+        },
+        {
+          "id": "l3c-orchestra-pit-2",
+          "rank": 2,
+          "clue": "This largest, lowest-pitched member of the string family is played standing up.",
+          "answer": "Double bass",
+          "alternates": [
+            "bass",
+            "contrabass",
+            "upright bass",
+            "string bass"
+          ]
+        },
+        {
+          "id": "l3c-orchestra-pit-3",
+          "rank": 3,
+          "clue": "These large kettledrums can be tuned to specific pitches.",
+          "answer": "Timpani",
+          "alternates": [
+            "kettledrums",
+            "timpanis"
+          ]
+        },
+        {
+          "id": "l3c-orchestra-pit-4",
+          "rank": 4,
+          "clue": "This double-reed woodwind plays the A that the orchestra tunes to.",
+          "answer": "Oboe",
+          "alternates": []
+        },
+        {
+          "id": "l3c-orchestra-pit-5",
+          "rank": 5,
+          "clue": "The lead first violinist of an orchestra holds this title.",
+          "answer": "Concertmaster",
+          "alternates": [
+            "concertmistress",
+            "leader"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-note-worthy",
+      "name": "Note Worthy",
+      "clues": [
+        {
+          "id": "l3c-note-worthy-1",
+          "rank": 1,
+          "clue": "A musical staff has this many lines.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l3c-note-worthy-2",
+          "rank": 2,
+          "clue": "This symbol, like a tic-tac-toe grid, raises a note by a half step.",
+          "answer": "Sharp",
+          "alternates": []
+        },
+        {
+          "id": "l3c-note-worthy-3",
+          "rank": 3,
+          "clue": "This Italian musical term means \"loud.\"",
+          "answer": "Forte",
+          "alternates": []
+        },
+        {
+          "id": "l3c-note-worthy-4",
+          "rank": 4,
+          "clue": "This Italian term means gradually getting louder.",
+          "answer": "Crescendo",
+          "alternates": []
+        },
+        {
+          "id": "l3c-note-worthy-5",
+          "rank": 5,
+          "clue": "This term names a group of three notes played in the time of two.",
+          "answer": "Triplet",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-ism-schism",
+      "name": "Ism Schism",
+      "clues": [
+        {
+          "id": "l3c-ism-schism-1",
+          "rank": 1,
+          "clue": "Claude Monet's \"Impression, Sunrise\" gave its name to this art movement.",
+          "answer": "Impressionism",
+          "alternates": []
+        },
+        {
+          "id": "l3c-ism-schism-2",
+          "rank": 2,
+          "clue": "Andy Warhol's soup cans are icons of this 1960s art movement.",
+          "answer": "Pop art",
+          "alternates": [
+            "pop"
+          ]
+        },
+        {
+          "id": "l3c-ism-schism-3",
+          "rank": 3,
+          "clue": "Salvador Dalí's melting clocks belong to this dreamlike movement.",
+          "answer": "Surrealism",
+          "alternates": []
+        },
+        {
+          "id": "l3c-ism-schism-4",
+          "rank": 4,
+          "clue": "Caravaggio and Bernini worked in this dramatic, ornate 17th-century style.",
+          "answer": "Baroque",
+          "alternates": []
+        },
+        {
+          "id": "l3c-ism-schism-5",
+          "rank": 5,
+          "clue": "Jackson Pollock's drip paintings are part of this New York movement of the 1940s and 1950s.",
+          "answer": "Abstract Expressionism",
+          "alternates": [
+            "abstract expressionist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-gallery-guesses",
+      "name": "Gallery Guesses",
+      "clues": [
+        {
+          "id": "l3c-gallery-guesses-1",
+          "rank": 1,
+          "clue": "This French Impressionist painted a series of water lilies in his garden at Giverny.",
+          "answer": "Claude Monet",
+          "alternates": [
+            "Monet"
+          ]
+        },
+        {
+          "id": "l3c-gallery-guesses-2",
+          "rank": 2,
+          "clue": "This American painted \"American Gothic,\" showing a farmer holding a pitchfork.",
+          "answer": "Grant Wood",
+          "alternates": [
+            "Wood"
+          ]
+        },
+        {
+          "id": "l3c-gallery-guesses-3",
+          "rank": 3,
+          "clue": "This Italian painted \"The Birth of Venus,\" with the goddess standing on a shell.",
+          "answer": "Sandro Botticelli",
+          "alternates": [
+            "Botticelli"
+          ]
+        },
+        {
+          "id": "l3c-gallery-guesses-4",
+          "rank": 4,
+          "clue": "This Dutch master painted \"The Night Watch.\"",
+          "answer": "Rembrandt",
+          "alternates": [
+            "Rembrandt van Rijn"
+          ]
+        },
+        {
+          "id": "l3c-gallery-guesses-5",
+          "rank": 5,
+          "clue": "This Dutch painter created \"Girl with a Pearl Earring.\"",
+          "answer": "Johannes Vermeer",
+          "alternates": [
+            "Vermeer",
+            "Jan Vermeer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-sculpt-fiction",
+      "name": "Sculpt Fiction",
+      "clues": [
+        {
+          "id": "l3c-sculpt-fiction-1",
+          "rank": 1,
+          "clue": "Rodin's famous bronze shows a seated man resting his chin on his hand in deep thought.",
+          "answer": "The Thinker",
+          "alternates": [
+            "Thinker"
+          ]
+        },
+        {
+          "id": "l3c-sculpt-fiction-2",
+          "rank": 2,
+          "clue": "Mount Rushmore features the carved faces of this many presidents.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l3c-sculpt-fiction-3",
+          "rank": 3,
+          "clue": "Michelangelo carved his statue of David from this type of stone.",
+          "answer": "Marble",
+          "alternates": []
+        },
+        {
+          "id": "l3c-sculpt-fiction-4",
+          "rank": 4,
+          "clue": "This armless ancient Greek statue of a goddess is displayed in the Louvre.",
+          "answer": "Venus de Milo",
+          "alternates": [
+            "Aphrodite of Milos"
+          ]
+        },
+        {
+          "id": "l3c-sculpt-fiction-5",
+          "rank": 5,
+          "clue": "This French sculptor designed the Statue of Liberty.",
+          "answer": "Frédéric Auguste Bartholdi",
+          "alternates": [
+            "Bartholdi",
+            "Frederic Bartholdi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-building-character",
+      "name": "Building Character",
+      "clues": [
+        {
+          "id": "l3c-building-character-1",
+          "rank": 1,
+          "clue": "This iron tower was built for the 1889 World's Fair in Paris.",
+          "answer": "Eiffel Tower",
+          "alternates": []
+        },
+        {
+          "id": "l3c-building-character-2",
+          "rank": 2,
+          "clue": "A glass pyramid serves as the entrance to this Paris art museum.",
+          "answer": "Louvre",
+          "alternates": [
+            "Louvre Museum"
+          ]
+        },
+        {
+          "id": "l3c-building-character-3",
+          "rank": 3,
+          "clue": "The Taj Mahal stands in this Indian city.",
+          "answer": "Agra",
+          "alternates": []
+        },
+        {
+          "id": "l3c-building-character-4",
+          "rank": 4,
+          "clue": "Frank Lloyd Wright designed this Pennsylvania house built over a waterfall.",
+          "answer": "Fallingwater",
+          "alternates": []
+        },
+        {
+          "id": "l3c-building-character-5",
+          "rank": 5,
+          "clue": "Antoni Gaudí's famous unfinished basilica in Barcelona.",
+          "answer": "Sagrada Família",
+          "alternates": [
+            "Sagrada Familia",
+            "La Sagrada Familia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-column-inches",
+      "name": "Column Inches",
+      "clues": [
+        {
+          "id": "l3c-column-inches-1",
+          "rank": 1,
+          "clue": "This wedge-shaped central stone at the top of an arch locks it in place.",
+          "answer": "Keystone",
+          "alternates": []
+        },
+        {
+          "id": "l3c-column-inches-2",
+          "rank": 2,
+          "clue": "This carved creature on a Gothic cathedral spouts rainwater away from the walls.",
+          "answer": "Gargoyle",
+          "alternates": []
+        },
+        {
+          "id": "l3c-column-inches-3",
+          "rank": 3,
+          "clue": "This is the plainest of the three classical Greek column orders.",
+          "answer": "Doric",
+          "alternates": []
+        },
+        {
+          "id": "l3c-column-inches-4",
+          "rank": 4,
+          "clue": "Notre-Dame de Paris is held up by these arched external supports.",
+          "answer": "Flying buttress",
+          "alternates": [
+            "flying buttresses",
+            "buttress",
+            "buttresses"
+          ]
+        },
+        {
+          "id": "l3c-column-inches-5",
+          "rank": 5,
+          "clue": "This classical column order is decorated with carved acanthus leaves.",
+          "answer": "Corinthian",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-broadway-bound",
+      "name": "Broadway Bound",
+      "clues": [
+        {
+          "id": "l3c-broadway-bound-1",
+          "rank": 1,
+          "clue": "Lin-Manuel Miranda's hip-hop musical tells the story of this Founding Father.",
+          "answer": "Hamilton",
+          "alternates": [
+            "Alexander Hamilton"
+          ]
+        },
+        {
+          "id": "l3c-broadway-bound-2",
+          "rank": 2,
+          "clue": "This musical sets \"Romeo and Juliet\" among New York gangs, the Jets and the Sharks.",
+          "answer": "West Side Story",
+          "alternates": []
+        },
+        {
+          "id": "l3c-broadway-bound-3",
+          "rank": 3,
+          "clue": "In this musical, a masked man haunts the Paris Opera House.",
+          "answer": "The Phantom of the Opera",
+          "alternates": [
+            "Phantom of the Opera",
+            "Phantom"
+          ]
+        },
+        {
+          "id": "l3c-broadway-bound-4",
+          "rank": 4,
+          "clue": "Jean Valjean is pursued by Inspector Javert in this musical based on a Victor Hugo novel.",
+          "answer": "Les Misérables",
+          "alternates": [
+            "Les Miserables",
+            "Les Mis"
+          ]
+        },
+        {
+          "id": "l3c-broadway-bound-5",
+          "rank": 5,
+          "clue": "This Andrew Lloyd Webber musical is based on poems by T.S. Eliot.",
+          "answer": "Cats",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-stage-directions",
+      "name": "Stage Directions",
+      "clues": [
+        {
+          "id": "l3c-stage-directions-1",
+          "rank": 1,
+          "clue": "This award is Broadway theater's highest annual honor.",
+          "answer": "Tony Award",
+          "alternates": [
+            "Tony",
+            "Tonys",
+            "Tony Awards"
+          ]
+        },
+        {
+          "id": "l3c-stage-directions-2",
+          "rank": 2,
+          "clue": "This part of the stage is closest to the audience.",
+          "answer": "Downstage",
+          "alternates": []
+        },
+        {
+          "id": "l3c-stage-directions-3",
+          "rank": 3,
+          "clue": "A brief remark to the audience that other characters on stage supposedly can't hear.",
+          "answer": "Aside",
+          "alternates": []
+        },
+        {
+          "id": "l3c-stage-directions-4",
+          "rank": 4,
+          "clue": "A long speech in which a character alone on stage speaks their thoughts aloud.",
+          "answer": "Soliloquy",
+          "alternates": []
+        },
+        {
+          "id": "l3c-stage-directions-5",
+          "rank": 5,
+          "clue": "This arch frames the front of a traditional stage, like a picture frame.",
+          "answer": "Proscenium",
+          "alternates": [
+            "proscenium arch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-playwright-stuff",
+      "name": "Playwright Stuff",
+      "clues": [
+        {
+          "id": "l3c-playwright-stuff-1",
+          "rank": 1,
+          "clue": "Arthur Miller's play about the Salem witch trials.",
+          "answer": "The Crucible",
+          "alternates": [
+            "Crucible"
+          ]
+        },
+        {
+          "id": "l3c-playwright-stuff-2",
+          "rank": 2,
+          "clue": "Salesman Willy Loman is the tragic hero of this Arthur Miller play.",
+          "answer": "Death of a Salesman",
+          "alternates": []
+        },
+        {
+          "id": "l3c-playwright-stuff-3",
+          "rank": 3,
+          "clue": "This playwright wrote \"The Glass Menagerie\" and \"A Streetcar Named Desire.\"",
+          "answer": "Tennessee Williams",
+          "alternates": []
+        },
+        {
+          "id": "l3c-playwright-stuff-4",
+          "rank": 4,
+          "clue": "Thornton Wilder's play set in the small town of Grover's Corners.",
+          "answer": "Our Town",
+          "alternates": []
+        },
+        {
+          "id": "l3c-playwright-stuff-5",
+          "rank": 5,
+          "clue": "Lorraine Hansberry's play about the Younger family in Chicago.",
+          "answer": "A Raisin in the Sun",
+          "alternates": [
+            "Raisin in the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-greek-to-me",
+      "name": "Greek to Me",
+      "clues": [
+        {
+          "id": "l3c-greek-to-me-1",
+          "rank": 1,
+          "clue": "Homer's epic about a hero's ten-year journey home from Troy.",
+          "answer": "The Odyssey",
+          "alternates": [
+            "Odyssey"
+          ]
+        },
+        {
+          "id": "l3c-greek-to-me-2",
+          "rank": 2,
+          "clue": "Homer's epic poem about the Trojan War, featuring the rage of Achilles.",
+          "answer": "The Iliad",
+          "alternates": [
+            "Iliad"
+          ]
+        },
+        {
+          "id": "l3c-greek-to-me-3",
+          "rank": 3,
+          "clue": "In ancient Greek drama, this group comments on the action in song and dance.",
+          "answer": "Chorus",
+          "alternates": []
+        },
+        {
+          "id": "l3c-greek-to-me-4",
+          "rank": 4,
+          "clue": "Sophocles' tragic king unknowingly kills his father and marries his mother.",
+          "answer": "Oedipus",
+          "alternates": [
+            "Oedipus Rex",
+            "Oedipus the King"
+          ]
+        },
+        {
+          "id": "l3c-greek-to-me-5",
+          "rank": 5,
+          "clue": "In Sophocles' play, this daughter buries her brother Polynices against King Creon's orders.",
+          "answer": "Antigone",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-dickens-of-a-time",
+      "name": "Dickens of a Time",
+      "clues": [
+        {
+          "id": "l3c-dickens-of-a-time-1",
+          "rank": 1,
+          "clue": "Ebenezer Scrooge is visited by three spirits in this novella.",
+          "answer": "A Christmas Carol",
+          "alternates": [
+            "Christmas Carol"
+          ]
+        },
+        {
+          "id": "l3c-dickens-of-a-time-2",
+          "rank": 2,
+          "clue": "This orphan famously asks, \"Please, sir, I want some more.\"",
+          "answer": "Oliver Twist",
+          "alternates": [
+            "Oliver"
+          ]
+        },
+        {
+          "id": "l3c-dickens-of-a-time-3",
+          "rank": 3,
+          "clue": "Pip and Miss Havisham are characters in this Dickens novel.",
+          "answer": "Great Expectations",
+          "alternates": []
+        },
+        {
+          "id": "l3c-dickens-of-a-time-4",
+          "rank": 4,
+          "clue": "The ghost of Scrooge's late business partner, dragging heavy chains.",
+          "answer": "Jacob Marley",
+          "alternates": [
+            "Marley"
+          ]
+        },
+        {
+          "id": "l3c-dickens-of-a-time-5",
+          "rank": 5,
+          "clue": "Tiny Tim's family has this last name.",
+          "answer": "Cratchit",
+          "alternates": [
+            "Cratchits"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-austen-powers",
+      "name": "Austen Powers",
+      "clues": [
+        {
+          "id": "l3c-austen-powers-1",
+          "rank": 1,
+          "clue": "\"It is a truth universally acknowledged\" opens this Jane Austen novel.",
+          "answer": "Pride and Prejudice",
+          "alternates": []
+        },
+        {
+          "id": "l3c-austen-powers-2",
+          "rank": 2,
+          "clue": "This proud, wealthy hero wins Elizabeth's heart in \"Pride and Prejudice.\"",
+          "answer": "Mr. Darcy",
+          "alternates": [
+            "Darcy",
+            "Fitzwilliam Darcy"
+          ]
+        },
+        {
+          "id": "l3c-austen-powers-3",
+          "rank": 3,
+          "clue": "Elizabeth and her four sisters share this last name.",
+          "answer": "Bennet",
+          "alternates": [
+            "Bennets"
+          ]
+        },
+        {
+          "id": "l3c-austen-powers-4",
+          "rank": 4,
+          "clue": "This Austen novel is named for its heroine, a meddling matchmaker surnamed Woodhouse.",
+          "answer": "Emma",
+          "alternates": []
+        },
+        {
+          "id": "l3c-austen-powers-5",
+          "rank": 5,
+          "clue": "Sisters Elinor and Marianne Dashwood star in this Austen novel.",
+          "answer": "Sense and Sensibility",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-great-american-reads",
+      "name": "Great American Reads",
+      "clues": [
+        {
+          "id": "l3c-great-american-reads-1",
+          "rank": 1,
+          "clue": "Mark Twain's boy who rafts down the Mississippi River with Jim.",
+          "answer": "Huckleberry Finn",
+          "alternates": [
+            "Huck Finn",
+            "Huck"
+          ]
+        },
+        {
+          "id": "l3c-great-american-reads-2",
+          "rank": 2,
+          "clue": "This peg-legged captain hunts the white whale in \"Moby-Dick.\"",
+          "answer": "Captain Ahab",
+          "alternates": [
+            "Ahab"
+          ]
+        },
+        {
+          "id": "l3c-great-american-reads-3",
+          "rank": 3,
+          "clue": "John Steinbeck's novel about the Joad family fleeing the Dust Bowl.",
+          "answer": "The Grapes of Wrath",
+          "alternates": [
+            "Grapes of Wrath"
+          ]
+        },
+        {
+          "id": "l3c-great-american-reads-4",
+          "rank": 4,
+          "clue": "Mark Twain was the pen name of this man.",
+          "answer": "Samuel Clemens",
+          "alternates": [
+            "Samuel Langhorne Clemens",
+            "Clemens"
+          ]
+        },
+        {
+          "id": "l3c-great-american-reads-5",
+          "rank": 5,
+          "clue": "She wrote \"Their Eyes Were Watching God.\"",
+          "answer": "Zora Neale Hurston",
+          "alternates": [
+            "Hurston"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-brit-lit",
+      "name": "Brit Lit",
+      "clues": [
+        {
+          "id": "l3c-brit-lit-1",
+          "rank": 1,
+          "clue": "Mary Shelley's novel about a scientist who brings a creature to life.",
+          "answer": "Frankenstein",
+          "alternates": []
+        },
+        {
+          "id": "l3c-brit-lit-2",
+          "rank": 2,
+          "clue": "Charlotte Brontë's novel about an orphan who becomes governess at Thornfield Hall.",
+          "answer": "Jane Eyre",
+          "alternates": []
+        },
+        {
+          "id": "l3c-brit-lit-3",
+          "rank": 3,
+          "clue": "Heathcliff and Catherine roam the moors in this Emily Brontë novel.",
+          "answer": "Wuthering Heights",
+          "alternates": []
+        },
+        {
+          "id": "l3c-brit-lit-4",
+          "rank": 4,
+          "clue": "In this Old English epic, the hero slays the monster Grendel.",
+          "answer": "Beowulf",
+          "alternates": []
+        },
+        {
+          "id": "l3c-brit-lit-5",
+          "rank": 5,
+          "clue": "Geoffrey Chaucer's collection of stories told by pilgrims on a journey.",
+          "answer": "The Canterbury Tales",
+          "alternates": [
+            "Canterbury Tales"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-bleak-chic",
+      "name": "Bleak Chic",
+      "clues": [
+        {
+          "id": "l3c-bleak-chic-1",
+          "rank": 1,
+          "clue": "Katniss Everdeen volunteers as tribute in this trilogy's first book.",
+          "answer": "The Hunger Games",
+          "alternates": [
+            "Hunger Games"
+          ]
+        },
+        {
+          "id": "l3c-bleak-chic-2",
+          "rank": 2,
+          "clue": "Aldous Huxley's novel about a World State that keeps citizens happy with the drug soma.",
+          "answer": "Brave New World",
+          "alternates": []
+        },
+        {
+          "id": "l3c-bleak-chic-3",
+          "rank": 3,
+          "clue": "She wrote \"The Giver,\" in which Jonas receives the community's memories.",
+          "answer": "Lois Lowry",
+          "alternates": [
+            "Lowry"
+          ]
+        },
+        {
+          "id": "l3c-bleak-chic-4",
+          "rank": 4,
+          "clue": "This is the protagonist of George Orwell's \"1984.\"",
+          "answer": "Winston Smith",
+          "alternates": [
+            "Winston"
+          ]
+        },
+        {
+          "id": "l3c-bleak-chic-5",
+          "rank": 5,
+          "clue": "Margaret Atwood's novel set in the republic of Gilead.",
+          "answer": "The Handmaid's Tale",
+          "alternates": [
+            "Handmaid's Tale",
+            "Handmaids Tale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-fantasy-island",
+      "name": "Fantasy Island",
+      "clues": [
+        {
+          "id": "l3c-fantasy-island-1",
+          "rank": 1,
+          "clue": "C.S. Lewis's children reach this magical land through a wardrobe.",
+          "answer": "Narnia",
+          "alternates": []
+        },
+        {
+          "id": "l3c-fantasy-island-2",
+          "rank": 2,
+          "clue": "Aslan, the great ruler in C.S. Lewis's stories, is this kind of animal.",
+          "answer": "Lion",
+          "alternates": []
+        },
+        {
+          "id": "l3c-fantasy-island-3",
+          "rank": 3,
+          "clue": "This hobbit carries the One Ring to Mordor in \"The Lord of the Rings.\"",
+          "answer": "Frodo Baggins",
+          "alternates": [
+            "Frodo"
+          ]
+        },
+        {
+          "id": "l3c-fantasy-island-4",
+          "rank": 4,
+          "clue": "In \"The Hobbit,\" this hobbit finds the Ring in Gollum's cave.",
+          "answer": "Bilbo Baggins",
+          "alternates": [
+            "Bilbo"
+          ]
+        },
+        {
+          "id": "l3c-fantasy-island-5",
+          "rank": 5,
+          "clue": "Gollum obsessively calls the One Ring by this name.",
+          "answer": "Precious",
+          "alternates": [
+            "my precious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-character-witness",
+      "name": "Character Witness",
+      "clues": [
+        {
+          "id": "l3c-character-witness-1",
+          "rank": 1,
+          "clue": "This doctor is Sherlock Holmes's loyal friend and chronicler.",
+          "answer": "Dr. Watson",
+          "alternates": [
+            "Watson",
+            "John Watson"
+          ]
+        },
+        {
+          "id": "l3c-character-witness-2",
+          "rank": 2,
+          "clue": "In \"To Kill a Mockingbird,\" this reclusive neighbor leaves gifts in a tree.",
+          "answer": "Boo Radley",
+          "alternates": [
+            "Boo",
+            "Arthur Radley"
+          ]
+        },
+        {
+          "id": "l3c-character-witness-3",
+          "rank": 3,
+          "clue": "In \"Lord of the Flies,\" this boy's glasses are used to start fires.",
+          "answer": "Piggy",
+          "alternates": []
+        },
+        {
+          "id": "l3c-character-witness-4",
+          "rank": 4,
+          "clue": "Cervantes' deluded knight attacks windmills he thinks are giants.",
+          "answer": "Don Quixote",
+          "alternates": [
+            "Quixote"
+          ]
+        },
+        {
+          "id": "l3c-character-witness-5",
+          "rank": 5,
+          "clue": "Hester Prynne's daughter in \"The Scarlet Letter.\"",
+          "answer": "Pearl",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-pen-names",
+      "name": "Pen Names",
+      "clues": [
+        {
+          "id": "l3c-pen-names-1",
+          "rank": 1,
+          "clue": "Theodor Geisel wrote \"The Cat in the Hat\" under this pen name.",
+          "answer": "Dr. Seuss",
+          "alternates": [
+            "Seuss",
+            "Doctor Seuss"
+          ]
+        },
+        {
+          "id": "l3c-pen-names-2",
+          "rank": 2,
+          "clue": "Charles Dodgson wrote \"Alice's Adventures in Wonderland\" under this pen name.",
+          "answer": "Lewis Carroll",
+          "alternates": [
+            "Carroll"
+          ]
+        },
+        {
+          "id": "l3c-pen-names-3",
+          "rank": 3,
+          "clue": "Eric Arthur Blair wrote \"Animal Farm\" under this pen name.",
+          "answer": "George Orwell",
+          "alternates": [
+            "Orwell"
+          ]
+        },
+        {
+          "id": "l3c-pen-names-4",
+          "rank": 4,
+          "clue": "Mary Ann Evans wrote \"Middlemarch\" under this male pen name.",
+          "answer": "George Eliot",
+          "alternates": [
+            "Eliot"
+          ]
+        },
+        {
+          "id": "l3c-pen-names-5",
+          "rank": 5,
+          "clue": "The Brontë sisters first published as Currer, Ellis, and Acton, all with this last name.",
+          "answer": "Bell",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-hoop-dreams",
+      "name": "Hoop Dreams",
+      "clues": [
+        {
+          "id": "l3c-hoop-dreams-1",
+          "rank": 1,
+          "clue": "A basketball shot made from beyond the arc is worth this many points.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        },
+        {
+          "id": "l3c-hoop-dreams-2",
+          "rank": 2,
+          "clue": "Taking steps while holding the ball without dribbling is this violation.",
+          "answer": "Traveling",
+          "alternates": [
+            "travel",
+            "travelling",
+            "walking"
+          ]
+        },
+        {
+          "id": "l3c-hoop-dreams-3",
+          "rank": 3,
+          "clue": "Michael Jordan won six NBA championships with this team.",
+          "answer": "Chicago Bulls",
+          "alternates": [
+            "Bulls"
+          ]
+        },
+        {
+          "id": "l3c-hoop-dreams-4",
+          "rank": 4,
+          "clue": "He invented basketball in 1891 using peach baskets.",
+          "answer": "James Naismith",
+          "alternates": [
+            "Naismith"
+          ]
+        },
+        {
+          "id": "l3c-hoop-dreams-5",
+          "rank": 5,
+          "clue": "A regulation basketball rim is this many feet above the floor.",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-gridiron-gang",
+      "name": "Gridiron Gang",
+      "clues": [
+        {
+          "id": "l3c-gridiron-gang-1",
+          "rank": 1,
+          "clue": "A touchdown in American football is worth this many points.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l3c-gridiron-gang-2",
+          "rank": 2,
+          "clue": "This is the NFL's annual championship game.",
+          "answer": "Super Bowl",
+          "alternates": []
+        },
+        {
+          "id": "l3c-gridiron-gang-3",
+          "rank": 3,
+          "clue": "The football field between the goal lines is this many yards long.",
+          "answer": "100",
+          "alternates": [
+            "one hundred",
+            "100 yards"
+          ]
+        },
+        {
+          "id": "l3c-gridiron-gang-4",
+          "rank": 4,
+          "clue": "Tackling the ball carrier in his own end zone scores this two-point play.",
+          "answer": "Safety",
+          "alternates": []
+        },
+        {
+          "id": "l3c-gridiron-gang-5",
+          "rank": 5,
+          "clue": "The NFL championship trophy is named after this legendary Green Bay Packers coach.",
+          "answer": "Vince Lombardi",
+          "alternates": [
+            "Lombardi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-diamond-dazzlers",
+      "name": "Diamond Dazzlers",
+      "clues": [
+        {
+          "id": "l3c-diamond-dazzlers-1",
+          "rank": 1,
+          "clue": "Hitting the baseball over the outfield fence in fair territory is this.",
+          "answer": "Home run",
+          "alternates": [
+            "homer",
+            "homerun"
+          ]
+        },
+        {
+          "id": "l3c-diamond-dazzlers-2",
+          "rank": 2,
+          "clue": "A regulation Major League Baseball game lasts this many innings.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l3c-diamond-dazzlers-3",
+          "rank": 3,
+          "clue": "Jackie Robinson broke baseball's color barrier in 1947 playing for this team.",
+          "answer": "Brooklyn Dodgers",
+          "alternates": [
+            "Dodgers"
+          ]
+        },
+        {
+          "id": "l3c-diamond-dazzlers-4",
+          "rank": 4,
+          "clue": "Lou Gehrig, \"The Iron Horse,\" played his whole career for this team.",
+          "answer": "New York Yankees",
+          "alternates": [
+            "Yankees"
+          ]
+        },
+        {
+          "id": "l3c-diamond-dazzlers-5",
+          "rank": 5,
+          "clue": "Babe Ruth was nicknamed \"The Sultan of\" this.",
+          "answer": "Swat",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-pitch-perfect",
+      "name": "Pitch Perfect",
+      "clues": [
+        {
+          "id": "l3c-pitch-perfect-1",
+          "rank": 1,
+          "clue": "In soccer, only this player may handle the ball inside the penalty area.",
+          "answer": "Goalkeeper",
+          "alternates": [
+            "goalie",
+            "keeper"
+          ]
+        },
+        {
+          "id": "l3c-pitch-perfect-2",
+          "rank": 2,
+          "clue": "Three goals by one player in a single game is called this.",
+          "answer": "Hat trick",
+          "alternates": []
+        },
+        {
+          "id": "l3c-pitch-perfect-3",
+          "rank": 3,
+          "clue": "A soccer referee shows this colored card to send a player off.",
+          "answer": "Red",
+          "alternates": [
+            "red card"
+          ]
+        },
+        {
+          "id": "l3c-pitch-perfect-4",
+          "rank": 4,
+          "clue": "This Brazilian legend won three World Cups as a player.",
+          "answer": "Pelé",
+          "alternates": [
+            "Pele"
+          ]
+        },
+        {
+          "id": "l3c-pitch-perfect-5",
+          "rank": 5,
+          "clue": "This is the acronym for soccer's world governing body, which runs the World Cup.",
+          "answer": "FIFA",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-going-for-gold",
+      "name": "Going for Gold",
+      "clues": [
+        {
+          "id": "l3c-going-for-gold-1",
+          "rank": 1,
+          "clue": "This 26.2-mile race is named for a legendary run from a Greek battlefield.",
+          "answer": "Marathon",
+          "alternates": []
+        },
+        {
+          "id": "l3c-going-for-gold-2",
+          "rank": 2,
+          "clue": "This American swimmer won 23 Olympic gold medals in his career.",
+          "answer": "Michael Phelps",
+          "alternates": [
+            "Phelps"
+          ]
+        },
+        {
+          "id": "l3c-going-for-gold-3",
+          "rank": 3,
+          "clue": "Jesse Owens won four gold medals at the 1936 Olympics in this city.",
+          "answer": "Berlin",
+          "alternates": []
+        },
+        {
+          "id": "l3c-going-for-gold-4",
+          "rank": 4,
+          "clue": "This Olympic event combines ten track and field events.",
+          "answer": "Decathlon",
+          "alternates": []
+        },
+        {
+          "id": "l3c-going-for-gold-5",
+          "rank": 5,
+          "clue": "This Romanian gymnast scored the first perfect 10 in Olympic history in 1976.",
+          "answer": "Nadia Comăneci",
+          "alternates": [
+            "Comaneci",
+            "Nadia Comaneci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-court-appearances",
+      "name": "Court Appearances",
+      "clues": [
+        {
+          "id": "l3c-court-appearances-1",
+          "rank": 1,
+          "clue": "A tennis serve the receiver can't even touch is called this.",
+          "answer": "Ace",
+          "alternates": []
+        },
+        {
+          "id": "l3c-court-appearances-2",
+          "rank": 2,
+          "clue": "In tennis scoring, zero is called this.",
+          "answer": "Love",
+          "alternates": []
+        },
+        {
+          "id": "l3c-court-appearances-3",
+          "rank": 3,
+          "clue": "This Grand Slam tournament is played on red clay in Paris.",
+          "answer": "French Open",
+          "alternates": [
+            "Roland Garros",
+            "Roland-Garros"
+          ]
+        },
+        {
+          "id": "l3c-court-appearances-4",
+          "rank": 4,
+          "clue": "A tennis score of 40-40 is called this.",
+          "answer": "Deuce",
+          "alternates": []
+        },
+        {
+          "id": "l3c-court-appearances-5",
+          "rank": 5,
+          "clue": "The point won right after deuce gives a player this.",
+          "answer": "Advantage",
+          "alternates": [
+            "ad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-tee-time",
+      "name": "Tee Time",
+      "clues": [
+        {
+          "id": "l3c-tee-time-1",
+          "rank": 1,
+          "clue": "Golfers use this club to roll the ball into the hole on the green.",
+          "answer": "Putter",
+          "alternates": []
+        },
+        {
+          "id": "l3c-tee-time-2",
+          "rank": 2,
+          "clue": "This sand-filled hazard is also called a sand trap.",
+          "answer": "Bunker",
+          "alternates": []
+        },
+        {
+          "id": "l3c-tee-time-3",
+          "rank": 3,
+          "clue": "A golf score of two strokes under par on a hole is called this.",
+          "answer": "Eagle",
+          "alternates": []
+        },
+        {
+          "id": "l3c-tee-time-4",
+          "rank": 4,
+          "clue": "The winner of this Augusta, Georgia, tournament receives a green jacket.",
+          "answer": "The Masters",
+          "alternates": [
+            "Masters"
+          ]
+        },
+        {
+          "id": "l3c-tee-time-5",
+          "rank": 5,
+          "clue": "This Scottish town is known as the \"home of golf.\"",
+          "answer": "St Andrews",
+          "alternates": [
+            "Saint Andrews"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-ice-breakers",
+      "name": "Ice Breakers",
+      "clues": [
+        {
+          "id": "l3c-ice-breakers-1",
+          "rank": 1,
+          "clue": "Hockey players shoot this hard rubber disc.",
+          "answer": "Puck",
+          "alternates": []
+        },
+        {
+          "id": "l3c-ice-breakers-2",
+          "rank": 2,
+          "clue": "In this sport, players sweep the ice in front of a sliding granite stone.",
+          "answer": "Curling",
+          "alternates": []
+        },
+        {
+          "id": "l3c-ice-breakers-3",
+          "rank": 3,
+          "clue": "The NHL champion wins this trophy.",
+          "answer": "Stanley Cup",
+          "alternates": []
+        },
+        {
+          "id": "l3c-ice-breakers-4",
+          "rank": 4,
+          "clue": "Hockey legend Wayne Gretzky was known by this three-word nickname.",
+          "answer": "The Great One",
+          "alternates": [
+            "Great One"
+          ]
+        },
+        {
+          "id": "l3c-ice-breakers-5",
+          "rank": 5,
+          "clue": "This nickname describes the U.S. hockey team's upset of the Soviet Union at the 1980 Olympics.",
+          "answer": "Miracle on Ice",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-legends-of-the-game",
+      "name": "Legends of the Game",
+      "clues": [
+        {
+          "id": "l3c-legends-of-the-game-1",
+          "rank": 1,
+          "clue": "This boxer said he could \"float like a butterfly, sting like a bee.\"",
+          "answer": "Muhammad Ali",
+          "alternates": [
+            "Ali",
+            "Cassius Clay"
+          ]
+        },
+        {
+          "id": "l3c-legends-of-the-game-2",
+          "rank": 2,
+          "clue": "This golfer, nicknamed for a big cat, won the 1997 Masters.",
+          "answer": "Tiger Woods",
+          "alternates": [
+            "Woods"
+          ]
+        },
+        {
+          "id": "l3c-legends-of-the-game-3",
+          "rank": 3,
+          "clue": "Sprinter Usain Bolt represented this Caribbean country.",
+          "answer": "Jamaica",
+          "alternates": []
+        },
+        {
+          "id": "l3c-legends-of-the-game-4",
+          "rank": 4,
+          "clue": "This American sprinter was nicknamed \"Flo-Jo.\"",
+          "answer": "Florence Griffith Joyner",
+          "alternates": [
+            "Griffith Joyner",
+            "Florence Griffith-Joyner"
+          ]
+        },
+        {
+          "id": "l3c-legends-of-the-game-5",
+          "rank": 5,
+          "clue": "Billie Jean King beat this man in the 1973 \"Battle of the Sexes\" tennis match.",
+          "answer": "Bobby Riggs",
+          "alternates": [
+            "Riggs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-game-night",
+      "name": "Game Night",
+      "clues": [
+        {
+          "id": "l3c-game-night-1",
+          "rank": 1,
+          "clue": "Players buy properties like Boardwalk and Park Place in this board game.",
+          "answer": "Monopoly",
+          "alternates": []
+        },
+        {
+          "id": "l3c-game-night-2",
+          "rank": 2,
+          "clue": "Players score points by placing letter tiles on a 15-by-15 board in this game.",
+          "answer": "Scrabble",
+          "alternates": []
+        },
+        {
+          "id": "l3c-game-night-3",
+          "rank": 3,
+          "clue": "In this mystery board game, you might accuse Colonel Mustard in the library with the candlestick.",
+          "answer": "Clue",
+          "alternates": [
+            "Cluedo"
+          ]
+        },
+        {
+          "id": "l3c-game-night-4",
+          "rank": 4,
+          "clue": "In this strategy game, players move armies to conquer territories on a world map.",
+          "answer": "Risk",
+          "alternates": []
+        },
+        {
+          "id": "l3c-game-night-5",
+          "rank": 5,
+          "clue": "This ancient two-player game uses dice, a doubling cube, and 30 checkers.",
+          "answer": "Backgammon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-check-please",
+      "name": "Check, Please",
+      "clues": [
+        {
+          "id": "l3c-check-please-1",
+          "rank": 1,
+          "clue": "This lowest-ranking chess piece can be promoted when it reaches the far side.",
+          "answer": "Pawn",
+          "alternates": []
+        },
+        {
+          "id": "l3c-check-please-2",
+          "rank": 2,
+          "clue": "This chess piece moves in an L shape and can jump over others.",
+          "answer": "Knight",
+          "alternates": []
+        },
+        {
+          "id": "l3c-check-please-3",
+          "rank": 3,
+          "clue": "A chessboard has this many squares.",
+          "answer": "64",
+          "alternates": [
+            "sixty-four",
+            "sixty four"
+          ]
+        },
+        {
+          "id": "l3c-check-please-4",
+          "rank": 4,
+          "clue": "This special move lets the king and a rook move at the same time.",
+          "answer": "Castling",
+          "alternates": [
+            "castle"
+          ]
+        },
+        {
+          "id": "l3c-check-please-5",
+          "rank": 5,
+          "clue": "In 1972, this American became world chess champion by beating Boris Spassky.",
+          "answer": "Bobby Fischer",
+          "alternates": [
+            "Fischer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-deal-me-in",
+      "name": "Deal Me In",
+      "clues": [
+        {
+          "id": "l3c-deal-me-in-1",
+          "rank": 1,
+          "clue": "This card game, often played alone on a computer, has you build piles by suit.",
+          "answer": "Solitaire",
+          "alternates": [
+            "patience"
+          ]
+        },
+        {
+          "id": "l3c-deal-me-in-2",
+          "rank": 2,
+          "clue": "A standard deck has this many cards, not counting jokers.",
+          "answer": "52",
+          "alternates": [
+            "fifty-two",
+            "fifty two"
+          ]
+        },
+        {
+          "id": "l3c-deal-me-in-3",
+          "rank": 3,
+          "clue": "This card suit is shaped like a three-leaf clover.",
+          "answer": "Clubs",
+          "alternates": [
+            "club"
+          ]
+        },
+        {
+          "id": "l3c-deal-me-in-4",
+          "rank": 4,
+          "clue": "In this trick-taking game, partners sit as North-South and East-West and bid contracts.",
+          "answer": "Bridge",
+          "alternates": [
+            "contract bridge"
+          ]
+        },
+        {
+          "id": "l3c-deal-me-in-5",
+          "rank": 5,
+          "clue": "This rummy-style card game's name is Spanish for \"basket.\"",
+          "answer": "Canasta",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-video-game-vault",
+      "name": "Video Game Vault",
+      "clues": [
+        {
+          "id": "l3c-video-game-vault-1",
+          "rank": 1,
+          "clue": "Nintendo's famous mustached plumber.",
+          "answer": "Mario",
+          "alternates": [
+            "Super Mario"
+          ]
+        },
+        {
+          "id": "l3c-video-game-vault-2",
+          "rank": 2,
+          "clue": "This yellow circle eats dots while being chased by ghosts.",
+          "answer": "Pac-Man",
+          "alternates": [
+            "Pacman"
+          ]
+        },
+        {
+          "id": "l3c-video-game-vault-3",
+          "rank": 3,
+          "clue": "This falling-block puzzle game was created in the Soviet Union.",
+          "answer": "Tetris",
+          "alternates": []
+        },
+        {
+          "id": "l3c-video-game-vault-4",
+          "rank": 4,
+          "clue": "In this Nintendo series, Link often must rescue the princess named in the title.",
+          "answer": "Zelda",
+          "alternates": [
+            "The Legend of Zelda",
+            "Princess Zelda"
+          ]
+        },
+        {
+          "id": "l3c-video-game-vault-5",
+          "rank": 5,
+          "clue": "Atari's 1972 table-tennis video game was one of the first arcade hits.",
+          "answer": "Pong",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-dance-fever",
+      "name": "Dance Fever",
+      "clues": [
+        {
+          "id": "l3c-dance-fever-1",
+          "rank": 1,
+          "clue": "A ballerina's short, stiff skirt.",
+          "answer": "Tutu",
+          "alternates": []
+        },
+        {
+          "id": "l3c-dance-fever-2",
+          "rank": 2,
+          "clue": "This passionate partner dance comes from Argentina.",
+          "answer": "Tango",
+          "alternates": []
+        },
+        {
+          "id": "l3c-dance-fever-3",
+          "rank": 3,
+          "clue": "This ballroom dance in 3/4 time became famous in Vienna.",
+          "answer": "Waltz",
+          "alternates": []
+        },
+        {
+          "id": "l3c-dance-fever-4",
+          "rank": 4,
+          "clue": "In ballet, a full spin on one foot is called this.",
+          "answer": "Pirouette",
+          "alternates": []
+        },
+        {
+          "id": "l3c-dance-fever-5",
+          "rank": 5,
+          "clue": "Stravinsky's ballet that caused a near-riot at its 1913 Paris premiere.",
+          "answer": "The Rite of Spring",
+          "alternates": [
+            "Rite of Spring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-art-class",
+      "name": "Art Class",
+      "clues": [
+        {
+          "id": "l3c-art-class-1",
+          "rank": 1,
+          "clue": "The three traditional primary colors in painting are red, yellow, and this.",
+          "answer": "Blue",
+          "alternates": []
+        },
+        {
+          "id": "l3c-art-class-2",
+          "rank": 2,
+          "clue": "A picture made from small pieces of colored tile or glass.",
+          "answer": "Mosaic",
+          "alternates": []
+        },
+        {
+          "id": "l3c-art-class-3",
+          "rank": 3,
+          "clue": "The art of beautiful, decorative handwriting.",
+          "answer": "Calligraphy",
+          "alternates": []
+        },
+        {
+          "id": "l3c-art-class-4",
+          "rank": 4,
+          "clue": "Michelangelo painted the Sistine Chapel ceiling using this technique on wet plaster.",
+          "answer": "Fresco",
+          "alternates": []
+        },
+        {
+          "id": "l3c-art-class-5",
+          "rank": 5,
+          "clue": "This Italian term for \"light-dark\" names the dramatic use of light and shadow in art.",
+          "answer": "Chiaroscuro",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3c-palette-cleanser",
+      "name": "Palette Cleanser",
+      "clues": [
+        {
+          "id": "l3c-palette-cleanser-1",
+          "rank": 1,
+          "clue": "This Mexican painter, known for her self-portraits, was married to Diego Rivera.",
+          "answer": "Frida Kahlo",
+          "alternates": [
+            "Kahlo",
+            "Frida"
+          ]
+        },
+        {
+          "id": "l3c-palette-cleanser-2",
+          "rank": 2,
+          "clue": "This American painter is famous for giant flowers and New Mexico desert scenes.",
+          "answer": "Georgia O'Keeffe",
+          "alternates": [
+            "O'Keeffe",
+            "OKeeffe",
+            "Georgia OKeeffe"
+          ]
+        },
+        {
+          "id": "l3c-palette-cleanser-3",
+          "rank": 3,
+          "clue": "This French Impressionist often painted ballet dancers.",
+          "answer": "Edgar Degas",
+          "alternates": [
+            "Degas"
+          ]
+        },
+        {
+          "id": "l3c-palette-cleanser-4",
+          "rank": 4,
+          "clue": "He used pointillism to paint \"A Sunday Afternoon on the Island of La Grande Jatte.\"",
+          "answer": "Georges Seurat",
+          "alternates": [
+            "Seurat"
+          ]
+        },
+        {
+          "id": "l3c-palette-cleanser-5",
+          "rank": 5,
+          "clue": "This Dutch painter is known for grids of black lines and blocks of primary colors.",
+          "answer": "Piet Mondrian",
+          "alternates": [
+            "Mondrian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-renaissance-fair",
+      "name": "Renaissance Fair",
+      "clues": [
+        {
+          "id": "l3c-renaissance-fair-1",
+          "rank": 1,
+          "clue": "The Renaissance began in this Italian city ruled by the Medici family.",
+          "answer": "Florence",
+          "alternates": [
+            "Firenze"
+          ]
+        },
+        {
+          "id": "l3c-renaissance-fair-2",
+          "rank": 2,
+          "clue": "Leonardo da Vinci's \"The Last Supper\" is painted on a wall in this Italian city.",
+          "answer": "Milan",
+          "alternates": [
+            "Milano"
+          ]
+        },
+        {
+          "id": "l3c-renaissance-fair-3",
+          "rank": 3,
+          "clue": "Michelangelo's sculpture of Mary holding the body of Jesus, in St. Peter's Basilica.",
+          "answer": "Pietà",
+          "alternates": [
+            "Pieta"
+          ]
+        },
+        {
+          "id": "l3c-renaissance-fair-4",
+          "rank": 4,
+          "clue": "Raphael's fresco showing Plato and Aristotle among other great thinkers.",
+          "answer": "The School of Athens",
+          "alternates": [
+            "School of Athens"
+          ]
+        },
+        {
+          "id": "l3c-renaissance-fair-5",
+          "rank": 5,
+          "clue": "This German Renaissance artist made the famous drawing \"Praying Hands.\"",
+          "answer": "Albrecht Dürer",
+          "alternates": [
+            "Durer",
+            "Dürer",
+            "Albrecht Durer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-all-that-jazz",
+      "name": "All That Jazz",
+      "clues": [
+        {
+          "id": "l3c-all-that-jazz-1",
+          "rank": 1,
+          "clue": "This trumpeter and singer was nicknamed \"Satchmo.\"",
+          "answer": "Louis Armstrong",
+          "alternates": [
+            "Armstrong",
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "l3c-all-that-jazz-2",
+          "rank": 2,
+          "clue": "This bandleader nicknamed \"Duke\" led a famous orchestra at Harlem's Cotton Club.",
+          "answer": "Duke Ellington",
+          "alternates": [
+            "Ellington"
+          ]
+        },
+        {
+          "id": "l3c-all-that-jazz-3",
+          "rank": 3,
+          "clue": "This singer was called \"The First Lady of Song.\"",
+          "answer": "Ella Fitzgerald",
+          "alternates": [
+            "Ella",
+            "Fitzgerald"
+          ]
+        },
+        {
+          "id": "l3c-all-that-jazz-4",
+          "rank": 4,
+          "clue": "This style of jazz singing uses nonsense syllables instead of words.",
+          "answer": "Scat",
+          "alternates": [
+            "scat singing",
+            "scatting"
+          ]
+        },
+        {
+          "id": "l3c-all-that-jazz-5",
+          "rank": 5,
+          "clue": "This trumpeter recorded the 1959 album \"Kind of Blue.\"",
+          "answer": "Miles Davis",
+          "alternates": [
+            "Davis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3c-lights-camera-song",
+      "name": "Lights, Camera, Song!",
+      "clues": [
+        {
+          "id": "l3c-lights-camera-song-1",
+          "rank": 1,
+          "clue": "Julie Andrews plays a magical nanny who flies in with her umbrella in this 1964 film.",
+          "answer": "Mary Poppins",
+          "alternates": []
+        },
+        {
+          "id": "l3c-lights-camera-song-2",
+          "rank": 2,
+          "clue": "Danny and Sandy fall in love at Rydell High in this musical film.",
+          "answer": "Grease",
+          "alternates": []
+        },
+        {
+          "id": "l3c-lights-camera-song-3",
+          "rank": 3,
+          "clue": "Maria becomes governess to the von Trapp children in this 1965 film.",
+          "answer": "The Sound of Music",
+          "alternates": [
+            "Sound of Music"
+          ]
+        },
+        {
+          "id": "l3c-lights-camera-song-4",
+          "rank": 4,
+          "clue": "Gene Kelly dances with an umbrella through a downpour in this 1952 film.",
+          "answer": "Singin' in the Rain",
+          "alternates": [
+            "Singing in the Rain"
+          ]
+        },
+        {
+          "id": "l3c-lights-camera-song-5",
+          "rank": 5,
+          "clue": "Flower girl Eliza Doolittle takes speech lessons in this 1964 film musical.",
+          "answer": "My Fair Lady",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

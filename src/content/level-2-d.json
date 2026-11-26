@@ -1,0 +1,2323 @@
+{
+  "level": 2,
+  "categories": [
+    {
+      "id": "l2d-sound-alikes",
+      "name": "Sound-Alikes",
+      "clues": [
+        {
+          "id": "l2d-sound-alikes-1",
+          "rank": 1,
+          "clue": "This homophone of 'flour' grows in a garden and blooms.",
+          "answer": "Flower",
+          "alternates": []
+        },
+        {
+          "id": "l2d-sound-alikes-2",
+          "rank": 2,
+          "clue": "Spelled differently from 'knight', it's the time when the sky is dark.",
+          "answer": "Night",
+          "alternates": []
+        },
+        {
+          "id": "l2d-sound-alikes-3",
+          "rank": 3,
+          "clue": "This homophone of 'pair' is a juicy fruit.",
+          "answer": "Pear",
+          "alternates": []
+        },
+        {
+          "id": "l2d-sound-alikes-4",
+          "rank": 4,
+          "clue": "This homophone of 'principle' names the person in charge of a school.",
+          "answer": "Principal",
+          "alternates": []
+        },
+        {
+          "id": "l2d-sound-alikes-5",
+          "rank": 5,
+          "clue": "This homophone of 'stationery' means standing still.",
+          "answer": "Stationary",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-pre-fix-it",
+      "name": "Pre-Fix It",
+      "clues": [
+        {
+          "id": "l2d-pre-fix-it-1",
+          "rank": 1,
+          "clue": "This prefix meaning 'not' turns 'happy' into its opposite.",
+          "answer": "Un",
+          "alternates": [
+            "un-"
+          ]
+        },
+        {
+          "id": "l2d-pre-fix-it-2",
+          "rank": 2,
+          "clue": "This prefix meaning 'again' turns 'build' into building a second time.",
+          "answer": "Re",
+          "alternates": [
+            "re-"
+          ]
+        },
+        {
+          "id": "l2d-pre-fix-it-3",
+          "rank": 3,
+          "clue": "This three-letter prefix meaning 'before' is added to 'heat' when you warm an oven early.",
+          "answer": "Pre",
+          "alternates": [
+            "pre-"
+          ]
+        },
+        {
+          "id": "l2d-pre-fix-it-4",
+          "rank": 4,
+          "clue": "This prefix meaning 'under' turns 'marine' into an underwater boat.",
+          "answer": "Sub",
+          "alternates": [
+            "sub-"
+          ]
+        },
+        {
+          "id": "l2d-pre-fix-it-5",
+          "rank": 5,
+          "clue": "This prefix meaning 'far off' combines with 'scope' to name a stargazing tool.",
+          "answer": "Tele",
+          "alternates": [
+            "tele-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-suffix-ient-knowledge",
+      "name": "Suffix-ient Knowledge",
+      "clues": [
+        {
+          "id": "l2d-suffix-ient-knowledge-1",
+          "rank": 1,
+          "clue": "This suffix turns 'teach' into the person who teaches.",
+          "answer": "Er",
+          "alternates": [
+            "-er"
+          ]
+        },
+        {
+          "id": "l2d-suffix-ient-knowledge-2",
+          "rank": 2,
+          "clue": "Add this suffix to 'fear' to mean 'without fear'.",
+          "answer": "Less",
+          "alternates": [
+            "-less"
+          ]
+        },
+        {
+          "id": "l2d-suffix-ient-knowledge-3",
+          "rank": 3,
+          "clue": "This suffix meaning 'full of' turns 'joy' into a word for happy.",
+          "answer": "Ful",
+          "alternates": [
+            "-ful",
+            "full"
+          ]
+        },
+        {
+          "id": "l2d-suffix-ient-knowledge-4",
+          "rank": 4,
+          "clue": "Add this two-letter suffix to 'quick' to make an adverb.",
+          "answer": "Ly",
+          "alternates": [
+            "-ly"
+          ]
+        },
+        {
+          "id": "l2d-suffix-ient-knowledge-5",
+          "rank": 5,
+          "clue": "This suffix meaning 'can be done' turns 'wash' into a word for clothes you can clean.",
+          "answer": "Able",
+          "alternates": [
+            "-able"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-idiom-savant",
+      "name": "Idiom Savant",
+      "clues": [
+        {
+          "id": "l2d-idiom-savant-1",
+          "rank": 1,
+          "clue": "When it's pouring very hard, it's raining cats and these.",
+          "answer": "Dogs",
+          "alternates": []
+        },
+        {
+          "id": "l2d-idiom-savant-2",
+          "rank": 2,
+          "clue": "Something very easy is said to be a piece of this dessert.",
+          "answer": "Cake",
+          "alternates": []
+        },
+        {
+          "id": "l2d-idiom-savant-3",
+          "rank": 3,
+          "clue": "To reveal a secret is to let this animal out of the bag.",
+          "answer": "Cat",
+          "alternates": []
+        },
+        {
+          "id": "l2d-idiom-savant-4",
+          "rank": 4,
+          "clue": "Someone who 'spills' these is telling all the secrets.",
+          "answer": "Beans",
+          "alternates": [
+            "the beans"
+          ]
+        },
+        {
+          "id": "l2d-idiom-savant-5",
+          "rank": 5,
+          "clue": "When you feel a little sick, you're said to be 'under' this.",
+          "answer": "Weather",
+          "alternates": [
+            "the weather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-short-stuff",
+      "name": "Short Stuff",
+      "clues": [
+        {
+          "id": "l2d-short-stuff-1",
+          "rank": 1,
+          "clue": "The abbreviation 'Dr.' before a name usually stands for this title.",
+          "answer": "Doctor",
+          "alternates": []
+        },
+        {
+          "id": "l2d-short-stuff-2",
+          "rank": 2,
+          "clue": "On an address, 'St.' usually stands for this.",
+          "answer": "Street",
+          "alternates": []
+        },
+        {
+          "id": "l2d-short-stuff-3",
+          "rank": 3,
+          "clue": "In a recipe, 'tsp' stands for this.",
+          "answer": "Teaspoon",
+          "alternates": [
+            "teaspoons"
+          ]
+        },
+        {
+          "id": "l2d-short-stuff-4",
+          "rank": 4,
+          "clue": "At the end of a letter, 'P.S.' stands for this word.",
+          "answer": "Postscript",
+          "alternates": [
+            "post script"
+          ]
+        },
+        {
+          "id": "l2d-short-stuff-5",
+          "rank": 5,
+          "clue": "The abbreviation 'e.g.' means this two-word English phrase.",
+          "answer": "For example",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-letter-scramble",
+      "name": "Letter Scramble",
+      "clues": [
+        {
+          "id": "l2d-letter-scramble-1",
+          "rank": 1,
+          "clue": "Rearrange the letters of 'stop' to get these cooking containers.",
+          "answer": "Pots",
+          "alternates": []
+        },
+        {
+          "id": "l2d-letter-scramble-2",
+          "rank": 2,
+          "clue": "Rearrange the letters of 'earth' to get this organ that beats.",
+          "answer": "Heart",
+          "alternates": []
+        },
+        {
+          "id": "l2d-letter-scramble-3",
+          "rank": 3,
+          "clue": "Rearrange the letters of 'lemon' to get this summer fruit.",
+          "answer": "Melon",
+          "alternates": []
+        },
+        {
+          "id": "l2d-letter-scramble-4",
+          "rank": 4,
+          "clue": "Rearrange the letters of 'night' to get this word for an object.",
+          "answer": "Thing",
+          "alternates": []
+        },
+        {
+          "id": "l2d-letter-scramble-5",
+          "rank": 5,
+          "clue": "Rearrange the letters of 'the eyes' to get this two-word phrase that describes what eyes do.",
+          "answer": "They see",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-origin-story",
+      "name": "Origin Story",
+      "clues": [
+        {
+          "id": "l2d-origin-story-1",
+          "rank": 1,
+          "clue": "'Breakfast' literally means to break this, the long stretch overnight without eating.",
+          "answer": "Fast",
+          "alternates": []
+        },
+        {
+          "id": "l2d-origin-story-2",
+          "rank": 2,
+          "clue": "'Kindergarten' comes from this language and means 'children's garden'.",
+          "answer": "German",
+          "alternates": []
+        },
+        {
+          "id": "l2d-origin-story-3",
+          "rank": 3,
+          "clue": "The word 'alphabet' comes from the first two letters of this language's alphabet.",
+          "answer": "Greek",
+          "alternates": []
+        },
+        {
+          "id": "l2d-origin-story-4",
+          "rank": 4,
+          "clue": "The word 'dinosaur' comes from Greek words meaning 'terrible' this.",
+          "answer": "Lizard",
+          "alternates": []
+        },
+        {
+          "id": "l2d-origin-story-5",
+          "rank": 5,
+          "clue": "The word 'robot' was introduced in a 1920 play by a writer from this present-day country.",
+          "answer": "Czech Republic",
+          "alternates": [
+            "Czechia",
+            "Czechoslovakia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-world-plate",
+      "name": "World Plate",
+      "clues": [
+        {
+          "id": "l2d-world-plate-1",
+          "rank": 1,
+          "clue": "Sushi is a famous dish from this country.",
+          "answer": "Japan",
+          "alternates": []
+        },
+        {
+          "id": "l2d-world-plate-2",
+          "rank": 2,
+          "clue": "Tacos and enchiladas come from this country's cuisine.",
+          "answer": "Mexico",
+          "alternates": []
+        },
+        {
+          "id": "l2d-world-plate-3",
+          "rank": 3,
+          "clue": "Paella, a saffron rice dish, comes from this country.",
+          "answer": "Spain",
+          "alternates": []
+        },
+        {
+          "id": "l2d-world-plate-4",
+          "rank": 4,
+          "clue": "Kimchi, a spicy fermented cabbage, is a staple of this country's cuisine.",
+          "answer": "Korea",
+          "alternates": [
+            "South Korea"
+          ]
+        },
+        {
+          "id": "l2d-world-plate-5",
+          "rank": 5,
+          "clue": "Pierogi are dumplings closely associated with this Central European country.",
+          "answer": "Poland",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-holiday-hop",
+      "name": "Holiday Hop",
+      "clues": [
+        {
+          "id": "l2d-holiday-hop-1",
+          "rank": 1,
+          "clue": "This October 31 holiday features costumes and trick-or-treating.",
+          "answer": "Halloween",
+          "alternates": [
+            "Hallowe'en"
+          ]
+        },
+        {
+          "id": "l2d-holiday-hop-2",
+          "rank": 2,
+          "clue": "This eight-night Jewish holiday is celebrated by lighting a menorah.",
+          "answer": "Hanukkah",
+          "alternates": [
+            "Chanukah",
+            "Hanukah",
+            "Chanukkah"
+          ]
+        },
+        {
+          "id": "l2d-holiday-hop-3",
+          "rank": 3,
+          "clue": "This Hindu festival of lights features small oil lamps called diyas.",
+          "answer": "Diwali",
+          "alternates": [
+            "Deepavali"
+          ]
+        },
+        {
+          "id": "l2d-holiday-hop-4",
+          "rank": 4,
+          "clue": "Mexico's Dia de los Muertos translates to this in English.",
+          "answer": "Day of the Dead",
+          "alternates": []
+        },
+        {
+          "id": "l2d-holiday-hop-5",
+          "rank": 5,
+          "clue": "Muslims celebrate this festival at the end of the fasting month of Ramadan.",
+          "answer": "Eid al-Fitr",
+          "alternates": [
+            "Eid",
+            "Eid ul-Fitr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-number-crunch",
+      "name": "Number Crunch",
+      "clues": [
+        {
+          "id": "l2d-number-crunch-1",
+          "rank": 1,
+          "clue": "This is the answer to an addition problem.",
+          "answer": "Sum",
+          "alternates": [
+            "total"
+          ]
+        },
+        {
+          "id": "l2d-number-crunch-2",
+          "rank": 2,
+          "clue": "This is the answer to a subtraction problem.",
+          "answer": "Difference",
+          "alternates": []
+        },
+        {
+          "id": "l2d-number-crunch-3",
+          "rank": 3,
+          "clue": "A number that divides evenly into another, like 3 for 12, is called this.",
+          "answer": "Factor",
+          "alternates": [
+            "divisor"
+          ]
+        },
+        {
+          "id": "l2d-number-crunch-4",
+          "rank": 4,
+          "clue": "This is the answer to a division problem.",
+          "answer": "Quotient",
+          "alternates": []
+        },
+        {
+          "id": "l2d-number-crunch-5",
+          "rank": 5,
+          "clue": "This word means any whole number, positive, negative, or zero.",
+          "answer": "Integer",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-money-talks",
+      "name": "Money Talks",
+      "clues": [
+        {
+          "id": "l2d-money-talks-1",
+          "rank": 1,
+          "clue": "This US coin is worth ten cents.",
+          "answer": "Dime",
+          "alternates": []
+        },
+        {
+          "id": "l2d-money-talks-2",
+          "rank": 2,
+          "clue": "Abraham Lincoln appears on this US coin.",
+          "answer": "Penny",
+          "alternates": [
+            "cent",
+            "one cent"
+          ]
+        },
+        {
+          "id": "l2d-money-talks-3",
+          "rank": 3,
+          "clue": "A plan for how you will spend and save your money is called this.",
+          "answer": "Budget",
+          "alternates": []
+        },
+        {
+          "id": "l2d-money-talks-4",
+          "rank": 4,
+          "clue": "Money in a savings account earns extra money called this.",
+          "answer": "Interest",
+          "alternates": []
+        },
+        {
+          "id": "l2d-money-talks-5",
+          "rank": 5,
+          "clue": "Benjamin Franklin's face appears on this US bill.",
+          "answer": "Hundred-dollar bill",
+          "alternates": [
+            "100-dollar bill",
+            "$100 bill",
+            "100",
+            "hundred",
+            "one hundred dollar bill"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-measure-up",
+      "name": "Measure Up",
+      "clues": [
+        {
+          "id": "l2d-measure-up-1",
+          "rank": 1,
+          "clue": "This many inches are in a foot.",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        },
+        {
+          "id": "l2d-measure-up-2",
+          "rank": 2,
+          "clue": "This many quarts are in a gallon.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l2d-measure-up-3",
+          "rank": 3,
+          "clue": "This many meters are in a kilometer.",
+          "answer": "1,000",
+          "alternates": [
+            "1000",
+            "one thousand",
+            "thousand"
+          ]
+        },
+        {
+          "id": "l2d-measure-up-4",
+          "rank": 4,
+          "clue": "This many ounces are in a pound.",
+          "answer": "16",
+          "alternates": [
+            "sixteen"
+          ]
+        },
+        {
+          "id": "l2d-measure-up-5",
+          "rank": 5,
+          "clue": "This many feet are in a mile.",
+          "answer": "5,280",
+          "alternates": [
+            "5280",
+            "five thousand two hundred eighty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-gadget-genesis",
+      "name": "Gadget Genesis",
+      "clues": [
+        {
+          "id": "l2d-gadget-genesis-1",
+          "rank": 1,
+          "clue": "This fastener with interlocking teeth closes jackets and backpacks.",
+          "answer": "Zipper",
+          "alternates": [
+            "zip"
+          ]
+        },
+        {
+          "id": "l2d-gadget-genesis-2",
+          "rank": 2,
+          "clue": "This hook-and-loop fastener was inspired by burrs sticking to a dog's fur.",
+          "answer": "Velcro",
+          "alternates": []
+        },
+        {
+          "id": "l2d-gadget-genesis-3",
+          "rank": 3,
+          "clue": "Percy Spencer invented this kitchen appliance after a candy bar melted in his pocket near radar equipment.",
+          "answer": "Microwave oven",
+          "alternates": [
+            "microwave"
+          ]
+        },
+        {
+          "id": "l2d-gadget-genesis-4",
+          "rank": 4,
+          "clue": "Earle Dickson invented this small adhesive bandage for his wife, who often cut herself in the kitchen.",
+          "answer": "Band-Aid",
+          "alternates": [
+            "bandaid"
+          ]
+        },
+        {
+          "id": "l2d-gadget-genesis-5",
+          "rank": 5,
+          "clue": "Benjamin Franklin is credited with inventing these eyeglasses that help you see both near and far.",
+          "answer": "Bifocals",
+          "alternates": [
+            "bifocal glasses",
+            "bifocal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-job-fair",
+      "name": "Job Fair",
+      "clues": [
+        {
+          "id": "l2d-job-fair-1",
+          "rank": 1,
+          "clue": "This person flies an airplane.",
+          "answer": "Pilot",
+          "alternates": []
+        },
+        {
+          "id": "l2d-job-fair-2",
+          "rank": 2,
+          "clue": "This person cleans and fixes your teeth.",
+          "answer": "Dentist",
+          "alternates": []
+        },
+        {
+          "id": "l2d-job-fair-3",
+          "rank": 3,
+          "clue": "This animal doctor takes care of pets.",
+          "answer": "Veterinarian",
+          "alternates": [
+            "vet"
+          ]
+        },
+        {
+          "id": "l2d-job-fair-4",
+          "rank": 4,
+          "clue": "This person designs buildings.",
+          "answer": "Architect",
+          "alternates": []
+        },
+        {
+          "id": "l2d-job-fair-5",
+          "rank": 5,
+          "clue": "This person prepares and hands out prescription medicines.",
+          "answer": "Pharmacist",
+          "alternates": [
+            "chemist",
+            "druggist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-pun-intended",
+      "name": "Pun Intended",
+      "clues": [
+        {
+          "id": "l2d-pun-intended-1",
+          "rank": 1,
+          "clue": "Why was the math book sad? It had too many of these.",
+          "answer": "Problems",
+          "alternates": [
+            "problem"
+          ]
+        },
+        {
+          "id": "l2d-pun-intended-2",
+          "rank": 2,
+          "clue": "What do you call a fake noodle? An ___.",
+          "answer": "Impasta",
+          "alternates": []
+        },
+        {
+          "id": "l2d-pun-intended-3",
+          "rank": 3,
+          "clue": "Why can't a bicycle stand up by itself? Because it's two ___.",
+          "answer": "Tired",
+          "alternates": [
+            "too tired",
+            "two tired"
+          ]
+        },
+        {
+          "id": "l2d-pun-intended-4",
+          "rank": 4,
+          "clue": "What do you call cheese that isn't yours? This.",
+          "answer": "Nacho cheese",
+          "alternates": [
+            "nacho"
+          ]
+        },
+        {
+          "id": "l2d-pun-intended-5",
+          "rank": 5,
+          "clue": "Why did the cookie go to the doctor? Because it felt this way.",
+          "answer": "Crummy",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-opposites-attract",
+      "name": "Opposites Attract",
+      "clues": [
+        {
+          "id": "l2d-opposites-attract-1",
+          "rank": 1,
+          "clue": "This is the opposite of 'maximum'.",
+          "answer": "Minimum",
+          "alternates": []
+        },
+        {
+          "id": "l2d-opposites-attract-2",
+          "rank": 2,
+          "clue": "This is the opposite of 'victory'.",
+          "answer": "Defeat",
+          "alternates": [
+            "loss"
+          ]
+        },
+        {
+          "id": "l2d-opposites-attract-3",
+          "rank": 3,
+          "clue": "This is the opposite of 'ancient'.",
+          "answer": "Modern",
+          "alternates": [
+            "new"
+          ]
+        },
+        {
+          "id": "l2d-opposites-attract-4",
+          "rank": 4,
+          "clue": "This is the opposite of 'expand'.",
+          "answer": "Contract",
+          "alternates": [
+            "shrink"
+          ]
+        },
+        {
+          "id": "l2d-opposites-attract-5",
+          "rank": 5,
+          "clue": "This is the opposite of 'transparent'.",
+          "answer": "Opaque",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-word-nerd",
+      "name": "Word Nerd",
+      "clues": [
+        {
+          "id": "l2d-word-nerd-1",
+          "rank": 1,
+          "clue": "This is a word that means the opposite of another word.",
+          "answer": "Antonym",
+          "alternates": []
+        },
+        {
+          "id": "l2d-word-nerd-2",
+          "rank": 2,
+          "clue": "This is a word that means the same as another word.",
+          "answer": "Synonym",
+          "alternates": []
+        },
+        {
+          "id": "l2d-word-nerd-3",
+          "rank": 3,
+          "clue": "This is a comparison using 'like' or 'as'.",
+          "answer": "Simile",
+          "alternates": []
+        },
+        {
+          "id": "l2d-word-nerd-4",
+          "rank": 4,
+          "clue": "Words like 'sea' and 'see' that sound the same but mean different things are called this.",
+          "answer": "Homophones",
+          "alternates": [
+            "homophone"
+          ]
+        },
+        {
+          "id": "l2d-word-nerd-5",
+          "rank": 5,
+          "clue": "A word that imitates a sound, like 'buzz' or 'sizzle', is an example of this.",
+          "answer": "Onomatopoeia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-breakfast-club",
+      "name": "Breakfast Club",
+      "clues": [
+        {
+          "id": "l2d-breakfast-club-1",
+          "rank": 1,
+          "clue": "This breakfast food has square pockets that hold syrup.",
+          "answer": "Waffle",
+          "alternates": [
+            "waffles"
+          ]
+        },
+        {
+          "id": "l2d-breakfast-club-2",
+          "rank": 2,
+          "clue": "This sweet topping comes from the sap of the tree whose leaf is on Canada's flag.",
+          "answer": "Maple syrup",
+          "alternates": [
+            "maple"
+          ]
+        },
+        {
+          "id": "l2d-breakfast-club-3",
+          "rank": 3,
+          "clue": "This egg dish is cooked flat and folded around fillings like cheese.",
+          "answer": "Omelet",
+          "alternates": [
+            "omelette"
+          ]
+        },
+        {
+          "id": "l2d-breakfast-club-4",
+          "rank": 4,
+          "clue": "This flaky French pastry's name means 'crescent'.",
+          "answer": "Croissant",
+          "alternates": []
+        },
+        {
+          "id": "l2d-breakfast-club-5",
+          "rank": 5,
+          "clue": "Eggs Benedict is topped with this rich, buttery yellow sauce.",
+          "answer": "Hollandaise",
+          "alternates": [
+            "hollandaise sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-sweet-tooth",
+      "name": "Sweet Tooth",
+      "clues": [
+        {
+          "id": "l2d-sweet-tooth-1",
+          "rank": 1,
+          "clue": "S'mores combine graham crackers, chocolate, and this toasted treat.",
+          "answer": "Marshmallow",
+          "alternates": [
+            "marshmallows"
+          ]
+        },
+        {
+          "id": "l2d-sweet-tooth-2",
+          "rank": 2,
+          "clue": "This Italian frozen dessert is similar to ice cream.",
+          "answer": "Gelato",
+          "alternates": []
+        },
+        {
+          "id": "l2d-sweet-tooth-3",
+          "rank": 3,
+          "clue": "This French custard dessert has a crackly top of burnt sugar.",
+          "answer": "Crème brûlée",
+          "alternates": [
+            "creme brulee"
+          ]
+        },
+        {
+          "id": "l2d-sweet-tooth-4",
+          "rank": 4,
+          "clue": "Baklava is made from layers of this paper-thin dough.",
+          "answer": "Phyllo",
+          "alternates": [
+            "filo",
+            "fillo",
+            "phyllo dough"
+          ]
+        },
+        {
+          "id": "l2d-sweet-tooth-5",
+          "rank": 5,
+          "clue": "This meringue dessert topped with fruit is named after a famous Russian ballerina.",
+          "answer": "Pavlova",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-say-cheese",
+      "name": "Say Cheese",
+      "clues": [
+        {
+          "id": "l2d-say-cheese-1",
+          "rank": 1,
+          "clue": "This cheese with holes shares its name with a European country's people.",
+          "answer": "Swiss",
+          "alternates": [
+            "Swiss cheese"
+          ]
+        },
+        {
+          "id": "l2d-say-cheese-2",
+          "rank": 2,
+          "clue": "This stretchy white cheese is the classic topping on pizza.",
+          "answer": "Mozzarella",
+          "alternates": []
+        },
+        {
+          "id": "l2d-say-cheese-3",
+          "rank": 3,
+          "clue": "Named for an English village, this cheese is often orange.",
+          "answer": "Cheddar",
+          "alternates": []
+        },
+        {
+          "id": "l2d-say-cheese-4",
+          "rank": 4,
+          "clue": "This hard Italian cheese is often grated over pasta.",
+          "answer": "Parmesan",
+          "alternates": [
+            "Parmigiano-Reggiano",
+            "Parmigiano"
+          ]
+        },
+        {
+          "id": "l2d-say-cheese-5",
+          "rank": 5,
+          "clue": "This crumbly white cheese, often made from sheep's milk, tops a Greek salad.",
+          "answer": "Feta",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-pasta-la-vista",
+      "name": "Pasta La Vista",
+      "clues": [
+        {
+          "id": "l2d-pasta-la-vista-1",
+          "rank": 1,
+          "clue": "These long, thin strands of pasta are often served with meatballs.",
+          "answer": "Spaghetti",
+          "alternates": []
+        },
+        {
+          "id": "l2d-pasta-la-vista-2",
+          "rank": 2,
+          "clue": "These small curved tubes of pasta are paired with cheese in a classic comfort food.",
+          "answer": "Macaroni",
+          "alternates": []
+        },
+        {
+          "id": "l2d-pasta-la-vista-3",
+          "rank": 3,
+          "clue": "These square pillows of pasta are stuffed with fillings like cheese.",
+          "answer": "Ravioli",
+          "alternates": []
+        },
+        {
+          "id": "l2d-pasta-la-vista-4",
+          "rank": 4,
+          "clue": "Bow-tie pasta has this Italian name, meaning 'butterflies'.",
+          "answer": "Farfalle",
+          "alternates": []
+        },
+        {
+          "id": "l2d-pasta-la-vista-5",
+          "rank": 5,
+          "clue": "Pasta cooked 'al dente' is firm; the Italian phrase literally means this.",
+          "answer": "To the tooth",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-fruit-salad",
+      "name": "Fruit Salad",
+      "clues": [
+        {
+          "id": "l2d-fruit-salad-1",
+          "rank": 1,
+          "clue": "Monkeys are famous for peeling this curved yellow fruit.",
+          "answer": "Banana",
+          "alternates": [
+            "bananas"
+          ]
+        },
+        {
+          "id": "l2d-fruit-salad-2",
+          "rank": 2,
+          "clue": "Raisins are dried versions of this fruit.",
+          "answer": "Grape",
+          "alternates": [
+            "grapes"
+          ]
+        },
+        {
+          "id": "l2d-fruit-salad-3",
+          "rank": 3,
+          "clue": "This tropical fruit has a spiky crown on top.",
+          "answer": "Pineapple",
+          "alternates": []
+        },
+        {
+          "id": "l2d-fruit-salad-4",
+          "rank": 4,
+          "clue": "Guacamole is made by mashing this green fruit.",
+          "answer": "Avocado",
+          "alternates": [
+            "avocados"
+          ]
+        },
+        {
+          "id": "l2d-fruit-salad-5",
+          "rank": 5,
+          "clue": "Prunes are dried versions of this fruit.",
+          "answer": "Plum",
+          "alternates": [
+            "plums"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-spice-rack",
+      "name": "Spice Rack",
+      "clues": [
+        {
+          "id": "l2d-spice-rack-1",
+          "rank": 1,
+          "clue": "This spice, ground from peppercorns, sits beside the salt shaker.",
+          "answer": "Pepper",
+          "alternates": [
+            "black pepper"
+          ]
+        },
+        {
+          "id": "l2d-spice-rack-2",
+          "rank": 2,
+          "clue": "This spice made from tree bark is often sprinkled on toast with sugar.",
+          "answer": "Cinnamon",
+          "alternates": []
+        },
+        {
+          "id": "l2d-spice-rack-3",
+          "rank": 3,
+          "clue": "This spice, often grated over custard, comes from the same fruit as mace.",
+          "answer": "Nutmeg",
+          "alternates": []
+        },
+        {
+          "id": "l2d-spice-rack-4",
+          "rank": 4,
+          "clue": "This bright yellow spice gives many curries their golden color.",
+          "answer": "Turmeric",
+          "alternates": []
+        },
+        {
+          "id": "l2d-spice-rack-5",
+          "rank": 5,
+          "clue": "The most expensive spice by weight, it comes from crocus flowers.",
+          "answer": "Saffron",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-roman-numeral-rumble",
+      "name": "Roman Numeral Rumble",
+      "clues": [
+        {
+          "id": "l2d-roman-numeral-rumble-1",
+          "rank": 1,
+          "clue": "The Roman numeral X stands for this number.",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        },
+        {
+          "id": "l2d-roman-numeral-rumble-2",
+          "rank": 2,
+          "clue": "The Roman numeral L stands for this number.",
+          "answer": "50",
+          "alternates": [
+            "fifty"
+          ]
+        },
+        {
+          "id": "l2d-roman-numeral-rumble-3",
+          "rank": 3,
+          "clue": "The Roman numeral XIV stands for this number.",
+          "answer": "14",
+          "alternates": [
+            "fourteen"
+          ]
+        },
+        {
+          "id": "l2d-roman-numeral-rumble-4",
+          "rank": 4,
+          "clue": "The Roman numeral XC stands for this number.",
+          "answer": "90",
+          "alternates": [
+            "ninety"
+          ]
+        },
+        {
+          "id": "l2d-roman-numeral-rumble-5",
+          "rank": 5,
+          "clue": "The Roman numeral CD stands for this number.",
+          "answer": "400",
+          "alternates": [
+            "four hundred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-shape-shifters",
+      "name": "Shape Shifters",
+      "clues": [
+        {
+          "id": "l2d-shape-shifters-1",
+          "rank": 1,
+          "clue": "This shape has three sides.",
+          "answer": "Triangle",
+          "alternates": []
+        },
+        {
+          "id": "l2d-shape-shifters-2",
+          "rank": 2,
+          "clue": "This shape has five sides, like a famous building near Washington, D.C.",
+          "answer": "Pentagon",
+          "alternates": []
+        },
+        {
+          "id": "l2d-shape-shifters-3",
+          "rank": 3,
+          "clue": "This six-sided shape matches the cells of a honeycomb.",
+          "answer": "Hexagon",
+          "alternates": []
+        },
+        {
+          "id": "l2d-shape-shifters-4",
+          "rank": 4,
+          "clue": "In the US, this name is used for a four-sided shape with one pair of parallel sides.",
+          "answer": "Trapezoid",
+          "alternates": [
+            "trapezium"
+          ]
+        },
+        {
+          "id": "l2d-shape-shifters-5",
+          "rank": 5,
+          "clue": "This polygon has ten sides.",
+          "answer": "Decagon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-fraction-action",
+      "name": "Fraction Action",
+      "clues": [
+        {
+          "id": "l2d-fraction-action-1",
+          "rank": 1,
+          "clue": "Fifteen minutes is this fraction of an hour.",
+          "answer": "One quarter",
+          "alternates": [
+            "quarter",
+            "a quarter",
+            "1/4",
+            "one fourth",
+            "a fourth"
+          ]
+        },
+        {
+          "id": "l2d-fraction-action-2",
+          "rank": 2,
+          "clue": "In the fraction 3/4, the top number is called this.",
+          "answer": "Numerator",
+          "alternates": []
+        },
+        {
+          "id": "l2d-fraction-action-3",
+          "rank": 3,
+          "clue": "In the fraction 3/4, the bottom number is called this.",
+          "answer": "Denominator",
+          "alternates": []
+        },
+        {
+          "id": "l2d-fraction-action-4",
+          "rank": 4,
+          "clue": "A fraction like 7/4, whose top number is bigger than its bottom, is this kind of fraction.",
+          "answer": "Improper",
+          "alternates": [
+            "improper fraction"
+          ]
+        },
+        {
+          "id": "l2d-fraction-action-5",
+          "rank": 5,
+          "clue": "Fractions like 1/2 and 2/4 that have the same value are called this.",
+          "answer": "Equivalent fractions",
+          "alternates": [
+            "equivalent",
+            "equal fractions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-prime-time",
+      "name": "Prime Time",
+      "clues": [
+        {
+          "id": "l2d-prime-time-1",
+          "rank": 1,
+          "clue": "This is the only even prime number.",
+          "answer": "2",
+          "alternates": [
+            "two"
+          ]
+        },
+        {
+          "id": "l2d-prime-time-2",
+          "rank": 2,
+          "clue": "This is the smallest two-digit prime number.",
+          "answer": "11",
+          "alternates": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "l2d-prime-time-3",
+          "rank": 3,
+          "clue": "A whole number greater than 1 that is not prime is called this.",
+          "answer": "Composite",
+          "alternates": [
+            "composite number"
+          ]
+        },
+        {
+          "id": "l2d-prime-time-4",
+          "rank": 4,
+          "clue": "This is the largest prime number less than 50.",
+          "answer": "47",
+          "alternates": [
+            "forty-seven",
+            "forty seven"
+          ]
+        },
+        {
+          "id": "l2d-prime-time-5",
+          "rank": 5,
+          "clue": "This positive whole number is neither prime nor composite.",
+          "answer": "1",
+          "alternates": [
+            "one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-world-wallet",
+      "name": "World Wallet",
+      "clues": [
+        {
+          "id": "l2d-world-wallet-1",
+          "rank": 1,
+          "clue": "Many European Union countries share this currency.",
+          "answer": "Euro",
+          "alternates": [
+            "euros"
+          ]
+        },
+        {
+          "id": "l2d-world-wallet-2",
+          "rank": 2,
+          "clue": "This is the currency of Japan.",
+          "answer": "Yen",
+          "alternates": []
+        },
+        {
+          "id": "l2d-world-wallet-3",
+          "rank": 3,
+          "clue": "This currency of the United Kingdom shares its name with a unit of weight.",
+          "answer": "Pound",
+          "alternates": [
+            "pound sterling",
+            "pounds"
+          ]
+        },
+        {
+          "id": "l2d-world-wallet-4",
+          "rank": 4,
+          "clue": "This is the currency of Mexico.",
+          "answer": "Peso",
+          "alternates": [
+            "pesos",
+            "Mexican peso"
+          ]
+        },
+        {
+          "id": "l2d-world-wallet-5",
+          "rank": 5,
+          "clue": "This is the currency of India.",
+          "answer": "Rupee",
+          "alternates": [
+            "rupees",
+            "Indian rupee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-clock-watchers",
+      "name": "Clock Watchers",
+      "clues": [
+        {
+          "id": "l2d-clock-watchers-1",
+          "rank": 1,
+          "clue": "This many minutes are in an hour.",
+          "answer": "60",
+          "alternates": [
+            "sixty"
+          ]
+        },
+        {
+          "id": "l2d-clock-watchers-2",
+          "rank": 2,
+          "clue": "This many hours are in a day.",
+          "answer": "24",
+          "alternates": [
+            "twenty-four",
+            "twenty four"
+          ]
+        },
+        {
+          "id": "l2d-clock-watchers-3",
+          "rank": 3,
+          "clue": "This many days are in a leap year.",
+          "answer": "366",
+          "alternates": [
+            "three hundred sixty-six",
+            "three hundred sixty six"
+          ]
+        },
+        {
+          "id": "l2d-clock-watchers-4",
+          "rank": 4,
+          "clue": "This word names a period of 1,000 years.",
+          "answer": "Millennium",
+          "alternates": [
+            "millenium"
+          ]
+        },
+        {
+          "id": "l2d-clock-watchers-5",
+          "rank": 5,
+          "clue": "This many seconds are in one hour.",
+          "answer": "3,600",
+          "alternates": [
+            "3600",
+            "three thousand six hundred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-calendar-pages",
+      "name": "Calendar Pages",
+      "clues": [
+        {
+          "id": "l2d-calendar-pages-1",
+          "rank": 1,
+          "clue": "This month has the fewest days.",
+          "answer": "February",
+          "alternates": []
+        },
+        {
+          "id": "l2d-calendar-pages-2",
+          "rank": 2,
+          "clue": "This seventh month is named after Julius Caesar.",
+          "answer": "July",
+          "alternates": []
+        },
+        {
+          "id": "l2d-calendar-pages-3",
+          "rank": 3,
+          "clue": "This month is named after Janus, the Roman god of beginnings and doorways.",
+          "answer": "January",
+          "alternates": []
+        },
+        {
+          "id": "l2d-calendar-pages-4",
+          "rank": 4,
+          "clue": "Though it's now the tenth month, October's name comes from the Latin word for this number.",
+          "answer": "Eight",
+          "alternates": [
+            "8"
+          ]
+        },
+        {
+          "id": "l2d-calendar-pages-5",
+          "rank": 5,
+          "clue": "Saturday is named after this Roman god.",
+          "answer": "Saturn",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-plural-problems",
+      "name": "Plural Problems",
+      "clues": [
+        {
+          "id": "l2d-plural-problems-1",
+          "rank": 1,
+          "clue": "This is the plural of 'mouse'.",
+          "answer": "Mice",
+          "alternates": []
+        },
+        {
+          "id": "l2d-plural-problems-2",
+          "rank": 2,
+          "clue": "This is the plural of 'child'.",
+          "answer": "Children",
+          "alternates": []
+        },
+        {
+          "id": "l2d-plural-problems-3",
+          "rank": 3,
+          "clue": "This is the plural of 'goose'.",
+          "answer": "Geese",
+          "alternates": []
+        },
+        {
+          "id": "l2d-plural-problems-4",
+          "rank": 4,
+          "clue": "This is the Latin-style plural of 'cactus'.",
+          "answer": "Cacti",
+          "alternates": []
+        },
+        {
+          "id": "l2d-plural-problems-5",
+          "rank": 5,
+          "clue": "This is the plural of 'phenomenon'.",
+          "answer": "Phenomena",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-compound-interest",
+      "name": "Compound Interest",
+      "clues": [
+        {
+          "id": "l2d-compound-interest-1",
+          "rank": 1,
+          "clue": "Foot + this = a sport played by kicking.",
+          "answer": "Ball",
+          "alternates": []
+        },
+        {
+          "id": "l2d-compound-interest-2",
+          "rank": 2,
+          "clue": "Rain + this = a colorful arc in the sky.",
+          "answer": "Bow",
+          "alternates": []
+        },
+        {
+          "id": "l2d-compound-interest-3",
+          "rank": 3,
+          "clue": "Butter + this = a winged insect.",
+          "answer": "Fly",
+          "alternates": []
+        },
+        {
+          "id": "l2d-compound-interest-4",
+          "rank": 4,
+          "clue": "Star + this = a sea creature with five arms.",
+          "answer": "Fish",
+          "alternates": []
+        },
+        {
+          "id": "l2d-compound-interest-5",
+          "rank": 5,
+          "clue": "Grass + this = a jumping insect.",
+          "answer": "Hopper",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-mash-up-words",
+      "name": "Mash-Up Words",
+      "clues": [
+        {
+          "id": "l2d-mash-up-words-1",
+          "rank": 1,
+          "clue": "Breakfast + lunch = this late-morning meal.",
+          "answer": "Brunch",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mash-up-words-2",
+          "rank": 2,
+          "clue": "Spoon + fork = this utensil.",
+          "answer": "Spork",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mash-up-words-3",
+          "rank": 3,
+          "clue": "Motor + hotel = this roadside place to stay.",
+          "answer": "Motel",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mash-up-words-4",
+          "rank": 4,
+          "clue": "Smoke + fog = this kind of air pollution.",
+          "answer": "Smog",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mash-up-words-5",
+          "rank": 5,
+          "clue": "Chuckle + snort = this word coined by Lewis Carroll.",
+          "answer": "Chortle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-palindrome-parade",
+      "name": "Palindrome Parade",
+      "clues": [
+        {
+          "id": "l2d-palindrome-parade-1",
+          "rank": 1,
+          "clue": "This palindrome is another word for midday.",
+          "answer": "Noon",
+          "alternates": []
+        },
+        {
+          "id": "l2d-palindrome-parade-2",
+          "rank": 2,
+          "clue": "This palindrome names a speedy vehicle on a track.",
+          "answer": "Racecar",
+          "alternates": [
+            "race car"
+          ]
+        },
+        {
+          "id": "l2d-palindrome-parade-3",
+          "rank": 3,
+          "clue": "This palindrome names a narrow boat paddled with a double-bladed paddle.",
+          "answer": "Kayak",
+          "alternates": []
+        },
+        {
+          "id": "l2d-palindrome-parade-4",
+          "rank": 4,
+          "clue": "This palindrome means flat and even, like a carpenter's tool with a bubble.",
+          "answer": "Level",
+          "alternates": []
+        },
+        {
+          "id": "l2d-palindrome-parade-5",
+          "rank": 5,
+          "clue": "This palindrome names a system that finds objects by bouncing radio waves off them.",
+          "answer": "Radar",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-crowd-control",
+      "name": "Crowd Control",
+      "clues": [
+        {
+          "id": "l2d-crowd-control-1",
+          "rank": 1,
+          "clue": "A group of cows is called this.",
+          "answer": "Herd",
+          "alternates": []
+        },
+        {
+          "id": "l2d-crowd-control-2",
+          "rank": 2,
+          "clue": "A group of lions is called this, the same word as a feeling of self-respect.",
+          "answer": "Pride",
+          "alternates": []
+        },
+        {
+          "id": "l2d-crowd-control-3",
+          "rank": 3,
+          "clue": "A group of whales or dolphins is called this, the same word as a pea’s shell.",
+          "answer": "Pod",
+          "alternates": []
+        },
+        {
+          "id": "l2d-crowd-control-4",
+          "rank": 4,
+          "clue": "A group of ants living together is called this.",
+          "answer": "Colony",
+          "alternates": []
+        },
+        {
+          "id": "l2d-crowd-control-5",
+          "rank": 5,
+          "clue": "A group of crows has this spooky-sounding name.",
+          "answer": "Murder",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-kitchen-gadgets",
+      "name": "Kitchen Gadgets",
+      "clues": [
+        {
+          "id": "l2d-kitchen-gadgets-1",
+          "rank": 1,
+          "clue": "This flat tool flips pancakes.",
+          "answer": "Spatula",
+          "alternates": [
+            "turner"
+          ]
+        },
+        {
+          "id": "l2d-kitchen-gadgets-2",
+          "rank": 2,
+          "clue": "This wire tool beats eggs and cream.",
+          "answer": "Whisk",
+          "alternates": []
+        },
+        {
+          "id": "l2d-kitchen-gadgets-3",
+          "rank": 3,
+          "clue": "This deep-bowled spoon with a long handle serves soup.",
+          "answer": "Ladle",
+          "alternates": []
+        },
+        {
+          "id": "l2d-kitchen-gadgets-4",
+          "rank": 4,
+          "clue": "This bowl with holes drains cooked pasta.",
+          "answer": "Colander",
+          "alternates": [
+            "strainer"
+          ]
+        },
+        {
+          "id": "l2d-kitchen-gadgets-5",
+          "rank": 5,
+          "clue": "This club-shaped tool crushes spices in a mortar.",
+          "answer": "Pestle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-tools-of-the-trade",
+      "name": "Tools of the Trade",
+      "clues": [
+        {
+          "id": "l2d-tools-of-the-trade-1",
+          "rank": 1,
+          "clue": "A carpenter drives nails with this.",
+          "answer": "Hammer",
+          "alternates": []
+        },
+        {
+          "id": "l2d-tools-of-the-trade-2",
+          "rank": 2,
+          "clue": "A firefighter sprays water through this.",
+          "answer": "Hose",
+          "alternates": [
+            "fire hose"
+          ]
+        },
+        {
+          "id": "l2d-tools-of-the-trade-3",
+          "rank": 3,
+          "clue": "A doctor listens to your heartbeat with this.",
+          "answer": "Stethoscope",
+          "alternates": []
+        },
+        {
+          "id": "l2d-tools-of-the-trade-4",
+          "rank": 4,
+          "clue": "A painter mixes colors on this flat board.",
+          "answer": "Palette",
+          "alternates": []
+        },
+        {
+          "id": "l2d-tools-of-the-trade-5",
+          "rank": 5,
+          "clue": "A tailor protects a fingertip while sewing with this small cap.",
+          "answer": "Thimble",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-simile-style",
+      "name": "Simile Style",
+      "clues": [
+        {
+          "id": "l2d-simile-style-1",
+          "rank": 1,
+          "clue": "Finish the simile: as busy as a ___.",
+          "answer": "Bee",
+          "alternates": []
+        },
+        {
+          "id": "l2d-simile-style-2",
+          "rank": 2,
+          "clue": "Finish the simile: as quiet as a ___.",
+          "answer": "Mouse",
+          "alternates": []
+        },
+        {
+          "id": "l2d-simile-style-3",
+          "rank": 3,
+          "clue": "Finish the simile: as cool as a ___.",
+          "answer": "Cucumber",
+          "alternates": []
+        },
+        {
+          "id": "l2d-simile-style-4",
+          "rank": 4,
+          "clue": "Finish the simile: as flat as a ___.",
+          "answer": "Pancake",
+          "alternates": []
+        },
+        {
+          "id": "l2d-simile-style-5",
+          "rank": 5,
+          "clue": "Finish the simile: as stubborn as a ___.",
+          "answer": "Mule",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-grammar-gab",
+      "name": "Grammar Gab",
+      "clues": [
+        {
+          "id": "l2d-grammar-gab-1",
+          "rank": 1,
+          "clue": "This part of speech names a person, place, or thing.",
+          "answer": "Noun",
+          "alternates": []
+        },
+        {
+          "id": "l2d-grammar-gab-2",
+          "rank": 2,
+          "clue": "This part of speech is an action word, like 'run' or 'jump'.",
+          "answer": "Verb",
+          "alternates": []
+        },
+        {
+          "id": "l2d-grammar-gab-3",
+          "rank": 3,
+          "clue": "This part of speech describes a noun, like 'blue' or 'tall'.",
+          "answer": "Adjective",
+          "alternates": []
+        },
+        {
+          "id": "l2d-grammar-gab-4",
+          "rank": 4,
+          "clue": "This part of speech takes the place of a noun, like 'she' or 'it'.",
+          "answer": "Pronoun",
+          "alternates": []
+        },
+        {
+          "id": "l2d-grammar-gab-5",
+          "rank": 5,
+          "clue": "This part of speech joins words or clauses, like 'and', 'but', or 'or'.",
+          "answer": "Conjunction",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-punctuation-station",
+      "name": "Punctuation Station",
+      "clues": [
+        {
+          "id": "l2d-punctuation-station-1",
+          "rank": 1,
+          "clue": "This punctuation mark ends a sentence that asks something.",
+          "answer": "Question mark",
+          "alternates": []
+        },
+        {
+          "id": "l2d-punctuation-station-2",
+          "rank": 2,
+          "clue": "This punctuation mark shows strong feeling, as in 'Wow!'",
+          "answer": "Exclamation point",
+          "alternates": [
+            "exclamation mark"
+          ]
+        },
+        {
+          "id": "l2d-punctuation-station-3",
+          "rank": 3,
+          "clue": "This mark shows ownership, as in 'Sam's dog'.",
+          "answer": "Apostrophe",
+          "alternates": []
+        },
+        {
+          "id": "l2d-punctuation-station-4",
+          "rank": 4,
+          "clue": "These marks surround a speaker's exact words.",
+          "answer": "Quotation marks",
+          "alternates": [
+            "quotes",
+            "quotation mark",
+            "quote marks"
+          ]
+        },
+        {
+          "id": "l2d-punctuation-station-5",
+          "rank": 5,
+          "clue": "This mark looks like a period sitting on top of a comma.",
+          "answer": "Semicolon",
+          "alternates": [
+            "semi-colon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-quiet-please",
+      "name": "Quiet, Please",
+      "clues": [
+        {
+          "id": "l2d-quiet-please-1",
+          "rank": 1,
+          "clue": "This letter is silent in 'knee' and 'knife'.",
+          "answer": "K",
+          "alternates": []
+        },
+        {
+          "id": "l2d-quiet-please-2",
+          "rank": 2,
+          "clue": "This letter is silent in 'write' and 'wrist'.",
+          "answer": "W",
+          "alternates": []
+        },
+        {
+          "id": "l2d-quiet-please-3",
+          "rank": 3,
+          "clue": "This letter is silent in 'lamb' and 'thumb'.",
+          "answer": "B",
+          "alternates": []
+        },
+        {
+          "id": "l2d-quiet-please-4",
+          "rank": 4,
+          "clue": "This letter is silent in 'island'.",
+          "answer": "S",
+          "alternates": []
+        },
+        {
+          "id": "l2d-quiet-please-5",
+          "rank": 5,
+          "clue": "This letter is silent at the start of 'psychology'.",
+          "answer": "P",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-initial-reaction",
+      "name": "Initial Reaction",
+      "clues": [
+        {
+          "id": "l2d-initial-reaction-1",
+          "rank": 1,
+          "clue": "This four-letter acronym means 'as soon as possible'.",
+          "answer": "ASAP",
+          "alternates": []
+        },
+        {
+          "id": "l2d-initial-reaction-2",
+          "rank": 2,
+          "clue": "In a BLT sandwich, the T stands for this.",
+          "answer": "Tomato",
+          "alternates": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "l2d-initial-reaction-3",
+          "rank": 3,
+          "clue": "This diving acronym stands for 'self-contained underwater breathing apparatus'.",
+          "answer": "Scuba",
+          "alternates": []
+        },
+        {
+          "id": "l2d-initial-reaction-4",
+          "rank": 4,
+          "clue": "This acronym for 'sound navigation and ranging' names the system submarines use to detect objects.",
+          "answer": "Sonar",
+          "alternates": []
+        },
+        {
+          "id": "l2d-initial-reaction-5",
+          "rank": 5,
+          "clue": "In 'NASA', the first A stands for this word.",
+          "answer": "Aeronautics",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-borrowed-words",
+      "name": "Borrowed Words",
+      "clues": [
+        {
+          "id": "l2d-borrowed-words-1",
+          "rank": 1,
+          "clue": "The word 'pizza' comes from this language.",
+          "answer": "Italian",
+          "alternates": []
+        },
+        {
+          "id": "l2d-borrowed-words-2",
+          "rank": 2,
+          "clue": "The words 'ballet' and 'cafe' come from this language.",
+          "answer": "French",
+          "alternates": []
+        },
+        {
+          "id": "l2d-borrowed-words-3",
+          "rank": 3,
+          "clue": "The words 'patio' and 'mosquito' come from this language.",
+          "answer": "Spanish",
+          "alternates": []
+        },
+        {
+          "id": "l2d-borrowed-words-4",
+          "rank": 4,
+          "clue": "The word 'tsunami' comes from this language.",
+          "answer": "Japanese",
+          "alternates": []
+        },
+        {
+          "id": "l2d-borrowed-words-5",
+          "rank": 5,
+          "clue": "The word 'safari', meaning 'journey', comes from this East African language.",
+          "answer": "Swahili",
+          "alternates": [
+            "Kiswahili"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-named-after-someone",
+      "name": "Named After Someone",
+      "clues": [
+        {
+          "id": "l2d-named-after-someone-1",
+          "rank": 1,
+          "clue": "This lunch item is named after an English earl said to eat meat between bread so he wouldn't leave his card game.",
+          "answer": "Sandwich",
+          "alternates": []
+        },
+        {
+          "id": "l2d-named-after-someone-2",
+          "rank": 2,
+          "clue": "This raised-dot reading system is named after its French inventor, Louis.",
+          "answer": "Braille",
+          "alternates": []
+        },
+        {
+          "id": "l2d-named-after-someone-3",
+          "rank": 3,
+          "clue": "This temperature scale, where water freezes at 0 degrees, is named after a Swedish astronomer.",
+          "answer": "Celsius",
+          "alternates": []
+        },
+        {
+          "id": "l2d-named-after-someone-4",
+          "rank": 4,
+          "clue": "This buttoned sweater is named after a British earl.",
+          "answer": "Cardigan",
+          "alternates": []
+        },
+        {
+          "id": "l2d-named-after-someone-5",
+          "rank": 5,
+          "clue": "This type of engine is named after German engineer Rudolf.",
+          "answer": "Diesel",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-angle-tangle",
+      "name": "Angle Tangle",
+      "clues": [
+        {
+          "id": "l2d-angle-tangle-1",
+          "rank": 1,
+          "clue": "A full circle has this many degrees.",
+          "answer": "360",
+          "alternates": [
+            "three hundred sixty",
+            "three hundred and sixty"
+          ]
+        },
+        {
+          "id": "l2d-angle-tangle-2",
+          "rank": 2,
+          "clue": "An angle smaller than 90 degrees is called this.",
+          "answer": "Acute",
+          "alternates": [
+            "acute angle"
+          ]
+        },
+        {
+          "id": "l2d-angle-tangle-3",
+          "rank": 3,
+          "clue": "An angle between 90 and 180 degrees is called this.",
+          "answer": "Obtuse",
+          "alternates": [
+            "obtuse angle"
+          ]
+        },
+        {
+          "id": "l2d-angle-tangle-4",
+          "rank": 4,
+          "clue": "Two angles that add up to 90 degrees are called this.",
+          "answer": "Complementary",
+          "alternates": [
+            "complementary angles"
+          ]
+        },
+        {
+          "id": "l2d-angle-tangle-5",
+          "rank": 5,
+          "clue": "Two angles that add up to 180 degrees are called this.",
+          "answer": "Supplementary",
+          "alternates": [
+            "supplementary angles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-mean-streak",
+      "name": "Mean Streak",
+      "clues": [
+        {
+          "id": "l2d-mean-streak-1",
+          "rank": 1,
+          "clue": "This is the average you get by adding numbers and dividing by how many there are.",
+          "answer": "Mean",
+          "alternates": [
+            "average"
+          ]
+        },
+        {
+          "id": "l2d-mean-streak-2",
+          "rank": 2,
+          "clue": "This is the middle value when numbers are put in order.",
+          "answer": "Median",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mean-streak-3",
+          "rank": 3,
+          "clue": "This is the value that appears most often in a set of data.",
+          "answer": "Mode",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mean-streak-4",
+          "rank": 4,
+          "clue": "This is the difference between the largest and smallest values in a set.",
+          "answer": "Range",
+          "alternates": []
+        },
+        {
+          "id": "l2d-mean-streak-5",
+          "rank": 5,
+          "clue": "This is the mean of the numbers 2, 4, and 9.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-bread-winners",
+      "name": "Bread Winners",
+      "clues": [
+        {
+          "id": "l2d-bread-winners-1",
+          "rank": 1,
+          "clue": "This long, thin loaf is a symbol of French bakeries.",
+          "answer": "Baguette",
+          "alternates": []
+        },
+        {
+          "id": "l2d-bread-winners-2",
+          "rank": 2,
+          "clue": "Mexican tortillas are traditionally made from this grain.",
+          "answer": "Corn",
+          "alternates": [
+            "maize"
+          ]
+        },
+        {
+          "id": "l2d-bread-winners-3",
+          "rank": 3,
+          "clue": "This round Middle Eastern flatbread can open into a pocket.",
+          "answer": "Pita",
+          "alternates": [
+            "pitta"
+          ]
+        },
+        {
+          "id": "l2d-bread-winners-4",
+          "rank": 4,
+          "clue": "This Indian flatbread is baked in a clay tandoor oven.",
+          "answer": "Naan",
+          "alternates": [
+            "nan"
+          ]
+        },
+        {
+          "id": "l2d-bread-winners-5",
+          "rank": 5,
+          "clue": "This braided bread is traditional for the Jewish Sabbath.",
+          "answer": "Challah",
+          "alternates": [
+            "hallah",
+            "chala"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-soup-s-on",
+      "name": "Soup's On",
+      "clues": [
+        {
+          "id": "l2d-soup-s-on-1",
+          "rank": 1,
+          "clue": "This classic soup with noodles is a favorite when you have a cold.",
+          "answer": "Chicken noodle",
+          "alternates": [
+            "chicken noodle soup",
+            "chicken soup"
+          ]
+        },
+        {
+          "id": "l2d-soup-s-on-2",
+          "rank": 2,
+          "clue": "This Japanese soup is made with fermented soybean paste.",
+          "answer": "Miso soup",
+          "alternates": [
+            "miso"
+          ]
+        },
+        {
+          "id": "l2d-soup-s-on-3",
+          "rank": 3,
+          "clue": "This tomato soup from Spain is served cold.",
+          "answer": "Gazpacho",
+          "alternates": []
+        },
+        {
+          "id": "l2d-soup-s-on-4",
+          "rank": 4,
+          "clue": "This deep red beet soup is popular in Eastern Europe.",
+          "answer": "Borscht",
+          "alternates": [
+            "borsch",
+            "borshch"
+          ]
+        },
+        {
+          "id": "l2d-soup-s-on-5",
+          "rank": 5,
+          "clue": "This Vietnamese noodle soup's name is pronounced roughly like 'fuh'.",
+          "answer": "Pho",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2d-count-on-it",
+      "name": "Count On It",
+      "clues": [
+        {
+          "id": "l2d-count-on-it-1",
+          "rank": 1,
+          "clue": "One thousand thousands make this number.",
+          "answer": "Million",
+          "alternates": [
+            "one million"
+          ]
+        },
+        {
+          "id": "l2d-count-on-it-2",
+          "rank": 2,
+          "clue": "A baker's dozen is this many.",
+          "answer": "13",
+          "alternates": [
+            "thirteen"
+          ]
+        },
+        {
+          "id": "l2d-count-on-it-3",
+          "rank": 3,
+          "clue": "A 'score', as in 'four score and seven years ago', equals this many.",
+          "answer": "20",
+          "alternates": [
+            "twenty"
+          ]
+        },
+        {
+          "id": "l2d-count-on-it-4",
+          "rank": 4,
+          "clue": "A gross, or a dozen dozens, is this many.",
+          "answer": "144",
+          "alternates": [
+            "one hundred forty-four",
+            "one hundred forty four"
+          ]
+        },
+        {
+          "id": "l2d-count-on-it-5",
+          "rank": 5,
+          "clue": "A googol is 1 followed by this many zeros.",
+          "answer": "100",
+          "alternates": [
+            "one hundred",
+            "hundred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2d-brain-teasers",
+      "name": "Brain Teasers",
+      "clues": [
+        {
+          "id": "l2d-brain-teasers-1",
+          "rank": 1,
+          "clue": "Three triangles have this many sides in all.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l2d-brain-teasers-2",
+          "rank": 2,
+          "clue": "What comes next: 2, 4, 8, 16, ...?",
+          "answer": "32",
+          "alternates": [
+            "thirty-two",
+            "thirty two"
+          ]
+        },
+        {
+          "id": "l2d-brain-teasers-3",
+          "rank": 3,
+          "clue": "What comes next: 1, 4, 9, 16, ...?",
+          "answer": "25",
+          "alternates": [
+            "twenty-five",
+            "twenty five"
+          ]
+        },
+        {
+          "id": "l2d-brain-teasers-4",
+          "rank": 4,
+          "clue": "What comes next: 1, 1, 2, 3, 5, 8, 13, ...?",
+          "answer": "21",
+          "alternates": [
+            "twenty-one",
+            "twenty one"
+          ]
+        },
+        {
+          "id": "l2d-brain-teasers-5",
+          "rank": 5,
+          "clue": "If 3 cats catch 3 mice in 3 minutes, 100 cats catch 100 mice in this many minutes.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        }
+      ]
+    }
+  ]
+}

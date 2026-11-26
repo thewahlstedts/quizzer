@@ -1,0 +1,2305 @@
+{
+  "level": 2,
+  "categories": [
+    {
+      "id": "l2c-novel-ideas",
+      "name": "Novel Ideas",
+      "clues": [
+        {
+          "id": "l2c-novel-ideas-1",
+          "rank": 1,
+          "clue": "Gary Paulsen's survival novel about Brian Robeson is named for this tool his mother gave him.",
+          "answer": "Hatchet",
+          "alternates": []
+        },
+        {
+          "id": "l2c-novel-ideas-2",
+          "rank": 2,
+          "clue": "In Holes, Stanley Yelnats is sent to this dry desert camp, which has no lake at all.",
+          "answer": "Camp Green Lake",
+          "alternates": [
+            "Green Lake"
+          ]
+        },
+        {
+          "id": "l2c-novel-ideas-3",
+          "rank": 3,
+          "clue": "Meg Murry travels through space by tesseract in this Madeleine L'Engle novel.",
+          "answer": "A Wrinkle in Time",
+          "alternates": []
+        },
+        {
+          "id": "l2c-novel-ideas-4",
+          "rank": 4,
+          "clue": "In this Katherine Paterson novel, Jess and Leslie create a secret kingdom in the woods.",
+          "answer": "Bridge to Terabithia",
+          "alternates": [
+            "Terabithia"
+          ]
+        },
+        {
+          "id": "l2c-novel-ideas-5",
+          "rank": 5,
+          "clue": "Pam Munoz Ryan's novel about a girl who leaves a rich life in Mexico to work in California farm camps.",
+          "answer": "Esperanza Rising",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-author-author",
+      "name": "Author, Author",
+      "clues": [
+        {
+          "id": "l2c-author-author-1",
+          "rank": 1,
+          "clue": "He wrote Matilda, The BFG, and The Witches.",
+          "answer": "Roald Dahl",
+          "alternates": [
+            "Dahl"
+          ]
+        },
+        {
+          "id": "l2c-author-author-2",
+          "rank": 2,
+          "clue": "He wrote The Lion, the Witch and the Wardrobe and the other Chronicles of Narnia.",
+          "answer": "C. S. Lewis",
+          "alternates": [
+            "Lewis",
+            "CS Lewis"
+          ]
+        },
+        {
+          "id": "l2c-author-author-3",
+          "rank": 3,
+          "clue": "He wrote Holes and Sideways Stories from Wayside School.",
+          "answer": "Louis Sachar",
+          "alternates": [
+            "Sachar"
+          ]
+        },
+        {
+          "id": "l2c-author-author-4",
+          "rank": 4,
+          "clue": "This author wrote Wonder, the story of Auggie Pullman starting middle school.",
+          "answer": "R. J. Palacio",
+          "alternates": [
+            "Palacio",
+            "RJ Palacio"
+          ]
+        },
+        {
+          "id": "l2c-author-author-5",
+          "rank": 5,
+          "clue": "She began writing The Outsiders while still a teenager in Tulsa, Oklahoma.",
+          "answer": "S. E. Hinton",
+          "alternates": [
+            "Hinton",
+            "SE Hinton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-character-witness",
+      "name": "Character Witness",
+      "clues": [
+        {
+          "id": "l2c-character-witness-1",
+          "rank": 1,
+          "clue": "This curious girl falls down a rabbit hole into Wonderland.",
+          "answer": "Alice",
+          "alternates": []
+        },
+        {
+          "id": "l2c-character-witness-2",
+          "rank": 2,
+          "clue": "This boy who never grows up lives in Neverland with the Lost Boys.",
+          "answer": "Peter Pan",
+          "alternates": []
+        },
+        {
+          "id": "l2c-character-witness-3",
+          "rank": 3,
+          "clue": "In The Lion, the Witch and the Wardrobe, this great lion is the true king of Narnia.",
+          "answer": "Aslan",
+          "alternates": []
+        },
+        {
+          "id": "l2c-character-witness-4",
+          "rank": 4,
+          "clue": "In The Outsiders, this Greaser narrator is the youngest of the Curtis brothers.",
+          "answer": "Ponyboy",
+          "alternates": [
+            "Ponyboy Curtis"
+          ]
+        },
+        {
+          "id": "l2c-character-witness-5",
+          "rank": 5,
+          "clue": "In The Phantom Tollbooth, this bored boy drives a toy car into the Lands Beyond.",
+          "answer": "Milo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-setting-the-scene",
+      "name": "Setting the Scene",
+      "clues": [
+        {
+          "id": "l2c-setting-the-scene-1",
+          "rank": 1,
+          "clue": "The Pevensie children enter this magical land through the back of a wardrobe.",
+          "answer": "Narnia",
+          "alternates": []
+        },
+        {
+          "id": "l2c-setting-the-scene-2",
+          "rank": 2,
+          "clue": "A tornado carries Dorothy Gale from Kansas to this magical land.",
+          "answer": "Oz",
+          "alternates": [
+            "Land of Oz"
+          ]
+        },
+        {
+          "id": "l2c-setting-the-scene-3",
+          "rank": 3,
+          "clue": "Bilbo and Frodo Baggins live in this peaceful region of Middle-earth.",
+          "answer": "The Shire",
+          "alternates": []
+        },
+        {
+          "id": "l2c-setting-the-scene-4",
+          "rank": 4,
+          "clue": "Anne Shirley comes to live at Green Gables on this Canadian island.",
+          "answer": "Prince Edward Island",
+          "alternates": [
+            "PEI"
+          ]
+        },
+        {
+          "id": "l2c-setting-the-scene-5",
+          "rank": 5,
+          "clue": "In A Wrinkle in Time, this dark planet is controlled by a giant brain called IT.",
+          "answer": "Camazotz",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-dahl-house",
+      "name": "Dahl House",
+      "clues": [
+        {
+          "id": "l2c-dahl-house-1",
+          "rank": 1,
+          "clue": "Charlie Bucket finds a Golden Ticket to tour the factory of this candy maker.",
+          "answer": "Willy Wonka",
+          "alternates": [
+            "Wonka"
+          ]
+        },
+        {
+          "id": "l2c-dahl-house-2",
+          "rank": 2,
+          "clue": "This book-loving girl develops the power to move things with her mind.",
+          "answer": "Matilda",
+          "alternates": []
+        },
+        {
+          "id": "l2c-dahl-house-3",
+          "rank": 3,
+          "clue": "James and his insect friends cross the ocean inside this giant fruit.",
+          "answer": "Peach",
+          "alternates": [
+            "giant peach"
+          ]
+        },
+        {
+          "id": "l2c-dahl-house-4",
+          "rank": 4,
+          "clue": "In a Roald Dahl title, the letters BFG stand for this.",
+          "answer": "Big Friendly Giant",
+          "alternates": []
+        },
+        {
+          "id": "l2c-dahl-house-5",
+          "rank": 5,
+          "clue": "In Matilda, this terrifying headmistress throws a girl by her pigtails.",
+          "answer": "Miss Trunchbull",
+          "alternates": [
+            "Trunchbull",
+            "Agatha Trunchbull"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-poetry-in-motion",
+      "name": "Poetry in Motion",
+      "clues": [
+        {
+          "id": "l2c-poetry-in-motion-1",
+          "rank": 1,
+          "clue": "This Japanese poem has three lines of 5, 7, and 5 syllables.",
+          "answer": "Haiku",
+          "alternates": []
+        },
+        {
+          "id": "l2c-poetry-in-motion-2",
+          "rank": 2,
+          "clue": "This funny five-line poem has an AABBA rhyme scheme.",
+          "answer": "Limerick",
+          "alternates": []
+        },
+        {
+          "id": "l2c-poetry-in-motion-3",
+          "rank": 3,
+          "clue": "This poet wrote and illustrated Where the Sidewalk Ends and A Light in the Attic.",
+          "answer": "Shel Silverstein",
+          "alternates": [
+            "Silverstein"
+          ]
+        },
+        {
+          "id": "l2c-poetry-in-motion-4",
+          "rank": 4,
+          "clue": "Shakespeare wrote 154 of these 14-line poems.",
+          "answer": "Sonnet",
+          "alternates": [
+            "sonnets"
+          ]
+        },
+        {
+          "id": "l2c-poetry-in-motion-5",
+          "rank": 5,
+          "clue": "This New England poet wrote \"The Road Not Taken\" and \"Stopping by Woods on a Snowy Evening.\"",
+          "answer": "Robert Frost",
+          "alternates": [
+            "Frost"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-verse-case-scenario",
+      "name": "Verse Case Scenario",
+      "clues": [
+        {
+          "id": "l2c-verse-case-scenario-1",
+          "rank": 1,
+          "clue": "Cat and hat, or moon and spoon, are examples of words that do this.",
+          "answer": "Rhyme",
+          "alternates": [
+            "rhymes"
+          ]
+        },
+        {
+          "id": "l2c-verse-case-scenario-2",
+          "rank": 2,
+          "clue": "This is a group of lines in a poem, a bit like a paragraph in prose.",
+          "answer": "Stanza",
+          "alternates": []
+        },
+        {
+          "id": "l2c-verse-case-scenario-3",
+          "rank": 3,
+          "clue": "Comparing two things using \"like\" or \"as,\" such as \"brave as a lion,\" is called this.",
+          "answer": "Simile",
+          "alternates": []
+        },
+        {
+          "id": "l2c-verse-case-scenario-4",
+          "rank": 4,
+          "clue": "\"Peter Piper picked a peck\" repeats the same starting sound, a device called this.",
+          "answer": "Alliteration",
+          "alternates": []
+        },
+        {
+          "id": "l2c-verse-case-scenario-5",
+          "rank": 5,
+          "clue": "Words that imitate sounds, like buzz, sizzle, and boom, are examples of this.",
+          "answer": "Onomatopoeia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-poe-tic-license",
+      "name": "Poe-tic License",
+      "clues": [
+        {
+          "id": "l2c-poe-tic-license-1",
+          "rank": 1,
+          "clue": "In this Edgar Allan Poe poem, a black bird keeps repeating \"Nevermore.\"",
+          "answer": "The Raven",
+          "alternates": []
+        },
+        {
+          "id": "l2c-poe-tic-license-2",
+          "rank": 2,
+          "clue": "In a Dr. Seuss book, Sam-I-Am offers green eggs and this.",
+          "answer": "Ham",
+          "alternates": []
+        },
+        {
+          "id": "l2c-poe-tic-license-3",
+          "rank": 3,
+          "clue": "Henry Wadsworth Longfellow wrote a famous poem about this patriot's midnight ride.",
+          "answer": "Paul Revere",
+          "alternates": [
+            "Revere"
+          ]
+        },
+        {
+          "id": "l2c-poe-tic-license-4",
+          "rank": 4,
+          "clue": "This poet from Amherst, Massachusetts, wrote \"Hope is the thing with feathers.\"",
+          "answer": "Emily Dickinson",
+          "alternates": [
+            "Dickinson"
+          ]
+        },
+        {
+          "id": "l2c-poe-tic-license-5",
+          "rank": 5,
+          "clue": "Poet Langston Hughes was a leading voice of this 1920s cultural movement in New York City.",
+          "answer": "Harlem Renaissance",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-toon-in",
+      "name": "Toon In",
+      "clues": [
+        {
+          "id": "l2c-toon-in-1",
+          "rank": 1,
+          "clue": "She is Mickey Mouse's longtime girlfriend.",
+          "answer": "Minnie Mouse",
+          "alternates": [
+            "Minnie"
+          ]
+        },
+        {
+          "id": "l2c-toon-in-2",
+          "rank": 2,
+          "clue": "Bugs Bunny greets people with \"Eh, what's up,\" followed by this word.",
+          "answer": "Doc",
+          "alternates": []
+        },
+        {
+          "id": "l2c-toon-in-3",
+          "rank": 3,
+          "clue": "This Looney Tunes character buys gadgets from the Acme company to catch the Road Runner.",
+          "answer": "Wile E. Coyote",
+          "alternates": [
+            "Wile E",
+            "Coyote"
+          ]
+        },
+        {
+          "id": "l2c-toon-in-4",
+          "rank": 4,
+          "clue": "Released in 1937, this was Disney's first full-length animated feature film.",
+          "answer": "Snow White and the Seven Dwarfs",
+          "alternates": [
+            "Snow White"
+          ]
+        },
+        {
+          "id": "l2c-toon-in-5",
+          "rank": 5,
+          "clue": "Mickey Mouse starred in this 1928 riverboat cartoon, one of the first with synchronized sound.",
+          "answer": "Steamboat Willie",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-disney-ever-after",
+      "name": "Disney Ever After",
+      "clues": [
+        {
+          "id": "l2c-disney-ever-after-1",
+          "rank": 1,
+          "clue": "Cinderella leaves this behind on the palace stairs at midnight.",
+          "answer": "Glass slipper",
+          "alternates": [
+            "slipper"
+          ]
+        },
+        {
+          "id": "l2c-disney-ever-after-2",
+          "rank": 2,
+          "clue": "This baby elephant learns he can fly using his enormous ears.",
+          "answer": "Dumbo",
+          "alternates": []
+        },
+        {
+          "id": "l2c-disney-ever-after-3",
+          "rank": 3,
+          "clue": "In The Lion King, this wise lion is Simba's father.",
+          "answer": "Mufasa",
+          "alternates": []
+        },
+        {
+          "id": "l2c-disney-ever-after-4",
+          "rank": 4,
+          "clue": "This insect friend tries to act as Pinocchio's conscience.",
+          "answer": "Jiminy Cricket",
+          "alternates": [
+            "Jiminy"
+          ]
+        },
+        {
+          "id": "l2c-disney-ever-after-5",
+          "rank": 5,
+          "clue": "In Beauty and the Beast, this enchanted candlestick sings \"Be Our Guest.\"",
+          "answer": "Lumiere",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-silver-screen-classics",
+      "name": "Silver Screen Classics",
+      "clues": [
+        {
+          "id": "l2c-silver-screen-classics-1",
+          "rank": 1,
+          "clue": "In The Wizard of Oz, this is the name of Dorothy's little dog.",
+          "answer": "Toto",
+          "alternates": []
+        },
+        {
+          "id": "l2c-silver-screen-classics-2",
+          "rank": 2,
+          "clue": "In the 1939 film, Dorothy clicks the heels of these magic shoes three times.",
+          "answer": "Ruby slippers",
+          "alternates": []
+        },
+        {
+          "id": "l2c-silver-screen-classics-3",
+          "rank": 3,
+          "clue": "\"May the Force be with you\" comes from this space film series.",
+          "answer": "Star Wars",
+          "alternates": []
+        },
+        {
+          "id": "l2c-silver-screen-classics-4",
+          "rank": 4,
+          "clue": "In E.T. the Extra-Terrestrial, Elliott lures E.T. with a trail of these candies.",
+          "answer": "Reese's Pieces",
+          "alternates": []
+        },
+        {
+          "id": "l2c-silver-screen-classics-5",
+          "rank": 5,
+          "clue": "This silent-film star was famous for playing the Little Tramp.",
+          "answer": "Charlie Chaplin",
+          "alternates": [
+            "Chaplin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-pixar-perfect",
+      "name": "Pixar Perfect",
+      "clues": [
+        {
+          "id": "l2c-pixar-perfect-1",
+          "rank": 1,
+          "clue": "This pull-string cowboy doll is the leader of the toys in Toy Story.",
+          "answer": "Woody",
+          "alternates": [
+            "Sheriff Woody"
+          ]
+        },
+        {
+          "id": "l2c-pixar-perfect-2",
+          "rank": 2,
+          "clue": "This space ranger toy shouts, \"To infinity and beyond!\"",
+          "answer": "Buzz Lightyear",
+          "alternates": [
+            "Buzz"
+          ]
+        },
+        {
+          "id": "l2c-pixar-perfect-3",
+          "rank": 3,
+          "clue": "In Up, Carl's house floats away tied to thousands of these.",
+          "answer": "Balloons",
+          "alternates": [
+            "balloon"
+          ]
+        },
+        {
+          "id": "l2c-pixar-perfect-4",
+          "rank": 4,
+          "clue": "This lonely trash-compacting robot is left to clean up Earth in a 2008 Pixar film.",
+          "answer": "WALL-E",
+          "alternates": [
+            "Wall E"
+          ]
+        },
+        {
+          "id": "l2c-pixar-perfect-5",
+          "rank": 5,
+          "clue": "In Finding Nemo, this worried clownfish dad crosses the ocean to find his son.",
+          "answer": "Marlin",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-animation-station",
+      "name": "Animation Station",
+      "clues": [
+        {
+          "id": "l2c-animation-station-1",
+          "rank": 1,
+          "clue": "He co-created Mickey Mouse and founded a famous animation studio.",
+          "answer": "Walt Disney",
+          "alternates": [
+            "Disney"
+          ]
+        },
+        {
+          "id": "l2c-animation-station-2",
+          "rank": 2,
+          "clue": "This is the name for the animation style that comes from Japan.",
+          "answer": "Anime",
+          "alternates": []
+        },
+        {
+          "id": "l2c-animation-station-3",
+          "rank": 3,
+          "clue": "Released in 1995, this was the first feature film made entirely with computer animation.",
+          "answer": "Toy Story",
+          "alternates": []
+        },
+        {
+          "id": "l2c-animation-station-4",
+          "rank": 4,
+          "clue": "Moving clay or puppets a tiny bit between each photo to make them seem alive is this kind of animation.",
+          "answer": "Stop-motion",
+          "alternates": [
+            "stop motion",
+            "claymation"
+          ]
+        },
+        {
+          "id": "l2c-animation-station-5",
+          "rank": 5,
+          "clue": "This Japanese animation studio made My Neighbor Totoro and Spirited Away.",
+          "answer": "Studio Ghibli",
+          "alternates": [
+            "Ghibli"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-composer-corner",
+      "name": "Composer Corner",
+      "clues": [
+        {
+          "id": "l2c-composer-corner-1",
+          "rank": 1,
+          "clue": "He kept composing after going deaf and wrote the famous Ninth Symphony.",
+          "answer": "Ludwig van Beethoven",
+          "alternates": [
+            "Beethoven"
+          ]
+        },
+        {
+          "id": "l2c-composer-corner-2",
+          "rank": 2,
+          "clue": "This child prodigy from Salzburg composed The Magic Flute.",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": [
+            "Mozart"
+          ]
+        },
+        {
+          "id": "l2c-composer-corner-3",
+          "rank": 3,
+          "clue": "This Italian composer wrote The Four Seasons, a set of violin concertos.",
+          "answer": "Antonio Vivaldi",
+          "alternates": [
+            "Vivaldi"
+          ]
+        },
+        {
+          "id": "l2c-composer-corner-4",
+          "rank": 4,
+          "clue": "This Russian composer wrote the music for the ballets The Nutcracker and Swan Lake.",
+          "answer": "Pyotr Ilyich Tchaikovsky",
+          "alternates": [
+            "Tchaikovsky"
+          ]
+        },
+        {
+          "id": "l2c-composer-corner-5",
+          "rank": 5,
+          "clue": "This German Baroque composer wrote the Brandenburg Concertos.",
+          "answer": "Johann Sebastian Bach",
+          "alternates": [
+            "Bach",
+            "J. S. Bach"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-note-worthy",
+      "name": "Note-Worthy",
+      "clues": [
+        {
+          "id": "l2c-note-worthy-1",
+          "rank": 1,
+          "clue": "This word means the speed of a piece of music.",
+          "answer": "Tempo",
+          "alternates": []
+        },
+        {
+          "id": "l2c-note-worthy-2",
+          "rank": 2,
+          "clue": "Music is written on this set of five horizontal lines.",
+          "answer": "Staff",
+          "alternates": [
+            "stave"
+          ]
+        },
+        {
+          "id": "l2c-note-worthy-3",
+          "rank": 3,
+          "clue": "This symbol, which looks like a tic-tac-toe grid, raises a note by a half step.",
+          "answer": "Sharp",
+          "alternates": []
+        },
+        {
+          "id": "l2c-note-worthy-4",
+          "rank": 4,
+          "clue": "This Italian music term tells performers to play loudly.",
+          "answer": "Forte",
+          "alternates": []
+        },
+        {
+          "id": "l2c-note-worthy-5",
+          "rank": 5,
+          "clue": "This Italian music term means gradually getting louder.",
+          "answer": "Crescendo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-orchestra-pit",
+      "name": "Orchestra Pit",
+      "clues": [
+        {
+          "id": "l2c-orchestra-pit-1",
+          "rank": 1,
+          "clue": "This is the smallest and highest-pitched member of the orchestra string family.",
+          "answer": "Violin",
+          "alternates": []
+        },
+        {
+          "id": "l2c-orchestra-pit-2",
+          "rank": 2,
+          "clue": "This percussion instrument has wooden bars struck with mallets.",
+          "answer": "Xylophone",
+          "alternates": []
+        },
+        {
+          "id": "l2c-orchestra-pit-3",
+          "rank": 3,
+          "clue": "These large, bowl-shaped orchestra drums can be tuned with pedals.",
+          "answer": "Timpani",
+          "alternates": [
+            "kettledrums",
+            "kettledrum"
+          ]
+        },
+        {
+          "id": "l2c-orchestra-pit-4",
+          "rank": 4,
+          "clue": "Players of this coiled brass instrument often rest a hand inside its wide bell.",
+          "answer": "French horn",
+          "alternates": [
+            "horn"
+          ]
+        },
+        {
+          "id": "l2c-orchestra-pit-5",
+          "rank": 5,
+          "clue": "This low, double-reed woodwind is the bass voice of the woodwind section.",
+          "answer": "Bassoon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-all-in-the-family-band",
+      "name": "All in the Family Band",
+      "clues": [
+        {
+          "id": "l2c-all-in-the-family-band-1",
+          "rank": 1,
+          "clue": "Drums and cymbals belong to this instrument family.",
+          "answer": "Percussion",
+          "alternates": []
+        },
+        {
+          "id": "l2c-all-in-the-family-band-2",
+          "rank": 2,
+          "clue": "Trumpets and tubas belong to this instrument family.",
+          "answer": "Brass",
+          "alternates": []
+        },
+        {
+          "id": "l2c-all-in-the-family-band-3",
+          "rank": 3,
+          "clue": "Flutes and clarinets belong to this instrument family.",
+          "answer": "Woodwind",
+          "alternates": [
+            "woodwinds"
+          ]
+        },
+        {
+          "id": "l2c-all-in-the-family-band-4",
+          "rank": 4,
+          "clue": "Cellos and violas belong to this instrument family.",
+          "answer": "Strings",
+          "alternates": [
+            "string"
+          ]
+        },
+        {
+          "id": "l2c-all-in-the-family-band-5",
+          "rank": 5,
+          "clue": "The organ and the harpsichord belong to this instrument family.",
+          "answer": "Keyboard",
+          "alternates": [
+            "keyboards"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-music-by-numbers",
+      "name": "Music by Numbers",
+      "clues": [
+        {
+          "id": "l2c-music-by-numbers-1",
+          "rank": 1,
+          "clue": "A trio is a group of this many musicians.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        },
+        {
+          "id": "l2c-music-by-numbers-2",
+          "rank": 2,
+          "clue": "A standard violin has this many strings.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l2c-music-by-numbers-3",
+          "rank": 3,
+          "clue": "A musical staff has this many lines.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l2c-music-by-numbers-4",
+          "rank": 4,
+          "clue": "Counting black and white keys, each octave on a piano has this many different keys.",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        },
+        {
+          "id": "l2c-music-by-numbers-5",
+          "rank": 5,
+          "clue": "Beethoven completed this many symphonies.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-sound-legends",
+      "name": "Sound Legends",
+      "clues": [
+        {
+          "id": "l2c-sound-legends-1",
+          "rank": 1,
+          "clue": "This singer was called the King of Rock and Roll.",
+          "answer": "Elvis Presley",
+          "alternates": [
+            "Elvis"
+          ]
+        },
+        {
+          "id": "l2c-sound-legends-2",
+          "rank": 2,
+          "clue": "John, Paul, George, and Ringo formed this band from Liverpool.",
+          "answer": "The Beatles",
+          "alternates": [
+            "Beatles"
+          ]
+        },
+        {
+          "id": "l2c-sound-legends-3",
+          "rank": 3,
+          "clue": "Known as the King of Pop, he released the album Thriller.",
+          "answer": "Michael Jackson",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sound-legends-4",
+          "rank": 4,
+          "clue": "This jazz trumpeter and singer was nicknamed Satchmo.",
+          "answer": "Louis Armstrong",
+          "alternates": [
+            "Armstrong"
+          ]
+        },
+        {
+          "id": "l2c-sound-legends-5",
+          "rank": 5,
+          "clue": "This American composer wrote Rhapsody in Blue.",
+          "answer": "George Gershwin",
+          "alternates": [
+            "Gershwin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-sing-it-out",
+      "name": "Sing It Out",
+      "clues": [
+        {
+          "id": "l2c-sing-it-out-1",
+          "rank": 1,
+          "clue": "This is a group of singers who perform together, often at school or church.",
+          "answer": "Choir",
+          "alternates": [
+            "chorus"
+          ]
+        },
+        {
+          "id": "l2c-sing-it-out-2",
+          "rank": 2,
+          "clue": "This is the highest common female singing voice.",
+          "answer": "Soprano",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sing-it-out-3",
+          "rank": 3,
+          "clue": "This is the lowest male singing voice.",
+          "answer": "Bass",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sing-it-out-4",
+          "rank": 4,
+          "clue": "This is the lower female voice part, sung below the sopranos.",
+          "answer": "Alto",
+          "alternates": [
+            "contralto"
+          ]
+        },
+        {
+          "id": "l2c-sing-it-out-5",
+          "rank": 5,
+          "clue": "Singing with no instruments at all is called singing this way.",
+          "answer": "A cappella",
+          "alternates": [
+            "acapella"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-stage-right",
+      "name": "Stage Right",
+      "clues": [
+        {
+          "id": "l2c-stage-right-1",
+          "rank": 1,
+          "clue": "This is the raised platform where actors perform in a theater.",
+          "answer": "Stage",
+          "alternates": []
+        },
+        {
+          "id": "l2c-stage-right-2",
+          "rank": 2,
+          "clue": "Actors must memorize these, the words their characters speak.",
+          "answer": "Lines",
+          "alternates": []
+        },
+        {
+          "id": "l2c-stage-right-3",
+          "rank": 3,
+          "clue": "This is the written text of a play, with all the dialogue and directions.",
+          "answer": "Script",
+          "alternates": []
+        },
+        {
+          "id": "l2c-stage-right-4",
+          "rank": 4,
+          "clue": "Theater folks say \"Break a\" this to wish an actor good luck.",
+          "answer": "Leg",
+          "alternates": []
+        },
+        {
+          "id": "l2c-stage-right-5",
+          "rank": 5,
+          "clue": "This is a speech a character makes alone on stage, speaking thoughts aloud to themselves.",
+          "answer": "Soliloquy",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-bard-to-the-bone",
+      "name": "Bard to the Bone",
+      "clues": [
+        {
+          "id": "l2c-bard-to-the-bone-1",
+          "rank": 1,
+          "clue": "Shakespeare wrote this tragedy about two young star-crossed lovers from Verona.",
+          "answer": "Romeo and Juliet",
+          "alternates": []
+        },
+        {
+          "id": "l2c-bard-to-the-bone-2",
+          "rank": 2,
+          "clue": "This Danish prince asks, \"To be, or not to be?\"",
+          "answer": "Hamlet",
+          "alternates": []
+        },
+        {
+          "id": "l2c-bard-to-the-bone-3",
+          "rank": 3,
+          "clue": "Many of Shakespeare's plays were performed at this round London theater.",
+          "answer": "Globe Theatre",
+          "alternates": [
+            "Globe",
+            "Globe Theater"
+          ]
+        },
+        {
+          "id": "l2c-bard-to-the-bone-4",
+          "rank": 4,
+          "clue": "Puck and the fairy king Oberon cause mischief in this Shakespeare comedy.",
+          "answer": "A Midsummer Night's Dream",
+          "alternates": [
+            "Midsummer Nights Dream"
+          ]
+        },
+        {
+          "id": "l2c-bard-to-the-bone-5",
+          "rank": 5,
+          "clue": "Superstitious actors call this tragedy about an ambitious Scottish king \"the Scottish play.\"",
+          "answer": "Macbeth",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-broadway-bound",
+      "name": "Broadway Bound",
+      "clues": [
+        {
+          "id": "l2c-broadway-bound-1",
+          "rank": 1,
+          "clue": "This musical about an orphan and her dog Sandy features the song \"Tomorrow.\"",
+          "answer": "Annie",
+          "alternates": []
+        },
+        {
+          "id": "l2c-broadway-bound-2",
+          "rank": 2,
+          "clue": "This musical about the von Trapp family features the song \"Do-Re-Mi.\"",
+          "answer": "The Sound of Music",
+          "alternates": []
+        },
+        {
+          "id": "l2c-broadway-bound-3",
+          "rank": 3,
+          "clue": "Lin-Manuel Miranda wrote this hip-hop musical about a Founding Father on the ten-dollar bill.",
+          "answer": "Hamilton",
+          "alternates": []
+        },
+        {
+          "id": "l2c-broadway-bound-4",
+          "rank": 4,
+          "clue": "In this Andrew Lloyd Webber musical, a masked figure haunts a Paris opera house.",
+          "answer": "The Phantom of the Opera",
+          "alternates": [
+            "Phantom of the Opera",
+            "Phantom"
+          ]
+        },
+        {
+          "id": "l2c-broadway-bound-5",
+          "rank": 5,
+          "clue": "This musical retells Romeo and Juliet with rival New York gangs, the Jets and the Sharks.",
+          "answer": "West Side Story",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-drama-club",
+      "name": "Drama Club",
+      "clues": [
+        {
+          "id": "l2c-drama-club-1",
+          "rank": 1,
+          "clue": "The two famous theater masks stand for comedy and this.",
+          "answer": "Tragedy",
+          "alternates": []
+        },
+        {
+          "id": "l2c-drama-club-2",
+          "rank": 2,
+          "clue": "Swan Lake tells its story through dance and music with no words, making it this kind of performance.",
+          "answer": "Ballet",
+          "alternates": []
+        },
+        {
+          "id": "l2c-drama-club-3",
+          "rank": 3,
+          "clue": "This silent performance art uses only gestures and facial expressions, like pretending to be trapped in a box.",
+          "answer": "Mime",
+          "alternates": [
+            "pantomime"
+          ]
+        },
+        {
+          "id": "l2c-drama-club-4",
+          "rank": 4,
+          "clue": "This kind of drama, which began in Italy, is sung from beginning to end.",
+          "answer": "Opera",
+          "alternates": []
+        },
+        {
+          "id": "l2c-drama-club-5",
+          "rank": 5,
+          "clue": "Acting without a script and making up scenes on the spot is called this.",
+          "answer": "Improvisation",
+          "alternates": [
+            "improv"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-brush-with-greatness",
+      "name": "Brush With Greatness",
+      "clues": [
+        {
+          "id": "l2c-brush-with-greatness-1",
+          "rank": 1,
+          "clue": "Edvard Munch's painting shows a terrified figure clutching its face on a bridge under an orange sky.",
+          "answer": "The Scream",
+          "alternates": []
+        },
+        {
+          "id": "l2c-brush-with-greatness-2",
+          "rank": 2,
+          "clue": "Grant Wood painted this picture of a stern farmer holding a pitchfork beside a woman.",
+          "answer": "American Gothic",
+          "alternates": []
+        },
+        {
+          "id": "l2c-brush-with-greatness-3",
+          "rank": 3,
+          "clue": "Johannes Vermeer's famous painting shows a girl wearing this piece of jewelry.",
+          "answer": "Pearl earring",
+          "alternates": [
+            "pearl"
+          ]
+        },
+        {
+          "id": "l2c-brush-with-greatness-4",
+          "rank": 4,
+          "clue": "Salvador Dali's painting of melting clocks is called this.",
+          "answer": "The Persistence of Memory",
+          "alternates": [
+            "Persistence of Memory"
+          ]
+        },
+        {
+          "id": "l2c-brush-with-greatness-5",
+          "rank": 5,
+          "clue": "Botticelli painted this goddess arriving on a giant seashell.",
+          "answer": "The Birth of Venus",
+          "alternates": [
+            "Birth of Venus",
+            "Venus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-artist-palette",
+      "name": "Artist Palette",
+      "clues": [
+        {
+          "id": "l2c-artist-palette-1",
+          "rank": 1,
+          "clue": "This French Impressionist painted water lilies in his garden at Giverny.",
+          "answer": "Claude Monet",
+          "alternates": [
+            "Monet"
+          ]
+        },
+        {
+          "id": "l2c-artist-palette-2",
+          "rank": 2,
+          "clue": "This Mexican artist is famous for colorful self-portraits.",
+          "answer": "Frida Kahlo",
+          "alternates": [
+            "Kahlo",
+            "Frida"
+          ]
+        },
+        {
+          "id": "l2c-artist-palette-3",
+          "rank": 3,
+          "clue": "This Pop artist made famous pictures of Campbell's soup cans.",
+          "answer": "Andy Warhol",
+          "alternates": [
+            "Warhol"
+          ]
+        },
+        {
+          "id": "l2c-artist-palette-4",
+          "rank": 4,
+          "clue": "This American artist painted giant close-up flowers and New Mexico desert landscapes.",
+          "answer": "Georgia O'Keeffe",
+          "alternates": [
+            "O'Keeffe",
+            "Okeeffe"
+          ]
+        },
+        {
+          "id": "l2c-artist-palette-5",
+          "rank": 5,
+          "clue": "This American artist was nicknamed \"Jack the Dripper\" for splattering paint on canvas.",
+          "answer": "Jackson Pollock",
+          "alternates": [
+            "Pollock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-color-wheel-deal",
+      "name": "Color Wheel Deal",
+      "clues": [
+        {
+          "id": "l2c-color-wheel-deal-1",
+          "rank": 1,
+          "clue": "Mixing red and yellow paint makes this color.",
+          "answer": "Orange",
+          "alternates": []
+        },
+        {
+          "id": "l2c-color-wheel-deal-2",
+          "rank": 2,
+          "clue": "Mixing blue and yellow paint makes this color.",
+          "answer": "Green",
+          "alternates": []
+        },
+        {
+          "id": "l2c-color-wheel-deal-3",
+          "rank": 3,
+          "clue": "Orange, green, and purple are this type of color, made by mixing two primaries.",
+          "answer": "Secondary",
+          "alternates": [
+            "secondary colors",
+            "secondary color"
+          ]
+        },
+        {
+          "id": "l2c-color-wheel-deal-4",
+          "rank": 4,
+          "clue": "Colors directly across from each other on the color wheel, like red and green, are called this.",
+          "answer": "Complementary",
+          "alternates": [
+            "complementary colors",
+            "complements"
+          ]
+        },
+        {
+          "id": "l2c-color-wheel-deal-5",
+          "rank": 5,
+          "clue": "Adding white to a color makes a lighter version called this.",
+          "answer": "Tint",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-canvas-talk",
+      "name": "Canvas Talk",
+      "clues": [
+        {
+          "id": "l2c-canvas-talk-1",
+          "rank": 1,
+          "clue": "This is a painting or drawing of a person, often of just the face.",
+          "answer": "Portrait",
+          "alternates": []
+        },
+        {
+          "id": "l2c-canvas-talk-2",
+          "rank": 2,
+          "clue": "This three-legged stand holds a canvas while an artist paints.",
+          "answer": "Easel",
+          "alternates": []
+        },
+        {
+          "id": "l2c-canvas-talk-3",
+          "rank": 3,
+          "clue": "This is the board on which a painter mixes colors.",
+          "answer": "Palette",
+          "alternates": []
+        },
+        {
+          "id": "l2c-canvas-talk-4",
+          "rank": 4,
+          "clue": "A painting of objects like fruit, flowers, and vases is called this.",
+          "answer": "Still life",
+          "alternates": []
+        },
+        {
+          "id": "l2c-canvas-talk-5",
+          "rank": 5,
+          "clue": "Michelangelo painted the Sistine Chapel ceiling using this technique of painting on wet plaster.",
+          "answer": "Fresco",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-sculpt-fiction",
+      "name": "Sculpt Fiction",
+      "clues": [
+        {
+          "id": "l2c-sculpt-fiction-1",
+          "rank": 1,
+          "clue": "Auguste Rodin sculpted this bronze man sitting with his chin resting on his hand.",
+          "answer": "The Thinker",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sculpt-fiction-2",
+          "rank": 2,
+          "clue": "Michelangelo carved this giant marble statue of the Bible's young giant-slayer.",
+          "answer": "David",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sculpt-fiction-3",
+          "rank": 3,
+          "clue": "This huge statue overlooking Rio de Janeiro shows a figure with arms spread wide.",
+          "answer": "Christ the Redeemer",
+          "alternates": [
+            "Cristo Redentor"
+          ]
+        },
+        {
+          "id": "l2c-sculpt-fiction-4",
+          "rank": 4,
+          "clue": "This ancient Greek statue of a goddess, missing both arms, stands in the Louvre.",
+          "answer": "Venus de Milo",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sculpt-fiction-5",
+          "rank": 5,
+          "clue": "This French sculptor designed the Statue of Liberty.",
+          "answer": "Frederic Auguste Bartholdi",
+          "alternates": [
+            "Bartholdi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-museum-piece",
+      "name": "Museum Piece",
+      "clues": [
+        {
+          "id": "l2c-museum-piece-1",
+          "rank": 1,
+          "clue": "The Mona Lisa hangs in this Paris museum.",
+          "answer": "The Louvre",
+          "alternates": [
+            "Louvre"
+          ]
+        },
+        {
+          "id": "l2c-museum-piece-2",
+          "rank": 2,
+          "clue": "This huge art museum on Fifth Avenue in New York City is nicknamed \"the Met.\"",
+          "answer": "Metropolitan Museum of Art",
+          "alternates": []
+        },
+        {
+          "id": "l2c-museum-piece-3",
+          "rank": 3,
+          "clue": "Frank Lloyd Wright designed this spiral-shaped art museum in New York City.",
+          "answer": "Guggenheim",
+          "alternates": [
+            "Guggenheim Museum"
+          ]
+        },
+        {
+          "id": "l2c-museum-piece-4",
+          "rank": 4,
+          "clue": "This Amsterdam museum displays Rembrandt's The Night Watch.",
+          "answer": "Rijksmuseum",
+          "alternates": []
+        },
+        {
+          "id": "l2c-museum-piece-5",
+          "rank": 5,
+          "clue": "This gallery in Florence, Italy, displays Botticelli's most famous paintings.",
+          "answer": "Uffizi",
+          "alternates": [
+            "Uffizi Gallery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-making-a-movement",
+      "name": "Making a Movement",
+      "clues": [
+        {
+          "id": "l2c-making-a-movement-1",
+          "rank": 1,
+          "clue": "This word, meaning \"rebirth,\" names the great age of art in Italy in the 1400s and 1500s.",
+          "answer": "Renaissance",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-movement-2",
+          "rank": 2,
+          "clue": "Monet, Renoir, and Degas belonged to this movement that captured light with quick brushstrokes.",
+          "answer": "Impressionism",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-movement-3",
+          "rank": 3,
+          "clue": "Andy Warhol's art based on ads, comics, and celebrities is called this.",
+          "answer": "Pop Art",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-movement-4",
+          "rank": 4,
+          "clue": "Salvador Dali's strange, dreamlike paintings belong to this art movement.",
+          "answer": "Surrealism",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-movement-5",
+          "rank": 5,
+          "clue": "Georges Seurat painted with thousands of tiny dots of color, a technique called this.",
+          "answer": "Pointillism",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-old-masters",
+      "name": "Old Masters",
+      "clues": [
+        {
+          "id": "l2c-old-masters-1",
+          "rank": 1,
+          "clue": "Leonardo da Vinci painted this scene of Jesus sharing a final meal with his disciples.",
+          "answer": "The Last Supper",
+          "alternates": [
+            "Last Supper"
+          ]
+        },
+        {
+          "id": "l2c-old-masters-2",
+          "rank": 2,
+          "clue": "This Dutch master painted The Night Watch.",
+          "answer": "Rembrandt",
+          "alternates": [
+            "Rembrandt van Rijn"
+          ]
+        },
+        {
+          "id": "l2c-old-masters-3",
+          "rank": 3,
+          "clue": "This Italian Renaissance painter created the fresco The School of Athens.",
+          "answer": "Raphael",
+          "alternates": []
+        },
+        {
+          "id": "l2c-old-masters-4",
+          "rank": 4,
+          "clue": "Leonardo da Vinci filled his notebooks with this backward handwriting, readable in a mirror.",
+          "answer": "Mirror writing",
+          "alternates": [
+            "mirror script"
+          ]
+        },
+        {
+          "id": "l2c-old-masters-5",
+          "rank": 5,
+          "clue": "This Spanish court painter created Las Meninas.",
+          "answer": "Diego Velazquez",
+          "alternates": [
+            "Velazquez"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-olympic-spirit",
+      "name": "Olympic Spirit",
+      "clues": [
+        {
+          "id": "l2c-olympic-spirit-1",
+          "rank": 1,
+          "clue": "The Olympic flag shows this many interlocking rings.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l2c-olympic-spirit-2",
+          "rank": 2,
+          "clue": "Third place at the Olympics earns a medal made of this metal.",
+          "answer": "Bronze",
+          "alternates": []
+        },
+        {
+          "id": "l2c-olympic-spirit-3",
+          "rank": 3,
+          "clue": "Runners carry the Olympic flame to the host city in this.",
+          "answer": "Torch",
+          "alternates": [
+            "Olympic torch"
+          ]
+        },
+        {
+          "id": "l2c-olympic-spirit-4",
+          "rank": 4,
+          "clue": "The traditional Olympic motto is \"Faster, Higher,\" and this.",
+          "answer": "Stronger",
+          "alternates": []
+        },
+        {
+          "id": "l2c-olympic-spirit-5",
+          "rank": 5,
+          "clue": "This French educator founded the modern Olympic Games.",
+          "answer": "Pierre de Coubertin",
+          "alternates": [
+            "Coubertin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-olympic-legends",
+      "name": "Olympic Legends",
+      "clues": [
+        {
+          "id": "l2c-olympic-legends-1",
+          "rank": 1,
+          "clue": "This Jamaican sprinter, famous for his lightning-strike pose, set 100- and 200-meter world records in 2009.",
+          "answer": "Usain Bolt",
+          "alternates": []
+        },
+        {
+          "id": "l2c-olympic-legends-2",
+          "rank": 2,
+          "clue": "This American swimmer won eight gold medals at the 2008 Beijing Olympics.",
+          "answer": "Michael Phelps",
+          "alternates": [
+            "Phelps"
+          ]
+        },
+        {
+          "id": "l2c-olympic-legends-3",
+          "rank": 3,
+          "clue": "This American gymnast won four gold medals at the 2016 Rio Olympics.",
+          "answer": "Simone Biles",
+          "alternates": [
+            "Biles"
+          ]
+        },
+        {
+          "id": "l2c-olympic-legends-4",
+          "rank": 4,
+          "clue": "This American track star won four gold medals at the 1936 Berlin Olympics.",
+          "answer": "Jesse Owens",
+          "alternates": [
+            "Owens"
+          ]
+        },
+        {
+          "id": "l2c-olympic-legends-5",
+          "rank": 5,
+          "clue": "In 1976, this Romanian gymnast scored the first perfect 10 in Olympic gymnastics.",
+          "answer": "Nadia Comaneci",
+          "alternates": [
+            "Comaneci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-winter-games",
+      "name": "Winter Games",
+      "clues": [
+        {
+          "id": "l2c-winter-games-1",
+          "rank": 1,
+          "clue": "In this ice sport, players slide heavy stones while teammates sweep in front of them.",
+          "answer": "Curling",
+          "alternates": []
+        },
+        {
+          "id": "l2c-winter-games-2",
+          "rank": 2,
+          "clue": "Teams of two or four push and then ride this sled down an icy track.",
+          "answer": "Bobsled",
+          "alternates": [
+            "bobsleigh",
+            "bobsledding"
+          ]
+        },
+        {
+          "id": "l2c-winter-games-3",
+          "rank": 3,
+          "clue": "This Winter Olympic sport combines cross-country skiing and rifle shooting.",
+          "answer": "Biathlon",
+          "alternates": []
+        },
+        {
+          "id": "l2c-winter-games-4",
+          "rank": 4,
+          "clue": "In this sled event, athletes lie on their backs and race feet-first.",
+          "answer": "Luge",
+          "alternates": []
+        },
+        {
+          "id": "l2c-winter-games-5",
+          "rank": 5,
+          "clue": "In this sled event, athletes race lying on their stomachs, head-first.",
+          "answer": "Skeleton",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-sports-speak",
+      "name": "Sports Speak",
+      "clues": [
+        {
+          "id": "l2c-sports-speak-1",
+          "rank": 1,
+          "clue": "In baseball, a hit that lets the batter circle all the bases at once is called this.",
+          "answer": "Home run",
+          "alternates": [
+            "homer"
+          ]
+        },
+        {
+          "id": "l2c-sports-speak-2",
+          "rank": 2,
+          "clue": "In basketball, a shot made from behind the arc is worth this many points.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        },
+        {
+          "id": "l2c-sports-speak-3",
+          "rank": 3,
+          "clue": "In soccer, this is the only player allowed to use their hands during play.",
+          "answer": "Goalkeeper",
+          "alternates": [
+            "goalie",
+            "keeper"
+          ]
+        },
+        {
+          "id": "l2c-sports-speak-4",
+          "rank": 4,
+          "clue": "In bowling, three strikes in a row is named after this bird.",
+          "answer": "Turkey",
+          "alternates": []
+        },
+        {
+          "id": "l2c-sports-speak-5",
+          "rank": 5,
+          "clue": "In golf, finishing a hole in one stroke under par is called this.",
+          "answer": "Birdie",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-ballpark-figures",
+      "name": "Ballpark Figures",
+      "clues": [
+        {
+          "id": "l2c-ballpark-figures-1",
+          "rank": 1,
+          "clue": "A baseball team has this many players on the field on defense.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l2c-ballpark-figures-2",
+          "rank": 2,
+          "clue": "A soccer team has this many players on the field at once.",
+          "answer": "11",
+          "alternates": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "l2c-ballpark-figures-3",
+          "rank": 3,
+          "clue": "A field goal in American football is worth this many points.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        },
+        {
+          "id": "l2c-ballpark-figures-4",
+          "rank": 4,
+          "clue": "This is a perfect score in a game of bowling.",
+          "answer": "300",
+          "alternates": [
+            "three hundred"
+          ]
+        },
+        {
+          "id": "l2c-ballpark-figures-5",
+          "rank": 5,
+          "clue": "A marathon is this many miles long.",
+          "answer": "26.2",
+          "alternates": [
+            "26.2 miles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2c-court-order",
+      "name": "Court Order",
+      "clues": [
+        {
+          "id": "l2c-court-order-1",
+          "rank": 1,
+          "clue": "This famous tennis tournament is played on grass courts in London.",
+          "answer": "Wimbledon",
+          "alternates": []
+        },
+        {
+          "id": "l2c-court-order-2",
+          "rank": 2,
+          "clue": "In basketball, taking too many steps without dribbling is this violation.",
+          "answer": "Traveling",
+          "alternates": [
+            "travel",
+            "walking"
+          ]
+        },
+        {
+          "id": "l2c-court-order-3",
+          "rank": 3,
+          "clue": "In tennis, a tie score of 40-40 is called this.",
+          "answer": "Deuce",
+          "alternates": []
+        },
+        {
+          "id": "l2c-court-order-4",
+          "rank": 4,
+          "clue": "This Canadian-born teacher invented basketball in 1891 using peach baskets.",
+          "answer": "James Naismith",
+          "alternates": [
+            "Naismith"
+          ]
+        },
+        {
+          "id": "l2c-court-order-5",
+          "rank": 5,
+          "clue": "William Morgan invented this net sport in 1895, calling it \"mintonette\" at first.",
+          "answer": "Volleyball",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-equipment-check",
+      "name": "Equipment Check",
+      "clues": [
+        {
+          "id": "l2c-equipment-check-1",
+          "rank": 1,
+          "clue": "This sport uses a bow and arrows shot at a target.",
+          "answer": "Archery",
+          "alternates": []
+        },
+        {
+          "id": "l2c-equipment-check-2",
+          "rank": 2,
+          "clue": "The balance beam and the pommel horse are used in this sport.",
+          "answer": "Gymnastics",
+          "alternates": []
+        },
+        {
+          "id": "l2c-equipment-check-3",
+          "rank": 3,
+          "clue": "Players hit a feathered shuttlecock over a high net in this sport.",
+          "answer": "Badminton",
+          "alternates": []
+        },
+        {
+          "id": "l2c-equipment-check-4",
+          "rank": 4,
+          "clue": "Athletes in this sport duel with a foil, epee, or sabre.",
+          "answer": "Fencing",
+          "alternates": []
+        },
+        {
+          "id": "l2c-equipment-check-5",
+          "rank": 5,
+          "clue": "In this lawn game, players use mallets to knock balls through wickets.",
+          "answer": "Croquet",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-making-a-splash",
+      "name": "Making a Splash",
+      "clues": [
+        {
+          "id": "l2c-making-a-splash-1",
+          "rank": 1,
+          "clue": "This swimming stroke is done lying face-up in the water.",
+          "answer": "Backstroke",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-splash-2",
+          "rank": 2,
+          "clue": "The front crawl is the stroke most swimmers use in this race where any stroke is allowed.",
+          "answer": "Freestyle",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-splash-3",
+          "rank": 3,
+          "clue": "In this pool sport, teams of seven try to throw a ball into the other team's goal.",
+          "answer": "Water polo",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-splash-4",
+          "rank": 4,
+          "clue": "This stroke, with both arms sweeping over the water together and a dolphin kick, is named for an insect.",
+          "answer": "Butterfly",
+          "alternates": []
+        },
+        {
+          "id": "l2c-making-a-splash-5",
+          "rank": 5,
+          "clue": "This race combines swimming, cycling, and running.",
+          "answer": "Triathlon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-hall-of-famers",
+      "name": "Hall of Famers",
+      "clues": [
+        {
+          "id": "l2c-hall-of-famers-1",
+          "rank": 1,
+          "clue": "Babe Ruth became a legend in this sport.",
+          "answer": "Baseball",
+          "alternates": []
+        },
+        {
+          "id": "l2c-hall-of-famers-2",
+          "rank": 2,
+          "clue": "This Chicago Bulls superstar who wore number 23 won six NBA championships.",
+          "answer": "Michael Jordan",
+          "alternates": [
+            "Jordan"
+          ]
+        },
+        {
+          "id": "l2c-hall-of-famers-3",
+          "rank": 3,
+          "clue": "This boxer said he could \"float like a butterfly, sting like a bee.\"",
+          "answer": "Muhammad Ali",
+          "alternates": [
+            "Ali"
+          ]
+        },
+        {
+          "id": "l2c-hall-of-famers-4",
+          "rank": 4,
+          "clue": "In 1947, he broke Major League Baseball's color barrier with the Brooklyn Dodgers.",
+          "answer": "Jackie Robinson",
+          "alternates": [
+            "Robinson"
+          ]
+        },
+        {
+          "id": "l2c-hall-of-famers-5",
+          "rank": 5,
+          "clue": "This Brazilian soccer legend was born Edson Arantes do Nascimento.",
+          "answer": "Pele",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-game-night",
+      "name": "Game Night",
+      "clues": [
+        {
+          "id": "l2c-game-night-1",
+          "rank": 1,
+          "clue": "In this board game, players buy properties like Boardwalk and Park Place.",
+          "answer": "Monopoly",
+          "alternates": []
+        },
+        {
+          "id": "l2c-game-night-2",
+          "rank": 2,
+          "clue": "In this board game, players build words from letter tiles worth different points.",
+          "answer": "Scrabble",
+          "alternates": []
+        },
+        {
+          "id": "l2c-game-night-3",
+          "rank": 3,
+          "clue": "In this game, players drop colored discs into a grid to line up four in a row.",
+          "answer": "Connect Four",
+          "alternates": [
+            "Connect 4"
+          ]
+        },
+        {
+          "id": "l2c-game-night-4",
+          "rank": 4,
+          "clue": "In this mystery board game, you might accuse Colonel Mustard in the library with the candlestick.",
+          "answer": "Clue",
+          "alternates": [
+            "Cluedo"
+          ]
+        },
+        {
+          "id": "l2c-game-night-5",
+          "rank": 5,
+          "clue": "This board game's name is what you say when you bump an opponent's pawn back to Start.",
+          "answer": "Sorry",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-check-mate",
+      "name": "Check, Mate",
+      "clues": [
+        {
+          "id": "l2c-check-mate-1",
+          "rank": 1,
+          "clue": "This chess piece moves in an L shape and can jump over other pieces.",
+          "answer": "Knight",
+          "alternates": []
+        },
+        {
+          "id": "l2c-check-mate-2",
+          "rank": 2,
+          "clue": "This is the most powerful chess piece, able to move any distance in any direction.",
+          "answer": "Queen",
+          "alternates": []
+        },
+        {
+          "id": "l2c-check-mate-3",
+          "rank": 3,
+          "clue": "A chessboard has this many squares.",
+          "answer": "64",
+          "alternates": [
+            "sixty-four"
+          ]
+        },
+        {
+          "id": "l2c-check-mate-4",
+          "rank": 4,
+          "clue": "In this special chess move, the king and a rook move at the same time.",
+          "answer": "Castling",
+          "alternates": [
+            "castle"
+          ]
+        },
+        {
+          "id": "l2c-check-mate-5",
+          "rank": 5,
+          "clue": "When a pawn reaches the far side of the board and becomes a queen, it is called this.",
+          "answer": "Promotion",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-puzzle-me-this",
+      "name": "Puzzle Me This",
+      "clues": [
+        {
+          "id": "l2c-puzzle-me-this-1",
+          "rank": 1,
+          "clue": "This puzzle has oddly shaped interlocking pieces that fit together to make a picture.",
+          "answer": "Jigsaw puzzle",
+          "alternates": [
+            "jigsaw"
+          ]
+        },
+        {
+          "id": "l2c-puzzle-me-this-2",
+          "rank": 2,
+          "clue": "This twisting cube puzzle with six colored faces was invented in 1974 by a Hungarian professor.",
+          "answer": "Rubik's Cube",
+          "alternates": []
+        },
+        {
+          "id": "l2c-puzzle-me-this-3",
+          "rank": 3,
+          "clue": "This number puzzle fills a 9-by-9 grid with the digits 1 through 9.",
+          "answer": "Sudoku",
+          "alternates": []
+        },
+        {
+          "id": "l2c-puzzle-me-this-4",
+          "rank": 4,
+          "clue": "This Chinese puzzle uses seven flat shapes to form pictures.",
+          "answer": "Tangram",
+          "alternates": []
+        },
+        {
+          "id": "l2c-puzzle-me-this-5",
+          "rank": 5,
+          "clue": "This word puzzle uses pictures and symbols to stand for words, like a drawing of an eye for \"I.\"",
+          "answer": "Rebus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-classic-games",
+      "name": "Classic Games",
+      "clues": [
+        {
+          "id": "l2c-classic-games-1",
+          "rank": 1,
+          "clue": "In this game, red and black pieces jump each other diagonally to become kings.",
+          "answer": "Checkers",
+          "alternates": [
+            "draughts"
+          ]
+        },
+        {
+          "id": "l2c-classic-games-2",
+          "rank": 2,
+          "clue": "This Chinese tile game uses suits like bamboo, circles, and characters.",
+          "answer": "Mahjong",
+          "alternates": [
+            "mah jongg",
+            "mahjongg"
+          ]
+        },
+        {
+          "id": "l2c-classic-games-3",
+          "rank": 3,
+          "clue": "In this ancient dice game, each player races 15 checkers around a board of 24 points.",
+          "answer": "Backgammon",
+          "alternates": []
+        },
+        {
+          "id": "l2c-classic-games-4",
+          "rank": 4,
+          "clue": "In this ancient strategy game, players place black and white stones on a 19-by-19 grid.",
+          "answer": "Go",
+          "alternates": [
+            "weiqi",
+            "baduk"
+          ]
+        },
+        {
+          "id": "l2c-classic-games-5",
+          "rank": 5,
+          "clue": "In this game, one player tries to guess a hidden code of colored pegs.",
+          "answer": "Mastermind",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-deal-me-in",
+      "name": "Deal Me In",
+      "clues": [
+        {
+          "id": "l2c-deal-me-in-1",
+          "rank": 1,
+          "clue": "In this card game, players ask each other, \"Do you have any sevens?\"",
+          "answer": "Go Fish",
+          "alternates": []
+        },
+        {
+          "id": "l2c-deal-me-in-2",
+          "rank": 2,
+          "clue": "In this card game, you must call out its name when you're down to your last card.",
+          "answer": "Uno",
+          "alternates": []
+        },
+        {
+          "id": "l2c-deal-me-in-3",
+          "rank": 3,
+          "clue": "A standard deck of playing cards has this many suits.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l2c-deal-me-in-4",
+          "rank": 4,
+          "clue": "Without jokers, a standard deck has this many cards.",
+          "answer": "52",
+          "alternates": [
+            "fifty-two"
+          ]
+        },
+        {
+          "id": "l2c-deal-me-in-5",
+          "rank": 5,
+          "clue": "This card game for one player is also called patience.",
+          "answer": "Solitaire",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-roll-the-dice",
+      "name": "Roll the Dice",
+      "clues": [
+        {
+          "id": "l2c-roll-the-dice-1",
+          "rank": 1,
+          "clue": "A standard die has this many faces.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l2c-roll-the-dice-2",
+          "rank": 2,
+          "clue": "In Monopoly, rolling doubles three times in a row sends you here.",
+          "answer": "Jail",
+          "alternates": []
+        },
+        {
+          "id": "l2c-roll-the-dice-3",
+          "rank": 3,
+          "clue": "In this dice game, rolling five of a kind earns 50 points.",
+          "answer": "Yahtzee",
+          "alternates": []
+        },
+        {
+          "id": "l2c-roll-the-dice-4",
+          "rank": 4,
+          "clue": "The numbers on opposite faces of a standard die always add up to this.",
+          "answer": "7",
+          "alternates": [
+            "seven"
+          ]
+        },
+        {
+          "id": "l2c-roll-the-dice-5",
+          "rank": 5,
+          "clue": "Rolling a pair of ones on two dice is nicknamed this.",
+          "answer": "Snake eyes",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-toy-box",
+      "name": "Toy Box",
+      "clues": [
+        {
+          "id": "l2c-toy-box-1",
+          "rank": 1,
+          "clue": "This toy spins down and back up a string tied to your finger.",
+          "answer": "Yo-yo",
+          "alternates": [
+            "yoyo"
+          ]
+        },
+        {
+          "id": "l2c-toy-box-2",
+          "rank": 2,
+          "clue": "These colorful interlocking plastic bricks come from a company in Denmark.",
+          "answer": "LEGO",
+          "alternates": [
+            "legos"
+          ]
+        },
+        {
+          "id": "l2c-toy-box-3",
+          "rank": 3,
+          "clue": "This brand of flying plastic disc is tossed back and forth at parks and beaches.",
+          "answer": "Frisbee",
+          "alternates": []
+        },
+        {
+          "id": "l2c-toy-box-4",
+          "rank": 4,
+          "clue": "This metal spring toy can \"walk\" down a flight of stairs.",
+          "answer": "Slinky",
+          "alternates": []
+        },
+        {
+          "id": "l2c-toy-box-5",
+          "rank": 5,
+          "clue": "This drawing toy with a red frame makes lines when you turn its two white knobs.",
+          "answer": "Etch A Sketch",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-series-ly-good",
+      "name": "Series-ly Good",
+      "clues": [
+        {
+          "id": "l2c-series-ly-good-1",
+          "rank": 1,
+          "clue": "Greg Heffley tells his story through cartoons in this book series' journal.",
+          "answer": "Diary of a Wimpy Kid",
+          "alternates": []
+        },
+        {
+          "id": "l2c-series-ly-good-2",
+          "rank": 2,
+          "clue": "In The Lightning Thief, Percy Jackson learns that his father is this Greek god of the sea.",
+          "answer": "Poseidon",
+          "alternates": []
+        },
+        {
+          "id": "l2c-series-ly-good-3",
+          "rank": 3,
+          "clue": "Lemony Snicket's books about the Baudelaire orphans make up this series.",
+          "answer": "A Series of Unfortunate Events",
+          "alternates": []
+        },
+        {
+          "id": "l2c-series-ly-good-4",
+          "rank": 4,
+          "clue": "Erin Hunter's series about clans of wild forest cats is called this.",
+          "answer": "Warriors",
+          "alternates": [
+            "Warrior Cats"
+          ]
+        },
+        {
+          "id": "l2c-series-ly-good-5",
+          "rank": 5,
+          "clue": "In Christopher Paolini's Eragon, this is the name of Eragon's blue dragon.",
+          "answer": "Saphira",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2c-animal-tales",
+      "name": "Animal Tales",
+      "clues": [
+        {
+          "id": "l2c-animal-tales-1",
+          "rank": 1,
+          "clue": "In an E. B. White classic, this clever spider saves Wilbur the pig.",
+          "answer": "Charlotte",
+          "alternates": []
+        },
+        {
+          "id": "l2c-animal-tales-2",
+          "rank": 2,
+          "clue": "Black Beauty, narrator of a classic novel, is this kind of animal.",
+          "answer": "Horse",
+          "alternates": []
+        },
+        {
+          "id": "l2c-animal-tales-3",
+          "rank": 3,
+          "clue": "In The Wind in the Willows, this animal leaves his underground home and befriends Ratty on the riverbank.",
+          "answer": "Mole",
+          "alternates": []
+        },
+        {
+          "id": "l2c-animal-tales-4",
+          "rank": 4,
+          "clue": "In Where the Red Fern Grows, Billy's hunting dogs are named Old Dan and Little this.",
+          "answer": "Ann",
+          "alternates": []
+        },
+        {
+          "id": "l2c-animal-tales-5",
+          "rank": 5,
+          "clue": "In The Call of the Wild, this dog is stolen from California and becomes a sled dog in the Yukon.",
+          "answer": "Buck",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

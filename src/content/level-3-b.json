@@ -1,0 +1,2436 @@
+{
+  "level": 3,
+  "categories": [
+    {
+      "id": "l3b-seats-of-power",
+      "name": "Seats of Power",
+      "clues": [
+        {
+          "id": "l3b-seats-of-power-1",
+          "rank": 1,
+          "clue": "The pyramids of Giza sit just outside this capital of Egypt.",
+          "answer": "Cairo",
+          "alternates": []
+        },
+        {
+          "id": "l3b-seats-of-power-2",
+          "rank": 2,
+          "clue": "Founded by Francisco Pizarro in 1535, this coastal city is Peru's capital.",
+          "answer": "Lima",
+          "alternates": []
+        },
+        {
+          "id": "l3b-seats-of-power-3",
+          "rank": 3,
+          "clue": "This East African capital is home to Kenya's government.",
+          "answer": "Nairobi",
+          "alternates": []
+        },
+        {
+          "id": "l3b-seats-of-power-4",
+          "rank": 4,
+          "clue": "Thailand's capital, known locally as Krung Thep.",
+          "answer": "Bangkok",
+          "alternates": []
+        },
+        {
+          "id": "l3b-seats-of-power-5",
+          "rank": 5,
+          "clue": "Argentina's capital, on the Río de la Plata, whose name means 'fair winds' in Spanish.",
+          "answer": "Buenos Aires",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-second-city-syndrome",
+      "name": "Second City Syndrome",
+      "clues": [
+        {
+          "id": "l3b-second-city-syndrome-1",
+          "rank": 1,
+          "clue": "Ho Chi Minh City is bigger, but this northern city is Vietnam's capital.",
+          "answer": "Hanoi",
+          "alternates": []
+        },
+        {
+          "id": "l3b-second-city-syndrome-2",
+          "rank": 2,
+          "clue": "Zurich is Switzerland's largest city, but the federal government sits in this city.",
+          "answer": "Bern",
+          "alternates": [
+            "Berne"
+          ]
+        },
+        {
+          "id": "l3b-second-city-syndrome-3",
+          "rank": 3,
+          "clue": "In 1991 this planned city replaced Lagos as Nigeria's capital.",
+          "answer": "Abuja",
+          "alternates": []
+        },
+        {
+          "id": "l3b-second-city-syndrome-4",
+          "rank": 4,
+          "clue": "Karachi is larger, but this planned city near Rawalpindi is Pakistan's capital.",
+          "answer": "Islamabad",
+          "alternates": []
+        },
+        {
+          "id": "l3b-second-city-syndrome-5",
+          "rank": 5,
+          "clue": "Casablanca is Morocco's biggest city, but this Atlantic coast city is its capital.",
+          "answer": "Rabat",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-euro-trip",
+      "name": "Euro Trip",
+      "clues": [
+        {
+          "id": "l3b-euro-trip-1",
+          "rank": 1,
+          "clue": "Portugal's capital, at the mouth of the Tagus River.",
+          "answer": "Lisbon",
+          "alternates": []
+        },
+        {
+          "id": "l3b-euro-trip-2",
+          "rank": 2,
+          "clue": "Norway's capital, home of the Nobel Peace Prize ceremony.",
+          "answer": "Oslo",
+          "alternates": []
+        },
+        {
+          "id": "l3b-euro-trip-3",
+          "rank": 3,
+          "clue": "Poland's capital, on the Vistula River.",
+          "answer": "Warsaw",
+          "alternates": []
+        },
+        {
+          "id": "l3b-euro-trip-4",
+          "rank": 4,
+          "clue": "Hungary's capital, formed in 1873 by uniting two towns on either side of the Danube.",
+          "answer": "Budapest",
+          "alternates": []
+        },
+        {
+          "id": "l3b-euro-trip-5",
+          "rank": 5,
+          "clue": "The capital of the Czech Republic, famed for its Charles Bridge.",
+          "answer": "Prague",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-river-deep",
+      "name": "River Deep",
+      "clues": [
+        {
+          "id": "l3b-river-deep-1",
+          "rank": 1,
+          "clue": "Flowing north through Egypt, this is traditionally called the world's longest river.",
+          "answer": "Nile",
+          "alternates": [
+            "Nile River"
+          ]
+        },
+        {
+          "id": "l3b-river-deep-2",
+          "rank": 2,
+          "clue": "This South American river carries more water than any other river on Earth.",
+          "answer": "Amazon",
+          "alternates": [
+            "Amazon River"
+          ]
+        },
+        {
+          "id": "l3b-river-deep-3",
+          "rank": 3,
+          "clue": "Mark Twain piloted steamboats on this great river that ends near New Orleans.",
+          "answer": "Mississippi",
+          "alternates": [
+            "Mississippi River"
+          ]
+        },
+        {
+          "id": "l3b-river-deep-4",
+          "rank": 4,
+          "clue": "Asia's longest river, it is home to China's Three Gorges Dam.",
+          "answer": "Yangtze",
+          "alternates": [
+            "Yangtze River",
+            "Chang Jiang"
+          ]
+        },
+        {
+          "id": "l3b-river-deep-5",
+          "rank": 5,
+          "clue": "This river flows through four European capitals: Vienna, Bratislava, Budapest and Belgrade.",
+          "answer": "Danube",
+          "alternates": [
+            "Danube River"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-peak-performance",
+      "name": "Peak Performance",
+      "clues": [
+        {
+          "id": "l3b-peak-performance-1",
+          "rank": 1,
+          "clue": "Mont Blanc is the highest peak in this European mountain range.",
+          "answer": "Alps",
+          "alternates": []
+        },
+        {
+          "id": "l3b-peak-performance-2",
+          "rank": 2,
+          "clue": "Rising from Tanzania's plains, this volcano is Africa's highest mountain.",
+          "answer": "Kilimanjaro",
+          "alternates": [
+            "Mount Kilimanjaro"
+          ]
+        },
+        {
+          "id": "l3b-peak-performance-3",
+          "rank": 3,
+          "clue": "The world's longest continental mountain range runs down western South America.",
+          "answer": "Andes",
+          "alternates": []
+        },
+        {
+          "id": "l3b-peak-performance-4",
+          "rank": 4,
+          "clue": "Formerly called Mount McKinley, this Alaskan peak is North America's highest.",
+          "answer": "Denali",
+          "alternates": []
+        },
+        {
+          "id": "l3b-peak-performance-5",
+          "rank": 5,
+          "clue": "Located in Argentina, this is the highest mountain in the Western Hemisphere.",
+          "answer": "Aconcagua",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-island-hopping",
+      "name": "Island Hopping",
+      "clues": [
+        {
+          "id": "l3b-island-hopping-1",
+          "rank": 1,
+          "clue": "Part of the Kingdom of Denmark, this is the world's largest island.",
+          "answer": "Greenland",
+          "alternates": []
+        },
+        {
+          "id": "l3b-island-hopping-2",
+          "rank": 2,
+          "clue": "Lemurs are found in the wild only on this island nation off southeast Africa.",
+          "answer": "Madagascar",
+          "alternates": []
+        },
+        {
+          "id": "l3b-island-hopping-3",
+          "rank": 3,
+          "clue": "Mount Etna smokes on this largest island in the Mediterranean.",
+          "answer": "Sicily",
+          "alternates": []
+        },
+        {
+          "id": "l3b-island-hopping-4",
+          "rank": 4,
+          "clue": "This island is Australia's southernmost state.",
+          "answer": "Tasmania",
+          "alternates": []
+        },
+        {
+          "id": "l3b-island-hopping-5",
+          "rank": 5,
+          "clue": "This large island is divided among Malaysia, Indonesia and Brunei.",
+          "answer": "Borneo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-making-waves",
+      "name": "Making Waves",
+      "clues": [
+        {
+          "id": "l3b-making-waves-1",
+          "rank": 1,
+          "clue": "Opened in 1914, this canal lets ships cross Central America between the Atlantic and Pacific.",
+          "answer": "Panama Canal",
+          "alternates": []
+        },
+        {
+          "id": "l3b-making-waves-2",
+          "rank": 2,
+          "clue": "Opened in 1869, this Egyptian canal links the Mediterranean and the Red Sea.",
+          "answer": "Suez Canal",
+          "alternates": []
+        },
+        {
+          "id": "l3b-making-waves-3",
+          "rank": 3,
+          "clue": "The shores of this very salty body of water between Israel and Jordan are the lowest land on Earth.",
+          "answer": "Dead Sea",
+          "alternates": []
+        },
+        {
+          "id": "l3b-making-waves-4",
+          "rank": 4,
+          "clue": "This narrow waterway separates Spain from Morocco.",
+          "answer": "Strait of Gibraltar",
+          "alternates": [
+            "Gibraltar"
+          ]
+        },
+        {
+          "id": "l3b-making-waves-5",
+          "rank": 5,
+          "clue": "Bordered by Russia and Iran, it's the largest inland body of water on Earth.",
+          "answer": "Caspian Sea",
+          "alternates": [
+            "Caspian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-hot-and-dry",
+      "name": "Hot & Dry",
+      "clues": [
+        {
+          "id": "l3b-hot-and-dry-1",
+          "rank": 1,
+          "clue": "This Asian desert stretches across Mongolia and northern China.",
+          "answer": "Gobi",
+          "alternates": [
+            "Gobi Desert"
+          ]
+        },
+        {
+          "id": "l3b-hot-and-dry-2",
+          "rank": 2,
+          "clue": "Counting cold deserts, this icy continent is the largest desert on Earth.",
+          "answer": "Antarctica",
+          "alternates": []
+        },
+        {
+          "id": "l3b-hot-and-dry-3",
+          "rank": 3,
+          "clue": "Death Valley lies within this desert of the American Southwest.",
+          "answer": "Mojave",
+          "alternates": [
+            "Mojave Desert"
+          ]
+        },
+        {
+          "id": "l3b-hot-and-dry-4",
+          "rank": 4,
+          "clue": "This southern African desert covers much of Botswana.",
+          "answer": "Kalahari",
+          "alternates": [
+            "Kalahari Desert"
+          ]
+        },
+        {
+          "id": "l3b-hot-and-dry-5",
+          "rank": 5,
+          "clue": "Found in Chile, this is the driest nonpolar desert in the world.",
+          "answer": "Atacama",
+          "alternates": [
+            "Atacama Desert"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-mr-president",
+      "name": "Mr. President",
+      "clues": [
+        {
+          "id": "l3b-mr-president-1",
+          "rank": 1,
+          "clue": "He delivered the Gettysburg Address in 1863.",
+          "answer": "Abraham Lincoln",
+          "alternates": [
+            "Lincoln",
+            "Abe Lincoln"
+          ]
+        },
+        {
+          "id": "l3b-mr-president-2",
+          "rank": 2,
+          "clue": "The only president elected four times.",
+          "answer": "Franklin D. Roosevelt",
+          "alternates": [
+            "FDR",
+            "Franklin Roosevelt",
+            "Franklin Delano Roosevelt"
+          ]
+        },
+        {
+          "id": "l3b-mr-president-3",
+          "rank": 3,
+          "clue": "The teddy bear was named after this president, the youngest ever to take office.",
+          "answer": "Theodore Roosevelt",
+          "alternates": [
+            "Teddy Roosevelt",
+            "TR"
+          ]
+        },
+        {
+          "id": "l3b-mr-president-4",
+          "rank": 4,
+          "clue": "He laid out his Fourteen Points for peace after World War I.",
+          "answer": "Woodrow Wilson",
+          "alternates": [
+            "Wilson"
+          ]
+        },
+        {
+          "id": "l3b-mr-president-5",
+          "rank": 5,
+          "clue": "The fourth president, he is called the 'Father of the Constitution.'",
+          "answer": "James Madison",
+          "alternates": [
+            "Madison"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-oval-office-hours",
+      "name": "Oval Office Hours",
+      "clues": [
+        {
+          "id": "l3b-oval-office-hours-1",
+          "rank": 1,
+          "clue": "The first president, he is the only one never to live in the White House.",
+          "answer": "George Washington",
+          "alternates": [
+            "Washington"
+          ]
+        },
+        {
+          "id": "l3b-oval-office-hours-2",
+          "rank": 2,
+          "clue": "This Union general became the 18th president.",
+          "answer": "Ulysses S. Grant",
+          "alternates": [
+            "Grant",
+            "Ulysses Grant"
+          ]
+        },
+        {
+          "id": "l3b-oval-office-hours-3",
+          "rank": 3,
+          "clue": "Nicknamed 'Old Hickory,' this seventh president appears on the $20 bill.",
+          "answer": "Andrew Jackson",
+          "alternates": [
+            "Jackson"
+          ]
+        },
+        {
+          "id": "l3b-oval-office-hours-4",
+          "rank": 4,
+          "clue": "In 1800 this second president became the first to live in the White House.",
+          "answer": "John Adams",
+          "alternates": []
+        },
+        {
+          "id": "l3b-oval-office-hours-5",
+          "rank": 5,
+          "clue": "The only person to serve as both president and Chief Justice of the United States.",
+          "answer": "William Howard Taft",
+          "alternates": [
+            "Taft",
+            "William Taft"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-hail-to-the-chiefs",
+      "name": "Hail to the Chiefs",
+      "clues": [
+        {
+          "id": "l3b-hail-to-the-chiefs-1",
+          "rank": 1,
+          "clue": "In 1974 he became the only president to resign from office.",
+          "answer": "Richard Nixon",
+          "alternates": [
+            "Nixon"
+          ]
+        },
+        {
+          "id": "l3b-hail-to-the-chiefs-2",
+          "rank": 2,
+          "clue": "He was president during the 1962 Cuban Missile Crisis.",
+          "answer": "John F. Kennedy",
+          "alternates": [
+            "JFK",
+            "Kennedy",
+            "John Kennedy"
+          ]
+        },
+        {
+          "id": "l3b-hail-to-the-chiefs-3",
+          "rank": 3,
+          "clue": "In 1823 this president warned Europe against new colonies in the Americas.",
+          "answer": "James Monroe",
+          "alternates": [
+            "Monroe"
+          ]
+        },
+        {
+          "id": "l3b-hail-to-the-chiefs-4",
+          "rank": 4,
+          "clue": "A sign on his desk read 'The buck stops here.'",
+          "answer": "Harry Truman",
+          "alternates": [
+            "Truman",
+            "Harry S. Truman"
+          ]
+        },
+        {
+          "id": "l3b-hail-to-the-chiefs-5",
+          "rank": 5,
+          "clue": "Shantytowns during the Great Depression were mockingly named after this president.",
+          "answer": "Herbert Hoover",
+          "alternates": [
+            "Hoover"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-amend-corner",
+      "name": "Amend Corner",
+      "clues": [
+        {
+          "id": "l3b-amend-corner-1",
+          "rank": 1,
+          "clue": "The Constitution's opening paragraph, beginning 'We the People.'",
+          "answer": "Preamble",
+          "alternates": []
+        },
+        {
+          "id": "l3b-amend-corner-2",
+          "rank": 2,
+          "clue": "This amendment protects freedom of speech, religion and the press.",
+          "answer": "First Amendment",
+          "alternates": [
+            "1st Amendment",
+            "First",
+            "1st"
+          ]
+        },
+        {
+          "id": "l3b-amend-corner-3",
+          "rank": 3,
+          "clue": "Ratified in 1865, this amendment abolished slavery.",
+          "answer": "Thirteenth Amendment",
+          "alternates": [
+            "13th Amendment",
+            "13th",
+            "Thirteenth"
+          ]
+        },
+        {
+          "id": "l3b-amend-corner-4",
+          "rank": 4,
+          "clue": "Ratified in 1920, this amendment gave women the right to vote.",
+          "answer": "Nineteenth Amendment",
+          "alternates": [
+            "19th Amendment",
+            "19th",
+            "Nineteenth"
+          ]
+        },
+        {
+          "id": "l3b-amend-corner-5",
+          "rank": 5,
+          "clue": "This amendment, ratified in 1951, limits presidents to two elected terms.",
+          "answer": "Twenty-second Amendment",
+          "alternates": [
+            "22nd Amendment",
+            "22nd",
+            "Twenty-second"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-framers-market",
+      "name": "Framers' Market",
+      "clues": [
+        {
+          "id": "l3b-framers-market-1",
+          "rank": 1,
+          "clue": "The Constitutional Convention met in this city in 1787.",
+          "answer": "Philadelphia",
+          "alternates": []
+        },
+        {
+          "id": "l3b-framers-market-2",
+          "rank": 2,
+          "clue": "This weak first plan of US government was replaced by the Constitution.",
+          "answer": "Articles of Confederation",
+          "alternates": []
+        },
+        {
+          "id": "l3b-framers-market-3",
+          "rank": 3,
+          "clue": "Saying you 'plead' this amendment means you won't testify against yourself.",
+          "answer": "Fifth Amendment",
+          "alternates": [
+            "5th Amendment",
+            "Fifth",
+            "5th"
+          ]
+        },
+        {
+          "id": "l3b-framers-market-4",
+          "rank": 4,
+          "clue": "The first article of the Constitution sets up this branch of government.",
+          "answer": "Legislative branch",
+          "alternates": [
+            "Legislative",
+            "Congress"
+          ]
+        },
+        {
+          "id": "l3b-framers-market-5",
+          "rank": 5,
+          "clue": "Ratified in 1971, this amendment lowered the voting age to 18.",
+          "answer": "Twenty-sixth Amendment",
+          "alternates": [
+            "26th Amendment",
+            "26th",
+            "Twenty-sixth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-branch-office",
+      "name": "Branch Office",
+      "clues": [
+        {
+          "id": "l3b-branch-office-1",
+          "rank": 1,
+          "clue": "The number of justices on the US Supreme Court.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l3b-branch-office-2",
+          "rank": 2,
+          "clue": "The length in years of a US senator's term.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l3b-branch-office-3",
+          "rank": 3,
+          "clue": "After the vice president, this officer is next in line for the presidency.",
+          "answer": "Speaker of the House",
+          "alternates": [
+            "Speaker",
+            "House Speaker"
+          ]
+        },
+        {
+          "id": "l3b-branch-office-4",
+          "rank": 4,
+          "clue": "The number of voting members in the US House of Representatives.",
+          "answer": "435",
+          "alternates": [
+            "four hundred thirty-five"
+          ]
+        },
+        {
+          "id": "l3b-branch-office-5",
+          "rank": 5,
+          "clue": "The minimum age, in years, to become president.",
+          "answer": "35",
+          "alternates": [
+            "thirty-five"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-capitol-hill-lingo",
+      "name": "Capitol Hill Lingo",
+      "clues": [
+        {
+          "id": "l3b-capitol-hill-lingo-1",
+          "rank": 1,
+          "clue": "The House has the sole power to bring these formal charges against a federal official.",
+          "answer": "Impeachment",
+          "alternates": [
+            "impeach"
+          ]
+        },
+        {
+          "id": "l3b-capitol-hill-lingo-2",
+          "rank": 2,
+          "clue": "The fraction of both houses needed to override a presidential veto.",
+          "answer": "Two-thirds",
+          "alternates": [
+            "2/3",
+            "two thirds"
+          ]
+        },
+        {
+          "id": "l3b-capitol-hill-lingo-3",
+          "rank": 3,
+          "clue": "This word describes a legislature, like Congress, with two chambers.",
+          "answer": "Bicameral",
+          "alternates": []
+        },
+        {
+          "id": "l3b-capitol-hill-lingo-4",
+          "rank": 4,
+          "clue": "A senator may use this long-speech tactic to delay a vote.",
+          "answer": "Filibuster",
+          "alternates": []
+        },
+        {
+          "id": "l3b-capitol-hill-lingo-5",
+          "rank": 5,
+          "clue": "It happens when a president doesn't sign a bill within 10 days while Congress is adjourned.",
+          "answer": "Pocket veto",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-court-is-in-session",
+      "name": "Court Is in Session",
+      "clues": [
+        {
+          "id": "l3b-court-is-in-session-1",
+          "rank": 1,
+          "clue": "This 1954 case ruled school segregation unconstitutional.",
+          "answer": "Brown v. Board of Education",
+          "alternates": [
+            "Brown v. Board",
+            "Brown"
+          ]
+        },
+        {
+          "id": "l3b-court-is-in-session-2",
+          "rank": 2,
+          "clue": "This 1966 case is why police read suspects their right to remain silent.",
+          "answer": "Miranda v. Arizona",
+          "alternates": [
+            "Miranda"
+          ]
+        },
+        {
+          "id": "l3b-court-is-in-session-3",
+          "rank": 3,
+          "clue": "This 1896 case upheld 'separate but equal' facilities.",
+          "answer": "Plessy v. Ferguson",
+          "alternates": [
+            "Plessy"
+          ]
+        },
+        {
+          "id": "l3b-court-is-in-session-4",
+          "rank": 4,
+          "clue": "This 1803 case established the Supreme Court's power of judicial review.",
+          "answer": "Marbury v. Madison",
+          "alternates": [
+            "Marbury"
+          ]
+        },
+        {
+          "id": "l3b-court-is-in-session-5",
+          "rank": 5,
+          "clue": "This 1963 case guaranteed lawyers for poor defendants in criminal cases.",
+          "answer": "Gideon v. Wainwright",
+          "alternates": [
+            "Gideon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-revolutionary-road",
+      "name": "Revolutionary Road",
+      "clues": [
+        {
+          "id": "l3b-revolutionary-road-1",
+          "rank": 1,
+          "clue": "In 1773 colonists protested a tax by dumping crates of this into Boston Harbor.",
+          "answer": "Tea",
+          "alternates": []
+        },
+        {
+          "id": "l3b-revolutionary-road-2",
+          "rank": 2,
+          "clue": "This silversmith made a famous midnight ride in 1775.",
+          "answer": "Paul Revere",
+          "alternates": [
+            "Revere"
+          ]
+        },
+        {
+          "id": "l3b-revolutionary-road-3",
+          "rank": 3,
+          "clue": "The first battles of the Revolution were fought at these two Massachusetts towns.",
+          "answer": "Lexington and Concord",
+          "alternates": [
+            "Lexington & Concord",
+            "Concord and Lexington"
+          ]
+        },
+        {
+          "id": "l3b-revolutionary-road-4",
+          "rank": 4,
+          "clue": "British General Cornwallis surrendered at this Virginia town in 1781.",
+          "answer": "Yorktown",
+          "alternates": []
+        },
+        {
+          "id": "l3b-revolutionary-road-5",
+          "rank": 5,
+          "clue": "This 1777 American victory in New York convinced France to join the war.",
+          "answer": "Saratoga",
+          "alternates": [
+            "Battle of Saratoga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-seventeen-seventy-six",
+      "name": "Seventeen Seventy-Six",
+      "clues": [
+        {
+          "id": "l3b-seventeen-seventy-six-1",
+          "rank": 1,
+          "clue": "The Declaration of Independence was adopted on this date.",
+          "answer": "July 4",
+          "alternates": [
+            "July 4th",
+            "4th of July",
+            "Fourth of July"
+          ]
+        },
+        {
+          "id": "l3b-seventeen-seventy-six-2",
+          "rank": 2,
+          "clue": "This Massachusetts man's large signature on the Declaration became a nickname for any signature.",
+          "answer": "John Hancock",
+          "alternates": [
+            "Hancock"
+          ]
+        },
+        {
+          "id": "l3b-seventeen-seventy-six-3",
+          "rank": 3,
+          "clue": "At 70, this inventor and printer was the oldest signer of the Declaration.",
+          "answer": "Benjamin Franklin",
+          "alternates": [
+            "Franklin",
+            "Ben Franklin"
+          ]
+        },
+        {
+          "id": "l3b-seventeen-seventy-six-4",
+          "rank": 4,
+          "clue": "His pamphlet 'Common Sense' argued for independence.",
+          "answer": "Thomas Paine",
+          "alternates": [
+            "Paine",
+            "Tom Paine"
+          ]
+        },
+        {
+          "id": "l3b-seventeen-seventy-six-5",
+          "rank": 5,
+          "clue": "The Declaration's list of grievances was aimed at this British king.",
+          "answer": "George III",
+          "alternates": [
+            "King George III",
+            "King George"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-house-divided",
+      "name": "House Divided",
+      "clues": [
+        {
+          "id": "l3b-house-divided-1",
+          "rank": 1,
+          "clue": "Lincoln's 1863 order declaring enslaved people in rebelling states free.",
+          "answer": "Emancipation Proclamation",
+          "alternates": []
+        },
+        {
+          "id": "l3b-house-divided-2",
+          "rank": 2,
+          "clue": "This 1863 battle in Pennsylvania was the largest of the Civil War.",
+          "answer": "Gettysburg",
+          "alternates": [
+            "Battle of Gettysburg"
+          ]
+        },
+        {
+          "id": "l3b-house-divided-3",
+          "rank": 3,
+          "clue": "The Civil War began with shots fired at this fort in Charleston Harbor.",
+          "answer": "Fort Sumter",
+          "alternates": [
+            "Sumter"
+          ]
+        },
+        {
+          "id": "l3b-house-divided-4",
+          "rank": 4,
+          "clue": "He served as the only president of the Confederacy.",
+          "answer": "Jefferson Davis",
+          "alternates": [
+            "Davis"
+          ]
+        },
+        {
+          "id": "l3b-house-divided-5",
+          "rank": 5,
+          "clue": "Robert E. Lee surrendered to Grant in 1865 at this Virginia village.",
+          "answer": "Appomattox Court House",
+          "alternates": [
+            "Appomattox",
+            "Appomattox Courthouse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-go-west",
+      "name": "Go West",
+      "clues": [
+        {
+          "id": "l3b-go-west-1",
+          "rank": 1,
+          "clue": "Jefferson sent these two explorers to map the Louisiana Territory.",
+          "answer": "Lewis and Clark",
+          "alternates": [
+            "Lewis & Clark",
+            "Clark and Lewis"
+          ]
+        },
+        {
+          "id": "l3b-go-west-2",
+          "rank": 2,
+          "clue": "This Shoshone woman served as an interpreter for the Corps of Discovery.",
+          "answer": "Sacagawea",
+          "alternates": [
+            "Sacajawea"
+          ]
+        },
+        {
+          "id": "l3b-go-west-3",
+          "rank": 3,
+          "clue": "Pioneers in covered wagons followed this 2,000-mile route to the Pacific Northwest.",
+          "answer": "Oregon Trail",
+          "alternates": []
+        },
+        {
+          "id": "l3b-go-west-4",
+          "rank": 4,
+          "clue": "This phrase described the belief that the US was meant to stretch from coast to coast.",
+          "answer": "Manifest Destiny",
+          "alternates": []
+        },
+        {
+          "id": "l3b-go-west-5",
+          "rank": 5,
+          "clue": "The transcontinental railroad was completed with a golden spike at this Utah site in 1869.",
+          "answer": "Promontory Summit",
+          "alternates": [
+            "Promontory",
+            "Promontory Point"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-twentieth-century-limited",
+      "name": "Twentieth Century Limited",
+      "clues": [
+        {
+          "id": "l3b-twentieth-century-limited-1",
+          "rank": 1,
+          "clue": "The stock market crash of 1929 helped start this decade-long economic slump.",
+          "answer": "Great Depression",
+          "alternates": [
+            "Depression"
+          ]
+        },
+        {
+          "id": "l3b-twentieth-century-limited-2",
+          "rank": 2,
+          "clue": "The surprise attack on this Hawaii naval base brought the US into World War II.",
+          "answer": "Pearl Harbor",
+          "alternates": []
+        },
+        {
+          "id": "l3b-twentieth-century-limited-3",
+          "rank": 3,
+          "clue": "FDR's set of 1930s relief and recovery programs.",
+          "answer": "New Deal",
+          "alternates": []
+        },
+        {
+          "id": "l3b-twentieth-century-limited-4",
+          "rank": 4,
+          "clue": "Severe drought and dust storms hit the Great Plains in this 1930s disaster.",
+          "answer": "Dust Bowl",
+          "alternates": []
+        },
+        {
+          "id": "l3b-twentieth-century-limited-5",
+          "rank": 5,
+          "clue": "This US program helped rebuild Western Europe after World War II.",
+          "answer": "Marshall Plan",
+          "alternates": [
+            "European Recovery Program"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-we-shall-overcome",
+      "name": "We Shall Overcome",
+      "clues": [
+        {
+          "id": "l3b-we-shall-overcome-1",
+          "rank": 1,
+          "clue": "He gave the 'I Have a Dream' speech in 1963.",
+          "answer": "Martin Luther King Jr.",
+          "alternates": [
+            "Martin Luther King",
+            "MLK",
+            "Dr. King",
+            "King"
+          ]
+        },
+        {
+          "id": "l3b-we-shall-overcome-2",
+          "rank": 2,
+          "clue": "Her 1955 refusal to give up her bus seat sparked the Montgomery bus boycott.",
+          "answer": "Rosa Parks",
+          "alternates": [
+            "Parks"
+          ]
+        },
+        {
+          "id": "l3b-we-shall-overcome-3",
+          "rank": 3,
+          "clue": "Marchers set out from this Alabama city for Montgomery in 1965 to demand voting rights.",
+          "answer": "Selma",
+          "alternates": []
+        },
+        {
+          "id": "l3b-we-shall-overcome-4",
+          "rank": 4,
+          "clue": "He argued Brown v. Board of Education and became the first Black Supreme Court justice.",
+          "answer": "Thurgood Marshall",
+          "alternates": [
+            "Marshall"
+          ]
+        },
+        {
+          "id": "l3b-we-shall-overcome-5",
+          "rank": 5,
+          "clue": "This 1965 law banned literacy tests and other barriers to voting.",
+          "answer": "Voting Rights Act",
+          "alternates": [
+            "Voting Rights Act of 1965"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-cold-front",
+      "name": "Cold Front",
+      "clues": [
+        {
+          "id": "l3b-cold-front-1",
+          "rank": 1,
+          "clue": "This military alliance of the US and Western European nations was formed in 1949.",
+          "answer": "NATO",
+          "alternates": [
+            "North Atlantic Treaty Organization"
+          ]
+        },
+        {
+          "id": "l3b-cold-front-2",
+          "rank": 2,
+          "clue": "The Soviet Union launched this first artificial satellite in 1957.",
+          "answer": "Sputnik",
+          "alternates": [
+            "Sputnik 1"
+          ]
+        },
+        {
+          "id": "l3b-cold-front-3",
+          "rank": 3,
+          "clue": "This 13-day standoff in 1962 involved Soviet weapons placed on a Caribbean island.",
+          "answer": "Cuban Missile Crisis",
+          "alternates": []
+        },
+        {
+          "id": "l3b-cold-front-4",
+          "rank": 4,
+          "clue": "Churchill used this phrase in 1946 for the line dividing Europe.",
+          "answer": "Iron Curtain",
+          "alternates": []
+        },
+        {
+          "id": "l3b-cold-front-5",
+          "rank": 5,
+          "clue": "In 1948 and 1949 Western planes flew supplies to this blockaded city.",
+          "answer": "Berlin",
+          "alternates": [
+            "West Berlin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-allied-forces",
+      "name": "Allied Forces",
+      "clues": [
+        {
+          "id": "l3b-allied-forces-1",
+          "rank": 1,
+          "clue": "This name is given to June 6, 1944, when Allied troops landed in Normandy.",
+          "answer": "D-Day",
+          "alternates": [
+            "D Day"
+          ]
+        },
+        {
+          "id": "l3b-allied-forces-2",
+          "rank": 2,
+          "clue": "He was Britain's prime minister for most of World War II.",
+          "answer": "Winston Churchill",
+          "alternates": [
+            "Churchill"
+          ]
+        },
+        {
+          "id": "l3b-allied-forces-3",
+          "rank": 3,
+          "clue": "Germany, Italy and Japan formed this alliance in World War II.",
+          "answer": "Axis",
+          "alternates": [
+            "Axis powers"
+          ]
+        },
+        {
+          "id": "l3b-allied-forces-4",
+          "rank": 4,
+          "clue": "This 1942 naval battle near a Pacific atoll was a turning point against Japan.",
+          "answer": "Midway",
+          "alternates": [
+            "Battle of Midway"
+          ]
+        },
+        {
+          "id": "l3b-allied-forces-5",
+          "rank": 5,
+          "clue": "May 8, 1945, is celebrated by this name.",
+          "answer": "V-E Day",
+          "alternates": [
+            "VE Day",
+            "Victory in Europe Day"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-the-great-war",
+      "name": "The Great War",
+      "clues": [
+        {
+          "id": "l3b-the-great-war-1",
+          "rank": 1,
+          "clue": "His 1914 assassination in Sarajevo triggered World War I.",
+          "answer": "Franz Ferdinand",
+          "alternates": [
+            "Archduke Franz Ferdinand"
+          ]
+        },
+        {
+          "id": "l3b-the-great-war-2",
+          "rank": 2,
+          "clue": "Soldiers on the Western Front fought from these long ditches.",
+          "answer": "Trenches",
+          "alternates": [
+            "trench"
+          ]
+        },
+        {
+          "id": "l3b-the-great-war-3",
+          "rank": 3,
+          "clue": "This 1919 treaty, signed in a French palace, formally ended the war with Germany.",
+          "answer": "Treaty of Versailles",
+          "alternates": [
+            "Versailles"
+          ]
+        },
+        {
+          "id": "l3b-the-great-war-4",
+          "rank": 4,
+          "clue": "The 1915 sinking of this British ocean liner turned Americans against Germany.",
+          "answer": "Lusitania",
+          "alternates": [
+            "RMS Lusitania"
+          ]
+        },
+        {
+          "id": "l3b-the-great-war-5",
+          "rank": 5,
+          "clue": "Woodrow Wilson proposed this peacekeeping body, which the US never joined.",
+          "answer": "League of Nations",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-signed-sealed-delivered",
+      "name": "Signed, Sealed, Delivered",
+      "clues": [
+        {
+          "id": "l3b-signed-sealed-delivered-1",
+          "rank": 1,
+          "clue": "This 1783 treaty, named for a European capital, ended the American Revolution.",
+          "answer": "Treaty of Paris",
+          "alternates": [
+            "Paris"
+          ]
+        },
+        {
+          "id": "l3b-signed-sealed-delivered-2",
+          "rank": 2,
+          "clue": "This 1814 treaty, named for a Belgian city, ended the War of 1812.",
+          "answer": "Treaty of Ghent",
+          "alternates": [
+            "Ghent"
+          ]
+        },
+        {
+          "id": "l3b-signed-sealed-delivered-3",
+          "rank": 3,
+          "clue": "This 1848 treaty ended the Mexican-American War.",
+          "answer": "Treaty of Guadalupe Hidalgo",
+          "alternates": [
+            "Guadalupe Hidalgo"
+          ]
+        },
+        {
+          "id": "l3b-signed-sealed-delivered-4",
+          "rank": 4,
+          "clue": "This 1494 treaty divided newly found lands between Spain and Portugal.",
+          "answer": "Treaty of Tordesillas",
+          "alternates": [
+            "Tordesillas"
+          ]
+        },
+        {
+          "id": "l3b-signed-sealed-delivered-5",
+          "rank": 5,
+          "clue": "The 1648 peace that ended Europe's Thirty Years' War.",
+          "answer": "Peace of Westphalia",
+          "alternates": [
+            "Westphalia",
+            "Treaty of Westphalia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-when-in-rome",
+      "name": "When in Rome",
+      "clues": [
+        {
+          "id": "l3b-when-in-rome-1",
+          "rank": 1,
+          "clue": "Gladiators fought in this huge Roman amphitheater.",
+          "answer": "Colosseum",
+          "alternates": [
+            "Coliseum",
+            "Flavian Amphitheatre"
+          ]
+        },
+        {
+          "id": "l3b-when-in-rome-2",
+          "rank": 2,
+          "clue": "The language of ancient Rome.",
+          "answer": "Latin",
+          "alternates": []
+        },
+        {
+          "id": "l3b-when-in-rome-3",
+          "rank": 3,
+          "clue": "He crossed the Rubicon in 49 BC and later became dictator.",
+          "answer": "Julius Caesar",
+          "alternates": [
+            "Caesar"
+          ]
+        },
+        {
+          "id": "l3b-when-in-rome-4",
+          "rank": 4,
+          "clue": "Mount Vesuvius buried this Roman town in AD 79.",
+          "answer": "Pompeii",
+          "alternates": []
+        },
+        {
+          "id": "l3b-when-in-rome-5",
+          "rank": 5,
+          "clue": "This Carthaginian general crossed the Alps with elephants.",
+          "answer": "Hannibal",
+          "alternates": [
+            "Hannibal Barca"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-it-s-all-greek-to-me",
+      "name": "It's All Greek to Me",
+      "clues": [
+        {
+          "id": "l3b-it-s-all-greek-to-me-1",
+          "rank": 1,
+          "clue": "This city-state is called the birthplace of democracy.",
+          "answer": "Athens",
+          "alternates": []
+        },
+        {
+          "id": "l3b-it-s-all-greek-to-me-2",
+          "rank": 2,
+          "clue": "This Greek city-state was famed for its tough warrior training.",
+          "answer": "Sparta",
+          "alternates": []
+        },
+        {
+          "id": "l3b-it-s-all-greek-to-me-3",
+          "rank": 3,
+          "clue": "This temple to Athena stands on the Acropolis.",
+          "answer": "Parthenon",
+          "alternates": []
+        },
+        {
+          "id": "l3b-it-s-all-greek-to-me-4",
+          "rank": 4,
+          "clue": "Tutored by Aristotle, this Macedonian king conquered lands as far as India.",
+          "answer": "Alexander the Great",
+          "alternates": [
+            "Alexander"
+          ]
+        },
+        {
+          "id": "l3b-it-s-all-greek-to-me-5",
+          "rank": 5,
+          "clue": "A long-distance race is named for this 490 BC battle against Persia.",
+          "answer": "Marathon",
+          "alternates": [
+            "Battle of Marathon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-walk-like-an-egyptian",
+      "name": "Walk Like an Egyptian",
+      "clues": [
+        {
+          "id": "l3b-walk-like-an-egyptian-1",
+          "rank": 1,
+          "clue": "The title of an ancient Egyptian king.",
+          "answer": "Pharaoh",
+          "alternates": []
+        },
+        {
+          "id": "l3b-walk-like-an-egyptian-2",
+          "rank": 2,
+          "clue": "The ancient Egyptian writing system that used pictures.",
+          "answer": "Hieroglyphics",
+          "alternates": [
+            "hieroglyphs",
+            "hieroglyphic"
+          ]
+        },
+        {
+          "id": "l3b-walk-like-an-egyptian-3",
+          "rank": 3,
+          "clue": "Allied with Mark Antony, she was the last active ruler of Ptolemaic Egypt.",
+          "answer": "Cleopatra",
+          "alternates": [
+            "Cleopatra VII"
+          ]
+        },
+        {
+          "id": "l3b-walk-like-an-egyptian-4",
+          "rank": 4,
+          "clue": "Howard Carter found this boy king's tomb in 1922.",
+          "answer": "Tutankhamun",
+          "alternates": [
+            "King Tut",
+            "Tut",
+            "Tutankhamen"
+          ]
+        },
+        {
+          "id": "l3b-walk-like-an-egyptian-5",
+          "rank": 5,
+          "clue": "This stone slab with the same text in three scripts helped decode Egyptian writing.",
+          "answer": "Rosetta Stone",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-knight-school",
+      "name": "Knight School",
+      "clues": [
+        {
+          "id": "l3b-knight-school-1",
+          "rank": 1,
+          "clue": "European Christians launched these religious military campaigns to the Holy Land.",
+          "answer": "Crusades",
+          "alternates": [
+            "Crusade"
+          ]
+        },
+        {
+          "id": "l3b-knight-school-2",
+          "rank": 2,
+          "clue": "This plague swept across Europe in the 1340s and 1350s.",
+          "answer": "Black Death",
+          "alternates": [
+            "bubonic plague",
+            "plague"
+          ]
+        },
+        {
+          "id": "l3b-knight-school-3",
+          "rank": 3,
+          "clue": "This medieval system traded land for loyalty and military service.",
+          "answer": "Feudalism",
+          "alternates": [
+            "feudal system"
+          ]
+        },
+        {
+          "id": "l3b-knight-school-4",
+          "rank": 4,
+          "clue": "This Norman duke won the Battle of Hastings in 1066.",
+          "answer": "William the Conqueror",
+          "alternates": [
+            "William I"
+          ]
+        },
+        {
+          "id": "l3b-knight-school-5",
+          "rank": 5,
+          "clue": "The pope crowned this Frankish king emperor on Christmas Day in 800.",
+          "answer": "Charlemagne",
+          "alternates": [
+            "Charles the Great"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-empire-state-of-mind",
+      "name": "Empire State of Mind",
+      "clues": [
+        {
+          "id": "l3b-empire-state-of-mind-1",
+          "rank": 1,
+          "clue": "Their capital, Tenochtitlan, stood where Mexico City is today.",
+          "answer": "Aztec",
+          "alternates": [
+            "Aztecs",
+            "Aztec Empire"
+          ]
+        },
+        {
+          "id": "l3b-empire-state-of-mind-2",
+          "rank": 2,
+          "clue": "This Andean empire built Machu Picchu.",
+          "answer": "Inca",
+          "alternates": [
+            "Incas",
+            "Inca Empire",
+            "Incan"
+          ]
+        },
+        {
+          "id": "l3b-empire-state-of-mind-3",
+          "rank": 3,
+          "clue": "This Turkish empire captured Constantinople in 1453.",
+          "answer": "Ottoman",
+          "alternates": [
+            "Ottomans",
+            "Ottoman Empire"
+          ]
+        },
+        {
+          "id": "l3b-empire-state-of-mind-4",
+          "rank": 4,
+          "clue": "This Indian empire's ruler Shah Jahan built the Taj Mahal.",
+          "answer": "Mughal",
+          "alternates": [
+            "Mughals",
+            "Mughal Empire",
+            "Mogul"
+          ]
+        },
+        {
+          "id": "l3b-empire-state-of-mind-5",
+          "rank": 5,
+          "clue": "The eastern half of the Roman Empire, it built the Hagia Sophia.",
+          "answer": "Byzantine",
+          "alternates": [
+            "Byzantine Empire",
+            "Byzantium"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-middle-kingdom",
+      "name": "Middle Kingdom",
+      "clues": [
+        {
+          "id": "l3b-middle-kingdom-1",
+          "rank": 1,
+          "clue": "This long barrier was built to protect China from northern invaders.",
+          "answer": "Great Wall",
+          "alternates": [
+            "Great Wall of China"
+          ]
+        },
+        {
+          "id": "l3b-middle-kingdom-2",
+          "rank": 2,
+          "clue": "This trade route carried silk and spices between China and the Mediterranean.",
+          "answer": "Silk Road",
+          "alternates": [
+            "Silk Route"
+          ]
+        },
+        {
+          "id": "l3b-middle-kingdom-3",
+          "rank": 3,
+          "clue": "Thousands of life-size clay soldiers were buried with China's first emperor.",
+          "answer": "Terracotta Army",
+          "alternates": [
+            "Terracotta Warriors"
+          ]
+        },
+        {
+          "id": "l3b-middle-kingdom-4",
+          "rank": 4,
+          "clue": "This philosopher's sayings were collected in the Analects.",
+          "answer": "Confucius",
+          "alternates": [
+            "Kong Fuzi"
+          ]
+        },
+        {
+          "id": "l3b-middle-kingdom-5",
+          "rank": 5,
+          "clue": "Beijing's Forbidden City was built under this dynasty.",
+          "answer": "Ming",
+          "alternates": [
+            "Ming dynasty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-royal-flush",
+      "name": "Royal Flush",
+      "clues": [
+        {
+          "id": "l3b-royal-flush-1",
+          "rank": 1,
+          "clue": "This Tudor king had six wives.",
+          "answer": "Henry VIII",
+          "alternates": [
+            "Henry the Eighth",
+            "King Henry VIII"
+          ]
+        },
+        {
+          "id": "l3b-royal-flush-2",
+          "rank": 2,
+          "clue": "An entire era of the 1800s is named for this British queen.",
+          "answer": "Victoria",
+          "alternates": [
+            "Queen Victoria"
+          ]
+        },
+        {
+          "id": "l3b-royal-flush-3",
+          "rank": 3,
+          "clue": "Her navy defeated the Spanish Armada in 1588.",
+          "answer": "Elizabeth I",
+          "alternates": [
+            "Queen Elizabeth I",
+            "Elizabeth the First"
+          ]
+        },
+        {
+          "id": "l3b-royal-flush-4",
+          "rank": 4,
+          "clue": "English barons forced this king to seal Magna Carta in 1215.",
+          "answer": "King John",
+          "alternates": [
+            "John"
+          ]
+        },
+        {
+          "id": "l3b-royal-flush-5",
+          "rank": 5,
+          "clue": "Nicknamed 'the Lionheart,' this English king led forces in the Third Crusade.",
+          "answer": "Richard I",
+          "alternates": [
+            "Richard the Lionheart",
+            "King Richard I"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-french-connection",
+      "name": "French Connection",
+      "clues": [
+        {
+          "id": "l3b-french-connection-1",
+          "rank": 1,
+          "clue": "This teenage heroine led French troops at Orléans in 1429.",
+          "answer": "Joan of Arc",
+          "alternates": [
+            "Jeanne d'Arc"
+          ]
+        },
+        {
+          "id": "l3b-french-connection-2",
+          "rank": 2,
+          "clue": "The storming of this Paris prison on July 14, 1789, began the French Revolution.",
+          "answer": "Bastille",
+          "alternates": []
+        },
+        {
+          "id": "l3b-french-connection-3",
+          "rank": 3,
+          "clue": "The Austrian-born queen of Louis XVI.",
+          "answer": "Marie Antoinette",
+          "alternates": []
+        },
+        {
+          "id": "l3b-french-connection-4",
+          "rank": 4,
+          "clue": "Called the Sun King, he moved the royal court to Versailles.",
+          "answer": "Louis XIV",
+          "alternates": [
+            "Louis 14",
+            "Louis the Fourteenth"
+          ]
+        },
+        {
+          "id": "l3b-french-connection-5",
+          "rank": 5,
+          "clue": "Leader of the Free French in WWII, he later founded France's Fifth Republic.",
+          "answer": "Charles de Gaulle",
+          "alternates": [
+            "de Gaulle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-sail-away",
+      "name": "Sail Away",
+      "clues": [
+        {
+          "id": "l3b-sail-away-1",
+          "rank": 1,
+          "clue": "Sailing for Spain, he reached the Caribbean in 1492.",
+          "answer": "Christopher Columbus",
+          "alternates": [
+            "Columbus"
+          ]
+        },
+        {
+          "id": "l3b-sail-away-2",
+          "rank": 2,
+          "clue": "The expedition he led was the first to sail around the world, though he died on the way.",
+          "answer": "Ferdinand Magellan",
+          "alternates": [
+            "Magellan"
+          ]
+        },
+        {
+          "id": "l3b-sail-away-3",
+          "rank": 3,
+          "clue": "This Venetian traveler served at the court of Kublai Khan.",
+          "answer": "Marco Polo",
+          "alternates": []
+        },
+        {
+          "id": "l3b-sail-away-4",
+          "rank": 4,
+          "clue": "A New York river and a large Canadian bay are named for this English explorer.",
+          "answer": "Henry Hudson",
+          "alternates": [
+            "Hudson"
+          ]
+        },
+        {
+          "id": "l3b-sail-away-5",
+          "rank": 5,
+          "clue": "In 1498 this Portuguese navigator reached India by sailing around Africa.",
+          "answer": "Vasco da Gama",
+          "alternates": [
+            "da Gama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-industrial-strength",
+      "name": "Industrial Strength",
+      "clues": [
+        {
+          "id": "l3b-industrial-strength-1",
+          "rank": 1,
+          "clue": "James Watt's improvements to this machine powered the Industrial Revolution.",
+          "answer": "Steam engine",
+          "alternates": []
+        },
+        {
+          "id": "l3b-industrial-strength-2",
+          "rank": 2,
+          "clue": "The Industrial Revolution began in this country in the 1700s.",
+          "answer": "Great Britain",
+          "alternates": [
+            "Britain",
+            "England",
+            "United Kingdom",
+            "UK"
+          ]
+        },
+        {
+          "id": "l3b-industrial-strength-3",
+          "rank": 3,
+          "clue": "Henry Ford used this moving production method to build the Model T.",
+          "answer": "Assembly line",
+          "alternates": []
+        },
+        {
+          "id": "l3b-industrial-strength-4",
+          "rank": 4,
+          "clue": "Eli Whitney's 1793 machine separated seeds from cotton fibers.",
+          "answer": "Cotton gin",
+          "alternates": []
+        },
+        {
+          "id": "l3b-industrial-strength-5",
+          "rank": 5,
+          "clue": "These English textile workers smashed machines they feared would take their jobs.",
+          "answer": "Luddites",
+          "alternates": [
+            "Luddite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-econ-101",
+      "name": "Econ 101",
+      "clues": [
+        {
+          "id": "l3b-econ-101-1",
+          "rank": 1,
+          "clue": "A tax on imported goods.",
+          "answer": "Tariff",
+          "alternates": [
+            "tariffs"
+          ]
+        },
+        {
+          "id": "l3b-econ-101-2",
+          "rank": 2,
+          "clue": "A share of ownership in a company that can be bought and sold.",
+          "answer": "Stock",
+          "alternates": [
+            "stocks",
+            "share",
+            "shares"
+          ]
+        },
+        {
+          "id": "l3b-econ-101-3",
+          "rank": 3,
+          "clue": "This animal names a market with rising prices.",
+          "answer": "Bull",
+          "alternates": [
+            "bull market"
+          ]
+        },
+        {
+          "id": "l3b-econ-101-4",
+          "rank": 4,
+          "clue": "The central bank of the United States.",
+          "answer": "Federal Reserve",
+          "alternates": [
+            "the Fed",
+            "Federal Reserve System"
+          ]
+        },
+        {
+          "id": "l3b-econ-101-5",
+          "rank": 5,
+          "clue": "A significant, widespread decline in economic activity, often defined as two quarters of falling GDP.",
+          "answer": "Recession",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-dollars-and-sense",
+      "name": "Dollars and Sense",
+      "clues": [
+        {
+          "id": "l3b-dollars-and-sense-1",
+          "rank": 1,
+          "clue": "Trading goods or services directly without using money.",
+          "answer": "Barter",
+          "alternates": [
+            "bartering"
+          ]
+        },
+        {
+          "id": "l3b-dollars-and-sense-2",
+          "rank": 2,
+          "clue": "The fee a borrower pays for using someone else's money.",
+          "answer": "Interest",
+          "alternates": []
+        },
+        {
+          "id": "l3b-dollars-and-sense-3",
+          "rank": 3,
+          "clue": "When a government spends more than it takes in during a year, it runs this.",
+          "answer": "Deficit",
+          "alternates": [
+            "budget deficit"
+          ]
+        },
+        {
+          "id": "l3b-dollars-and-sense-4",
+          "rank": 4,
+          "clue": "This Scottish economist wrote 'The Wealth of Nations' in 1776.",
+          "answer": "Adam Smith",
+          "alternates": [
+            "Smith"
+          ]
+        },
+        {
+          "id": "l3b-dollars-and-sense-5",
+          "rank": 5,
+          "clue": "The basic economic problem that resources are limited while wants are not.",
+          "answer": "Scarcity",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-foreign-exchange",
+      "name": "Foreign Exchange",
+      "clues": [
+        {
+          "id": "l3b-foreign-exchange-1",
+          "rank": 1,
+          "clue": "The currency shared by France, Germany, Italy and many other European nations.",
+          "answer": "Euro",
+          "alternates": [
+            "euros"
+          ]
+        },
+        {
+          "id": "l3b-foreign-exchange-2",
+          "rank": 2,
+          "clue": "The United Kingdom's currency.",
+          "answer": "Pound sterling",
+          "alternates": [
+            "pound",
+            "pounds",
+            "sterling"
+          ]
+        },
+        {
+          "id": "l3b-foreign-exchange-3",
+          "rank": 3,
+          "clue": "Mexico's currency.",
+          "answer": "Peso",
+          "alternates": [
+            "Mexican peso",
+            "pesos"
+          ]
+        },
+        {
+          "id": "l3b-foreign-exchange-4",
+          "rank": 4,
+          "clue": "India's currency.",
+          "answer": "Rupee",
+          "alternates": [
+            "Indian rupee",
+            "rupees"
+          ]
+        },
+        {
+          "id": "l3b-foreign-exchange-5",
+          "rank": 5,
+          "clue": "South Korea's currency.",
+          "answer": "Won",
+          "alternates": [
+            "South Korean won"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-mount-olympians",
+      "name": "Mount Olympians",
+      "clues": [
+        {
+          "id": "l3b-mount-olympians-1",
+          "rank": 1,
+          "clue": "King of the Greek gods, he hurled thunderbolts.",
+          "answer": "Zeus",
+          "alternates": []
+        },
+        {
+          "id": "l3b-mount-olympians-2",
+          "rank": 2,
+          "clue": "The Greek god of the sea, he carried a trident.",
+          "answer": "Poseidon",
+          "alternates": []
+        },
+        {
+          "id": "l3b-mount-olympians-3",
+          "rank": 3,
+          "clue": "Goddess of wisdom, she sprang fully grown from her father's head.",
+          "answer": "Athena",
+          "alternates": [
+            "Athene",
+            "Pallas Athena"
+          ]
+        },
+        {
+          "id": "l3b-mount-olympians-4",
+          "rank": 4,
+          "clue": "The messenger god with winged sandals.",
+          "answer": "Hermes",
+          "alternates": []
+        },
+        {
+          "id": "l3b-mount-olympians-5",
+          "rank": 5,
+          "clue": "The blacksmith god of fire and the forge.",
+          "answer": "Hephaestus",
+          "alternates": [
+            "Hephaistos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-norse-code",
+      "name": "Norse Code",
+      "clues": [
+        {
+          "id": "l3b-norse-code-1",
+          "rank": 1,
+          "clue": "Thursday is named after this Norse god of thunder.",
+          "answer": "Thor",
+          "alternates": []
+        },
+        {
+          "id": "l3b-norse-code-2",
+          "rank": 2,
+          "clue": "The one-eyed chief of the Norse gods.",
+          "answer": "Odin",
+          "alternates": [
+            "Woden",
+            "Wotan"
+          ]
+        },
+        {
+          "id": "l3b-norse-code-3",
+          "rank": 3,
+          "clue": "This shape-shifting trickster god caused trouble for the other Norse gods.",
+          "answer": "Loki",
+          "alternates": []
+        },
+        {
+          "id": "l3b-norse-code-4",
+          "rank": 4,
+          "clue": "Fallen warriors chosen by the Valkyries feasted in this great hall.",
+          "answer": "Valhalla",
+          "alternates": []
+        },
+        {
+          "id": "l3b-norse-code-5",
+          "rank": 5,
+          "clue": "This giant ash tree connects the nine worlds in Norse myth.",
+          "answer": "Yggdrasil",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-roman-pantheon",
+      "name": "Roman Pantheon",
+      "clues": [
+        {
+          "id": "l3b-roman-pantheon-1",
+          "rank": 1,
+          "clue": "The Roman god of war, also a red planet's name.",
+          "answer": "Mars",
+          "alternates": []
+        },
+        {
+          "id": "l3b-roman-pantheon-2",
+          "rank": 2,
+          "clue": "The Roman god of the sea, the equal of the Greek Poseidon.",
+          "answer": "Neptune",
+          "alternates": []
+        },
+        {
+          "id": "l3b-roman-pantheon-3",
+          "rank": 3,
+          "clue": "The Roman goddess of love and beauty.",
+          "answer": "Venus",
+          "alternates": []
+        },
+        {
+          "id": "l3b-roman-pantheon-4",
+          "rank": 4,
+          "clue": "King of the Roman gods, the match for Greek Zeus.",
+          "answer": "Jupiter",
+          "alternates": [
+            "Jove"
+          ]
+        },
+        {
+          "id": "l3b-roman-pantheon-5",
+          "rank": 5,
+          "clue": "This two-faced Roman god of doorways and beginnings gave his name to a month.",
+          "answer": "Janus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-nile-gods",
+      "name": "Nile Gods",
+      "clues": [
+        {
+          "id": "l3b-nile-gods-1",
+          "rank": 1,
+          "clue": "The ancient Egyptian sun god.",
+          "answer": "Ra",
+          "alternates": [
+            "Re",
+            "Amun-Ra"
+          ]
+        },
+        {
+          "id": "l3b-nile-gods-2",
+          "rank": 2,
+          "clue": "This jackal-headed god watched over mummification.",
+          "answer": "Anubis",
+          "alternates": []
+        },
+        {
+          "id": "l3b-nile-gods-3",
+          "rank": 3,
+          "clue": "Killed by his brother Set, this god became ruler of the afterlife.",
+          "answer": "Osiris",
+          "alternates": []
+        },
+        {
+          "id": "l3b-nile-gods-4",
+          "rank": 4,
+          "clue": "This falcon-headed sky god was the son of Osiris.",
+          "answer": "Horus",
+          "alternates": []
+        },
+        {
+          "id": "l3b-nile-gods-5",
+          "rank": 5,
+          "clue": "The wife of Osiris, she was a powerful goddess of magic.",
+          "answer": "Isis",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-faith-facts",
+      "name": "Faith Facts",
+      "clues": [
+        {
+          "id": "l3b-faith-facts-1",
+          "rank": 1,
+          "clue": "The Five Pillars are core practices of this religion.",
+          "answer": "Islam",
+          "alternates": []
+        },
+        {
+          "id": "l3b-faith-facts-2",
+          "rank": 2,
+          "clue": "This religion was founded by Siddhartha Gautama.",
+          "answer": "Buddhism",
+          "alternates": []
+        },
+        {
+          "id": "l3b-faith-facts-3",
+          "rank": 3,
+          "clue": "Followers of this religion consider the Ganges River sacred and honor Vishnu and Shiva.",
+          "answer": "Hinduism",
+          "alternates": []
+        },
+        {
+          "id": "l3b-faith-facts-4",
+          "rank": 4,
+          "clue": "Japan's native religion, known for its torii gates and kami spirits.",
+          "answer": "Shinto",
+          "alternates": [
+            "Shintoism"
+          ]
+        },
+        {
+          "id": "l3b-faith-facts-5",
+          "rank": 5,
+          "clue": "Founded by Guru Nanak, this religion's holiest shrine is the Golden Temple in Amritsar.",
+          "answer": "Sikhism",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-holy-places",
+      "name": "Holy Places",
+      "clues": [
+        {
+          "id": "l3b-holy-places-1",
+          "rank": 1,
+          "clue": "The pope lives in this tiny independent state surrounded by Rome.",
+          "answer": "Vatican City",
+          "alternates": [
+            "Vatican"
+          ]
+        },
+        {
+          "id": "l3b-holy-places-2",
+          "rank": 2,
+          "clue": "Muslims make the Hajj pilgrimage to this city in Saudi Arabia.",
+          "answer": "Mecca",
+          "alternates": [
+            "Makkah"
+          ]
+        },
+        {
+          "id": "l3b-holy-places-3",
+          "rank": 3,
+          "clue": "The Western Wall is a holy site in this city.",
+          "answer": "Jerusalem",
+          "alternates": []
+        },
+        {
+          "id": "l3b-holy-places-4",
+          "rank": 4,
+          "clue": "Pilgrims bathe in the Ganges at this ancient holy city, also called Benares.",
+          "answer": "Varanasi",
+          "alternates": [
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "l3b-holy-places-5",
+          "rank": 5,
+          "clue": "The Buddha is said to have reached enlightenment under a tree at this Indian site.",
+          "answer": "Bodh Gaya",
+          "alternates": [
+            "Bodhgaya"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-holy-days",
+      "name": "Holy Days",
+      "clues": [
+        {
+          "id": "l3b-holy-days-1",
+          "rank": 1,
+          "clue": "This eight-night Jewish holiday is celebrated by lighting a menorah.",
+          "answer": "Hanukkah",
+          "alternates": [
+            "Chanukah",
+            "Hanukah"
+          ]
+        },
+        {
+          "id": "l3b-holy-days-2",
+          "rank": 2,
+          "clue": "Muslims fast from dawn to sunset during this month.",
+          "answer": "Ramadan",
+          "alternates": []
+        },
+        {
+          "id": "l3b-holy-days-3",
+          "rank": 3,
+          "clue": "This Hindu festival of lights honors the victory of light over darkness.",
+          "answer": "Diwali",
+          "alternates": [
+            "Deepavali"
+          ]
+        },
+        {
+          "id": "l3b-holy-days-4",
+          "rank": 4,
+          "clue": "A seder meal is part of this Jewish holiday remembering the Exodus.",
+          "answer": "Passover",
+          "alternates": [
+            "Pesach"
+          ]
+        },
+        {
+          "id": "l3b-holy-days-5",
+          "rank": 5,
+          "clue": "Many Christians observe this 40-day season before Easter.",
+          "answer": "Lent",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-lines-on-the-map",
+      "name": "Lines on the Map",
+      "clues": [
+        {
+          "id": "l3b-lines-on-the-map-1",
+          "rank": 1,
+          "clue": "This imaginary line at 0 degrees latitude circles the middle of Earth.",
+          "answer": "Equator",
+          "alternates": []
+        },
+        {
+          "id": "l3b-lines-on-the-map-2",
+          "rank": 2,
+          "clue": "The line of 0 degrees longitude, passing through Greenwich, England.",
+          "answer": "Prime Meridian",
+          "alternates": [
+            "Greenwich Meridian"
+          ]
+        },
+        {
+          "id": "l3b-lines-on-the-map-3",
+          "rank": 3,
+          "clue": "Cross this line in the Pacific and the calendar day changes.",
+          "answer": "International Date Line",
+          "alternates": [
+            "Date Line"
+          ]
+        },
+        {
+          "id": "l3b-lines-on-the-map-4",
+          "rank": 4,
+          "clue": "This line of latitude marks the northern edge of the tropics.",
+          "answer": "Tropic of Cancer",
+          "alternates": []
+        },
+        {
+          "id": "l3b-lines-on-the-map-5",
+          "rank": 5,
+          "clue": "North of this line, at about 66.5 degrees, there is at least one day of midnight sun each year.",
+          "answer": "Arctic Circle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-neighborhood-watch",
+      "name": "Neighborhood Watch",
+      "clues": [
+        {
+          "id": "l3b-neighborhood-watch-1",
+          "rank": 1,
+          "clue": "The largest country in the world by area.",
+          "answer": "Russia",
+          "alternates": []
+        },
+        {
+          "id": "l3b-neighborhood-watch-2",
+          "rank": 2,
+          "clue": "This long, narrow country is squeezed between the Andes and the Pacific.",
+          "answer": "Chile",
+          "alternates": []
+        },
+        {
+          "id": "l3b-neighborhood-watch-3",
+          "rank": 3,
+          "clue": "Spain is this country's only land neighbor.",
+          "answer": "Portugal",
+          "alternates": []
+        },
+        {
+          "id": "l3b-neighborhood-watch-4",
+          "rank": 4,
+          "clue": "This landlocked country sits between Russia and China.",
+          "answer": "Mongolia",
+          "alternates": []
+        },
+        {
+          "id": "l3b-neighborhood-watch-5",
+          "rank": 5,
+          "clue": "This mountain kingdom is completely surrounded by South Africa.",
+          "answer": "Lesotho",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3b-lake-it-or-not",
+      "name": "Lake It or Not",
+      "clues": [
+        {
+          "id": "l3b-lake-it-or-not-1",
+          "rank": 1,
+          "clue": "The largest of the Great Lakes.",
+          "answer": "Lake Superior",
+          "alternates": [
+            "Superior"
+          ]
+        },
+        {
+          "id": "l3b-lake-it-or-not-2",
+          "rank": 2,
+          "clue": "This salty lake in Utah gives a nearby capital city its name.",
+          "answer": "Great Salt Lake",
+          "alternates": []
+        },
+        {
+          "id": "l3b-lake-it-or-not-3",
+          "rank": 3,
+          "clue": "Africa's largest lake, it is a source of the Nile.",
+          "answer": "Lake Victoria",
+          "alternates": [
+            "Victoria"
+          ]
+        },
+        {
+          "id": "l3b-lake-it-or-not-4",
+          "rank": 4,
+          "clue": "On the border of Peru and Bolivia, it's often called the highest navigable lake.",
+          "answer": "Lake Titicaca",
+          "alternates": [
+            "Titicaca"
+          ]
+        },
+        {
+          "id": "l3b-lake-it-or-not-5",
+          "rank": 5,
+          "clue": "The shallowest of the Great Lakes.",
+          "answer": "Lake Erie",
+          "alternates": [
+            "Erie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3b-natural-wonders",
+      "name": "Natural Wonders",
+      "clues": [
+        {
+          "id": "l3b-natural-wonders-1",
+          "rank": 1,
+          "clue": "The Colorado River carved this famous Arizona gorge.",
+          "answer": "Grand Canyon",
+          "alternates": []
+        },
+        {
+          "id": "l3b-natural-wonders-2",
+          "rank": 2,
+          "clue": "These famous waterfalls sit on the border of New York and Ontario.",
+          "answer": "Niagara Falls",
+          "alternates": [
+            "Niagara"
+          ]
+        },
+        {
+          "id": "l3b-natural-wonders-3",
+          "rank": 3,
+          "clue": "The world's largest coral reef system lies off Australia's northeast coast.",
+          "answer": "Great Barrier Reef",
+          "alternates": []
+        },
+        {
+          "id": "l3b-natural-wonders-4",
+          "rank": 4,
+          "clue": "Established in 1872, this was the world's first national park.",
+          "answer": "Yellowstone",
+          "alternates": [
+            "Yellowstone National Park"
+          ]
+        },
+        {
+          "id": "l3b-natural-wonders-5",
+          "rank": 5,
+          "clue": "In Venezuela, this is the world's tallest uninterrupted waterfall.",
+          "answer": "Angel Falls",
+          "alternates": [
+            "Kerepakupai Meru"
+          ]
+        }
+      ]
+    }
+  ]
+}

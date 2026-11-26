@@ -16,7 +16,7 @@ npm run build
 ## Layout
 
 - `src/engine/` — pure TypeScript game rules (state machine in `game.ts`, answer matching, Bots, Board). No UI code; fully unit-tested.
-- `src/content/level-N.json` — the Clue bank, one file per Level. Each Clue has a Rank (1–5); point values come from Rank × Round (see `docs/adr/0001-clue-rank-not-points.md`).
+- `src/content/level-N.json` and `level-N-<part>.json` — the Clue bank. All files for a Level are merged by `src/content/index.ts`, so new batches go in new files. Each Clue has a Rank (1–5); point values come from Rank × Round (see `docs/adr/0001-clue-rank-not-points.md`).
 - `src/ui/` — React screens, sounds, and the review log.
 - `GLOSSARY.md` — the domain language (Clue, Answer, Contestant, Rank, Override, Flag…).
 

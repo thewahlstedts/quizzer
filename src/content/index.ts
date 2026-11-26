@@ -1,12 +1,22 @@
-import type { ClueBank, Level } from '../engine/types'
-import level1 from './level-1.json'
-import level2 from './level-2.json'
-import level3 from './level-3.json'
-import level4 from './level-4.json'
+import type { Category, ClueBank, Level } from '../engine/types'
+
+/**
+ * Every `level-<N>.json` and `level-<N>-<part>.json` file is merged into that
+ * Level's bank, so new batches of Categories can be added as separate files.
+ */
+const files = import.meta.glob<ClueBank>('./level-*.json', { eager: true, import: 'default' })
+
+function bankFor(level: Level): ClueBank {
+  const categories: Category[] = Object.entries(files)
+    .filter(([path]) => new RegExp(`^\\./level-${level}(-[a-z0-9]+)?\\.json$`).test(path))
+    .sort(([a], [b]) => a.localeCompare(b))
+    .flatMap(([, bank]) => bank.categories)
+  return { level, categories }
+}
 
 export const BANKS: Record<Level, ClueBank> = {
-  1: level1 as ClueBank,
-  2: level2 as ClueBank,
-  3: level3 as ClueBank,
-  4: level4 as ClueBank,
+  1: bankFor(1),
+  2: bankFor(2),
+  3: bankFor(3),
+  4: bankFor(4),
 }

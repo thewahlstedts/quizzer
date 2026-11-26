@@ -1,0 +1,2395 @@
+{
+  "level": 3,
+  "categories": [
+    {
+      "id": "l3a-periodic-table-manners",
+      "name": "Periodic Table Manners",
+      "clues": [
+        {
+          "id": "l3a-periodic-table-manners-1",
+          "rank": 1,
+          "clue": "The chemical symbol Au stands for this precious metal.",
+          "answer": "Gold",
+          "alternates": []
+        },
+        {
+          "id": "l3a-periodic-table-manners-2",
+          "rank": 2,
+          "clue": "The chemical symbol Fe stands for this metal, the main ingredient in steel.",
+          "answer": "Iron",
+          "alternates": []
+        },
+        {
+          "id": "l3a-periodic-table-manners-3",
+          "rank": 3,
+          "clue": "The chemical symbol Ag, from the Latin argentum, stands for this metal.",
+          "answer": "Silver",
+          "alternates": []
+        },
+        {
+          "id": "l3a-periodic-table-manners-4",
+          "rank": 4,
+          "clue": "The chemical symbol Pb, from the Latin plumbum, stands for this heavy metal.",
+          "answer": "Lead",
+          "alternates": []
+        },
+        {
+          "id": "l3a-periodic-table-manners-5",
+          "rank": 5,
+          "clue": "The chemical symbol W stands for this metal, once used in light bulb filaments.",
+          "answer": "Tungsten",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-noble-pursuits",
+      "name": "Noble Pursuits",
+      "clues": [
+        {
+          "id": "l3a-noble-pursuits-1",
+          "rank": 1,
+          "clue": "This noble gas, lighter than air, makes party balloons float.",
+          "answer": "Helium",
+          "alternates": []
+        },
+        {
+          "id": "l3a-noble-pursuits-2",
+          "rank": 2,
+          "clue": "Animals exhale this gas, which plants absorb for photosynthesis.",
+          "answer": "Carbon dioxide",
+          "alternates": [
+            "CO2"
+          ]
+        },
+        {
+          "id": "l3a-noble-pursuits-3",
+          "rank": 3,
+          "clue": "This element with atomic number 6 is the basis of all organic chemistry.",
+          "answer": "Carbon",
+          "alternates": []
+        },
+        {
+          "id": "l3a-noble-pursuits-4",
+          "rank": 4,
+          "clue": "This gas makes up about 78 percent of Earth's atmosphere.",
+          "answer": "Nitrogen",
+          "alternates": []
+        },
+        {
+          "id": "l3a-noble-pursuits-5",
+          "rank": 5,
+          "clue": "This radioactive noble gas can seep from the ground into basements.",
+          "answer": "Radon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-acid-test",
+      "name": "Acid Test",
+      "clues": [
+        {
+          "id": "l3a-acid-test-1",
+          "rank": 1,
+          "clue": "This paper turns red in acid and blue in a base.",
+          "answer": "Litmus paper",
+          "alternates": [
+            "litmus"
+          ]
+        },
+        {
+          "id": "l3a-acid-test-2",
+          "rank": 2,
+          "clue": "This strong acid in your stomach helps digest food.",
+          "answer": "Hydrochloric acid",
+          "alternates": [
+            "HCl"
+          ]
+        },
+        {
+          "id": "l3a-acid-test-3",
+          "rank": 3,
+          "clue": "Sodium bicarbonate goes by this common kitchen name.",
+          "answer": "Baking soda",
+          "alternates": []
+        },
+        {
+          "id": "l3a-acid-test-4",
+          "rank": 4,
+          "clue": "This acid gives vinegar its sour taste.",
+          "answer": "Acetic acid",
+          "alternates": []
+        },
+        {
+          "id": "l3a-acid-test-5",
+          "rank": 5,
+          "clue": "The pH scale measures the concentration of these positively charged ions.",
+          "answer": "Hydrogen ions",
+          "alternates": [
+            "hydrogen ion",
+            "H+",
+            "hydronium",
+            "hydronium ions",
+            "hydronium ion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-bonding-experience",
+      "name": "Bonding Experience",
+      "clues": [
+        {
+          "id": "l3a-bonding-experience-1",
+          "rank": 1,
+          "clue": "The chemical formula H2O represents this compound.",
+          "answer": "Water",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bonding-experience-2",
+          "rank": 2,
+          "clue": "In this type of chemical bond, atoms share pairs of electrons.",
+          "answer": "Covalent bond",
+          "alternates": [
+            "covalent"
+          ]
+        },
+        {
+          "id": "l3a-bonding-experience-3",
+          "rank": 3,
+          "clue": "In this type of bond, found in table salt, one atom transfers electrons to another.",
+          "answer": "Ionic bond",
+          "alternates": [
+            "ionic"
+          ]
+        },
+        {
+          "id": "l3a-bonding-experience-4",
+          "rank": 4,
+          "clue": "This SI unit names 6.02 x 10^23 particles of a substance.",
+          "answer": "Mole",
+          "alternates": [
+            "moles",
+            "mol"
+          ]
+        },
+        {
+          "id": "l3a-bonding-experience-5",
+          "rank": 5,
+          "clue": "An ion with a negative charge is called this.",
+          "answer": "Anion",
+          "alternates": [
+            "anions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-small-wonders",
+      "name": "Small Wonders",
+      "clues": [
+        {
+          "id": "l3a-small-wonders-1",
+          "rank": 1,
+          "clue": "This positively charged particle is found in an atom's nucleus.",
+          "answer": "Proton",
+          "alternates": [
+            "protons"
+          ]
+        },
+        {
+          "id": "l3a-small-wonders-2",
+          "rank": 2,
+          "clue": "This negatively charged particle moves around an atom's nucleus.",
+          "answer": "Electron",
+          "alternates": [
+            "electrons"
+          ]
+        },
+        {
+          "id": "l3a-small-wonders-3",
+          "rank": 3,
+          "clue": "This particle in the nucleus has no electric charge.",
+          "answer": "Neutron",
+          "alternates": [
+            "neutrons"
+          ]
+        },
+        {
+          "id": "l3a-small-wonders-4",
+          "rank": 4,
+          "clue": "Atoms of the same element with different numbers of neutrons are called these.",
+          "answer": "Isotopes",
+          "alternates": [
+            "isotope"
+          ]
+        },
+        {
+          "id": "l3a-small-wonders-5",
+          "rank": 5,
+          "clue": "Protons and neutrons are made of these tiny particles, named after a word in a James Joyce novel.",
+          "answer": "Quarks",
+          "alternates": [
+            "quark"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-table-for-118",
+      "name": "Table for 118",
+      "clues": [
+        {
+          "id": "l3a-table-for-118-1",
+          "rank": 1,
+          "clue": "The vertical columns of the periodic table are called these.",
+          "answer": "Groups",
+          "alternates": [
+            "group",
+            "families",
+            "family"
+          ]
+        },
+        {
+          "id": "l3a-table-for-118-2",
+          "rank": 2,
+          "clue": "The horizontal rows of the periodic table are called these.",
+          "answer": "Periods",
+          "alternates": [
+            "period"
+          ]
+        },
+        {
+          "id": "l3a-table-for-118-3",
+          "rank": 3,
+          "clue": "This Russian chemist published an early periodic table in 1869, leaving gaps for undiscovered elements.",
+          "answer": "Dmitri Mendeleev",
+          "alternates": [
+            "Mendeleev"
+          ]
+        },
+        {
+          "id": "l3a-table-for-118-4",
+          "rank": 4,
+          "clue": "An element's identity is set by this value, its number of protons.",
+          "answer": "Atomic number",
+          "alternates": []
+        },
+        {
+          "id": "l3a-table-for-118-5",
+          "rank": 5,
+          "clue": "Fluorine, chlorine and iodine belong to this reactive group 17 family.",
+          "answer": "Halogens",
+          "alternates": [
+            "halogen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-metal-detector",
+      "name": "Metal Detector",
+      "clues": [
+        {
+          "id": "l3a-metal-detector-1",
+          "rank": 1,
+          "clue": "This metal, liquid at room temperature, was once used in thermometers.",
+          "answer": "Mercury",
+          "alternates": [
+            "quicksilver"
+          ]
+        },
+        {
+          "id": "l3a-metal-detector-2",
+          "rank": 2,
+          "clue": "This reddish metal is widely used in electrical wiring.",
+          "answer": "Copper",
+          "alternates": []
+        },
+        {
+          "id": "l3a-metal-detector-3",
+          "rank": 3,
+          "clue": "This lightweight metal is used to make soda cans.",
+          "answer": "Aluminum",
+          "alternates": [
+            "aluminium"
+          ]
+        },
+        {
+          "id": "l3a-metal-detector-4",
+          "rank": 4,
+          "clue": "This alloy of copper and tin gave its name to an age of human history.",
+          "answer": "Bronze",
+          "alternates": []
+        },
+        {
+          "id": "l3a-metal-detector-5",
+          "rank": 5,
+          "clue": "This yellowish alloy of copper and zinc is used in trumpets and doorknobs.",
+          "answer": "Brass",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-phase-ing-out",
+      "name": "Phase-ing Out",
+      "clues": [
+        {
+          "id": "l3a-phase-ing-out-1",
+          "rank": 1,
+          "clue": "This is the change from a solid to a liquid, like ice in the sun.",
+          "answer": "Melting",
+          "alternates": [
+            "melt"
+          ]
+        },
+        {
+          "id": "l3a-phase-ing-out-2",
+          "rank": 2,
+          "clue": "This is the change from a liquid to a gas at the surface, like a puddle drying up.",
+          "answer": "Evaporation",
+          "alternates": [
+            "evaporating"
+          ]
+        },
+        {
+          "id": "l3a-phase-ing-out-3",
+          "rank": 3,
+          "clue": "Droplets forming on the outside of a cold glass are an example of this phase change.",
+          "answer": "Condensation",
+          "alternates": []
+        },
+        {
+          "id": "l3a-phase-ing-out-4",
+          "rank": 4,
+          "clue": "Dry ice turning straight from a solid into a gas is an example of this.",
+          "answer": "Sublimation",
+          "alternates": []
+        },
+        {
+          "id": "l3a-phase-ing-out-5",
+          "rank": 5,
+          "clue": "Frost forming as water vapor turns straight into ice is an example of this phase change.",
+          "answer": "Deposition",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-law-order",
+      "name": "Law & Order",
+      "clues": [
+        {
+          "id": "l3a-law-order-1",
+          "rank": 1,
+          "clue": "Newton's first law describes this tendency of objects to resist changes in motion.",
+          "answer": "Inertia",
+          "alternates": []
+        },
+        {
+          "id": "l3a-law-order-2",
+          "rank": 2,
+          "clue": "This force opposes motion between two surfaces rubbing together.",
+          "answer": "Friction",
+          "alternates": []
+        },
+        {
+          "id": "l3a-law-order-3",
+          "rank": 3,
+          "clue": "In the equation F = ma, the letter a stands for this.",
+          "answer": "Acceleration",
+          "alternates": []
+        },
+        {
+          "id": "l3a-law-order-4",
+          "rank": 4,
+          "clue": "This quantity equals an object's mass times its velocity.",
+          "answer": "Momentum",
+          "alternates": []
+        },
+        {
+          "id": "l3a-law-order-5",
+          "rank": 5,
+          "clue": "This SI unit of power equals one joule per second.",
+          "answer": "Watt",
+          "alternates": [
+            "watts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-wave-hello",
+      "name": "Wave Hello",
+      "clues": [
+        {
+          "id": "l3a-wave-hello-1",
+          "rank": 1,
+          "clue": "This is the distance from one wave crest to the next.",
+          "answer": "Wavelength",
+          "alternates": []
+        },
+        {
+          "id": "l3a-wave-hello-2",
+          "rank": 2,
+          "clue": "This unit of frequency equals one cycle per second.",
+          "answer": "Hertz",
+          "alternates": [
+            "Hz"
+          ]
+        },
+        {
+          "id": "l3a-wave-hello-3",
+          "rank": 3,
+          "clue": "This unit is used to measure the loudness of sound.",
+          "answer": "Decibel",
+          "alternates": [
+            "decibels",
+            "dB"
+          ]
+        },
+        {
+          "id": "l3a-wave-hello-4",
+          "rank": 4,
+          "clue": "The change in a siren's pitch as an ambulance speeds past is called this.",
+          "answer": "Doppler effect",
+          "alternates": [
+            "Doppler",
+            "Doppler shift"
+          ]
+        },
+        {
+          "id": "l3a-wave-hello-5",
+          "rank": 5,
+          "clue": "This is the bending of light as it passes from air into water.",
+          "answer": "Refraction",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-bright-light-big-physics",
+      "name": "Bright Light, Big Physics",
+      "clues": [
+        {
+          "id": "l3a-bright-light-big-physics-1",
+          "rank": 1,
+          "clue": "This triangular block of glass splits white light into a rainbow of colors.",
+          "answer": "Prism",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bright-light-big-physics-2",
+          "rank": 2,
+          "clue": "Of the colors of the rainbow, this one has the longest wavelength.",
+          "answer": "Red",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bright-light-big-physics-3",
+          "rank": 3,
+          "clue": "This is what happens when light bounces off a mirror.",
+          "answer": "Reflection",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bright-light-big-physics-4",
+          "rank": 4,
+          "clue": "This is the name for a single particle of light.",
+          "answer": "Photon",
+          "alternates": [
+            "photons"
+          ]
+        },
+        {
+          "id": "l3a-bright-light-big-physics-5",
+          "rank": 5,
+          "clue": "This type of lens is thicker in the middle and brings light rays together.",
+          "answer": "Convex lens",
+          "alternates": [
+            "convex",
+            "converging lens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-current-events",
+      "name": "Current Events",
+      "clues": [
+        {
+          "id": "l3a-current-events-1",
+          "rank": 1,
+          "clue": "This unit of electric current is often shortened to amp.",
+          "answer": "Ampere",
+          "alternates": [
+            "amperes"
+          ]
+        },
+        {
+          "id": "l3a-current-events-2",
+          "rank": 2,
+          "clue": "A standard AA battery supplies about 1.5 of these units of electric potential.",
+          "answer": "Volt",
+          "alternates": [
+            "volts"
+          ]
+        },
+        {
+          "id": "l3a-current-events-3",
+          "rank": 3,
+          "clue": "A material like copper that lets electricity flow easily is called this.",
+          "answer": "Conductor",
+          "alternates": [
+            "electrical conductor"
+          ]
+        },
+        {
+          "id": "l3a-current-events-4",
+          "rank": 4,
+          "clue": "A material like rubber that resists the flow of electricity is called this.",
+          "answer": "Insulator",
+          "alternates": [
+            "electrical insulator"
+          ]
+        },
+        {
+          "id": "l3a-current-events-5",
+          "rank": 5,
+          "clue": "A battery produces this type of current, which flows in only one direction.",
+          "answer": "Direct current",
+          "alternates": [
+            "DC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-hot-topics",
+      "name": "Hot Topics",
+      "clues": [
+        {
+          "id": "l3a-hot-topics-1",
+          "rank": 1,
+          "clue": "At sea level, water boils at this many degrees Celsius.",
+          "answer": "100",
+          "alternates": [
+            "one hundred"
+          ]
+        },
+        {
+          "id": "l3a-hot-topics-2",
+          "rank": 2,
+          "clue": "This temperature scale starts at absolute zero.",
+          "answer": "Kelvin",
+          "alternates": []
+        },
+        {
+          "id": "l3a-hot-topics-3",
+          "rank": 3,
+          "clue": "This is heat transfer by direct contact, like a hot pan warming your hand.",
+          "answer": "Conduction",
+          "alternates": []
+        },
+        {
+          "id": "l3a-hot-topics-4",
+          "rank": 4,
+          "clue": "This is heat transfer by warm fluid rising and cool fluid sinking.",
+          "answer": "Convection",
+          "alternates": []
+        },
+        {
+          "id": "l3a-hot-topics-5",
+          "rank": 5,
+          "clue": "Heat from the Sun reaches Earth across empty space by this method of transfer.",
+          "answer": "Radiation",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-machine-learning",
+      "name": "Machine Learning",
+      "clues": [
+        {
+          "id": "l3a-machine-learning-1",
+          "rank": 1,
+          "clue": "A seesaw is an example of this simple machine.",
+          "answer": "Lever",
+          "alternates": []
+        },
+        {
+          "id": "l3a-machine-learning-2",
+          "rank": 2,
+          "clue": "A ramp is an example of this simple machine.",
+          "answer": "Inclined plane",
+          "alternates": [
+            "ramp"
+          ]
+        },
+        {
+          "id": "l3a-machine-learning-3",
+          "rank": 3,
+          "clue": "This grooved wheel and rope help raise a flag up a flagpole.",
+          "answer": "Pulley",
+          "alternates": []
+        },
+        {
+          "id": "l3a-machine-learning-4",
+          "rank": 4,
+          "clue": "An axe blade is this simple machine, two inclined planes back to back.",
+          "answer": "Wedge",
+          "alternates": []
+        },
+        {
+          "id": "l3a-machine-learning-5",
+          "rank": 5,
+          "clue": "This simple machine is an inclined plane wrapped around a cylinder.",
+          "answer": "Screw",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-physics-phenoms",
+      "name": "Physics Phenoms",
+      "clues": [
+        {
+          "id": "l3a-physics-phenoms-1",
+          "rank": 1,
+          "clue": "This physicist gave the world the equation E = mc^2.",
+          "answer": "Albert Einstein",
+          "alternates": [
+            "Einstein"
+          ]
+        },
+        {
+          "id": "l3a-physics-phenoms-2",
+          "rank": 2,
+          "clue": "This scientist won Nobel Prizes in both physics and chemistry for work on radioactivity.",
+          "answer": "Marie Curie",
+          "alternates": [
+            "Curie"
+          ]
+        },
+        {
+          "id": "l3a-physics-phenoms-3",
+          "rank": 3,
+          "clue": "This Italian astronomer was tried by the Inquisition in 1633 for supporting a Sun-centered universe.",
+          "answer": "Galileo Galilei",
+          "alternates": [
+            "Galileo"
+          ]
+        },
+        {
+          "id": "l3a-physics-phenoms-4",
+          "rank": 4,
+          "clue": "This Danish physicist proposed an atomic model with electrons in fixed orbits in 1913.",
+          "answer": "Niels Bohr",
+          "alternates": [
+            "Bohr"
+          ]
+        },
+        {
+          "id": "l3a-physics-phenoms-5",
+          "rank": 5,
+          "clue": "This German physicist is famous for the uncertainty principle.",
+          "answer": "Werner Heisenberg",
+          "alternates": [
+            "Heisenberg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-lab-partners",
+      "name": "Lab Partners",
+      "clues": [
+        {
+          "id": "l3a-lab-partners-1",
+          "rank": 1,
+          "clue": "This naturalist sailed on HMS Beagle and later wrote On the Origin of Species.",
+          "answer": "Charles Darwin",
+          "alternates": [
+            "Darwin"
+          ]
+        },
+        {
+          "id": "l3a-lab-partners-2",
+          "rank": 2,
+          "clue": "This monk studied pea plants and is called the father of genetics.",
+          "answer": "Gregor Mendel",
+          "alternates": [
+            "Mendel"
+          ]
+        },
+        {
+          "id": "l3a-lab-partners-3",
+          "rank": 3,
+          "clue": "In 1928 this Scottish scientist discovered penicillin in a moldy dish.",
+          "answer": "Alexander Fleming",
+          "alternates": [
+            "Fleming"
+          ]
+        },
+        {
+          "id": "l3a-lab-partners-4",
+          "rank": 4,
+          "clue": "The process of heating milk to kill germs is named for this French scientist.",
+          "answer": "Louis Pasteur",
+          "alternates": [
+            "Pasteur"
+          ]
+        },
+        {
+          "id": "l3a-lab-partners-5",
+          "rank": 5,
+          "clue": "In 1796 this English doctor developed the first vaccine, against smallpox.",
+          "answer": "Edward Jenner",
+          "alternates": [
+            "Jenner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-she-blinded-me-with-science",
+      "name": "She Blinded Me with Science",
+      "clues": [
+        {
+          "id": "l3a-she-blinded-me-with-science-1",
+          "rank": 1,
+          "clue": "This British researcher began studying wild chimpanzees at Gombe in Tanzania in 1960.",
+          "answer": "Jane Goodall",
+          "alternates": [
+            "Goodall"
+          ]
+        },
+        {
+          "id": "l3a-she-blinded-me-with-science-2",
+          "rank": 2,
+          "clue": "In 1983 she became the first American woman in space.",
+          "answer": "Sally Ride",
+          "alternates": [
+            "Ride"
+          ]
+        },
+        {
+          "id": "l3a-she-blinded-me-with-science-3",
+          "rank": 3,
+          "clue": "This biologist's 1962 book Silent Spring warned about the dangers of pesticides.",
+          "answer": "Rachel Carson",
+          "alternates": [
+            "Carson"
+          ]
+        },
+        {
+          "id": "l3a-she-blinded-me-with-science-4",
+          "rank": 4,
+          "clue": "This mathematician, daughter of Lord Byron, is often called the first computer programmer.",
+          "answer": "Ada Lovelace",
+          "alternates": [
+            "Lovelace"
+          ]
+        },
+        {
+          "id": "l3a-she-blinded-me-with-science-5",
+          "rank": 5,
+          "clue": "Her X-ray image known as Photo 51 helped reveal the structure of DNA.",
+          "answer": "Rosalind Franklin",
+          "alternates": [
+            "Franklin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-bright-ideas",
+      "name": "Bright Ideas",
+      "clues": [
+        {
+          "id": "l3a-bright-ideas-1",
+          "rank": 1,
+          "clue": "This inventor received a patent for the telephone in 1876.",
+          "answer": "Alexander Graham Bell",
+          "alternates": [
+            "Bell",
+            "Graham Bell"
+          ]
+        },
+        {
+          "id": "l3a-bright-ideas-2",
+          "rank": 2,
+          "clue": "Known as the Wizard of Menlo Park, he invented the phonograph.",
+          "answer": "Thomas Edison",
+          "alternates": [
+            "Edison"
+          ]
+        },
+        {
+          "id": "l3a-bright-ideas-3",
+          "rank": 3,
+          "clue": "This Serbian-American inventor championed alternating current and created a famous coil.",
+          "answer": "Nikola Tesla",
+          "alternates": [
+            "Tesla"
+          ]
+        },
+        {
+          "id": "l3a-bright-ideas-4",
+          "rank": 4,
+          "clue": "Around 1440 this German built a printing press with movable metal type.",
+          "answer": "Johannes Gutenberg",
+          "alternates": [
+            "Gutenberg"
+          ]
+        },
+        {
+          "id": "l3a-bright-ideas-5",
+          "rank": 5,
+          "clue": "These brothers made the first successful powered airplane flight at Kitty Hawk in 1903.",
+          "answer": "Wright brothers",
+          "alternates": [
+            "Wright",
+            "Wrights",
+            "Orville and Wilbur Wright",
+            "Wilbur and Orville Wright"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-gene-pool-party",
+      "name": "Gene Pool Party",
+      "clues": [
+        {
+          "id": "l3a-gene-pool-party-1",
+          "rank": 1,
+          "clue": "A DNA molecule has this twisted-ladder shape.",
+          "answer": "Double helix",
+          "alternates": [
+            "helix"
+          ]
+        },
+        {
+          "id": "l3a-gene-pool-party-2",
+          "rank": 2,
+          "clue": "This is a section of DNA that codes for a particular trait or protein.",
+          "answer": "Gene",
+          "alternates": [
+            "genes"
+          ]
+        },
+        {
+          "id": "l3a-gene-pool-party-3",
+          "rank": 3,
+          "clue": "A typical human body cell has this many chromosomes.",
+          "answer": "46",
+          "alternates": [
+            "forty-six",
+            "forty six"
+          ]
+        },
+        {
+          "id": "l3a-gene-pool-party-4",
+          "rank": 4,
+          "clue": "In DNA, adenine always pairs with this base.",
+          "answer": "Thymine",
+          "alternates": [
+            "T"
+          ]
+        },
+        {
+          "id": "l3a-gene-pool-party-5",
+          "rank": 5,
+          "clue": "In RNA, this base takes the place of thymine.",
+          "answer": "Uracil",
+          "alternates": [
+            "U"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-punnett-intended",
+      "name": "Punnett Intended",
+      "clues": [
+        {
+          "id": "l3a-punnett-intended-1",
+          "rank": 1,
+          "clue": "This kind of allele masks the effect of another allele.",
+          "answer": "Dominant",
+          "alternates": [
+            "dominant allele"
+          ]
+        },
+        {
+          "id": "l3a-punnett-intended-2",
+          "rank": 2,
+          "clue": "This kind of allele is hidden when paired with a dominant one.",
+          "answer": "Recessive",
+          "alternates": [
+            "recessive allele"
+          ]
+        },
+        {
+          "id": "l3a-punnett-intended-3",
+          "rank": 3,
+          "clue": "This grid is used to predict the possible genotypes of offspring.",
+          "answer": "Punnett square",
+          "alternates": []
+        },
+        {
+          "id": "l3a-punnett-intended-4",
+          "rank": 4,
+          "clue": "An organism's observable traits, as opposed to its genes, make up this.",
+          "answer": "Phenotype",
+          "alternates": []
+        },
+        {
+          "id": "l3a-punnett-intended-5",
+          "rank": 5,
+          "clue": "This term describes an organism with two identical alleles for a trait.",
+          "answer": "Homozygous",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-organelle-grinder",
+      "name": "Organelle Grinder",
+      "clues": [
+        {
+          "id": "l3a-organelle-grinder-1",
+          "rank": 1,
+          "clue": "This control center of a cell contains its DNA.",
+          "answer": "Nucleus",
+          "alternates": []
+        },
+        {
+          "id": "l3a-organelle-grinder-2",
+          "rank": 2,
+          "clue": "Photosynthesis takes place inside this green plant organelle.",
+          "answer": "Chloroplast",
+          "alternates": [
+            "chloroplasts"
+          ]
+        },
+        {
+          "id": "l3a-organelle-grinder-3",
+          "rank": 3,
+          "clue": "Plant cells have this rigid outer layer made of cellulose.",
+          "answer": "Cell wall",
+          "alternates": []
+        },
+        {
+          "id": "l3a-organelle-grinder-4",
+          "rank": 4,
+          "clue": "These tiny structures are where cells build proteins.",
+          "answer": "Ribosomes",
+          "alternates": [
+            "ribosome"
+          ]
+        },
+        {
+          "id": "l3a-organelle-grinder-5",
+          "rank": 5,
+          "clue": "Named for an Italian scientist, this organelle packages and ships proteins.",
+          "answer": "Golgi apparatus",
+          "alternates": [
+            "Golgi",
+            "Golgi body",
+            "Golgi complex"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-evolution-revolution",
+      "name": "Evolution Revolution",
+      "clues": [
+        {
+          "id": "l3a-evolution-revolution-1",
+          "rank": 1,
+          "clue": "Darwin's mechanism of evolution is often summed up as 'survival of the fittest.'",
+          "answer": "Natural selection",
+          "alternates": []
+        },
+        {
+          "id": "l3a-evolution-revolution-2",
+          "rank": 2,
+          "clue": "These preserved remains or traces of ancient life are found in rock.",
+          "answer": "Fossils",
+          "alternates": [
+            "fossil"
+          ]
+        },
+        {
+          "id": "l3a-evolution-revolution-3",
+          "rank": 3,
+          "clue": "Darwin studied finches and tortoises on these Pacific islands belonging to Ecuador.",
+          "answer": "Galapagos Islands",
+          "alternates": [
+            "Galapagos",
+            "Galápagos",
+            "Galápagos Islands"
+          ]
+        },
+        {
+          "id": "l3a-evolution-revolution-4",
+          "rank": 4,
+          "clue": "This random change in a DNA sequence is the raw material of evolution.",
+          "answer": "Mutation",
+          "alternates": [
+            "mutations"
+          ]
+        },
+        {
+          "id": "l3a-evolution-revolution-5",
+          "rank": 5,
+          "clue": "Similar structures such as a human arm and a bat wing, suggesting a common ancestor, are called this.",
+          "answer": "Homologous structures",
+          "alternates": [
+            "homologous",
+            "homologous structure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-kingdom-come",
+      "name": "Kingdom Come",
+      "clues": [
+        {
+          "id": "l3a-kingdom-come-1",
+          "rank": 1,
+          "clue": "Mushrooms and molds belong to this kingdom.",
+          "answer": "Fungi",
+          "alternates": [
+            "fungus"
+          ]
+        },
+        {
+          "id": "l3a-kingdom-come-2",
+          "rank": 2,
+          "clue": "This Swedish botanist created the system of giving every species a two-word Latin name.",
+          "answer": "Carl Linnaeus",
+          "alternates": [
+            "Linnaeus",
+            "Carolus Linnaeus"
+          ]
+        },
+        {
+          "id": "l3a-kingdom-come-3",
+          "rank": 3,
+          "clue": "This is the formal term for two-part scientific names like Homo sapiens.",
+          "answer": "Binomial nomenclature",
+          "alternates": []
+        },
+        {
+          "id": "l3a-kingdom-come-4",
+          "rank": 4,
+          "clue": "In classification, this level sits just above species.",
+          "answer": "Genus",
+          "alternates": []
+        },
+        {
+          "id": "l3a-kingdom-come-5",
+          "rank": 5,
+          "clue": "Single-celled organisms such as bacteria that lack a nucleus are called these.",
+          "answer": "Prokaryotes",
+          "alternates": [
+            "prokaryote",
+            "prokaryotic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-bone-zone",
+      "name": "Bone Zone",
+      "clues": [
+        {
+          "id": "l3a-bone-zone-1",
+          "rank": 1,
+          "clue": "The thigh bone, this is the longest bone in the human body.",
+          "answer": "Femur",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bone-zone-2",
+          "rank": 2,
+          "clue": "This bony structure protects the brain.",
+          "answer": "Skull",
+          "alternates": [
+            "cranium"
+          ]
+        },
+        {
+          "id": "l3a-bone-zone-3",
+          "rank": 3,
+          "clue": "An adult human skeleton has this many bones.",
+          "answer": "206",
+          "alternates": [
+            "two hundred six",
+            "two hundred and six"
+          ]
+        },
+        {
+          "id": "l3a-bone-zone-4",
+          "rank": 4,
+          "clue": "This is the medical name for the kneecap.",
+          "answer": "Patella",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bone-zone-5",
+          "rank": 5,
+          "clue": "This is the medical name for the collarbone.",
+          "answer": "Clavicle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-heart-to-heart",
+      "name": "Heart to Heart",
+      "clues": [
+        {
+          "id": "l3a-heart-to-heart-1",
+          "rank": 1,
+          "clue": "The human heart has this many chambers.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l3a-heart-to-heart-2",
+          "rank": 2,
+          "clue": "These blood vessels carry blood away from the heart.",
+          "answer": "Arteries",
+          "alternates": [
+            "artery"
+          ]
+        },
+        {
+          "id": "l3a-heart-to-heart-3",
+          "rank": 3,
+          "clue": "These tiny vessels connect arteries to veins.",
+          "answer": "Capillaries",
+          "alternates": [
+            "capillary"
+          ]
+        },
+        {
+          "id": "l3a-heart-to-heart-4",
+          "rank": 4,
+          "clue": "The two upper chambers of the heart are called these.",
+          "answer": "Atria",
+          "alternates": [
+            "atrium",
+            "atriums"
+          ]
+        },
+        {
+          "id": "l3a-heart-to-heart-5",
+          "rank": 5,
+          "clue": "This is the largest artery in the human body.",
+          "answer": "Aorta",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-blood-work",
+      "name": "Blood Work",
+      "clues": [
+        {
+          "id": "l3a-blood-work-1",
+          "rank": 1,
+          "clue": "These blood cells, also called leukocytes, fight infection.",
+          "answer": "White blood cells",
+          "alternates": [
+            "leukocytes",
+            "white cells",
+            "white blood cell"
+          ]
+        },
+        {
+          "id": "l3a-blood-work-2",
+          "rank": 2,
+          "clue": "This iron-rich protein in red blood cells carries oxygen.",
+          "answer": "Hemoglobin",
+          "alternates": [
+            "haemoglobin"
+          ]
+        },
+        {
+          "id": "l3a-blood-work-3",
+          "rank": 3,
+          "clue": "These cell fragments help blood clot.",
+          "answer": "Platelets",
+          "alternates": [
+            "platelet",
+            "thrombocytes"
+          ]
+        },
+        {
+          "id": "l3a-blood-work-4",
+          "rank": 4,
+          "clue": "This straw-colored liquid makes up more than half of blood.",
+          "answer": "Plasma",
+          "alternates": [
+            "blood plasma"
+          ]
+        },
+        {
+          "id": "l3a-blood-work-5",
+          "rank": 5,
+          "clue": "People with this blood type are known as universal donors.",
+          "answer": "O negative",
+          "alternates": [
+            "O-",
+            "O neg",
+            "type O negative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-organ-recital",
+      "name": "Organ Recital",
+      "clues": [
+        {
+          "id": "l3a-organ-recital-1",
+          "rank": 1,
+          "clue": "This is the largest organ of the human body.",
+          "answer": "Skin",
+          "alternates": []
+        },
+        {
+          "id": "l3a-organ-recital-2",
+          "rank": 2,
+          "clue": "These bean-shaped organs filter blood to make urine.",
+          "answer": "Kidneys",
+          "alternates": [
+            "kidney"
+          ]
+        },
+        {
+          "id": "l3a-organ-recital-3",
+          "rank": 3,
+          "clue": "This large organ makes bile and filters toxins from the blood.",
+          "answer": "Liver",
+          "alternates": []
+        },
+        {
+          "id": "l3a-organ-recital-4",
+          "rank": 4,
+          "clue": "This organ behind the stomach produces insulin.",
+          "answer": "Pancreas",
+          "alternates": []
+        },
+        {
+          "id": "l3a-organ-recital-5",
+          "rank": 5,
+          "clue": "This small pouch off the large intestine is removed when it becomes inflamed.",
+          "answer": "Appendix",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-nerve-center",
+      "name": "Nerve Center",
+      "clues": [
+        {
+          "id": "l3a-nerve-center-1",
+          "rank": 1,
+          "clue": "This is the scientific name for a nerve cell.",
+          "answer": "Neuron",
+          "alternates": [
+            "neurons",
+            "nerve cell"
+          ]
+        },
+        {
+          "id": "l3a-nerve-center-2",
+          "rank": 2,
+          "clue": "This bundle of nerves runs down the back, protected by the vertebrae.",
+          "answer": "Spinal cord",
+          "alternates": []
+        },
+        {
+          "id": "l3a-nerve-center-3",
+          "rank": 3,
+          "clue": "This part of the brain at the back of the skull controls balance and coordination.",
+          "answer": "Cerebellum",
+          "alternates": []
+        },
+        {
+          "id": "l3a-nerve-center-4",
+          "rank": 4,
+          "clue": "This is the tiny gap between two neurons.",
+          "answer": "Synapse",
+          "alternates": [
+            "synaptic cleft"
+          ]
+        },
+        {
+          "id": "l3a-nerve-center-5",
+          "rank": 5,
+          "clue": "This largest part of the human brain is divided into left and right hemispheres.",
+          "answer": "Cerebrum",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-bug-off",
+      "name": "Bug Off",
+      "clues": [
+        {
+          "id": "l3a-bug-off-1",
+          "rank": 1,
+          "clue": "Antibiotics work against these microbes but not against viruses.",
+          "answer": "Bacteria",
+          "alternates": [
+            "bacterium"
+          ]
+        },
+        {
+          "id": "l3a-bug-off-2",
+          "rank": 2,
+          "clue": "The immune system makes these Y-shaped proteins to target specific invaders.",
+          "answer": "Antibodies",
+          "alternates": [
+            "antibody"
+          ]
+        },
+        {
+          "id": "l3a-bug-off-3",
+          "rank": 3,
+          "clue": "This word describes a disease outbreak that spreads across many countries and continents.",
+          "answer": "Pandemic",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bug-off-4",
+          "rank": 4,
+          "clue": "In 1980 this disease was declared the first to be wiped out by vaccination.",
+          "answer": "Smallpox",
+          "alternates": []
+        },
+        {
+          "id": "l3a-bug-off-5",
+          "rank": 5,
+          "clue": "This is any substance that triggers the immune system to make antibodies.",
+          "answer": "Antigen",
+          "alternates": [
+            "antigens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-doctors-orders",
+      "name": "Doctor's Orders",
+      "clues": [
+        {
+          "id": "l3a-doctors-orders-1",
+          "rank": 1,
+          "clue": "Doctors use this instrument to listen to your heartbeat.",
+          "answer": "Stethoscope",
+          "alternates": []
+        },
+        {
+          "id": "l3a-doctors-orders-2",
+          "rank": 2,
+          "clue": "This three-letter imaging scan uses strong magnets and radio waves.",
+          "answer": "MRI",
+          "alternates": [
+            "magnetic resonance imaging"
+          ]
+        },
+        {
+          "id": "l3a-doctors-orders-3",
+          "rank": 3,
+          "clue": "Wilhelm Roentgen discovered these rays in 1895.",
+          "answer": "X-rays",
+          "alternates": [
+            "x-ray",
+            "x rays"
+          ]
+        },
+        {
+          "id": "l3a-doctors-orders-4",
+          "rank": 4,
+          "clue": "This kind of doctor specializes in the heart.",
+          "answer": "Cardiologist",
+          "alternates": []
+        },
+        {
+          "id": "l3a-doctors-orders-5",
+          "rank": 5,
+          "clue": "New doctors traditionally take this pledge, named for an ancient Greek physician.",
+          "answer": "Hippocratic Oath",
+          "alternates": [
+            "Hippocratic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-rock-bottom",
+      "name": "Rock Bottom",
+      "clues": [
+        {
+          "id": "l3a-rock-bottom-1",
+          "rank": 1,
+          "clue": "This type of rock forms when magma or lava cools.",
+          "answer": "Igneous",
+          "alternates": [
+            "igneous rock"
+          ]
+        },
+        {
+          "id": "l3a-rock-bottom-2",
+          "rank": 2,
+          "clue": "This mineral is the hardest on the Mohs scale, a 10.",
+          "answer": "Diamond",
+          "alternates": []
+        },
+        {
+          "id": "l3a-rock-bottom-3",
+          "rank": 3,
+          "clue": "This type of rock forms from layers of sand, mud and other particles pressed together.",
+          "answer": "Sedimentary",
+          "alternates": [
+            "sedimentary rock"
+          ]
+        },
+        {
+          "id": "l3a-rock-bottom-4",
+          "rank": 4,
+          "clue": "This type of rock forms when existing rock is changed by heat and pressure.",
+          "answer": "Metamorphic",
+          "alternates": [
+            "metamorphic rock"
+          ]
+        },
+        {
+          "id": "l3a-rock-bottom-5",
+          "rank": 5,
+          "clue": "This mineral, used in baby powder, is the softest on the Mohs scale.",
+          "answer": "Talc",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-shake-it-up",
+      "name": "Shake It Up",
+      "clues": [
+        {
+          "id": "l3a-shake-it-up-1",
+          "rank": 1,
+          "clue": "This supercontinent broke apart about 200 million years ago.",
+          "answer": "Pangaea",
+          "alternates": [
+            "Pangea"
+          ]
+        },
+        {
+          "id": "l3a-shake-it-up-2",
+          "rank": 2,
+          "clue": "This scale, developed in 1935, was long used to rate earthquake magnitude.",
+          "answer": "Richter scale",
+          "alternates": [
+            "Richter"
+          ]
+        },
+        {
+          "id": "l3a-shake-it-up-3",
+          "rank": 3,
+          "clue": "This famous fault runs about 800 miles through California.",
+          "answer": "San Andreas Fault",
+          "alternates": [
+            "San Andreas"
+          ]
+        },
+        {
+          "id": "l3a-shake-it-up-4",
+          "rank": 4,
+          "clue": "This is the point on Earth's surface directly above where an earthquake starts.",
+          "answer": "Epicenter",
+          "alternates": [
+            "epicentre"
+          ]
+        },
+        {
+          "id": "l3a-shake-it-up-5",
+          "rank": 5,
+          "clue": "This German scientist proposed the theory of continental drift in 1912.",
+          "answer": "Alfred Wegener",
+          "alternates": [
+            "Wegener"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-erupt-behavior",
+      "name": "Erupt Behavior",
+      "clues": [
+        {
+          "id": "l3a-erupt-behavior-1",
+          "rank": 1,
+          "clue": "This is the name for molten rock while it is still underground.",
+          "answer": "Magma",
+          "alternates": []
+        },
+        {
+          "id": "l3a-erupt-behavior-2",
+          "rank": 2,
+          "clue": "Mount Vesuvius buried this Roman city in AD 79.",
+          "answer": "Pompeii",
+          "alternates": []
+        },
+        {
+          "id": "l3a-erupt-behavior-3",
+          "rank": 3,
+          "clue": "This horseshoe-shaped zone of volcanoes and earthquakes circles the Pacific Ocean.",
+          "answer": "Ring of Fire",
+          "alternates": [
+            "Pacific Ring of Fire"
+          ]
+        },
+        {
+          "id": "l3a-erupt-behavior-4",
+          "rank": 4,
+          "clue": "Mauna Loa in Hawaii is a classic example of this broad, gently sloping type of mountain.",
+          "answer": "Shield volcano",
+          "alternates": [
+            "shield"
+          ]
+        },
+        {
+          "id": "l3a-erupt-behavior-5",
+          "rank": 5,
+          "clue": "This is the title of a scientist who studies volcanoes.",
+          "answer": "Volcanologist",
+          "alternates": [
+            "vulcanologist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-layer-cake",
+      "name": "Layer Cake",
+      "clues": [
+        {
+          "id": "l3a-layer-cake-1",
+          "rank": 1,
+          "clue": "This thin outer layer of Earth is where we live.",
+          "answer": "Crust",
+          "alternates": []
+        },
+        {
+          "id": "l3a-layer-cake-2",
+          "rank": 2,
+          "clue": "This thickest layer of Earth lies between the crust and the core.",
+          "answer": "Mantle",
+          "alternates": []
+        },
+        {
+          "id": "l3a-layer-cake-3",
+          "rank": 3,
+          "clue": "Earth's inner core is made mostly of iron and this other metal.",
+          "answer": "Nickel",
+          "alternates": []
+        },
+        {
+          "id": "l3a-layer-cake-4",
+          "rank": 4,
+          "clue": "Nearly all weather happens in this lowest layer of the atmosphere.",
+          "answer": "Troposphere",
+          "alternates": []
+        },
+        {
+          "id": "l3a-layer-cake-5",
+          "rank": 5,
+          "clue": "The ozone layer lies within this layer of the atmosphere.",
+          "answer": "Stratosphere",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-weather-or-not",
+      "name": "Weather or Not",
+      "clues": [
+        {
+          "id": "l3a-weather-or-not-1",
+          "rank": 1,
+          "clue": "This instrument measures air pressure.",
+          "answer": "Barometer",
+          "alternates": []
+        },
+        {
+          "id": "l3a-weather-or-not-2",
+          "rank": 2,
+          "clue": "This is the boundary where two different air masses meet.",
+          "answer": "Front",
+          "alternates": [
+            "weather front"
+          ]
+        },
+        {
+          "id": "l3a-weather-or-not-3",
+          "rank": 3,
+          "clue": "These high, wispy clouds are made of ice crystals.",
+          "answer": "Cirrus",
+          "alternates": [
+            "cirrus clouds"
+          ]
+        },
+        {
+          "id": "l3a-weather-or-not-4",
+          "rank": 4,
+          "clue": "This instrument, often with spinning cups, measures wind speed.",
+          "answer": "Anemometer",
+          "alternates": []
+        },
+        {
+          "id": "l3a-weather-or-not-5",
+          "rank": 5,
+          "clue": "These towering clouds produce thunderstorms.",
+          "answer": "Cumulonimbus",
+          "alternates": [
+            "cumulonimbus clouds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-stormy-weather",
+      "name": "Stormy Weather",
+      "clues": [
+        {
+          "id": "l3a-stormy-weather-1",
+          "rank": 1,
+          "clue": "This violently rotating column of air reaches from a thunderstorm to the ground.",
+          "answer": "Tornado",
+          "alternates": [
+            "twister"
+          ]
+        },
+        {
+          "id": "l3a-stormy-weather-2",
+          "rank": 2,
+          "clue": "This calm, clear area lies at the center of a hurricane.",
+          "answer": "Eye",
+          "alternates": []
+        },
+        {
+          "id": "l3a-stormy-weather-3",
+          "rank": 3,
+          "clue": "A hurricane in the western Pacific Ocean is called this.",
+          "answer": "Typhoon",
+          "alternates": []
+        },
+        {
+          "id": "l3a-stormy-weather-4",
+          "rank": 4,
+          "clue": "This scale rates hurricanes from Category 1 to Category 5.",
+          "answer": "Saffir-Simpson scale",
+          "alternates": [
+            "Saffir-Simpson",
+            "Saffir Simpson"
+          ]
+        },
+        {
+          "id": "l3a-stormy-weather-5",
+          "rank": 5,
+          "clue": "Tornadoes are rated from EF0 to EF5 on this scale.",
+          "answer": "Enhanced Fujita scale",
+          "alternates": [
+            "Fujita scale",
+            "Fujita",
+            "Enhanced Fujita"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-water-world",
+      "name": "Water World",
+      "clues": [
+        {
+          "id": "l3a-water-world-1",
+          "rank": 1,
+          "clue": "Rain, snow, sleet and hail are all forms of this.",
+          "answer": "Precipitation",
+          "alternates": []
+        },
+        {
+          "id": "l3a-water-world-2",
+          "rank": 2,
+          "clue": "The Moon's gravity is the main cause of these daily rises and falls of the sea.",
+          "answer": "Tides",
+          "alternates": [
+            "tide"
+          ]
+        },
+        {
+          "id": "l3a-water-world-3",
+          "rank": 3,
+          "clue": "This is the release of water vapor from plant leaves.",
+          "answer": "Transpiration",
+          "alternates": []
+        },
+        {
+          "id": "l3a-water-world-4",
+          "rank": 4,
+          "clue": "This is an underground layer of rock or sand that holds groundwater.",
+          "answer": "Aquifer",
+          "alternates": []
+        },
+        {
+          "id": "l3a-water-world-5",
+          "rank": 5,
+          "clue": "The deepest known part of the ocean lies in this western Pacific trench.",
+          "answer": "Mariana Trench",
+          "alternates": [
+            "Marianas Trench",
+            "Mariana"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-going-green",
+      "name": "Going Green",
+      "clues": [
+        {
+          "id": "l3a-going-green-1",
+          "rank": 1,
+          "clue": "This warming of Earth happens when gases in the atmosphere trap heat.",
+          "answer": "Greenhouse effect",
+          "alternates": []
+        },
+        {
+          "id": "l3a-going-green-2",
+          "rank": 2,
+          "clue": "Solar and wind are this kind of energy source, which won't run out.",
+          "answer": "Renewable",
+          "alternates": [
+            "renewable energy",
+            "renewables"
+          ]
+        },
+        {
+          "id": "l3a-going-green-3",
+          "rank": 3,
+          "clue": "Coal, oil and natural gas, formed from ancient living things, are called these.",
+          "answer": "Fossil fuels",
+          "alternates": [
+            "fossil fuel"
+          ]
+        },
+        {
+          "id": "l3a-going-green-4",
+          "rank": 4,
+          "clue": "This precipitation, made acidic by sulfur dioxide and nitrogen oxides, can damage forests and lakes.",
+          "answer": "Acid rain",
+          "alternates": []
+        },
+        {
+          "id": "l3a-going-green-5",
+          "rank": 5,
+          "clue": "This 1987 treaty protects the ozone layer by phasing out CFCs.",
+          "answer": "Montreal Protocol",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-eco-system-check",
+      "name": "Eco System Check",
+      "clues": [
+        {
+          "id": "l3a-eco-system-check-1",
+          "rank": 1,
+          "clue": "An animal that eats only plants is called this.",
+          "answer": "Herbivore",
+          "alternates": [
+            "herbivores"
+          ]
+        },
+        {
+          "id": "l3a-eco-system-check-2",
+          "rank": 2,
+          "clue": "An organism that makes its own food, like a plant, is this part of a food chain.",
+          "answer": "Producer",
+          "alternates": [
+            "autotroph",
+            "producers"
+          ]
+        },
+        {
+          "id": "l3a-eco-system-check-3",
+          "rank": 3,
+          "clue": "Fungi and bacteria that break down dead matter are called these.",
+          "answer": "Decomposers",
+          "alternates": [
+            "decomposer"
+          ]
+        },
+        {
+          "id": "l3a-eco-system-check-4",
+          "rank": 4,
+          "clue": "This is a relationship between two species in which both benefit.",
+          "answer": "Mutualism",
+          "alternates": []
+        },
+        {
+          "id": "l3a-eco-system-check-5",
+          "rank": 5,
+          "clue": "This term describes a species' particular role or job within its ecosystem.",
+          "answer": "Niche",
+          "alternates": [
+            "ecological niche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-planetary-science-fair",
+      "name": "Planetary Science Fair",
+      "clues": [
+        {
+          "id": "l3a-planetary-science-fair-1",
+          "rank": 1,
+          "clue": "This sixth planet from the Sun has the most famous rings.",
+          "answer": "Saturn",
+          "alternates": []
+        },
+        {
+          "id": "l3a-planetary-science-fair-2",
+          "rank": 2,
+          "clue": "In 2006 Pluto was reclassified as this.",
+          "answer": "Dwarf planet",
+          "alternates": []
+        },
+        {
+          "id": "l3a-planetary-science-fair-3",
+          "rank": 3,
+          "clue": "This blue ice giant is the eighth and farthest planet from the Sun.",
+          "answer": "Neptune",
+          "alternates": []
+        },
+        {
+          "id": "l3a-planetary-science-fair-4",
+          "rank": 4,
+          "clue": "This seventh planet from the Sun rotates on its side.",
+          "answer": "Uranus",
+          "alternates": []
+        },
+        {
+          "id": "l3a-planetary-science-fair-5",
+          "rank": 5,
+          "clue": "This moon of Jupiter is the largest moon in the solar system.",
+          "answer": "Ganymede",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-star-power",
+      "name": "Star Power",
+      "clues": [
+        {
+          "id": "l3a-star-power-1",
+          "rank": 1,
+          "clue": "This star sits at the center of our solar system.",
+          "answer": "Sun",
+          "alternates": [
+            "the Sun",
+            "Sol"
+          ]
+        },
+        {
+          "id": "l3a-star-power-2",
+          "rank": 2,
+          "clue": "This region of space has gravity so strong that not even light can escape.",
+          "answer": "Black hole",
+          "alternates": []
+        },
+        {
+          "id": "l3a-star-power-3",
+          "rank": 3,
+          "clue": "This is a massive, brilliant explosion of a star.",
+          "answer": "Supernova",
+          "alternates": []
+        },
+        {
+          "id": "l3a-star-power-4",
+          "rank": 4,
+          "clue": "Stars shine by this process of combining hydrogen nuclei into helium.",
+          "answer": "Nuclear fusion",
+          "alternates": [
+            "fusion"
+          ]
+        },
+        {
+          "id": "l3a-star-power-5",
+          "rank": 5,
+          "clue": "Besides the Sun, this red dwarf is the nearest star to Earth.",
+          "answer": "Proxima Centauri",
+          "alternates": [
+            "Proxima"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-moonstruck",
+      "name": "Moonstruck",
+      "clues": [
+        {
+          "id": "l3a-moonstruck-1",
+          "rank": 1,
+          "clue": "This lunar phase shows the Moon's entire face lit up.",
+          "answer": "Full moon",
+          "alternates": []
+        },
+        {
+          "id": "l3a-moonstruck-2",
+          "rank": 2,
+          "clue": "This 1969 mission made the first crewed Moon landing.",
+          "answer": "Apollo 11",
+          "alternates": []
+        },
+        {
+          "id": "l3a-moonstruck-3",
+          "rank": 3,
+          "clue": "He followed Neil Armstrong to become the second person to walk on the Moon.",
+          "answer": "Buzz Aldrin",
+          "alternates": [
+            "Aldrin",
+            "Edwin Aldrin"
+          ]
+        },
+        {
+          "id": "l3a-moonstruck-4",
+          "rank": 4,
+          "clue": "This largest moon of Saturn is the only moon with a thick atmosphere.",
+          "answer": "Titan",
+          "alternates": []
+        },
+        {
+          "id": "l3a-moonstruck-5",
+          "rank": 5,
+          "clue": "This icy Jupiter moon, the smallest of the four found by Galileo, may hide an ocean under its crust.",
+          "answer": "Europa",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-space-race-pace",
+      "name": "Space Race Pace",
+      "clues": [
+        {
+          "id": "l3a-space-race-pace-1",
+          "rank": 1,
+          "clue": "This US space agency was founded in 1958.",
+          "answer": "NASA",
+          "alternates": [
+            "National Aeronautics and Space Administration"
+          ]
+        },
+        {
+          "id": "l3a-space-race-pace-2",
+          "rank": 2,
+          "clue": "Launched by the Soviet Union in 1957, this was the first artificial satellite.",
+          "answer": "Sputnik",
+          "alternates": [
+            "Sputnik 1"
+          ]
+        },
+        {
+          "id": "l3a-space-race-pace-3",
+          "rank": 3,
+          "clue": "In 1961 this Soviet cosmonaut became the first human in space.",
+          "answer": "Yuri Gagarin",
+          "alternates": [
+            "Gagarin"
+          ]
+        },
+        {
+          "id": "l3a-space-race-pace-4",
+          "rank": 4,
+          "clue": "This space telescope was carried into orbit by a space shuttle in 1990.",
+          "answer": "Hubble Space Telescope",
+          "alternates": [
+            "Hubble",
+            "Hubble telescope"
+          ]
+        },
+        {
+          "id": "l3a-space-race-pace-5",
+          "rank": 5,
+          "clue": "This space shuttle broke apart shortly after launch in January 1986.",
+          "answer": "Challenger",
+          "alternates": [
+            "Space Shuttle Challenger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-rocket-science",
+      "name": "Rocket Science",
+      "clues": [
+        {
+          "id": "l3a-rocket-science-1",
+          "rank": 1,
+          "clue": "This orbiting laboratory, run by NASA, Russia and partners, has had astronauts aboard since 2000.",
+          "answer": "International Space Station",
+          "alternates": [
+            "ISS",
+            "space station"
+          ]
+        },
+        {
+          "id": "l3a-rocket-science-2",
+          "rank": 2,
+          "clue": "These twin NASA probes, launched in 1977, carry a Golden Record of sounds from Earth.",
+          "answer": "Voyager",
+          "alternates": [
+            "Voyager probes",
+            "Voyager 1",
+            "Voyager 2"
+          ]
+        },
+        {
+          "id": "l3a-rocket-science-3",
+          "rank": 3,
+          "clue": "This NASA rover landed on Mars in 2021 carrying the Ingenuity helicopter.",
+          "answer": "Perseverance",
+          "alternates": []
+        },
+        {
+          "id": "l3a-rocket-science-4",
+          "rank": 4,
+          "clue": "Launched in December 2021, this infrared space telescope is named for a former NASA administrator.",
+          "answer": "James Webb Space Telescope",
+          "alternates": [
+            "JWST",
+            "Webb",
+            "James Webb",
+            "Webb telescope"
+          ]
+        },
+        {
+          "id": "l3a-rocket-science-5",
+          "rank": 5,
+          "clue": "This NASA probe made the first flyby of Pluto in 2015.",
+          "answer": "New Horizons",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-universe-ity",
+      "name": "Universe-ity",
+      "clues": [
+        {
+          "id": "l3a-universe-ity-1",
+          "rank": 1,
+          "clue": "This theory says the universe began from a hot, dense state about 13.8 billion years ago.",
+          "answer": "Big Bang",
+          "alternates": [
+            "Big Bang theory"
+          ]
+        },
+        {
+          "id": "l3a-universe-ity-2",
+          "rank": 2,
+          "clue": "Orion and Cassiopeia are examples of these named star patterns.",
+          "answer": "Constellation",
+          "alternates": [
+            "constellations"
+          ]
+        },
+        {
+          "id": "l3a-universe-ity-3",
+          "rank": 3,
+          "clue": "This unit of distance, about 9.46 trillion kilometers, is how far light travels in 365 days.",
+          "answer": "Light-year",
+          "alternates": [
+            "light year",
+            "lightyear"
+          ]
+        },
+        {
+          "id": "l3a-universe-ity-4",
+          "rank": 4,
+          "clue": "This seven-star pattern in Ursa Major is often used to find the North Star.",
+          "answer": "Big Dipper",
+          "alternates": [
+            "Plough",
+            "Plow"
+          ]
+        },
+        {
+          "id": "l3a-universe-ity-5",
+          "rank": 5,
+          "clue": "This is the nearest large spiral galaxy to our own.",
+          "answer": "Andromeda",
+          "alternates": [
+            "Andromeda Galaxy",
+            "M31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-byte-sized",
+      "name": "Byte-Sized",
+      "clues": [
+        {
+          "id": "l3a-byte-sized-1",
+          "rank": 1,
+          "clue": "A byte is made up of this many bits.",
+          "answer": "8",
+          "alternates": [
+            "eight"
+          ]
+        },
+        {
+          "id": "l3a-byte-sized-2",
+          "rank": 2,
+          "clue": "This three-letter abbreviation names a computer's main processor.",
+          "answer": "CPU",
+          "alternates": [
+            "central processing unit",
+            "processor"
+          ]
+        },
+        {
+          "id": "l3a-byte-sized-3",
+          "rank": 3,
+          "clue": "This number system uses only the digits 0 and 1.",
+          "answer": "Binary",
+          "alternates": [
+            "base 2",
+            "base two"
+          ]
+        },
+        {
+          "id": "l3a-byte-sized-4",
+          "rank": 4,
+          "clue": "This short-term computer memory, known by three letters, is erased when the power goes off.",
+          "answer": "RAM",
+          "alternates": [
+            "random access memory"
+          ]
+        },
+        {
+          "id": "l3a-byte-sized-5",
+          "rank": 5,
+          "clue": "In computing, 1,024 kilobytes make one of these.",
+          "answer": "Megabyte",
+          "alternates": [
+            "MB",
+            "mebibyte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3a-code-words",
+      "name": "Code Words",
+      "clues": [
+        {
+          "id": "l3a-code-words-1",
+          "rank": 1,
+          "clue": "This is a step-by-step set of instructions for solving a problem.",
+          "answer": "Algorithm",
+          "alternates": []
+        },
+        {
+          "id": "l3a-code-words-2",
+          "rank": 2,
+          "clue": "Grace Hopper's team famously taped a moth into a logbook as the first actual case of this kind of computer error.",
+          "answer": "Bug",
+          "alternates": [
+            "computer bug"
+          ]
+        },
+        {
+          "id": "l3a-code-words-3",
+          "rank": 3,
+          "clue": "This programming language is named after a British comedy troupe.",
+          "answer": "Python",
+          "alternates": []
+        },
+        {
+          "id": "l3a-code-words-4",
+          "rank": 4,
+          "clue": "Web pages are structured using this markup language, known by four letters.",
+          "answer": "HTML",
+          "alternates": [
+            "HyperText Markup Language"
+          ]
+        },
+        {
+          "id": "l3a-code-words-5",
+          "rank": 5,
+          "clue": "This program translates source code into machine code before it runs.",
+          "answer": "Compiler",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-tech-titans",
+      "name": "Tech Titans",
+      "clues": [
+        {
+          "id": "l3a-tech-titans-1",
+          "rank": 1,
+          "clue": "Steve Jobs and Steve Wozniak co-founded this company in 1976.",
+          "answer": "Apple",
+          "alternates": [
+            "Apple Computer"
+          ]
+        },
+        {
+          "id": "l3a-tech-titans-2",
+          "rank": 2,
+          "clue": "Paul Allen co-founded this software company in 1975.",
+          "answer": "Microsoft",
+          "alternates": []
+        },
+        {
+          "id": "l3a-tech-titans-3",
+          "rank": 3,
+          "clue": "Larry Page and Sergey Brin founded this search engine company in 1998.",
+          "answer": "Google",
+          "alternates": []
+        },
+        {
+          "id": "l3a-tech-titans-4",
+          "rank": 4,
+          "clue": "This social network was launched from a Harvard dorm room in 2004.",
+          "answer": "Facebook",
+          "alternates": []
+        },
+        {
+          "id": "l3a-tech-titans-5",
+          "rank": 5,
+          "clue": "Jeff Bezos started this company in 1994 as an online bookstore.",
+          "answer": "Amazon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-internet-explorers",
+      "name": "Internet Explorers",
+      "clues": [
+        {
+          "id": "l3a-internet-explorers-1",
+          "rank": 1,
+          "clue": "Unwanted junk email is called this, after a canned meat.",
+          "answer": "Spam",
+          "alternates": []
+        },
+        {
+          "id": "l3a-internet-explorers-2",
+          "rank": 2,
+          "clue": "A web address is known by this three-letter abbreviation.",
+          "answer": "URL",
+          "alternates": [
+            "uniform resource locator"
+          ]
+        },
+        {
+          "id": "l3a-internet-explorers-3",
+          "rank": 3,
+          "clue": "Fake emails that trick people into giving away passwords are called this, which sounds like a hobby.",
+          "answer": "Phishing",
+          "alternates": []
+        },
+        {
+          "id": "l3a-internet-explorers-4",
+          "rank": 4,
+          "clue": "This security system blocks unauthorized traffic into a network.",
+          "answer": "Firewall",
+          "alternates": []
+        },
+        {
+          "id": "l3a-internet-explorers-5",
+          "rank": 5,
+          "clue": "This US Defense Department network, first connected in 1969, was the forerunner of the internet.",
+          "answer": "ARPANET",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3a-back-to-the-mainframe",
+      "name": "Back to the Mainframe",
+      "clues": [
+        {
+          "id": "l3a-back-to-the-mainframe-1",
+          "rank": 1,
+          "clue": "Most computer chips are made from this element.",
+          "answer": "Silicon",
+          "alternates": []
+        },
+        {
+          "id": "l3a-back-to-the-mainframe-2",
+          "rank": 2,
+          "clue": "This tiny electronic switch was invented at Bell Labs in 1947.",
+          "answer": "Transistor",
+          "alternates": [
+            "transistors"
+          ]
+        },
+        {
+          "id": "l3a-back-to-the-mainframe-3",
+          "rank": 3,
+          "clue": "This 1965 prediction says the number of transistors on a chip doubles about every two years.",
+          "answer": "Moore's law",
+          "alternates": [
+            "Moores law"
+          ]
+        },
+        {
+          "id": "l3a-back-to-the-mainframe-4",
+          "rank": 4,
+          "clue": "Unveiled in 1946, this room-sized machine was one of the first general-purpose electronic computers.",
+          "answer": "ENIAC",
+          "alternates": []
+        },
+        {
+          "id": "l3a-back-to-the-mainframe-5",
+          "rank": 5,
+          "clue": "In the 1830s Charles Babbage designed this general-purpose mechanical computer, which was never built.",
+          "answer": "Analytical Engine",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

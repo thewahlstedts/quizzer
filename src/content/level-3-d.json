@@ -1,0 +1,2252 @@
+{
+  "level": 3,
+  "categories": [
+    {
+      "id": "l3d-big-words-on-campus",
+      "name": "Big Words on Campus",
+      "clues": [
+        {
+          "id": "l3d-big-words-on-campus-1",
+          "rank": 1,
+          "clue": "This adjective means honest and straightforward; it also describes a photo taken without posing.",
+          "answer": "Candid",
+          "alternates": []
+        },
+        {
+          "id": "l3d-big-words-on-campus-2",
+          "rank": 2,
+          "clue": "This verb means to make something less severe; you might do it to a risk or damage.",
+          "answer": "Mitigate",
+          "alternates": []
+        },
+        {
+          "id": "l3d-big-words-on-campus-3",
+          "rank": 3,
+          "clue": "From the Latin for 'great soul,' this adjective describes someone generous in forgiving.",
+          "answer": "Magnanimous",
+          "alternates": []
+        },
+        {
+          "id": "l3d-big-words-on-campus-4",
+          "rank": 4,
+          "clue": "From the Greek for 'good sound,' this adjective describes pleasant, musical tones.",
+          "answer": "Euphonious",
+          "alternates": [
+            "Euphonic"
+          ]
+        },
+        {
+          "id": "l3d-big-words-on-campus-5",
+          "rank": 5,
+          "clue": "This adjective means using very few words; it comes from the region around ancient Sparta.",
+          "answer": "Laconic",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-vocab-rehab",
+      "name": "Vocab Rehab",
+      "clues": [
+        {
+          "id": "l3d-vocab-rehab-1",
+          "rank": 1,
+          "clue": "This verb means to give up a throne or a responsibility.",
+          "answer": "Abdicate",
+          "alternates": []
+        },
+        {
+          "id": "l3d-vocab-rehab-2",
+          "rank": 2,
+          "clue": "This adjective describes having mixed or contradictory feelings about something.",
+          "answer": "Ambivalent",
+          "alternates": []
+        },
+        {
+          "id": "l3d-vocab-rehab-3",
+          "rank": 3,
+          "clue": "This adjective describes dealing with things sensibly and realistically rather than idealistically.",
+          "answer": "Pragmatic",
+          "alternates": []
+        },
+        {
+          "id": "l3d-vocab-rehab-4",
+          "rank": 4,
+          "clue": "From the Latin for 'flock,' this adjective describes a sociable person who enjoys company.",
+          "answer": "Gregarious",
+          "alternates": []
+        },
+        {
+          "id": "l3d-vocab-rehab-5",
+          "rank": 5,
+          "clue": "This adjective describes someone excessively eager to please or obey, like a fawning servant.",
+          "answer": "Obsequious",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-say-it-in-french",
+      "name": "Say It in French",
+      "clues": [
+        {
+          "id": "l3d-say-it-in-french-1",
+          "rank": 1,
+          "clue": "Ordering a meal item by item from the menu is ordering this French way.",
+          "answer": "À la carte",
+          "alternates": [
+            "a la carte"
+          ]
+        },
+        {
+          "id": "l3d-say-it-in-french-2",
+          "rank": 2,
+          "clue": "Meaning 'already seen,' this French phrase names the eerie feeling you've lived a moment before.",
+          "answer": "Déjà vu",
+          "alternates": [
+            "deja vu"
+          ]
+        },
+        {
+          "id": "l3d-say-it-in-french-3",
+          "rank": 3,
+          "clue": "A blunder in social etiquette, this French phrase literally means 'false step.'",
+          "answer": "Faux pas",
+          "alternates": []
+        },
+        {
+          "id": "l3d-say-it-in-french-4",
+          "rank": 4,
+          "clue": "This French word for 'summary' names the document listing your work history.",
+          "answer": "Résumé",
+          "alternates": [
+            "resume"
+          ]
+        },
+        {
+          "id": "l3d-say-it-in-french-5",
+          "rank": 5,
+          "clue": "This French phrase, literally 'reason for being,' means the most important purpose of something.",
+          "answer": "Raison d'être",
+          "alternates": [
+            "raison d etre",
+            "raison detre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-latin-quarter",
+      "name": "Latin Quarter",
+      "clues": [
+        {
+          "id": "l3d-latin-quarter-1",
+          "rank": 1,
+          "clue": "This Latin phrase means 'seize the day.'",
+          "answer": "Carpe diem",
+          "alternates": []
+        },
+        {
+          "id": "l3d-latin-quarter-2",
+          "rank": 2,
+          "clue": "Meaning 'the other way around,' this Latin phrase often follows a statement whose reverse is also true.",
+          "answer": "Vice versa",
+          "alternates": []
+        },
+        {
+          "id": "l3d-latin-quarter-3",
+          "rank": 3,
+          "clue": "Meaning 'in good faith,' this Latin phrase describes something genuine or authentic.",
+          "answer": "Bona fide",
+          "alternates": []
+        },
+        {
+          "id": "l3d-latin-quarter-4",
+          "rank": 4,
+          "clue": "Meaning 'something for something,' this Latin phrase describes a fair exchange.",
+          "answer": "Quid pro quo",
+          "alternates": []
+        },
+        {
+          "id": "l3d-latin-quarter-5",
+          "rank": 5,
+          "clue": "This Latin phrase meaning 'with praise' appears on diplomas of high-achieving graduates.",
+          "answer": "Cum laude",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-german-engineering",
+      "name": "German Engineering",
+      "clues": [
+        {
+          "id": "l3d-german-engineering-1",
+          "rank": 1,
+          "clue": "This German word for 'children's garden' names the grade before first grade.",
+          "answer": "Kindergarten",
+          "alternates": []
+        },
+        {
+          "id": "l3d-german-engineering-2",
+          "rank": 2,
+          "clue": "Literally 'wander desire,' this German loanword means a strong urge to travel.",
+          "answer": "Wanderlust",
+          "alternates": []
+        },
+        {
+          "id": "l3d-german-engineering-3",
+          "rank": 3,
+          "clue": "This German word for the 'spirit of the age' describes the mood of a particular era.",
+          "answer": "Zeitgeist",
+          "alternates": []
+        },
+        {
+          "id": "l3d-german-engineering-4",
+          "rank": 4,
+          "clue": "Literally 'double-goer,' this German loanword means a person's look-alike.",
+          "answer": "Doppelgänger",
+          "alternates": [
+            "doppelganger"
+          ]
+        },
+        {
+          "id": "l3d-german-engineering-5",
+          "rank": 5,
+          "clue": "This German word means pleasure taken from someone else's misfortune.",
+          "answer": "Schadenfreude",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-roots-revival",
+      "name": "Roots Revival",
+      "clues": [
+        {
+          "id": "l3d-roots-revival-1",
+          "rank": 1,
+          "clue": "The word 'alphabet' comes from the names of the first two letters in this ancient language's alphabet.",
+          "answer": "Greek",
+          "alternates": []
+        },
+        {
+          "id": "l3d-roots-revival-2",
+          "rank": 2,
+          "clue": "The word 'salary' is linked to the Latin word for this seasoning, once valued by Roman soldiers.",
+          "answer": "Salt",
+          "alternates": []
+        },
+        {
+          "id": "l3d-roots-revival-3",
+          "rank": 3,
+          "clue": "The word 'quarantine' comes from the Italian for this number of days ships were isolated.",
+          "answer": "40",
+          "alternates": [
+            "forty"
+          ]
+        },
+        {
+          "id": "l3d-roots-revival-4",
+          "rank": 4,
+          "clue": "The word 'robot' was introduced in a 1920 play written in this language.",
+          "answer": "Czech",
+          "alternates": []
+        },
+        {
+          "id": "l3d-roots-revival-5",
+          "rank": 5,
+          "clue": "The word 'disaster' literally means a bad one of these, reflecting an old belief in astrology.",
+          "answer": "Star",
+          "alternates": [
+            "stars"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-it-s-all-greek-to-me",
+      "name": "Phrase Book",
+      "clues": [
+        {
+          "id": "l3d-it-s-all-greek-to-me-1",
+          "rank": 1,
+          "clue": "The Greek root 'hydro' in 'hydrant' and 'dehydrate' means this.",
+          "answer": "Water",
+          "alternates": []
+        },
+        {
+          "id": "l3d-it-s-all-greek-to-me-2",
+          "rank": 2,
+          "clue": "The Greek root 'tele' in 'telephone' and 'telescope' means this.",
+          "answer": "Far",
+          "alternates": [
+            "distant",
+            "far off"
+          ]
+        },
+        {
+          "id": "l3d-it-s-all-greek-to-me-3",
+          "rank": 3,
+          "clue": "The Greek root 'chrono' in 'chronological' refers to this.",
+          "answer": "Time",
+          "alternates": []
+        },
+        {
+          "id": "l3d-it-s-all-greek-to-me-4",
+          "rank": 4,
+          "clue": "The Greek root 'phil' in 'philosophy' and 'philanthropy' means this.",
+          "answer": "Love",
+          "alternates": [
+            "loving"
+          ]
+        },
+        {
+          "id": "l3d-it-s-all-greek-to-me-5",
+          "rank": 5,
+          "clue": "The Greek root 'pseudo,' as in 'pseudonym,' means this.",
+          "answer": "False",
+          "alternates": [
+            "fake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-idiom-s-delight",
+      "name": "Idiom's Delight",
+      "clues": [
+        {
+          "id": "l3d-idiom-s-delight-1",
+          "rank": 1,
+          "clue": "To reveal a secret is to let this animal out of the bag.",
+          "answer": "Cat",
+          "alternates": []
+        },
+        {
+          "id": "l3d-idiom-s-delight-2",
+          "rank": 2,
+          "clue": "Something very easy is said to be a piece of this dessert.",
+          "answer": "Cake",
+          "alternates": []
+        },
+        {
+          "id": "l3d-idiom-s-delight-3",
+          "rank": 3,
+          "clue": "Someone working late into the night is 'burning the midnight' this.",
+          "answer": "Oil",
+          "alternates": []
+        },
+        {
+          "id": "l3d-idiom-s-delight-4",
+          "rank": 4,
+          "clue": "To be exactly right is to 'hit the nail on' this.",
+          "answer": "The head",
+          "alternates": [
+            "head"
+          ]
+        },
+        {
+          "id": "l3d-idiom-s-delight-5",
+          "rank": 5,
+          "clue": "To start something too early is to 'jump' this.",
+          "answer": "The gun",
+          "alternates": [
+            "gun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-head-to-toe-talk",
+      "name": "Head to Toe Talk",
+      "clues": [
+        {
+          "id": "l3d-head-to-toe-talk-1",
+          "rank": 1,
+          "clue": "To help someone is to 'give them a' this.",
+          "answer": "Hand",
+          "alternates": []
+        },
+        {
+          "id": "l3d-head-to-toe-talk-2",
+          "rank": 2,
+          "clue": "To get nervous and back out of something is to get 'cold' these.",
+          "answer": "Feet",
+          "alternates": []
+        },
+        {
+          "id": "l3d-head-to-toe-talk-3",
+          "rank": 3,
+          "clue": "To tease someone playfully is to 'pull their' this.",
+          "answer": "Leg",
+          "alternates": []
+        },
+        {
+          "id": "l3d-head-to-toe-talk-4",
+          "rank": 4,
+          "clue": "To stay brave and hide your emotions is to keep a 'stiff upper' this.",
+          "answer": "Lip",
+          "alternates": []
+        },
+        {
+          "id": "l3d-head-to-toe-talk-5",
+          "rank": 5,
+          "clue": "To deliberately delay doing something is to 'drag your' these.",
+          "answer": "Heels",
+          "alternates": [
+            "heel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-initial-reactions",
+      "name": "Initial Reactions",
+      "clues": [
+        {
+          "id": "l3d-initial-reactions-1",
+          "rank": 1,
+          "clue": "On a party invitation, these four letters ask you to reply.",
+          "answer": "RSVP",
+          "alternates": []
+        },
+        {
+          "id": "l3d-initial-reactions-2",
+          "rank": 2,
+          "clue": "This four-letter abbreviation means 'as soon as possible.'",
+          "answer": "ASAP",
+          "alternates": []
+        },
+        {
+          "id": "l3d-initial-reactions-3",
+          "rank": 3,
+          "clue": "On a clock, 'p.m.' stands for 'post meridiem,' meaning after this time of day.",
+          "answer": "Noon",
+          "alternates": [
+            "midday"
+          ]
+        },
+        {
+          "id": "l3d-initial-reactions-4",
+          "rank": 4,
+          "clue": "The abbreviation 'etc.' stands for this Latin phrase.",
+          "answer": "Et cetera",
+          "alternates": [
+            "etcetera"
+          ]
+        },
+        {
+          "id": "l3d-initial-reactions-5",
+          "rank": 5,
+          "clue": "'P.S.' at the end of a letter stands for this word.",
+          "answer": "Postscript",
+          "alternates": [
+            "post scriptum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-acronym-anonymous",
+      "name": "Acronym Anonymous",
+      "clues": [
+        {
+          "id": "l3d-acronym-anonymous-1",
+          "rank": 1,
+          "clue": "NASA stands for National Aeronautics and this Administration.",
+          "answer": "Space",
+          "alternates": []
+        },
+        {
+          "id": "l3d-acronym-anonymous-2",
+          "rank": 2,
+          "clue": "The 'P' in PIN, the secret code for your bank card, stands for this word.",
+          "answer": "Personal",
+          "alternates": []
+        },
+        {
+          "id": "l3d-acronym-anonymous-3",
+          "rank": 3,
+          "clue": "In SCUBA, the 'U' stands for this word describing where divers go.",
+          "answer": "Underwater",
+          "alternates": []
+        },
+        {
+          "id": "l3d-acronym-anonymous-4",
+          "rank": 4,
+          "clue": "The first letter of the acronym LASER stands for this word.",
+          "answer": "Light",
+          "alternates": []
+        },
+        {
+          "id": "l3d-acronym-anonymous-5",
+          "rank": 5,
+          "clue": "RADAR stands for 'radio detection and' this.",
+          "answer": "Ranging",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-anagram-slam",
+      "name": "Anagram Slam",
+      "clues": [
+        {
+          "id": "l3d-anagram-slam-1",
+          "rank": 1,
+          "clue": "Rearrange the letters of 'listen' to get this word meaning quiet.",
+          "answer": "Silent",
+          "alternates": []
+        },
+        {
+          "id": "l3d-anagram-slam-2",
+          "rank": 2,
+          "clue": "Rearrange the letters of 'earth' to get this organ that pumps blood.",
+          "answer": "Heart",
+          "alternates": []
+        },
+        {
+          "id": "l3d-anagram-slam-3",
+          "rank": 3,
+          "clue": "Rearrange the letters of 'night' to get this word for an object or item.",
+          "answer": "Thing",
+          "alternates": []
+        },
+        {
+          "id": "l3d-anagram-slam-4",
+          "rank": 4,
+          "clue": "Rearrange the letters of 'dormitory' to get these two words for a messy place to sleep.",
+          "answer": "Dirty room",
+          "alternates": [
+            "dirtyroom"
+          ]
+        },
+        {
+          "id": "l3d-anagram-slam-5",
+          "rank": 5,
+          "clue": "Rearrange the letters of 'astronomer' to get these two words describing a stargazer.",
+          "answer": "Moon starer",
+          "alternates": [
+            "moonstarer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-before-after",
+      "name": "Before & After",
+      "clues": [
+        {
+          "id": "l3d-before-after-1",
+          "rank": 1,
+          "clue": "A frankfurter in a bun meets a pet's backyard shelter.",
+          "answer": "Hot doghouse",
+          "alternates": [
+            "hot dog house"
+          ]
+        },
+        {
+          "id": "l3d-before-after-2",
+          "rank": 2,
+          "clue": "A sandwich spread made from ground legumes meets a winged insect that was once a caterpillar.",
+          "answer": "Peanut butterfly",
+          "alternates": []
+        },
+        {
+          "id": "l3d-before-after-3",
+          "rank": 3,
+          "clue": "A red emergency vehicle with a ladder meets a highway rest area for big rigs.",
+          "answer": "Fire truck stop",
+          "alternates": [
+            "firetruck stop"
+          ]
+        },
+        {
+          "id": "l3d-before-after-4",
+          "rank": 4,
+          "clue": "Plastic you use to buy now and pay later meets a folding piece of furniture for board games.",
+          "answer": "Credit card table",
+          "alternates": []
+        },
+        {
+          "id": "l3d-before-after-5",
+          "rank": 5,
+          "clue": "A tall yellow bloom that turns toward the light meets a container for planting.",
+          "answer": "Sunflower pot",
+          "alternates": [
+            "sun flower pot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-rhyme-time",
+      "name": "Rhyme Time",
+      "clues": [
+        {
+          "id": "l3d-rhyme-time-1",
+          "rank": 1,
+          "clue": "Two rhyming words: a chubby feline.",
+          "answer": "Fat cat",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rhyme-time-2",
+          "rank": 2,
+          "clue": "Two rhyming words: a large hog.",
+          "answer": "Big pig",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rhyme-time-3",
+          "rank": 3,
+          "clue": "Two rhyming words: an unhappy father.",
+          "answer": "Sad dad",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rhyme-time-4",
+          "rank": 4,
+          "clue": "Two rhyming words: a cozy insect.",
+          "answer": "Snug bug",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rhyme-time-5",
+          "rank": 5,
+          "clue": "Two rhyming words: an irritated manager.",
+          "answer": "Cross boss",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-level-headed",
+      "name": "Level Headed",
+      "clues": [
+        {
+          "id": "l3d-level-headed-1",
+          "rank": 1,
+          "clue": "This palindrome names the middle of the day.",
+          "answer": "Noon",
+          "alternates": []
+        },
+        {
+          "id": "l3d-level-headed-2",
+          "rank": 2,
+          "clue": "This palindromic boat is paddled with a double-bladed paddle.",
+          "answer": "Kayak",
+          "alternates": []
+        },
+        {
+          "id": "l3d-level-headed-3",
+          "rank": 3,
+          "clue": "This palindromic word names a vehicle built for high-speed competition.",
+          "answer": "Racecar",
+          "alternates": [
+            "race car"
+          ]
+        },
+        {
+          "id": "l3d-level-headed-4",
+          "rank": 4,
+          "clue": "This palindromic adjective relates to a city or its citizens.",
+          "answer": "Civic",
+          "alternates": []
+        },
+        {
+          "id": "l3d-level-headed-5",
+          "rank": 5,
+          "clue": "The famous palindrome 'A man, a plan, a canal' ends with this country's name.",
+          "answer": "Panama",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-pasta-la-vista",
+      "name": "Pasta La Vista",
+      "clues": [
+        {
+          "id": "l3d-pasta-la-vista-1",
+          "rank": 1,
+          "clue": "These long, thin strands of pasta are often served with meatballs.",
+          "answer": "Spaghetti",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pasta-la-vista-2",
+          "rank": 2,
+          "clue": "Pasta cooked so it's still firm to the bite is described with this Italian phrase.",
+          "answer": "Al dente",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pasta-la-vista-3",
+          "rank": 3,
+          "clue": "This green sauce from Genoa is made with basil, pine nuts, garlic, and cheese.",
+          "answer": "Pesto",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pasta-la-vista-4",
+          "rank": 4,
+          "clue": "This bow tie-shaped pasta's name means 'butterflies' in Italian.",
+          "answer": "Farfalle",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pasta-la-vista-5",
+          "rank": 5,
+          "clue": "Meaning 'little tongues,' this flat, narrow pasta is often served with clam sauce.",
+          "answer": "Linguine",
+          "alternates": [
+            "linguini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-taco-bout-it",
+      "name": "Taco 'Bout It",
+      "clues": [
+        {
+          "id": "l3d-taco-bout-it-1",
+          "rank": 1,
+          "clue": "This dip is made from mashed avocados.",
+          "answer": "Guacamole",
+          "alternates": []
+        },
+        {
+          "id": "l3d-taco-bout-it-2",
+          "rank": 2,
+          "clue": "This dish is a tortilla filled with melted cheese, folded and grilled.",
+          "answer": "Quesadilla",
+          "alternates": []
+        },
+        {
+          "id": "l3d-taco-bout-it-3",
+          "rank": 3,
+          "clue": "This dish is corn dough wrapped around a filling and steamed in a corn husk.",
+          "answer": "Tamale",
+          "alternates": [
+            "tamales",
+            "tamal"
+          ]
+        },
+        {
+          "id": "l3d-taco-bout-it-4",
+          "rank": 4,
+          "clue": "This rich Mexican sauce is often made with chilies and chocolate.",
+          "answer": "Mole",
+          "alternates": []
+        },
+        {
+          "id": "l3d-taco-bout-it-5",
+          "rank": 5,
+          "clue": "Spanish for 'rooster's beak,' this fresh relish combines chopped tomato, onion, cilantro, and chilies.",
+          "answer": "Pico de gallo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-wok-this-way",
+      "name": "Wok This Way",
+      "clues": [
+        {
+          "id": "l3d-wok-this-way-1",
+          "rank": 1,
+          "clue": "This Japanese food is vinegared rice, often topped or rolled with raw fish and seaweed.",
+          "answer": "Sushi",
+          "alternates": []
+        },
+        {
+          "id": "l3d-wok-this-way-2",
+          "rank": 2,
+          "clue": "This Japanese noodle soup is often sold in instant cups.",
+          "answer": "Ramen",
+          "alternates": []
+        },
+        {
+          "id": "l3d-wok-this-way-3",
+          "rank": 3,
+          "clue": "Rice noodles stir-fried with tamarind, egg, and peanuts make this famous Bangkok street dish.",
+          "answer": "Pad thai",
+          "alternates": []
+        },
+        {
+          "id": "l3d-wok-this-way-4",
+          "rank": 4,
+          "clue": "This spicy Korean side dish is made from fermented cabbage.",
+          "answer": "Kimchi",
+          "alternates": [
+            "kimchee"
+          ]
+        },
+        {
+          "id": "l3d-wok-this-way-5",
+          "rank": 5,
+          "clue": "This Vietnamese soup features broth, rice noodles, and fresh herbs.",
+          "answer": "Pho",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-spice-spice-baby",
+      "name": "Spice Spice Baby",
+      "clues": [
+        {
+          "id": "l3d-spice-spice-baby-1",
+          "rank": 1,
+          "clue": "This spice made from tree bark is sprinkled with sugar on toast.",
+          "answer": "Cinnamon",
+          "alternates": []
+        },
+        {
+          "id": "l3d-spice-spice-baby-2",
+          "rank": 2,
+          "clue": "Made from dried, ground red peppers, this spice is a Hungarian staple in goulash.",
+          "answer": "Paprika",
+          "alternates": []
+        },
+        {
+          "id": "l3d-spice-spice-baby-3",
+          "rank": 3,
+          "clue": "This bright yellow spice gives many curries their color.",
+          "answer": "Turmeric",
+          "alternates": []
+        },
+        {
+          "id": "l3d-spice-spice-baby-4",
+          "rank": 4,
+          "clue": "The world's most expensive spice by weight comes from the threads of a crocus flower.",
+          "answer": "Saffron",
+          "alternates": []
+        },
+        {
+          "id": "l3d-spice-spice-baby-5",
+          "rank": 5,
+          "clue": "This spice is made from the lacy red covering that surrounds a nutmeg seed.",
+          "answer": "Mace",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-cheese-louise",
+      "name": "Cheese Louise",
+      "clues": [
+        {
+          "id": "l3d-cheese-louise-1",
+          "rank": 1,
+          "clue": "This soft, stretchy cheese is the classic topping on a pizza margherita.",
+          "answer": "Mozzarella",
+          "alternates": []
+        },
+        {
+          "id": "l3d-cheese-louise-2",
+          "rank": 2,
+          "clue": "This hard Italian cheese, often grated over pasta, is named for the area around Parma.",
+          "answer": "Parmesan",
+          "alternates": [
+            "Parmigiano-Reggiano",
+            "Parmigiano"
+          ]
+        },
+        {
+          "id": "l3d-cheese-louise-3",
+          "rank": 3,
+          "clue": "This salty Greek cheese, crumbled on salads, is made from sheep's or goat's milk.",
+          "answer": "Feta",
+          "alternates": []
+        },
+        {
+          "id": "l3d-cheese-louise-4",
+          "rank": 4,
+          "clue": "This popular cheese is named after a village in Somerset, England.",
+          "answer": "Cheddar",
+          "alternates": []
+        },
+        {
+          "id": "l3d-cheese-louise-5",
+          "rank": 5,
+          "clue": "This French blue cheese made from sheep's milk is aged in caves.",
+          "answer": "Roquefort",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-bread-winners",
+      "name": "Bread Winners",
+      "clues": [
+        {
+          "id": "l3d-bread-winners-1",
+          "rank": 1,
+          "clue": "This long, thin loaf is a symbol of French bakeries.",
+          "answer": "Baguette",
+          "alternates": []
+        },
+        {
+          "id": "l3d-bread-winners-2",
+          "rank": 2,
+          "clue": "This flat Italian bread is often topped with olive oil and rosemary.",
+          "answer": "Focaccia",
+          "alternates": []
+        },
+        {
+          "id": "l3d-bread-winners-3",
+          "rank": 3,
+          "clue": "This round Middle Eastern flatbread can be split open to form a pocket.",
+          "answer": "Pita",
+          "alternates": [
+            "pitta"
+          ]
+        },
+        {
+          "id": "l3d-bread-winners-4",
+          "rank": 4,
+          "clue": "This leavened Indian flatbread is traditionally baked in a tandoor oven.",
+          "answer": "Naan",
+          "alternates": [
+            "nan"
+          ]
+        },
+        {
+          "id": "l3d-bread-winners-5",
+          "rank": 5,
+          "clue": "This braided egg bread is traditional for the Jewish Sabbath.",
+          "answer": "Challah",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-brand-recognition",
+      "name": "Brand Recognition",
+      "clues": [
+        {
+          "id": "l3d-brand-recognition-1",
+          "rank": 1,
+          "clue": "This sportswear company is named after the Greek goddess of victory.",
+          "answer": "Nike",
+          "alternates": []
+        },
+        {
+          "id": "l3d-brand-recognition-2",
+          "rank": 2,
+          "clue": "This Danish toy brand's name comes from the phrase 'leg godt,' meaning 'play well.'",
+          "answer": "Lego",
+          "alternates": []
+        },
+        {
+          "id": "l3d-brand-recognition-3",
+          "rank": 3,
+          "clue": "This luxury car brand was launched by Toyota in 1989.",
+          "answer": "Lexus",
+          "alternates": []
+        },
+        {
+          "id": "l3d-brand-recognition-4",
+          "rank": 4,
+          "clue": "This Swedish furniture brand's name combines its founder's initials with the names of his farm and village.",
+          "answer": "IKEA",
+          "alternates": []
+        },
+        {
+          "id": "l3d-brand-recognition-5",
+          "rank": 5,
+          "clue": "Google's name is a play on 'googol,' which is 1 followed by this many zeros.",
+          "answer": "100",
+          "alternates": [
+            "one hundred",
+            "hundred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-spokescritters",
+      "name": "Spokescritters",
+      "clues": [
+        {
+          "id": "l3d-spokescritters-1",
+          "rank": 1,
+          "clue": "This Kellogg's tiger says 'They're gr-r-reat!'",
+          "answer": "Tony",
+          "alternates": [
+            "Tony the Tiger"
+          ]
+        },
+        {
+          "id": "l3d-spokescritters-2",
+          "rank": 2,
+          "clue": "This pink drumming rabbit keeps going and going in battery commercials.",
+          "answer": "Energizer Bunny",
+          "alternates": [
+            "Energizer"
+          ]
+        },
+        {
+          "id": "l3d-spokescritters-3",
+          "rank": 3,
+          "clue": "The giggling Pillsbury mascot is known as this 'boy.'",
+          "answer": "Doughboy",
+          "alternates": [
+            "Pillsbury Doughboy",
+            "Poppin Fresh"
+          ]
+        },
+        {
+          "id": "l3d-spokescritters-4",
+          "rank": 4,
+          "clue": "Mr. Peanut, with his top hat and monocle, is the mascot of this snack brand.",
+          "answer": "Planters",
+          "alternates": []
+        },
+        {
+          "id": "l3d-spokescritters-5",
+          "rank": 5,
+          "clue": "Snap, Crackle, and Pop are the mascots of this cereal.",
+          "answer": "Rice Krispies",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-corporate-ladder",
+      "name": "Corporate Ladder",
+      "clues": [
+        {
+          "id": "l3d-corporate-ladder-1",
+          "rank": 1,
+          "clue": "CEO stands for chief this officer.",
+          "answer": "Executive",
+          "alternates": []
+        },
+        {
+          "id": "l3d-corporate-ladder-2",
+          "rank": 2,
+          "clue": "This is the money a business has left after paying its expenses.",
+          "answer": "Profit",
+          "alternates": [
+            "profits"
+          ]
+        },
+        {
+          "id": "l3d-corporate-ladder-3",
+          "rank": 3,
+          "clue": "A share of ownership in a company is a share of this.",
+          "answer": "Stock",
+          "alternates": []
+        },
+        {
+          "id": "l3d-corporate-ladder-4",
+          "rank": 4,
+          "clue": "When two companies combine into one, it is called this.",
+          "answer": "Merger",
+          "alternates": []
+        },
+        {
+          "id": "l3d-corporate-ladder-5",
+          "rank": 5,
+          "clue": "This is a company's total income from sales before any expenses are subtracted.",
+          "answer": "Revenue",
+          "alternates": [
+            "gross revenue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-number-crunchers",
+      "name": "Number Crunchers",
+      "clues": [
+        {
+          "id": "l3d-number-crunchers-1",
+          "rank": 1,
+          "clue": "This is 15 percent of 200.",
+          "answer": "30",
+          "alternates": [
+            "thirty"
+          ]
+        },
+        {
+          "id": "l3d-number-crunchers-2",
+          "rank": 2,
+          "clue": "This is the average of 4, 8, and 12.",
+          "answer": "8",
+          "alternates": [
+            "eight"
+          ]
+        },
+        {
+          "id": "l3d-number-crunchers-3",
+          "rank": 3,
+          "clue": "This is the name for the middle value in a data set ordered from least to greatest.",
+          "answer": "Median",
+          "alternates": []
+        },
+        {
+          "id": "l3d-number-crunchers-4",
+          "rank": 4,
+          "clue": "This is 2 raised to the 10th power.",
+          "answer": "1024",
+          "alternates": [
+            "1,024"
+          ]
+        },
+        {
+          "id": "l3d-number-crunchers-5",
+          "rank": 5,
+          "clue": "This is the sum of all the whole numbers from 1 to 100.",
+          "answer": "5050",
+          "alternates": [
+            "5,050"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-prime-time",
+      "name": "Prime Time",
+      "clues": [
+        {
+          "id": "l3d-prime-time-1",
+          "rank": 1,
+          "clue": "This is the only even prime number.",
+          "answer": "2",
+          "alternates": [
+            "two"
+          ]
+        },
+        {
+          "id": "l3d-prime-time-2",
+          "rank": 2,
+          "clue": "This is the smallest prime number greater than 20.",
+          "answer": "23",
+          "alternates": [
+            "twenty-three",
+            "twenty three"
+          ]
+        },
+        {
+          "id": "l3d-prime-time-3",
+          "rank": 3,
+          "clue": "This is the greatest common factor of 18 and 27.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l3d-prime-time-4",
+          "rank": 4,
+          "clue": "This is the least common multiple of 6 and 8.",
+          "answer": "24",
+          "alternates": [
+            "twenty-four",
+            "twenty four"
+          ]
+        },
+        {
+          "id": "l3d-prime-time-5",
+          "rank": 5,
+          "clue": "1, 1, 2, 3, 5, 8, 13... each number is the sum of the two before it in this named sequence.",
+          "answer": "Fibonacci",
+          "alternates": [
+            "Fibonacci sequence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-shape-shifters",
+      "name": "Shape Shifters",
+      "clues": [
+        {
+          "id": "l3d-shape-shifters-1",
+          "rank": 1,
+          "clue": "A triangle with all three sides equal is called this.",
+          "answer": "Equilateral",
+          "alternates": [
+            "equilateral triangle"
+          ]
+        },
+        {
+          "id": "l3d-shape-shifters-2",
+          "rank": 2,
+          "clue": "This is the name for a polygon with five sides.",
+          "answer": "Pentagon",
+          "alternates": []
+        },
+        {
+          "id": "l3d-shape-shifters-3",
+          "rank": 3,
+          "clue": "An angle measuring more than 90 but less than 180 degrees is called this.",
+          "answer": "Obtuse",
+          "alternates": [
+            "obtuse angle"
+          ]
+        },
+        {
+          "id": "l3d-shape-shifters-4",
+          "rank": 4,
+          "clue": "This is the distance around a circle.",
+          "answer": "Circumference",
+          "alternates": []
+        },
+        {
+          "id": "l3d-shape-shifters-5",
+          "rank": 5,
+          "clue": "A cube has 6 square faces; this regular solid has 20 triangular faces.",
+          "answer": "Icosahedron",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-odds-are",
+      "name": "Odds Are",
+      "clues": [
+        {
+          "id": "l3d-odds-are-1",
+          "rank": 1,
+          "clue": "This is the probability of flipping heads on a fair coin, as a fraction.",
+          "answer": "1/2",
+          "alternates": [
+            "one half",
+            "half",
+            "0.5",
+            "50%"
+          ]
+        },
+        {
+          "id": "l3d-odds-are-2",
+          "rank": 2,
+          "clue": "A standard die has this many faces.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l3d-odds-are-3",
+          "rank": 3,
+          "clue": "Rolling two standard six-sided dice has this many possible ordered outcomes.",
+          "answer": "36",
+          "alternates": [
+            "thirty-six",
+            "thirty six"
+          ]
+        },
+        {
+          "id": "l3d-odds-are-4",
+          "rank": 4,
+          "clue": "As a fraction in lowest terms, this is the probability of rolling a total of 7 with two dice.",
+          "answer": "1/6",
+          "alternates": [
+            "one sixth",
+            "one-sixth"
+          ]
+        },
+        {
+          "id": "l3d-odds-are-5",
+          "rank": 5,
+          "clue": "This is the value of 5 factorial, written 5!.",
+          "answer": "120",
+          "alternates": [
+            "one hundred twenty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-cents-sensibility",
+      "name": "Cents & Sensibility",
+      "clues": [
+        {
+          "id": "l3d-cents-sensibility-1",
+          "rank": 1,
+          "clue": "This is a plan for how you'll spend and save your money.",
+          "answer": "Budget",
+          "alternates": []
+        },
+        {
+          "id": "l3d-cents-sensibility-2",
+          "rank": 2,
+          "clue": "This is the money a bank pays you for keeping your savings there.",
+          "answer": "Interest",
+          "alternates": []
+        },
+        {
+          "id": "l3d-cents-sensibility-3",
+          "rank": 3,
+          "clue": "This is the name for a loan used to buy a house.",
+          "answer": "Mortgage",
+          "alternates": []
+        },
+        {
+          "id": "l3d-cents-sensibility-4",
+          "rank": 4,
+          "clue": "This three-digit number, often ranging from 300 to 850, rates how reliable a borrower is.",
+          "answer": "Credit score",
+          "alternates": [
+            "FICO score"
+          ]
+        },
+        {
+          "id": "l3d-cents-sensibility-5",
+          "rank": 5,
+          "clue": "This type of interest is calculated on both the principal and the interest already earned.",
+          "answer": "Compound",
+          "alternates": [
+            "compound interest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-bank-on-it",
+      "name": "Bank On It",
+      "clues": [
+        {
+          "id": "l3d-bank-on-it-1",
+          "rank": 1,
+          "clue": "This kind of card takes money directly out of your checking account.",
+          "answer": "Debit card",
+          "alternates": [
+            "debit"
+          ]
+        },
+        {
+          "id": "l3d-bank-on-it-2",
+          "rank": 2,
+          "clue": "This is the original amount of money borrowed in a loan, before interest.",
+          "answer": "Principal",
+          "alternates": []
+        },
+        {
+          "id": "l3d-bank-on-it-3",
+          "rank": 3,
+          "clue": "A stock market in which prices are falling for a long time is named for this animal.",
+          "answer": "Bear",
+          "alternates": [
+            "bear market"
+          ]
+        },
+        {
+          "id": "l3d-bank-on-it-4",
+          "rank": 4,
+          "clue": "Spreading money across many different investments to reduce risk is called this.",
+          "answer": "Diversification",
+          "alternates": [
+            "diversifying"
+          ]
+        },
+        {
+          "id": "l3d-bank-on-it-5",
+          "rank": 5,
+          "clue": "This US retirement savings plan offered by employers is named for a section of the tax code.",
+          "answer": "401(k)",
+          "alternates": [
+            "401k",
+            "401 k"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-ticket-to-ride",
+      "name": "Ticket to Ride",
+      "clues": [
+        {
+          "id": "l3d-ticket-to-ride-1",
+          "rank": 1,
+          "clue": "London's subway system is nicknamed this.",
+          "answer": "The Tube",
+          "alternates": [
+            "tube"
+          ]
+        },
+        {
+          "id": "l3d-ticket-to-ride-2",
+          "rank": 2,
+          "clue": "In Venice, these flat-bottomed boats are steered by a single oar.",
+          "answer": "Gondola",
+          "alternates": [
+            "gondolas"
+          ]
+        },
+        {
+          "id": "l3d-ticket-to-ride-3",
+          "rank": 3,
+          "clue": "San Francisco's famous streetcars climb steep hills pulled by a moving line beneath the street.",
+          "answer": "Cable car",
+          "alternates": [
+            "cable cars"
+          ]
+        },
+        {
+          "id": "l3d-ticket-to-ride-4",
+          "rank": 4,
+          "clue": "Paris's subway system is called this.",
+          "answer": "Métro",
+          "alternates": [
+            "metro"
+          ]
+        },
+        {
+          "id": "l3d-ticket-to-ride-5",
+          "rank": 5,
+          "clue": "Japan's high-speed 'bullet train' line is called this.",
+          "answer": "Shinkansen",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-road-rules",
+      "name": "Road Rules",
+      "clues": [
+        {
+          "id": "l3d-road-rules-1",
+          "rank": 1,
+          "clue": "A red traffic light means you must do this.",
+          "answer": "Stop",
+          "alternates": []
+        },
+        {
+          "id": "l3d-road-rules-2",
+          "rank": 2,
+          "clue": "A circular intersection where traffic flows around a center island is called this.",
+          "answer": "Roundabout",
+          "alternates": [
+            "rotary",
+            "traffic circle"
+          ]
+        },
+        {
+          "id": "l3d-road-rules-3",
+          "rank": 3,
+          "clue": "Fuel efficiency is measured in 'mpg,' miles per this.",
+          "answer": "Gallon",
+          "alternates": []
+        },
+        {
+          "id": "l3d-road-rules-4",
+          "rank": 4,
+          "clue": "This document proves who owns a car.",
+          "answer": "Title",
+          "alternates": [
+            "car title",
+            "certificate of title"
+          ]
+        },
+        {
+          "id": "l3d-road-rules-5",
+          "rank": 5,
+          "clue": "US Interstate highways with odd numbers generally run in these directions.",
+          "answer": "North-south",
+          "alternates": [
+            "north south",
+            "northsouth",
+            "north and south"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-holiday-spirit",
+      "name": "Holiday Spirit",
+      "clues": [
+        {
+          "id": "l3d-holiday-spirit-1",
+          "rank": 1,
+          "clue": "This Hindu festival is known as the festival of lights.",
+          "answer": "Diwali",
+          "alternates": [
+            "Deepavali"
+          ]
+        },
+        {
+          "id": "l3d-holiday-spirit-2",
+          "rank": 2,
+          "clue": "This eight-day Jewish festival celebrates the rededication of the Temple in Jerusalem.",
+          "answer": "Hanukkah",
+          "alternates": [
+            "Chanukah",
+            "Hanukah"
+          ]
+        },
+        {
+          "id": "l3d-holiday-spirit-3",
+          "rank": 3,
+          "clue": "The Day of the Dead is celebrated mainly in this country.",
+          "answer": "Mexico",
+          "alternates": []
+        },
+        {
+          "id": "l3d-holiday-spirit-4",
+          "rank": 4,
+          "clue": "This is the Muslim holy month of fasting from dawn to sunset.",
+          "answer": "Ramadan",
+          "alternates": []
+        },
+        {
+          "id": "l3d-holiday-spirit-5",
+          "rank": 5,
+          "clue": "Revelers throw colored powder during this Hindu spring festival.",
+          "answer": "Holi",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-custom-made",
+      "name": "Custom Made",
+      "clues": [
+        {
+          "id": "l3d-custom-made-1",
+          "rank": 1,
+          "clue": "On this holiday, children in the US go trick-or-treating.",
+          "answer": "Halloween",
+          "alternates": []
+        },
+        {
+          "id": "l3d-custom-made-2",
+          "rank": 2,
+          "clue": "Groundhog Day falls in this month.",
+          "answer": "February",
+          "alternates": []
+        },
+        {
+          "id": "l3d-custom-made-3",
+          "rank": 3,
+          "clue": "In the US, Thanksgiving falls on the fourth Thursday of this month.",
+          "answer": "November",
+          "alternates": []
+        },
+        {
+          "id": "l3d-custom-made-4",
+          "rank": 4,
+          "clue": "In the UK, Boxing Day is celebrated on this date.",
+          "answer": "December 26",
+          "alternates": [
+            "Dec 26",
+            "26 December",
+            "December 26th"
+          ]
+        },
+        {
+          "id": "l3d-custom-made-5",
+          "rank": 5,
+          "clue": "In Lunar New Year tradition, red envelopes given to children contain this.",
+          "answer": "Money",
+          "alternates": [
+            "cash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-ring-it-in",
+      "name": "Ring It In",
+      "clues": [
+        {
+          "id": "l3d-ring-it-in-1",
+          "rank": 1,
+          "clue": "A famous ball drops at midnight on New Year's Eve in this New York City square.",
+          "answer": "Times Square",
+          "alternates": []
+        },
+        {
+          "id": "l3d-ring-it-in-2",
+          "rank": 2,
+          "clue": "The New Year's song 'Auld Lang Syne' comes from this country.",
+          "answer": "Scotland",
+          "alternates": []
+        },
+        {
+          "id": "l3d-ring-it-in-3",
+          "rank": 3,
+          "clue": "Rosh Hashanah is the new year in this religion.",
+          "answer": "Judaism",
+          "alternates": [
+            "Jewish"
+          ]
+        },
+        {
+          "id": "l3d-ring-it-in-4",
+          "rank": 4,
+          "clue": "In Spain, people eat one of this fruit at each stroke of midnight on New Year's Eve.",
+          "answer": "Grape",
+          "alternates": [
+            "grapes"
+          ]
+        },
+        {
+          "id": "l3d-ring-it-in-5",
+          "rank": 5,
+          "clue": "The Persian New Year, celebrated at the spring equinox, is called this.",
+          "answer": "Nowruz",
+          "alternates": [
+            "Norooz",
+            "Nowrouz",
+            "Navruz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-pun-intended",
+      "name": "Pun Intended",
+      "clues": [
+        {
+          "id": "l3d-pun-intended-1",
+          "rank": 1,
+          "clue": "Why did the scarecrow win an award? He was outstanding in his ___.",
+          "answer": "Field",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pun-intended-2",
+          "rank": 2,
+          "clue": "What do you call a fake noodle? An ___.",
+          "answer": "Impasta",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pun-intended-3",
+          "rank": 3,
+          "clue": "What did the ocean say to the beach? Nothing, it just ___.",
+          "answer": "Waved",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pun-intended-4",
+          "rank": 4,
+          "clue": "Why don't skeletons fight each other? They don't have the ___.",
+          "answer": "Guts",
+          "alternates": []
+        },
+        {
+          "id": "l3d-pun-intended-5",
+          "rank": 5,
+          "clue": "What do you call cheddar that belongs to someone else? ___ cheese.",
+          "answer": "Nacho",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-colorful-language",
+      "name": "Colorful Language",
+      "clues": [
+        {
+          "id": "l3d-colorful-language-1",
+          "rank": 1,
+          "clue": "Feeling sad is 'feeling' this color.",
+          "answer": "Blue",
+          "alternates": []
+        },
+        {
+          "id": "l3d-colorful-language-2",
+          "rank": 2,
+          "clue": "Jealous people are said to be this color 'with envy.'",
+          "answer": "Green",
+          "alternates": []
+        },
+        {
+          "id": "l3d-colorful-language-3",
+          "rank": 3,
+          "clue": "Someone caught in the act is caught this color '-handed.'",
+          "answer": "Red",
+          "alternates": []
+        },
+        {
+          "id": "l3d-colorful-language-4",
+          "rank": 4,
+          "clue": "A costly possession that's more trouble than it's worth is this color of elephant.",
+          "answer": "White",
+          "alternates": []
+        },
+        {
+          "id": "l3d-colorful-language-5",
+          "rank": 5,
+          "clue": "The family member who doesn't fit in is this color of sheep.",
+          "answer": "Black",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-raining-cats-dogs",
+      "name": "Raining Cats & Dogs",
+      "clues": [
+        {
+          "id": "l3d-raining-cats-dogs-1",
+          "rank": 1,
+          "clue": "Someone very hungry might say, 'I could eat a' this animal.",
+          "answer": "Horse",
+          "alternates": []
+        },
+        {
+          "id": "l3d-raining-cats-dogs-2",
+          "rank": 2,
+          "clue": "Someone cleverer than they seem is 'crazy like a' this animal.",
+          "answer": "Fox",
+          "alternates": []
+        },
+        {
+          "id": "l3d-raining-cats-dogs-3",
+          "rank": 3,
+          "clue": "Fake sorrow is called crocodile these.",
+          "answer": "Tears",
+          "alternates": []
+        },
+        {
+          "id": "l3d-raining-cats-dogs-4",
+          "rank": 4,
+          "clue": "An obvious problem no one wants to talk about is this animal 'in the room.'",
+          "answer": "Elephant",
+          "alternates": []
+        },
+        {
+          "id": "l3d-raining-cats-dogs-5",
+          "rank": 5,
+          "clue": "Something that personally annoys you is your 'pet' this.",
+          "answer": "Peeve",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-hablas-espanol",
+      "name": "Hablas Español?",
+      "clues": [
+        {
+          "id": "l3d-hablas-espanol-1",
+          "rank": 1,
+          "clue": "This Spanish word means 'friend.'",
+          "answer": "Amigo",
+          "alternates": [
+            "amiga"
+          ]
+        },
+        {
+          "id": "l3d-hablas-espanol-2",
+          "rank": 2,
+          "clue": "The Spanish word 'queso' means this food.",
+          "answer": "Cheese",
+          "alternates": []
+        },
+        {
+          "id": "l3d-hablas-espanol-3",
+          "rank": 3,
+          "clue": "This Spanish word names an afternoon nap.",
+          "answer": "Siesta",
+          "alternates": []
+        },
+        {
+          "id": "l3d-hablas-espanol-4",
+          "rank": 4,
+          "clue": "This Spanish word for 'tomorrow' is often used to mean 'some other time.'",
+          "answer": "Mañana",
+          "alternates": [
+            "manana"
+          ]
+        },
+        {
+          "id": "l3d-hablas-espanol-5",
+          "rank": 5,
+          "clue": "Don't confuse it with 'librería' (bookstore): this Spanish word means 'library.'",
+          "answer": "Biblioteca",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-lost-in-translation",
+      "name": "Lost in Translation",
+      "clues": [
+        {
+          "id": "l3d-lost-in-translation-1",
+          "rank": 1,
+          "clue": "This Japanese word names the art of folding paper.",
+          "answer": "Origami",
+          "alternates": []
+        },
+        {
+          "id": "l3d-lost-in-translation-2",
+          "rank": 2,
+          "clue": "This Japanese word meaning 'empty orchestra' names singing along to recorded music.",
+          "answer": "Karaoke",
+          "alternates": []
+        },
+        {
+          "id": "l3d-lost-in-translation-3",
+          "rank": 3,
+          "clue": "This Japanese word for 'harbor wave' names a giant sea wave caused by an undersea earthquake.",
+          "answer": "Tsunami",
+          "alternates": []
+        },
+        {
+          "id": "l3d-lost-in-translation-4",
+          "rank": 4,
+          "clue": "This Japanese word for 'picture character' names small digital icons like a smiley face.",
+          "answer": "Emoji",
+          "alternates": []
+        },
+        {
+          "id": "l3d-lost-in-translation-5",
+          "rank": 5,
+          "clue": "This Japanese word names a three-line poem of 5, 7, and 5 syllables.",
+          "answer": "Haiku",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-speaking-figuratively",
+      "name": "Speaking Figuratively",
+      "clues": [
+        {
+          "id": "l3d-speaking-figuratively-1",
+          "rank": 1,
+          "clue": "Words like 'buzz,' 'sizzle,' and 'pop' that imitate sounds are examples of this.",
+          "answer": "Onomatopoeia",
+          "alternates": []
+        },
+        {
+          "id": "l3d-speaking-figuratively-2",
+          "rank": 2,
+          "clue": "'Sally sells seashells' repeats the same starting sound, an example of this.",
+          "answer": "Alliteration",
+          "alternates": []
+        },
+        {
+          "id": "l3d-speaking-figuratively-3",
+          "rank": 3,
+          "clue": "This figure of speech compares two things using 'like' or 'as.'",
+          "answer": "Simile",
+          "alternates": []
+        },
+        {
+          "id": "l3d-speaking-figuratively-4",
+          "rank": 4,
+          "clue": "'Jumbo shrimp' and 'deafening silence' are examples of this contradictory phrase.",
+          "answer": "Oxymoron",
+          "alternates": []
+        },
+        {
+          "id": "l3d-speaking-figuratively-5",
+          "rank": 5,
+          "clue": "Giving human qualities to non-human things, as in 'the wind whispered,' is called this.",
+          "answer": "Personification",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-blend-in",
+      "name": "Blend In",
+      "clues": [
+        {
+          "id": "l3d-blend-in-1",
+          "rank": 1,
+          "clue": "This blended word combines breakfast and lunch.",
+          "answer": "Brunch",
+          "alternates": []
+        },
+        {
+          "id": "l3d-blend-in-2",
+          "rank": 2,
+          "clue": "This blended word combines smoke and fog.",
+          "answer": "Smog",
+          "alternates": []
+        },
+        {
+          "id": "l3d-blend-in-3",
+          "rank": 3,
+          "clue": "This blended word for a roadside inn combines motor and hotel.",
+          "answer": "Motel",
+          "alternates": []
+        },
+        {
+          "id": "l3d-blend-in-4",
+          "rank": 4,
+          "clue": "This blended word names a utensil that is part spoon, part fork.",
+          "answer": "Spork",
+          "alternates": []
+        },
+        {
+          "id": "l3d-blend-in-5",
+          "rank": 5,
+          "clue": "Lewis Carroll coined this word for a gleeful laugh by blending 'chuckle' and 'snort.'",
+          "answer": "Chortle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-name-that-word",
+      "name": "Name That Word",
+      "clues": [
+        {
+          "id": "l3d-name-that-word-1",
+          "rank": 1,
+          "clue": "This lunch item is named for an English earl said to eat meat between bread so he wouldn't leave his card game.",
+          "answer": "Sandwich",
+          "alternates": []
+        },
+        {
+          "id": "l3d-name-that-word-2",
+          "rank": 2,
+          "clue": "This button-up knit sweater is named for a British earl who led the Charge of the Light Brigade.",
+          "answer": "Cardigan",
+          "alternates": []
+        },
+        {
+          "id": "l3d-name-that-word-3",
+          "rank": 3,
+          "clue": "This one-piece garment worn by dancers and gymnasts is named for a French acrobat.",
+          "answer": "Leotard",
+          "alternates": []
+        },
+        {
+          "id": "l3d-name-that-word-4",
+          "rank": 4,
+          "clue": "Named for an Irish land agent shunned by his community in 1880, this word means refusing to deal with someone in protest.",
+          "answer": "Boycott",
+          "alternates": []
+        },
+        {
+          "id": "l3d-name-that-word-5",
+          "rank": 5,
+          "clue": "Named for a thrifty 18th-century French finance minister, this word describes a dark outline of a figure.",
+          "answer": "Silhouette",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-rise-and-dine",
+      "name": "Rise and Dine",
+      "clues": [
+        {
+          "id": "l3d-rise-and-dine-1",
+          "rank": 1,
+          "clue": "Bread dipped in egg and milk, then fried, is called this.",
+          "answer": "French toast",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rise-and-dine-2",
+          "rank": 2,
+          "clue": "Poached eggs on an English muffin with Canadian bacon and hollandaise sauce make this dish.",
+          "answer": "Eggs Benedict",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rise-and-dine-3",
+          "rank": 3,
+          "clue": "This Swiss breakfast of raw oats, nuts, and fruit is often soaked in milk.",
+          "answer": "Muesli",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rise-and-dine-4",
+          "rank": 4,
+          "clue": "This Italian egg dish is like an open-faced omelet, often finished in the oven.",
+          "answer": "Frittata",
+          "alternates": []
+        },
+        {
+          "id": "l3d-rise-and-dine-5",
+          "rank": 5,
+          "clue": "This North African and Middle Eastern dish features eggs poached in a spiced tomato sauce.",
+          "answer": "Shakshuka",
+          "alternates": [
+            "shakshouka"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-just-desserts",
+      "name": "Just Desserts",
+      "clues": [
+        {
+          "id": "l3d-just-desserts-1",
+          "rank": 1,
+          "clue": "This Italian frozen treat is similar to ice cream but denser.",
+          "answer": "Gelato",
+          "alternates": []
+        },
+        {
+          "id": "l3d-just-desserts-2",
+          "rank": 2,
+          "clue": "This Italian dessert layers coffee-soaked ladyfingers with mascarpone cream.",
+          "answer": "Tiramisu",
+          "alternates": []
+        },
+        {
+          "id": "l3d-just-desserts-3",
+          "rank": 3,
+          "clue": "This French custard has a hard top of caramelized sugar you crack with a spoon.",
+          "answer": "Crème brûlée",
+          "alternates": [
+            "creme brulee"
+          ]
+        },
+        {
+          "id": "l3d-just-desserts-4",
+          "rank": 4,
+          "clue": "This meringue dessert topped with fruit is named for a Russian ballerina.",
+          "answer": "Pavlova",
+          "alternates": []
+        },
+        {
+          "id": "l3d-just-desserts-5",
+          "rank": 5,
+          "clue": "These Sicilian tube-shaped pastry shells are filled with sweet ricotta.",
+          "answer": "Cannoli",
+          "alternates": [
+            "cannolo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3d-produce-section",
+      "name": "Produce Section",
+      "clues": [
+        {
+          "id": "l3d-produce-section-1",
+          "rank": 1,
+          "clue": "Dried grapes are called these.",
+          "answer": "Raisins",
+          "alternates": [
+            "raisin"
+          ]
+        },
+        {
+          "id": "l3d-produce-section-2",
+          "rank": 2,
+          "clue": "Dried plums are called these.",
+          "answer": "Prunes",
+          "alternates": [
+            "prune"
+          ]
+        },
+        {
+          "id": "l3d-produce-section-3",
+          "rank": 3,
+          "clue": "Botanically a fruit, this red item is usually treated as a vegetable in salads and sauces.",
+          "answer": "Tomato",
+          "alternates": [
+            "tomatoes"
+          ]
+        },
+        {
+          "id": "l3d-produce-section-4",
+          "rank": 4,
+          "clue": "Kiwifruit was once called the Chinese this.",
+          "answer": "Gooseberry",
+          "alternates": []
+        },
+        {
+          "id": "l3d-produce-section-5",
+          "rank": 5,
+          "clue": "This spiky Southeast Asian fruit is famous for its powerful smell.",
+          "answer": "Durian",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-herd-mentality",
+      "name": "Herd Mentality",
+      "clues": [
+        {
+          "id": "l3d-herd-mentality-1",
+          "rank": 1,
+          "clue": "A group of lions is called this.",
+          "answer": "Pride",
+          "alternates": []
+        },
+        {
+          "id": "l3d-herd-mentality-2",
+          "rank": 2,
+          "clue": "A group of fish swimming together is called this.",
+          "answer": "School",
+          "alternates": [
+            "shoal"
+          ]
+        },
+        {
+          "id": "l3d-herd-mentality-3",
+          "rank": 3,
+          "clue": "A group of geese on the ground is called this.",
+          "answer": "Gaggle",
+          "alternates": []
+        },
+        {
+          "id": "l3d-herd-mentality-4",
+          "rank": 4,
+          "clue": "A group of crows is spookily called this.",
+          "answer": "Murder",
+          "alternates": []
+        },
+        {
+          "id": "l3d-herd-mentality-5",
+          "rank": 5,
+          "clue": "A group of owls is called this, like a lawmaking body.",
+          "answer": "Parliament",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-fear-factor",
+      "name": "Fear Factor",
+      "clues": [
+        {
+          "id": "l3d-fear-factor-1",
+          "rank": 1,
+          "clue": "This is the fear of spiders.",
+          "answer": "Arachnophobia",
+          "alternates": []
+        },
+        {
+          "id": "l3d-fear-factor-2",
+          "rank": 2,
+          "clue": "This is the fear of enclosed spaces.",
+          "answer": "Claustrophobia",
+          "alternates": []
+        },
+        {
+          "id": "l3d-fear-factor-3",
+          "rank": 3,
+          "clue": "This is the fear of heights.",
+          "answer": "Acrophobia",
+          "alternates": []
+        },
+        {
+          "id": "l3d-fear-factor-4",
+          "rank": 4,
+          "clue": "This is the fear of open or crowded public places.",
+          "answer": "Agoraphobia",
+          "alternates": []
+        },
+        {
+          "id": "l3d-fear-factor-5",
+          "rank": 5,
+          "clue": "This is the fear of the number 13.",
+          "answer": "Triskaidekaphobia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-numeral-fixation",
+      "name": "Numeral Fixation",
+      "clues": [
+        {
+          "id": "l3d-numeral-fixation-1",
+          "rank": 1,
+          "clue": "The Roman numeral X equals this number.",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        },
+        {
+          "id": "l3d-numeral-fixation-2",
+          "rank": 2,
+          "clue": "The Roman numeral L equals this number.",
+          "answer": "50",
+          "alternates": [
+            "fifty"
+          ]
+        },
+        {
+          "id": "l3d-numeral-fixation-3",
+          "rank": 3,
+          "clue": "The Roman numeral MMXX stands for this year.",
+          "answer": "2020",
+          "alternates": []
+        },
+        {
+          "id": "l3d-numeral-fixation-4",
+          "rank": 4,
+          "clue": "These two Roman numeral letters stand for 400.",
+          "answer": "CD",
+          "alternates": []
+        },
+        {
+          "id": "l3d-numeral-fixation-5",
+          "rank": 5,
+          "clue": "The Roman numeral MCMXCIX stands for this year.",
+          "answer": "1999",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l3d-unit-pricing",
+      "name": "Unit Pricing",
+      "clues": [
+        {
+          "id": "l3d-unit-pricing-1",
+          "rank": 1,
+          "clue": "A dozen equals this many.",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        },
+        {
+          "id": "l3d-unit-pricing-2",
+          "rank": 2,
+          "clue": "A baker's dozen equals this many.",
+          "answer": "13",
+          "alternates": [
+            "thirteen"
+          ]
+        },
+        {
+          "id": "l3d-unit-pricing-3",
+          "rank": 3,
+          "clue": "A mile equals this many feet.",
+          "answer": "5280",
+          "alternates": [
+            "5,280"
+          ]
+        },
+        {
+          "id": "l3d-unit-pricing-4",
+          "rank": 4,
+          "clue": "A 'gross' equals this many items.",
+          "answer": "144",
+          "alternates": [
+            "one hundred forty-four"
+          ]
+        },
+        {
+          "id": "l3d-unit-pricing-5",
+          "rank": 5,
+          "clue": "Lincoln's 'four score' years equals this many.",
+          "answer": "80",
+          "alternates": [
+            "eighty"
+          ]
+        }
+      ]
+    }
+  ]
+}

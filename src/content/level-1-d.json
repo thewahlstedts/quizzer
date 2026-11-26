@@ -1,0 +1,2339 @@
+{
+  "level": 1,
+  "categories": [
+    {
+      "id": "l1d-missing-letters",
+      "name": "Missing Letters",
+      "clues": [
+        {
+          "id": "l1d-missing-letters-1",
+          "rank": 1,
+          "clue": "Fill in the missing letter to name a pet that barks: D_G",
+          "answer": "O",
+          "alternates": []
+        },
+        {
+          "id": "l1d-missing-letters-2",
+          "rank": 2,
+          "clue": "Fill in the missing letter to name the star in our daytime sky: S_N",
+          "answer": "U",
+          "alternates": []
+        },
+        {
+          "id": "l1d-missing-letters-3",
+          "rank": 3,
+          "clue": "Fill in the missing letter to name the thing you sleep in at night: B_D",
+          "answer": "E",
+          "alternates": []
+        },
+        {
+          "id": "l1d-missing-letters-4",
+          "rank": 4,
+          "clue": "Fill in the missing letter to name a crunchy red or green fruit: APP_E",
+          "answer": "L",
+          "alternates": []
+        },
+        {
+          "id": "l1d-missing-letters-5",
+          "rank": 5,
+          "clue": "Fill in the missing letter to name a long yellow fruit: BAN_NA",
+          "answer": "A",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-silent-treatment",
+      "name": "Silent Treatment",
+      "clues": [
+        {
+          "id": "l1d-silent-treatment-1",
+          "rank": 1,
+          "clue": "This letter is silent at the start of the word \"knee.\"",
+          "answer": "K",
+          "alternates": []
+        },
+        {
+          "id": "l1d-silent-treatment-2",
+          "rank": 2,
+          "clue": "This letter is silent at the start of the word \"write.\"",
+          "answer": "W",
+          "alternates": []
+        },
+        {
+          "id": "l1d-silent-treatment-3",
+          "rank": 3,
+          "clue": "This letter is silent at the end of the word \"lamb.\"",
+          "answer": "B",
+          "alternates": []
+        },
+        {
+          "id": "l1d-silent-treatment-4",
+          "rank": 4,
+          "clue": "This letter is silent at the start of the word \"hour.\"",
+          "answer": "H",
+          "alternates": []
+        },
+        {
+          "id": "l1d-silent-treatment-5",
+          "rank": 5,
+          "clue": "This letter is silent in the middle of the word \"island.\"",
+          "answer": "S",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-now-i-know-my-abcs",
+      "name": "Now I Know My ABCs",
+      "clues": [
+        {
+          "id": "l1d-now-i-know-my-abcs-1",
+          "rank": 1,
+          "clue": "This is the very first letter of the alphabet.",
+          "answer": "A",
+          "alternates": []
+        },
+        {
+          "id": "l1d-now-i-know-my-abcs-2",
+          "rank": 2,
+          "clue": "This is the very last letter of the alphabet.",
+          "answer": "Z",
+          "alternates": []
+        },
+        {
+          "id": "l1d-now-i-know-my-abcs-3",
+          "rank": 3,
+          "clue": "This letter comes right after Q in the alphabet.",
+          "answer": "R",
+          "alternates": []
+        },
+        {
+          "id": "l1d-now-i-know-my-abcs-4",
+          "rank": 4,
+          "clue": "The five vowels are A, E, I, O, and this one.",
+          "answer": "U",
+          "alternates": []
+        },
+        {
+          "id": "l1d-now-i-know-my-abcs-5",
+          "rank": 5,
+          "clue": "There are this many letters in the English alphabet.",
+          "answer": "26",
+          "alternates": [
+            "twenty-six",
+            "twenty six"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-synonym-rolls",
+      "name": "Synonym Rolls",
+      "clues": [
+        {
+          "id": "l1d-synonym-rolls-1",
+          "rank": 1,
+          "clue": "This word starting with L means the same as \"big.\"",
+          "answer": "Large",
+          "alternates": []
+        },
+        {
+          "id": "l1d-synonym-rolls-2",
+          "rank": 2,
+          "clue": "This word starting with H means the same as \"glad.\"",
+          "answer": "Happy",
+          "alternates": []
+        },
+        {
+          "id": "l1d-synonym-rolls-3",
+          "rank": 3,
+          "clue": "This word starting with S means the same as \"unhappy.\"",
+          "answer": "Sad",
+          "alternates": []
+        },
+        {
+          "id": "l1d-synonym-rolls-4",
+          "rank": 4,
+          "clue": "This word starting with T means the same as \"very small.\"",
+          "answer": "Tiny",
+          "alternates": []
+        },
+        {
+          "id": "l1d-synonym-rolls-5",
+          "rank": 5,
+          "clue": "This word starting with Q means the same as \"fast.\"",
+          "answer": "Quick",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-flip-side",
+      "name": "Flip Side",
+      "clues": [
+        {
+          "id": "l1d-flip-side-1",
+          "rank": 1,
+          "clue": "This is the opposite of yes.",
+          "answer": "No",
+          "alternates": [
+            "nope"
+          ]
+        },
+        {
+          "id": "l1d-flip-side-2",
+          "rank": 2,
+          "clue": "This is the opposite of big.",
+          "answer": "Small",
+          "alternates": [
+            "little"
+          ]
+        },
+        {
+          "id": "l1d-flip-side-3",
+          "rank": 3,
+          "clue": "This is the opposite of open.",
+          "answer": "Closed",
+          "alternates": [
+            "shut",
+            "close"
+          ]
+        },
+        {
+          "id": "l1d-flip-side-4",
+          "rank": 4,
+          "clue": "This is the opposite of asleep.",
+          "answer": "Awake",
+          "alternates": []
+        },
+        {
+          "id": "l1d-flip-side-5",
+          "rank": 5,
+          "clue": "This is the opposite of whisper.",
+          "answer": "Shout",
+          "alternates": [
+            "yell",
+            "scream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-opposite-day",
+      "name": "Opposite Day",
+      "clues": [
+        {
+          "id": "l1d-opposite-day-1",
+          "rank": 1,
+          "clue": "This is the opposite of push.",
+          "answer": "Pull",
+          "alternates": []
+        },
+        {
+          "id": "l1d-opposite-day-2",
+          "rank": 2,
+          "clue": "This is the opposite of left.",
+          "answer": "Right",
+          "alternates": []
+        },
+        {
+          "id": "l1d-opposite-day-3",
+          "rank": 3,
+          "clue": "This is the opposite of win.",
+          "answer": "Lose",
+          "alternates": []
+        },
+        {
+          "id": "l1d-opposite-day-4",
+          "rank": 4,
+          "clue": "This is the opposite of early.",
+          "answer": "Late",
+          "alternates": []
+        },
+        {
+          "id": "l1d-opposite-day-5",
+          "rank": 5,
+          "clue": "This is the opposite of shallow.",
+          "answer": "Deep",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-compound-interest",
+      "name": "Compound Interest",
+      "clues": [
+        {
+          "id": "l1d-compound-interest-1",
+          "rank": 1,
+          "clue": "Join \"cup\" and \"cake\" to name this small frosted treat.",
+          "answer": "Cupcake",
+          "alternates": [
+            "cupcakes"
+          ]
+        },
+        {
+          "id": "l1d-compound-interest-2",
+          "rank": 2,
+          "clue": "Join \"snow\" and \"man\" to name this frosty figure you build in winter.",
+          "answer": "Snowman",
+          "alternates": []
+        },
+        {
+          "id": "l1d-compound-interest-3",
+          "rank": 3,
+          "clue": "Join \"sand\" and \"box\" to name this place where kids dig and build in a playground.",
+          "answer": "Sandbox",
+          "alternates": []
+        },
+        {
+          "id": "l1d-compound-interest-4",
+          "rank": 4,
+          "clue": "Join \"rain\" and \"coat\" to name this jacket that keeps you dry in a storm.",
+          "answer": "Raincoat",
+          "alternates": []
+        },
+        {
+          "id": "l1d-compound-interest-5",
+          "rank": 5,
+          "clue": "Join \"star\" and \"fish\" to name this sea creature that often has five arms.",
+          "answer": "Starfish",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-rhyme-and-reason",
+      "name": "Rhyme and Reason",
+      "clues": [
+        {
+          "id": "l1d-rhyme-and-reason-1",
+          "rank": 1,
+          "clue": "It rhymes with \"bake,\" and you blow out candles on it at a birthday party.",
+          "answer": "Cake",
+          "alternates": []
+        },
+        {
+          "id": "l1d-rhyme-and-reason-2",
+          "rank": 2,
+          "clue": "It rhymes with \"red,\" and you ride it down a snowy hill.",
+          "answer": "Sled",
+          "alternates": []
+        },
+        {
+          "id": "l1d-rhyme-and-reason-3",
+          "rank": 3,
+          "clue": "It rhymes with \"chair,\" and it is a big furry animal that loves honey.",
+          "answer": "Bear",
+          "alternates": []
+        },
+        {
+          "id": "l1d-rhyme-and-reason-4",
+          "rank": 4,
+          "clue": "It rhymes with \"house,\" and it is a small squeaky animal that loves cheese.",
+          "answer": "Mouse",
+          "alternates": []
+        },
+        {
+          "id": "l1d-rhyme-and-reason-5",
+          "rank": 5,
+          "clue": "It rhymes with \"goose,\" and it is a large animal with wide antlers.",
+          "answer": "Moose",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-hink-pinks",
+      "name": "Hink Pinks",
+      "clues": [
+        {
+          "id": "l1d-hink-pinks-1",
+          "rank": 1,
+          "clue": "Two rhyming words: a chubby kitty.",
+          "answer": "Fat cat",
+          "alternates": []
+        },
+        {
+          "id": "l1d-hink-pinks-2",
+          "rank": 2,
+          "clue": "Two rhyming words: a large hog.",
+          "answer": "Big pig",
+          "alternates": []
+        },
+        {
+          "id": "l1d-hink-pinks-3",
+          "rank": 3,
+          "clue": "Two rhyming words: a happy father.",
+          "answer": "Glad dad",
+          "alternates": []
+        },
+        {
+          "id": "l1d-hink-pinks-4",
+          "rank": 4,
+          "clue": "Two rhyming words: a silly rabbit.",
+          "answer": "Funny bunny",
+          "alternates": []
+        },
+        {
+          "id": "l1d-hink-pinks-5",
+          "rank": 5,
+          "clue": "Two rhyming words: a noisy group of people.",
+          "answer": "Loud crowd",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-kitchen-gadgets",
+      "name": "Kitchen Gadgets",
+      "clues": [
+        {
+          "id": "l1d-kitchen-gadgets-1",
+          "rank": 1,
+          "clue": "This kitchen machine turns slices of bread warm and crunchy.",
+          "answer": "Toaster",
+          "alternates": []
+        },
+        {
+          "id": "l1d-kitchen-gadgets-2",
+          "rank": 2,
+          "clue": "You flip pancakes with this flat kitchen tool.",
+          "answer": "Spatula",
+          "alternates": []
+        },
+        {
+          "id": "l1d-kitchen-gadgets-3",
+          "rank": 3,
+          "clue": "You roll cookie dough flat with this kitchen tool.",
+          "answer": "Rolling pin",
+          "alternates": []
+        },
+        {
+          "id": "l1d-kitchen-gadgets-4",
+          "rank": 4,
+          "clue": "This big spoon with a deep cup and long handle is used to serve soup.",
+          "answer": "Ladle",
+          "alternates": []
+        },
+        {
+          "id": "l1d-kitchen-gadgets-5",
+          "rank": 5,
+          "clue": "This bowl full of holes drains the water from cooked pasta.",
+          "answer": "Colander",
+          "alternates": [
+            "strainer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-breakfast-club",
+      "name": "Breakfast Club",
+      "clues": [
+        {
+          "id": "l1d-breakfast-club-1",
+          "rank": 1,
+          "clue": "You crack these open, then scramble, fry, or boil them.",
+          "answer": "Eggs",
+          "alternates": [
+            "egg"
+          ]
+        },
+        {
+          "id": "l1d-breakfast-club-2",
+          "rank": 2,
+          "clue": "These round, flat cakes are cooked on a griddle and covered in syrup.",
+          "answer": "Pancakes",
+          "alternates": [
+            "pancake",
+            "hotcakes",
+            "flapjacks"
+          ]
+        },
+        {
+          "id": "l1d-breakfast-club-3",
+          "rank": 3,
+          "clue": "This breakfast food has little square pockets that hold syrup.",
+          "answer": "Waffles",
+          "alternates": [
+            "waffle"
+          ]
+        },
+        {
+          "id": "l1d-breakfast-club-4",
+          "rank": 4,
+          "clue": "The sweet syrup poured on pancakes is made from the sap of this kind of tree.",
+          "answer": "Maple",
+          "alternates": [
+            "maple tree"
+          ]
+        },
+        {
+          "id": "l1d-breakfast-club-5",
+          "rank": 5,
+          "clue": "This egg dish is cooked flat in a pan and folded around fillings like cheese.",
+          "answer": "Omelet",
+          "alternates": [
+            "omelette"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-sweet-tooth",
+      "name": "Sweet Tooth",
+      "clues": [
+        {
+          "id": "l1d-sweet-tooth-1",
+          "rank": 1,
+          "clue": "This frozen treat is scooped onto a cone.",
+          "answer": "Ice cream",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sweet-tooth-2",
+          "rank": 2,
+          "clue": "Chocolate chip is a famous kind of this baked treat.",
+          "answer": "Cookie",
+          "alternates": [
+            "cookies"
+          ]
+        },
+        {
+          "id": "l1d-sweet-tooth-3",
+          "rank": 3,
+          "clue": "Apple and cherry are kinds of this dessert baked in a crust.",
+          "answer": "Pie",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sweet-tooth-4",
+          "rank": 4,
+          "clue": "This chewy chocolate treat is baked in a pan and cut into squares.",
+          "answer": "Brownie",
+          "alternates": [
+            "brownies"
+          ]
+        },
+        {
+          "id": "l1d-sweet-tooth-5",
+          "rank": 5,
+          "clue": "This fluffy pink or blue candy is spun from sugar at fairs.",
+          "answer": "Cotton candy",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-eat-your-veggies",
+      "name": "Eat Your Veggies",
+      "clues": [
+        {
+          "id": "l1d-eat-your-veggies-1",
+          "rank": 1,
+          "clue": "This crunchy orange vegetable is a favorite snack of rabbits.",
+          "answer": "Carrot",
+          "alternates": [
+            "carrots"
+          ]
+        },
+        {
+          "id": "l1d-eat-your-veggies-2",
+          "rank": 2,
+          "clue": "This green vegetable looks like a tiny tree.",
+          "answer": "Broccoli",
+          "alternates": []
+        },
+        {
+          "id": "l1d-eat-your-veggies-3",
+          "rank": 3,
+          "clue": "These tiny round green vegetables grow inside pods.",
+          "answer": "Peas",
+          "alternates": [
+            "pea"
+          ]
+        },
+        {
+          "id": "l1d-eat-your-veggies-4",
+          "rank": 4,
+          "clue": "This vegetable can make your eyes water when you cut it.",
+          "answer": "Onion",
+          "alternates": [
+            "onions"
+          ]
+        },
+        {
+          "id": "l1d-eat-your-veggies-5",
+          "rank": 5,
+          "clue": "The cartoon sailor Popeye gets super strong by eating this leafy green.",
+          "answer": "Spinach",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-fruit-salad",
+      "name": "Fruit Salad",
+      "clues": [
+        {
+          "id": "l1d-fruit-salad-1",
+          "rank": 1,
+          "clue": "\"One a day keeps the doctor away\" is said about this crunchy fruit.",
+          "answer": "Apple",
+          "alternates": [
+            "apples"
+          ]
+        },
+        {
+          "id": "l1d-fruit-salad-2",
+          "rank": 2,
+          "clue": "This sour yellow fruit is squeezed to make lemonade.",
+          "answer": "Lemon",
+          "alternates": [
+            "lemons"
+          ]
+        },
+        {
+          "id": "l1d-fruit-salad-3",
+          "rank": 3,
+          "clue": "These small round fruits grow in bunches on vines.",
+          "answer": "Grapes",
+          "alternates": [
+            "grape"
+          ]
+        },
+        {
+          "id": "l1d-fruit-salad-4",
+          "rank": 4,
+          "clue": "This big fruit is green on the outside and juicy red on the inside.",
+          "answer": "Watermelon",
+          "alternates": []
+        },
+        {
+          "id": "l1d-fruit-salad-5",
+          "rank": 5,
+          "clue": "This spiky tropical fruit has a crown of leaves on top.",
+          "answer": "Pineapple",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-cooking-class",
+      "name": "Cooking Class",
+      "clues": [
+        {
+          "id": "l1d-cooking-class-1",
+          "rank": 1,
+          "clue": "To cook a cake or cookies in the oven is to do this.",
+          "answer": "Bake",
+          "alternates": [
+            "baking"
+          ]
+        },
+        {
+          "id": "l1d-cooking-class-2",
+          "rank": 2,
+          "clue": "To heat water until it bubbles is to do this.",
+          "answer": "Boil",
+          "alternates": [
+            "boiling"
+          ]
+        },
+        {
+          "id": "l1d-cooking-class-3",
+          "rank": 3,
+          "clue": "To cook food in a pan of hot oil is to do this.",
+          "answer": "Fry",
+          "alternates": [
+            "frying"
+          ]
+        },
+        {
+          "id": "l1d-cooking-class-4",
+          "rank": 4,
+          "clue": "To cook burgers on metal bars over a fire is to do this.",
+          "answer": "Grill",
+          "alternates": [
+            "grilling",
+            "barbecue",
+            "bbq"
+          ]
+        },
+        {
+          "id": "l1d-cooking-class-5",
+          "rank": 5,
+          "clue": "To cut food into small pieces with a knife is to do this; it rhymes with \"shop.\"",
+          "answer": "Chop",
+          "alternates": [
+            "chopping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-snack-attack",
+      "name": "Snack Attack",
+      "clues": [
+        {
+          "id": "l1d-snack-attack-1",
+          "rank": 1,
+          "clue": "This fluffy snack pops in the microwave or on the stove.",
+          "answer": "Popcorn",
+          "alternates": []
+        },
+        {
+          "id": "l1d-snack-attack-2",
+          "rank": 2,
+          "clue": "These salty baked snacks are often twisted into a knot.",
+          "answer": "Pretzels",
+          "alternates": [
+            "pretzel"
+          ]
+        },
+        {
+          "id": "l1d-snack-attack-3",
+          "rank": 3,
+          "clue": "These thin, crunchy slices of fried potato come in a bag.",
+          "answer": "Potato chips",
+          "alternates": [
+            "chips",
+            "crisps",
+            "potato chip"
+          ]
+        },
+        {
+          "id": "l1d-snack-attack-4",
+          "rank": 4,
+          "clue": "Peanut butter and this sweet fruit spread make a classic sandwich.",
+          "answer": "Jelly",
+          "alternates": [
+            "jam"
+          ]
+        },
+        {
+          "id": "l1d-snack-attack-5",
+          "rank": 5,
+          "clue": "\"Ants on a log\" is celery with peanut butter topped with these dried fruits.",
+          "answer": "Raisins",
+          "alternates": [
+            "raisin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-moo-ve-over",
+      "name": "Moo-ve Over",
+      "clues": [
+        {
+          "id": "l1d-moo-ve-over-1",
+          "rank": 1,
+          "clue": "Cows give us this white drink.",
+          "answer": "Milk",
+          "alternates": []
+        },
+        {
+          "id": "l1d-moo-ve-over-2",
+          "rank": 2,
+          "clue": "Cheddar is a kind of this dairy food.",
+          "answer": "Cheese",
+          "alternates": []
+        },
+        {
+          "id": "l1d-moo-ve-over-3",
+          "rank": 3,
+          "clue": "This yellow spread for toast is made by churning cream.",
+          "answer": "Butter",
+          "alternates": []
+        },
+        {
+          "id": "l1d-moo-ve-over-4",
+          "rank": 4,
+          "clue": "This creamy, tangy dairy food is often eaten with fruit or granola.",
+          "answer": "Yogurt",
+          "alternates": [
+            "yoghurt"
+          ]
+        },
+        {
+          "id": "l1d-moo-ve-over-5",
+          "rank": 5,
+          "clue": "This kind of cheese, famous for its holes, shares its name with a country in Europe.",
+          "answer": "Swiss",
+          "alternates": [
+            "swiss cheese"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-seasons-greetings",
+      "name": "Weather the Seasons",
+      "clues": [
+        {
+          "id": "l1d-seasons-greetings-1",
+          "rank": 1,
+          "clue": "There are this many seasons in a year.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l1d-seasons-greetings-2",
+          "rank": 2,
+          "clue": "This hottest season is when many kids have a break from school.",
+          "answer": "Summer",
+          "alternates": []
+        },
+        {
+          "id": "l1d-seasons-greetings-3",
+          "rank": 3,
+          "clue": "In this season, many trees drop their colorful leaves.",
+          "answer": "Fall",
+          "alternates": [
+            "Autumn"
+          ]
+        },
+        {
+          "id": "l1d-seasons-greetings-4",
+          "rank": 4,
+          "clue": "In this season, leaves turn red and orange and drop from the trees.",
+          "answer": "Autumn",
+          "alternates": [
+            "fall"
+          ]
+        },
+        {
+          "id": "l1d-seasons-greetings-5",
+          "rank": 5,
+          "clue": "In the northern half of the world, this coldest season begins in December.",
+          "answer": "Winter",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-holiday-cheer",
+      "name": "Holiday Cheer",
+      "clues": [
+        {
+          "id": "l1d-holiday-cheer-1",
+          "rank": 1,
+          "clue": "Santa Claus brings presents on this December holiday.",
+          "answer": "Christmas",
+          "alternates": [
+            "xmas",
+            "christmas day"
+          ]
+        },
+        {
+          "id": "l1d-holiday-cheer-2",
+          "rank": 2,
+          "clue": "Kids hunt for colorful eggs on this spring holiday.",
+          "answer": "Easter",
+          "alternates": []
+        },
+        {
+          "id": "l1d-holiday-cheer-3",
+          "rank": 3,
+          "clue": "On this night, people count down to midnight on December 31st.",
+          "answer": "New Year's Eve",
+          "alternates": [
+            "new years eve",
+            "new years",
+            "new year's"
+          ]
+        },
+        {
+          "id": "l1d-holiday-cheer-4",
+          "rank": 4,
+          "clue": "People wear green and look for shamrocks on this March holiday.",
+          "answer": "St. Patrick's Day",
+          "alternates": [
+            "saint patrick's day",
+            "st patricks day",
+            "saint patricks day",
+            "st paddys day"
+          ]
+        },
+        {
+          "id": "l1d-holiday-cheer-5",
+          "rank": 5,
+          "clue": "On this Jewish holiday, families light candles for eight nights.",
+          "answer": "Hanukkah",
+          "alternates": [
+            "chanukah",
+            "hanukah",
+            "chanukkah"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-holiday-helpers",
+      "name": "Holiday Helpers",
+      "clues": [
+        {
+          "id": "l1d-holiday-helpers-1",
+          "rank": 1,
+          "clue": "On Halloween, people carve spooky faces into this big orange fruit.",
+          "answer": "Pumpkin",
+          "alternates": [
+            "pumpkins",
+            "jack-o'-lantern"
+          ]
+        },
+        {
+          "id": "l1d-holiday-helpers-2",
+          "rank": 2,
+          "clue": "This reindeer's shiny red nose helps guide Santa's sleigh.",
+          "answer": "Rudolph",
+          "alternates": []
+        },
+        {
+          "id": "l1d-holiday-helpers-3",
+          "rank": 3,
+          "clue": "This long-eared character is said to hide eggs and bring baskets of candy in spring.",
+          "answer": "Easter Bunny",
+          "alternates": [
+            "bunny",
+            "easter rabbit"
+          ]
+        },
+        {
+          "id": "l1d-holiday-helpers-4",
+          "rank": 4,
+          "clue": "This winged boy with a bow and arrow is a symbol of Valentine's Day.",
+          "answer": "Cupid",
+          "alternates": []
+        },
+        {
+          "id": "l1d-holiday-helpers-5",
+          "rank": 5,
+          "clue": "This little fairy from Irish stories, dressed in green, hides a pot of gold.",
+          "answer": "Leprechaun",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-count-on-it",
+      "name": "Count On It",
+      "clues": [
+        {
+          "id": "l1d-count-on-it-1",
+          "rank": 1,
+          "clue": "What is 5 plus 5?",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        },
+        {
+          "id": "l1d-count-on-it-2",
+          "rank": 2,
+          "clue": "Count by tens: 10, 20, 30. What number comes next?",
+          "answer": "40",
+          "alternates": [
+            "forty"
+          ]
+        },
+        {
+          "id": "l1d-count-on-it-3",
+          "rank": 3,
+          "clue": "What is 9 plus 9?",
+          "answer": "18",
+          "alternates": [
+            "eighteen"
+          ]
+        },
+        {
+          "id": "l1d-count-on-it-4",
+          "rank": 4,
+          "clue": "What is 15 minus 4?",
+          "answer": "11",
+          "alternates": [
+            "eleven"
+          ]
+        },
+        {
+          "id": "l1d-count-on-it-5",
+          "rank": 5,
+          "clue": "What number is half of 50?",
+          "answer": "25",
+          "alternates": [
+            "twenty-five",
+            "twenty five"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-number-crunch",
+      "name": "Number Crunch",
+      "clues": [
+        {
+          "id": "l1d-number-crunch-1",
+          "rank": 1,
+          "clue": "What is 11 plus 11?",
+          "answer": "22",
+          "alternates": [
+            "twenty-two",
+            "twenty two"
+          ]
+        },
+        {
+          "id": "l1d-number-crunch-2",
+          "rank": 2,
+          "clue": "What is 100 minus 1?",
+          "answer": "99",
+          "alternates": [
+            "ninety-nine",
+            "ninety nine"
+          ]
+        },
+        {
+          "id": "l1d-number-crunch-3",
+          "rank": 3,
+          "clue": "What is 6 plus 7?",
+          "answer": "13",
+          "alternates": [
+            "thirteen"
+          ]
+        },
+        {
+          "id": "l1d-number-crunch-4",
+          "rank": 4,
+          "clue": "What is 4 times 5?",
+          "answer": "20",
+          "alternates": [
+            "twenty"
+          ]
+        },
+        {
+          "id": "l1d-number-crunch-5",
+          "rank": 5,
+          "clue": "What is 7 times 8?",
+          "answer": "56",
+          "alternates": [
+            "fifty-six",
+            "fifty six"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-math-talk",
+      "name": "Math Talk",
+      "clues": [
+        {
+          "id": "l1d-math-talk-1",
+          "rank": 1,
+          "clue": "This number means none at all.",
+          "answer": "Zero",
+          "alternates": [
+            "0"
+          ]
+        },
+        {
+          "id": "l1d-math-talk-2",
+          "rank": 2,
+          "clue": "The sign that looks like a little cross (+) is called this.",
+          "answer": "Plus",
+          "alternates": [
+            "plus sign",
+            "addition sign"
+          ]
+        },
+        {
+          "id": "l1d-math-talk-3",
+          "rank": 3,
+          "clue": "When you cut something into two equal parts, each part is called this.",
+          "answer": "Half",
+          "alternates": [
+            "one half",
+            "1/2",
+            "a half"
+          ]
+        },
+        {
+          "id": "l1d-math-talk-4",
+          "rank": 4,
+          "clue": "Numbers like 2, 4, 6, and 8 that can be split into two equal groups are called this.",
+          "answer": "Even",
+          "alternates": [
+            "even numbers"
+          ]
+        },
+        {
+          "id": "l1d-math-talk-5",
+          "rank": 5,
+          "clue": "The answer you get when you add numbers together is called this.",
+          "answer": "Sum",
+          "alternates": [
+            "total"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-clock-watchers",
+      "name": "Clock Watchers",
+      "clues": [
+        {
+          "id": "l1d-clock-watchers-1",
+          "rank": 1,
+          "clue": "There are this many hours in one day.",
+          "answer": "24",
+          "alternates": [
+            "twenty-four",
+            "twenty four"
+          ]
+        },
+        {
+          "id": "l1d-clock-watchers-2",
+          "rank": 2,
+          "clue": "When a clock reads 12:00 in the middle of the day, it is called this.",
+          "answer": "Noon",
+          "alternates": [
+            "midday"
+          ]
+        },
+        {
+          "id": "l1d-clock-watchers-3",
+          "rank": 3,
+          "clue": "When a clock reads 12:00 in the middle of the night, it is called this.",
+          "answer": "Midnight",
+          "alternates": []
+        },
+        {
+          "id": "l1d-clock-watchers-4",
+          "rank": 4,
+          "clue": "A quarter of an hour is this many minutes.",
+          "answer": "15",
+          "alternates": [
+            "fifteen"
+          ]
+        },
+        {
+          "id": "l1d-clock-watchers-5",
+          "rank": 5,
+          "clue": "\"AM\" means morning; these two letters mean afternoon or evening.",
+          "answer": "PM",
+          "alternates": [
+            "p.m."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-mark-your-calendar",
+      "name": "Mark Your Calendar",
+      "clues": [
+        {
+          "id": "l1d-mark-your-calendar-1",
+          "rank": 1,
+          "clue": "This is the first month of the year.",
+          "answer": "January",
+          "alternates": []
+        },
+        {
+          "id": "l1d-mark-your-calendar-2",
+          "rank": 2,
+          "clue": "This month comes right after March.",
+          "answer": "April",
+          "alternates": []
+        },
+        {
+          "id": "l1d-mark-your-calendar-3",
+          "rank": 3,
+          "clue": "This shortest month usually has just 28 days.",
+          "answer": "February",
+          "alternates": []
+        },
+        {
+          "id": "l1d-mark-your-calendar-4",
+          "rank": 4,
+          "clue": "A regular year has this many days.",
+          "answer": "365",
+          "alternates": [
+            "three hundred sixty-five",
+            "three hundred sixty five"
+          ]
+        },
+        {
+          "id": "l1d-mark-your-calendar-5",
+          "rank": 5,
+          "clue": "In this kind of year, which usually comes every four years, February gets a 29th day.",
+          "answer": "Leap year",
+          "alternates": [
+            "leap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-weekday-warriors",
+      "name": "Weekday Warriors",
+      "clues": [
+        {
+          "id": "l1d-weekday-warriors-1",
+          "rank": 1,
+          "clue": "This day of the week comes right after Monday.",
+          "answer": "Tuesday",
+          "alternates": []
+        },
+        {
+          "id": "l1d-weekday-warriors-2",
+          "rank": 2,
+          "clue": "This is the last day of the usual school week.",
+          "answer": "Friday",
+          "alternates": []
+        },
+        {
+          "id": "l1d-weekday-warriors-3",
+          "rank": 3,
+          "clue": "This is the day right before Monday.",
+          "answer": "Sunday",
+          "alternates": []
+        },
+        {
+          "id": "l1d-weekday-warriors-4",
+          "rank": 4,
+          "clue": "This day is often nicknamed \"hump day\" because it is in the middle of the week.",
+          "answer": "Wednesday",
+          "alternates": []
+        },
+        {
+          "id": "l1d-weekday-warriors-5",
+          "rank": 5,
+          "clue": "This day of the week is named after the planet Saturn.",
+          "answer": "Saturday",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-money-talks",
+      "name": "Money Talks",
+      "clues": [
+        {
+          "id": "l1d-money-talks-1",
+          "rank": 1,
+          "clue": "This copper-colored US coin is worth one cent.",
+          "answer": "Penny",
+          "alternates": [
+            "pennies"
+          ]
+        },
+        {
+          "id": "l1d-money-talks-2",
+          "rank": 2,
+          "clue": "This US coin is worth five cents.",
+          "answer": "Nickel",
+          "alternates": []
+        },
+        {
+          "id": "l1d-money-talks-3",
+          "rank": 3,
+          "clue": "This US coin is the smallest in size but is worth ten cents.",
+          "answer": "Dime",
+          "alternates": []
+        },
+        {
+          "id": "l1d-money-talks-4",
+          "rank": 4,
+          "clue": "This US coin is worth 25 cents.",
+          "answer": "Quarter",
+          "alternates": []
+        },
+        {
+          "id": "l1d-money-talks-5",
+          "rank": 5,
+          "clue": "Four quarters add up to this amount of money.",
+          "answer": "One dollar",
+          "alternates": [
+            "dollar",
+            "1 dollar",
+            "$1",
+            "a dollar",
+            "100 cents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-cha-ching",
+      "name": "Cha-Ching",
+      "clues": [
+        {
+          "id": "l1d-cha-ching-1",
+          "rank": 1,
+          "clue": "You can save your coins in this pig-shaped bank.",
+          "answer": "Piggy bank",
+          "alternates": [
+            "piggybank"
+          ]
+        },
+        {
+          "id": "l1d-cha-ching-2",
+          "rank": 2,
+          "clue": "If you pay more than something costs, the money you get back is called this.",
+          "answer": "Change",
+          "alternates": []
+        },
+        {
+          "id": "l1d-cha-ching-3",
+          "rank": 3,
+          "clue": "At a store, this worker at the register takes your money.",
+          "answer": "Cashier",
+          "alternates": []
+        },
+        {
+          "id": "l1d-cha-ching-4",
+          "rank": 4,
+          "clue": "Money that kids get each week, often for doing chores, is called this.",
+          "answer": "Allowance",
+          "alternates": []
+        },
+        {
+          "id": "l1d-cha-ching-5",
+          "rank": 5,
+          "clue": "This first US president appears on the one-dollar bill.",
+          "answer": "George Washington",
+          "alternates": [
+            "washington"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-home-sweet-home",
+      "name": "House Rules",
+      "clues": [
+        {
+          "id": "l1d-home-sweet-home-1",
+          "rank": 1,
+          "clue": "You sleep in this at night.",
+          "answer": "Bed",
+          "alternates": []
+        },
+        {
+          "id": "l1d-home-sweet-home-2",
+          "rank": 2,
+          "clue": "You switch on this to light up a dark corner of a room.",
+          "answer": "Lamp",
+          "alternates": [
+            "light"
+          ]
+        },
+        {
+          "id": "l1d-home-sweet-home-3",
+          "rank": 3,
+          "clue": "You look into this glass to see your reflection.",
+          "answer": "Mirror",
+          "alternates": []
+        },
+        {
+          "id": "l1d-home-sweet-home-4",
+          "rank": 4,
+          "clue": "This cold kitchen box keeps milk and food fresh.",
+          "answer": "Refrigerator",
+          "alternates": [
+            "fridge",
+            "icebox"
+          ]
+        },
+        {
+          "id": "l1d-home-sweet-home-5",
+          "rank": 5,
+          "clue": "Dirty clothes go round and round in soapy water in this machine.",
+          "answer": "Washing machine",
+          "alternates": [
+            "washer",
+            "clothes washer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-room-service",
+      "name": "Room Service",
+      "clues": [
+        {
+          "id": "l1d-room-service-1",
+          "rank": 1,
+          "clue": "You cook dinner in this room.",
+          "answer": "Kitchen",
+          "alternates": []
+        },
+        {
+          "id": "l1d-room-service-2",
+          "rank": 2,
+          "clue": "You take a bath in this room.",
+          "answer": "Bathroom",
+          "alternates": []
+        },
+        {
+          "id": "l1d-room-service-3",
+          "rank": 3,
+          "clue": "You sleep in this room.",
+          "answer": "Bedroom",
+          "alternates": []
+        },
+        {
+          "id": "l1d-room-service-4",
+          "rank": 4,
+          "clue": "A family car is often parked in this part of a house.",
+          "answer": "Garage",
+          "alternates": []
+        },
+        {
+          "id": "l1d-room-service-5",
+          "rank": 5,
+          "clue": "This room at the very top of a house, under the roof, often holds old boxes.",
+          "answer": "Attic",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-tool-time",
+      "name": "Tool Time",
+      "clues": [
+        {
+          "id": "l1d-tool-time-1",
+          "rank": 1,
+          "clue": "You pound nails with this tool.",
+          "answer": "Hammer",
+          "alternates": []
+        },
+        {
+          "id": "l1d-tool-time-2",
+          "rank": 2,
+          "clue": "You cut paper with this tool that has two blades.",
+          "answer": "Scissors",
+          "alternates": []
+        },
+        {
+          "id": "l1d-tool-time-3",
+          "rank": 3,
+          "clue": "This straight tool measures how long something is in inches.",
+          "answer": "Ruler",
+          "alternates": [
+            "yardstick",
+            "tape measure",
+            "measuring tape"
+          ]
+        },
+        {
+          "id": "l1d-tool-time-4",
+          "rank": 4,
+          "clue": "You turn screws with this tool.",
+          "answer": "Screwdriver",
+          "alternates": []
+        },
+        {
+          "id": "l1d-tool-time-5",
+          "rank": 5,
+          "clue": "This tool with a row of sharp teeth cuts through wood.",
+          "answer": "Saw",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-clean-up-crew",
+      "name": "Clean Up Crew",
+      "clues": [
+        {
+          "id": "l1d-clean-up-crew-1",
+          "rank": 1,
+          "clue": "You wash your hands with water and this.",
+          "answer": "Soap",
+          "alternates": []
+        },
+        {
+          "id": "l1d-clean-up-crew-2",
+          "rank": 2,
+          "clue": "You dry off with this after a bath.",
+          "answer": "Towel",
+          "alternates": []
+        },
+        {
+          "id": "l1d-clean-up-crew-3",
+          "rank": 3,
+          "clue": "You sweep the floor with this.",
+          "answer": "Broom",
+          "alternates": []
+        },
+        {
+          "id": "l1d-clean-up-crew-4",
+          "rank": 4,
+          "clue": "This cleaning tool has a long handle and a stringy head for wiping wet floors.",
+          "answer": "Mop",
+          "alternates": []
+        },
+        {
+          "id": "l1d-clean-up-crew-5",
+          "rank": 5,
+          "clue": "This machine sucks up dirt and dust from carpets.",
+          "answer": "Vacuum",
+          "alternates": [
+            "vacuum cleaner",
+            "hoover"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-things-that-go",
+      "name": "Things That Go",
+      "clues": [
+        {
+          "id": "l1d-things-that-go-1",
+          "rank": 1,
+          "clue": "This big yellow vehicle takes kids to school.",
+          "answer": "School bus",
+          "alternates": [
+            "bus"
+          ]
+        },
+        {
+          "id": "l1d-things-that-go-2",
+          "rank": 2,
+          "clue": "This two-wheeled vehicle moves when you pedal it.",
+          "answer": "Bicycle",
+          "alternates": [
+            "bike"
+          ]
+        },
+        {
+          "id": "l1d-things-that-go-3",
+          "rank": 3,
+          "clue": "This machine with wings and jet engines flies people high in the sky.",
+          "answer": "Airplane",
+          "alternates": [
+            "plane",
+            "jet",
+            "aeroplane",
+            "jet plane"
+          ]
+        },
+        {
+          "id": "l1d-things-that-go-4",
+          "rank": 4,
+          "clue": "This flying machine has spinning blades on top and can hover in one spot.",
+          "answer": "Helicopter",
+          "alternates": [
+            "chopper"
+          ]
+        },
+        {
+          "id": "l1d-things-that-go-5",
+          "rank": 5,
+          "clue": "In big cities, this kind of train runs in tunnels under the streets.",
+          "answer": "Subway",
+          "alternates": [
+            "metro",
+            "underground",
+            "subway train"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-road-trip",
+      "name": "Road Trip",
+      "clues": [
+        {
+          "id": "l1d-road-trip-1",
+          "rank": 1,
+          "clue": "At a traffic light, this color means stop.",
+          "answer": "Red",
+          "alternates": []
+        },
+        {
+          "id": "l1d-road-trip-2",
+          "rank": 2,
+          "clue": "In big cities, you can pay to ride in this car, which is often yellow.",
+          "answer": "Taxi",
+          "alternates": [
+            "cab",
+            "taxicab"
+          ]
+        },
+        {
+          "id": "l1d-road-trip-3",
+          "rank": 3,
+          "clue": "You buckle this across your body to stay safe in a car.",
+          "answer": "Seat belt",
+          "alternates": [
+            "seatbelt"
+          ]
+        },
+        {
+          "id": "l1d-road-trip-4",
+          "rank": 4,
+          "clue": "Most cars need this fuel, pumped in at a filling station.",
+          "answer": "Gas",
+          "alternates": [
+            "gasoline",
+            "petrol"
+          ]
+        },
+        {
+          "id": "l1d-road-trip-5",
+          "rank": 5,
+          "clue": "The driver turns this round part to steer the car.",
+          "answer": "Steering wheel",
+          "alternates": [
+            "wheel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-boat-load",
+      "name": "Boat Load",
+      "clues": [
+        {
+          "id": "l1d-boat-load-1",
+          "rank": 1,
+          "clue": "This boat is pushed across the water by wind in its sails.",
+          "answer": "Sailboat",
+          "alternates": [
+            "sail boat",
+            "sailing boat"
+          ]
+        },
+        {
+          "id": "l1d-boat-load-2",
+          "rank": 2,
+          "clue": "You wear this vest on a boat so you will float if you fall in.",
+          "answer": "Life jacket",
+          "alternates": [
+            "life vest",
+            "life preserver"
+          ]
+        },
+        {
+          "id": "l1d-boat-load-3",
+          "rank": 3,
+          "clue": "This person is in charge of a ship.",
+          "answer": "Captain",
+          "alternates": [
+            "skipper"
+          ]
+        },
+        {
+          "id": "l1d-boat-load-4",
+          "rank": 4,
+          "clue": "This heavy metal hook is dropped to the bottom to keep a ship from drifting.",
+          "answer": "Anchor",
+          "alternates": []
+        },
+        {
+          "id": "l1d-boat-load-5",
+          "rank": 5,
+          "clue": "This boat carries people and cars back and forth across the water on a regular route.",
+          "answer": "Ferry",
+          "alternates": [
+            "ferryboat",
+            "ferry boat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-help-wanted",
+      "name": "Help Wanted",
+      "clues": [
+        {
+          "id": "l1d-help-wanted-1",
+          "rank": 1,
+          "clue": "This person helps students learn in a classroom.",
+          "answer": "Teacher",
+          "alternates": []
+        },
+        {
+          "id": "l1d-help-wanted-2",
+          "rank": 2,
+          "clue": "This person rides a big red truck and puts out fires.",
+          "answer": "Firefighter",
+          "alternates": [
+            "fireman",
+            "firewoman",
+            "fire fighter"
+          ]
+        },
+        {
+          "id": "l1d-help-wanted-3",
+          "rank": 3,
+          "clue": "This person flies an airplane.",
+          "answer": "Pilot",
+          "alternates": []
+        },
+        {
+          "id": "l1d-help-wanted-4",
+          "rank": 4,
+          "clue": "This person brings letters and packages to your mailbox.",
+          "answer": "Mail carrier",
+          "alternates": [
+            "mailman",
+            "postman",
+            "letter carrier",
+            "mail man",
+            "postal worker",
+            "mailwoman"
+          ]
+        },
+        {
+          "id": "l1d-help-wanted-5",
+          "rank": 5,
+          "clue": "This kind of doctor takes care of sick pets.",
+          "answer": "Veterinarian",
+          "alternates": [
+            "vet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-who-does-that",
+      "name": "Who Does That?",
+      "clues": [
+        {
+          "id": "l1d-who-does-that-1",
+          "rank": 1,
+          "clue": "This doctor checks and cleans your teeth.",
+          "answer": "Dentist",
+          "alternates": []
+        },
+        {
+          "id": "l1d-who-does-that-2",
+          "rank": 2,
+          "clue": "This person grows crops and raises animals.",
+          "answer": "Farmer",
+          "alternates": []
+        },
+        {
+          "id": "l1d-who-does-that-3",
+          "rank": 3,
+          "clue": "This person bakes bread, cakes, and muffins.",
+          "answer": "Baker",
+          "alternates": []
+        },
+        {
+          "id": "l1d-who-does-that-4",
+          "rank": 4,
+          "clue": "Often wearing a tall white hat, this cook runs a restaurant kitchen.",
+          "answer": "Chef",
+          "alternates": []
+        },
+        {
+          "id": "l1d-who-does-that-5",
+          "rank": 5,
+          "clue": "This person fixes leaky pipes, sinks, and toilets.",
+          "answer": "Plumber",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-tools-of-the-trade",
+      "name": "Tools of the Trade",
+      "clues": [
+        {
+          "id": "l1d-tools-of-the-trade-1",
+          "rank": 1,
+          "clue": "A firefighter sprays water from this long tube.",
+          "answer": "Hose",
+          "alternates": [
+            "fire hose"
+          ]
+        },
+        {
+          "id": "l1d-tools-of-the-trade-2",
+          "rank": 2,
+          "clue": "A police officer wears this shiny symbol on the uniform.",
+          "answer": "Badge",
+          "alternates": []
+        },
+        {
+          "id": "l1d-tools-of-the-trade-3",
+          "rank": 3,
+          "clue": "A cook ties this around the waist to keep clothes clean.",
+          "answer": "Apron",
+          "alternates": []
+        },
+        {
+          "id": "l1d-tools-of-the-trade-4",
+          "rank": 4,
+          "clue": "A carpenter builds most things out of this material that comes from trees.",
+          "answer": "Wood",
+          "alternates": [
+            "lumber",
+            "timber"
+          ]
+        },
+        {
+          "id": "l1d-tools-of-the-trade-5",
+          "rank": 5,
+          "clue": "A doctor listens to your heartbeat with this tool.",
+          "answer": "Stethoscope",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-sound-effects",
+      "name": "Sound Effects",
+      "clues": [
+        {
+          "id": "l1d-sound-effects-1",
+          "rank": 1,
+          "clue": "A cow says this.",
+          "answer": "Moo",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-effects-2",
+          "rank": 2,
+          "clue": "A dog says this.",
+          "answer": "Woof",
+          "alternates": [
+            "bark",
+            "ruff",
+            "arf",
+            "bow wow"
+          ]
+        },
+        {
+          "id": "l1d-sound-effects-3",
+          "rank": 3,
+          "clue": "A duck says this.",
+          "answer": "Quack",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-effects-4",
+          "rank": 4,
+          "clue": "A clock goes \"tock\" right after making this sound.",
+          "answer": "Tick",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-effects-5",
+          "rank": 5,
+          "clue": "This is the sound people make when they sneeze.",
+          "answer": "Achoo",
+          "alternates": [
+            "ah-choo",
+            "atchoo",
+            "ahchoo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-letter-perfect",
+      "name": "Letter Perfect",
+      "clues": [
+        {
+          "id": "l1d-letter-perfect-1",
+          "rank": 1,
+          "clue": "This letter sounds just like a buzzing insect that makes honey.",
+          "answer": "B",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-perfect-2",
+          "rank": 2,
+          "clue": "This letter sounds just like a word for a big body of salty water.",
+          "answer": "C",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-perfect-3",
+          "rank": 3,
+          "clue": "This letter sounds just like the body part you see with.",
+          "answer": "I",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-perfect-4",
+          "rank": 4,
+          "clue": "This letter sounds just like a tiny green vegetable that grows in a pod.",
+          "answer": "P",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-perfect-5",
+          "rank": 5,
+          "clue": "This letter sounds just like a hot drink made with leaves.",
+          "answer": "T",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-sound-alikes",
+      "name": "Sound-Alikes",
+      "clues": [
+        {
+          "id": "l1d-sound-alikes-1",
+          "rank": 1,
+          "clue": "This word sounds just like \"son\" and names the star that lights our day.",
+          "answer": "Sun",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-alikes-2",
+          "rank": 2,
+          "clue": "This word sounds just like \"flour\" and names something that blooms in a garden.",
+          "answer": "Flower",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-alikes-3",
+          "rank": 3,
+          "clue": "This word sounds just like \"meet\" and names food like beef or chicken.",
+          "answer": "Meat",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-alikes-4",
+          "rank": 4,
+          "clue": "This word sounds just like \"pear\" and means a set of two, like socks.",
+          "answer": "Pair",
+          "alternates": []
+        },
+        {
+          "id": "l1d-sound-alikes-5",
+          "rank": 5,
+          "clue": "This word sounds just like \"eight\" and is the past tense of \"eat.\"",
+          "answer": "Ate",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-scrambled-eggs",
+      "name": "Scrambled Eggs",
+      "clues": [
+        {
+          "id": "l1d-scrambled-eggs-1",
+          "rank": 1,
+          "clue": "Unscramble T-A-C to spell a pet that purrs.",
+          "answer": "Cat",
+          "alternates": []
+        },
+        {
+          "id": "l1d-scrambled-eggs-2",
+          "rank": 2,
+          "clue": "Unscramble G-O-D to spell a pet that barks.",
+          "answer": "Dog",
+          "alternates": []
+        },
+        {
+          "id": "l1d-scrambled-eggs-3",
+          "rank": 3,
+          "clue": "Unscramble H-S-I-F to spell an animal that swims.",
+          "answer": "Fish",
+          "alternates": []
+        },
+        {
+          "id": "l1d-scrambled-eggs-4",
+          "rank": 4,
+          "clue": "Unscramble K-O-O-B to spell something you read.",
+          "answer": "Book",
+          "alternates": []
+        },
+        {
+          "id": "l1d-scrambled-eggs-5",
+          "rank": 5,
+          "clue": "Unscramble L-O-H-O-S-C to spell the place where you go to learn.",
+          "answer": "School",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-letter-swap",
+      "name": "Letter Swap",
+      "clues": [
+        {
+          "id": "l1d-letter-swap-1",
+          "rank": 1,
+          "clue": "Change the first letter of \"cat\" to name a flying mammal.",
+          "answer": "Bat",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-swap-2",
+          "rank": 2,
+          "clue": "Change the first letter of \"dog\" to name a thick mist near the ground.",
+          "answer": "Fog",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-swap-3",
+          "rank": 3,
+          "clue": "Change the last letter of \"pig\" to name a small, sharp thing used in sewing.",
+          "answer": "Pin",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-swap-4",
+          "rank": 4,
+          "clue": "Change the first letter of \"cake\" to name a body of fresh water.",
+          "answer": "Lake",
+          "alternates": []
+        },
+        {
+          "id": "l1d-letter-swap-5",
+          "rank": 5,
+          "clue": "Change the first letter of \"mouse\" to name a building people live in.",
+          "answer": "House",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-plural-party",
+      "name": "Plural Party",
+      "clues": [
+        {
+          "id": "l1d-plural-party-1",
+          "rank": 1,
+          "clue": "More than one foot are called these.",
+          "answer": "Feet",
+          "alternates": []
+        },
+        {
+          "id": "l1d-plural-party-2",
+          "rank": 2,
+          "clue": "More than one tooth are called these.",
+          "answer": "Teeth",
+          "alternates": []
+        },
+        {
+          "id": "l1d-plural-party-3",
+          "rank": 3,
+          "clue": "More than one mouse are called these.",
+          "answer": "Mice",
+          "alternates": []
+        },
+        {
+          "id": "l1d-plural-party-4",
+          "rank": 4,
+          "clue": "More than one child are called these.",
+          "answer": "Children",
+          "alternates": []
+        },
+        {
+          "id": "l1d-plural-party-5",
+          "rank": 5,
+          "clue": "More than one goose are called these.",
+          "answer": "Geese",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-to-b-or-not-to-b",
+      "name": "To B or Not to B",
+      "clues": [
+        {
+          "id": "l1d-to-b-or-not-to-b-1",
+          "rank": 1,
+          "clue": "This B word is a round toy you can bounce, throw, or kick.",
+          "answer": "Ball",
+          "alternates": []
+        },
+        {
+          "id": "l1d-to-b-or-not-to-b-2",
+          "rank": 2,
+          "clue": "This B word floats up into the air when you fill it with helium.",
+          "answer": "Balloon",
+          "alternates": []
+        },
+        {
+          "id": "l1d-to-b-or-not-to-b-3",
+          "rank": 3,
+          "clue": "This B word is a bag you carry on your back to school.",
+          "answer": "Backpack",
+          "alternates": [
+            "bookbag",
+            "book bag"
+          ]
+        },
+        {
+          "id": "l1d-to-b-or-not-to-b-4",
+          "rank": 4,
+          "clue": "This B word is the soft bread roll that holds a hamburger.",
+          "answer": "Bun",
+          "alternates": []
+        },
+        {
+          "id": "l1d-to-b-or-not-to-b-5",
+          "rank": 5,
+          "clue": "This B word is a chewy, ring-shaped bread often eaten with cream cheese.",
+          "answer": "Bagel",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-letter-count",
+      "name": "Letter Count",
+      "clues": [
+        {
+          "id": "l1d-letter-count-1",
+          "rank": 1,
+          "clue": "How many letters are in the word \"apple\"?",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l1d-letter-count-2",
+          "rank": 2,
+          "clue": "How many letters are in the word \"banana\"?",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l1d-letter-count-3",
+          "rank": 3,
+          "clue": "How many letters are in the word \"elephant\"?",
+          "answer": "8",
+          "alternates": [
+            "eight"
+          ]
+        },
+        {
+          "id": "l1d-letter-count-4",
+          "rank": 4,
+          "clue": "How many letters are in the word \"butterfly\"?",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l1d-letter-count-5",
+          "rank": 5,
+          "clue": "How many letters are in the word \"hippopotamus\"?",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-short-stuff",
+      "name": "Short Stuff",
+      "clues": [
+        {
+          "id": "l1d-short-stuff-1",
+          "rank": 1,
+          "clue": "\"TV\" is short for this word.",
+          "answer": "Television",
+          "alternates": []
+        },
+        {
+          "id": "l1d-short-stuff-2",
+          "rank": 2,
+          "clue": "\"Phone\" is short for this word.",
+          "answer": "Telephone",
+          "alternates": []
+        },
+        {
+          "id": "l1d-short-stuff-3",
+          "rank": 3,
+          "clue": "\"Photo\" is short for this word.",
+          "answer": "Photograph",
+          "alternates": []
+        },
+        {
+          "id": "l1d-short-stuff-4",
+          "rank": 4,
+          "clue": "\"Math\" is short for this word.",
+          "answer": "Mathematics",
+          "alternates": []
+        },
+        {
+          "id": "l1d-short-stuff-5",
+          "rank": 5,
+          "clue": "\"Gym\" is short for this word.",
+          "answer": "Gymnasium",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-dress-code",
+      "name": "Dress Code",
+      "clues": [
+        {
+          "id": "l1d-dress-code-1",
+          "rank": 1,
+          "clue": "You tie the laces on these before you walk out the door.",
+          "answer": "Shoes",
+          "alternates": [
+            "shoe",
+            "sneakers"
+          ]
+        },
+        {
+          "id": "l1d-dress-code-2",
+          "rank": 2,
+          "clue": "You wear these on your hands to keep them warm in the snow.",
+          "answer": "Mittens",
+          "alternates": [
+            "mitten",
+            "gloves",
+            "glove"
+          ]
+        },
+        {
+          "id": "l1d-dress-code-3",
+          "rank": 3,
+          "clue": "You put on these comfy clothes before you go to bed.",
+          "answer": "Pajamas",
+          "alternates": [
+            "pyjamas",
+            "pjs",
+            "jammies"
+          ]
+        },
+        {
+          "id": "l1d-dress-code-4",
+          "rank": 4,
+          "clue": "You wrap this long piece of cloth around your neck to stay warm.",
+          "answer": "Scarf",
+          "alternates": []
+        },
+        {
+          "id": "l1d-dress-code-5",
+          "rank": 5,
+          "clue": "This strap goes around your waist to hold up your pants.",
+          "answer": "Belt",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1d-party-time",
+      "name": "Party Time",
+      "clues": [
+        {
+          "id": "l1d-party-time-1",
+          "rank": 1,
+          "clue": "You make a wish and blow these out on a birthday cake.",
+          "answer": "Candles",
+          "alternates": [
+            "candle"
+          ]
+        },
+        {
+          "id": "l1d-party-time-2",
+          "rank": 2,
+          "clue": "This is wrapped in paper with a bow and given to the birthday kid.",
+          "answer": "Present",
+          "alternates": [
+            "gift",
+            "presents",
+            "gifts"
+          ]
+        },
+        {
+          "id": "l1d-party-time-3",
+          "rank": 3,
+          "clue": "You might wear this pointy paper cone on your head at a birthday.",
+          "answer": "Party hat",
+          "alternates": [
+            "hat"
+          ]
+        },
+        {
+          "id": "l1d-party-time-4",
+          "rank": 4,
+          "clue": "Kids swing a stick at this hanging, candy-filled decoration.",
+          "answer": "Piñata",
+          "alternates": [
+            "pinata"
+          ]
+        },
+        {
+          "id": "l1d-party-time-5",
+          "rank": 5,
+          "clue": "You send this card to ask friends to come to your party.",
+          "answer": "Invitation",
+          "alternates": [
+            "invite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1d-measure-up",
+      "name": "Measure Up",
+      "clues": [
+        {
+          "id": "l1d-measure-up-1",
+          "rank": 1,
+          "clue": "There are 12 of these in one foot.",
+          "answer": "Inches",
+          "alternates": [
+            "inch"
+          ]
+        },
+        {
+          "id": "l1d-measure-up-2",
+          "rank": 2,
+          "clue": "You stand on this to find out how much you weigh.",
+          "answer": "Scale",
+          "alternates": [
+            "bathroom scale"
+          ]
+        },
+        {
+          "id": "l1d-measure-up-3",
+          "rank": 3,
+          "clue": "There are this many feet in one yard.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        },
+        {
+          "id": "l1d-measure-up-4",
+          "rank": 4,
+          "clue": "There are this many ounces in one pound.",
+          "answer": "16",
+          "alternates": [
+            "sixteen"
+          ]
+        },
+        {
+          "id": "l1d-measure-up-5",
+          "rank": 5,
+          "clue": "Two cups make one of these.",
+          "answer": "Pint",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

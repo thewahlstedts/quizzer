@@ -1,0 +1,2301 @@
+{
+  "level": 1,
+  "categories": [
+    {
+      "id": "l1c-fairy-tale-fix-ups",
+      "name": "Fairy Tale Fix-Ups",
+      "clues": [
+        {
+          "id": "l1c-fairy-tale-fix-ups-1",
+          "rank": 1,
+          "clue": "She lived with seven dwarfs in a cottage in the woods.",
+          "answer": "Snow White",
+          "alternates": []
+        },
+        {
+          "id": "l1c-fairy-tale-fix-ups-2",
+          "rank": 2,
+          "clue": "This girl in a red hood found a wolf dressed in her grandmother's clothes.",
+          "answer": "Little Red Riding Hood",
+          "alternates": [
+            "Red Riding Hood"
+          ]
+        },
+        {
+          "id": "l1c-fairy-tale-fix-ups-3",
+          "rank": 3,
+          "clue": "This brother and sister found a house made of gingerbread and candy in the forest.",
+          "answer": "Hansel and Gretel",
+          "alternates": [
+            "Hansel & Gretel"
+          ]
+        },
+        {
+          "id": "l1c-fairy-tale-fix-ups-4",
+          "rank": 4,
+          "clue": "This princess pricked her finger on a spindle and fell asleep for a hundred years.",
+          "answer": "Sleeping Beauty",
+          "alternates": [
+            "Aurora",
+            "Briar Rose"
+          ]
+        },
+        {
+          "id": "l1c-fairy-tale-fix-ups-5",
+          "rank": 5,
+          "clue": "This little man spun straw into gold, and the queen had to guess his name.",
+          "answer": "Rumpelstiltskin",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-mother-goose-says",
+      "name": "Mother Goose Says",
+      "clues": [
+        {
+          "id": "l1c-mother-goose-says-1",
+          "rank": 1,
+          "clue": "He sat on a wall and had a great fall.",
+          "answer": "Humpty Dumpty",
+          "alternates": []
+        },
+        {
+          "id": "l1c-mother-goose-says-2",
+          "rank": 2,
+          "clue": "Jack went up the hill to fetch a pail of water with this girl.",
+          "answer": "Jill",
+          "alternates": []
+        },
+        {
+          "id": "l1c-mother-goose-says-3",
+          "rank": 3,
+          "clue": "She lost her sheep and didn't know where to find them.",
+          "answer": "Little Bo Peep",
+          "alternates": [
+            "Bo Peep"
+          ]
+        },
+        {
+          "id": "l1c-mother-goose-says-4",
+          "rank": 4,
+          "clue": "She sat on a tuffet eating her curds and whey until a spider came along.",
+          "answer": "Little Miss Muffet",
+          "alternates": [
+            "Miss Muffet"
+          ]
+        },
+        {
+          "id": "l1c-mother-goose-says-5",
+          "rank": 5,
+          "clue": "She went to the cupboard to get her poor dog a bone, but the cupboard was bare.",
+          "answer": "Old Mother Hubbard",
+          "alternates": [
+            "Mother Hubbard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-hey-diddle-diddle",
+      "name": "Hey Diddle Diddle",
+      "clues": [
+        {
+          "id": "l1c-hey-diddle-diddle-1",
+          "rank": 1,
+          "clue": "Twinkle, twinkle, little this, how I wonder what you are.",
+          "answer": "Star",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hey-diddle-diddle-2",
+          "rank": 2,
+          "clue": "Mary had a little one of these, its fleece was white as snow.",
+          "answer": "Lamb",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hey-diddle-diddle-3",
+          "rank": 3,
+          "clue": "Hey diddle diddle, the cat and the fiddle, the cow jumped over this.",
+          "answer": "Moon",
+          "alternates": [
+            "the moon"
+          ]
+        },
+        {
+          "id": "l1c-hey-diddle-diddle-4",
+          "rank": 4,
+          "clue": "Hickory dickory dock, the mouse ran up this.",
+          "answer": "Clock",
+          "alternates": [
+            "the clock"
+          ]
+        },
+        {
+          "id": "l1c-hey-diddle-diddle-5",
+          "rank": 5,
+          "clue": "Baa, baa, black sheep, have you any of this? Yes sir, yes sir, three bags full.",
+          "answer": "Wool",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-huff-and-puff",
+      "name": "Huff and Puff",
+      "clues": [
+        {
+          "id": "l1c-huff-and-puff-1",
+          "rank": 1,
+          "clue": "In The Three Little Pigs, this animal huffed and puffed and blew the houses down.",
+          "answer": "Wolf",
+          "alternates": [
+            "big bad wolf"
+          ]
+        },
+        {
+          "id": "l1c-huff-and-puff-2",
+          "rank": 2,
+          "clue": "The third little pig was smart and built his house out of these.",
+          "answer": "Bricks",
+          "alternates": [
+            "brick"
+          ]
+        },
+        {
+          "id": "l1c-huff-and-puff-3",
+          "rank": 3,
+          "clue": "\"Run, run, as fast as you can! You can't catch me!\" shouts this cookie.",
+          "answer": "Gingerbread Man",
+          "alternates": [
+            "gingerbread boy"
+          ]
+        },
+        {
+          "id": "l1c-huff-and-puff-4",
+          "rank": 4,
+          "clue": "In The Three Billy Goats Gruff, this grumpy creature lives under the bridge.",
+          "answer": "Troll",
+          "alternates": []
+        },
+        {
+          "id": "l1c-huff-and-puff-5",
+          "rank": 5,
+          "clue": "\"Who will help me bake the bread?\" asks this bird, but nobody helps her.",
+          "answer": "Little Red Hen",
+          "alternates": [
+            "red hen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-seuss-tastic",
+      "name": "Seuss-tastic",
+      "clues": [
+        {
+          "id": "l1c-seuss-tastic-1",
+          "rank": 1,
+          "clue": "This tall-hatted cat visits two kids on a rainy day.",
+          "answer": "Cat in the Hat",
+          "alternates": []
+        },
+        {
+          "id": "l1c-seuss-tastic-2",
+          "rank": 2,
+          "clue": "This green grump stole Christmas, but then his heart grew three sizes.",
+          "answer": "Grinch",
+          "alternates": []
+        },
+        {
+          "id": "l1c-seuss-tastic-3",
+          "rank": 3,
+          "clue": "Sam-I-Am wants someone to try green eggs and this.",
+          "answer": "Ham",
+          "alternates": []
+        },
+        {
+          "id": "l1c-seuss-tastic-4",
+          "rank": 4,
+          "clue": "This kind elephant heard a tiny Who on a speck of dust.",
+          "answer": "Horton",
+          "alternates": []
+        },
+        {
+          "id": "l1c-seuss-tastic-5",
+          "rank": 5,
+          "clue": "This mustached creature says, \"I speak for the trees.\"",
+          "answer": "Lorax",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-bookworms",
+      "name": "Bookworms",
+      "clues": [
+        {
+          "id": "l1c-bookworms-1",
+          "rank": 1,
+          "clue": "In Eric Carle's famous book, this very hungry critter eats and eats until it makes a cocoon.",
+          "answer": "Caterpillar",
+          "alternates": [
+            "hungry caterpillar"
+          ]
+        },
+        {
+          "id": "l1c-bookworms-2",
+          "rank": 2,
+          "clue": "In Where the Wild Things Are, this boy in a wolf suit sails to the land of the Wild Things.",
+          "answer": "Max",
+          "alternates": []
+        },
+        {
+          "id": "l1c-bookworms-3",
+          "rank": 3,
+          "clue": "In Charlotte's Web, Charlotte the spider saves the life of this pig.",
+          "answer": "Wilbur",
+          "alternates": []
+        },
+        {
+          "id": "l1c-bookworms-4",
+          "rank": 4,
+          "clue": "This naughty bunny by Beatrix Potter sneaks into Mr. McGregor's garden.",
+          "answer": "Peter Rabbit",
+          "alternates": [
+            "Peter"
+          ]
+        },
+        {
+          "id": "l1c-bookworms-5",
+          "rank": 5,
+          "clue": "This gloomy gray donkey is Winnie-the-Pooh's friend, and he keeps losing his tail.",
+          "answer": "Eeyore",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-hundred-acre-wood",
+      "name": "Hundred Acre Wood",
+      "clues": [
+        {
+          "id": "l1c-hundred-acre-wood-1",
+          "rank": 1,
+          "clue": "Winnie-the-Pooh loves to eat this sweet, sticky food made by bees.",
+          "answer": "Honey",
+          "alternates": [
+            "hunny"
+          ]
+        },
+        {
+          "id": "l1c-hundred-acre-wood-2",
+          "rank": 2,
+          "clue": "This bouncy tiger loves to bounce on his tail.",
+          "answer": "Tigger",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hundred-acre-wood-3",
+          "rank": 3,
+          "clue": "This very small pink pig is Pooh's best friend.",
+          "answer": "Piglet",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hundred-acre-wood-4",
+          "rank": 4,
+          "clue": "This boy is the owner and friend of Pooh Bear.",
+          "answer": "Christopher Robin",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hundred-acre-wood-5",
+          "rank": 5,
+          "clue": "Kanga the kangaroo carries this baby in her pouch.",
+          "answer": "Roo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-toon-in",
+      "name": "Toon In",
+      "clues": [
+        {
+          "id": "l1c-toon-in-1",
+          "rank": 1,
+          "clue": "In The Little Mermaid, this red-haired mermaid wants to live on land.",
+          "answer": "Ariel",
+          "alternates": []
+        },
+        {
+          "id": "l1c-toon-in-2",
+          "rank": 2,
+          "clue": "This baby elephant uses his huge ears to fly.",
+          "answer": "Dumbo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-toon-in-3",
+          "rank": 3,
+          "clue": "This young deer has a rabbit friend named Thumper.",
+          "answer": "Bambi",
+          "alternates": []
+        },
+        {
+          "id": "l1c-toon-in-4",
+          "rank": 4,
+          "clue": "In Peter Pan, this tiny fairy sprinkles pixie dust.",
+          "answer": "Tinker Bell",
+          "alternates": [
+            "Tinkerbell",
+            "Tink"
+          ]
+        },
+        {
+          "id": "l1c-toon-in-5",
+          "rank": 5,
+          "clue": "This little cricket tries to help Pinocchio know right from wrong.",
+          "answer": "Jiminy Cricket",
+          "alternates": [
+            "Jiminy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-to-infinity-and-beyond",
+      "name": "To Infinity and Beyond",
+      "clues": [
+        {
+          "id": "l1c-to-infinity-and-beyond-1",
+          "rank": 1,
+          "clue": "In Toy Story, this cowboy doll is Andy's favorite toy.",
+          "answer": "Woody",
+          "alternates": []
+        },
+        {
+          "id": "l1c-to-infinity-and-beyond-2",
+          "rank": 2,
+          "clue": "This space ranger toy says, \"To infinity and beyond!\"",
+          "answer": "Buzz Lightyear",
+          "alternates": [
+            "Buzz"
+          ]
+        },
+        {
+          "id": "l1c-to-infinity-and-beyond-3",
+          "rank": 3,
+          "clue": "This toy has a potato body and pieces like ears and a mustache that come off.",
+          "answer": "Mr. Potato Head",
+          "alternates": [
+            "Potato Head",
+            "Mister Potato Head"
+          ]
+        },
+        {
+          "id": "l1c-to-infinity-and-beyond-4",
+          "rank": 4,
+          "clue": "This green toy dinosaur in Toy Story worries that he isn't scary enough.",
+          "answer": "Rex",
+          "alternates": []
+        },
+        {
+          "id": "l1c-to-infinity-and-beyond-5",
+          "rank": 5,
+          "clue": "This boy owns Woody, Buzz and the other toys in the first Toy Story.",
+          "answer": "Andy",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-just-keep-swimming",
+      "name": "Just Keep Swimming",
+      "clues": [
+        {
+          "id": "l1c-just-keep-swimming-1",
+          "rank": 1,
+          "clue": "This little fish with one small fin gets lost far from home.",
+          "answer": "Nemo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-just-keep-swimming-2",
+          "rank": 2,
+          "clue": "Nemo is this orange-and-white kind of fish.",
+          "answer": "Clownfish",
+          "alternates": [
+            "clown fish"
+          ]
+        },
+        {
+          "id": "l1c-just-keep-swimming-3",
+          "rank": 3,
+          "clue": "This blue fish has trouble remembering things and sings, \"Just keep swimming.\"",
+          "answer": "Dory",
+          "alternates": []
+        },
+        {
+          "id": "l1c-just-keep-swimming-4",
+          "rank": 4,
+          "clue": "This worried clownfish dad swims across the ocean to find his son.",
+          "answer": "Marlin",
+          "alternates": []
+        },
+        {
+          "id": "l1c-just-keep-swimming-5",
+          "rank": 5,
+          "clue": "This laid-back sea turtle gives Nemo's dad a ride on an ocean current.",
+          "answer": "Crush",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-hakuna-matata",
+      "name": "Hakuna Matata",
+      "clues": [
+        {
+          "id": "l1c-hakuna-matata-1",
+          "rank": 1,
+          "clue": "This lion cub grows up to be king in The Lion King.",
+          "answer": "Simba",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hakuna-matata-2",
+          "rank": 2,
+          "clue": "This warthog sings \"Hakuna Matata\" with his meerkat friend.",
+          "answer": "Pumbaa",
+          "alternates": [
+            "Pumba"
+          ]
+        },
+        {
+          "id": "l1c-hakuna-matata-3",
+          "rank": 3,
+          "clue": "This meerkat is best friends with Pumbaa the warthog.",
+          "answer": "Timon",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hakuna-matata-4",
+          "rank": 4,
+          "clue": "This sneaky lion is Simba's uncle.",
+          "answer": "Scar",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hakuna-matata-5",
+          "rank": 5,
+          "clue": "This wise old friend holds baby Simba up high on Pride Rock.",
+          "answer": "Rafiki",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-mouse-house",
+      "name": "Mouse House",
+      "clues": [
+        {
+          "id": "l1c-mouse-house-1",
+          "rank": 1,
+          "clue": "This famous cartoon mouse has big round ears and red shorts.",
+          "answer": "Mickey Mouse",
+          "alternates": [
+            "Mickey"
+          ]
+        },
+        {
+          "id": "l1c-mouse-house-2",
+          "rank": 2,
+          "clue": "This cartoon duck wears a sailor shirt and gets very grumpy.",
+          "answer": "Donald Duck",
+          "alternates": [
+            "Donald"
+          ]
+        },
+        {
+          "id": "l1c-mouse-house-3",
+          "rank": 3,
+          "clue": "Mickey's pet dog has this name, which is also a dwarf planet's name.",
+          "answer": "Pluto",
+          "alternates": []
+        },
+        {
+          "id": "l1c-mouse-house-4",
+          "rank": 4,
+          "clue": "This tall, clumsy dog friend of Mickey laughs, \"Ah-hyuck!\"",
+          "answer": "Goofy",
+          "alternates": []
+        },
+        {
+          "id": "l1c-mouse-house-5",
+          "rank": 5,
+          "clue": "In this 1928 cartoon, Mickey whistles while steering a boat.",
+          "answer": "Steamboat Willie",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-strike-up-the-band",
+      "name": "Strike Up the Band",
+      "clues": [
+        {
+          "id": "l1c-strike-up-the-band-1",
+          "rank": 1,
+          "clue": "This brass instrument has three valves, and you buzz your lips to play it.",
+          "answer": "Trumpet",
+          "alternates": []
+        },
+        {
+          "id": "l1c-strike-up-the-band-2",
+          "rank": 2,
+          "clue": "This woodwind instrument is held sideways, and you blow across a hole.",
+          "answer": "Flute",
+          "alternates": []
+        },
+        {
+          "id": "l1c-strike-up-the-band-3",
+          "rank": 3,
+          "clue": "This big instrument has many strings that you pluck with your fingers.",
+          "answer": "Harp",
+          "alternates": []
+        },
+        {
+          "id": "l1c-strike-up-the-band-4",
+          "rank": 4,
+          "clue": "This is the biggest brass instrument, and it plays the lowest notes.",
+          "answer": "Tuba",
+          "alternates": []
+        },
+        {
+          "id": "l1c-strike-up-the-band-5",
+          "rank": 5,
+          "clue": "You hit the wooden bars of this instrument with mallets.",
+          "answer": "Xylophone",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-orchestra-seats",
+      "name": "Orchestra Seats",
+      "clues": [
+        {
+          "id": "l1c-orchestra-seats-1",
+          "rank": 1,
+          "clue": "This person stands in front of the orchestra and leads the music.",
+          "answer": "Conductor",
+          "alternates": []
+        },
+        {
+          "id": "l1c-orchestra-seats-2",
+          "rank": 2,
+          "clue": "The orchestra leader waves this thin stick.",
+          "answer": "Baton",
+          "alternates": []
+        },
+        {
+          "id": "l1c-orchestra-seats-3",
+          "rank": 3,
+          "clue": "Trumpets, horns and tubas belong to this section of the orchestra.",
+          "answer": "Brass",
+          "alternates": [
+            "brass section"
+          ]
+        },
+        {
+          "id": "l1c-orchestra-seats-4",
+          "rank": 4,
+          "clue": "Drums, cymbals and other instruments you hit or shake belong to this family.",
+          "answer": "Percussion",
+          "alternates": []
+        },
+        {
+          "id": "l1c-orchestra-seats-5",
+          "rank": 5,
+          "clue": "This large stringed instrument rests on the floor and is played sitting down with a bow.",
+          "answer": "Cello",
+          "alternates": [
+            "violoncello"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-shake-rattle-and-strum",
+      "name": "Shake, Rattle and Strum",
+      "clues": [
+        {
+          "id": "l1c-shake-rattle-and-strum-1",
+          "rank": 1,
+          "clue": "You shake this small round instrument to make its little metal jingles ring.",
+          "answer": "Tambourine",
+          "alternates": []
+        },
+        {
+          "id": "l1c-shake-rattle-and-strum-2",
+          "rank": 2,
+          "clue": "You blow in and out of this small instrument held up to your mouth.",
+          "answer": "Harmonica",
+          "alternates": []
+        },
+        {
+          "id": "l1c-shake-rattle-and-strum-3",
+          "rank": 3,
+          "clue": "This small four-stringed instrument is popular in Hawaii.",
+          "answer": "Ukulele",
+          "alternates": [
+            "uke"
+          ]
+        },
+        {
+          "id": "l1c-shake-rattle-and-strum-4",
+          "rank": 4,
+          "clue": "You squeeze this instrument in and out while pressing buttons or keys.",
+          "answer": "Accordion",
+          "alternates": []
+        },
+        {
+          "id": "l1c-shake-rattle-and-strum-5",
+          "rank": 5,
+          "clue": "This instrument with a bag and pipes is famous in Scotland.",
+          "answer": "Bagpipes",
+          "alternates": [
+            "bagpipe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-note-worthy",
+      "name": "Note-worthy",
+      "clues": [
+        {
+          "id": "l1c-note-worthy-1",
+          "rank": 1,
+          "clue": "You do this when you make a tune with your lips closed.",
+          "answer": "Humming",
+          "alternates": [
+            "hum"
+          ]
+        },
+        {
+          "id": "l1c-note-worthy-2",
+          "rank": 2,
+          "clue": "The words of a song are called this.",
+          "answer": "Lyrics",
+          "alternates": []
+        },
+        {
+          "id": "l1c-note-worthy-3",
+          "rank": 3,
+          "clue": "The musical alphabet uses the letters A through this letter.",
+          "answer": "G",
+          "alternates": []
+        },
+        {
+          "id": "l1c-note-worthy-4",
+          "rank": 4,
+          "clue": "Do, re, mi, fa, sol, la, and this.",
+          "answer": "Ti",
+          "alternates": [
+            "si",
+            "te"
+          ]
+        },
+        {
+          "id": "l1c-note-worthy-5",
+          "rank": 5,
+          "clue": "This Italian music word means to play loudly.",
+          "answer": "Forte",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-sing-along-songs",
+      "name": "Sing-Along Songs",
+      "clues": [
+        {
+          "id": "l1c-sing-along-songs-1",
+          "rank": 1,
+          "clue": "Old MacDonald had one of these, E-I-E-I-O.",
+          "answer": "Farm",
+          "alternates": []
+        },
+        {
+          "id": "l1c-sing-along-songs-2",
+          "rank": 2,
+          "clue": "Row, row, row your this, gently down the stream.",
+          "answer": "Boat",
+          "alternates": []
+        },
+        {
+          "id": "l1c-sing-along-songs-3",
+          "rank": 3,
+          "clue": "The wheels on this go round and round.",
+          "answer": "Bus",
+          "alternates": [
+            "the bus"
+          ]
+        },
+        {
+          "id": "l1c-sing-along-songs-4",
+          "rank": 4,
+          "clue": "If you're happy and you know it, clap these.",
+          "answer": "Hands",
+          "alternates": [
+            "your hands"
+          ]
+        },
+        {
+          "id": "l1c-sing-along-songs-5",
+          "rank": 5,
+          "clue": "The itsy bitsy spider climbed up the water this.",
+          "answer": "Spout",
+          "alternates": [
+            "waterspout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-paint-box",
+      "name": "Paint Box",
+      "clues": [
+        {
+          "id": "l1c-paint-box-1",
+          "rank": 1,
+          "clue": "These colorful wax sticks are used for coloring.",
+          "answer": "Crayons",
+          "alternates": [
+            "crayon"
+          ]
+        },
+        {
+          "id": "l1c-paint-box-2",
+          "rank": 2,
+          "clue": "You dip the bristles of this tool into paint.",
+          "answer": "Paintbrush",
+          "alternates": [
+            "brush",
+            "paint brush"
+          ]
+        },
+        {
+          "id": "l1c-paint-box-3",
+          "rank": 3,
+          "clue": "This stand holds a painting while the artist works.",
+          "answer": "Easel",
+          "alternates": []
+        },
+        {
+          "id": "l1c-paint-box-4",
+          "rank": 4,
+          "clue": "Painters mix their colors on this flat board.",
+          "answer": "Palette",
+          "alternates": []
+        },
+        {
+          "id": "l1c-paint-box-5",
+          "rank": 5,
+          "clue": "Artists often paint on this strong cloth stretched over a frame.",
+          "answer": "Canvas",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-hue-knew",
+      "name": "Hue Knew?",
+      "clues": [
+        {
+          "id": "l1c-hue-knew-1",
+          "rank": 1,
+          "clue": "Mix red paint with white paint to get this color.",
+          "answer": "Pink",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hue-knew-2",
+          "rank": 2,
+          "clue": "Mix black paint with white paint to get this color.",
+          "answer": "Gray",
+          "alternates": [
+            "grey"
+          ]
+        },
+        {
+          "id": "l1c-hue-knew-3",
+          "rank": 3,
+          "clue": "A rainbow is usually said to have this many colors.",
+          "answer": "7",
+          "alternates": [
+            "seven"
+          ]
+        },
+        {
+          "id": "l1c-hue-knew-4",
+          "rank": 4,
+          "clue": "Red, orange and yellow are called this kind of colors because they remind us of fire and sun.",
+          "answer": "Warm",
+          "alternates": [
+            "warm colors"
+          ]
+        },
+        {
+          "id": "l1c-hue-knew-5",
+          "rank": 5,
+          "clue": "Colors across from each other on the color wheel, like red and green, are called this.",
+          "answer": "Complementary",
+          "alternates": [
+            "complementary colors",
+            "complements"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-masterpiece-theater",
+      "name": "Masterpiece Theater",
+      "clues": [
+        {
+          "id": "l1c-masterpiece-theater-1",
+          "rank": 1,
+          "clue": "This famous painting of a smiling woman hangs in the Louvre in Paris.",
+          "answer": "Mona Lisa",
+          "alternates": []
+        },
+        {
+          "id": "l1c-masterpiece-theater-2",
+          "rank": 2,
+          "clue": "This Italian artist and inventor painted the Mona Lisa.",
+          "answer": "Leonardo da Vinci",
+          "alternates": [
+            "da Vinci",
+            "Leonardo"
+          ]
+        },
+        {
+          "id": "l1c-masterpiece-theater-3",
+          "rank": 3,
+          "clue": "Vincent van Gogh painted a swirly night sky full of stars in this painting.",
+          "answer": "The Starry Night",
+          "alternates": [
+            "Starry Night"
+          ]
+        },
+        {
+          "id": "l1c-masterpiece-theater-4",
+          "rank": 4,
+          "clue": "This artist lay high on a platform for years to paint the Sistine Chapel ceiling.",
+          "answer": "Michelangelo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-masterpiece-theater-5",
+          "rank": 5,
+          "clue": "This French painter made many pictures of water lilies in his garden pond.",
+          "answer": "Claude Monet",
+          "alternates": [
+            "Monet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-art-smart",
+      "name": "Art Smart",
+      "clues": [
+        {
+          "id": "l1c-art-smart-1",
+          "rank": 1,
+          "clue": "This craft means shaping clay into bowls and pots.",
+          "answer": "Pottery",
+          "alternates": [
+            "ceramics"
+          ]
+        },
+        {
+          "id": "l1c-art-smart-2",
+          "rank": 2,
+          "clue": "An artist who carves statues out of stone is called this.",
+          "answer": "Sculptor",
+          "alternates": []
+        },
+        {
+          "id": "l1c-art-smart-3",
+          "rank": 3,
+          "clue": "When an artist paints a picture of themself, it is called this.",
+          "answer": "Self-portrait",
+          "alternates": [
+            "self portrait"
+          ]
+        },
+        {
+          "id": "l1c-art-smart-4",
+          "rank": 4,
+          "clue": "A painting of mountains, fields and trees is called this.",
+          "answer": "Landscape",
+          "alternates": []
+        },
+        {
+          "id": "l1c-art-smart-5",
+          "rank": 5,
+          "clue": "This is a picture made of many tiny tiles or pieces of glass.",
+          "answer": "Mosaic",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-batter-up",
+      "name": "Batter Up",
+      "clues": [
+        {
+          "id": "l1c-batter-up-1",
+          "rank": 1,
+          "clue": "A baseball player swings this to hit the ball.",
+          "answer": "Bat",
+          "alternates": []
+        },
+        {
+          "id": "l1c-batter-up-2",
+          "rank": 2,
+          "clue": "In baseball, this many strikes and you're out.",
+          "answer": "3",
+          "alternates": [
+            "three"
+          ]
+        },
+        {
+          "id": "l1c-batter-up-3",
+          "rank": 3,
+          "clue": "When a batter hits the ball over the outfield fence, it is called this.",
+          "answer": "Home run",
+          "alternates": [
+            "homer"
+          ]
+        },
+        {
+          "id": "l1c-batter-up-4",
+          "rank": 4,
+          "clue": "This official calls balls and strikes from behind home plate.",
+          "answer": "Umpire",
+          "alternates": [
+            "ump"
+          ]
+        },
+        {
+          "id": "l1c-batter-up-5",
+          "rank": 5,
+          "clue": "A regular baseball game has this many innings.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-hoop-dreams",
+      "name": "Hoop Dreams",
+      "clues": [
+        {
+          "id": "l1c-hoop-dreams-1",
+          "rank": 1,
+          "clue": "In basketball, you must do this, bouncing the ball as you move.",
+          "answer": "Dribble",
+          "alternates": [
+            "dribbling"
+          ]
+        },
+        {
+          "id": "l1c-hoop-dreams-2",
+          "rank": 2,
+          "clue": "When a player jumps up and pushes the ball down through the hoop, it is called this.",
+          "answer": "Slam dunk",
+          "alternates": [
+            "dunk"
+          ]
+        },
+        {
+          "id": "l1c-hoop-dreams-3",
+          "rank": 3,
+          "clue": "After a foul, a player may get this one-point shot from a line with no one guarding.",
+          "answer": "Free throw",
+          "alternates": [
+            "foul shot"
+          ]
+        },
+        {
+          "id": "l1c-hoop-dreams-4",
+          "rank": 4,
+          "clue": "The hoop is attached to this flat board.",
+          "answer": "Backboard",
+          "alternates": []
+        },
+        {
+          "id": "l1c-hoop-dreams-5",
+          "rank": 5,
+          "clue": "This teacher invented basketball in 1891 using peach baskets.",
+          "answer": "James Naismith",
+          "alternates": [
+            "Naismith"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-first-and-ten",
+      "name": "First and Ten",
+      "clues": [
+        {
+          "id": "l1c-first-and-ten-1",
+          "rank": 1,
+          "clue": "This football player calls the plays and throws most of the passes.",
+          "answer": "Quarterback",
+          "alternates": [
+            "QB"
+          ]
+        },
+        {
+          "id": "l1c-first-and-ten-2",
+          "rank": 2,
+          "clue": "The big championship game of the NFL is called this.",
+          "answer": "Super Bowl",
+          "alternates": []
+        },
+        {
+          "id": "l1c-first-and-ten-3",
+          "rank": 3,
+          "clue": "You score a touchdown by carrying the ball into this area.",
+          "answer": "End zone",
+          "alternates": []
+        },
+        {
+          "id": "l1c-first-and-ten-4",
+          "rank": 4,
+          "clue": "Kicking the ball between the goalposts for three points is called this.",
+          "answer": "Field goal",
+          "alternates": []
+        },
+        {
+          "id": "l1c-first-and-ten-5",
+          "rank": 5,
+          "clue": "Each team has this many players on the field at a time.",
+          "answer": "11",
+          "alternates": [
+            "eleven"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-kick-it",
+      "name": "Kick It",
+      "clues": [
+        {
+          "id": "l1c-kick-it-1",
+          "rank": 1,
+          "clue": "This soccer player guards the net.",
+          "answer": "Goalie",
+          "alternates": [
+            "goalkeeper",
+            "keeper"
+          ]
+        },
+        {
+          "id": "l1c-kick-it-2",
+          "rank": 2,
+          "clue": "Hitting the soccer ball with your head is called this.",
+          "answer": "Header",
+          "alternates": []
+        },
+        {
+          "id": "l1c-kick-it-3",
+          "rank": 3,
+          "clue": "A referee holds up this colored card to send a player off the field.",
+          "answer": "Red card",
+          "alternates": [
+            "red"
+          ]
+        },
+        {
+          "id": "l1c-kick-it-4",
+          "rank": 4,
+          "clue": "Every four years, national teams play for this big soccer trophy.",
+          "answer": "World Cup",
+          "alternates": []
+        },
+        {
+          "id": "l1c-kick-it-5",
+          "rank": 5,
+          "clue": "This Brazilian star is one of the most famous soccer players ever and went by one name.",
+          "answer": "Pele",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-puck-luck",
+      "name": "Puck Luck",
+      "clues": [
+        {
+          "id": "l1c-puck-luck-1",
+          "rank": 1,
+          "clue": "Hockey players shoot this flat black disk.",
+          "answer": "Puck",
+          "alternates": []
+        },
+        {
+          "id": "l1c-puck-luck-2",
+          "rank": 2,
+          "clue": "Hockey players wear these on their feet to glide on the ice.",
+          "answer": "Skates",
+          "alternates": [
+            "ice skates",
+            "skate"
+          ]
+        },
+        {
+          "id": "l1c-puck-luck-3",
+          "rank": 3,
+          "clue": "A hockey player who breaks a rule has to sit here for a while.",
+          "answer": "Penalty box",
+          "alternates": [
+            "sin bin"
+          ]
+        },
+        {
+          "id": "l1c-puck-luck-4",
+          "rank": 4,
+          "clue": "This machine drives around the rink to make the ice smooth again.",
+          "answer": "Zamboni",
+          "alternates": [
+            "ice resurfacer"
+          ]
+        },
+        {
+          "id": "l1c-puck-luck-5",
+          "rank": 5,
+          "clue": "When one hockey player scores three goals in one game, it is called this.",
+          "answer": "Hat trick",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-let-the-games-begin",
+      "name": "Let the Games Begin",
+      "clues": [
+        {
+          "id": "l1c-let-the-games-begin-1",
+          "rank": 1,
+          "clue": "The winner of an Olympic event gets a medal made to look like this metal.",
+          "answer": "Gold",
+          "alternates": []
+        },
+        {
+          "id": "l1c-let-the-games-begin-2",
+          "rank": 2,
+          "clue": "Second place in the Olympics wins this color medal.",
+          "answer": "Silver",
+          "alternates": []
+        },
+        {
+          "id": "l1c-let-the-games-begin-3",
+          "rank": 3,
+          "clue": "This flaming object is carried by runners to light the Olympic flame.",
+          "answer": "Torch",
+          "alternates": [
+            "olympic torch"
+          ]
+        },
+        {
+          "id": "l1c-let-the-games-begin-4",
+          "rank": 4,
+          "clue": "The Olympic flag shows this many rings.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l1c-let-the-games-begin-5",
+          "rank": 5,
+          "clue": "The Olympic Games first began long ago in this country.",
+          "answer": "Greece",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-on-your-mark",
+      "name": "On Your Mark",
+      "clues": [
+        {
+          "id": "l1c-on-your-mark-1",
+          "rank": 1,
+          "clue": "Runners race to cross this line at the end of a race.",
+          "answer": "Finish line",
+          "alternates": [
+            "finish"
+          ]
+        },
+        {
+          "id": "l1c-on-your-mark-2",
+          "rank": 2,
+          "clue": "A short race run as fast as you can is called this.",
+          "answer": "Sprint",
+          "alternates": [
+            "dash"
+          ]
+        },
+        {
+          "id": "l1c-on-your-mark-3",
+          "rank": 3,
+          "clue": "In this team race, runners pass a baton to each other.",
+          "answer": "Relay",
+          "alternates": [
+            "relay race"
+          ]
+        },
+        {
+          "id": "l1c-on-your-mark-4",
+          "rank": 4,
+          "clue": "In some races, runners jump over these barriers.",
+          "answer": "Hurdles",
+          "alternates": [
+            "hurdle"
+          ]
+        },
+        {
+          "id": "l1c-on-your-mark-5",
+          "rank": 5,
+          "clue": "This very long race is about 26 miles.",
+          "answer": "Marathon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-board-meeting",
+      "name": "Board Meeting",
+      "clues": [
+        {
+          "id": "l1c-board-meeting-1",
+          "rank": 1,
+          "clue": "In this colorful board game, you travel a path to King Kandy's castle.",
+          "answer": "Candy Land",
+          "alternates": [
+            "Candyland"
+          ]
+        },
+        {
+          "id": "l1c-board-meeting-2",
+          "rank": 2,
+          "clue": "In this game, you jump your opponent's pieces and yell, \"King me!\"",
+          "answer": "Checkers",
+          "alternates": [
+            "draughts"
+          ]
+        },
+        {
+          "id": "l1c-board-meeting-3",
+          "rank": 3,
+          "clue": "In this game, you win by trapping the other player's king.",
+          "answer": "Chess",
+          "alternates": []
+        },
+        {
+          "id": "l1c-board-meeting-4",
+          "rank": 4,
+          "clue": "In this game, you score points by making words with letter tiles.",
+          "answer": "Scrabble",
+          "alternates": []
+        },
+        {
+          "id": "l1c-board-meeting-5",
+          "rank": 5,
+          "clue": "In this game, you buy properties like Boardwalk and Park Place.",
+          "answer": "Monopoly",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-check-please",
+      "name": "Check, Please!",
+      "clues": [
+        {
+          "id": "l1c-check-please-1",
+          "rank": 1,
+          "clue": "This chess piece wears a crown and must be protected.",
+          "answer": "King",
+          "alternates": []
+        },
+        {
+          "id": "l1c-check-please-2",
+          "rank": 2,
+          "clue": "This is the smallest and most common piece in chess; each player has eight.",
+          "answer": "Pawn",
+          "alternates": [
+            "pawns"
+          ]
+        },
+        {
+          "id": "l1c-check-please-3",
+          "rank": 3,
+          "clue": "This chess piece looks like a horse and moves in an L shape.",
+          "answer": "Knight",
+          "alternates": []
+        },
+        {
+          "id": "l1c-check-please-4",
+          "rank": 4,
+          "clue": "This chess piece looks like a castle tower.",
+          "answer": "Rook",
+          "alternates": [
+            "castle"
+          ]
+        },
+        {
+          "id": "l1c-check-please-5",
+          "rank": 5,
+          "clue": "A chessboard has this many squares.",
+          "answer": "64",
+          "alternates": [
+            "sixty-four",
+            "sixty four"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-deal-me-in",
+      "name": "Deal Me In",
+      "clues": [
+        {
+          "id": "l1c-deal-me-in-1",
+          "rank": 1,
+          "clue": "In this card game, you ask, \"Do you have any sevens?\"",
+          "answer": "Go Fish",
+          "alternates": []
+        },
+        {
+          "id": "l1c-deal-me-in-2",
+          "rank": 2,
+          "clue": "The four card suits are hearts, diamonds, clubs and this.",
+          "answer": "Spades",
+          "alternates": [
+            "spade"
+          ]
+        },
+        {
+          "id": "l1c-deal-me-in-3",
+          "rank": 3,
+          "clue": "This card game is played all by yourself.",
+          "answer": "Solitaire",
+          "alternates": [
+            "patience"
+          ]
+        },
+        {
+          "id": "l1c-deal-me-in-4",
+          "rank": 4,
+          "clue": "This card has just one symbol in the middle and can count high or low.",
+          "answer": "Ace",
+          "alternates": []
+        },
+        {
+          "id": "l1c-deal-me-in-5",
+          "rank": 5,
+          "clue": "A regular deck has this many cards, not counting jokers.",
+          "answer": "52",
+          "alternates": [
+            "fifty-two",
+            "fifty two"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-toy-chest",
+      "name": "Toy Chest",
+      "clues": [
+        {
+          "id": "l1c-toy-chest-1",
+          "rank": 1,
+          "clue": "This soft, cuddly toy bear was named after President Teddy Roosevelt.",
+          "answer": "Teddy bear",
+          "alternates": [
+            "teddy"
+          ]
+        },
+        {
+          "id": "l1c-toy-chest-2",
+          "rank": 2,
+          "clue": "This toy goes up and down on a string.",
+          "answer": "Yo-yo",
+          "alternates": [
+            "yoyo"
+          ]
+        },
+        {
+          "id": "l1c-toy-chest-3",
+          "rank": 3,
+          "clue": "You fly this on a windy day at the end of a long string.",
+          "answer": "Kite",
+          "alternates": []
+        },
+        {
+          "id": "l1c-toy-chest-4",
+          "rank": 4,
+          "clue": "This metal or plastic spring toy can walk down stairs.",
+          "answer": "Slinky",
+          "alternates": []
+        },
+        {
+          "id": "l1c-toy-chest-5",
+          "rank": 5,
+          "clue": "This puzzle cube has six colored sides that you twist to match up.",
+          "answer": "Rubik's Cube",
+          "alternates": [
+            "Rubiks Cube",
+            "Rubik cube"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-play-date",
+      "name": "Play Date",
+      "clues": [
+        {
+          "id": "l1c-play-date-1",
+          "rank": 1,
+          "clue": "You swing this over your head and hop over it again and again.",
+          "answer": "Jump rope",
+          "alternates": [
+            "skipping rope"
+          ]
+        },
+        {
+          "id": "l1c-play-date-2",
+          "rank": 2,
+          "clue": "You spin this big plastic ring around your waist.",
+          "answer": "Hula hoop",
+          "alternates": [
+            "hoop"
+          ]
+        },
+        {
+          "id": "l1c-play-date-3",
+          "rank": 3,
+          "clue": "This soft, colorful modeling dough comes in little tubs.",
+          "answer": "Play-Doh",
+          "alternates": [
+            "playdough",
+            "play dough"
+          ]
+        },
+        {
+          "id": "l1c-play-date-4",
+          "rank": 4,
+          "clue": "These little plastic bricks from Denmark snap together to build things.",
+          "answer": "LEGO",
+          "alternates": [
+            "Legos",
+            "Lego bricks"
+          ]
+        },
+        {
+          "id": "l1c-play-date-5",
+          "rank": 5,
+          "clue": "You turn two knobs on this red toy to draw lines on its gray screen.",
+          "answer": "Etch A Sketch",
+          "alternates": [
+            "Etch-a-Sketch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-recess-is-best",
+      "name": "Recess Is Best",
+      "clues": [
+        {
+          "id": "l1c-recess-is-best-1",
+          "rank": 1,
+          "clue": "You climb the ladder and zip down this.",
+          "answer": "Slide",
+          "alternates": []
+        },
+        {
+          "id": "l1c-recess-is-best-2",
+          "rank": 2,
+          "clue": "You pump your legs to go higher on this.",
+          "answer": "Swing",
+          "alternates": [
+            "swings"
+          ]
+        },
+        {
+          "id": "l1c-recess-is-best-3",
+          "rank": 3,
+          "clue": "You build castles in this box at the playground.",
+          "answer": "Sandbox",
+          "alternates": [
+            "sandpit"
+          ]
+        },
+        {
+          "id": "l1c-recess-is-best-4",
+          "rank": 4,
+          "clue": "You hang and move hand over hand across these.",
+          "answer": "Monkey bars",
+          "alternates": []
+        },
+        {
+          "id": "l1c-recess-is-best-5",
+          "rank": 5,
+          "clue": "Two kids sit on each end of this board and go up and down.",
+          "answer": "Seesaw",
+          "alternates": [
+            "teeter-totter",
+            "teeter totter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-game-on",
+      "name": "Game On!",
+      "clues": [
+        {
+          "id": "l1c-game-on-1",
+          "rank": 1,
+          "clue": "In this chasing game, the person chasing is \"it.\"",
+          "answer": "Tag",
+          "alternates": []
+        },
+        {
+          "id": "l1c-game-on-2",
+          "rank": 2,
+          "clue": "In this game, one player counts with eyes closed while everyone else hides.",
+          "answer": "Hide-and-seek",
+          "alternates": [
+            "hide and go seek"
+          ]
+        },
+        {
+          "id": "l1c-game-on-3",
+          "rank": 3,
+          "clue": "In this game, you only follow orders when the leader says the leader's name first.",
+          "answer": "Simon Says",
+          "alternates": []
+        },
+        {
+          "id": "l1c-game-on-4",
+          "rank": 4,
+          "clue": "In this game, you toss a stone and hop through numbered squares drawn in chalk.",
+          "answer": "Hopscotch",
+          "alternates": []
+        },
+        {
+          "id": "l1c-game-on-5",
+          "rank": 5,
+          "clue": "Kids sit in a circle and one walks around tapping heads until shouting the name of a bird.",
+          "answer": "Duck, Duck, Goose",
+          "alternates": [
+            "duck duck goose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-under-the-big-top",
+      "name": "Under the Big Top",
+      "clues": [
+        {
+          "id": "l1c-under-the-big-top-1",
+          "rank": 1,
+          "clue": "This circus performer has a red nose, big shoes and face paint.",
+          "answer": "Clown",
+          "alternates": []
+        },
+        {
+          "id": "l1c-under-the-big-top-2",
+          "rank": 2,
+          "clue": "This performer keeps several balls or pins flying in the air at once.",
+          "answer": "Juggler",
+          "alternates": []
+        },
+        {
+          "id": "l1c-under-the-big-top-3",
+          "rank": 3,
+          "clue": "This performer walks carefully across a thin wire high above the ground.",
+          "answer": "Tightrope walker",
+          "alternates": [
+            "tightrope",
+            "high wire walker",
+            "funambulist"
+          ]
+        },
+        {
+          "id": "l1c-under-the-big-top-4",
+          "rank": 4,
+          "clue": "This person in a top hat announces the acts in the circus ring.",
+          "answer": "Ringmaster",
+          "alternates": []
+        },
+        {
+          "id": "l1c-under-the-big-top-5",
+          "rank": 5,
+          "clue": "Circus flyers swing from this bar high in the air.",
+          "answer": "Trapeze",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-clowning-around",
+      "name": "Clowning Around",
+      "clues": [
+        {
+          "id": "l1c-clowning-around-1",
+          "rank": 1,
+          "clue": "This is the name for the giant circus tent.",
+          "answer": "Big top",
+          "alternates": []
+        },
+        {
+          "id": "l1c-clowning-around-2",
+          "rank": 2,
+          "clue": "This bike with only one wheel is a circus favorite.",
+          "answer": "Unicycle",
+          "alternates": []
+        },
+        {
+          "id": "l1c-clowning-around-3",
+          "rank": 3,
+          "clue": "Circus performers walk on these long poles to look super tall.",
+          "answer": "Stilts",
+          "alternates": []
+        },
+        {
+          "id": "l1c-clowning-around-4",
+          "rank": 4,
+          "clue": "This circus performer does flips, tumbles and balancing tricks.",
+          "answer": "Acrobat",
+          "alternates": [
+            "tumbler"
+          ]
+        },
+        {
+          "id": "l1c-clowning-around-5",
+          "rank": 5,
+          "clue": "This daring performer gets shot out of a giant cannon.",
+          "answer": "Human cannonball",
+          "alternates": [
+            "cannonball"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-zoo-who",
+      "name": "Zoo Who?",
+      "clues": [
+        {
+          "id": "l1c-zoo-who-1",
+          "rank": 1,
+          "clue": "This horse-like animal has black and white stripes.",
+          "answer": "Zebra",
+          "alternates": []
+        },
+        {
+          "id": "l1c-zoo-who-2",
+          "rank": 2,
+          "clue": "This hopping animal from Australia carries its baby in a pouch.",
+          "answer": "Kangaroo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-zoo-who-3",
+          "rank": 3,
+          "clue": "This pink bird often stands on one leg.",
+          "answer": "Flamingo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-zoo-who-4",
+          "rank": 4,
+          "clue": "This is the largest of all the apes.",
+          "answer": "Gorilla",
+          "alternates": []
+        },
+        {
+          "id": "l1c-zoo-who-5",
+          "rank": 5,
+          "clue": "This huge animal's name means \"river horse.\"",
+          "answer": "Hippopotamus",
+          "alternates": [
+            "hippo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-day-at-the-zoo",
+      "name": "Day at the Zoo",
+      "clues": [
+        {
+          "id": "l1c-day-at-the-zoo-1",
+          "rank": 1,
+          "clue": "This person feeds and cares for the animals at the zoo.",
+          "answer": "Zookeeper",
+          "alternates": [
+            "keeper"
+          ]
+        },
+        {
+          "id": "l1c-day-at-the-zoo-2",
+          "rank": 2,
+          "clue": "At this part of the zoo, you can touch and pet goats and sheep.",
+          "answer": "Petting zoo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-day-at-the-zoo-3",
+          "rank": 3,
+          "clue": "This is a place where you can see fish and other sea life in big tanks.",
+          "answer": "Aquarium",
+          "alternates": []
+        },
+        {
+          "id": "l1c-day-at-the-zoo-4",
+          "rank": 4,
+          "clue": "This male bird spreads his colorful tail feathers like a fan.",
+          "answer": "Peacock",
+          "alternates": [
+            "peafowl"
+          ]
+        },
+        {
+          "id": "l1c-day-at-the-zoo-5",
+          "rank": 5,
+          "clue": "This is the name for a large cage or building where birds can fly around.",
+          "answer": "Aviary",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-happily-ever-after",
+      "name": "Happily Ever After",
+      "clues": [
+        {
+          "id": "l1c-happily-ever-after-1",
+          "rank": 1,
+          "clue": "In a fairy tale, a princess kisses this animal and it turns into a prince.",
+          "answer": "Frog",
+          "alternates": []
+        },
+        {
+          "id": "l1c-happily-ever-after-2",
+          "rank": 2,
+          "clue": "A real princess felt this tiny vegetable through a stack of mattresses.",
+          "answer": "Pea",
+          "alternates": []
+        },
+        {
+          "id": "l1c-happily-ever-after-3",
+          "rank": 3,
+          "clue": "The ugly duckling grows up to become this beautiful bird.",
+          "answer": "Swan",
+          "alternates": []
+        },
+        {
+          "id": "l1c-happily-ever-after-4",
+          "rank": 4,
+          "clue": "Belle falls in love with this furry, cursed prince who lives in a castle.",
+          "answer": "Beast",
+          "alternates": [
+            "the beast"
+          ]
+        },
+        {
+          "id": "l1c-happily-ever-after-5",
+          "rank": 5,
+          "clue": "These two German brothers collected fairy tales like Hansel and Gretel.",
+          "answer": "Brothers Grimm",
+          "alternates": [
+            "Grimm",
+            "Grimm brothers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-enchanted-objects",
+      "name": "Enchanted Objects",
+      "clues": [
+        {
+          "id": "l1c-enchanted-objects-1",
+          "rank": 1,
+          "clue": "Cinderella's fairy godmother turns this vegetable into a coach.",
+          "answer": "Pumpkin",
+          "alternates": []
+        },
+        {
+          "id": "l1c-enchanted-objects-2",
+          "rank": 2,
+          "clue": "Snow White takes a bite of this poisoned fruit.",
+          "answer": "Apple",
+          "alternates": []
+        },
+        {
+          "id": "l1c-enchanted-objects-3",
+          "rank": 3,
+          "clue": "The wicked queen asks this magic object on the wall who is fairest of all.",
+          "answer": "Mirror",
+          "alternates": [
+            "magic mirror"
+          ]
+        },
+        {
+          "id": "l1c-enchanted-objects-4",
+          "rank": 4,
+          "clue": "In Jack and the Beanstalk, the giant's magic bird lays these.",
+          "answer": "Golden eggs",
+          "alternates": [
+            "golden egg",
+            "gold eggs"
+          ]
+        },
+        {
+          "id": "l1c-enchanted-objects-5",
+          "rank": 5,
+          "clue": "Hansel dropped a trail of these in the forest, but birds ate them.",
+          "answer": "Bread crumbs",
+          "alternates": [
+            "breadcrumbs",
+            "crumbs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-fable-ous",
+      "name": "Fable-ous",
+      "clues": [
+        {
+          "id": "l1c-fable-ous-1",
+          "rank": 1,
+          "clue": "This slow animal won the race against the hare.",
+          "answer": "Tortoise",
+          "alternates": [
+            "turtle"
+          ]
+        },
+        {
+          "id": "l1c-fable-ous-2",
+          "rank": 2,
+          "clue": "This animal couldn't reach the grapes, so it said they were sour.",
+          "answer": "Fox",
+          "alternates": []
+        },
+        {
+          "id": "l1c-fable-ous-3",
+          "rank": 3,
+          "clue": "This tiny worker stored food all summer while the grasshopper played.",
+          "answer": "Ant",
+          "alternates": []
+        },
+        {
+          "id": "l1c-fable-ous-4",
+          "rank": 4,
+          "clue": "This small animal freed the lion by chewing through a hunter's net.",
+          "answer": "Mouse",
+          "alternates": []
+        },
+        {
+          "id": "l1c-fable-ous-5",
+          "rank": 5,
+          "clue": "This storyteller from ancient Greece is famous for fables with a lesson.",
+          "answer": "Aesop",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-cartoon-corner",
+      "name": "Cartoon Corner",
+      "clues": [
+        {
+          "id": "l1c-cartoon-corner-1",
+          "rank": 1,
+          "clue": "This gray rabbit chews a carrot and asks, \"What's up, Doc?\"",
+          "answer": "Bugs Bunny",
+          "alternates": [
+            "Bugs"
+          ]
+        },
+        {
+          "id": "l1c-cartoon-corner-2",
+          "rank": 2,
+          "clue": "This Great Dane solves mysteries with his friends and loves snacks.",
+          "answer": "Scooby-Doo",
+          "alternates": [
+            "Scooby"
+          ]
+        },
+        {
+          "id": "l1c-cartoon-corner-3",
+          "rank": 3,
+          "clue": "This sailor man gets super strong when he eats spinach.",
+          "answer": "Popeye",
+          "alternates": []
+        },
+        {
+          "id": "l1c-cartoon-corner-4",
+          "rank": 4,
+          "clue": "This speedy bird goes \"Beep, beep!\" and always escapes Wile E. Coyote.",
+          "answer": "Road Runner",
+          "alternates": [
+            "roadrunner"
+          ]
+        },
+        {
+          "id": "l1c-cartoon-corner-5",
+          "rank": 5,
+          "clue": "This little yellow bird says, \"I tawt I taw a puddy tat!\"",
+          "answer": "Tweety",
+          "alternates": [
+            "Tweety Bird"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-sunny-days",
+      "name": "Sunny Days",
+      "clues": [
+        {
+          "id": "l1c-sunny-days-1",
+          "rank": 1,
+          "clue": "This very tall yellow bird lives on Sesame Street.",
+          "answer": "Big Bird",
+          "alternates": []
+        },
+        {
+          "id": "l1c-sunny-days-2",
+          "rank": 2,
+          "clue": "This blue monster shouts, \"Me want cookie!\"",
+          "answer": "Cookie Monster",
+          "alternates": []
+        },
+        {
+          "id": "l1c-sunny-days-3",
+          "rank": 3,
+          "clue": "This green grump lives in a trash can.",
+          "answer": "Oscar the Grouch",
+          "alternates": [
+            "Oscar"
+          ]
+        },
+        {
+          "id": "l1c-sunny-days-4",
+          "rank": 4,
+          "clue": "This furry red monster often talks about himself by name.",
+          "answer": "Elmo",
+          "alternates": []
+        },
+        {
+          "id": "l1c-sunny-days-5",
+          "rank": 5,
+          "clue": "This Muppet with a tall head loves pigeons and paper clips and is Ernie's best friend.",
+          "answer": "Bert",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-on-with-the-show",
+      "name": "On With the Show",
+      "clues": [
+        {
+          "id": "l1c-on-with-the-show-1",
+          "rank": 1,
+          "clue": "Actors perform up on this raised platform.",
+          "answer": "Stage",
+          "alternates": []
+        },
+        {
+          "id": "l1c-on-with-the-show-2",
+          "rank": 2,
+          "clue": "This big cloth opens at the start of a show and closes at the end.",
+          "answer": "Curtain",
+          "alternates": [
+            "curtains"
+          ]
+        },
+        {
+          "id": "l1c-on-with-the-show-3",
+          "rank": 3,
+          "clue": "This is the name for all the people watching a show.",
+          "answer": "Audience",
+          "alternates": [
+            "crowd"
+          ]
+        },
+        {
+          "id": "l1c-on-with-the-show-4",
+          "rank": 4,
+          "clue": "When the crowd cheers for one more song after the show, the performers play this.",
+          "answer": "Encore",
+          "alternates": []
+        },
+        {
+          "id": "l1c-on-with-the-show-5",
+          "rank": 5,
+          "clue": "This kind of puppet is moved by strings from above.",
+          "answer": "Marionette",
+          "alternates": [
+            "string puppet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-story-time",
+      "name": "Story Time",
+      "clues": [
+        {
+          "id": "l1c-story-time-1",
+          "rank": 1,
+          "clue": "This big red dog belongs to a girl named Emily Elizabeth.",
+          "answer": "Clifford",
+          "alternates": []
+        },
+        {
+          "id": "l1c-story-time-2",
+          "rank": 2,
+          "clue": "This curious little monkey lives with the Man with the Yellow Hat.",
+          "answer": "Curious George",
+          "alternates": [
+            "George"
+          ]
+        },
+        {
+          "id": "l1c-story-time-3",
+          "rank": 3,
+          "clue": "This boy who never grows up lives in Neverland.",
+          "answer": "Peter Pan",
+          "alternates": []
+        },
+        {
+          "id": "l1c-story-time-4",
+          "rank": 4,
+          "clue": "This bear from Peru loves marmalade sandwiches.",
+          "answer": "Paddington",
+          "alternates": [
+            "Paddington Bear"
+          ]
+        },
+        {
+          "id": "l1c-story-time-5",
+          "rank": 5,
+          "clue": "This brave little girl lives in Paris with eleven other girls in two straight lines.",
+          "answer": "Madeline",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-over-the-rainbow",
+      "name": "Over the Rainbow",
+      "clues": [
+        {
+          "id": "l1c-over-the-rainbow-1",
+          "rank": 1,
+          "clue": "This is the name of Dorothy's little dog in The Wizard of Oz.",
+          "answer": "Toto",
+          "alternates": []
+        },
+        {
+          "id": "l1c-over-the-rainbow-2",
+          "rank": 2,
+          "clue": "This straw-stuffed friend of Dorothy wants a brain.",
+          "answer": "Scarecrow",
+          "alternates": []
+        },
+        {
+          "id": "l1c-over-the-rainbow-3",
+          "rank": 3,
+          "clue": "This metal friend of Dorothy wants a heart.",
+          "answer": "Tin Man",
+          "alternates": [
+            "Tin Woodman"
+          ]
+        },
+        {
+          "id": "l1c-over-the-rainbow-4",
+          "rank": 4,
+          "clue": "Dorothy follows this road to the Emerald City.",
+          "answer": "Yellow brick road",
+          "alternates": []
+        },
+        {
+          "id": "l1c-over-the-rainbow-5",
+          "rank": 5,
+          "clue": "A tornado carries Dorothy away from her home in this state.",
+          "answer": "Kansas",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-curiouser-and-curiouser",
+      "name": "Curiouser and Curiouser",
+      "clues": [
+        {
+          "id": "l1c-curiouser-and-curiouser-1",
+          "rank": 1,
+          "clue": "This girl falls down a rabbit hole into Wonderland.",
+          "answer": "Alice",
+          "alternates": []
+        },
+        {
+          "id": "l1c-curiouser-and-curiouser-2",
+          "rank": 2,
+          "clue": "This rabbit with a pocket watch cries, \"I'm late! I'm late!\"",
+          "answer": "White Rabbit",
+          "alternates": []
+        },
+        {
+          "id": "l1c-curiouser-and-curiouser-3",
+          "rank": 3,
+          "clue": "This cat can disappear until only its big grin is left.",
+          "answer": "Cheshire Cat",
+          "alternates": []
+        },
+        {
+          "id": "l1c-curiouser-and-curiouser-4",
+          "rank": 4,
+          "clue": "This silly fellow in a tall hat throws a never-ending tea party.",
+          "answer": "Mad Hatter",
+          "alternates": [
+            "Hatter"
+          ]
+        },
+        {
+          "id": "l1c-curiouser-and-curiouser-5",
+          "rank": 5,
+          "clue": "This bossy card ruler shouts, \"Off with their heads!\"",
+          "answer": "Queen of Hearts",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1c-bowled-over",
+      "name": "Bowled Over",
+      "clues": [
+        {
+          "id": "l1c-bowled-over-1",
+          "rank": 1,
+          "clue": "Knocking down all the pins with your first ball is called this.",
+          "answer": "Strike",
+          "alternates": []
+        },
+        {
+          "id": "l1c-bowled-over-2",
+          "rank": 2,
+          "clue": "When your ball rolls off into the side channel, it is called this ball.",
+          "answer": "Gutter",
+          "alternates": [
+            "gutter ball"
+          ]
+        },
+        {
+          "id": "l1c-bowled-over-3",
+          "rank": 3,
+          "clue": "Knocking down all the pins using both balls in a frame is called this.",
+          "answer": "Spare",
+          "alternates": []
+        },
+        {
+          "id": "l1c-bowled-over-4",
+          "rank": 4,
+          "clue": "This many pins stand at the end of a bowling lane.",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        },
+        {
+          "id": "l1c-bowled-over-5",
+          "rank": 5,
+          "clue": "A perfect game in bowling scores this many points.",
+          "answer": "300",
+          "alternates": [
+            "three hundred"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1c-raising-a-racket",
+      "name": "Raising a Racket",
+      "clues": [
+        {
+          "id": "l1c-raising-a-racket-1",
+          "rank": 1,
+          "clue": "In this sport, players hit a fuzzy yellow ball over a net with rackets.",
+          "answer": "Tennis",
+          "alternates": []
+        },
+        {
+          "id": "l1c-raising-a-racket-2",
+          "rank": 2,
+          "clue": "This game is like tennis, but you play it on a table with small paddles.",
+          "answer": "Ping-pong",
+          "alternates": [
+            "table tennis"
+          ]
+        },
+        {
+          "id": "l1c-raising-a-racket-3",
+          "rank": 3,
+          "clue": "In this sport, players hit a feathered birdie over a high net.",
+          "answer": "Badminton",
+          "alternates": []
+        },
+        {
+          "id": "l1c-raising-a-racket-4",
+          "rank": 4,
+          "clue": "In tennis scoring, this word means zero.",
+          "answer": "Love",
+          "alternates": []
+        },
+        {
+          "id": "l1c-raising-a-racket-5",
+          "rank": 5,
+          "clue": "This famous tennis tournament in London is played on grass.",
+          "answer": "Wimbledon",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

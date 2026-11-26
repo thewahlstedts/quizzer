@@ -1,0 +1,2320 @@
+{
+  "level": 2,
+  "categories": [
+    {
+      "id": "l2b-founding-frenzy",
+      "name": "Founding Frenzy",
+      "clues": [
+        {
+          "id": "l2b-founding-frenzy-1",
+          "rank": 1,
+          "clue": "The Fourth of July celebrates the approval of this 1776 document.",
+          "answer": "Declaration of Independence",
+          "alternates": []
+        },
+        {
+          "id": "l2b-founding-frenzy-2",
+          "rank": 2,
+          "clue": "This Philadelphia bell with a famous crack is a symbol of American freedom.",
+          "answer": "Liberty Bell",
+          "alternates": []
+        },
+        {
+          "id": "l2b-founding-frenzy-3",
+          "rank": 3,
+          "clue": "Known for Poor Richard's Almanack and kite experiments, this inventor signed the Declaration.",
+          "answer": "Benjamin Franklin",
+          "alternates": [
+            "Franklin",
+            "Ben Franklin"
+          ]
+        },
+        {
+          "id": "l2b-founding-frenzy-4",
+          "rank": 4,
+          "clue": "His name is the largest signature on the Declaration, so it now means any signature.",
+          "answer": "John Hancock",
+          "alternates": [
+            "Hancock"
+          ]
+        },
+        {
+          "id": "l2b-founding-frenzy-5",
+          "rank": 5,
+          "clue": "Paul Revere's 1775 midnight ride warned colonists before the battles at Lexington and this nearby town.",
+          "answer": "Concord",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-blue-and-gray",
+      "name": "Blue and Gray",
+      "clues": [
+        {
+          "id": "l2b-blue-and-gray-1",
+          "rank": 1,
+          "clue": "The Civil War was fought between the Union and this group of Southern states.",
+          "answer": "Confederacy",
+          "alternates": [
+            "Confederate States",
+            "Confederate States of America",
+            "the South"
+          ]
+        },
+        {
+          "id": "l2b-blue-and-gray-2",
+          "rank": 2,
+          "clue": "This Confederate general surrendered at Appomattox Court House in 1865.",
+          "answer": "Robert E. Lee",
+          "alternates": [
+            "Lee",
+            "Robert Lee"
+          ]
+        },
+        {
+          "id": "l2b-blue-and-gray-3",
+          "rank": 3,
+          "clue": "This Union general later became the 18th president of the United States.",
+          "answer": "Ulysses S. Grant",
+          "alternates": [
+            "Grant",
+            "Ulysses Grant"
+          ]
+        },
+        {
+          "id": "l2b-blue-and-gray-4",
+          "rank": 4,
+          "clue": "Abraham Lincoln gave this short, famous speech at a Pennsylvania battlefield in 1863.",
+          "answer": "Gettysburg Address",
+          "alternates": []
+        },
+        {
+          "id": "l2b-blue-and-gray-5",
+          "rank": 5,
+          "clue": "The first shots of the Civil War were fired at this fort in Charleston Harbor in 1861.",
+          "answer": "Fort Sumter",
+          "alternates": [
+            "Sumter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-westward-ho",
+      "name": "Westward Ho!",
+      "clues": [
+        {
+          "id": "l2b-westward-ho-1",
+          "rank": 1,
+          "clue": "Gold found at Sutter's Mill in 1848 sparked a rush of fortune seekers to this future state.",
+          "answer": "California",
+          "alternates": []
+        },
+        {
+          "id": "l2b-westward-ho-2",
+          "rank": 2,
+          "clue": "Pioneers in covered wagons followed this roughly 2,000-mile route from Missouri to the Pacific Northwest.",
+          "answer": "Oregon Trail",
+          "alternates": []
+        },
+        {
+          "id": "l2b-westward-ho-3",
+          "rank": 3,
+          "clue": "This Shoshone woman helped guide Lewis and Clark's expedition.",
+          "answer": "Sacagawea",
+          "alternates": [
+            "Sacajawea"
+          ]
+        },
+        {
+          "id": "l2b-westward-ho-4",
+          "rank": 4,
+          "clue": "Finished at Promontory Summit, Utah, in 1869, it linked the eastern and western United States by rail.",
+          "answer": "Transcontinental Railroad",
+          "alternates": [
+            "First Transcontinental Railroad"
+          ]
+        },
+        {
+          "id": "l2b-westward-ho-5",
+          "rank": 5,
+          "clue": "From 1860 to 1861, this mail service used relays of horseback riders between Missouri and California.",
+          "answer": "Pony Express",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-presidential-pursuits",
+      "name": "Presidential Pursuits",
+      "clues": [
+        {
+          "id": "l2b-presidential-pursuits-1",
+          "rank": 1,
+          "clue": "The teddy bear was named after this 26th president, a famous outdoorsman.",
+          "answer": "Theodore Roosevelt",
+          "alternates": []
+        },
+        {
+          "id": "l2b-presidential-pursuits-2",
+          "rank": 2,
+          "clue": "This 35th president started the Peace Corps and challenged America to land on the Moon.",
+          "answer": "John F. Kennedy",
+          "alternates": [
+            "JFK",
+            "Kennedy",
+            "John Kennedy"
+          ]
+        },
+        {
+          "id": "l2b-presidential-pursuits-3",
+          "rank": 3,
+          "clue": "Before becoming president, this general commanded the Allied forces on D-Day.",
+          "answer": "Dwight D. Eisenhower",
+          "alternates": [
+            "Eisenhower",
+            "Ike",
+            "Dwight Eisenhower"
+          ]
+        },
+        {
+          "id": "l2b-presidential-pursuits-4",
+          "rank": 4,
+          "clue": "He is the only president elected to more than two terms.",
+          "answer": "Franklin D. Roosevelt",
+          "alternates": [
+            "FDR",
+            "Franklin Roosevelt"
+          ]
+        },
+        {
+          "id": "l2b-presidential-pursuits-5",
+          "rank": 5,
+          "clue": "In 1800, this second president became the first to live in the White House.",
+          "answer": "John Adams",
+          "alternates": [
+            "Adams"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-civil-rights-road",
+      "name": "Civil Rights Road",
+      "clues": [
+        {
+          "id": "l2b-civil-rights-road-1",
+          "rank": 1,
+          "clue": "He gave the famous \"I Have a Dream\" speech in Washington, D.C., in 1963.",
+          "answer": "Martin Luther King Jr.",
+          "alternates": [
+            "Martin Luther King",
+            "MLK",
+            "Dr. King"
+          ]
+        },
+        {
+          "id": "l2b-civil-rights-road-2",
+          "rank": 2,
+          "clue": "Her 1955 refusal to give up her bus seat sparked the Montgomery Bus Boycott.",
+          "answer": "Rosa Parks",
+          "alternates": [
+            "Parks"
+          ]
+        },
+        {
+          "id": "l2b-civil-rights-road-3",
+          "rank": 3,
+          "clue": "After escaping slavery, she led many others to freedom on the Underground Railroad.",
+          "answer": "Harriet Tubman",
+          "alternates": [
+            "Tubman"
+          ]
+        },
+        {
+          "id": "l2b-civil-rights-road-4",
+          "rank": 4,
+          "clue": "This formerly enslaved man became a famous abolitionist speaker, writer and newspaper publisher.",
+          "answer": "Frederick Douglass",
+          "alternates": [
+            "Douglass"
+          ]
+        },
+        {
+          "id": "l2b-civil-rights-road-5",
+          "rank": 5,
+          "clue": "This 1954 Supreme Court case ruled that segregated public schools were unconstitutional.",
+          "answer": "Brown v. Board of Education",
+          "alternates": [
+            "Brown v Board",
+            "Brown versus Board of Education"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-roaring-through-the-1900s",
+      "name": "Roaring Through the 1900s",
+      "clues": [
+        {
+          "id": "l2b-roaring-through-the-1900s-1",
+          "rank": 1,
+          "clue": "Japan's surprise attack on this Hawaiian naval base brought the US into World War II.",
+          "answer": "Pearl Harbor",
+          "alternates": []
+        },
+        {
+          "id": "l2b-roaring-through-the-1900s-2",
+          "rank": 2,
+          "clue": "The hard economic times of the 1930s are known by this name.",
+          "answer": "Great Depression",
+          "alternates": [
+            "Depression"
+          ]
+        },
+        {
+          "id": "l2b-roaring-through-the-1900s-3",
+          "rank": 3,
+          "clue": "Millions of immigrants arriving in New York Harbor were processed at this island station.",
+          "answer": "Ellis Island",
+          "alternates": []
+        },
+        {
+          "id": "l2b-roaring-through-the-1900s-4",
+          "rank": 4,
+          "clue": "The Wright brothers made their first powered airplane flights in 1903 near this North Carolina town.",
+          "answer": "Kitty Hawk",
+          "alternates": [
+            "Kill Devil Hills"
+          ]
+        },
+        {
+          "id": "l2b-roaring-through-the-1900s-5",
+          "rank": 5,
+          "clue": "The 19th Amendment, ratified in 1920, guaranteed this group the right to vote.",
+          "answer": "Women",
+          "alternates": [
+            "woman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-walk-like-an-egyptian",
+      "name": "Walk Like an Egyptian",
+      "clues": [
+        {
+          "id": "l2b-walk-like-an-egyptian-1",
+          "rank": 1,
+          "clue": "Ancient Egyptians preserved bodies and wrapped them in linen, creating these.",
+          "answer": "Mummies",
+          "alternates": [
+            "mummy"
+          ]
+        },
+        {
+          "id": "l2b-walk-like-an-egyptian-2",
+          "rank": 2,
+          "clue": "This giant statue with a lion's body and a human head guards the pyramids at Giza.",
+          "answer": "Great Sphinx",
+          "alternates": [
+            "Sphinx"
+          ]
+        },
+        {
+          "id": "l2b-walk-like-an-egyptian-3",
+          "rank": 3,
+          "clue": "Ancient Egyptians wrote with these picture symbols.",
+          "answer": "Hieroglyphs",
+          "alternates": [
+            "hieroglyphics",
+            "hieroglyph"
+          ]
+        },
+        {
+          "id": "l2b-walk-like-an-egyptian-4",
+          "rank": 4,
+          "clue": "Egyptians made a paper-like writing material from this plant that grew along the Nile.",
+          "answer": "Papyrus",
+          "alternates": []
+        },
+        {
+          "id": "l2b-walk-like-an-egyptian-5",
+          "rank": 5,
+          "clue": "Found in 1799, this inscribed stone helped scholars finally decode ancient Egyptian writing.",
+          "answer": "Rosetta Stone",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-greek-to-me",
+      "name": "Greek to Me",
+      "clues": [
+        {
+          "id": "l2b-greek-to-me-1",
+          "rank": 1,
+          "clue": "This Greek city-state is often called the birthplace of democracy.",
+          "answer": "Athens",
+          "alternates": []
+        },
+        {
+          "id": "l2b-greek-to-me-2",
+          "rank": 2,
+          "clue": "This temple to the goddess Athena stands on the Acropolis.",
+          "answer": "Parthenon",
+          "alternates": []
+        },
+        {
+          "id": "l2b-greek-to-me-3",
+          "rank": 3,
+          "clue": "The ancient Olympic Games were held at this sanctuary of Zeus in Greece.",
+          "answer": "Olympia",
+          "alternates": []
+        },
+        {
+          "id": "l2b-greek-to-me-4",
+          "rank": 4,
+          "clue": "This philosopher, teacher of Plato, asked endless questions and wrote nothing down himself.",
+          "answer": "Socrates",
+          "alternates": []
+        },
+        {
+          "id": "l2b-greek-to-me-5",
+          "rank": 5,
+          "clue": "This student of Plato was hired to tutor the young Alexander the Great.",
+          "answer": "Aristotle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-when-in-rome",
+      "name": "When in Rome",
+      "clues": [
+        {
+          "id": "l2b-when-in-rome-1",
+          "rank": 1,
+          "clue": "Ancient Romans spoke this language, the ancestor of Spanish, French and Italian.",
+          "answer": "Latin",
+          "alternates": []
+        },
+        {
+          "id": "l2b-when-in-rome-2",
+          "rank": 2,
+          "clue": "This Roman leader was assassinated on the Ides of March in 44 BC.",
+          "answer": "Julius Caesar",
+          "alternates": [
+            "Caesar"
+          ]
+        },
+        {
+          "id": "l2b-when-in-rome-3",
+          "rank": 3,
+          "clue": "This volcano erupted in AD 79 and buried the town of Pompeii.",
+          "answer": "Mount Vesuvius",
+          "alternates": [
+            "Vesuvius"
+          ]
+        },
+        {
+          "id": "l2b-when-in-rome-4",
+          "rank": 4,
+          "clue": "Romans built these bridge-like channels to carry water long distances into their cities.",
+          "answer": "Aqueducts",
+          "alternates": [
+            "aqueduct"
+          ]
+        },
+        {
+          "id": "l2b-when-in-rome-5",
+          "rank": 5,
+          "clue": "Once called Octavian, he became the first Roman emperor in 27 BC.",
+          "answer": "Augustus",
+          "alternates": [
+            "Caesar Augustus",
+            "Augustus Caesar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-wonder-ful-world",
+      "name": "Wonder-ful World",
+      "clues": [
+        {
+          "id": "l2b-wonder-ful-world-1",
+          "rank": 1,
+          "clue": "It is the only one of the Seven Wonders of the Ancient World still standing.",
+          "answer": "Great Pyramid of Giza",
+          "alternates": [
+            "Great Pyramid",
+            "Pyramid of Giza",
+            "Pyramids of Giza"
+          ]
+        },
+        {
+          "id": "l2b-wonder-ful-world-2",
+          "rank": 2,
+          "clue": "Legend says the famous Hanging Gardens stood in this ancient Mesopotamian city.",
+          "answer": "Babylon",
+          "alternates": []
+        },
+        {
+          "id": "l2b-wonder-ful-world-3",
+          "rank": 3,
+          "clue": "A giant bronze statue of the sun god Helios, the Colossus, stood on this Greek island.",
+          "answer": "Rhodes",
+          "alternates": []
+        },
+        {
+          "id": "l2b-wonder-ful-world-4",
+          "rank": 4,
+          "clue": "A famous ancient lighthouse stood on Pharos island in this Egyptian city founded by Alexander the Great.",
+          "answer": "Alexandria",
+          "alternates": []
+        },
+        {
+          "id": "l2b-wonder-ful-world-5",
+          "rank": 5,
+          "clue": "The great Temple of Artemis, an ancient wonder, stood in this city in modern Turkey.",
+          "answer": "Ephesus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-cradle-talk",
+      "name": "Cradle Talk",
+      "clues": [
+        {
+          "id": "l2b-cradle-talk-1",
+          "rank": 1,
+          "clue": "Its name means \"land between rivers,\" and it was an early civilization in what is now Iraq.",
+          "answer": "Mesopotamia",
+          "alternates": []
+        },
+        {
+          "id": "l2b-cradle-talk-2",
+          "rank": 2,
+          "clue": "Mesopotamia lay between the Tigris River and this river.",
+          "answer": "Euphrates",
+          "alternates": [
+            "Euphrates River"
+          ]
+        },
+        {
+          "id": "l2b-cradle-talk-3",
+          "rank": 3,
+          "clue": "The Sumerians wrote this wedge-shaped script by pressing a reed into wet clay.",
+          "answer": "Cuneiform",
+          "alternates": []
+        },
+        {
+          "id": "l2b-cradle-talk-4",
+          "rank": 4,
+          "clue": "This Babylonian king is famous for one of the earliest written law codes.",
+          "answer": "Hammurabi",
+          "alternates": []
+        },
+        {
+          "id": "l2b-cradle-talk-5",
+          "rank": 5,
+          "clue": "Mesopotamians built these huge stepped temple towers.",
+          "answer": "Ziggurats",
+          "alternates": [
+            "ziggurat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-before-columbus",
+      "name": "Before Columbus",
+      "clues": [
+        {
+          "id": "l2b-before-columbus-1",
+          "rank": 1,
+          "clue": "This Andes Mountains empire built roads across Peru and was conquered by Spain in the 1500s.",
+          "answer": "Inca",
+          "alternates": [
+            "Incas",
+            "Inca Empire",
+            "Incan"
+          ]
+        },
+        {
+          "id": "l2b-before-columbus-2",
+          "rank": 2,
+          "clue": "This empire's capital, Tenochtitlan, stood where Mexico City is today.",
+          "answer": "Aztec",
+          "alternates": [
+            "Aztecs",
+            "Aztec Empire",
+            "Mexica"
+          ]
+        },
+        {
+          "id": "l2b-before-columbus-3",
+          "rank": 3,
+          "clue": "This civilization built the pyramids of Chichen Itza and created a famous calendar.",
+          "answer": "Maya",
+          "alternates": [
+            "Mayan",
+            "Mayans"
+          ]
+        },
+        {
+          "id": "l2b-before-columbus-4",
+          "rank": 4,
+          "clue": "The Inca kept records using these knotted cords.",
+          "answer": "Quipu",
+          "alternates": [
+            "khipu",
+            "quipus"
+          ]
+        },
+        {
+          "id": "l2b-before-columbus-5",
+          "rank": 5,
+          "clue": "This city high in the Peruvian Andes was the capital of the Inca Empire.",
+          "answer": "Cusco",
+          "alternates": [
+            "Cuzco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-eastern-empires",
+      "name": "Eastern Empires",
+      "clues": [
+        {
+          "id": "l2b-eastern-empires-1",
+          "rank": 1,
+          "clue": "These Japanese warriors followed a code of honor called bushido.",
+          "answer": "Samurai",
+          "alternates": []
+        },
+        {
+          "id": "l2b-eastern-empires-2",
+          "rank": 2,
+          "clue": "This network of trade routes carried silk and spices between China and the Mediterranean.",
+          "answer": "Silk Road",
+          "alternates": [
+            "Silk Route"
+          ]
+        },
+        {
+          "id": "l2b-eastern-empires-3",
+          "rank": 3,
+          "clue": "Emperor Shah Jahan built this white marble tomb in Agra, India, for his wife.",
+          "answer": "Taj Mahal",
+          "alternates": []
+        },
+        {
+          "id": "l2b-eastern-empires-4",
+          "rank": 4,
+          "clue": "Thousands of life-size clay soldiers were buried to guard the tomb of China's first emperor.",
+          "answer": "Terracotta Army",
+          "alternates": [
+            "Terracotta Warriors"
+          ]
+        },
+        {
+          "id": "l2b-eastern-empires-5",
+          "rank": 5,
+          "clue": "This Chinese teacher's sayings are collected in a book called the Analects.",
+          "answer": "Confucius",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-middle-ages-matters",
+      "name": "Middle Ages Matters",
+      "clues": [
+        {
+          "id": "l2b-middle-ages-matters-1",
+          "rank": 1,
+          "clue": "Medieval lords lived in this stone fortress, often surrounded by a moat.",
+          "answer": "Castle",
+          "alternates": [
+            "castles"
+          ]
+        },
+        {
+          "id": "l2b-middle-ages-matters-2",
+          "rank": 2,
+          "clue": "These Scandinavian seafarers sailed longships and raided European coasts around 800 to 1050.",
+          "answer": "Vikings",
+          "alternates": [
+            "Viking",
+            "Norsemen"
+          ]
+        },
+        {
+          "id": "l2b-middle-ages-matters-3",
+          "rank": 3,
+          "clue": "Knights were expected to follow this code of bravery, honor and courtesy.",
+          "answer": "Chivalry",
+          "alternates": []
+        },
+        {
+          "id": "l2b-middle-ages-matters-4",
+          "rank": 4,
+          "clue": "This deadly plague swept across Europe in the 1300s.",
+          "answer": "Black Death",
+          "alternates": [
+            "bubonic plague",
+            "plague"
+          ]
+        },
+        {
+          "id": "l2b-middle-ages-matters-5",
+          "rank": 5,
+          "clue": "In 1215, English nobles forced King John to sign this charter limiting his power.",
+          "answer": "Magna Carta",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-ahoy-explorers",
+      "name": "Ahoy, Explorers!",
+      "clues": [
+        {
+          "id": "l2b-ahoy-explorers-1",
+          "rank": 1,
+          "clue": "Sailing for Spain in 1492, he reached the Americas with three ships.",
+          "answer": "Christopher Columbus",
+          "alternates": [
+            "Columbus"
+          ]
+        },
+        {
+          "id": "l2b-ahoy-explorers-2",
+          "rank": 2,
+          "clue": "This Venetian traveler wrote about his years at the court of Kublai Khan.",
+          "answer": "Marco Polo",
+          "alternates": []
+        },
+        {
+          "id": "l2b-ahoy-explorers-3",
+          "rank": 3,
+          "clue": "His expedition was the first to sail around the world, though he died in the Philippines along the way.",
+          "answer": "Ferdinand Magellan",
+          "alternates": [
+            "Magellan"
+          ]
+        },
+        {
+          "id": "l2b-ahoy-explorers-4",
+          "rank": 4,
+          "clue": "In 1498, this Portuguese explorer became the first European to reach India by sailing around Africa.",
+          "answer": "Vasco da Gama",
+          "alternates": [
+            "da Gama"
+          ]
+        },
+        {
+          "id": "l2b-ahoy-explorers-5",
+          "rank": 5,
+          "clue": "This Norse explorer reached North America around the year 1000.",
+          "answer": "Leif Erikson",
+          "alternates": [
+            "Leif Ericson",
+            "Leif Eriksson",
+            "Leif Ericsson"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-daring-discoverers",
+      "name": "Daring Discoverers",
+      "clues": [
+        {
+          "id": "l2b-daring-discoverers-1",
+          "rank": 1,
+          "clue": "In 1953, he and Tenzing Norgay became the first climbers confirmed to reach the top of Mount Everest.",
+          "answer": "Edmund Hillary",
+          "alternates": [
+            "Hillary"
+          ]
+        },
+        {
+          "id": "l2b-daring-discoverers-2",
+          "rank": 2,
+          "clue": "This British sea captain mapped much of the Pacific and reached Hawaii in 1778.",
+          "answer": "James Cook",
+          "alternates": [
+            "Captain Cook",
+            "Cook"
+          ]
+        },
+        {
+          "id": "l2b-daring-discoverers-3",
+          "rank": 3,
+          "clue": "In 1911, this Norwegian explorer led the first team to reach the South Pole.",
+          "answer": "Roald Amundsen",
+          "alternates": [
+            "Amundsen"
+          ]
+        },
+        {
+          "id": "l2b-daring-discoverers-4",
+          "rank": 4,
+          "clue": "This Spanish explorer named Florida in 1513, and legend links him to the Fountain of Youth.",
+          "answer": "Juan Ponce de Leon",
+          "alternates": [
+            "Ponce de Leon"
+          ]
+        },
+        {
+          "id": "l2b-daring-discoverers-5",
+          "rank": 5,
+          "clue": "Ernest Shackleton's ship of this name was crushed by Antarctic ice, yet his whole crew survived.",
+          "answer": "Endurance",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-capital-letters",
+      "name": "Capital Letters",
+      "clues": [
+        {
+          "id": "l2b-capital-letters-1",
+          "rank": 1,
+          "clue": "Big Ben and Buckingham Palace are in this capital city.",
+          "answer": "London",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-letters-2",
+          "rank": 2,
+          "clue": "A wall divided this German capital from 1961 to 1989.",
+          "answer": "Berlin",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-letters-3",
+          "rank": 3,
+          "clue": "This city in the center of Spain is the country's capital.",
+          "answer": "Madrid",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-letters-4",
+          "rank": 4,
+          "clue": "This city on the Nile is the capital of Egypt.",
+          "answer": "Cairo",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-letters-5",
+          "rank": 5,
+          "clue": "This East African city is the capital of Kenya.",
+          "answer": "Nairobi",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-euro-trip",
+      "name": "Euro Trip",
+      "clues": [
+        {
+          "id": "l2b-euro-trip-1",
+          "rank": 1,
+          "clue": "This city full of canals is the capital of the Netherlands.",
+          "answer": "Amsterdam",
+          "alternates": []
+        },
+        {
+          "id": "l2b-euro-trip-2",
+          "rank": 2,
+          "clue": "This city on the River Liffey is the capital of Ireland.",
+          "answer": "Dublin",
+          "alternates": []
+        },
+        {
+          "id": "l2b-euro-trip-3",
+          "rank": 3,
+          "clue": "This hilly city near the Atlantic is the capital of Portugal.",
+          "answer": "Lisbon",
+          "alternates": []
+        },
+        {
+          "id": "l2b-euro-trip-4",
+          "rank": 4,
+          "clue": "Mozart worked in this city on the Danube, the capital of Austria.",
+          "answer": "Vienna",
+          "alternates": []
+        },
+        {
+          "id": "l2b-euro-trip-5",
+          "rank": 5,
+          "clue": "This city on the Vistula River is the capital of Poland.",
+          "answer": "Warsaw",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-capital-hill",
+      "name": "Capital Hill",
+      "clues": [
+        {
+          "id": "l2b-capital-hill-1",
+          "rank": 1,
+          "clue": "This city is the capital of Cuba.",
+          "answer": "Havana",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-hill-2",
+          "rank": 2,
+          "clue": "Founded by the Spanish in 1535, this city is the capital of Peru.",
+          "answer": "Lima",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-hill-3",
+          "rank": 3,
+          "clue": "Known for the tango, this city is the capital of Argentina.",
+          "answer": "Buenos Aires",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-hill-4",
+          "rank": 4,
+          "clue": "This city near the Andes is the capital of Chile.",
+          "answer": "Santiago",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-hill-5",
+          "rank": 5,
+          "clue": "This high-altitude city is the capital of Colombia.",
+          "answer": "Bogota",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-capital-asia",
+      "name": "Capital Asia",
+      "clues": [
+        {
+          "id": "l2b-capital-asia-1",
+          "rank": 1,
+          "clue": "The Forbidden City is in this capital of China.",
+          "answer": "Beijing",
+          "alternates": [
+            "Peking"
+          ]
+        },
+        {
+          "id": "l2b-capital-asia-2",
+          "rank": 2,
+          "clue": "This city is the capital of India.",
+          "answer": "New Delhi",
+          "alternates": [
+            "Delhi"
+          ]
+        },
+        {
+          "id": "l2b-capital-asia-3",
+          "rank": 3,
+          "clue": "This city is the capital of South Korea.",
+          "answer": "Seoul",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-asia-4",
+          "rank": 4,
+          "clue": "This city on the Chao Phraya River is the capital of Thailand.",
+          "answer": "Bangkok",
+          "alternates": []
+        },
+        {
+          "id": "l2b-capital-asia-5",
+          "rank": 5,
+          "clue": "This city is the capital of Vietnam.",
+          "answer": "Hanoi",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-flag-day",
+      "name": "Flag Day",
+      "clues": [
+        {
+          "id": "l2b-flag-day-1",
+          "rank": 1,
+          "clue": "This country's flag is a red circle on a white background.",
+          "answer": "Japan",
+          "alternates": []
+        },
+        {
+          "id": "l2b-flag-day-2",
+          "rank": 2,
+          "clue": "This country's red flag has five yellow stars in one corner.",
+          "answer": "China",
+          "alternates": []
+        },
+        {
+          "id": "l2b-flag-day-3",
+          "rank": 3,
+          "clue": "This country's flag has green, white and orange vertical stripes.",
+          "answer": "Ireland",
+          "alternates": []
+        },
+        {
+          "id": "l2b-flag-day-4",
+          "rank": 4,
+          "clue": "This country's square flag shows a white cross on a red background.",
+          "answer": "Switzerland",
+          "alternates": []
+        },
+        {
+          "id": "l2b-flag-day-5",
+          "rank": 5,
+          "clue": "This Himalayan country has the only national flag that is not a rectangle.",
+          "answer": "Nepal",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-map-shapes",
+      "name": "Map Shapes",
+      "clues": [
+        {
+          "id": "l2b-map-shapes-1",
+          "rank": 1,
+          "clue": "On a map, this European country looks like a boot.",
+          "answer": "Italy",
+          "alternates": []
+        },
+        {
+          "id": "l2b-map-shapes-2",
+          "rank": 2,
+          "clue": "People often call this European country \"the Hexagon\" because of its six-sided shape.",
+          "answer": "France",
+          "alternates": []
+        },
+        {
+          "id": "l2b-map-shapes-3",
+          "rank": 3,
+          "clue": "This country is the largest in the world by area.",
+          "answer": "Russia",
+          "alternates": []
+        },
+        {
+          "id": "l2b-map-shapes-4",
+          "rank": 4,
+          "clue": "This long, skinny country stretches down the west coast of South America.",
+          "answer": "Chile",
+          "alternates": []
+        },
+        {
+          "id": "l2b-map-shapes-5",
+          "rank": 5,
+          "clue": "The world's smallest country is completely surrounded by the city of Rome.",
+          "answer": "Vatican City",
+          "alternates": [
+            "Vatican",
+            "Holy See"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-good-neighbors",
+      "name": "Good Neighbors",
+      "clues": [
+        {
+          "id": "l2b-good-neighbors-1",
+          "rank": 1,
+          "clue": "The United States shares its longest border with this country.",
+          "answer": "Canada",
+          "alternates": []
+        },
+        {
+          "id": "l2b-good-neighbors-2",
+          "rank": 2,
+          "clue": "It is the only country that borders Portugal.",
+          "answer": "Spain",
+          "alternates": []
+        },
+        {
+          "id": "l2b-good-neighbors-3",
+          "rank": 3,
+          "clue": "It is the only country that shares a land border with Denmark.",
+          "answer": "Germany",
+          "alternates": []
+        },
+        {
+          "id": "l2b-good-neighbors-4",
+          "rank": 4,
+          "clue": "This country shares the island of Hispaniola with Haiti.",
+          "answer": "Dominican Republic",
+          "alternates": []
+        },
+        {
+          "id": "l2b-good-neighbors-5",
+          "rank": 5,
+          "clue": "This landlocked country is sandwiched between Russia and China.",
+          "answer": "Mongolia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-island-hopping",
+      "name": "Island Hopping",
+      "clues": [
+        {
+          "id": "l2b-island-hopping-1",
+          "rank": 1,
+          "clue": "The world's largest island is mostly covered in ice and is part of the Kingdom of Denmark.",
+          "answer": "Greenland",
+          "alternates": []
+        },
+        {
+          "id": "l2b-island-hopping-2",
+          "rank": 2,
+          "clue": "This Caribbean island nation lies about 90 miles south of Key West, Florida.",
+          "answer": "Cuba",
+          "alternates": []
+        },
+        {
+          "id": "l2b-island-hopping-3",
+          "rank": 3,
+          "clue": "Reykjavik is the capital of this volcanic island country.",
+          "answer": "Iceland",
+          "alternates": []
+        },
+        {
+          "id": "l2b-island-hopping-4",
+          "rank": 4,
+          "clue": "Lemurs live in the wild only on this big island off the southeast coast of Africa.",
+          "answer": "Madagascar",
+          "alternates": []
+        },
+        {
+          "id": "l2b-island-hopping-5",
+          "rank": 5,
+          "clue": "This island state of Australia is famous for its namesake devil.",
+          "answer": "Tasmania",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-continental-quest",
+      "name": "Continental Quest",
+      "clues": [
+        {
+          "id": "l2b-continental-quest-1",
+          "rank": 1,
+          "clue": "Penguins live on this icy continent at the South Pole.",
+          "answer": "Antarctica",
+          "alternates": []
+        },
+        {
+          "id": "l2b-continental-quest-2",
+          "rank": 2,
+          "clue": "This continent is the largest by both area and population.",
+          "answer": "Asia",
+          "alternates": []
+        },
+        {
+          "id": "l2b-continental-quest-3",
+          "rank": 3,
+          "clue": "Brazil and Argentina are on this continent.",
+          "answer": "South America",
+          "alternates": []
+        },
+        {
+          "id": "l2b-continental-quest-4",
+          "rank": 4,
+          "clue": "This is the smallest of the seven continents.",
+          "answer": "Australia",
+          "alternates": [
+            "Oceania"
+          ]
+        },
+        {
+          "id": "l2b-continental-quest-5",
+          "rank": 5,
+          "clue": "This continent has more countries than any other.",
+          "answer": "Africa",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-cry-me-a-river",
+      "name": "Cry Me a River",
+      "clues": [
+        {
+          "id": "l2b-cry-me-a-river-1",
+          "rank": 1,
+          "clue": "Nicknamed \"Old Man River,\" this great river flows south past New Orleans.",
+          "answer": "Mississippi River",
+          "alternates": [
+            "Mississippi"
+          ]
+        },
+        {
+          "id": "l2b-cry-me-a-river-2",
+          "rank": 2,
+          "clue": "This river flows through London.",
+          "answer": "Thames",
+          "alternates": [
+            "River Thames",
+            "Thames River"
+          ]
+        },
+        {
+          "id": "l2b-cry-me-a-river-3",
+          "rank": 3,
+          "clue": "Over millions of years, this river carved the Grand Canyon.",
+          "answer": "Colorado River",
+          "alternates": [
+            "Colorado"
+          ]
+        },
+        {
+          "id": "l2b-cry-me-a-river-4",
+          "rank": 4,
+          "clue": "Hindus consider this river in India sacred.",
+          "answer": "Ganges",
+          "alternates": [
+            "Ganga",
+            "Ganges River"
+          ]
+        },
+        {
+          "id": "l2b-cry-me-a-river-5",
+          "rank": 5,
+          "clue": "This Russian river is the longest in Europe.",
+          "answer": "Volga",
+          "alternates": [
+            "Volga River"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-go-with-the-flow",
+      "name": "Go With the Flow",
+      "clues": [
+        {
+          "id": "l2b-go-with-the-flow-1",
+          "rank": 1,
+          "clue": "This river flows through the middle of Paris.",
+          "answer": "Seine",
+          "alternates": [
+            "Seine River"
+          ]
+        },
+        {
+          "id": "l2b-go-with-the-flow-2",
+          "rank": 2,
+          "clue": "This river forms part of the border between Texas and Mexico.",
+          "answer": "Rio Grande",
+          "alternates": []
+        },
+        {
+          "id": "l2b-go-with-the-flow-3",
+          "rank": 3,
+          "clue": "This river in China is the longest in Asia.",
+          "answer": "Yangtze",
+          "alternates": [
+            "Yangtze River",
+            "Chang Jiang"
+          ]
+        },
+        {
+          "id": "l2b-go-with-the-flow-4",
+          "rank": 4,
+          "clue": "This river flows through Vienna, Budapest and Belgrade.",
+          "answer": "Danube",
+          "alternates": [
+            "Danube River"
+          ]
+        },
+        {
+          "id": "l2b-go-with-the-flow-5",
+          "rank": 5,
+          "clue": "This river flows through Baghdad, Iraq.",
+          "answer": "Tigris",
+          "alternates": [
+            "Tigris River"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-peak-performance",
+      "name": "Peak Performance",
+      "clues": [
+        {
+          "id": "l2b-peak-performance-1",
+          "rank": 1,
+          "clue": "Mount Everest is in this Asian mountain range.",
+          "answer": "Himalayas",
+          "alternates": [
+            "Himalaya",
+            "Himalayan Mountains"
+          ]
+        },
+        {
+          "id": "l2b-peak-performance-2",
+          "rank": 2,
+          "clue": "The Matterhorn is in this European mountain range.",
+          "answer": "Alps",
+          "alternates": [
+            "Swiss Alps"
+          ]
+        },
+        {
+          "id": "l2b-peak-performance-3",
+          "rank": 3,
+          "clue": "This snowcapped volcano is the tallest mountain in Japan.",
+          "answer": "Mount Fuji",
+          "alternates": [
+            "Fuji",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "l2b-peak-performance-4",
+          "rank": 4,
+          "clue": "This mountain in Tanzania is the highest in Africa.",
+          "answer": "Kilimanjaro",
+          "alternates": [
+            "Mount Kilimanjaro"
+          ]
+        },
+        {
+          "id": "l2b-peak-performance-5",
+          "rank": 5,
+          "clue": "This Alaskan peak, once called Mount McKinley, is the highest in North America.",
+          "answer": "Denali",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-over-the-hills",
+      "name": "Over the Hills",
+      "clues": [
+        {
+          "id": "l2b-over-the-hills-1",
+          "rank": 1,
+          "clue": "This major mountain range runs through Colorado, Wyoming and Montana.",
+          "answer": "Rocky Mountains",
+          "alternates": [
+            "Rockies"
+          ]
+        },
+        {
+          "id": "l2b-over-the-hills-2",
+          "rank": 2,
+          "clue": "This is the longest mountain range on land, running down western South America.",
+          "answer": "Andes",
+          "alternates": [
+            "Andes Mountains"
+          ]
+        },
+        {
+          "id": "l2b-over-the-hills-3",
+          "rank": 3,
+          "clue": "A famous hiking trail follows this old mountain range from Georgia to Maine.",
+          "answer": "Appalachian Mountains",
+          "alternates": [
+            "Appalachians"
+          ]
+        },
+        {
+          "id": "l2b-over-the-hills-4",
+          "rank": 4,
+          "clue": "This volcano in Washington state erupted violently in 1980.",
+          "answer": "Mount St. Helens",
+          "alternates": [
+            "St. Helens",
+            "Mount Saint Helens"
+          ]
+        },
+        {
+          "id": "l2b-over-the-hills-5",
+          "rank": 5,
+          "clue": "Mount Rushmore is carved into a mountain in these South Dakota hills.",
+          "answer": "Black Hills",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-landmark-decisions",
+      "name": "Landmark Decisions",
+      "clues": [
+        {
+          "id": "l2b-landmark-decisions-1",
+          "rank": 1,
+          "clue": "This iron tower was built in Paris for a world's fair in 1889.",
+          "answer": "Eiffel Tower",
+          "alternates": []
+        },
+        {
+          "id": "l2b-landmark-decisions-2",
+          "rank": 2,
+          "clue": "France gave this copper statue to the United States, and it stands in New York Harbor.",
+          "answer": "Statue of Liberty",
+          "alternates": [
+            "Lady Liberty"
+          ]
+        },
+        {
+          "id": "l2b-landmark-decisions-3",
+          "rank": 3,
+          "clue": "This is the nickname of the great bell in the clock tower at London's Houses of Parliament.",
+          "answer": "Big Ben",
+          "alternates": []
+        },
+        {
+          "id": "l2b-landmark-decisions-4",
+          "rank": 4,
+          "clue": "This ancient circle of giant standing stones is on Salisbury Plain in England.",
+          "answer": "Stonehenge",
+          "alternates": []
+        },
+        {
+          "id": "l2b-landmark-decisions-5",
+          "rank": 5,
+          "clue": "This Inca citadel sits high on a mountain ridge in Peru.",
+          "answer": "Machu Picchu",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-american-icons",
+      "name": "American Icons",
+      "clues": [
+        {
+          "id": "l2b-american-icons-1",
+          "rank": 1,
+          "clue": "The faces of four presidents are carved into this mountain in South Dakota.",
+          "answer": "Mount Rushmore",
+          "alternates": [
+            "Rushmore"
+          ]
+        },
+        {
+          "id": "l2b-american-icons-2",
+          "rank": 2,
+          "clue": "This red-orange suspension bridge spans the entrance to San Francisco Bay.",
+          "answer": "Golden Gate Bridge",
+          "alternates": [
+            "Golden Gate"
+          ]
+        },
+        {
+          "id": "l2b-american-icons-3",
+          "rank": 3,
+          "clue": "This tall stone obelisk in D.C. honors the first US president.",
+          "answer": "Washington Monument",
+          "alternates": []
+        },
+        {
+          "id": "l2b-american-icons-4",
+          "rank": 4,
+          "clue": "This stainless steel arch towers over St. Louis, Missouri.",
+          "answer": "Gateway Arch",
+          "alternates": []
+        },
+        {
+          "id": "l2b-american-icons-5",
+          "rank": 5,
+          "clue": "Both the Declaration of Independence and the Constitution were signed in this Philadelphia building.",
+          "answer": "Independence Hall",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-postcard-places",
+      "name": "Postcard Places",
+      "clues": [
+        {
+          "id": "l2b-postcard-places-1",
+          "rank": 1,
+          "clue": "This Italian city is famous for its leaning bell tower.",
+          "answer": "Pisa",
+          "alternates": [
+            "Leaning Tower of Pisa"
+          ]
+        },
+        {
+          "id": "l2b-postcard-places-2",
+          "rank": 2,
+          "clue": "This performing arts center with sail-shaped roofs sits on the harbor of Australia's largest city.",
+          "answer": "Sydney Opera House",
+          "alternates": []
+        },
+        {
+          "id": "l2b-postcard-places-3",
+          "rank": 3,
+          "clue": "This huge statue of Jesus with outstretched arms overlooks Rio de Janeiro.",
+          "answer": "Christ the Redeemer",
+          "alternates": []
+        },
+        {
+          "id": "l2b-postcard-places-4",
+          "rank": 4,
+          "clue": "This ancient city in Jordan was carved into rose-red cliffs.",
+          "answer": "Petra",
+          "alternates": []
+        },
+        {
+          "id": "l2b-postcard-places-5",
+          "rank": 5,
+          "clue": "This enormous temple complex in Cambodia appears on the country's flag.",
+          "answer": "Angkor Wat",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-nature-s-map",
+      "name": "Nature's Map",
+      "clues": [
+        {
+          "id": "l2b-nature-s-map-1",
+          "rank": 1,
+          "clue": "This is the largest hot desert in the world, covering much of North Africa.",
+          "answer": "Sahara",
+          "alternates": [
+            "Sahara Desert"
+          ]
+        },
+        {
+          "id": "l2b-nature-s-map-2",
+          "rank": 2,
+          "clue": "This ocean lies between the Americas and Europe and Africa.",
+          "answer": "Atlantic Ocean",
+          "alternates": [
+            "Atlantic"
+          ]
+        },
+        {
+          "id": "l2b-nature-s-map-3",
+          "rank": 3,
+          "clue": "This is the largest of the Great Lakes.",
+          "answer": "Lake Superior",
+          "alternates": [
+            "Superior"
+          ]
+        },
+        {
+          "id": "l2b-nature-s-map-4",
+          "rank": 4,
+          "clue": "This very salty lake between Israel and Jordan is so dense that swimmers float easily.",
+          "answer": "Dead Sea",
+          "alternates": []
+        },
+        {
+          "id": "l2b-nature-s-map-5",
+          "rank": 5,
+          "clue": "This waterfall in Venezuela is the tallest in the world.",
+          "answer": "Angel Falls",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-seas-the-day",
+      "name": "Seas the Day",
+      "clues": [
+        {
+          "id": "l2b-seas-the-day-1",
+          "rank": 1,
+          "clue": "This ocean surrounds the North Pole.",
+          "answer": "Arctic Ocean",
+          "alternates": [
+            "Arctic"
+          ]
+        },
+        {
+          "id": "l2b-seas-the-day-2",
+          "rank": 2,
+          "clue": "This sea separates southern Europe from northern Africa.",
+          "answer": "Mediterranean Sea",
+          "alternates": [
+            "Mediterranean"
+          ]
+        },
+        {
+          "id": "l2b-seas-the-day-3",
+          "rank": 3,
+          "clue": "This ocean lies between Africa and Australia.",
+          "answer": "Indian Ocean",
+          "alternates": []
+        },
+        {
+          "id": "l2b-seas-the-day-4",
+          "rank": 4,
+          "clue": "Opened in 1914, this canal lets ships cross Central America between the Atlantic and Pacific.",
+          "answer": "Panama Canal",
+          "alternates": []
+        },
+        {
+          "id": "l2b-seas-the-day-5",
+          "rank": 5,
+          "clue": "Opened in 1869, this Egyptian canal links the Mediterranean Sea to the Red Sea.",
+          "answer": "Suez Canal",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-fifty-nifty",
+      "name": "Fifty Nifty",
+      "clues": [
+        {
+          "id": "l2b-fifty-nifty-1",
+          "rank": 1,
+          "clue": "Its lower part is shaped like a mitten, so people point to their hand to show where they live.",
+          "answer": "Michigan",
+          "alternates": []
+        },
+        {
+          "id": "l2b-fifty-nifty-2",
+          "rank": 2,
+          "clue": "This is the smallest US state by area.",
+          "answer": "Rhode Island",
+          "alternates": []
+        },
+        {
+          "id": "l2b-fifty-nifty-3",
+          "rank": 3,
+          "clue": "This state is nicknamed the Grand Canyon State.",
+          "answer": "Arizona",
+          "alternates": []
+        },
+        {
+          "id": "l2b-fifty-nifty-4",
+          "rank": 4,
+          "clue": "The Great Salt Lake is in this state.",
+          "answer": "Utah",
+          "alternates": []
+        },
+        {
+          "id": "l2b-fifty-nifty-5",
+          "rank": 5,
+          "clue": "Not New York City, this city is the capital of New York State.",
+          "answer": "Albany",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-checks-and-balances",
+      "name": "Checks and Balances",
+      "clues": [
+        {
+          "id": "l2b-checks-and-balances-1",
+          "rank": 1,
+          "clue": "The president lives and works in this famous building in Washington, D.C.",
+          "answer": "White House",
+          "alternates": []
+        },
+        {
+          "id": "l2b-checks-and-balances-2",
+          "rank": 2,
+          "clue": "Congress is made up of the House of Representatives and this chamber.",
+          "answer": "Senate",
+          "alternates": []
+        },
+        {
+          "id": "l2b-checks-and-balances-3",
+          "rank": 3,
+          "clue": "This is the president's power to reject a bill passed by Congress.",
+          "answer": "Veto",
+          "alternates": []
+        },
+        {
+          "id": "l2b-checks-and-balances-4",
+          "rank": 4,
+          "clue": "This is the highest court in the United States.",
+          "answer": "Supreme Court",
+          "alternates": [
+            "US Supreme Court"
+          ]
+        },
+        {
+          "id": "l2b-checks-and-balances-5",
+          "rank": 5,
+          "clue": "Congress makes up this branch of government, the one that writes laws.",
+          "answer": "Legislative branch",
+          "alternates": [
+            "legislative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-civics-by-the-numbers",
+      "name": "Civics by the Numbers",
+      "clues": [
+        {
+          "id": "l2b-civics-by-the-numbers-1",
+          "rank": 1,
+          "clue": "A US president is elected to a term of this many years.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l2b-civics-by-the-numbers-2",
+          "rank": 2,
+          "clue": "Each state elects this many US senators.",
+          "answer": "2",
+          "alternates": [
+            "two"
+          ]
+        },
+        {
+          "id": "l2b-civics-by-the-numbers-3",
+          "rank": 3,
+          "clue": "This many justices sit on the US Supreme Court.",
+          "answer": "9",
+          "alternates": [
+            "nine"
+          ]
+        },
+        {
+          "id": "l2b-civics-by-the-numbers-4",
+          "rank": 4,
+          "clue": "A president must be at least this many years old.",
+          "answer": "35",
+          "alternates": [
+            "thirty-five",
+            "thirty five"
+          ]
+        },
+        {
+          "id": "l2b-civics-by-the-numbers-5",
+          "rank": 5,
+          "clue": "The US House of Representatives has this many voting members.",
+          "answer": "435",
+          "alternates": [
+            "four hundred thirty-five",
+            "four hundred thirty five"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-founding-papers",
+      "name": "Founding Papers",
+      "clues": [
+        {
+          "id": "l2b-founding-papers-1",
+          "rank": 1,
+          "clue": "The first ten amendments to the US Constitution are called this.",
+          "answer": "Bill of Rights",
+          "alternates": []
+        },
+        {
+          "id": "l2b-founding-papers-2",
+          "rank": 2,
+          "clue": "This amendment protects freedom of speech, religion and the press.",
+          "answer": "First Amendment",
+          "alternates": [
+            "1st Amendment"
+          ]
+        },
+        {
+          "id": "l2b-founding-papers-3",
+          "rank": 3,
+          "clue": "The opening paragraph of the Constitution, which begins \"We the People,\" is called this.",
+          "answer": "Preamble",
+          "alternates": []
+        },
+        {
+          "id": "l2b-founding-papers-4",
+          "rank": 4,
+          "clue": "Called the Father of the Constitution, he later became the fourth president.",
+          "answer": "James Madison",
+          "alternates": [
+            "Madison"
+          ]
+        },
+        {
+          "id": "l2b-founding-papers-5",
+          "rank": 5,
+          "clue": "The Constitution was written and signed in this city in 1787.",
+          "answer": "Philadelphia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-red-white-and-trivia",
+      "name": "Red, White and Trivia",
+      "clues": [
+        {
+          "id": "l2b-red-white-and-trivia-1",
+          "rank": 1,
+          "clue": "This bird is the national symbol of the United States.",
+          "answer": "Bald eagle",
+          "alternates": [
+            "eagle"
+          ]
+        },
+        {
+          "id": "l2b-red-white-and-trivia-2",
+          "rank": 2,
+          "clue": "The US flag has this many stripes, one for each original colony.",
+          "answer": "13",
+          "alternates": [
+            "thirteen"
+          ]
+        },
+        {
+          "id": "l2b-red-white-and-trivia-3",
+          "rank": 3,
+          "clue": "This is the title of the US national anthem.",
+          "answer": "The Star-Spangled Banner",
+          "alternates": [
+            "Star Spangled Banner"
+          ]
+        },
+        {
+          "id": "l2b-red-white-and-trivia-4",
+          "rank": 4,
+          "clue": "Legend says this Philadelphia seamstress sewed the first American flag.",
+          "answer": "Betsy Ross",
+          "alternates": [
+            "Ross"
+          ]
+        },
+        {
+          "id": "l2b-red-white-and-trivia-5",
+          "rank": 5,
+          "clue": "He wrote the poem that became the national anthem after watching the bombardment of Fort McHenry in 1814.",
+          "answer": "Francis Scott Key",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-olympian-heights",
+      "name": "Olympian Heights",
+      "clues": [
+        {
+          "id": "l2b-olympian-heights-1",
+          "rank": 1,
+          "clue": "This Greek god of the sea carries a three-pronged trident.",
+          "answer": "Poseidon",
+          "alternates": []
+        },
+        {
+          "id": "l2b-olympian-heights-2",
+          "rank": 2,
+          "clue": "This Greek goddess of wisdom gave her name to Athens.",
+          "answer": "Athena",
+          "alternates": [
+            "Athene"
+          ]
+        },
+        {
+          "id": "l2b-olympian-heights-3",
+          "rank": 3,
+          "clue": "This Greek god rules the underworld.",
+          "answer": "Hades",
+          "alternates": []
+        },
+        {
+          "id": "l2b-olympian-heights-4",
+          "rank": 4,
+          "clue": "This messenger of the Greek gods wears winged sandals.",
+          "answer": "Hermes",
+          "alternates": []
+        },
+        {
+          "id": "l2b-olympian-heights-5",
+          "rank": 5,
+          "clue": "This queen of the Greek gods was the wife of Zeus.",
+          "answer": "Hera",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-heroes-welcome",
+      "name": "Heroes' Welcome",
+      "clues": [
+        {
+          "id": "l2b-heroes-welcome-1",
+          "rank": 1,
+          "clue": "This super-strong Greek hero completed twelve labors.",
+          "answer": "Hercules",
+          "alternates": [
+            "Heracles"
+          ]
+        },
+        {
+          "id": "l2b-heroes-welcome-2",
+          "rank": 2,
+          "clue": "This Greek hero spent ten years sailing home after the Trojan War.",
+          "answer": "Odysseus",
+          "alternates": [
+            "Ulysses"
+          ]
+        },
+        {
+          "id": "l2b-heroes-welcome-3",
+          "rank": 3,
+          "clue": "This hero cut off the head of the snake-haired Gorgon.",
+          "answer": "Perseus",
+          "alternates": []
+        },
+        {
+          "id": "l2b-heroes-welcome-4",
+          "rank": 4,
+          "clue": "This hero led the Argonauts on a quest for the Golden Fleece.",
+          "answer": "Jason",
+          "alternates": []
+        },
+        {
+          "id": "l2b-heroes-welcome-5",
+          "rank": 5,
+          "clue": "This Athenian hero defeated the half-bull monster in the Labyrinth of Crete.",
+          "answer": "Theseus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-mythical-beasts",
+      "name": "Mythical Beasts",
+      "clues": [
+        {
+          "id": "l2b-mythical-beasts-1",
+          "rank": 1,
+          "clue": "This winged horse of Greek myth sprang from the neck of a Gorgon.",
+          "answer": "Pegasus",
+          "alternates": []
+        },
+        {
+          "id": "l2b-mythical-beasts-2",
+          "rank": 2,
+          "clue": "Looking at this snake-haired Gorgon would turn you to stone.",
+          "answer": "Medusa",
+          "alternates": []
+        },
+        {
+          "id": "l2b-mythical-beasts-3",
+          "rank": 3,
+          "clue": "Odysseus tricked one of these one-eyed giants named Polyphemus.",
+          "answer": "Cyclops",
+          "alternates": [
+            "Cyclopes"
+          ]
+        },
+        {
+          "id": "l2b-mythical-beasts-4",
+          "rank": 4,
+          "clue": "This creature, half man and half bull, lived in a maze on Crete.",
+          "answer": "Minotaur",
+          "alternates": []
+        },
+        {
+          "id": "l2b-mythical-beasts-5",
+          "rank": 5,
+          "clue": "This three-headed dog guards the gates of the Greek underworld.",
+          "answer": "Cerberus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-norse-code",
+      "name": "Norse Code",
+      "clues": [
+        {
+          "id": "l2b-norse-code-1",
+          "rank": 1,
+          "clue": "This one-eyed god is the ruler of the Norse gods.",
+          "answer": "Odin",
+          "alternates": [
+            "Woden",
+            "Wotan"
+          ]
+        },
+        {
+          "id": "l2b-norse-code-2",
+          "rank": 2,
+          "clue": "This shape-shifting trickster causes trouble for the Norse gods.",
+          "answer": "Loki",
+          "alternates": []
+        },
+        {
+          "id": "l2b-norse-code-3",
+          "rank": 3,
+          "clue": "Norse warriors who died bravely were taken to this great hall.",
+          "answer": "Valhalla",
+          "alternates": []
+        },
+        {
+          "id": "l2b-norse-code-4",
+          "rank": 4,
+          "clue": "This is the name of Thor's mighty hammer.",
+          "answer": "Mjolnir",
+          "alternates": [
+            "Mjollnir"
+          ]
+        },
+        {
+          "id": "l2b-norse-code-5",
+          "rank": 5,
+          "clue": "This giant ash tree connects the nine worlds of Norse myth.",
+          "answer": "Yggdrasil",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-gods-of-the-nile",
+      "name": "Gods of the Nile",
+      "clues": [
+        {
+          "id": "l2b-gods-of-the-nile-1",
+          "rank": 1,
+          "clue": "This was the name of the ancient Egyptian sun god.",
+          "answer": "Ra",
+          "alternates": [
+            "Re"
+          ]
+        },
+        {
+          "id": "l2b-gods-of-the-nile-2",
+          "rank": 2,
+          "clue": "This jackal-headed Egyptian god watched over mummification.",
+          "answer": "Anubis",
+          "alternates": []
+        },
+        {
+          "id": "l2b-gods-of-the-nile-3",
+          "rank": 3,
+          "clue": "This green-skinned Egyptian god ruled the afterlife and judged the dead.",
+          "answer": "Osiris",
+          "alternates": []
+        },
+        {
+          "id": "l2b-gods-of-the-nile-4",
+          "rank": 4,
+          "clue": "This falcon-headed Egyptian sky god's eye was a symbol of protection.",
+          "answer": "Horus",
+          "alternates": []
+        },
+        {
+          "id": "l2b-gods-of-the-nile-5",
+          "rank": 5,
+          "clue": "Ancient Egyptians honored cats through this goddess.",
+          "answer": "Bastet",
+          "alternates": [
+            "Bast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-roman-holiday",
+      "name": "Roman Holiday",
+      "clues": [
+        {
+          "id": "l2b-roman-holiday-1",
+          "rank": 1,
+          "clue": "This Roman god of love shoots arrows that make people fall in love.",
+          "answer": "Cupid",
+          "alternates": []
+        },
+        {
+          "id": "l2b-roman-holiday-2",
+          "rank": 2,
+          "clue": "This Roman god of the sea matches the Greek god Poseidon.",
+          "answer": "Neptune",
+          "alternates": []
+        },
+        {
+          "id": "l2b-roman-holiday-3",
+          "rank": 3,
+          "clue": "This Roman king of the gods matches the Greek god Zeus.",
+          "answer": "Jupiter",
+          "alternates": [
+            "Jove"
+          ]
+        },
+        {
+          "id": "l2b-roman-holiday-4",
+          "rank": 4,
+          "clue": "This Roman goddess of love and beauty matches the Greek goddess Aphrodite.",
+          "answer": "Venus",
+          "alternates": []
+        },
+        {
+          "id": "l2b-roman-holiday-5",
+          "rank": 5,
+          "clue": "This two-faced Roman god of beginnings gave his name to the first month of the year.",
+          "answer": "Janus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-legendary",
+      "name": "Legendary!",
+      "clues": [
+        {
+          "id": "l2b-legendary-1",
+          "rank": 1,
+          "clue": "This outlaw of Sherwood Forest robbed from the rich to give to the poor.",
+          "answer": "Robin Hood",
+          "alternates": []
+        },
+        {
+          "id": "l2b-legendary-2",
+          "rank": 2,
+          "clue": "Nicknamed Nessie, this creature is said to live in a Scottish lake.",
+          "answer": "Loch Ness Monster",
+          "alternates": [
+            "Nessie"
+          ]
+        },
+        {
+          "id": "l2b-legendary-3",
+          "rank": 3,
+          "clue": "The philosopher Plato described this island civilization that sank into the sea.",
+          "answer": "Atlantis",
+          "alternates": []
+        },
+        {
+          "id": "l2b-legendary-4",
+          "rank": 4,
+          "clue": "Spanish explorers searched South America for this legendary city of gold.",
+          "answer": "El Dorado",
+          "alternates": [
+            "Eldorado"
+          ]
+        },
+        {
+          "id": "l2b-legendary-5",
+          "rank": 5,
+          "clue": "In a Swiss legend, this archer shot an apple off his son's head.",
+          "answer": "William Tell",
+          "alternates": [
+            "Tell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-knights-to-remember",
+      "name": "Knights to Remember",
+      "clues": [
+        {
+          "id": "l2b-knights-to-remember-1",
+          "rank": 1,
+          "clue": "This is the name of King Arthur's legendary sword.",
+          "answer": "Excalibur",
+          "alternates": []
+        },
+        {
+          "id": "l2b-knights-to-remember-2",
+          "rank": 2,
+          "clue": "This wizard was King Arthur's wise adviser.",
+          "answer": "Merlin",
+          "alternates": []
+        },
+        {
+          "id": "l2b-knights-to-remember-3",
+          "rank": 3,
+          "clue": "King Arthur held court at this legendary castle.",
+          "answer": "Camelot",
+          "alternates": []
+        },
+        {
+          "id": "l2b-knights-to-remember-4",
+          "rank": 4,
+          "clue": "This bravest knight of the Round Table fell in love with Queen Guinevere.",
+          "answer": "Lancelot",
+          "alternates": [
+            "Sir Lancelot"
+          ]
+        },
+        {
+          "id": "l2b-knights-to-remember-5",
+          "rank": 5,
+          "clue": "Arthur's knights went on a quest to find this sacred cup.",
+          "answer": "Holy Grail",
+          "alternates": [
+            "Grail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2b-let-s-celebrate",
+      "name": "Let's Celebrate",
+      "clues": [
+        {
+          "id": "l2b-let-s-celebrate-1",
+          "rank": 1,
+          "clue": "Families in Mexico honor loved ones who have died during this holiday with marigolds and sugar skulls.",
+          "answer": "Day of the Dead",
+          "alternates": [
+            "Dia de los Muertos",
+            "Dia de Muertos"
+          ]
+        },
+        {
+          "id": "l2b-let-s-celebrate-2",
+          "rank": 2,
+          "clue": "This Hindu festival of lights is celebrated with lamps and fireworks.",
+          "answer": "Diwali",
+          "alternates": [
+            "Deepavali"
+          ]
+        },
+        {
+          "id": "l2b-let-s-celebrate-3",
+          "rank": 3,
+          "clue": "Rio de Janeiro hosts a famous version of this festival with samba parades before Lent.",
+          "answer": "Carnival",
+          "alternates": [
+            "Carnaval"
+          ]
+        },
+        {
+          "id": "l2b-let-s-celebrate-4",
+          "rank": 4,
+          "clue": "During this Hindu spring festival, people throw brightly colored powder at each other.",
+          "answer": "Holi",
+          "alternates": []
+        },
+        {
+          "id": "l2b-let-s-celebrate-5",
+          "rank": 5,
+          "clue": "This is the Japanese custom of picnicking under blooming cherry trees.",
+          "answer": "Hanami",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-dressed-for-the-occasion",
+      "name": "Dressed for the Occasion",
+      "clues": [
+        {
+          "id": "l2b-dressed-for-the-occasion-1",
+          "rank": 1,
+          "clue": "This knee-length pleated skirt in a tartan pattern is traditional for Scottish men.",
+          "answer": "Kilt",
+          "alternates": []
+        },
+        {
+          "id": "l2b-dressed-for-the-occasion-2",
+          "rank": 2,
+          "clue": "This traditional Japanese robe has wide sleeves and is tied with a sash called an obi.",
+          "answer": "Kimono",
+          "alternates": []
+        },
+        {
+          "id": "l2b-dressed-for-the-occasion-3",
+          "rank": 3,
+          "clue": "This wide-brimmed hat is closely linked with Mexico.",
+          "answer": "Sombrero",
+          "alternates": []
+        },
+        {
+          "id": "l2b-dressed-for-the-occasion-4",
+          "rank": 4,
+          "clue": "Many women in India wear this long piece of cloth wrapped and draped around the body.",
+          "answer": "Sari",
+          "alternates": [
+            "saree"
+          ]
+        },
+        {
+          "id": "l2b-dressed-for-the-occasion-5",
+          "rank": 5,
+          "clue": "This brimless red felt hat with a tassel shares its name with a city in Morocco.",
+          "answer": "Fez",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2b-around-the-world",
+      "name": "Around the World",
+      "clues": [
+        {
+          "id": "l2b-around-the-world-1",
+          "rank": 1,
+          "clue": "Visitors to Hawaii may be welcomed with this necklace of flowers.",
+          "answer": "Lei",
+          "alternates": []
+        },
+        {
+          "id": "l2b-around-the-world-2",
+          "rank": 2,
+          "clue": "Aboriginal Australians made this curved throwing stick, some kinds of which fly back.",
+          "answer": "Boomerang",
+          "alternates": []
+        },
+        {
+          "id": "l2b-around-the-world-3",
+          "rank": 3,
+          "clue": "These hollow wooden Russian dolls fit one inside another.",
+          "answer": "Matryoshka",
+          "alternates": [
+            "matryoshka dolls",
+            "nesting dolls",
+            "Russian nesting dolls",
+            "babushka dolls"
+          ]
+        },
+        {
+          "id": "l2b-around-the-world-4",
+          "rank": 4,
+          "clue": "This Maori ceremonial dance is famously performed by New Zealand's rugby team before matches.",
+          "answer": "Haka",
+          "alternates": []
+        },
+        {
+          "id": "l2b-around-the-world-5",
+          "rank": 5,
+          "clue": "Peoples of the Pacific Northwest carve family and clan symbols into these tall wooden poles.",
+          "answer": "Totem poles",
+          "alternates": [
+            "totem pole",
+            "totems"
+          ]
+        }
+      ]
+    }
+  ]
+}

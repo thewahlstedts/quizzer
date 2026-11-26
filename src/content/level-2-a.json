@@ -1,0 +1,2330 @@
+{
+  "level": 2,
+  "categories": [
+    {
+      "id": "l2a-bug-out",
+      "name": "Bug Out",
+      "clues": [
+        {
+          "id": "l2a-bug-out-1",
+          "rank": 1,
+          "clue": "Every insect has this many legs.",
+          "answer": "Six",
+          "alternates": [
+            "6"
+          ]
+        },
+        {
+          "id": "l2a-bug-out-2",
+          "rank": 2,
+          "clue": "This orange-and-black butterfly migrates thousands of miles to Mexico for the winter.",
+          "answer": "Monarch",
+          "alternates": [
+            "monarch butterfly"
+          ]
+        },
+        {
+          "id": "l2a-bug-out-3",
+          "rank": 3,
+          "clue": "Inside this hard case, a caterpillar transforms into a butterfly.",
+          "answer": "Chrysalis",
+          "alternates": [
+            "pupa"
+          ]
+        },
+        {
+          "id": "l2a-bug-out-4",
+          "rank": 4,
+          "clue": "An insect's body has three main parts: the head, the thorax, and this rear section.",
+          "answer": "Abdomen",
+          "alternates": []
+        },
+        {
+          "id": "l2a-bug-out-5",
+          "rank": 5,
+          "clue": "This word names the complete change in body form, like a caterpillar becoming a butterfly.",
+          "answer": "Metamorphosis",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-fin-tastic",
+      "name": "Fin-tastic",
+      "clues": [
+        {
+          "id": "l2a-fin-tastic-1",
+          "rank": 1,
+          "clue": "An octopus has this many arms.",
+          "answer": "Eight",
+          "alternates": [
+            "8"
+          ]
+        },
+        {
+          "id": "l2a-fin-tastic-2",
+          "rank": 2,
+          "clue": "Covered in spots, this gentle filter feeder is the largest fish in the world.",
+          "answer": "Whale shark",
+          "alternates": []
+        },
+        {
+          "id": "l2a-fin-tastic-3",
+          "rank": 3,
+          "clue": "The Great Barrier Reef is built by tiny animals called polyps that form this hard material.",
+          "answer": "Coral",
+          "alternates": []
+        },
+        {
+          "id": "l2a-fin-tastic-4",
+          "rank": 4,
+          "clue": "In seahorses, this parent carries the eggs in a pouch and gives birth.",
+          "answer": "Father",
+          "alternates": [
+            "male",
+            "dad"
+          ]
+        },
+        {
+          "id": "l2a-fin-tastic-5",
+          "rank": 5,
+          "clue": "A shark's skeleton is made of this flexible tissue instead of bone.",
+          "answer": "Cartilage",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-birds-of-a-feather",
+      "name": "Birds of a Feather",
+      "clues": [
+        {
+          "id": "l2a-birds-of-a-feather-1",
+          "rank": 1,
+          "clue": "Emperor and king species of this flightless bird live in the cold Southern Hemisphere.",
+          "answer": "Penguin",
+          "alternates": [
+            "penguins"
+          ]
+        },
+        {
+          "id": "l2a-birds-of-a-feather-2",
+          "rank": 2,
+          "clue": "This fastest-running bird also lays the largest eggs of any living bird.",
+          "answer": "Ostrich",
+          "alternates": []
+        },
+        {
+          "id": "l2a-birds-of-a-feather-3",
+          "rank": 3,
+          "clue": "This tiny bird beats its wings so fast it can hover and even fly backward.",
+          "answer": "Hummingbird",
+          "alternates": []
+        },
+        {
+          "id": "l2a-birds-of-a-feather-4",
+          "rank": 4,
+          "clue": "Diving at more than 200 miles per hour, this bird of prey is the fastest animal on Earth.",
+          "answer": "Peregrine falcon",
+          "alternates": [
+            "falcon",
+            "peregrine"
+          ]
+        },
+        {
+          "id": "l2a-birds-of-a-feather-5",
+          "rank": 5,
+          "clue": "This is the scientific study of birds.",
+          "answer": "Ornithology",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-reptile-dysfunction",
+      "name": "Reptile Dysfunction",
+      "clues": [
+        {
+          "id": "l2a-reptile-dysfunction-1",
+          "rank": 1,
+          "clue": "Sea species of this shelled reptile crawl onto beaches to lay their eggs.",
+          "answer": "Turtle",
+          "alternates": [
+            "sea turtle",
+            "turtles"
+          ]
+        },
+        {
+          "id": "l2a-reptile-dysfunction-2",
+          "rank": 2,
+          "clue": "This lizard can change its color and move each eye in a different direction.",
+          "answer": "Chameleon",
+          "alternates": []
+        },
+        {
+          "id": "l2a-reptile-dysfunction-3",
+          "rank": 3,
+          "clue": "Reptiles are called this kind of 'blooded' because they warm up by basking in the sun.",
+          "answer": "Cold",
+          "alternates": [
+            "cold-blooded",
+            "ectothermic"
+          ]
+        },
+        {
+          "id": "l2a-reptile-dysfunction-4",
+          "rank": 4,
+          "clue": "Found on Indonesian islands, this is the largest living lizard.",
+          "answer": "Komodo dragon",
+          "alternates": [
+            "komodo"
+          ]
+        },
+        {
+          "id": "l2a-reptile-dysfunction-5",
+          "rank": 5,
+          "clue": "This Asian snake that can rear up and spread a hood is the longest venomous snake in the world.",
+          "answer": "King cobra",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-hop-to-it",
+      "name": "Hop to It",
+      "clues": [
+        {
+          "id": "l2a-hop-to-it-1",
+          "rank": 1,
+          "clue": "A young frog that swims with a tail and breathes with gills is called this.",
+          "answer": "Tadpole",
+          "alternates": [
+            "polliwog",
+            "pollywog"
+          ]
+        },
+        {
+          "id": "l2a-hop-to-it-2",
+          "rank": 2,
+          "clue": "Frogs, toads, and salamanders all belong to this class of animals.",
+          "answer": "Amphibians",
+          "alternates": [
+            "amphibian"
+          ]
+        },
+        {
+          "id": "l2a-hop-to-it-3",
+          "rank": 3,
+          "clue": "Many frogs catch insects by flicking out this long, sticky body part.",
+          "answer": "Tongue",
+          "alternates": []
+        },
+        {
+          "id": "l2a-hop-to-it-4",
+          "rank": 4,
+          "clue": "Tiny, brightly colored rainforest frogs got this name because some hunters tipped their weapons with the frogs' toxin.",
+          "answer": "Poison dart frog",
+          "alternates": [
+            "poison arrow frog",
+            "dart frog"
+          ]
+        },
+        {
+          "id": "l2a-hop-to-it-5",
+          "rank": 5,
+          "clue": "This Mexican salamander keeps its feathery gills as an adult and can regrow lost limbs.",
+          "answer": "Axolotl",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-mammal-call",
+      "name": "Mammal Call",
+      "clues": [
+        {
+          "id": "l2a-mammal-call-1",
+          "rank": 1,
+          "clue": "All mammal mothers feed their babies this liquid.",
+          "answer": "Milk",
+          "alternates": []
+        },
+        {
+          "id": "l2a-mammal-call-2",
+          "rank": 2,
+          "clue": "With a neck up to 6 feet long, this African animal is the tallest on Earth.",
+          "answer": "Giraffe",
+          "alternates": []
+        },
+        {
+          "id": "l2a-mammal-call-3",
+          "rank": 3,
+          "clue": "This spotted big cat is the fastest land animal.",
+          "answer": "Cheetah",
+          "alternates": []
+        },
+        {
+          "id": "l2a-mammal-call-4",
+          "rank": 4,
+          "clue": "This Australian mammal has a bill like a duck and lays eggs.",
+          "answer": "Platypus",
+          "alternates": [
+            "duck-billed platypus"
+          ]
+        },
+        {
+          "id": "l2a-mammal-call-5",
+          "rank": 5,
+          "clue": "Koalas eat almost nothing but the leaves of this tree.",
+          "answer": "Eucalyptus",
+          "alternates": [
+            "gum tree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-food-chain-gang",
+      "name": "Food Chain Gang",
+      "clues": [
+        {
+          "id": "l2a-food-chain-gang-1",
+          "rank": 1,
+          "clue": "An animal that eats only plants is called this.",
+          "answer": "Herbivore",
+          "alternates": [
+            "herbivores"
+          ]
+        },
+        {
+          "id": "l2a-food-chain-gang-2",
+          "rank": 2,
+          "clue": "An animal that is hunted and eaten by another animal is called this.",
+          "answer": "Prey",
+          "alternates": []
+        },
+        {
+          "id": "l2a-food-chain-gang-3",
+          "rank": 3,
+          "clue": "Bears and humans eat both plants and animals, making them this.",
+          "answer": "Omnivore",
+          "alternates": [
+            "omnivores"
+          ]
+        },
+        {
+          "id": "l2a-food-chain-gang-4",
+          "rank": 4,
+          "clue": "Plants are called these in a food chain because they make their own food.",
+          "answer": "Producers",
+          "alternates": [
+            "producer",
+            "autotrophs",
+            "autotroph"
+          ]
+        },
+        {
+          "id": "l2a-food-chain-gang-5",
+          "rank": 5,
+          "clue": "Fungi and bacteria that break down dead plants and animals are called these.",
+          "answer": "Decomposers",
+          "alternates": [
+            "decomposer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-habitat-forming",
+      "name": "Habitat Forming",
+      "clues": [
+        {
+          "id": "l2a-habitat-forming-1",
+          "rank": 1,
+          "clue": "Cactuses and camels are at home in this very dry biome.",
+          "answer": "Desert",
+          "alternates": []
+        },
+        {
+          "id": "l2a-habitat-forming-2",
+          "rank": 2,
+          "clue": "Hot, wet, and near the equator, this biome holds more kinds of plants and animals than any other.",
+          "answer": "Tropical rainforest",
+          "alternates": [
+            "rainforest",
+            "rain forest"
+          ]
+        },
+        {
+          "id": "l2a-habitat-forming-3",
+          "rank": 3,
+          "clue": "This cold, treeless biome has frozen ground called permafrost.",
+          "answer": "Tundra",
+          "alternates": []
+        },
+        {
+          "id": "l2a-habitat-forming-4",
+          "rank": 4,
+          "clue": "This tropical grassland with scattered trees is home to lions and zebras in Africa.",
+          "answer": "Savanna",
+          "alternates": [
+            "savannah"
+          ]
+        },
+        {
+          "id": "l2a-habitat-forming-5",
+          "rank": 5,
+          "clue": "Also called the boreal forest, this biome of evergreen trees stretches across the far north.",
+          "answer": "Taiga",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-cell-mates",
+      "name": "Cell Mates",
+      "clues": [
+        {
+          "id": "l2a-cell-mates-1",
+          "rank": 1,
+          "clue": "Scientists use this instrument to see cells too small for the eye alone.",
+          "answer": "Microscope",
+          "alternates": []
+        },
+        {
+          "id": "l2a-cell-mates-2",
+          "rank": 2,
+          "clue": "This control center of a cell holds its DNA.",
+          "answer": "Nucleus",
+          "alternates": []
+        },
+        {
+          "id": "l2a-cell-mates-3",
+          "rank": 3,
+          "clue": "Often called the powerhouse of the cell, this part turns food into energy.",
+          "answer": "Mitochondria",
+          "alternates": [
+            "mitochondrion"
+          ]
+        },
+        {
+          "id": "l2a-cell-mates-4",
+          "rank": 4,
+          "clue": "Plant cells have this stiff outer layer that animal cells lack.",
+          "answer": "Cell wall",
+          "alternates": []
+        },
+        {
+          "id": "l2a-cell-mates-5",
+          "rank": 5,
+          "clue": "After looking at cork through a microscope in the 1660s, this English scientist coined the word 'cell'.",
+          "answer": "Robert Hooke",
+          "alternates": [
+            "Hooke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-gene-pool",
+      "name": "Gene Pool",
+      "clues": [
+        {
+          "id": "l2a-gene-pool-1",
+          "rank": 1,
+          "clue": "This molecule, known by three letters, carries the genetic instructions for living things.",
+          "answer": "DNA",
+          "alternates": [
+            "deoxyribonucleic acid"
+          ]
+        },
+        {
+          "id": "l2a-gene-pool-2",
+          "rank": 2,
+          "clue": "DNA's twisted-ladder shape is called this.",
+          "answer": "Double helix",
+          "alternates": [
+            "helix"
+          ]
+        },
+        {
+          "id": "l2a-gene-pool-3",
+          "rank": 3,
+          "clue": "This monk is called the father of genetics for his experiments with pea plants.",
+          "answer": "Gregor Mendel",
+          "alternates": [
+            "Mendel"
+          ]
+        },
+        {
+          "id": "l2a-gene-pool-4",
+          "rank": 4,
+          "clue": "Charles Darwin's theory says species change over time through natural this.",
+          "answer": "Selection",
+          "alternates": [
+            "natural selection"
+          ]
+        },
+        {
+          "id": "l2a-gene-pool-5",
+          "rank": 5,
+          "clue": "Human body cells normally contain this many chromosomes.",
+          "answer": "46",
+          "alternates": [
+            "forty-six",
+            "forty six"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-dino-might",
+      "name": "Dino-Might",
+      "clues": [
+        {
+          "id": "l2a-dino-might-1",
+          "rank": 1,
+          "clue": "Its name means 'tyrant lizard king', and it had tiny arms and huge teeth.",
+          "answer": "Tyrannosaurus rex",
+          "alternates": [
+            "T. rex",
+            "T rex",
+            "Tyrannosaurus"
+          ]
+        },
+        {
+          "id": "l2a-dino-might-2",
+          "rank": 2,
+          "clue": "This plant-eater had three horns on its face and a bony frill.",
+          "answer": "Triceratops",
+          "alternates": []
+        },
+        {
+          "id": "l2a-dino-might-3",
+          "rank": 3,
+          "clue": "This dinosaur had large bony plates along its back and spikes on its tail.",
+          "answer": "Stegosaurus",
+          "alternates": []
+        },
+        {
+          "id": "l2a-dino-might-4",
+          "rank": 4,
+          "clue": "This kind of scientist studies fossils to learn about ancient life.",
+          "answer": "Paleontologist",
+          "alternates": [
+            "paleontologists",
+            "palaeontologist"
+          ]
+        },
+        {
+          "id": "l2a-dino-might-5",
+          "rank": 5,
+          "clue": "Called the Age of Reptiles, this era includes the Triassic, Jurassic, and Cretaceous periods.",
+          "answer": "Mesozoic",
+          "alternates": [
+            "Mesozoic era"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-shake-rattle-and-roll",
+      "name": "Shake, Rattle and Roll",
+      "clues": [
+        {
+          "id": "l2a-shake-rattle-and-roll-1",
+          "rank": 1,
+          "clue": "Molten rock is called this once it pours out of a volcano.",
+          "answer": "Lava",
+          "alternates": []
+        },
+        {
+          "id": "l2a-shake-rattle-and-roll-2",
+          "rank": 2,
+          "clue": "An earthquake under the ocean can set off this giant, fast-moving sea wave.",
+          "answer": "Tsunami",
+          "alternates": []
+        },
+        {
+          "id": "l2a-shake-rattle-and-roll-3",
+          "rank": 3,
+          "clue": "This horseshoe-shaped zone of volcanoes and earthquakes circles the Pacific Ocean.",
+          "answer": "Ring of Fire",
+          "alternates": []
+        },
+        {
+          "id": "l2a-shake-rattle-and-roll-4",
+          "rank": 4,
+          "clue": "This is the point on Earth's surface directly above where an earthquake starts.",
+          "answer": "Epicenter",
+          "alternates": []
+        },
+        {
+          "id": "l2a-shake-rattle-and-roll-5",
+          "rank": 5,
+          "clue": "This volcano erupted in 79 AD and buried the Roman city of Pompeii.",
+          "answer": "Vesuvius",
+          "alternates": [
+            "Mount Vesuvius"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-layer-cake",
+      "name": "Layer Cake",
+      "clues": [
+        {
+          "id": "l2a-layer-cake-1",
+          "rank": 1,
+          "clue": "We live on this thin, rocky outer layer of Earth.",
+          "answer": "Crust",
+          "alternates": []
+        },
+        {
+          "id": "l2a-layer-cake-2",
+          "rank": 2,
+          "clue": "This thick layer of hot, slowly flowing rock lies between Earth's crust and core.",
+          "answer": "Mantle",
+          "alternates": []
+        },
+        {
+          "id": "l2a-layer-cake-3",
+          "rank": 3,
+          "clue": "Made mostly of iron and nickel, this solid ball is the hottest, deepest part of Earth.",
+          "answer": "Inner core",
+          "alternates": [
+            "core"
+          ]
+        },
+        {
+          "id": "l2a-layer-cake-4",
+          "rank": 4,
+          "clue": "Almost all weather happens in this lowest layer of the atmosphere.",
+          "answer": "Troposphere",
+          "alternates": []
+        },
+        {
+          "id": "l2a-layer-cake-5",
+          "rank": 5,
+          "clue": "The ozone layer is found in this second layer of the atmosphere.",
+          "answer": "Stratosphere",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-rock-and-roll-call",
+      "name": "Rock and Roll Call",
+      "clues": [
+        {
+          "id": "l2a-rock-and-roll-call-1",
+          "rank": 1,
+          "clue": "This light volcanic rock is so full of air holes that it can float on water.",
+          "answer": "Pumice",
+          "alternates": []
+        },
+        {
+          "id": "l2a-rock-and-roll-call-2",
+          "rank": 2,
+          "clue": "Sandstone and shale are this type of rock, formed from layers pressed together.",
+          "answer": "Sedimentary",
+          "alternates": []
+        },
+        {
+          "id": "l2a-rock-and-roll-call-3",
+          "rank": 3,
+          "clue": "This type of rock forms when heat and pressure change an existing rock.",
+          "answer": "Metamorphic",
+          "alternates": []
+        },
+        {
+          "id": "l2a-rock-and-roll-call-4",
+          "rank": 4,
+          "clue": "Marble forms when heat and pressure change this sedimentary rock.",
+          "answer": "Limestone",
+          "alternates": []
+        },
+        {
+          "id": "l2a-rock-and-roll-call-5",
+          "rank": 5,
+          "clue": "With a hardness of 1, this mineral is the softest on the Mohs scale.",
+          "answer": "Talc",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-water-works",
+      "name": "Water Works",
+      "clues": [
+        {
+          "id": "l2a-water-works-1",
+          "rank": 1,
+          "clue": "In this step of the water cycle, the sun heats water and turns it into vapor.",
+          "answer": "Evaporation",
+          "alternates": []
+        },
+        {
+          "id": "l2a-water-works-2",
+          "rank": 2,
+          "clue": "Rain, snow, sleet, and hail are all forms of this.",
+          "answer": "Precipitation",
+          "alternates": []
+        },
+        {
+          "id": "l2a-water-works-3",
+          "rank": 3,
+          "clue": "In this step, water vapor cools and forms droplets, like on a cold glass.",
+          "answer": "Condensation",
+          "alternates": []
+        },
+        {
+          "id": "l2a-water-works-4",
+          "rank": 4,
+          "clue": "Water stored underground in soil and rock layers called aquifers is known as this.",
+          "answer": "Groundwater",
+          "alternates": [
+            "ground water"
+          ]
+        },
+        {
+          "id": "l2a-water-works-5",
+          "rank": 5,
+          "clue": "This is the process of plants releasing water vapor through their leaves.",
+          "answer": "Transpiration",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-stormy-weather",
+      "name": "Stormy Weather",
+      "clues": [
+        {
+          "id": "l2a-stormy-weather-1",
+          "rank": 1,
+          "clue": "This giant spark of electricity flashes during a storm.",
+          "answer": "Lightning",
+          "alternates": []
+        },
+        {
+          "id": "l2a-stormy-weather-2",
+          "rank": 2,
+          "clue": "This booming sound follows a lightning flash.",
+          "answer": "Thunder",
+          "alternates": []
+        },
+        {
+          "id": "l2a-stormy-weather-3",
+          "rank": 3,
+          "clue": "Balls of ice that fall from thunderstorm clouds are called this.",
+          "answer": "Hail",
+          "alternates": [
+            "hailstones",
+            "hailstone"
+          ]
+        },
+        {
+          "id": "l2a-stormy-weather-4",
+          "rank": 4,
+          "clue": "This calm, clear area sits at the center of a hurricane.",
+          "answer": "Eye",
+          "alternates": []
+        },
+        {
+          "id": "l2a-stormy-weather-5",
+          "rank": 5,
+          "clue": "In the western Pacific Ocean, a hurricane is called this.",
+          "answer": "Typhoon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-forecast-fun",
+      "name": "Forecast Fun",
+      "clues": [
+        {
+          "id": "l2a-forecast-fun-1",
+          "rank": 1,
+          "clue": "This scientist studies and predicts the weather.",
+          "answer": "Meteorologist",
+          "alternates": []
+        },
+        {
+          "id": "l2a-forecast-fun-2",
+          "rank": 2,
+          "clue": "This word means the amount of water vapor in the air.",
+          "answer": "Humidity",
+          "alternates": []
+        },
+        {
+          "id": "l2a-forecast-fun-3",
+          "rank": 3,
+          "clue": "This is the boundary where two different air masses meet.",
+          "answer": "Front",
+          "alternates": [
+            "weather front"
+          ]
+        },
+        {
+          "id": "l2a-forecast-fun-4",
+          "rank": 4,
+          "clue": "These low, gray clouds form a flat sheet that can bring drizzle.",
+          "answer": "Stratus",
+          "alternates": []
+        },
+        {
+          "id": "l2a-forecast-fun-5",
+          "rank": 5,
+          "clue": "This instrument with spinning cups measures wind speed.",
+          "answer": "Anemometer",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-hot-topics",
+      "name": "Hot Topics",
+      "clues": [
+        {
+          "id": "l2a-hot-topics-1",
+          "rank": 1,
+          "clue": "This imaginary line around Earth's middle passes through some of the warmest places on the planet.",
+          "answer": "Equator",
+          "alternates": []
+        },
+        {
+          "id": "l2a-hot-topics-2",
+          "rank": 2,
+          "clue": "Named after a glass building for plants, this effect describes gases trapping heat near Earth.",
+          "answer": "Greenhouse effect",
+          "alternates": [
+            "greenhouse"
+          ]
+        },
+        {
+          "id": "l2a-hot-topics-3",
+          "rank": 3,
+          "clue": "This form of oxygen high in the atmosphere blocks harmful ultraviolet rays.",
+          "answer": "Ozone",
+          "alternates": [
+            "ozone layer"
+          ]
+        },
+        {
+          "id": "l2a-hot-topics-4",
+          "rank": 4,
+          "clue": "We have seasons because Earth's axis is this, not straight up and down.",
+          "answer": "Tilted",
+          "alternates": [
+            "tilt",
+            "tipped"
+          ]
+        },
+        {
+          "id": "l2a-hot-topics-5",
+          "rank": 5,
+          "clue": "Its Spanish name means 'the boy', and it is a warming of Pacific waters that changes weather worldwide.",
+          "answer": "El Nino",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-planetary-parade",
+      "name": "Planetary Parade",
+      "clues": [
+        {
+          "id": "l2a-planetary-parade-1",
+          "rank": 1,
+          "clue": "This dusty planet is nicknamed the Red Planet.",
+          "answer": "Mars",
+          "alternates": []
+        },
+        {
+          "id": "l2a-planetary-parade-2",
+          "rank": 2,
+          "clue": "This gas giant is famous for its bright, wide rings.",
+          "answer": "Saturn",
+          "alternates": []
+        },
+        {
+          "id": "l2a-planetary-parade-3",
+          "rank": 3,
+          "clue": "Thick clouds trap heat on this second planet from the Sun, making it the hottest planet.",
+          "answer": "Venus",
+          "alternates": []
+        },
+        {
+          "id": "l2a-planetary-parade-4",
+          "rank": 4,
+          "clue": "This windy blue planet is the farthest from the Sun.",
+          "answer": "Neptune",
+          "alternates": []
+        },
+        {
+          "id": "l2a-planetary-parade-5",
+          "rank": 5,
+          "clue": "This ice giant spins tipped on its side.",
+          "answer": "Uranus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-moonstruck",
+      "name": "Moonstruck",
+      "clues": [
+        {
+          "id": "l2a-moonstruck-1",
+          "rank": 1,
+          "clue": "When the whole face of the Moon is lit up, it is in this phase.",
+          "answer": "Full moon",
+          "alternates": [
+            "full"
+          ]
+        },
+        {
+          "id": "l2a-moonstruck-2",
+          "rank": 2,
+          "clue": "The Moon's gravity causes these daily rises and falls of the ocean.",
+          "answer": "Tides",
+          "alternates": [
+            "tide"
+          ]
+        },
+        {
+          "id": "l2a-moonstruck-3",
+          "rank": 3,
+          "clue": "This NASA program first landed astronauts on the Moon.",
+          "answer": "Apollo",
+          "alternates": [
+            "Apollo program"
+          ]
+        },
+        {
+          "id": "l2a-moonstruck-4",
+          "rank": 4,
+          "clue": "When the Moon passes between Earth and the Sun and blocks sunlight, it causes this.",
+          "answer": "Solar eclipse",
+          "alternates": [
+            "eclipse"
+          ]
+        },
+        {
+          "id": "l2a-moonstruck-5",
+          "rank": 5,
+          "clue": "This word names the Moon's phase when it is more than half lit but not yet full.",
+          "answer": "Gibbous",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-star-power",
+      "name": "Star Power",
+      "clues": [
+        {
+          "id": "l2a-star-power-1",
+          "rank": 1,
+          "clue": "This is the closest star to Earth.",
+          "answer": "Sun",
+          "alternates": []
+        },
+        {
+          "id": "l2a-star-power-2",
+          "rank": 2,
+          "clue": "Orion and the Big Dipper are star patterns called these.",
+          "answer": "Constellation",
+          "alternates": [
+            "constellations",
+            "asterism"
+          ]
+        },
+        {
+          "id": "l2a-star-power-3",
+          "rank": 3,
+          "clue": "Its gravity is so strong that not even light can escape it.",
+          "answer": "Black hole",
+          "alternates": []
+        },
+        {
+          "id": "l2a-star-power-4",
+          "rank": 4,
+          "clue": "Also called the North Star, it shines almost directly above Earth's North Pole.",
+          "answer": "Polaris",
+          "alternates": []
+        },
+        {
+          "id": "l2a-star-power-5",
+          "rank": 5,
+          "clue": "This is the name for the huge explosion of a dying giant star.",
+          "answer": "Supernova",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-ground-control",
+      "name": "Ground Control",
+      "clues": [
+        {
+          "id": "l2a-ground-control-1",
+          "rank": 1,
+          "clue": "This orbiting laboratory, home to astronauts since 2000, is known as the ISS.",
+          "answer": "International Space Station",
+          "alternates": [
+            "space station"
+          ]
+        },
+        {
+          "id": "l2a-ground-control-2",
+          "rank": 2,
+          "clue": "Launched in 1990, this space telescope is named for astronomer Edwin.",
+          "answer": "Hubble",
+          "alternates": [
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "l2a-ground-control-3",
+          "rank": 3,
+          "clue": "NASA retired this reusable winged spacecraft in 2011.",
+          "answer": "Space Shuttle",
+          "alternates": [
+            "shuttle"
+          ]
+        },
+        {
+          "id": "l2a-ground-control-4",
+          "rank": 4,
+          "clue": "In 1983 she became the first American woman in space.",
+          "answer": "Sally Ride",
+          "alternates": [
+            "Ride"
+          ]
+        },
+        {
+          "id": "l2a-ground-control-5",
+          "rank": 5,
+          "clue": "Launched by the Soviet Union in 1957, this was the first artificial satellite.",
+          "answer": "Sputnik",
+          "alternates": [
+            "Sputnik 1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-out-of-this-world",
+      "name": "Out of This World",
+      "clues": [
+        {
+          "id": "l2a-out-of-this-world-1",
+          "rank": 1,
+          "clue": "This unit of time is how long it takes Earth to orbit the Sun once.",
+          "answer": "Year",
+          "alternates": [
+            "one year"
+          ]
+        },
+        {
+          "id": "l2a-out-of-this-world-2",
+          "rank": 2,
+          "clue": "These icy bodies grow glowing tails when they get close to the Sun.",
+          "answer": "Comets",
+          "alternates": [
+            "comet"
+          ]
+        },
+        {
+          "id": "l2a-out-of-this-world-3",
+          "rank": 3,
+          "clue": "A 'shooting star' is really one of these burning up in the atmosphere.",
+          "answer": "Meteor",
+          "alternates": [
+            "meteors"
+          ]
+        },
+        {
+          "id": "l2a-out-of-this-world-4",
+          "rank": 4,
+          "clue": "In 2006 Pluto was reclassified as this kind of object.",
+          "answer": "Dwarf planet",
+          "alternates": []
+        },
+        {
+          "id": "l2a-out-of-this-world-5",
+          "rank": 5,
+          "clue": "Orbiting Jupiter, this is the largest moon in the solar system.",
+          "answer": "Ganymede",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-bone-zone",
+      "name": "Bone Zone",
+      "clues": [
+        {
+          "id": "l2a-bone-zone-1",
+          "rank": 1,
+          "clue": "This bony case protects your brain.",
+          "answer": "Skull",
+          "alternates": [
+            "cranium"
+          ]
+        },
+        {
+          "id": "l2a-bone-zone-2",
+          "rank": 2,
+          "clue": "These curved bones form a cage that protects your heart and lungs.",
+          "answer": "Ribs",
+          "alternates": [
+            "rib cage",
+            "ribcage",
+            "rib"
+          ]
+        },
+        {
+          "id": "l2a-bone-zone-3",
+          "rank": 3,
+          "clue": "Knees, elbows, and hips are examples of this place where two bones meet.",
+          "answer": "Joint",
+          "alternates": [
+            "joints"
+          ]
+        },
+        {
+          "id": "l2a-bone-zone-4",
+          "rank": 4,
+          "clue": "This tough cord attaches a muscle to a bone.",
+          "answer": "Tendon",
+          "alternates": [
+            "tendons"
+          ]
+        },
+        {
+          "id": "l2a-bone-zone-5",
+          "rank": 5,
+          "clue": "Shaped like a horse rider's foot support, this tiny bone in the ear is the smallest in the body.",
+          "answer": "Stirrup",
+          "alternates": [
+            "stapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-organ-recital",
+      "name": "Organ Recital",
+      "clues": [
+        {
+          "id": "l2a-organ-recital-1",
+          "rank": 1,
+          "clue": "You breathe with these two spongy organs.",
+          "answer": "Lungs",
+          "alternates": [
+            "lung"
+          ]
+        },
+        {
+          "id": "l2a-organ-recital-2",
+          "rank": 2,
+          "clue": "This stretchy pouch mixes food with acid to digest it.",
+          "answer": "Stomach",
+          "alternates": []
+        },
+        {
+          "id": "l2a-organ-recital-3",
+          "rank": 3,
+          "clue": "These two bean-shaped organs filter the blood and make urine.",
+          "answer": "Kidneys",
+          "alternates": [
+            "kidney"
+          ]
+        },
+        {
+          "id": "l2a-organ-recital-4",
+          "rank": 4,
+          "clue": "This is the largest organ inside the human body.",
+          "answer": "Liver",
+          "alternates": []
+        },
+        {
+          "id": "l2a-organ-recital-5",
+          "rank": 5,
+          "clue": "This organ behind the stomach makes insulin.",
+          "answer": "Pancreas",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-use-your-head",
+      "name": "Use Your Head",
+      "clues": [
+        {
+          "id": "l2a-use-your-head-1",
+          "rank": 1,
+          "clue": "This organ in your skull controls your thoughts and your body.",
+          "answer": "Brain",
+          "alternates": []
+        },
+        {
+          "id": "l2a-use-your-head-2",
+          "rank": 2,
+          "clue": "This colored ring of the eye can be blue, brown, or green.",
+          "answer": "Iris",
+          "alternates": []
+        },
+        {
+          "id": "l2a-use-your-head-3",
+          "rank": 3,
+          "clue": "Protected by the backbone, this bundle of nerves carries messages between the brain and the body.",
+          "answer": "Spinal cord",
+          "alternates": []
+        },
+        {
+          "id": "l2a-use-your-head-4",
+          "rank": 4,
+          "clue": "These are the nerve cells that send signals through your body.",
+          "answer": "Neurons",
+          "alternates": [
+            "neuron",
+            "nerve cells"
+          ]
+        },
+        {
+          "id": "l2a-use-your-head-5",
+          "rank": 5,
+          "clue": "This largest part of the brain handles thinking, memory, and the senses.",
+          "answer": "Cerebrum",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-in-your-blood",
+      "name": "In Your Blood",
+      "clues": [
+        {
+          "id": "l2a-in-your-blood-1",
+          "rank": 1,
+          "clue": "These blood vessels carry blood back to the heart.",
+          "answer": "Veins",
+          "alternates": [
+            "vein"
+          ]
+        },
+        {
+          "id": "l2a-in-your-blood-2",
+          "rank": 2,
+          "clue": "These blood cells fight germs and infections.",
+          "answer": "White blood cells",
+          "alternates": [
+            "white cells",
+            "leukocytes",
+            "white blood cell"
+          ]
+        },
+        {
+          "id": "l2a-in-your-blood-3",
+          "rank": 3,
+          "clue": "These tiniest blood vessels connect arteries to veins.",
+          "answer": "Capillaries",
+          "alternates": [
+            "capillary"
+          ]
+        },
+        {
+          "id": "l2a-in-your-blood-4",
+          "rank": 4,
+          "clue": "These tiny cell pieces help your blood clot when you get a cut.",
+          "answer": "Platelets",
+          "alternates": [
+            "platelet"
+          ]
+        },
+        {
+          "id": "l2a-in-your-blood-5",
+          "rank": 5,
+          "clue": "This iron-rich protein in red blood cells carries oxygen.",
+          "answer": "Hemoglobin",
+          "alternates": [
+            "haemoglobin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-sense-ational",
+      "name": "Sense-ational",
+      "clues": [
+        {
+          "id": "l2a-sense-ational-1",
+          "rank": 1,
+          "clue": "Sight, hearing, touch, taste, and this sense make up the five senses.",
+          "answer": "Smell",
+          "alternates": [
+            "olfaction"
+          ]
+        },
+        {
+          "id": "l2a-sense-ational-2",
+          "rank": 2,
+          "clue": "These tiny sensors on your tongue let you tell sweet from sour.",
+          "answer": "Taste buds",
+          "alternates": [
+            "taste bud"
+          ]
+        },
+        {
+          "id": "l2a-sense-ational-3",
+          "rank": 3,
+          "clue": "This black opening in the center of the eye gets bigger in dim light.",
+          "answer": "Pupil",
+          "alternates": []
+        },
+        {
+          "id": "l2a-sense-ational-4",
+          "rank": 4,
+          "clue": "This light-sensitive layer at the back of the eye sends images to the brain.",
+          "answer": "Retina",
+          "alternates": []
+        },
+        {
+          "id": "l2a-sense-ational-5",
+          "rank": 5,
+          "clue": "This snail-shaped part of the inner ear turns vibrations into nerve signals.",
+          "answer": "Cochlea",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-small-wonders",
+      "name": "Small Wonders",
+      "clues": [
+        {
+          "id": "l2a-small-wonders-1",
+          "rank": 1,
+          "clue": "Bakers use this tiny fungus to make bread dough rise.",
+          "answer": "Yeast",
+          "alternates": []
+        },
+        {
+          "id": "l2a-small-wonders-2",
+          "rank": 2,
+          "clue": "These single-celled living things can cause strep throat, but many also help us digest food.",
+          "answer": "Bacteria",
+          "alternates": [
+            "bacterium",
+            "germs"
+          ]
+        },
+        {
+          "id": "l2a-small-wonders-3",
+          "rank": 3,
+          "clue": "This shot trains your immune system to fight a disease before you catch it.",
+          "answer": "Vaccine",
+          "alternates": [
+            "vaccines",
+            "vaccination"
+          ]
+        },
+        {
+          "id": "l2a-small-wonders-4",
+          "rank": 4,
+          "clue": "Heating milk to kill germs is named after this French scientist.",
+          "answer": "Louis Pasteur",
+          "alternates": [
+            "Pasteur"
+          ]
+        },
+        {
+          "id": "l2a-small-wonders-5",
+          "rank": 5,
+          "clue": "Edward Jenner used cowpox to create the first vaccine, against this deadly disease.",
+          "answer": "Smallpox",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-flower-power",
+      "name": "Flower Power",
+      "clues": [
+        {
+          "id": "l2a-flower-power-1",
+          "rank": 1,
+          "clue": "Bees and hummingbirds drink this sweet liquid made by flowers.",
+          "answer": "Nectar",
+          "alternates": []
+        },
+        {
+          "id": "l2a-flower-power-2",
+          "rank": 2,
+          "clue": "Bees carry this yellow powder from flower to flower, helping plants make seeds.",
+          "answer": "Pollen",
+          "alternates": []
+        },
+        {
+          "id": "l2a-flower-power-3",
+          "rank": 3,
+          "clue": "Pine trees are this kind of plant, keeping green leaves or needles all year.",
+          "answer": "Evergreen",
+          "alternates": [
+            "evergreens"
+          ]
+        },
+        {
+          "id": "l2a-flower-power-4",
+          "rank": 4,
+          "clue": "This is the name for a seed beginning to sprout and grow.",
+          "answer": "Germination",
+          "alternates": []
+        },
+        {
+          "id": "l2a-flower-power-5",
+          "rank": 5,
+          "clue": "These tiny openings on leaves let gases move in and out.",
+          "answer": "Stomata",
+          "alternates": [
+            "stoma",
+            "stomates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-tree-mendous",
+      "name": "Tree-mendous",
+      "clues": [
+        {
+          "id": "l2a-tree-mendous-1",
+          "rank": 1,
+          "clue": "Acorns grow on this tree.",
+          "answer": "Oak",
+          "alternates": [
+            "oak tree"
+          ]
+        },
+        {
+          "id": "l2a-tree-mendous-2",
+          "rank": 2,
+          "clue": "Sweet syrup for pancakes is made from the sap of this tree.",
+          "answer": "Maple",
+          "alternates": [
+            "sugar maple",
+            "maple tree"
+          ]
+        },
+        {
+          "id": "l2a-tree-mendous-3",
+          "rank": 3,
+          "clue": "Counting these circles inside a tree trunk tells you its age.",
+          "answer": "Rings",
+          "alternates": [
+            "tree rings",
+            "growth rings"
+          ]
+        },
+        {
+          "id": "l2a-tree-mendous-4",
+          "rank": 4,
+          "clue": "Growing along the California coast, these are the tallest trees in the world.",
+          "answer": "Redwood",
+          "alternates": [
+            "coast redwood",
+            "redwoods"
+          ]
+        },
+        {
+          "id": "l2a-tree-mendous-5",
+          "rank": 5,
+          "clue": "Trees like pines and firs that make seeds in cones are called these.",
+          "answer": "Conifers",
+          "alternates": [
+            "conifer",
+            "coniferous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-kingdom-come",
+      "name": "Kingdom Come",
+      "clues": [
+        {
+          "id": "l2a-kingdom-come-1",
+          "rank": 1,
+          "clue": "Mushrooms and molds belong to this kingdom of living things.",
+          "answer": "Fungi",
+          "alternates": [
+            "fungus"
+          ]
+        },
+        {
+          "id": "l2a-kingdom-come-2",
+          "rank": 2,
+          "clue": "Animals with backbones are called these.",
+          "answer": "Vertebrates",
+          "alternates": [
+            "vertebrate"
+          ]
+        },
+        {
+          "id": "l2a-kingdom-come-3",
+          "rank": 3,
+          "clue": "Spiders and scorpions belong to this eight-legged group, not insects.",
+          "answer": "Arachnids",
+          "alternates": [
+            "arachnid"
+          ]
+        },
+        {
+          "id": "l2a-kingdom-come-4",
+          "rank": 4,
+          "clue": "Lions, tigers, and house cats are each a different one of these, the most specific level of classification.",
+          "answer": "Species",
+          "alternates": []
+        },
+        {
+          "id": "l2a-kingdom-come-5",
+          "rank": 5,
+          "clue": "This Swedish scientist created the two-part scientific naming system, like Homo sapiens.",
+          "answer": "Carl Linnaeus",
+          "alternates": [
+            "Linnaeus",
+            "Carolus Linnaeus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-matter-of-fact",
+      "name": "Matter of Fact",
+      "clues": [
+        {
+          "id": "l2a-matter-of-fact-1",
+          "rank": 1,
+          "clue": "The three common states of matter are solid, liquid, and this.",
+          "answer": "Gas",
+          "alternates": []
+        },
+        {
+          "id": "l2a-matter-of-fact-2",
+          "rank": 2,
+          "clue": "This is the change from solid to liquid, like ice in the sun.",
+          "answer": "Melting",
+          "alternates": []
+        },
+        {
+          "id": "l2a-matter-of-fact-3",
+          "rank": 3,
+          "clue": "At sea level, water boils at this many degrees Fahrenheit.",
+          "answer": "212",
+          "alternates": [
+            "two hundred twelve",
+            "212 degrees"
+          ]
+        },
+        {
+          "id": "l2a-matter-of-fact-4",
+          "rank": 4,
+          "clue": "Found in stars and lightning, this super-hot glowing gas is called the fourth state of matter.",
+          "answer": "Plasma",
+          "alternates": []
+        },
+        {
+          "id": "l2a-matter-of-fact-5",
+          "rank": 5,
+          "clue": "Dry ice shows this change, going straight from a solid to a gas.",
+          "answer": "Sublimation",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-splitting-atoms",
+      "name": "Splitting Atoms",
+      "clues": [
+        {
+          "id": "l2a-splitting-atoms-1",
+          "rank": 1,
+          "clue": "This chart organizes all the chemical elements by atomic number.",
+          "answer": "Periodic table",
+          "alternates": [
+            "periodic table of elements"
+          ]
+        },
+        {
+          "id": "l2a-splitting-atoms-2",
+          "rank": 2,
+          "clue": "These negatively charged particles zip around an atom's nucleus.",
+          "answer": "Electrons",
+          "alternates": [
+            "electron"
+          ]
+        },
+        {
+          "id": "l2a-splitting-atoms-3",
+          "rank": 3,
+          "clue": "These positively charged particles sit in the nucleus; their number is the atomic number.",
+          "answer": "Protons",
+          "alternates": [
+            "proton"
+          ]
+        },
+        {
+          "id": "l2a-splitting-atoms-4",
+          "rank": 4,
+          "clue": "These particles in an atom's nucleus have no electric charge.",
+          "answer": "Neutrons",
+          "alternates": [
+            "neutron"
+          ]
+        },
+        {
+          "id": "l2a-splitting-atoms-5",
+          "rank": 5,
+          "clue": "This Russian chemist created the first widely used periodic table in 1869.",
+          "answer": "Dmitri Mendeleev",
+          "alternates": [
+            "Mendeleev"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-mix-it-up",
+      "name": "Mix It Up",
+      "clues": [
+        {
+          "id": "l2a-mix-it-up-1",
+          "rank": 1,
+          "clue": "H2O is the chemical formula for this.",
+          "answer": "Water",
+          "alternates": []
+        },
+        {
+          "id": "l2a-mix-it-up-2",
+          "rank": 2,
+          "clue": "Sodium chloride is the chemical name for this kitchen seasoning.",
+          "answer": "Salt",
+          "alternates": [
+            "table salt"
+          ]
+        },
+        {
+          "id": "l2a-mix-it-up-3",
+          "rank": 3,
+          "clue": "Lemon juice and vinegar are this kind of sour substance, with a pH below 7.",
+          "answer": "Acid",
+          "alternates": [
+            "acids"
+          ]
+        },
+        {
+          "id": "l2a-mix-it-up-4",
+          "rank": 4,
+          "clue": "This is the smallest unit of a substance made of two or more atoms bonded together.",
+          "answer": "Molecule",
+          "alternates": []
+        },
+        {
+          "id": "l2a-mix-it-up-5",
+          "rank": 5,
+          "clue": "Pure water has a pH of 7, so it is called this.",
+          "answer": "Neutral",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-element-ary",
+      "name": "Element-ary",
+      "clues": [
+        {
+          "id": "l2a-element-ary-1",
+          "rank": 1,
+          "clue": "This light gas, symbol He, makes party balloons float.",
+          "answer": "Helium",
+          "alternates": []
+        },
+        {
+          "id": "l2a-element-ary-2",
+          "rank": 2,
+          "clue": "Diamonds and pencil graphite are both made of this element.",
+          "answer": "Carbon",
+          "alternates": []
+        },
+        {
+          "id": "l2a-element-ary-3",
+          "rank": 3,
+          "clue": "This gas glows reddish-orange in bright signs.",
+          "answer": "Neon",
+          "alternates": []
+        },
+        {
+          "id": "l2a-element-ary-4",
+          "rank": 4,
+          "clue": "This shiny metal's chemical symbol is Ag.",
+          "answer": "Silver",
+          "alternates": []
+        },
+        {
+          "id": "l2a-element-ary-5",
+          "rank": 5,
+          "clue": "Bananas are known for this element, whose symbol is K.",
+          "answer": "Potassium",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-force-field",
+      "name": "Force Field",
+      "clues": [
+        {
+          "id": "l2a-force-field-1",
+          "rank": 1,
+          "clue": "This force pulls objects toward Earth.",
+          "answer": "Gravity",
+          "alternates": []
+        },
+        {
+          "id": "l2a-force-field-2",
+          "rank": 2,
+          "clue": "This force slows things down when two surfaces rub together.",
+          "answer": "Friction",
+          "alternates": []
+        },
+        {
+          "id": "l2a-force-field-3",
+          "rank": 3,
+          "clue": "This English scientist described three laws of motion and gravity.",
+          "answer": "Isaac Newton",
+          "alternates": [
+            "Newton"
+          ]
+        },
+        {
+          "id": "l2a-force-field-4",
+          "rank": 4,
+          "clue": "Newton's third law says every action has an equal and opposite one of these.",
+          "answer": "Reaction",
+          "alternates": []
+        },
+        {
+          "id": "l2a-force-field-5",
+          "rank": 5,
+          "clue": "This is the tendency of an object to keep resting or keep moving unless a force acts on it.",
+          "answer": "Inertia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-machine-shop",
+      "name": "Machine Shop",
+      "clues": [
+        {
+          "id": "l2a-machine-shop-1",
+          "rank": 1,
+          "clue": "A seesaw is this simple machine, a bar that pivots on a point.",
+          "answer": "Lever",
+          "alternates": []
+        },
+        {
+          "id": "l2a-machine-shop-2",
+          "rank": 2,
+          "clue": "This simple machine uses a wheel and rope to raise a flag up a pole.",
+          "answer": "Pulley",
+          "alternates": []
+        },
+        {
+          "id": "l2a-machine-shop-3",
+          "rank": 3,
+          "clue": "A wheelchair ramp is this simple machine.",
+          "answer": "Inclined plane",
+          "alternates": []
+        },
+        {
+          "id": "l2a-machine-shop-4",
+          "rank": 4,
+          "clue": "An ax blade is this simple machine, thick at one end and thin at the other.",
+          "answer": "Wedge",
+          "alternates": []
+        },
+        {
+          "id": "l2a-machine-shop-5",
+          "rank": 5,
+          "clue": "A jar lid's threads are this simple machine, an inclined plane wrapped around a post.",
+          "answer": "Screw",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-light-show",
+      "name": "Light Show",
+      "clues": [
+        {
+          "id": "l2a-light-show-1",
+          "rank": 1,
+          "clue": "Sunlight shining through raindrops can make this colorful arc.",
+          "answer": "Rainbow",
+          "alternates": []
+        },
+        {
+          "id": "l2a-light-show-2",
+          "rank": 2,
+          "clue": "This is light bouncing off a surface, like a mirror.",
+          "answer": "Reflection",
+          "alternates": []
+        },
+        {
+          "id": "l2a-light-show-3",
+          "rank": 3,
+          "clue": "This is the bending of light as it passes from air into water.",
+          "answer": "Refraction",
+          "alternates": []
+        },
+        {
+          "id": "l2a-light-show-4",
+          "rank": 4,
+          "clue": "Light travels about 186,000 miles in one of these short units of time.",
+          "answer": "Second",
+          "alternates": [
+            "one second"
+          ]
+        },
+        {
+          "id": "l2a-light-show-5",
+          "rank": 5,
+          "clue": "A magnifying glass uses this type of lens, which is thicker in the middle.",
+          "answer": "Convex",
+          "alternates": [
+            "convex lens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-good-vibrations",
+      "name": "Good Vibrations",
+      "clues": [
+        {
+          "id": "l2a-good-vibrations-1",
+          "rank": 1,
+          "clue": "This is a sound that bounces back to you, like a shout in a canyon.",
+          "answer": "Echo",
+          "alternates": []
+        },
+        {
+          "id": "l2a-good-vibrations-2",
+          "rank": 2,
+          "clue": "This word describes how high or low a sound is.",
+          "answer": "Pitch",
+          "alternates": []
+        },
+        {
+          "id": "l2a-good-vibrations-3",
+          "rank": 3,
+          "clue": "Sound cannot travel through this completely empty space with no air.",
+          "answer": "Vacuum",
+          "alternates": []
+        },
+        {
+          "id": "l2a-good-vibrations-4",
+          "rank": 4,
+          "clue": "Loudness is measured in this unit.",
+          "answer": "Decibel",
+          "alternates": [
+            "decibels",
+            "dB"
+          ]
+        },
+        {
+          "id": "l2a-good-vibrations-5",
+          "rank": 5,
+          "clue": "Sound waves too high-pitched for humans to hear are called this.",
+          "answer": "Ultrasound",
+          "alternates": [
+            "ultrasonic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-power-up",
+      "name": "Power Up",
+      "clues": [
+        {
+          "id": "l2a-power-up-1",
+          "rank": 1,
+          "clue": "This device stores chemical energy to power a flashlight.",
+          "answer": "Battery",
+          "alternates": [
+            "batteries"
+          ]
+        },
+        {
+          "id": "l2a-power-up-2",
+          "rank": 2,
+          "clue": "Every magnet has a north and a south one of these.",
+          "answer": "Poles",
+          "alternates": [
+            "pole"
+          ]
+        },
+        {
+          "id": "l2a-power-up-3",
+          "rank": 3,
+          "clue": "Electricity can only flow through this complete loop or path.",
+          "answer": "Circuit",
+          "alternates": []
+        },
+        {
+          "id": "l2a-power-up-4",
+          "rank": 4,
+          "clue": "Copper is a good one of these, a material that lets electricity flow easily.",
+          "answer": "Conductor",
+          "alternates": [
+            "conductors"
+          ]
+        },
+        {
+          "id": "l2a-power-up-5",
+          "rank": 5,
+          "clue": "This unit of power is named for a Scottish inventor who improved the steam engine.",
+          "answer": "Watt",
+          "alternates": [
+            "watts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-full-of-energy",
+      "name": "Full of Energy",
+      "clues": [
+        {
+          "id": "l2a-full-of-energy-1",
+          "rank": 1,
+          "clue": "Panels on rooftops turn sunlight into this kind of energy.",
+          "answer": "Solar",
+          "alternates": [
+            "solar energy",
+            "solar power"
+          ]
+        },
+        {
+          "id": "l2a-full-of-energy-2",
+          "rank": 2,
+          "clue": "Coal, oil, and natural gas are called these because they formed from ancient living things.",
+          "answer": "Fossil fuels",
+          "alternates": [
+            "fossil fuel"
+          ]
+        },
+        {
+          "id": "l2a-full-of-energy-3",
+          "rank": 3,
+          "clue": "This is the energy of motion.",
+          "answer": "Kinetic",
+          "alternates": [
+            "kinetic energy"
+          ]
+        },
+        {
+          "id": "l2a-full-of-energy-4",
+          "rank": 4,
+          "clue": "A rock at the top of a hill has this stored energy.",
+          "answer": "Potential",
+          "alternates": [
+            "potential energy"
+          ]
+        },
+        {
+          "id": "l2a-full-of-energy-5",
+          "rank": 5,
+          "clue": "This energy comes from heat deep inside the Earth.",
+          "answer": "Geothermal",
+          "alternates": [
+            "geothermal energy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-inventive-minds",
+      "name": "Inventive Minds",
+      "clues": [
+        {
+          "id": "l2a-inventive-minds-1",
+          "rank": 1,
+          "clue": "Benjamin Franklin invented this metal pole that protects buildings during storms.",
+          "answer": "Lightning rod",
+          "alternates": []
+        },
+        {
+          "id": "l2a-inventive-minds-2",
+          "rank": 2,
+          "clue": "This inventor of an electric telegraph gave his name to a code of dots and dashes.",
+          "answer": "Samuel Morse",
+          "alternates": [
+            "Morse"
+          ]
+        },
+        {
+          "id": "l2a-inventive-minds-3",
+          "rank": 3,
+          "clue": "Guglielmo Marconi pioneered sending messages across long distances by this wireless technology.",
+          "answer": "Radio",
+          "alternates": []
+        },
+        {
+          "id": "l2a-inventive-minds-4",
+          "rank": 4,
+          "clue": "Henry Ford used this moving production method to build Model T cars quickly and cheaply.",
+          "answer": "Assembly line",
+          "alternates": []
+        },
+        {
+          "id": "l2a-inventive-minds-5",
+          "rank": 5,
+          "clue": "Eli Whitney's 1793 machine for separating seeds from cotton fibers is called this.",
+          "answer": "Cotton gin",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-tech-support",
+      "name": "Tech Support",
+      "clues": [
+        {
+          "id": "l2a-tech-support-1",
+          "rank": 1,
+          "clue": "This hand-held device moves a pointer on a computer screen.",
+          "answer": "Mouse",
+          "alternates": []
+        },
+        {
+          "id": "l2a-tech-support-2",
+          "rank": 2,
+          "clue": "GPS works using signals from these objects orbiting Earth.",
+          "answer": "Satellites",
+          "alternates": [
+            "satellite"
+          ]
+        },
+        {
+          "id": "l2a-tech-support-3",
+          "rank": 3,
+          "clue": "Computers store information using this number system of only 0s and 1s.",
+          "answer": "Binary",
+          "alternates": [
+            "binary code"
+          ]
+        },
+        {
+          "id": "l2a-tech-support-4",
+          "rank": 4,
+          "clue": "Tim Berners-Lee proposed this system of linked pages, known by three Ws, in 1989.",
+          "answer": "World Wide Web",
+          "alternates": [
+            "web",
+            "WWW"
+          ]
+        },
+        {
+          "id": "l2a-tech-support-5",
+          "rank": 5,
+          "clue": "She is often called the first computer programmer for her notes on Charles Babbage's machine.",
+          "answer": "Ada Lovelace",
+          "alternates": [
+            "Lovelace"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2a-doctors-orders",
+      "name": "Doctor's Orders",
+      "clues": [
+        {
+          "id": "l2a-doctors-orders-1",
+          "rank": 1,
+          "clue": "This doctor cleans and fixes your teeth.",
+          "answer": "Dentist",
+          "alternates": []
+        },
+        {
+          "id": "l2a-doctors-orders-2",
+          "rank": 2,
+          "clue": "A doctor uses this instrument to listen to your heartbeat.",
+          "answer": "Stethoscope",
+          "alternates": []
+        },
+        {
+          "id": "l2a-doctors-orders-3",
+          "rank": 3,
+          "clue": "These rays let doctors see pictures of your bones.",
+          "answer": "X-rays",
+          "alternates": [
+            "X-ray",
+            "x ray"
+          ]
+        },
+        {
+          "id": "l2a-doctors-orders-4",
+          "rank": 4,
+          "clue": "This kind of doctor specializes in caring for children.",
+          "answer": "Pediatrician",
+          "alternates": [
+            "paediatrician"
+          ]
+        },
+        {
+          "id": "l2a-doctors-orders-5",
+          "rank": 5,
+          "clue": "This kind of doctor specializes in the heart.",
+          "answer": "Cardiologist",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-party-animals",
+      "name": "Party Animals",
+      "clues": [
+        {
+          "id": "l2a-party-animals-1",
+          "rank": 1,
+          "clue": "A group of wolves is called this.",
+          "answer": "Pack",
+          "alternates": []
+        },
+        {
+          "id": "l2a-party-animals-2",
+          "rank": 2,
+          "clue": "A group of fish swimming together is called this.",
+          "answer": "School",
+          "alternates": [
+            "shoal"
+          ]
+        },
+        {
+          "id": "l2a-party-animals-3",
+          "rank": 3,
+          "clue": "A group of geese on the ground is called this.",
+          "answer": "Gaggle",
+          "alternates": []
+        },
+        {
+          "id": "l2a-party-animals-4",
+          "rank": 4,
+          "clue": "A group of owls is called this, like a law-making assembly.",
+          "answer": "Parliament",
+          "alternates": []
+        },
+        {
+          "id": "l2a-party-animals-5",
+          "rank": 5,
+          "clue": "A group of flamingos is called this showy word.",
+          "answer": "Flamboyance",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-little-ones",
+      "name": "Little Ones",
+      "clues": [
+        {
+          "id": "l2a-little-ones-1",
+          "rank": 1,
+          "clue": "A baby cat is called this.",
+          "answer": "Kitten",
+          "alternates": [
+            "kitty"
+          ]
+        },
+        {
+          "id": "l2a-little-ones-2",
+          "rank": 2,
+          "clue": "A baby deer, often with white spots, is called this.",
+          "answer": "Fawn",
+          "alternates": []
+        },
+        {
+          "id": "l2a-little-ones-3",
+          "rank": 3,
+          "clue": "A baby horse is called this.",
+          "answer": "Foal",
+          "alternates": [
+            "colt",
+            "filly"
+          ]
+        },
+        {
+          "id": "l2a-little-ones-4",
+          "rank": 4,
+          "clue": "A baby goose is called this.",
+          "answer": "Gosling",
+          "alternates": []
+        },
+        {
+          "id": "l2a-little-ones-5",
+          "rank": 5,
+          "clue": "A baby swan is called this.",
+          "answer": "Cygnet",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-survival-skills",
+      "name": "Survival Skills",
+      "clues": [
+        {
+          "id": "l2a-survival-skills-1",
+          "rank": 1,
+          "clue": "Bears and groundhogs survive the winter with this deep, long sleep.",
+          "answer": "Hibernation",
+          "alternates": [
+            "hibernate",
+            "hibernating"
+          ]
+        },
+        {
+          "id": "l2a-survival-skills-2",
+          "rank": 2,
+          "clue": "A chameleon or snowshoe hare blends into its surroundings using this.",
+          "answer": "Camouflage",
+          "alternates": []
+        },
+        {
+          "id": "l2a-survival-skills-3",
+          "rank": 3,
+          "clue": "This is the long seasonal journey animals like geese and whales make.",
+          "answer": "Migration",
+          "alternates": [
+            "migrate",
+            "migrating"
+          ]
+        },
+        {
+          "id": "l2a-survival-skills-4",
+          "rank": 4,
+          "clue": "Owls and bats are this, meaning they are active at night.",
+          "answer": "Nocturnal",
+          "alternates": []
+        },
+        {
+          "id": "l2a-survival-skills-5",
+          "rank": 5,
+          "clue": "This is when a harmless animal looks like a dangerous one, as the viceroy butterfly copies the monarch.",
+          "answer": "Mimicry",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-ice-to-sea-you",
+      "name": "Ice to Sea You",
+      "clues": [
+        {
+          "id": "l2a-ice-to-sea-you-1",
+          "rank": 1,
+          "clue": "This huge floating chunk of ice breaks off a glacier or ice shelf.",
+          "answer": "Iceberg",
+          "alternates": []
+        },
+        {
+          "id": "l2a-ice-to-sea-you-2",
+          "rank": 2,
+          "clue": "This slow-moving river of ice carves valleys as it travels.",
+          "answer": "Glacier",
+          "alternates": []
+        },
+        {
+          "id": "l2a-ice-to-sea-you-3",
+          "rank": 3,
+          "clue": "This powerful warm Atlantic current flows from the Gulf of Mexico up the US East Coast.",
+          "answer": "Gulf Stream",
+          "alternates": []
+        },
+        {
+          "id": "l2a-ice-to-sea-you-4",
+          "rank": 4,
+          "clue": "Located in the Pacific, this is the deepest place in any ocean.",
+          "answer": "Mariana Trench",
+          "alternates": [
+            "Marianas Trench",
+            "Challenger Deep"
+          ]
+        },
+        {
+          "id": "l2a-ice-to-sea-you-5",
+          "rank": 5,
+          "clue": "This is the ability of living things like anglerfish and fireflies to make their own light.",
+          "answer": "Bioluminescence",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l2a-wear-and-tear",
+      "name": "Wear and Tear",
+      "clues": [
+        {
+          "id": "l2a-wear-and-tear-1",
+          "rank": 1,
+          "clue": "This process carries away bits of rock and soil by wind, water, or ice.",
+          "answer": "Erosion",
+          "alternates": []
+        },
+        {
+          "id": "l2a-wear-and-tear-2",
+          "rank": 2,
+          "clue": "Wind piles sand into these hills in the desert and on beaches.",
+          "answer": "Dunes",
+          "alternates": [
+            "dune",
+            "sand dunes"
+          ]
+        },
+        {
+          "id": "l2a-wear-and-tear-3",
+          "rank": 3,
+          "clue": "This fan-shaped area of land forms where a river drops mud at its mouth.",
+          "answer": "Delta",
+          "alternates": []
+        },
+        {
+          "id": "l2a-wear-and-tear-4",
+          "rank": 4,
+          "clue": "These icicle-shaped mineral formations hang from cave ceilings.",
+          "answer": "Stalactites",
+          "alternates": [
+            "stalactite"
+          ]
+        },
+        {
+          "id": "l2a-wear-and-tear-5",
+          "rank": 5,
+          "clue": "This dark part of soil is made from decayed plants and animals.",
+          "answer": "Humus",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

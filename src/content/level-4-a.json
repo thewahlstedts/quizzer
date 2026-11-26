@@ -1,0 +1,2431 @@
+{
+  "level": 4,
+  "categories": [
+    {
+      "id": "l4a-periodic-table-talk",
+      "name": "Periodic Table Talk",
+      "clues": [
+        {
+          "id": "l4a-periodic-table-talk-1",
+          "rank": 1,
+          "clue": "Its chemical symbol, Fe, comes from the Latin word \"ferrum.\"",
+          "answer": "Iron",
+          "alternates": []
+        },
+        {
+          "id": "l4a-periodic-table-talk-2",
+          "rank": 2,
+          "clue": "Its symbol, K, comes from the Latin \"kalium.\"",
+          "answer": "Potassium",
+          "alternates": []
+        },
+        {
+          "id": "l4a-periodic-table-talk-3",
+          "rank": 3,
+          "clue": "Element 92, it was named in 1789 after a planet discovered just eight years earlier.",
+          "answer": "Uranium",
+          "alternates": []
+        },
+        {
+          "id": "l4a-periodic-table-talk-4",
+          "rank": 4,
+          "clue": "The Swedish village of Ytterby lends its name to yttrium, terbium, erbium and this fourth element.",
+          "answer": "Ytterbium",
+          "alternates": []
+        },
+        {
+          "id": "l4a-periodic-table-talk-5",
+          "rank": 5,
+          "clue": "Element 101 is named for the Russian chemist who created the periodic table.",
+          "answer": "Mendelevium",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-nobel-pursuits",
+      "name": "Nobel Pursuits",
+      "clues": [
+        {
+          "id": "l4a-nobel-pursuits-1",
+          "rank": 1,
+          "clue": "She was the first person to win Nobel Prizes in two different sciences.",
+          "answer": "Marie Curie",
+          "alternates": [
+            "Curie",
+            "Madame Curie"
+          ]
+        },
+        {
+          "id": "l4a-nobel-pursuits-2",
+          "rank": 2,
+          "clue": "He won the 1921 Nobel Prize in Physics for explaining the photoelectric effect, not for relativity.",
+          "answer": "Albert Einstein",
+          "alternates": [
+            "Einstein"
+          ]
+        },
+        {
+          "id": "l4a-nobel-pursuits-3",
+          "rank": 3,
+          "clue": "The only person to win two unshared Nobel Prizes: Chemistry in 1954 and Peace in 1962.",
+          "answer": "Linus Pauling",
+          "alternates": [
+            "Pauling"
+          ]
+        },
+        {
+          "id": "l4a-nobel-pursuits-4",
+          "rank": 4,
+          "clue": "Alongside Francis Crick and Maurice Wilkins, this American shared the 1962 Nobel for the structure of DNA.",
+          "answer": "James Watson",
+          "alternates": [
+            "Watson"
+          ]
+        },
+        {
+          "id": "l4a-nobel-pursuits-5",
+          "rank": 5,
+          "clue": "The only person to win the Nobel Prize in Physics twice, in 1956 for the transistor and in 1972 for superconductivity theory.",
+          "answer": "John Bardeen",
+          "alternates": [
+            "Bardeen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-bone-zone",
+      "name": "Bone Zone",
+      "clues": [
+        {
+          "id": "l4a-bone-zone-1",
+          "rank": 1,
+          "clue": "The common name for the clavicle.",
+          "answer": "Collarbone",
+          "alternates": [
+            "collar bone"
+          ]
+        },
+        {
+          "id": "l4a-bone-zone-2",
+          "rank": 2,
+          "clue": "The longest bone in the human body.",
+          "answer": "Femur",
+          "alternates": [
+            "thighbone",
+            "thigh bone"
+          ]
+        },
+        {
+          "id": "l4a-bone-zone-3",
+          "rank": 3,
+          "clue": "Despite its punny nickname, the \"funny bone\" isn't a bone; it's a nerve near the elbow end of this upper-arm bone.",
+          "answer": "Humerus",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bone-zone-4",
+          "rank": 4,
+          "clue": "This U-shaped bone in the neck, which supports the tongue, is the only bone that doesn't articulate with another bone.",
+          "answer": "Hyoid",
+          "alternates": [
+            "hyoid bone"
+          ]
+        },
+        {
+          "id": "l4a-bone-zone-5",
+          "rank": 5,
+          "clue": "The top vertebra of the spine, which holds up the skull, is named after this Titan.",
+          "answer": "Atlas",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-cell-mates",
+      "name": "Cell Mates",
+      "clues": [
+        {
+          "id": "l4a-cell-mates-1",
+          "rank": 1,
+          "clue": "This organelle is famously called \"the powerhouse of the cell.\"",
+          "answer": "Mitochondrion",
+          "alternates": [
+            "mitochondria"
+          ]
+        },
+        {
+          "id": "l4a-cell-mates-2",
+          "rank": 2,
+          "clue": "Photosynthesis takes place in these green organelles of plant cells.",
+          "answer": "Chloroplast",
+          "alternates": [
+            "chloroplasts"
+          ]
+        },
+        {
+          "id": "l4a-cell-mates-3",
+          "rank": 3,
+          "clue": "Made of RNA and protein, these tiny cell structures are where proteins are assembled.",
+          "answer": "Ribosome",
+          "alternates": [
+            "ribosomes"
+          ]
+        },
+        {
+          "id": "l4a-cell-mates-4",
+          "rank": 4,
+          "clue": "Named for an Italian scientist, this organelle modifies, sorts and packages proteins for shipment.",
+          "answer": "Golgi apparatus",
+          "alternates": [
+            "Golgi",
+            "Golgi body",
+            "Golgi complex"
+          ]
+        },
+        {
+          "id": "l4a-cell-mates-5",
+          "rank": 5,
+          "clue": "These membrane-bound sacs of digestive enzymes have been nicknamed the cell's \"suicide bags.\"",
+          "answer": "Lysosome",
+          "alternates": [
+            "lysosomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-laws-of-attraction",
+      "name": "Laws of Attraction",
+      "clues": [
+        {
+          "id": "l4a-laws-of-attraction-1",
+          "rank": 1,
+          "clue": "Force equals mass times acceleration is this scientist's second law of motion.",
+          "answer": "Isaac Newton",
+          "alternates": [
+            "Newton"
+          ]
+        },
+        {
+          "id": "l4a-laws-of-attraction-2",
+          "rank": 2,
+          "clue": "Voltage equals current times resistance is the law named for this German physicist.",
+          "answer": "Georg Ohm",
+          "alternates": [
+            "Ohm"
+          ]
+        },
+        {
+          "id": "l4a-laws-of-attraction-3",
+          "rank": 3,
+          "clue": "At constant temperature, a gas's pressure and volume are inversely proportional, says this Irish-born chemist's law.",
+          "answer": "Robert Boyle",
+          "alternates": [
+            "Boyle"
+          ]
+        },
+        {
+          "id": "l4a-laws-of-attraction-4",
+          "rank": 4,
+          "clue": "Planets sweep out equal areas in equal times, according to this German astronomer's second law.",
+          "answer": "Johannes Kepler",
+          "alternates": [
+            "Kepler"
+          ]
+        },
+        {
+          "id": "l4a-laws-of-attraction-5",
+          "rank": 5,
+          "clue": "The force exerted by a spring is proportional to how far it's stretched, according to this Englishman's 1660 law.",
+          "answer": "Robert Hooke",
+          "alternates": [
+            "Hooke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-rock-on",
+      "name": "Rock On",
+      "clues": [
+        {
+          "id": "l4a-rock-on-1",
+          "rank": 1,
+          "clue": "This class of rock forms when magma or lava cools and solidifies.",
+          "answer": "Igneous",
+          "alternates": [
+            "igneous rock"
+          ]
+        },
+        {
+          "id": "l4a-rock-on-2",
+          "rank": 2,
+          "clue": "Rocks like marble and slate, transformed by heat and pressure, belong to this class.",
+          "answer": "Metamorphic",
+          "alternates": [
+            "metamorphic rock"
+          ]
+        },
+        {
+          "id": "l4a-rock-on-3",
+          "rank": 3,
+          "clue": "The hardest mineral, it rates a 10 on the Mohs scale.",
+          "answer": "Diamond",
+          "alternates": []
+        },
+        {
+          "id": "l4a-rock-on-4",
+          "rank": 4,
+          "clue": "The softest mineral, it rates a 1 on the Mohs scale.",
+          "answer": "Talc",
+          "alternates": []
+        },
+        {
+          "id": "l4a-rock-on-5",
+          "rank": 5,
+          "clue": "Ancient toolmakers prized this black volcanic glass for its razor-sharp edges.",
+          "answer": "Obsidian",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-plate-expectations",
+      "name": "Plate Expectations",
+      "clues": [
+        {
+          "id": "l4a-plate-expectations-1",
+          "rank": 1,
+          "clue": "This supercontinent began breaking apart about 200 million years ago.",
+          "answer": "Pangaea",
+          "alternates": [
+            "Pangea"
+          ]
+        },
+        {
+          "id": "l4a-plate-expectations-2",
+          "rank": 2,
+          "clue": "In 1912 this German meteorologist proposed the theory of continental drift.",
+          "answer": "Alfred Wegener",
+          "alternates": [
+            "Wegener"
+          ]
+        },
+        {
+          "id": "l4a-plate-expectations-3",
+          "rank": 3,
+          "clue": "This California fault marks where the Pacific and North American plates grind past each other.",
+          "answer": "San Andreas Fault",
+          "alternates": [
+            "San Andreas"
+          ]
+        },
+        {
+          "id": "l4a-plate-expectations-4",
+          "rank": 4,
+          "clue": "The deepest known point in Earth's oceans, at the southern end of the Mariana Trench.",
+          "answer": "Challenger Deep",
+          "alternates": []
+        },
+        {
+          "id": "l4a-plate-expectations-5",
+          "rank": 5,
+          "clue": "Nicknamed for a Croatian seismologist, it's the boundary between Earth's crust and mantle.",
+          "answer": "Moho",
+          "alternates": [
+            "Mohorovicic discontinuity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-star-search",
+      "name": "Star Search",
+      "clues": [
+        {
+          "id": "l4a-star-search-1",
+          "rank": 1,
+          "clue": "This red supergiant marks one of the shoulders of Orion.",
+          "answer": "Betelgeuse",
+          "alternates": []
+        },
+        {
+          "id": "l4a-star-search-2",
+          "rank": 2,
+          "clue": "Apart from the Sun, it's the closest known star to Earth.",
+          "answer": "Proxima Centauri",
+          "alternates": [
+            "Proxima"
+          ]
+        },
+        {
+          "id": "l4a-star-search-3",
+          "rank": 3,
+          "clue": "At the end of the Little Dipper's handle, this star currently sits almost directly above Earth's north pole.",
+          "answer": "Polaris",
+          "alternates": [
+            "pole star"
+          ]
+        },
+        {
+          "id": "l4a-star-search-4",
+          "rank": 4,
+          "clue": "About the size of Earth, this dense stellar remnant is what a star like our Sun becomes after it sheds its outer layers.",
+          "answer": "White dwarf",
+          "alternates": []
+        },
+        {
+          "id": "l4a-star-search-5",
+          "rank": 5,
+          "clue": "In 1967 Jocelyn Bell Burnell discovered the first of these rapidly spinning neutron stars that sweep beams of radio waves.",
+          "answer": "Pulsar",
+          "alternates": [
+            "pulsars"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-the-wanderers",
+      "name": "The Wanderers",
+      "clues": [
+        {
+          "id": "l4a-the-wanderers-1",
+          "rank": 1,
+          "clue": "Though it's not closest to the Sun, it's the hottest planet in our solar system thanks to a runaway greenhouse effect.",
+          "answer": "Venus",
+          "alternates": []
+        },
+        {
+          "id": "l4a-the-wanderers-2",
+          "rank": 2,
+          "clue": "With an axial tilt of about 98 degrees, this planet essentially rotates on its side.",
+          "answer": "Uranus",
+          "alternates": []
+        },
+        {
+          "id": "l4a-the-wanderers-3",
+          "rank": 3,
+          "clue": "The tallest volcano in the solar system, it rises from the Martian surface.",
+          "answer": "Olympus Mons",
+          "alternates": []
+        },
+        {
+          "id": "l4a-the-wanderers-4",
+          "rank": 4,
+          "clue": "The larger and closer of Mars's two moons.",
+          "answer": "Phobos",
+          "alternates": []
+        },
+        {
+          "id": "l4a-the-wanderers-5",
+          "rank": 5,
+          "clue": "This vast canyon system on Mars stretches more than 2,500 miles.",
+          "answer": "Valles Marineris",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-moonstruck",
+      "name": "Moonstruck",
+      "clues": [
+        {
+          "id": "l4a-moonstruck-1",
+          "rank": 1,
+          "clue": "This moon of Jupiter is the most volcanically active body in the solar system.",
+          "answer": "Io",
+          "alternates": []
+        },
+        {
+          "id": "l4a-moonstruck-2",
+          "rank": 2,
+          "clue": "Orbiting Jupiter, it's the largest moon in the solar system.",
+          "answer": "Ganymede",
+          "alternates": []
+        },
+        {
+          "id": "l4a-moonstruck-3",
+          "rank": 3,
+          "clue": "Neptune's largest moon, it orbits in the opposite direction of the planet's rotation.",
+          "answer": "Triton",
+          "alternates": []
+        },
+        {
+          "id": "l4a-moonstruck-4",
+          "rank": 4,
+          "clue": "Geysers of water ice erupt from the south pole of this moon of Saturn.",
+          "answer": "Enceladus",
+          "alternates": []
+        },
+        {
+          "id": "l4a-moonstruck-5",
+          "rank": 5,
+          "clue": "Pluto's largest moon is named for the ferryman of the underworld.",
+          "answer": "Charon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-final-frontier",
+      "name": "Final Frontier",
+      "clues": [
+        {
+          "id": "l4a-final-frontier-1",
+          "rank": 1,
+          "clue": "Launched by the Soviet Union in 1957, it was the first artificial satellite.",
+          "answer": "Sputnik",
+          "alternates": [
+            "Sputnik 1"
+          ]
+        },
+        {
+          "id": "l4a-final-frontier-2",
+          "rank": 2,
+          "clue": "In April 1961 this cosmonaut became the first human in space.",
+          "answer": "Yuri Gagarin",
+          "alternates": [
+            "Gagarin"
+          ]
+        },
+        {
+          "id": "l4a-final-frontier-3",
+          "rank": 3,
+          "clue": "Launched in 1977, this probe became the first human-made object to reach interstellar space in 2012.",
+          "answer": "Voyager 1",
+          "alternates": [
+            "Voyager"
+          ]
+        },
+        {
+          "id": "l4a-final-frontier-4",
+          "rank": 4,
+          "clue": "In 1963 this Soviet cosmonaut became the first woman in space.",
+          "answer": "Valentina Tereshkova",
+          "alternates": [
+            "Tereshkova"
+          ]
+        },
+        {
+          "id": "l4a-final-frontier-5",
+          "rank": 5,
+          "clue": "The Apollo 11 command module pilot who stayed in lunar orbit while his crewmates walked on the Moon.",
+          "answer": "Michael Collins",
+          "alternates": [
+            "Collins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-germ-theory",
+      "name": "Germ Theory",
+      "clues": [
+        {
+          "id": "l4a-germ-theory-1",
+          "rank": 1,
+          "clue": "The heat treatment that kills microbes in milk is named for this French chemist.",
+          "answer": "Louis Pasteur",
+          "alternates": [
+            "Pasteur"
+          ]
+        },
+        {
+          "id": "l4a-germ-theory-2",
+          "rank": 2,
+          "clue": "In 1928 this Scottish scientist noticed mold killing bacteria in a petri dish, discovering penicillin.",
+          "answer": "Alexander Fleming",
+          "alternates": [
+            "Fleming"
+          ]
+        },
+        {
+          "id": "l4a-germ-theory-3",
+          "rank": 3,
+          "clue": "In 1882 this German physician identified the bacterium that causes tuberculosis.",
+          "answer": "Robert Koch",
+          "alternates": [
+            "Koch"
+          ]
+        },
+        {
+          "id": "l4a-germ-theory-4",
+          "rank": 4,
+          "clue": "Using handmade microscopes, this Dutch draper was the first to observe bacteria, which he called \"animalcules.\"",
+          "answer": "Antonie van Leeuwenhoek",
+          "alternates": [
+            "Leeuwenhoek",
+            "van Leeuwenhoek"
+          ]
+        },
+        {
+          "id": "l4a-germ-theory-5",
+          "rank": 5,
+          "clue": "In the 1840s this Hungarian doctor drastically cut deaths in a maternity clinic by making doctors wash their hands.",
+          "answer": "Ignaz Semmelweis",
+          "alternates": [
+            "Semmelweis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-shot-in-the-arm",
+      "name": "Shot in the Arm",
+      "clues": [
+        {
+          "id": "l4a-shot-in-the-arm-1",
+          "rank": 1,
+          "clue": "His 1796 experiment on young James Phipps made him the pioneer of vaccination.",
+          "answer": "Edward Jenner",
+          "alternates": [
+            "Jenner"
+          ]
+        },
+        {
+          "id": "l4a-shot-in-the-arm-2",
+          "rank": 2,
+          "clue": "His polio vaccine was declared safe and effective in 1955; he famously never patented it.",
+          "answer": "Jonas Salk",
+          "alternates": [
+            "Salk"
+          ]
+        },
+        {
+          "id": "l4a-shot-in-the-arm-3",
+          "rank": 3,
+          "clue": "Declared eradicated in 1980, it's the only human disease ever wiped out worldwide.",
+          "answer": "Smallpox",
+          "alternates": []
+        },
+        {
+          "id": "l4a-shot-in-the-arm-4",
+          "rank": 4,
+          "clue": "He developed the oral polio vaccine, often given on a sugar cube.",
+          "answer": "Albert Sabin",
+          "alternates": [
+            "Sabin"
+          ]
+        },
+        {
+          "id": "l4a-shot-in-the-arm-5",
+          "rank": 5,
+          "clue": "The word \"vaccine\" comes from the Latin name for this animal.",
+          "answer": "Cow",
+          "alternates": [
+            "cows",
+            "cattle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-organ-recital",
+      "name": "Organ Recital",
+      "clues": [
+        {
+          "id": "l4a-organ-recital-1",
+          "rank": 1,
+          "clue": "The body's largest internal organ, it produces bile.",
+          "answer": "Liver",
+          "alternates": []
+        },
+        {
+          "id": "l4a-organ-recital-2",
+          "rank": 2,
+          "clue": "This small pear-shaped organ stores bile until it's needed for digestion.",
+          "answer": "Gallbladder",
+          "alternates": [
+            "gall bladder"
+          ]
+        },
+        {
+          "id": "l4a-organ-recital-3",
+          "rank": 3,
+          "clue": "Nephrons are the filtering units of these bean-shaped organs.",
+          "answer": "Kidneys",
+          "alternates": [
+            "kidney"
+          ]
+        },
+        {
+          "id": "l4a-organ-recital-4",
+          "rank": 4,
+          "clue": "This butterfly-shaped gland in the neck produces thyroxine.",
+          "answer": "Thyroid",
+          "alternates": [
+            "thyroid gland"
+          ]
+        },
+        {
+          "id": "l4a-organ-recital-5",
+          "rank": 5,
+          "clue": "Found in the upper left abdomen, this organ filters blood and removes worn-out red blood cells.",
+          "answer": "Spleen",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-brain-trust",
+      "name": "Brain Trust",
+      "clues": [
+        {
+          "id": "l4a-brain-trust-1",
+          "rank": 1,
+          "clue": "The largest part of the human brain, divided into two hemispheres.",
+          "answer": "Cerebrum",
+          "alternates": []
+        },
+        {
+          "id": "l4a-brain-trust-2",
+          "rank": 2,
+          "clue": "Its name means \"little brain\"; it sits at the back of the skull and coordinates balance and movement.",
+          "answer": "Cerebellum",
+          "alternates": []
+        },
+        {
+          "id": "l4a-brain-trust-3",
+          "rank": 3,
+          "clue": "Named for its seahorse shape, this structure is crucial for forming new memories.",
+          "answer": "Hippocampus",
+          "alternates": []
+        },
+        {
+          "id": "l4a-brain-trust-4",
+          "rank": 4,
+          "clue": "This almond-shaped cluster of neurons plays a key role in processing fear.",
+          "answer": "Amygdala",
+          "alternates": []
+        },
+        {
+          "id": "l4a-brain-trust-5",
+          "rank": 5,
+          "clue": "This speech-production region in the frontal lobe is named for a 19th-century French physician.",
+          "answer": "Broca's area",
+          "alternates": [
+            "Broca",
+            "Brocas area"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-blood-work",
+      "name": "Blood Work",
+      "clues": [
+        {
+          "id": "l4a-blood-work-1",
+          "rank": 1,
+          "clue": "Making up about 55 percent of blood, it's the yellowish liquid portion.",
+          "answer": "Plasma",
+          "alternates": [
+            "blood plasma"
+          ]
+        },
+        {
+          "id": "l4a-blood-work-2",
+          "rank": 2,
+          "clue": "These cells use hemoglobin to carry oxygen.",
+          "answer": "Red blood cells",
+          "alternates": [
+            "erythrocytes",
+            "red cells",
+            "RBCs",
+            "red blood cell"
+          ]
+        },
+        {
+          "id": "l4a-blood-work-3",
+          "rank": 3,
+          "clue": "These cell fragments, also called thrombocytes, help blood clot.",
+          "answer": "Platelets",
+          "alternates": [
+            "platelet"
+          ]
+        },
+        {
+          "id": "l4a-blood-work-4",
+          "rank": 4,
+          "clue": "This blood type is known as the universal donor for red cells.",
+          "answer": "O negative",
+          "alternates": [
+            "O-",
+            "O neg"
+          ]
+        },
+        {
+          "id": "l4a-blood-work-5",
+          "rank": 5,
+          "clue": "This Austrian scientist discovered the ABO blood groups in 1901.",
+          "answer": "Karl Landsteiner",
+          "alternates": [
+            "Landsteiner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-heart-of-the-matter",
+      "name": "Heart of the Matter",
+      "clues": [
+        {
+          "id": "l4a-heart-of-the-matter-1",
+          "rank": 1,
+          "clue": "The body's largest artery, it carries blood out of the left ventricle.",
+          "answer": "Aorta",
+          "alternates": []
+        },
+        {
+          "id": "l4a-heart-of-the-matter-2",
+          "rank": 2,
+          "clue": "The name for the heart's two upper chambers.",
+          "answer": "Atria",
+          "alternates": [
+            "atrium",
+            "atriums"
+          ]
+        },
+        {
+          "id": "l4a-heart-of-the-matter-3",
+          "rank": 3,
+          "clue": "In 1628 this English physician published the first full description of blood circulation.",
+          "answer": "William Harvey",
+          "alternates": [
+            "Harvey"
+          ]
+        },
+        {
+          "id": "l4a-heart-of-the-matter-4",
+          "rank": 4,
+          "clue": "This South African surgeon performed the first human heart transplant in 1967.",
+          "answer": "Christiaan Barnard",
+          "alternates": [
+            "Barnard"
+          ]
+        },
+        {
+          "id": "l4a-heart-of-the-matter-5",
+          "rank": 5,
+          "clue": "This cluster of cells in the right atrium is the heart's natural pacemaker.",
+          "answer": "Sinoatrial node",
+          "alternates": [
+            "SA node",
+            "sinus node"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-bonding-experience",
+      "name": "Bonding Experience",
+      "clues": [
+        {
+          "id": "l4a-bonding-experience-1",
+          "rank": 1,
+          "clue": "The pH of pure water at room temperature.",
+          "answer": "7",
+          "alternates": [
+            "seven"
+          ]
+        },
+        {
+          "id": "l4a-bonding-experience-2",
+          "rank": 2,
+          "clue": "The number of protons in an atom's nucleus.",
+          "answer": "Atomic number",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bonding-experience-3",
+          "rank": 3,
+          "clue": "In this kind of chemical bond, atoms share pairs of electrons.",
+          "answer": "Covalent bond",
+          "alternates": [
+            "covalent"
+          ]
+        },
+        {
+          "id": "l4a-bonding-experience-4",
+          "rank": 4,
+          "clue": "A substance that speeds up a reaction without being consumed by it.",
+          "answer": "Catalyst",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bonding-experience-5",
+          "rank": 5,
+          "clue": "Roughly 6.022 x 10^23, the number of particles in a mole is named for this Italian scientist.",
+          "answer": "Amedeo Avogadro",
+          "alternates": [
+            "Avogadro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-gas-station",
+      "name": "Gas Station",
+      "clues": [
+        {
+          "id": "l4a-gas-station-1",
+          "rank": 1,
+          "clue": "This gas makes up about 78 percent of Earth's atmosphere.",
+          "answer": "Nitrogen",
+          "alternates": []
+        },
+        {
+          "id": "l4a-gas-station-2",
+          "rank": 2,
+          "clue": "This noble gas glows reddish-orange in illuminated signs.",
+          "answer": "Neon",
+          "alternates": []
+        },
+        {
+          "id": "l4a-gas-station-3",
+          "rank": 3,
+          "clue": "Made of three oxygen atoms, this gas forms a protective layer in the stratosphere.",
+          "answer": "Ozone",
+          "alternates": []
+        },
+        {
+          "id": "l4a-gas-station-4",
+          "rank": 4,
+          "clue": "\"Laughing gas\" is the common name for this compound, N2O.",
+          "answer": "Nitrous oxide",
+          "alternates": []
+        },
+        {
+          "id": "l4a-gas-station-5",
+          "rank": 5,
+          "clue": "At just under 1 percent, this noble gas is the third most abundant gas in dry air.",
+          "answer": "Argon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-acid-test",
+      "name": "Acid Test",
+      "clues": [
+        {
+          "id": "l4a-acid-test-1",
+          "rank": 1,
+          "clue": "Lemons and oranges get their tartness from this acid.",
+          "answer": "Citric acid",
+          "alternates": []
+        },
+        {
+          "id": "l4a-acid-test-2",
+          "rank": 2,
+          "clue": "Vinegar is a dilute solution of this acid.",
+          "answer": "Acetic acid",
+          "alternates": [
+            "ethanoic acid"
+          ]
+        },
+        {
+          "id": "l4a-acid-test-3",
+          "rank": 3,
+          "clue": "Your stomach produces this strong acid, HCl.",
+          "answer": "Hydrochloric acid",
+          "alternates": []
+        },
+        {
+          "id": "l4a-acid-test-4",
+          "rank": 4,
+          "clue": "Named from the Latin word for ant, this acid is found in some ant stings.",
+          "answer": "Formic acid",
+          "alternates": [
+            "methanoic acid"
+          ]
+        },
+        {
+          "id": "l4a-acid-test-5",
+          "rank": 5,
+          "clue": "The chemical name for vitamin C.",
+          "answer": "Ascorbic acid",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-vitamin-see",
+      "name": "Vitamin See",
+      "clues": [
+        {
+          "id": "l4a-vitamin-see-1",
+          "rank": 1,
+          "clue": "Your skin makes this vitamin when exposed to sunlight.",
+          "answer": "Vitamin D",
+          "alternates": [
+            "D"
+          ]
+        },
+        {
+          "id": "l4a-vitamin-see-2",
+          "rank": 2,
+          "clue": "A lack of vitamin C causes this disease, which once plagued sailors on long voyages.",
+          "answer": "Scurvy",
+          "alternates": []
+        },
+        {
+          "id": "l4a-vitamin-see-3",
+          "rank": 3,
+          "clue": "This vitamin, essential for blood clotting, takes its letter from the German word \"Koagulation.\"",
+          "answer": "Vitamin K",
+          "alternates": [
+            "K"
+          ]
+        },
+        {
+          "id": "l4a-vitamin-see-4",
+          "rank": 4,
+          "clue": "A deficiency of thiamine, or vitamin B1, causes this disease.",
+          "answer": "Beriberi",
+          "alternates": []
+        },
+        {
+          "id": "l4a-vitamin-see-5",
+          "rank": 5,
+          "clue": "Vitamin B12 is also known by this name, which refers to the cobalt it contains.",
+          "answer": "Cobalamin",
+          "alternates": [
+            "cyanocobalamin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-evolutionary-road",
+      "name": "Evolutionary Road",
+      "clues": [
+        {
+          "id": "l4a-evolutionary-road-1",
+          "rank": 1,
+          "clue": "Charles Darwin sailed around the world from 1831 to 1836 aboard this ship.",
+          "answer": "HMS Beagle",
+          "alternates": [
+            "Beagle"
+          ]
+        },
+        {
+          "id": "l4a-evolutionary-road-2",
+          "rank": 2,
+          "clue": "Darwin's observations of finches on these Pacific islands helped shape his theory.",
+          "answer": "Galapagos Islands",
+          "alternates": [
+            "Galapagos"
+          ]
+        },
+        {
+          "id": "l4a-evolutionary-road-3",
+          "rank": 3,
+          "clue": "This naturalist's independent discovery of natural selection prompted Darwin to finally publish.",
+          "answer": "Alfred Russel Wallace",
+          "alternates": [
+            "Wallace",
+            "Alfred Wallace"
+          ]
+        },
+        {
+          "id": "l4a-evolutionary-road-4",
+          "rank": 4,
+          "clue": "This English philosopher, not Darwin, coined the phrase \"survival of the fittest.\"",
+          "answer": "Herbert Spencer",
+          "alternates": [
+            "Spencer"
+          ]
+        },
+        {
+          "id": "l4a-evolutionary-road-5",
+          "rank": 5,
+          "clue": "This French naturalist argued that organisms pass on traits acquired during their lifetimes.",
+          "answer": "Jean-Baptiste Lamarck",
+          "alternates": [
+            "Lamarck"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-gene-pool",
+      "name": "Gene Pool",
+      "clues": [
+        {
+          "id": "l4a-gene-pool-1",
+          "rank": 1,
+          "clue": "This Austrian monk founded the science of genetics by breeding pea plants.",
+          "answer": "Gregor Mendel",
+          "alternates": [
+            "Mendel"
+          ]
+        },
+        {
+          "id": "l4a-gene-pool-2",
+          "rank": 2,
+          "clue": "Two-word description of the shape of a DNA molecule.",
+          "answer": "Double helix",
+          "alternates": []
+        },
+        {
+          "id": "l4a-gene-pool-3",
+          "rank": 3,
+          "clue": "The number of pairs of chromosomes in a typical human cell.",
+          "answer": "23",
+          "alternates": [
+            "twenty-three",
+            "twenty three"
+          ]
+        },
+        {
+          "id": "l4a-gene-pool-4",
+          "rank": 4,
+          "clue": "Her X-ray image known as \"Photo 51\" was key to discovering DNA's structure.",
+          "answer": "Rosalind Franklin",
+          "alternates": [
+            "Franklin"
+          ]
+        },
+        {
+          "id": "l4a-gene-pool-5",
+          "rank": 5,
+          "clue": "In RNA, this base takes the place of thymine.",
+          "answer": "Uracil",
+          "alternates": [
+            "U"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-dino-mite",
+      "name": "Dino-Mite",
+      "clues": [
+        {
+          "id": "l4a-dino-mite-1",
+          "rank": 1,
+          "clue": "Its name means \"tyrant lizard king.\"",
+          "answer": "Tyrannosaurus rex",
+          "alternates": [
+            "T. rex",
+            "Tyrannosaurus",
+            "T rex"
+          ]
+        },
+        {
+          "id": "l4a-dino-mite-2",
+          "rank": 2,
+          "clue": "This geologic period is named for mountains on the border of France and Switzerland.",
+          "answer": "Jurassic",
+          "alternates": [
+            "Jurassic period"
+          ]
+        },
+        {
+          "id": "l4a-dino-mite-3",
+          "rank": 3,
+          "clue": "The asteroid impact linked to the dinosaurs' extinction left this crater on Mexico's Yucatan Peninsula.",
+          "answer": "Chicxulub",
+          "alternates": [
+            "Chicxulub crater"
+          ]
+        },
+        {
+          "id": "l4a-dino-mite-4",
+          "rank": 4,
+          "clue": "Discovered in Germany in 1861, this feathered fossil is a famous link between dinosaurs and birds.",
+          "answer": "Archaeopteryx",
+          "alternates": []
+        },
+        {
+          "id": "l4a-dino-mite-5",
+          "rank": 5,
+          "clue": "This Lyme Regis fossil hunter found the first correctly identified plesiosaur skeleton in 1823.",
+          "answer": "Mary Anning",
+          "alternates": [
+            "Anning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-kingdom-come",
+      "name": "Kingdom Come",
+      "clues": [
+        {
+          "id": "l4a-kingdom-come-1",
+          "rank": 1,
+          "clue": "This Swedish botanist is known as the father of modern taxonomy.",
+          "answer": "Carl Linnaeus",
+          "alternates": [
+            "Linnaeus",
+            "Carl von Linne"
+          ]
+        },
+        {
+          "id": "l4a-kingdom-come-2",
+          "rank": 2,
+          "clue": "The formal two-part system for naming species, like Homo sapiens.",
+          "answer": "Binomial nomenclature",
+          "alternates": [
+            "binomial",
+            "binomial naming"
+          ]
+        },
+        {
+          "id": "l4a-kingdom-come-3",
+          "rank": 3,
+          "clue": "In taxonomy, this rank sits between class and family.",
+          "answer": "Order",
+          "alternates": []
+        },
+        {
+          "id": "l4a-kingdom-come-4",
+          "rank": 4,
+          "clue": "In taxonomy, this rank sits between kingdom and class.",
+          "answer": "Phylum",
+          "alternates": []
+        },
+        {
+          "id": "l4a-kingdom-come-5",
+          "rank": 5,
+          "clue": "Vertebrates belong to this phylum, defined by having a notochord at some stage of life.",
+          "answer": "Chordata",
+          "alternates": [
+            "chordates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-whale-of-a-time",
+      "name": "Whale of a Time",
+      "clues": [
+        {
+          "id": "l4a-whale-of-a-time-1",
+          "rank": 1,
+          "clue": "The largest animal known to have ever lived.",
+          "answer": "Blue whale",
+          "alternates": []
+        },
+        {
+          "id": "l4a-whale-of-a-time-2",
+          "rank": 2,
+          "clue": "Also called the killer whale, it's actually the largest member of the dolphin family.",
+          "answer": "Orca",
+          "alternates": []
+        },
+        {
+          "id": "l4a-whale-of-a-time-3",
+          "rank": 3,
+          "clue": "This Arctic whale is known for the long spiral tusk, actually a tooth, on males.",
+          "answer": "Narwhal",
+          "alternates": []
+        },
+        {
+          "id": "l4a-whale-of-a-time-4",
+          "rank": 4,
+          "clue": "The head of this toothed whale holds a waxy substance called spermaceti.",
+          "answer": "Sperm whale",
+          "alternates": []
+        },
+        {
+          "id": "l4a-whale-of-a-time-5",
+          "rank": 5,
+          "clue": "This baleen whale is famous for its long, complex songs and for breaching.",
+          "answer": "Humpback whale",
+          "alternates": [
+            "humpback"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-bird-brain",
+      "name": "Bird Brain",
+      "clues": [
+        {
+          "id": "l4a-bird-brain-1",
+          "rank": 1,
+          "clue": "The largest living bird.",
+          "answer": "Ostrich",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bird-brain-2",
+          "rank": 2,
+          "clue": "These tiny birds are the only ones that can fly backward.",
+          "answer": "Hummingbirds",
+          "alternates": [
+            "hummingbird"
+          ]
+        },
+        {
+          "id": "l4a-bird-brain-3",
+          "rank": 3,
+          "clue": "Diving at over 200 miles per hour, it's the fastest animal on Earth.",
+          "answer": "Peregrine falcon",
+          "alternates": [
+            "peregrine"
+          ]
+        },
+        {
+          "id": "l4a-bird-brain-4",
+          "rank": 4,
+          "clue": "This critically endangered, flightless, nocturnal parrot is native to New Zealand.",
+          "answer": "Kakapo",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bird-brain-5",
+          "rank": 5,
+          "clue": "This once-abundant North American bird went extinct when the last one, Martha, died at the Cincinnati Zoo in 1914.",
+          "answer": "Passenger pigeon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-bug-off",
+      "name": "Bug Off",
+      "clues": [
+        {
+          "id": "l4a-bug-off-1",
+          "rank": 1,
+          "clue": "This butterfly is famous for its multigenerational migration to central Mexico.",
+          "answer": "Monarch",
+          "alternates": [
+            "monarch butterfly"
+          ]
+        },
+        {
+          "id": "l4a-bug-off-2",
+          "rank": 2,
+          "clue": "The scientific study of insects.",
+          "answer": "Entomology",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bug-off-3",
+          "rank": 3,
+          "clue": "An insect's body has three parts: the head, the thorax and this.",
+          "answer": "Abdomen",
+          "alternates": []
+        },
+        {
+          "id": "l4a-bug-off-4",
+          "rank": 4,
+          "clue": "Honeybees perform this dance to tell hivemates the direction and distance of food.",
+          "answer": "Waggle dance",
+          "alternates": [
+            "waggle"
+          ]
+        },
+        {
+          "id": "l4a-bug-off-5",
+          "rank": 5,
+          "clue": "Beetles make up this insect order, the largest in the animal kingdom.",
+          "answer": "Coleoptera",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-leaf-it-to-me",
+      "name": "Leaf It to Me",
+      "clues": [
+        {
+          "id": "l4a-leaf-it-to-me-1",
+          "rank": 1,
+          "clue": "This green pigment lets plants absorb light for photosynthesis.",
+          "answer": "Chlorophyll",
+          "alternates": []
+        },
+        {
+          "id": "l4a-leaf-it-to-me-2",
+          "rank": 2,
+          "clue": "The pollen-producing male part of a flower.",
+          "answer": "Stamen",
+          "alternates": [
+            "stamens"
+          ]
+        },
+        {
+          "id": "l4a-leaf-it-to-me-3",
+          "rank": 3,
+          "clue": "Tiny pores on leaves that let carbon dioxide in and oxygen out.",
+          "answer": "Stomata",
+          "alternates": [
+            "stoma",
+            "stomates"
+          ]
+        },
+        {
+          "id": "l4a-leaf-it-to-me-4",
+          "rank": 4,
+          "clue": "The process by which plants lose water vapor through their leaves.",
+          "answer": "Transpiration",
+          "alternates": []
+        },
+        {
+          "id": "l4a-leaf-it-to-me-5",
+          "rank": 5,
+          "clue": "This plant tissue carries water up from the roots; phloem carries sugars.",
+          "answer": "Xylem",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-light-fantastic",
+      "name": "Light Fantastic",
+      "clues": [
+        {
+          "id": "l4a-light-fantastic-1",
+          "rank": 1,
+          "clue": "Light travels at about 300,000 of these units per second.",
+          "answer": "Kilometers",
+          "alternates": [
+            "km",
+            "kilometres",
+            "kilometer"
+          ]
+        },
+        {
+          "id": "l4a-light-fantastic-2",
+          "rank": 2,
+          "clue": "The bending of light as it passes from one medium into another.",
+          "answer": "Refraction",
+          "alternates": []
+        },
+        {
+          "id": "l4a-light-fantastic-3",
+          "rank": 3,
+          "clue": "This invisible radiation has wavelengths just longer than visible red light.",
+          "answer": "Infrared",
+          "alternates": [
+            "IR"
+          ]
+        },
+        {
+          "id": "l4a-light-fantastic-4",
+          "rank": 4,
+          "clue": "The sky looks blue because of this type of scattering, named for a British physicist.",
+          "answer": "Rayleigh scattering",
+          "alternates": [
+            "Rayleigh"
+          ]
+        },
+        {
+          "id": "l4a-light-fantastic-5",
+          "rank": 5,
+          "clue": "In 1678 this Dutch scientist proposed that light travels as a wave.",
+          "answer": "Christiaan Huygens",
+          "alternates": [
+            "Huygens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-sound-advice",
+      "name": "Sound Advice",
+      "clues": [
+        {
+          "id": "l4a-sound-advice-1",
+          "rank": 1,
+          "clue": "Loudness is commonly measured in this logarithmic unit.",
+          "answer": "Decibel",
+          "alternates": [
+            "decibels",
+            "dB"
+          ]
+        },
+        {
+          "id": "l4a-sound-advice-2",
+          "rank": 2,
+          "clue": "The unit of frequency, equal to one cycle per second, is named for this German physicist.",
+          "answer": "Heinrich Hertz",
+          "alternates": [
+            "Hertz"
+          ]
+        },
+        {
+          "id": "l4a-sound-advice-3",
+          "rank": 3,
+          "clue": "This effect explains why a passing siren seems to drop in pitch.",
+          "answer": "Doppler effect",
+          "alternates": [
+            "Doppler"
+          ]
+        },
+        {
+          "id": "l4a-sound-advice-4",
+          "rank": 4,
+          "clue": "The ratio of an object's speed to the speed of sound is named for this Austrian physicist.",
+          "answer": "Ernst Mach",
+          "alternates": [
+            "Mach",
+            "Mach number"
+          ]
+        },
+        {
+          "id": "l4a-sound-advice-5",
+          "rank": 5,
+          "clue": "Bats and dolphins use this process of locating objects by bouncing sound off them.",
+          "answer": "Echolocation",
+          "alternates": [
+            "sonar",
+            "biosonar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-si-what-i-mean",
+      "name": "SI What I Mean",
+      "clues": [
+        {
+          "id": "l4a-si-what-i-mean-1",
+          "rank": 1,
+          "clue": "The SI unit of power, equal to one joule per second.",
+          "answer": "Watt",
+          "alternates": [
+            "watts"
+          ]
+        },
+        {
+          "id": "l4a-si-what-i-mean-2",
+          "rank": 2,
+          "clue": "The SI unit of electric current.",
+          "answer": "Ampere",
+          "alternates": [
+            "amp",
+            "amps",
+            "amperes"
+          ]
+        },
+        {
+          "id": "l4a-si-what-i-mean-3",
+          "rank": 3,
+          "clue": "The SI unit of energy, named for an English brewer and physicist.",
+          "answer": "Joule",
+          "alternates": [
+            "joules"
+          ]
+        },
+        {
+          "id": "l4a-si-what-i-mean-4",
+          "rank": 4,
+          "clue": "The SI unit for amount of substance, used to count atoms and molecules.",
+          "answer": "Mole",
+          "alternates": [
+            "mol",
+            "moles"
+          ]
+        },
+        {
+          "id": "l4a-si-what-i-mean-5",
+          "rank": 5,
+          "clue": "The SI base unit of luminous intensity, whose name comes from the Latin for \"candle.\"",
+          "answer": "Candela",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-current-events",
+      "name": "Current Events",
+      "clues": [
+        {
+          "id": "l4a-current-events-1",
+          "rank": 1,
+          "clue": "The volt is named for this Italian, who invented the first electric battery around 1800.",
+          "answer": "Alessandro Volta",
+          "alternates": [
+            "Volta"
+          ]
+        },
+        {
+          "id": "l4a-current-events-2",
+          "rank": 2,
+          "clue": "Cooled to extremely low temperatures, these materials conduct electricity with zero resistance.",
+          "answer": "Superconductors",
+          "alternates": [
+            "superconductor"
+          ]
+        },
+        {
+          "id": "l4a-current-events-3",
+          "rank": 3,
+          "clue": "This Serbian-American inventor championed alternating current in the \"War of the Currents.\"",
+          "answer": "Nikola Tesla",
+          "alternates": [
+            "Tesla"
+          ]
+        },
+        {
+          "id": "l4a-current-events-4",
+          "rank": 4,
+          "clue": "In 1831 this English scientist discovered electromagnetic induction.",
+          "answer": "Michael Faraday",
+          "alternates": [
+            "Faraday"
+          ]
+        },
+        {
+          "id": "l4a-current-events-5",
+          "rank": 5,
+          "clue": "This Scottish physicist's equations unified electricity, magnetism and light.",
+          "answer": "James Clerk Maxwell",
+          "alternates": [
+            "Maxwell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-quantum-leap",
+      "name": "Quantum Leap",
+      "clues": [
+        {
+          "id": "l4a-quantum-leap-1",
+          "rank": 1,
+          "clue": "In E = mc squared, the \"c\" stands for this.",
+          "answer": "Speed of light",
+          "alternates": [
+            "the speed of light"
+          ]
+        },
+        {
+          "id": "l4a-quantum-leap-2",
+          "rank": 2,
+          "clue": "His famous thought experiment imagines a cat that is both alive and dead.",
+          "answer": "Erwin Schrodinger",
+          "alternates": [
+            "Schrodinger"
+          ]
+        },
+        {
+          "id": "l4a-quantum-leap-3",
+          "rank": 3,
+          "clue": "The CERN discovery of this particle, nicknamed the \"God particle,\" was announced in 2012.",
+          "answer": "Higgs boson",
+          "alternates": [
+            "Higgs"
+          ]
+        },
+        {
+          "id": "l4a-quantum-leap-4",
+          "rank": 4,
+          "clue": "He formulated the uncertainty principle in 1927.",
+          "answer": "Werner Heisenberg",
+          "alternates": [
+            "Heisenberg"
+          ]
+        },
+        {
+          "id": "l4a-quantum-leap-5",
+          "rank": 5,
+          "clue": "In 1913 this Danish physicist proposed a model of the atom with electrons in fixed orbits.",
+          "answer": "Niels Bohr",
+          "alternates": [
+            "Bohr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-atom-smashers",
+      "name": "Atom Smashers",
+      "clues": [
+        {
+          "id": "l4a-atom-smashers-1",
+          "rank": 1,
+          "clue": "This positively charged particle is found in the atomic nucleus.",
+          "answer": "Proton",
+          "alternates": [
+            "protons"
+          ]
+        },
+        {
+          "id": "l4a-atom-smashers-2",
+          "rank": 2,
+          "clue": "James Chadwick discovered this uncharged particle in 1932.",
+          "answer": "Neutron",
+          "alternates": [
+            "neutrons"
+          ]
+        },
+        {
+          "id": "l4a-atom-smashers-3",
+          "rank": 3,
+          "clue": "His gold foil experiment revealed that atoms have a small, dense nucleus.",
+          "answer": "Ernest Rutherford",
+          "alternates": [
+            "Rutherford"
+          ]
+        },
+        {
+          "id": "l4a-atom-smashers-4",
+          "rank": 4,
+          "clue": "In 1897 this English physicist discovered the electron.",
+          "answer": "J.J. Thomson",
+          "alternates": [
+            "Thomson",
+            "JJ Thomson",
+            "Joseph John Thomson"
+          ]
+        },
+        {
+          "id": "l4a-atom-smashers-5",
+          "rank": 5,
+          "clue": "Protons and neutrons are made of these particles, whose name comes from \"Finnegans Wake.\"",
+          "answer": "Quarks",
+          "alternates": [
+            "quark"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-mathletes",
+      "name": "Mathletes",
+      "clues": [
+        {
+          "id": "l4a-mathletes-1",
+          "rank": 1,
+          "clue": "His theorem says a squared plus b squared equals c squared.",
+          "answer": "Pythagoras",
+          "alternates": []
+        },
+        {
+          "id": "l4a-mathletes-2",
+          "rank": 2,
+          "clue": "This Greek, called the \"father of geometry,\" wrote the \"Elements.\"",
+          "answer": "Euclid",
+          "alternates": []
+        },
+        {
+          "id": "l4a-mathletes-3",
+          "rank": 3,
+          "clue": "The mathematical constant e, about 2.718, is named for this Swiss mathematician.",
+          "answer": "Leonhard Euler",
+          "alternates": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "l4a-mathletes-4",
+          "rank": 4,
+          "clue": "This Frenchman's \"last theorem\" was finally proved by Andrew Wiles in the 1990s.",
+          "answer": "Pierre de Fermat",
+          "alternates": [
+            "Fermat"
+          ]
+        },
+        {
+          "id": "l4a-mathletes-5",
+          "rank": 5,
+          "clue": "Called the \"prince of mathematicians,\" this German reportedly summed the numbers 1 to 100 instantly as a schoolboy.",
+          "answer": "Carl Friedrich Gauss",
+          "alternates": [
+            "Gauss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-count-on-it",
+      "name": "Count on It",
+      "clues": [
+        {
+          "id": "l4a-count-on-it-1",
+          "rank": 1,
+          "clue": "The ratio of a circle's circumference to its diameter.",
+          "answer": "Pi",
+          "alternates": []
+        },
+        {
+          "id": "l4a-count-on-it-2",
+          "rank": 2,
+          "clue": "The only even prime number.",
+          "answer": "2",
+          "alternates": [
+            "two"
+          ]
+        },
+        {
+          "id": "l4a-count-on-it-3",
+          "rank": 3,
+          "clue": "The number series 1, 1, 2, 3, 5, 8, 13 is named for this Italian mathematician.",
+          "answer": "Fibonacci",
+          "alternates": [
+            "Leonardo of Pisa",
+            "Fibonacci sequence"
+          ]
+        },
+        {
+          "id": "l4a-count-on-it-4",
+          "rank": 4,
+          "clue": "Approximately 1.618, this proportion is often represented by the Greek letter phi.",
+          "answer": "Golden ratio",
+          "alternates": [
+            "golden mean",
+            "golden section"
+          ]
+        },
+        {
+          "id": "l4a-count-on-it-5",
+          "rank": 5,
+          "clue": "The name for 10 to the 100th power.",
+          "answer": "Googol",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-shape-shifters",
+      "name": "Shape Shifters",
+      "clues": [
+        {
+          "id": "l4a-shape-shifters-1",
+          "rank": 1,
+          "clue": "A polygon with eight sides.",
+          "answer": "Octagon",
+          "alternates": []
+        },
+        {
+          "id": "l4a-shape-shifters-2",
+          "rank": 2,
+          "clue": "A triangle with no two sides the same length.",
+          "answer": "Scalene",
+          "alternates": [
+            "scalene triangle"
+          ]
+        },
+        {
+          "id": "l4a-shape-shifters-3",
+          "rank": 3,
+          "clue": "A strip of paper given a half twist before its ends are joined makes this one-sided surface.",
+          "answer": "Mobius strip",
+          "alternates": [
+            "Mobius band",
+            "Mobius loop",
+            "Mobius"
+          ]
+        },
+        {
+          "id": "l4a-shape-shifters-4",
+          "rank": 4,
+          "clue": "This Platonic solid has 20 triangular faces.",
+          "answer": "Icosahedron",
+          "alternates": []
+        },
+        {
+          "id": "l4a-shape-shifters-5",
+          "rank": 5,
+          "clue": "Named for a German mathematician, this closed \"bottle\" has no distinct inside or outside.",
+          "answer": "Klein bottle",
+          "alternates": [
+            "Klein"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-calculus-prime",
+      "name": "Calculus Prime",
+      "clues": [
+        {
+          "id": "l4a-calculus-prime-1",
+          "rank": 1,
+          "clue": "Isaac Newton and this German independently invented calculus.",
+          "answer": "Gottfried Leibniz",
+          "alternates": [
+            "Leibniz",
+            "Gottfried Wilhelm Leibniz"
+          ]
+        },
+        {
+          "id": "l4a-calculus-prime-2",
+          "rank": 2,
+          "clue": "The base-2 number system used by computers.",
+          "answer": "Binary",
+          "alternates": []
+        },
+        {
+          "id": "l4a-calculus-prime-3",
+          "rank": 3,
+          "clue": "The term for a number like pi that can't be written as a fraction of two integers.",
+          "answer": "Irrational number",
+          "alternates": [
+            "irrational"
+          ]
+        },
+        {
+          "id": "l4a-calculus-prime-4",
+          "rank": 4,
+          "clue": "This letter denotes the imaginary unit, the square root of negative one.",
+          "answer": "i",
+          "alternates": []
+        },
+        {
+          "id": "l4a-calculus-prime-5",
+          "rank": 5,
+          "clue": "The word \"algorithm\" comes from the name of this ninth-century Persian mathematician.",
+          "answer": "al-Khwarizmi",
+          "alternates": [
+            "Khwarizmi",
+            "Muhammad ibn Musa al-Khwarizmi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-byte-size",
+      "name": "Byte Size",
+      "clues": [
+        {
+          "id": "l4a-byte-size-1",
+          "rank": 1,
+          "clue": "The number of bits in a byte.",
+          "answer": "8",
+          "alternates": [
+            "eight"
+          ]
+        },
+        {
+          "id": "l4a-byte-size-2",
+          "rank": 2,
+          "clue": "Often called the first computer programmer, she wrote notes on Charles Babbage's machine in 1843.",
+          "answer": "Ada Lovelace",
+          "alternates": [
+            "Lovelace"
+          ]
+        },
+        {
+          "id": "l4a-byte-size-3",
+          "rank": 3,
+          "clue": "This U.S. Navy computing pioneer helped develop COBOL and popularized the term \"debugging.\"",
+          "answer": "Grace Hopper",
+          "alternates": [
+            "Hopper"
+          ]
+        },
+        {
+          "id": "l4a-byte-size-4",
+          "rank": 4,
+          "clue": "Charles Babbage's design for a general-purpose mechanical computer was called this.",
+          "answer": "Analytical Engine",
+          "alternates": []
+        },
+        {
+          "id": "l4a-byte-size-5",
+          "rank": 5,
+          "clue": "The ENIAC computer was unveiled in 1946 at this Philadelphia school.",
+          "answer": "University of Pennsylvania",
+          "alternates": [
+            "Penn",
+            "UPenn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-logged-on",
+      "name": "Logged On",
+      "clues": [
+        {
+          "id": "l4a-logged-on-1",
+          "rank": 1,
+          "clue": "In 1989, while at CERN, he proposed the World Wide Web.",
+          "answer": "Tim Berners-Lee",
+          "alternates": [
+            "Berners-Lee"
+          ]
+        },
+        {
+          "id": "l4a-logged-on-2",
+          "rank": 2,
+          "clue": "Funded by the U.S. Defense Department, this network made its first link in 1969 and was a precursor to the internet.",
+          "answer": "ARPANET",
+          "alternates": []
+        },
+        {
+          "id": "l4a-logged-on-3",
+          "rank": 3,
+          "clue": "The engineer who sent the first networked email in 1971 and chose the @ symbol for addresses.",
+          "answer": "Ray Tomlinson",
+          "alternates": [
+            "Tomlinson"
+          ]
+        },
+        {
+          "id": "l4a-logged-on-4",
+          "rank": 4,
+          "clue": "The language of web pages, HTML, stands for this.",
+          "answer": "HyperText Markup Language",
+          "alternates": []
+        },
+        {
+          "id": "l4a-logged-on-5",
+          "rank": 5,
+          "clue": "Vint Cerf and this engineer co-designed the TCP/IP protocols.",
+          "answer": "Bob Kahn",
+          "alternates": [
+            "Kahn",
+            "Robert Kahn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-code-breakers",
+      "name": "Code Breakers",
+      "clues": [
+        {
+          "id": "l4a-code-breakers-1",
+          "rank": 1,
+          "clue": "This British mathematician's 1950 \"imitation game\" test for machine intelligence bears his name.",
+          "answer": "Alan Turing",
+          "alternates": [
+            "Turing"
+          ]
+        },
+        {
+          "id": "l4a-code-breakers-2",
+          "rank": 2,
+          "clue": "Codebreakers at Bletchley Park cracked messages from this German cipher machine.",
+          "answer": "Enigma",
+          "alternates": [
+            "Enigma machine"
+          ]
+        },
+        {
+          "id": "l4a-code-breakers-3",
+          "rank": 3,
+          "clue": "Built at Bletchley Park in 1943-44 to crack the Lorenz cipher, it's considered the first programmable electronic digital computer.",
+          "answer": "Colossus",
+          "alternates": []
+        },
+        {
+          "id": "l4a-code-breakers-4",
+          "rank": 4,
+          "clue": "This public-key encryption system is named for the initials of its three inventors.",
+          "answer": "RSA",
+          "alternates": []
+        },
+        {
+          "id": "l4a-code-breakers-5",
+          "rank": 5,
+          "clue": "This Polish mathematician first broke the Enigma cipher in 1932.",
+          "answer": "Marian Rejewski",
+          "alternates": [
+            "Rejewski"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-chip-off-the-old-block",
+      "name": "Chip Off the Old Block",
+      "clues": [
+        {
+          "id": "l4a-chip-off-the-old-block-1",
+          "rank": 1,
+          "clue": "Invented at Bell Labs in 1947, this device replaced the vacuum tube.",
+          "answer": "Transistor",
+          "alternates": [
+            "transistors"
+          ]
+        },
+        {
+          "id": "l4a-chip-off-the-old-block-2",
+          "rank": 2,
+          "clue": "Element 14, it's the semiconductor at the heart of most computer chips.",
+          "answer": "Silicon",
+          "alternates": []
+        },
+        {
+          "id": "l4a-chip-off-the-old-block-3",
+          "rank": 3,
+          "clue": "This observation says the number of transistors on a chip doubles roughly every two years.",
+          "answer": "Moore's law",
+          "alternates": [
+            "Moore",
+            "Moores law"
+          ]
+        },
+        {
+          "id": "l4a-chip-off-the-old-block-4",
+          "rank": 4,
+          "clue": "Jack Kilby and Robert Noyce independently invented this in 1958 and 1959.",
+          "answer": "Integrated circuit",
+          "alternates": [
+            "IC",
+            "microchip"
+          ]
+        },
+        {
+          "id": "l4a-chip-off-the-old-block-5",
+          "rank": 5,
+          "clue": "Released in 1971, it was Intel's first commercial microprocessor.",
+          "answer": "Intel 4004",
+          "alternates": [
+            "4004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-mother-of-invention",
+      "name": "Mother of Invention",
+      "clues": [
+        {
+          "id": "l4a-mother-of-invention-1",
+          "rank": 1,
+          "clue": "He received a U.S. patent for the telephone in 1876.",
+          "answer": "Alexander Graham Bell",
+          "alternates": [
+            "Bell"
+          ]
+        },
+        {
+          "id": "l4a-mother-of-invention-2",
+          "rank": 2,
+          "clue": "The \"Wizard of Menlo Park\" invented the phonograph.",
+          "answer": "Thomas Edison",
+          "alternates": [
+            "Edison"
+          ]
+        },
+        {
+          "id": "l4a-mother-of-invention-3",
+          "rank": 3,
+          "clue": "In 1901 this Italian sent the first transatlantic radio signal.",
+          "answer": "Guglielmo Marconi",
+          "alternates": [
+            "Marconi"
+          ]
+        },
+        {
+          "id": "l4a-mother-of-invention-4",
+          "rank": 4,
+          "clue": "Around 1450 this German goldsmith introduced movable-type printing to Europe.",
+          "answer": "Johannes Gutenberg",
+          "alternates": [
+            "Gutenberg"
+          ]
+        },
+        {
+          "id": "l4a-mother-of-invention-5",
+          "rank": 5,
+          "clue": "In 1926 this Scottish engineer gave the first public demonstration of television.",
+          "answer": "John Logie Baird",
+          "alternates": [
+            "Baird"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-feats-of-engineering",
+      "name": "Feats of Engineering",
+      "clues": [
+        {
+          "id": "l4a-feats-of-engineering-1",
+          "rank": 1,
+          "clue": "Built for the 1889 World's Fair in Paris, it was the world's tallest structure until 1930.",
+          "answer": "Eiffel Tower",
+          "alternates": []
+        },
+        {
+          "id": "l4a-feats-of-engineering-2",
+          "rank": 2,
+          "clue": "This hydroelectric dam on China's Yangtze River is one of the largest power stations ever built.",
+          "answer": "Three Gorges Dam",
+          "alternates": [
+            "Three Gorges"
+          ]
+        },
+        {
+          "id": "l4a-feats-of-engineering-3",
+          "rank": 3,
+          "clue": "Nicknamed \"Galloping Gertie,\" this Washington state bridge collapsed in a windstorm in 1940.",
+          "answer": "Tacoma Narrows Bridge",
+          "alternates": [
+            "Tacoma Narrows"
+          ]
+        },
+        {
+          "id": "l4a-feats-of-engineering-4",
+          "rank": 4,
+          "clue": "This Victorian engineer built the Great Western Railway and the steamship SS Great Britain.",
+          "answer": "Isambard Kingdom Brunel",
+          "alternates": [
+            "Brunel"
+          ]
+        },
+        {
+          "id": "l4a-feats-of-engineering-5",
+          "rank": 5,
+          "clue": "She oversaw completion of the Brooklyn Bridge after her husband, chief engineer Washington, fell ill.",
+          "answer": "Emily Roebling",
+          "alternates": [
+            "Roebling",
+            "Emily Warren Roebling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-front-and-center",
+      "name": "Front and Center",
+      "clues": [
+        {
+          "id": "l4a-front-and-center-1",
+          "rank": 1,
+          "clue": "Nearly all weather happens in this lowest layer of the atmosphere.",
+          "answer": "Troposphere",
+          "alternates": []
+        },
+        {
+          "id": "l4a-front-and-center-2",
+          "rank": 2,
+          "clue": "Hurricanes are ranked from Category 1 to 5 on this scale.",
+          "answer": "Saffir-Simpson scale",
+          "alternates": [
+            "Saffir-Simpson"
+          ]
+        },
+        {
+          "id": "l4a-front-and-center-3",
+          "rank": 3,
+          "clue": "Tornadoes are rated from EF0 to EF5 on this scale, named for a Japanese-American meteorologist.",
+          "answer": "Enhanced Fujita scale",
+          "alternates": [
+            "Fujita",
+            "Fujita scale"
+          ]
+        },
+        {
+          "id": "l4a-front-and-center-4",
+          "rank": 4,
+          "clue": "This wind scale was devised in 1805 by a British naval officer.",
+          "answer": "Beaufort scale",
+          "alternates": [
+            "Beaufort"
+          ]
+        },
+        {
+          "id": "l4a-front-and-center-5",
+          "rank": 5,
+          "clue": "This instrument measures humidity.",
+          "answer": "Hygrometer",
+          "alternates": [
+            "psychrometer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-ring-of-fire",
+      "name": "Ring of Fire",
+      "clues": [
+        {
+          "id": "l4a-ring-of-fire-1",
+          "rank": 1,
+          "clue": "This volcano buried Pompeii in A.D. 79.",
+          "answer": "Mount Vesuvius",
+          "alternates": [
+            "Vesuvius"
+          ]
+        },
+        {
+          "id": "l4a-ring-of-fire-2",
+          "rank": 2,
+          "clue": "This instrument records the waves from earthquakes.",
+          "answer": "Seismograph",
+          "alternates": [
+            "seismometer"
+          ]
+        },
+        {
+          "id": "l4a-ring-of-fire-3",
+          "rank": 3,
+          "clue": "The point on Earth's surface directly above where an earthquake starts.",
+          "answer": "Epicenter",
+          "alternates": [
+            "epicentre"
+          ]
+        },
+        {
+          "id": "l4a-ring-of-fire-4",
+          "rank": 4,
+          "clue": "The 1883 eruption of this Indonesian volcano was heard thousands of miles away.",
+          "answer": "Krakatoa",
+          "alternates": [
+            "Krakatau"
+          ]
+        },
+        {
+          "id": "l4a-ring-of-fire-5",
+          "rank": 5,
+          "clue": "This Indonesian volcano's 1815 eruption led to 1816's \"Year Without a Summer.\"",
+          "answer": "Mount Tambora",
+          "alternates": [
+            "Tambora"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-fun-guys",
+      "name": "Fun Guys",
+      "clues": [
+        {
+          "id": "l4a-fun-guys-1",
+          "rank": 1,
+          "clue": "This fungus makes bread rise.",
+          "answer": "Yeast",
+          "alternates": []
+        },
+        {
+          "id": "l4a-fun-guys-2",
+          "rank": 2,
+          "clue": "The antibiotic penicillin was first derived from this genus of mold.",
+          "answer": "Penicillium",
+          "alternates": []
+        },
+        {
+          "id": "l4a-fun-guys-3",
+          "rank": 3,
+          "clue": "This organism is a symbiotic partnership of a fungus and an alga.",
+          "answer": "Lichen",
+          "alternates": [
+            "lichens"
+          ]
+        },
+        {
+          "id": "l4a-fun-guys-4",
+          "rank": 4,
+          "clue": "The network of threadlike hyphae that makes up the main body of a fungus.",
+          "answer": "Mycelium",
+          "alternates": []
+        },
+        {
+          "id": "l4a-fun-guys-5",
+          "rank": 5,
+          "clue": "The scientific study of fungi.",
+          "answer": "Mycology",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4a-doctor-s-orders",
+      "name": "Doctor's Orders",
+      "clues": [
+        {
+          "id": "l4a-doctor-s-orders-1",
+          "rank": 1,
+          "clue": "In 1895 this German physicist discovered X-rays.",
+          "answer": "Wilhelm Rontgen",
+          "alternates": [
+            "Rontgen",
+            "Roentgen",
+            "Wilhelm Roentgen"
+          ]
+        },
+        {
+          "id": "l4a-doctor-s-orders-2",
+          "rank": 2,
+          "clue": "This Canadian surgeon co-discovered insulin with Charles Best in 1921.",
+          "answer": "Frederick Banting",
+          "alternates": [
+            "Banting"
+          ]
+        },
+        {
+          "id": "l4a-doctor-s-orders-3",
+          "rank": 3,
+          "clue": "In the 1860s this British surgeon pioneered antiseptic surgery using carbolic acid.",
+          "answer": "Joseph Lister",
+          "alternates": [
+            "Lister"
+          ]
+        },
+        {
+          "id": "l4a-doctor-s-orders-4",
+          "rank": 4,
+          "clue": "This anesthetic was first publicly demonstrated in surgery at Massachusetts General Hospital in 1846.",
+          "answer": "Ether",
+          "alternates": [
+            "diethyl ether"
+          ]
+        },
+        {
+          "id": "l4a-doctor-s-orders-5",
+          "rank": 5,
+          "clue": "Her cells, taken in 1951, became the first immortal human cell line, known as HeLa.",
+          "answer": "Henrietta Lacks",
+          "alternates": [
+            "Lacks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4a-making-sense",
+      "name": "Making Sense",
+      "clues": [
+        {
+          "id": "l4a-making-sense-1",
+          "rank": 1,
+          "clue": "The colored part of the eye.",
+          "answer": "Iris",
+          "alternates": []
+        },
+        {
+          "id": "l4a-making-sense-2",
+          "rank": 2,
+          "clue": "The light-sensitive layer at the back of the eye.",
+          "answer": "Retina",
+          "alternates": []
+        },
+        {
+          "id": "l4a-making-sense-3",
+          "rank": 3,
+          "clue": "This snail-shaped structure in the inner ear turns sound vibrations into nerve signals.",
+          "answer": "Cochlea",
+          "alternates": []
+        },
+        {
+          "id": "l4a-making-sense-4",
+          "rank": 4,
+          "clue": "These photoreceptor cells in the eye are responsible for color vision.",
+          "answer": "Cones",
+          "alternates": [
+            "cone",
+            "cone cells"
+          ]
+        },
+        {
+          "id": "l4a-making-sense-5",
+          "rank": 5,
+          "clue": "This tube connects the middle ear to the throat and equalizes pressure.",
+          "answer": "Eustachian tube",
+          "alternates": [
+            "Eustachian",
+            "auditory tube"
+          ]
+        }
+      ]
+    }
+  ]
+}

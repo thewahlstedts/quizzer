@@ -1,0 +1,2359 @@
+{
+  "level": 1,
+  "categories": [
+    {
+      "id": "l1b-flag-day",
+      "name": "Flag Day",
+      "clues": [
+        {
+          "id": "l1b-flag-day-1",
+          "rank": 1,
+          "clue": "The United States flag has this many stars.",
+          "answer": "50",
+          "alternates": [
+            "fifty"
+          ]
+        },
+        {
+          "id": "l1b-flag-day-2",
+          "rank": 2,
+          "clue": "The red leaf in the middle of Canada's flag comes from this kind of tree.",
+          "answer": "Maple",
+          "alternates": [
+            "maple tree",
+            "maple leaf"
+          ]
+        },
+        {
+          "id": "l1b-flag-day-3",
+          "rank": 3,
+          "clue": "The red circle on Japan's flag stands for this bright thing in the sky.",
+          "answer": "Sun",
+          "alternates": [
+            "rising sun",
+            "the sun"
+          ]
+        },
+        {
+          "id": "l1b-flag-day-4",
+          "rank": 4,
+          "clue": "The stars on the United States flag are this color.",
+          "answer": "White",
+          "alternates": []
+        },
+        {
+          "id": "l1b-flag-day-5",
+          "rank": 5,
+          "clue": "This nickname for the United States flag starts with the word \"Old.\"",
+          "answer": "Old Glory",
+          "alternates": [
+            "Glory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-here-to-help",
+      "name": "Here to Help",
+      "clues": [
+        {
+          "id": "l1b-here-to-help-1",
+          "rank": 1,
+          "clue": "This helper sprays water from a big hose to put out fires.",
+          "answer": "Firefighter",
+          "alternates": [
+            "fireman",
+            "firefighters",
+            "fire fighter"
+          ]
+        },
+        {
+          "id": "l1b-here-to-help-2",
+          "rank": 2,
+          "clue": "This helper brings letters and packages to your mailbox.",
+          "answer": "Mail carrier",
+          "alternates": [
+            "mailman",
+            "letter carrier",
+            "postal worker",
+            "mail man"
+          ]
+        },
+        {
+          "id": "l1b-here-to-help-3",
+          "rank": 3,
+          "clue": "This helper checks and cleans your teeth.",
+          "answer": "Dentist",
+          "alternates": []
+        },
+        {
+          "id": "l1b-here-to-help-4",
+          "rank": 4,
+          "clue": "This helper at the library can help you find a good book.",
+          "answer": "Librarian",
+          "alternates": []
+        },
+        {
+          "id": "l1b-here-to-help-5",
+          "rank": 5,
+          "clue": "This kind of doctor takes care of sick pets and other animals.",
+          "answer": "Veterinarian",
+          "alternates": [
+            "vet",
+            "animal doctor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-landmark-decisions",
+      "name": "Landmark Decisions",
+      "clues": [
+        {
+          "id": "l1b-landmark-decisions-1",
+          "rank": 1,
+          "clue": "This big green statue holding a torch stands in New York Harbor.",
+          "answer": "Statue of Liberty",
+          "alternates": [
+            "Lady Liberty"
+          ]
+        },
+        {
+          "id": "l1b-landmark-decisions-2",
+          "rank": 2,
+          "clue": "This tall iron tower is the most famous sight in Paris.",
+          "answer": "Eiffel Tower",
+          "alternates": []
+        },
+        {
+          "id": "l1b-landmark-decisions-3",
+          "rank": 3,
+          "clue": "This very long wall was built across northern China long ago.",
+          "answer": "Great Wall of China",
+          "alternates": [
+            "Great Wall"
+          ]
+        },
+        {
+          "id": "l1b-landmark-decisions-4",
+          "rank": 4,
+          "clue": "The famous pyramids of Giza are in this country.",
+          "answer": "Egypt",
+          "alternates": []
+        },
+        {
+          "id": "l1b-landmark-decisions-5",
+          "rank": 5,
+          "clue": "London's famous clock tower is nicknamed this.",
+          "answer": "Big Ben",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-country-roads",
+      "name": "Country Roads",
+      "clues": [
+        {
+          "id": "l1b-country-roads-1",
+          "rank": 1,
+          "clue": "This country is directly north of the United States.",
+          "answer": "Canada",
+          "alternates": []
+        },
+        {
+          "id": "l1b-country-roads-2",
+          "rank": 2,
+          "clue": "This country is directly south of the United States.",
+          "answer": "Mexico",
+          "alternates": []
+        },
+        {
+          "id": "l1b-country-roads-3",
+          "rank": 3,
+          "clue": "This European country is shaped like a boot.",
+          "answer": "Italy",
+          "alternates": []
+        },
+        {
+          "id": "l1b-country-roads-4",
+          "rank": 4,
+          "clue": "The Taj Mahal is in this country.",
+          "answer": "India",
+          "alternates": []
+        },
+        {
+          "id": "l1b-country-roads-5",
+          "rank": 5,
+          "clue": "This country is the biggest in the world by land area.",
+          "answer": "Russia",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-hail-to-the-chief",
+      "name": "Hail to the Chief",
+      "clues": [
+        {
+          "id": "l1b-hail-to-the-chief-1",
+          "rank": 1,
+          "clue": "He was the very first President of the United States.",
+          "answer": "George Washington",
+          "alternates": [
+            "Washington"
+          ]
+        },
+        {
+          "id": "l1b-hail-to-the-chief-2",
+          "rank": 2,
+          "clue": "This president nicknamed \"Honest Abe\" is on the penny.",
+          "answer": "Abraham Lincoln",
+          "alternates": [
+            "Lincoln"
+          ]
+        },
+        {
+          "id": "l1b-hail-to-the-chief-3",
+          "rank": 3,
+          "clue": "The President lives and works in this famous house in Washington, D.C.",
+          "answer": "White House",
+          "alternates": []
+        },
+        {
+          "id": "l1b-hail-to-the-chief-4",
+          "rank": 4,
+          "clue": "The teddy bear was named after this president.",
+          "answer": "Theodore Roosevelt",
+          "alternates": [
+            "Teddy Roosevelt",
+            "Roosevelt"
+          ]
+        },
+        {
+          "id": "l1b-hail-to-the-chief-5",
+          "rank": 5,
+          "clue": "This third president wrote most of the Declaration of Independence.",
+          "answer": "Thomas Jefferson",
+          "alternates": [
+            "Jefferson"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-state-fair",
+      "name": "State Fair",
+      "clues": [
+        {
+          "id": "l1b-state-fair-1",
+          "rank": 1,
+          "clue": "This state's biggest city is nicknamed the Big Apple.",
+          "answer": "New York",
+          "alternates": [
+            "New York State"
+          ]
+        },
+        {
+          "id": "l1b-state-fair-2",
+          "rank": 2,
+          "clue": "This state is shaped like a mitten.",
+          "answer": "Michigan",
+          "alternates": []
+        },
+        {
+          "id": "l1b-state-fair-3",
+          "rank": 3,
+          "clue": "This southern state is nicknamed the Peach State.",
+          "answer": "Georgia",
+          "alternates": []
+        },
+        {
+          "id": "l1b-state-fair-4",
+          "rank": 4,
+          "clue": "Philadelphia and Pittsburgh are cities in this state.",
+          "answer": "Pennsylvania",
+          "alternates": []
+        },
+        {
+          "id": "l1b-state-fair-5",
+          "rank": 5,
+          "clue": "This is the smallest of the 50 states.",
+          "answer": "Rhode Island",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-big-city-lights",
+      "name": "Big City Lights",
+      "clues": [
+        {
+          "id": "l1b-big-city-lights-1",
+          "rank": 1,
+          "clue": "This city is the capital of the United States.",
+          "answer": "Washington, D.C.",
+          "alternates": [
+            "Washington DC",
+            "DC",
+            "D.C."
+          ]
+        },
+        {
+          "id": "l1b-big-city-lights-2",
+          "rank": 2,
+          "clue": "This city is the capital of France.",
+          "answer": "Paris",
+          "alternates": []
+        },
+        {
+          "id": "l1b-big-city-lights-3",
+          "rank": 3,
+          "clue": "This city is the capital of England.",
+          "answer": "London",
+          "alternates": []
+        },
+        {
+          "id": "l1b-big-city-lights-4",
+          "rank": 4,
+          "clue": "This city is the capital of Japan.",
+          "answer": "Tokyo",
+          "alternates": []
+        },
+        {
+          "id": "l1b-big-city-lights-5",
+          "rank": 5,
+          "clue": "This city is the capital of Italy.",
+          "answer": "Rome",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-pyramid-scheme",
+      "name": "Pyramid Scheme",
+      "clues": [
+        {
+          "id": "l1b-pyramid-scheme-1",
+          "rank": 1,
+          "clue": "Kings of ancient Egypt were called this.",
+          "answer": "Pharaoh",
+          "alternates": [
+            "pharaohs"
+          ]
+        },
+        {
+          "id": "l1b-pyramid-scheme-2",
+          "rank": 2,
+          "clue": "Ancient Egyptians wrapped bodies in cloth to make one of these.",
+          "answer": "Mummy",
+          "alternates": [
+            "mummies"
+          ]
+        },
+        {
+          "id": "l1b-pyramid-scheme-3",
+          "rank": 3,
+          "clue": "This long river flows north through Egypt.",
+          "answer": "Nile",
+          "alternates": [
+            "Nile River"
+          ]
+        },
+        {
+          "id": "l1b-pyramid-scheme-4",
+          "rank": 4,
+          "clue": "This giant stone statue in Egypt has a lion's body and a human head.",
+          "answer": "Sphinx",
+          "alternates": [
+            "Great Sphinx"
+          ]
+        },
+        {
+          "id": "l1b-pyramid-scheme-5",
+          "rank": 5,
+          "clue": "Ancient Egyptians wrote with picture symbols called this.",
+          "answer": "Hieroglyphics",
+          "alternates": [
+            "hieroglyphs",
+            "hieroglyph"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-castle-hassle",
+      "name": "Castle Hassle",
+      "clues": [
+        {
+          "id": "l1b-castle-hassle-1",
+          "rank": 1,
+          "clue": "A king or queen wears this on their head.",
+          "answer": "Crown",
+          "alternates": []
+        },
+        {
+          "id": "l1b-castle-hassle-2",
+          "rank": 2,
+          "clue": "This soldier in shiny armor rode a horse.",
+          "answer": "Knight",
+          "alternates": [
+            "knights"
+          ]
+        },
+        {
+          "id": "l1b-castle-hassle-3",
+          "rank": 3,
+          "clue": "A king or queen sits on this special chair.",
+          "answer": "Throne",
+          "alternates": []
+        },
+        {
+          "id": "l1b-castle-hassle-4",
+          "rank": 4,
+          "clue": "This ditch filled with water surrounded many castles.",
+          "answer": "Moat",
+          "alternates": []
+        },
+        {
+          "id": "l1b-castle-hassle-5",
+          "rank": 5,
+          "clue": "This castle bridge could be pulled up to keep enemies out.",
+          "answer": "Drawbridge",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-arr-you-ready",
+      "name": "Arr You Ready?",
+      "clues": [
+        {
+          "id": "l1b-arr-you-ready-1",
+          "rank": 1,
+          "clue": "Pirates buried chests full of gold and jewels called this.",
+          "answer": "Treasure",
+          "alternates": [
+            "pirate treasure"
+          ]
+        },
+        {
+          "id": "l1b-arr-you-ready-2",
+          "rank": 2,
+          "clue": "This colorful talking bird is often shown on a pirate's shoulder.",
+          "answer": "Parrot",
+          "alternates": []
+        },
+        {
+          "id": "l1b-arr-you-ready-3",
+          "rank": 3,
+          "clue": "On a treasure map, this letter marks the spot.",
+          "answer": "X",
+          "alternates": []
+        },
+        {
+          "id": "l1b-arr-you-ready-4",
+          "rank": 4,
+          "clue": "The skull-and-crossbones pirate flag is called this.",
+          "answer": "Jolly Roger",
+          "alternates": []
+        },
+        {
+          "id": "l1b-arr-you-ready-5",
+          "rank": 5,
+          "clue": "Pirate Edward Teach was better known by this name for his dark facial hair.",
+          "answer": "Blackbeard",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-pioneer-days",
+      "name": "Pioneer Days",
+      "clues": [
+        {
+          "id": "l1b-pioneer-days-1",
+          "rank": 1,
+          "clue": "Pioneers traveled west in this kind of wagon with a cloth top.",
+          "answer": "Covered wagon",
+          "alternates": [
+            "wagon"
+          ]
+        },
+        {
+          "id": "l1b-pioneer-days-2",
+          "rank": 2,
+          "clue": "Many pioneers lived in a small house built from logs called this.",
+          "answer": "Log cabin",
+          "alternates": [
+            "cabin"
+          ]
+        },
+        {
+          "id": "l1b-pioneer-days-3",
+          "rank": 3,
+          "clue": "Before electric lights, pioneers lit their homes with these wax sticks.",
+          "answer": "Candles",
+          "alternates": [
+            "candle"
+          ]
+        },
+        {
+          "id": "l1b-pioneer-days-4",
+          "rank": 4,
+          "clue": "Pioneers made butter by working cream in this wooden tool.",
+          "answer": "Churn",
+          "alternates": [
+            "butter churn"
+          ]
+        },
+        {
+          "id": "l1b-pioneer-days-5",
+          "rank": 5,
+          "clue": "Pioneers sewed patches of cloth together to make this warm blanket.",
+          "answer": "Quilt",
+          "alternates": [
+            "quilts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-long-ago",
+      "name": "Long Ago",
+      "clues": [
+        {
+          "id": "l1b-long-ago-1",
+          "rank": 1,
+          "clue": "Early people painted animals on the walls of these rocky shelters.",
+          "answer": "Caves",
+          "alternates": [
+            "cave"
+          ]
+        },
+        {
+          "id": "l1b-long-ago-2",
+          "rank": 2,
+          "clue": "The earliest tools were made from this hard material, giving an age its name.",
+          "answer": "Stone",
+          "alternates": [
+            "rock"
+          ]
+        },
+        {
+          "id": "l1b-long-ago-3",
+          "rank": 3,
+          "clue": "Before cars, carriages and wagons were pulled by these animals.",
+          "answer": "Horses",
+          "alternates": [
+            "horse"
+          ]
+        },
+        {
+          "id": "l1b-long-ago-4",
+          "rank": 4,
+          "clue": "Before refrigerators, people kept food cold with big blocks of this.",
+          "answer": "Ice",
+          "alternates": []
+        },
+        {
+          "id": "l1b-long-ago-5",
+          "rank": 5,
+          "clue": "This ancient clock used a shadow cast by the sun to tell time.",
+          "answer": "Sundial",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-legend-has-it",
+      "name": "Legend Has It",
+      "clues": [
+        {
+          "id": "l1b-legend-has-it-1",
+          "rank": 1,
+          "clue": "This outlaw in green took from the rich and gave to the poor.",
+          "answer": "Robin Hood",
+          "alternates": []
+        },
+        {
+          "id": "l1b-legend-has-it-2",
+          "rank": 2,
+          "clue": "This legendary king sat with his knights at the Round Table.",
+          "answer": "King Arthur",
+          "alternates": [
+            "Arthur"
+          ]
+        },
+        {
+          "id": "l1b-legend-has-it-3",
+          "rank": 3,
+          "clue": "This big hairy creature is said to roam the forests of North America.",
+          "answer": "Bigfoot",
+          "alternates": [
+            "Sasquatch"
+          ]
+        },
+        {
+          "id": "l1b-legend-has-it-4",
+          "rank": 4,
+          "clue": "Robin Hood and his Merry Men lived in this forest.",
+          "answer": "Sherwood Forest",
+          "alternates": [
+            "Sherwood"
+          ]
+        },
+        {
+          "id": "l1b-legend-has-it-5",
+          "rank": 5,
+          "clue": "King Arthur's magic sword was named this.",
+          "answer": "Excalibur",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-its-all-greek",
+      "name": "It's All Greek",
+      "clues": [
+        {
+          "id": "l1b-its-all-greek-1",
+          "rank": 1,
+          "clue": "This king of the Greek gods threw lightning bolts.",
+          "answer": "Zeus",
+          "alternates": []
+        },
+        {
+          "id": "l1b-its-all-greek-2",
+          "rank": 2,
+          "clue": "This super-strong Greek hero completed 12 labors.",
+          "answer": "Hercules",
+          "alternates": [
+            "Heracles"
+          ]
+        },
+        {
+          "id": "l1b-its-all-greek-3",
+          "rank": 3,
+          "clue": "This winged horse flew through Greek myths.",
+          "answer": "Pegasus",
+          "alternates": []
+        },
+        {
+          "id": "l1b-its-all-greek-4",
+          "rank": 4,
+          "clue": "One look at this snake-haired woman could turn you to stone.",
+          "answer": "Medusa",
+          "alternates": []
+        },
+        {
+          "id": "l1b-its-all-greek-5",
+          "rank": 5,
+          "clue": "The Greeks hid soldiers inside this giant wooden animal to get into Troy.",
+          "answer": "Trojan Horse",
+          "alternates": [
+            "wooden horse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-tall-tales",
+      "name": "Tall Tales",
+      "clues": [
+        {
+          "id": "l1b-tall-tales-1",
+          "rank": 1,
+          "clue": "This giant lumberjack had a big blue ox.",
+          "answer": "Paul Bunyan",
+          "alternates": [
+            "Bunyan"
+          ]
+        },
+        {
+          "id": "l1b-tall-tales-2",
+          "rank": 2,
+          "clue": "This traveler planted orchards across America and was said to wear a pot for a hat.",
+          "answer": "Johnny Appleseed",
+          "alternates": [
+            "John Chapman"
+          ]
+        },
+        {
+          "id": "l1b-tall-tales-3",
+          "rank": 3,
+          "clue": "Paul Bunyan's giant blue ox was named this.",
+          "answer": "Babe",
+          "alternates": [
+            "Babe the Blue Ox"
+          ]
+        },
+        {
+          "id": "l1b-tall-tales-4",
+          "rank": 4,
+          "clue": "This strong \"steel-driving man\" raced a steam drill and won.",
+          "answer": "John Henry",
+          "alternates": []
+        },
+        {
+          "id": "l1b-tall-tales-5",
+          "rank": 5,
+          "clue": "This cowboy of tall tales was said to ride a tornado.",
+          "answer": "Pecos Bill",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-famous-folks",
+      "name": "Famous Folks",
+      "clues": [
+        {
+          "id": "l1b-famous-folks-1",
+          "rank": 1,
+          "clue": "He flew a kite in a storm to learn about electricity.",
+          "answer": "Benjamin Franklin",
+          "alternates": [
+            "Ben Franklin",
+            "Franklin"
+          ]
+        },
+        {
+          "id": "l1b-famous-folks-2",
+          "rank": 2,
+          "clue": "She refused to give up her bus seat in Montgomery, Alabama.",
+          "answer": "Rosa Parks",
+          "alternates": [
+            "Parks"
+          ]
+        },
+        {
+          "id": "l1b-famous-folks-3",
+          "rank": 3,
+          "clue": "He gave the famous \"I Have a Dream\" speech.",
+          "answer": "Martin Luther King Jr.",
+          "alternates": [
+            "Martin Luther King",
+            "MLK",
+            "Dr. King"
+          ]
+        },
+        {
+          "id": "l1b-famous-folks-4",
+          "rank": 4,
+          "clue": "Legend says this woman sewed the first American flag.",
+          "answer": "Betsy Ross",
+          "alternates": [
+            "Ross"
+          ]
+        },
+        {
+          "id": "l1b-famous-folks-5",
+          "rank": 5,
+          "clue": "She led many people to freedom on the Underground Railroad.",
+          "answer": "Harriet Tubman",
+          "alternates": [
+            "Tubman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-land-ho",
+      "name": "Shore Thing",
+      "clues": [
+        {
+          "id": "l1b-land-ho-1",
+          "rank": 1,
+          "clue": "This explorer sailed across the ocean in 1492 with three ships.",
+          "answer": "Christopher Columbus",
+          "alternates": [
+            "Columbus"
+          ]
+        },
+        {
+          "id": "l1b-land-ho-2",
+          "rank": 2,
+          "clue": "He was the first person to walk on the Moon.",
+          "answer": "Neil Armstrong",
+          "alternates": [
+            "Armstrong"
+          ]
+        },
+        {
+          "id": "l1b-land-ho-3",
+          "rank": 3,
+          "clue": "Meriwether Lewis explored the American West with this partner.",
+          "answer": "William Clark",
+          "alternates": [
+            "Clark"
+          ]
+        },
+        {
+          "id": "l1b-land-ho-4",
+          "rank": 4,
+          "clue": "This Shoshone woman helped guide Lewis and Clark.",
+          "answer": "Sacagawea",
+          "alternates": [
+            "Sacajawea"
+          ]
+        },
+        {
+          "id": "l1b-land-ho-5",
+          "rank": 5,
+          "clue": "This traveler from Venice journeyed to China and wrote about it.",
+          "answer": "Marco Polo",
+          "alternates": [
+            "Polo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-great-inventors",
+      "name": "Great Inventors",
+      "clues": [
+        {
+          "id": "l1b-great-inventors-1",
+          "rank": 1,
+          "clue": "These two brothers flew the first airplane in 1903.",
+          "answer": "Wright brothers",
+          "alternates": [
+            "Wrights",
+            "Orville and Wilbur Wright",
+            "Wilbur and Orville Wright"
+          ]
+        },
+        {
+          "id": "l1b-great-inventors-2",
+          "rank": 2,
+          "clue": "This inventor is famous for making a long-lasting light bulb.",
+          "answer": "Thomas Edison",
+          "alternates": [
+            "Edison"
+          ]
+        },
+        {
+          "id": "l1b-great-inventors-3",
+          "rank": 3,
+          "clue": "This inventor made the first telephone call.",
+          "answer": "Alexander Graham Bell",
+          "alternates": [
+            "Bell",
+            "Graham Bell"
+          ]
+        },
+        {
+          "id": "l1b-great-inventors-4",
+          "rank": 4,
+          "clue": "This man made the Model T car.",
+          "answer": "Henry Ford",
+          "alternates": [
+            "Ford"
+          ]
+        },
+        {
+          "id": "l1b-great-inventors-5",
+          "rank": 5,
+          "clue": "The Wright brothers' first flight was near this North Carolina town.",
+          "answer": "Kitty Hawk",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-map-quest",
+      "name": "Map Quest",
+      "clues": [
+        {
+          "id": "l1b-map-quest-1",
+          "rank": 1,
+          "clue": "There are this many continents on Earth.",
+          "answer": "7",
+          "alternates": [
+            "seven"
+          ]
+        },
+        {
+          "id": "l1b-map-quest-2",
+          "rank": 2,
+          "clue": "This ocean lies between the Americas and Europe.",
+          "answer": "Atlantic Ocean",
+          "alternates": [
+            "Atlantic"
+          ]
+        },
+        {
+          "id": "l1b-map-quest-3",
+          "rank": 3,
+          "clue": "France, Germany and Spain are on this continent.",
+          "answer": "Europe",
+          "alternates": []
+        },
+        {
+          "id": "l1b-map-quest-4",
+          "rank": 4,
+          "clue": "Brazil and Argentina are on this continent.",
+          "answer": "South America",
+          "alternates": []
+        },
+        {
+          "id": "l1b-map-quest-5",
+          "rank": 5,
+          "clue": "This imaginary line circles the middle of the Earth.",
+          "answer": "Equator",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-map-it-out",
+      "name": "Map It Out",
+      "clues": [
+        {
+          "id": "l1b-map-it-out-1",
+          "rank": 1,
+          "clue": "This direction is the opposite of north.",
+          "answer": "South",
+          "alternates": []
+        },
+        {
+          "id": "l1b-map-it-out-2",
+          "rank": 2,
+          "clue": "This round model of the Earth can spin on a stand.",
+          "answer": "Globe",
+          "alternates": []
+        },
+        {
+          "id": "l1b-map-it-out-3",
+          "rank": 3,
+          "clue": "This is a whole book full of maps.",
+          "answer": "Atlas",
+          "alternates": []
+        },
+        {
+          "id": "l1b-map-it-out-4",
+          "rank": 4,
+          "clue": "This star-shaped symbol on a map shows north, south, east and west.",
+          "answer": "Compass rose",
+          "alternates": []
+        },
+        {
+          "id": "l1b-map-it-out-5",
+          "rank": 5,
+          "clue": "This spot is at the very top of the Earth.",
+          "answer": "North Pole",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-lay-of-the-land",
+      "name": "Lay of the Land",
+      "clues": [
+        {
+          "id": "l1b-lay-of-the-land-1",
+          "rank": 1,
+          "clue": "This landform is much taller than a hill.",
+          "answer": "Mountain",
+          "alternates": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "l1b-lay-of-the-land-2",
+          "rank": 2,
+          "clue": "This low land between hills or mountains often has a river running through it.",
+          "answer": "Valley",
+          "alternates": []
+        },
+        {
+          "id": "l1b-lay-of-the-land-3",
+          "rank": 3,
+          "clue": "This dry place gets very little rain.",
+          "answer": "Desert",
+          "alternates": []
+        },
+        {
+          "id": "l1b-lay-of-the-land-4",
+          "rank": 4,
+          "clue": "This kind of mountain can erupt with hot lava.",
+          "answer": "Volcano",
+          "alternates": []
+        },
+        {
+          "id": "l1b-lay-of-the-land-5",
+          "rank": 5,
+          "clue": "This land has water on three sides but is joined to land on one side.",
+          "answer": "Peninsula",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-road-trip-usa",
+      "name": "Road Trip USA",
+      "clues": [
+        {
+          "id": "l1b-road-trip-usa-1",
+          "rank": 1,
+          "clue": "The faces of four presidents are carved into this mountain.",
+          "answer": "Mount Rushmore",
+          "alternates": [
+            "Rushmore"
+          ]
+        },
+        {
+          "id": "l1b-road-trip-usa-2",
+          "rank": 2,
+          "clue": "This giant canyon in Arizona is more than a mile deep.",
+          "answer": "Grand Canyon",
+          "alternates": []
+        },
+        {
+          "id": "l1b-road-trip-usa-3",
+          "rank": 3,
+          "clue": "This orange-red bridge stretches across the bay in San Francisco.",
+          "answer": "Golden Gate Bridge",
+          "alternates": [
+            "Golden Gate"
+          ]
+        },
+        {
+          "id": "l1b-road-trip-usa-4",
+          "rank": 4,
+          "clue": "The geyser Old Faithful is in this national park.",
+          "answer": "Yellowstone",
+          "alternates": [
+            "Yellowstone National Park"
+          ]
+        },
+        {
+          "id": "l1b-road-trip-usa-5",
+          "rank": 5,
+          "clue": "This tall white stone tower in the nation's capital honors the first president.",
+          "answer": "Washington Monument",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-spirit-of-76",
+      "name": "Spirit of '76",
+      "clues": [
+        {
+          "id": "l1b-spirit-of-76-1",
+          "rank": 1,
+          "clue": "The Pilgrims sailed to America in 1620 on this ship.",
+          "answer": "Mayflower",
+          "alternates": []
+        },
+        {
+          "id": "l1b-spirit-of-76-2",
+          "rank": 2,
+          "clue": "This famous cracked bell is in Philadelphia.",
+          "answer": "Liberty Bell",
+          "alternates": []
+        },
+        {
+          "id": "l1b-spirit-of-76-3",
+          "rank": 3,
+          "clue": "There were this many original American colonies.",
+          "answer": "13",
+          "alternates": [
+            "thirteen"
+          ]
+        },
+        {
+          "id": "l1b-spirit-of-76-4",
+          "rank": 4,
+          "clue": "This document from 1776 said the colonies were free from Britain.",
+          "answer": "Declaration of Independence",
+          "alternates": [
+            "the Declaration"
+          ]
+        },
+        {
+          "id": "l1b-spirit-of-76-5",
+          "rank": 5,
+          "clue": "This silversmith made a famous midnight ride in 1775 to warn of British soldiers.",
+          "answer": "Paul Revere",
+          "alternates": [
+            "Revere"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-hello-world",
+      "name": "Hello, World",
+      "clues": [
+        {
+          "id": "l1b-hello-world-1",
+          "rank": 1,
+          "clue": "\"Hola\" means hello in this language.",
+          "answer": "Spanish",
+          "alternates": []
+        },
+        {
+          "id": "l1b-hello-world-2",
+          "rank": 2,
+          "clue": "\"Bonjour\" means hello in this language.",
+          "answer": "French",
+          "alternates": []
+        },
+        {
+          "id": "l1b-hello-world-3",
+          "rank": 3,
+          "clue": "\"Konnichiwa\" means hello in this language.",
+          "answer": "Japanese",
+          "alternates": []
+        },
+        {
+          "id": "l1b-hello-world-4",
+          "rank": 4,
+          "clue": "\"Ciao\" can mean hello or goodbye in this language.",
+          "answer": "Italian",
+          "alternates": []
+        },
+        {
+          "id": "l1b-hello-world-5",
+          "rank": 5,
+          "clue": "\"Guten Tag\" means good day in this language.",
+          "answer": "German",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-wear-in-the-world",
+      "name": "Wear in the World",
+      "clues": [
+        {
+          "id": "l1b-wear-in-the-world-1",
+          "rank": 1,
+          "clue": "This pleated skirt is traditionally worn by men in Scotland.",
+          "answer": "Kilt",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wear-in-the-world-2",
+          "rank": 2,
+          "clue": "This long robe with wide sleeves is traditional clothing in Japan.",
+          "answer": "Kimono",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wear-in-the-world-3",
+          "rank": 3,
+          "clue": "This hat from Mexico has a very wide brim.",
+          "answer": "Sombrero",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wear-in-the-world-4",
+          "rank": 4,
+          "clue": "People in the Netherlands once wore these wooden shoes.",
+          "answer": "Clogs",
+          "alternates": [
+            "clog"
+          ]
+        },
+        {
+          "id": "l1b-wear-in-the-world-5",
+          "rank": 5,
+          "clue": "This long wrapped cloth dress is worn by many women in India.",
+          "answer": "Sari",
+          "alternates": [
+            "saree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-natural-wonders",
+      "name": "Natural Wonders",
+      "clues": [
+        {
+          "id": "l1b-natural-wonders-1",
+          "rank": 1,
+          "clue": "This is the tallest mountain in the world.",
+          "answer": "Mount Everest",
+          "alternates": [
+            "Everest"
+          ]
+        },
+        {
+          "id": "l1b-natural-wonders-2",
+          "rank": 2,
+          "clue": "This big river flows south through the middle of the US to New Orleans.",
+          "answer": "Mississippi River",
+          "alternates": [
+            "Mississippi"
+          ]
+        },
+        {
+          "id": "l1b-natural-wonders-3",
+          "rank": 3,
+          "clue": "This huge river flows through the rainforest of South America.",
+          "answer": "Amazon River",
+          "alternates": [
+            "Amazon"
+          ]
+        },
+        {
+          "id": "l1b-natural-wonders-4",
+          "rank": 4,
+          "clue": "These famous waterfalls are on the border of the US and Canada.",
+          "answer": "Niagara Falls",
+          "alternates": [
+            "Niagara"
+          ]
+        },
+        {
+          "id": "l1b-natural-wonders-5",
+          "rank": 5,
+          "clue": "This huge sandy desert covers much of northern Africa.",
+          "answer": "Sahara",
+          "alternates": [
+            "Sahara Desert"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-when-in-rome",
+      "name": "When in Rome",
+      "clues": [
+        {
+          "id": "l1b-when-in-rome-1",
+          "rank": 1,
+          "clue": "Gladiators fought in this giant stone arena in Rome.",
+          "answer": "Colosseum",
+          "alternates": [
+            "Coliseum"
+          ]
+        },
+        {
+          "id": "l1b-when-in-rome-2",
+          "rank": 2,
+          "clue": "The Roman numeral X stands for this number.",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        },
+        {
+          "id": "l1b-when-in-rome-3",
+          "rank": 3,
+          "clue": "This famous Roman leader's first name was Julius.",
+          "answer": "Caesar",
+          "alternates": [
+            "Julius Caesar"
+          ]
+        },
+        {
+          "id": "l1b-when-in-rome-4",
+          "rank": 4,
+          "clue": "The ancient Romans spoke this language.",
+          "answer": "Latin",
+          "alternates": []
+        },
+        {
+          "id": "l1b-when-in-rome-5",
+          "rank": 5,
+          "clue": "Romans built these long stone channels to carry water to cities.",
+          "answer": "Aqueducts",
+          "alternates": [
+            "aqueduct"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-viking-voyage",
+      "name": "Viking Voyage",
+      "clues": [
+        {
+          "id": "l1b-viking-voyage-1",
+          "rank": 1,
+          "clue": "This Viking god of thunder swung a mighty hammer.",
+          "answer": "Thor",
+          "alternates": []
+        },
+        {
+          "id": "l1b-viking-voyage-2",
+          "rank": 2,
+          "clue": "Despite cartoons, real Viking helmets did not have these pointy parts.",
+          "answer": "Horns",
+          "alternates": [
+            "horn"
+          ]
+        },
+        {
+          "id": "l1b-viking-voyage-3",
+          "rank": 3,
+          "clue": "Vikings sailed in these long wooden ships.",
+          "answer": "Longships",
+          "alternates": [
+            "longship",
+            "long ship",
+            "long ships"
+          ]
+        },
+        {
+          "id": "l1b-viking-voyage-4",
+          "rank": 4,
+          "clue": "Erik the Red gave this icy island a friendly-sounding name to attract settlers.",
+          "answer": "Greenland",
+          "alternates": []
+        },
+        {
+          "id": "l1b-viking-voyage-5",
+          "rank": 5,
+          "clue": "This Viking explorer, son of Erik the Red, reached North America around the year 1000.",
+          "answer": "Leif Erikson",
+          "alternates": [
+            "Erikson",
+            "Leif Ericson",
+            "Ericson",
+            "Leif Eriksson",
+            "Eriksson"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-first-peoples",
+      "name": "First Peoples",
+      "clues": [
+        {
+          "id": "l1b-first-peoples-1",
+          "rank": 1,
+          "clue": "Plains Native Americans lived in this cone-shaped tent.",
+          "answer": "Tipi",
+          "alternates": [
+            "teepee",
+            "tepee"
+          ]
+        },
+        {
+          "id": "l1b-first-peoples-2",
+          "rank": 2,
+          "clue": "Many Native Americans paddled this narrow boat.",
+          "answer": "Canoe",
+          "alternates": []
+        },
+        {
+          "id": "l1b-first-peoples-3",
+          "rank": 3,
+          "clue": "Peoples of the Pacific Northwest carved faces and animals into this tall wooden pole.",
+          "answer": "Totem pole",
+          "alternates": [
+            "totem"
+          ]
+        },
+        {
+          "id": "l1b-first-peoples-4",
+          "rank": 4,
+          "clue": "This dome-shaped home was made of bent branches covered with bark or mats.",
+          "answer": "Wigwam",
+          "alternates": []
+        },
+        {
+          "id": "l1b-first-peoples-5",
+          "rank": 5,
+          "clue": "The \"Three Sisters\" crops were corn, beans and this vegetable.",
+          "answer": "Squash",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-home-sweet-home",
+      "name": "Home Sweet Home",
+      "clues": [
+        {
+          "id": "l1b-home-sweet-home-1",
+          "rank": 1,
+          "clue": "This dome-shaped house is built from blocks of snow.",
+          "answer": "Igloo",
+          "alternates": []
+        },
+        {
+          "id": "l1b-home-sweet-home-2",
+          "rank": 2,
+          "clue": "A king or queen lives in this huge, fancy home.",
+          "answer": "Palace",
+          "alternates": []
+        },
+        {
+          "id": "l1b-home-sweet-home-3",
+          "rank": 3,
+          "clue": "This kind of home floats on the water.",
+          "answer": "Houseboat",
+          "alternates": [
+            "house boat"
+          ]
+        },
+        {
+          "id": "l1b-home-sweet-home-4",
+          "rank": 4,
+          "clue": "These homes in the American Southwest are made of sun-dried mud bricks.",
+          "answer": "Adobe",
+          "alternates": []
+        },
+        {
+          "id": "l1b-home-sweet-home-5",
+          "rank": 5,
+          "clue": "Nomads in Mongolia live in this round tent.",
+          "answer": "Yurt",
+          "alternates": [
+            "ger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-going-places",
+      "name": "Going Places",
+      "clues": [
+        {
+          "id": "l1b-going-places-1",
+          "rank": 1,
+          "clue": "This vehicle pulls cars along railroad tracks.",
+          "answer": "Train",
+          "alternates": [
+            "locomotive"
+          ]
+        },
+        {
+          "id": "l1b-going-places-2",
+          "rank": 2,
+          "clue": "This giant ship sank in 1912 after hitting an iceberg.",
+          "answer": "Titanic",
+          "alternates": []
+        },
+        {
+          "id": "l1b-going-places-3",
+          "rank": 3,
+          "clue": "The first people to fly rode in a basket under this.",
+          "answer": "Hot air balloon",
+          "alternates": [
+            "balloon"
+          ]
+        },
+        {
+          "id": "l1b-going-places-4",
+          "rank": 4,
+          "clue": "People ride in this long, thin boat through the canals of Venice.",
+          "answer": "Gondola",
+          "alternates": []
+        },
+        {
+          "id": "l1b-going-places-5",
+          "rank": 5,
+          "clue": "Riders on fast horses carried mail across the West in 1860 for this service.",
+          "answer": "Pony Express",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-money-around-the-world",
+      "name": "Money Around the World",
+      "clues": [
+        {
+          "id": "l1b-money-around-the-world-1",
+          "rank": 1,
+          "clue": "This is the name of the money used in the United States.",
+          "answer": "Dollar",
+          "alternates": [
+            "dollars"
+          ]
+        },
+        {
+          "id": "l1b-money-around-the-world-2",
+          "rank": 2,
+          "clue": "People in the United Kingdom pay with this money that shares its name with a unit of weight.",
+          "answer": "Pound",
+          "alternates": [
+            "pounds",
+            "pound sterling"
+          ]
+        },
+        {
+          "id": "l1b-money-around-the-world-3",
+          "rank": 3,
+          "clue": "This is the name of Japan's money.",
+          "answer": "Yen",
+          "alternates": []
+        },
+        {
+          "id": "l1b-money-around-the-world-4",
+          "rank": 4,
+          "clue": "Many countries in Europe use this money.",
+          "answer": "Euro",
+          "alternates": [
+            "euros"
+          ]
+        },
+        {
+          "id": "l1b-money-around-the-world-5",
+          "rank": 5,
+          "clue": "This is the name of Mexico's money.",
+          "answer": "Peso",
+          "alternates": [
+            "pesos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-trailblazers",
+      "name": "Trailblazers",
+      "clues": [
+        {
+          "id": "l1b-trailblazers-1",
+          "rank": 1,
+          "clue": "She was the first woman to fly an airplane alone across the Atlantic Ocean.",
+          "answer": "Amelia Earhart",
+          "alternates": [
+            "Earhart"
+          ]
+        },
+        {
+          "id": "l1b-trailblazers-2",
+          "rank": 2,
+          "clue": "This nurse was called \"The Lady with the Lamp.\"",
+          "answer": "Florence Nightingale",
+          "alternates": [
+            "Nightingale"
+          ]
+        },
+        {
+          "id": "l1b-trailblazers-3",
+          "rank": 3,
+          "clue": "Though she could not see or hear, she learned to read and speak with help from Anne Sullivan.",
+          "answer": "Helen Keller",
+          "alternates": [
+            "Keller"
+          ]
+        },
+        {
+          "id": "l1b-trailblazers-4",
+          "rank": 4,
+          "clue": "She started the American Red Cross.",
+          "answer": "Clara Barton",
+          "alternates": [
+            "Barton"
+          ]
+        },
+        {
+          "id": "l1b-trailblazers-5",
+          "rank": 5,
+          "clue": "This scientist from Poland was the first woman to win a Nobel Prize.",
+          "answer": "Marie Curie",
+          "alternates": [
+            "Curie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-royal-treatment",
+      "name": "Royal Treatment",
+      "clues": [
+        {
+          "id": "l1b-royal-treatment-1",
+          "rank": 1,
+          "clue": "A king's wife is usually given this title.",
+          "answer": "Queen",
+          "alternates": []
+        },
+        {
+          "id": "l1b-royal-treatment-2",
+          "rank": 2,
+          "clue": "A king's son is called this.",
+          "answer": "Prince",
+          "alternates": []
+        },
+        {
+          "id": "l1b-royal-treatment-3",
+          "rank": 3,
+          "clue": "The British royal family's famous home in London is called this.",
+          "answer": "Buckingham Palace",
+          "alternates": [
+            "Buckingham"
+          ]
+        },
+        {
+          "id": "l1b-royal-treatment-4",
+          "rank": 4,
+          "clue": "This British queen ruled for 63 years during the 1800s.",
+          "answer": "Victoria",
+          "alternates": [
+            "Queen Victoria"
+          ]
+        },
+        {
+          "id": "l1b-royal-treatment-5",
+          "rank": 5,
+          "clue": "This boy pharaoh is often called \"King Tut.\"",
+          "answer": "Tutankhamun",
+          "alternates": [
+            "Tutankhamen",
+            "Tut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-festivals-far-and-wide",
+      "name": "Festivals Far and Wide",
+      "clues": [
+        {
+          "id": "l1b-festivals-far-and-wide-1",
+          "rank": 1,
+          "clue": "This Jewish festival of lights lasts eight nights.",
+          "answer": "Hanukkah",
+          "alternates": [
+            "Chanukah",
+            "Hanukah"
+          ]
+        },
+        {
+          "id": "l1b-festivals-far-and-wide-2",
+          "rank": 2,
+          "clue": "Dragon dances and red envelopes are part of this celebration.",
+          "answer": "Lunar New Year",
+          "alternates": [
+            "Chinese New Year"
+          ]
+        },
+        {
+          "id": "l1b-festivals-far-and-wide-3",
+          "rank": 3,
+          "clue": "This Hindu festival of lights is celebrated with lamps and fireworks.",
+          "answer": "Diwali",
+          "alternates": []
+        },
+        {
+          "id": "l1b-festivals-far-and-wide-4",
+          "rank": 4,
+          "clue": "This Mexican holiday honors loved ones who have died, with marigolds and sugar skulls.",
+          "answer": "Day of the Dead",
+          "alternates": [
+            "Dia de los Muertos",
+            "Dia de Muertos"
+          ]
+        },
+        {
+          "id": "l1b-festivals-far-and-wide-5",
+          "rank": 5,
+          "clue": "The Chinese zodiac has this many animals.",
+          "answer": "12",
+          "alternates": [
+            "twelve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-wonder-wander",
+      "name": "Wonder Wander",
+      "clues": [
+        {
+          "id": "l1b-wonder-wander-1",
+          "rank": 1,
+          "clue": "This bell tower in Italy is famous for tilting to one side.",
+          "answer": "Leaning Tower of Pisa",
+          "alternates": [
+            "Tower of Pisa",
+            "Pisa"
+          ]
+        },
+        {
+          "id": "l1b-wonder-wander-2",
+          "rank": 2,
+          "clue": "This circle of giant standing stones is in England.",
+          "answer": "Stonehenge",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wonder-wander-3",
+          "rank": 3,
+          "clue": "The Opera House with a sail-shaped roof is in this Australian city.",
+          "answer": "Sydney",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wonder-wander-4",
+          "rank": 4,
+          "clue": "A giant statue called Christ the Redeemer looks over Rio de Janeiro in this country.",
+          "answer": "Brazil",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wonder-wander-5",
+          "rank": 5,
+          "clue": "This ancient Inca city sits high in the Andes Mountains of Peru.",
+          "answer": "Machu Picchu",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-japan-tastic",
+      "name": "Japan-tastic",
+      "clues": [
+        {
+          "id": "l1b-japan-tastic-1",
+          "rank": 1,
+          "clue": "This snowy volcano is Japan's tallest mountain.",
+          "answer": "Mount Fuji",
+          "alternates": [
+            "Fuji",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "l1b-japan-tastic-2",
+          "rank": 2,
+          "clue": "This Japanese art turns a sheet of paper into shapes by folding.",
+          "answer": "Origami",
+          "alternates": []
+        },
+        {
+          "id": "l1b-japan-tastic-3",
+          "rank": 3,
+          "clue": "These Japanese warriors of long ago carried swords.",
+          "answer": "Samurai",
+          "alternates": []
+        },
+        {
+          "id": "l1b-japan-tastic-4",
+          "rank": 4,
+          "clue": "Japan celebrates these pink spring flowers.",
+          "answer": "Cherry blossoms",
+          "alternates": [
+            "cherry blossom",
+            "sakura"
+          ]
+        },
+        {
+          "id": "l1b-japan-tastic-5",
+          "rank": 5,
+          "clue": "Japanese meals are often eaten with these two thin sticks.",
+          "answer": "Chopsticks",
+          "alternates": [
+            "chopstick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-made-in-ancient-china",
+      "name": "Made in Ancient China",
+      "clues": [
+        {
+          "id": "l1b-made-in-ancient-china-1",
+          "rank": 1,
+          "clue": "The ancient Chinese invented this material for writing on.",
+          "answer": "Paper",
+          "alternates": []
+        },
+        {
+          "id": "l1b-made-in-ancient-china-2",
+          "rank": 2,
+          "clue": "The ancient Chinese invented these colorful sky explosions.",
+          "answer": "Fireworks",
+          "alternates": [
+            "firework"
+          ]
+        },
+        {
+          "id": "l1b-made-in-ancient-china-3",
+          "rank": 3,
+          "clue": "This tool with a magnetic needle that points north was invented in China.",
+          "answer": "Compass",
+          "alternates": []
+        },
+        {
+          "id": "l1b-made-in-ancient-china-4",
+          "rank": 4,
+          "clue": "This long trade route linking China to Europe was named after a fine cloth.",
+          "answer": "Silk Road",
+          "alternates": [
+            "Silk Route"
+          ]
+        },
+        {
+          "id": "l1b-made-in-ancient-china-5",
+          "rank": 5,
+          "clue": "This army of thousands of clay soldiers was buried with China's first emperor.",
+          "answer": "Terracotta Army",
+          "alternates": [
+            "Terracotta Warriors",
+            "Terra cotta Army"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-jobs-of-yesteryear",
+      "name": "Jobs of Yesteryear",
+      "clues": [
+        {
+          "id": "l1b-jobs-of-yesteryear-1",
+          "rank": 1,
+          "clue": "This worker once delivered milk in glass bottles to people's doorsteps.",
+          "answer": "Milkman",
+          "alternates": [
+            "milk man"
+          ]
+        },
+        {
+          "id": "l1b-jobs-of-yesteryear-2",
+          "rank": 2,
+          "clue": "This worker hammered hot iron into horseshoes.",
+          "answer": "Blacksmith",
+          "alternates": [
+            "smith"
+          ]
+        },
+        {
+          "id": "l1b-jobs-of-yesteryear-3",
+          "rank": 3,
+          "clue": "This worker fixed shoes.",
+          "answer": "Cobbler",
+          "alternates": [
+            "shoemaker"
+          ]
+        },
+        {
+          "id": "l1b-jobs-of-yesteryear-4",
+          "rank": 4,
+          "clue": "This worker lit the street lamps every evening.",
+          "answer": "Lamplighter",
+          "alternates": [
+            "lamp lighter"
+          ]
+        },
+        {
+          "id": "l1b-jobs-of-yesteryear-5",
+          "rank": 5,
+          "clue": "This worker rang a bell and shouted the news in the town square.",
+          "answer": "Town crier",
+          "alternates": [
+            "crier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-helping-hands",
+      "name": "Helping Hands",
+      "clues": [
+        {
+          "id": "l1b-helping-hands-1",
+          "rank": 1,
+          "clue": "This helper teaches you at school.",
+          "answer": "Teacher",
+          "alternates": []
+        },
+        {
+          "id": "l1b-helping-hands-2",
+          "rank": 2,
+          "clue": "This helper grows crops and raises animals for food.",
+          "answer": "Farmer",
+          "alternates": []
+        },
+        {
+          "id": "l1b-helping-hands-3",
+          "rank": 3,
+          "clue": "This helper drives kids to school in a big yellow vehicle.",
+          "answer": "Bus driver",
+          "alternates": [
+            "school bus driver"
+          ]
+        },
+        {
+          "id": "l1b-helping-hands-4",
+          "rank": 4,
+          "clue": "This helper works with doctors to care for patients in a hospital.",
+          "answer": "Nurse",
+          "alternates": []
+        },
+        {
+          "id": "l1b-helping-hands-5",
+          "rank": 5,
+          "clue": "This helper gives haircuts in a shop with a striped pole.",
+          "answer": "Barber",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-around-town",
+      "name": "Around Town",
+      "clues": [
+        {
+          "id": "l1b-around-town-1",
+          "rank": 1,
+          "clue": "Sick or hurt people go here to get better.",
+          "answer": "Hospital",
+          "alternates": []
+        },
+        {
+          "id": "l1b-around-town-2",
+          "rank": 2,
+          "clue": "Families go here to buy food for the week.",
+          "answer": "Grocery store",
+          "alternates": [
+            "supermarket",
+            "grocery"
+          ]
+        },
+        {
+          "id": "l1b-around-town-3",
+          "rank": 3,
+          "clue": "People keep their money safe in this place.",
+          "answer": "Bank",
+          "alternates": []
+        },
+        {
+          "id": "l1b-around-town-4",
+          "rank": 4,
+          "clue": "You go here to mail a package or buy stamps.",
+          "answer": "Post office",
+          "alternates": []
+        },
+        {
+          "id": "l1b-around-town-5",
+          "rank": 5,
+          "clue": "Fire trucks are parked here, ready for an emergency.",
+          "answer": "Fire station",
+          "alternates": [
+            "firehouse",
+            "fire house"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-help-is-on-the-way",
+      "name": "Help Is on the Way",
+      "clues": [
+        {
+          "id": "l1b-help-is-on-the-way-1",
+          "rank": 1,
+          "clue": "In the United States, you call this number in an emergency.",
+          "answer": "911",
+          "alternates": [
+            "9-1-1",
+            "nine one one"
+          ]
+        },
+        {
+          "id": "l1b-help-is-on-the-way-2",
+          "rank": 2,
+          "clue": "This vehicle with flashing lights rushes sick people to the hospital.",
+          "answer": "Ambulance",
+          "alternates": []
+        },
+        {
+          "id": "l1b-help-is-on-the-way-3",
+          "rank": 3,
+          "clue": "This helper watches over swimmers at the pool or beach.",
+          "answer": "Lifeguard",
+          "alternates": [
+            "life guard"
+          ]
+        },
+        {
+          "id": "l1b-help-is-on-the-way-4",
+          "rank": 4,
+          "clue": "This helper holds up a stop sign so kids can cross the street safely.",
+          "answer": "Crossing guard",
+          "alternates": []
+        },
+        {
+          "id": "l1b-help-is-on-the-way-5",
+          "rank": 5,
+          "clue": "Firefighters slide down this to get to the truck fast.",
+          "answer": "Fire pole",
+          "alternates": [
+            "pole"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-mythical-creatures",
+      "name": "Mythical Creatures",
+      "clues": [
+        {
+          "id": "l1b-mythical-creatures-1",
+          "rank": 1,
+          "clue": "This magical horse has one horn on its head.",
+          "answer": "Unicorn",
+          "alternates": []
+        },
+        {
+          "id": "l1b-mythical-creatures-2",
+          "rank": 2,
+          "clue": "This giant winged creature breathes fire.",
+          "answer": "Dragon",
+          "alternates": []
+        },
+        {
+          "id": "l1b-mythical-creatures-3",
+          "rank": 3,
+          "clue": "This sea creature is half woman and half fish.",
+          "answer": "Mermaid",
+          "alternates": []
+        },
+        {
+          "id": "l1b-mythical-creatures-4",
+          "rank": 4,
+          "clue": "This magical bird is reborn from its own ashes.",
+          "answer": "Phoenix",
+          "alternates": []
+        },
+        {
+          "id": "l1b-mythical-creatures-5",
+          "rank": 5,
+          "clue": "This creature has the head and wings of an eagle and the body of a lion.",
+          "answer": "Griffin",
+          "alternates": [
+            "gryphon",
+            "griffon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-american-symbols",
+      "name": "American Symbols",
+      "clues": [
+        {
+          "id": "l1b-american-symbols-1",
+          "rank": 1,
+          "clue": "This big bird with a white head is the national bird of the United States.",
+          "answer": "Bald eagle",
+          "alternates": [
+            "eagle"
+          ]
+        },
+        {
+          "id": "l1b-american-symbols-2",
+          "rank": 2,
+          "clue": "This bearded man in a starry top hat stands for the US government.",
+          "answer": "Uncle Sam",
+          "alternates": []
+        },
+        {
+          "id": "l1b-american-symbols-3",
+          "rank": 3,
+          "clue": "This is the name of the United States national anthem.",
+          "answer": "Star-Spangled Banner",
+          "alternates": []
+        },
+        {
+          "id": "l1b-american-symbols-4",
+          "rank": 4,
+          "clue": "Many classes start the day by saying this promise to the flag.",
+          "answer": "Pledge of Allegiance",
+          "alternates": [
+            "the Pledge"
+          ]
+        },
+        {
+          "id": "l1b-american-symbols-5",
+          "rank": 5,
+          "clue": "This man wrote the words to the national anthem in 1814.",
+          "answer": "Francis Scott Key",
+          "alternates": [
+            "Key"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-this-land-is-your-land",
+      "name": "This Land Is Your Land",
+      "clues": [
+        {
+          "id": "l1b-this-land-is-your-land-1",
+          "rank": 1,
+          "clue": "There are this many Great Lakes.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l1b-this-land-is-your-land-2",
+          "rank": 2,
+          "clue": "This big mountain range runs through the western United States.",
+          "answer": "Rocky Mountains",
+          "alternates": [
+            "Rockies"
+          ]
+        },
+        {
+          "id": "l1b-this-land-is-your-land-3",
+          "rank": 3,
+          "clue": "This is the largest of the Great Lakes.",
+          "answer": "Lake Superior",
+          "alternates": [
+            "Superior"
+          ]
+        },
+        {
+          "id": "l1b-this-land-is-your-land-4",
+          "rank": 4,
+          "clue": "This river carved out the Grand Canyon.",
+          "answer": "Colorado River",
+          "alternates": [
+            "Colorado"
+          ]
+        },
+        {
+          "id": "l1b-this-land-is-your-land-5",
+          "rank": 5,
+          "clue": "This old mountain range runs through the eastern United States.",
+          "answer": "Appalachian Mountains",
+          "alternates": [
+            "Appalachians"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1b-ancient-greece-lightning",
+      "name": "Ancient Greece Lightning",
+      "clues": [
+        {
+          "id": "l1b-ancient-greece-lightning-1",
+          "rank": 1,
+          "clue": "The Olympic Games began long ago in this country.",
+          "answer": "Greece",
+          "alternates": []
+        },
+        {
+          "id": "l1b-ancient-greece-lightning-2",
+          "rank": 2,
+          "clue": "This capital of Greece is home to the Parthenon.",
+          "answer": "Athens",
+          "alternates": []
+        },
+        {
+          "id": "l1b-ancient-greece-lightning-3",
+          "rank": 3,
+          "clue": "This ancient Greek storyteller told fables like \"The Tortoise and the Hare.\"",
+          "answer": "Aesop",
+          "alternates": []
+        },
+        {
+          "id": "l1b-ancient-greece-lightning-4",
+          "rank": 4,
+          "clue": "This long running race is named after a place in Greece.",
+          "answer": "Marathon",
+          "alternates": []
+        },
+        {
+          "id": "l1b-ancient-greece-lightning-5",
+          "rank": 5,
+          "clue": "In the Greek alphabet, this letter comes right after alpha.",
+          "answer": "Beta",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-city-slickers",
+      "name": "City Slickers",
+      "clues": [
+        {
+          "id": "l1b-city-slickers-1",
+          "rank": 1,
+          "clue": "Hollywood is part of this big California city.",
+          "answer": "Los Angeles",
+          "alternates": [
+            "LA",
+            "L.A."
+          ]
+        },
+        {
+          "id": "l1b-city-slickers-2",
+          "rank": 2,
+          "clue": "This city in Illinois is nicknamed the Windy City.",
+          "answer": "Chicago",
+          "alternates": []
+        },
+        {
+          "id": "l1b-city-slickers-3",
+          "rank": 3,
+          "clue": "Cable cars climb the steep hills of this California city by the bay.",
+          "answer": "San Francisco",
+          "alternates": []
+        },
+        {
+          "id": "l1b-city-slickers-4",
+          "rank": 4,
+          "clue": "The giant Gateway Arch stands in this Missouri city.",
+          "answer": "St. Louis",
+          "alternates": [
+            "Saint Louis"
+          ]
+        },
+        {
+          "id": "l1b-city-slickers-5",
+          "rank": 5,
+          "clue": "This Tennessee city is nicknamed Music City.",
+          "answer": "Nashville",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-old-school",
+      "name": "Old School",
+      "clues": [
+        {
+          "id": "l1b-old-school-1",
+          "rank": 1,
+          "clue": "Long ago, students wrote with chalk on these small boards.",
+          "answer": "Slates",
+          "alternates": [
+            "slate"
+          ]
+        },
+        {
+          "id": "l1b-old-school-2",
+          "rank": 2,
+          "clue": "Before ballpoint pens, people dipped their pens into this liquid.",
+          "answer": "Ink",
+          "alternates": []
+        },
+        {
+          "id": "l1b-old-school-3",
+          "rank": 3,
+          "clue": "This joined-up style of handwriting connects letters in one flowing line.",
+          "answer": "Cursive",
+          "alternates": []
+        },
+        {
+          "id": "l1b-old-school-4",
+          "rank": 4,
+          "clue": "Long ago, people wrote with pens made from this kind of bird feather.",
+          "answer": "Quill",
+          "alternates": [
+            "quills",
+            "quill pen"
+          ]
+        },
+        {
+          "id": "l1b-old-school-5",
+          "rank": 5,
+          "clue": "This counting tool with beads on rods has been used for thousands of years.",
+          "answer": "Abacus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-passport-please",
+      "name": "Passport, Please",
+      "clues": [
+        {
+          "id": "l1b-passport-please-1",
+          "rank": 1,
+          "clue": "Sushi first became popular in this island country.",
+          "answer": "Japan",
+          "alternates": []
+        },
+        {
+          "id": "l1b-passport-please-2",
+          "rank": 2,
+          "clue": "This country, called the Emerald Isle, is known for shamrocks.",
+          "answer": "Ireland",
+          "alternates": []
+        },
+        {
+          "id": "l1b-passport-please-3",
+          "rank": 3,
+          "clue": "This country is famous for tulips and windmills.",
+          "answer": "Netherlands",
+          "alternates": [
+            "Holland"
+          ]
+        },
+        {
+          "id": "l1b-passport-please-4",
+          "rank": 4,
+          "clue": "This country is famous for the Alps, holey cheese and fine watches.",
+          "answer": "Switzerland",
+          "alternates": []
+        },
+        {
+          "id": "l1b-passport-please-5",
+          "rank": 5,
+          "clue": "This long, skinny country runs along the west coast of South America.",
+          "answer": "Chile",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1b-wild-west",
+      "name": "Wild West",
+      "clues": [
+        {
+          "id": "l1b-wild-west-1",
+          "rank": 1,
+          "clue": "Cowboys herded these animals across the open range.",
+          "answer": "Cattle",
+          "alternates": [
+            "cows",
+            "cow"
+          ]
+        },
+        {
+          "id": "l1b-wild-west-2",
+          "rank": 2,
+          "clue": "Cowboys caught animals with this looped rope.",
+          "answer": "Lasso",
+          "alternates": [
+            "lariat"
+          ]
+        },
+        {
+          "id": "l1b-wild-west-3",
+          "rank": 3,
+          "clue": "Miners rushed to California in 1849 hoping to find this shiny metal.",
+          "answer": "Gold",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wild-west-4",
+          "rank": 4,
+          "clue": "This lawman in the Old West often wore a star-shaped badge.",
+          "answer": "Sheriff",
+          "alternates": []
+        },
+        {
+          "id": "l1b-wild-west-5",
+          "rank": 5,
+          "clue": "Cowboys wore these little metal wheels on the heels of their boots.",
+          "answer": "Spurs",
+          "alternates": [
+            "spur"
+          ]
+        }
+      ]
+    }
+  ]
+}

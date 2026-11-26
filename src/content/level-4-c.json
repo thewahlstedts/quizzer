@@ -1,0 +1,2359 @@
+{
+  "level": 4,
+  "categories": [
+    {
+      "id": "l4c-opening-lines",
+      "name": "Opening Lines",
+      "clues": [
+        {
+          "id": "l4c-opening-lines-1",
+          "rank": 1,
+          "clue": "\"It was the best of times, it was the worst of times\" opens this 1859 Charles Dickens novel.",
+          "answer": "A Tale of Two Cities",
+          "alternates": []
+        },
+        {
+          "id": "l4c-opening-lines-2",
+          "rank": 2,
+          "clue": "\"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife\" opens this 1813 novel.",
+          "answer": "Pride and Prejudice",
+          "alternates": []
+        },
+        {
+          "id": "l4c-opening-lines-3",
+          "rank": 3,
+          "clue": "\"All happy families are alike; each unhappy family is unhappy in its own way\" opens this Leo Tolstoy novel.",
+          "answer": "Anna Karenina",
+          "alternates": []
+        },
+        {
+          "id": "l4c-opening-lines-4",
+          "rank": 4,
+          "clue": "\"Mother died today. Or maybe yesterday, I don't know\" opens this 1942 Albert Camus novel.",
+          "answer": "The Stranger",
+          "alternates": [
+            "The Outsider",
+            "L'Etranger"
+          ]
+        },
+        {
+          "id": "l4c-opening-lines-5",
+          "rank": 5,
+          "clue": "\"riverrun, past Eve and Adam's\" begins this famously difficult final novel by James Joyce.",
+          "answer": "Finnegans Wake",
+          "alternates": [
+            "Finnegan's Wake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-pen-pals",
+      "name": "Pen Pals",
+      "clues": [
+        {
+          "id": "l4c-pen-pals-1",
+          "rank": 1,
+          "clue": "Samuel Langhorne Clemens wrote under this pen name, taken from a riverboat call for safe water depth.",
+          "answer": "Mark Twain",
+          "alternates": [
+            "Twain"
+          ]
+        },
+        {
+          "id": "l4c-pen-pals-2",
+          "rank": 2,
+          "clue": "Eric Arthur Blair published \"Animal Farm\" under this pen name.",
+          "answer": "George Orwell",
+          "alternates": [
+            "Orwell"
+          ]
+        },
+        {
+          "id": "l4c-pen-pals-3",
+          "rank": 3,
+          "clue": "Oxford mathematician Charles Lutwidge Dodgson wrote \"Alice's Adventures in Wonderland\" under this name.",
+          "answer": "Lewis Carroll",
+          "alternates": [
+            "Carroll"
+          ]
+        },
+        {
+          "id": "l4c-pen-pals-4",
+          "rank": 4,
+          "clue": "Mary Ann Evans wrote \"Middlemarch\" and \"Silas Marner\" under this masculine pen name.",
+          "answer": "George Eliot",
+          "alternates": []
+        },
+        {
+          "id": "l4c-pen-pals-5",
+          "rank": 5,
+          "clue": "Amantine Lucile Aurore Dupin, the French novelist and companion of Chopin, wrote as this.",
+          "answer": "George Sand",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-poetic-license",
+      "name": "Poetic License",
+      "clues": [
+        {
+          "id": "l4c-poetic-license-1",
+          "rank": 1,
+          "clue": "This New England poet wrote \"The Road Not Taken\" and \"Stopping by Woods on a Snowy Evening.\"",
+          "answer": "Robert Frost",
+          "alternates": [
+            "Frost"
+          ]
+        },
+        {
+          "id": "l4c-poetic-license-2",
+          "rank": 2,
+          "clue": "His 1845 poem features a bird that repeats the word \"Nevermore.\"",
+          "answer": "Edgar Allan Poe",
+          "alternates": [
+            "Poe"
+          ]
+        },
+        {
+          "id": "l4c-poetic-license-3",
+          "rank": 3,
+          "clue": "This reclusive Amherst poet wrote \"Because I could not stop for Death.\"",
+          "answer": "Emily Dickinson",
+          "alternates": [
+            "Dickinson"
+          ]
+        },
+        {
+          "id": "l4c-poetic-license-4",
+          "rank": 4,
+          "clue": "This poet wrote \"The Waste Land\" (1922), which begins \"April is the cruellest month.\"",
+          "answer": "T. S. Eliot",
+          "alternates": [
+            "TS Eliot",
+            "Eliot"
+          ]
+        },
+        {
+          "id": "l4c-poetic-license-5",
+          "rank": 5,
+          "clue": "This Beat poet's 1956 work \"Howl\" became the subject of an obscenity trial.",
+          "answer": "Allen Ginsberg",
+          "alternates": [
+            "Ginsberg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-verse-case-scenario",
+      "name": "Verse Case Scenario",
+      "clues": [
+        {
+          "id": "l4c-verse-case-scenario-1",
+          "rank": 1,
+          "clue": "This Japanese poetic form traditionally has three lines of five, seven and five syllables.",
+          "answer": "Haiku",
+          "alternates": []
+        },
+        {
+          "id": "l4c-verse-case-scenario-2",
+          "rank": 2,
+          "clue": "A 14-line poem, often in iambic pentameter, perfected by Petrarch and Shakespeare.",
+          "answer": "Sonnet",
+          "alternates": []
+        },
+        {
+          "id": "l4c-verse-case-scenario-3",
+          "rank": 3,
+          "clue": "A humorous five-line poem with an AABBA rhyme scheme, popularized by Edward Lear.",
+          "answer": "Limerick",
+          "alternates": []
+        },
+        {
+          "id": "l4c-verse-case-scenario-4",
+          "rank": 4,
+          "clue": "Dylan Thomas's \"Do Not Go Gentle into That Good Night\" is this 19-line form with two repeating refrains.",
+          "answer": "Villanelle",
+          "alternates": []
+        },
+        {
+          "id": "l4c-verse-case-scenario-5",
+          "rank": 5,
+          "clue": "Unrhymed iambic pentameter, used by Milton for \"Paradise Lost.\"",
+          "answer": "Blank verse",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-much-ado-about-bard",
+      "name": "Much Ado About Bard",
+      "clues": [
+        {
+          "id": "l4c-much-ado-about-bard-1",
+          "rank": 1,
+          "clue": "Spurred on by his ambitious wife, this Scottish thane murders King Duncan.",
+          "answer": "Macbeth",
+          "alternates": []
+        },
+        {
+          "id": "l4c-much-ado-about-bard-2",
+          "rank": 2,
+          "clue": "Also called Robin Goodfellow, this mischievous fairy serves Oberon in \"A Midsummer Night's Dream.\"",
+          "answer": "Puck",
+          "alternates": []
+        },
+        {
+          "id": "l4c-much-ado-about-bard-3",
+          "rank": 3,
+          "clue": "The moneylender in \"The Merchant of Venice\" who demands a pound of flesh.",
+          "answer": "Shylock",
+          "alternates": []
+        },
+        {
+          "id": "l4c-much-ado-about-bard-4",
+          "rank": 4,
+          "clue": "In \"Much Ado About Nothing,\" this sworn bachelor trades barbs with Beatrice before falling for her.",
+          "answer": "Benedick",
+          "alternates": []
+        },
+        {
+          "id": "l4c-much-ado-about-bard-5",
+          "rank": 5,
+          "clue": "The Shakespeare play containing the famous stage direction \"Exit, pursued by a bear.\"",
+          "answer": "The Winter's Tale",
+          "alternates": [
+            "Winters Tale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-quoth-the-bard",
+      "name": "Quoth the Bard",
+      "clues": [
+        {
+          "id": "l4c-quoth-the-bard-1",
+          "rank": 1,
+          "clue": "\"Friends, Romans, countrymen, lend me your ears\" comes from this tragedy.",
+          "answer": "Julius Caesar",
+          "alternates": []
+        },
+        {
+          "id": "l4c-quoth-the-bard-2",
+          "rank": 2,
+          "clue": "\"Now is the winter of our discontent\" opens this history play about a scheming Duke of Gloucester.",
+          "answer": "Richard III",
+          "alternates": [
+            "Richard the Third"
+          ]
+        },
+        {
+          "id": "l4c-quoth-the-bard-3",
+          "rank": 3,
+          "clue": "Jaques's speech beginning \"All the world's a stage\" comes from this comedy set in the Forest of Arden.",
+          "answer": "As You Like It",
+          "alternates": []
+        },
+        {
+          "id": "l4c-quoth-the-bard-4",
+          "rank": 4,
+          "clue": "\"Once more unto the breach, dear friends\" is a rallying cry before Harfleur in this history play.",
+          "answer": "Henry V",
+          "alternates": [
+            "Henry the Fifth"
+          ]
+        },
+        {
+          "id": "l4c-quoth-the-bard-5",
+          "rank": 5,
+          "clue": "\"The course of true love never did run smooth\" is spoken by Lysander in this comedy.",
+          "answer": "A Midsummer Night's Dream",
+          "alternates": [
+            "Midsummer Nights Dream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-aria-ready",
+      "name": "Aria Ready?",
+      "clues": [
+        {
+          "id": "l4c-aria-ready-1",
+          "rank": 1,
+          "clue": "Bizet opera whose title heroine, a cigarette-factory worker in Seville, sings the \"Habanera.\"",
+          "answer": "Carmen",
+          "alternates": []
+        },
+        {
+          "id": "l4c-aria-ready-2",
+          "rank": 2,
+          "clue": "The Queen of the Night hits a high F in this 1791 Mozart opera.",
+          "answer": "The Magic Flute",
+          "alternates": [
+            "Die Zauberflote",
+            "Zauberflote"
+          ]
+        },
+        {
+          "id": "l4c-aria-ready-3",
+          "rank": 3,
+          "clue": "Puccini's unfinished final opera, which features the tenor aria \"Nessun dorma.\"",
+          "answer": "Turandot",
+          "alternates": []
+        },
+        {
+          "id": "l4c-aria-ready-4",
+          "rank": 4,
+          "clue": "Verdi's last opera, a comedy based on a Shakespearean knight.",
+          "answer": "Falstaff",
+          "alternates": []
+        },
+        {
+          "id": "l4c-aria-ready-5",
+          "rank": 5,
+          "clue": "This Italian wrote \"The Barber of Seville\" (1816) and the \"William Tell\" Overture.",
+          "answer": "Gioachino Rossini",
+          "alternates": [
+            "Rossini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-composer-pose",
+      "name": "Composer Pose",
+      "clues": [
+        {
+          "id": "l4c-composer-pose-1",
+          "rank": 1,
+          "clue": "This Austrian prodigy composed \"Eine kleine Nachtmusik.\"",
+          "answer": "Wolfgang Amadeus Mozart",
+          "alternates": [
+            "Mozart"
+          ]
+        },
+        {
+          "id": "l4c-composer-pose-2",
+          "rank": 2,
+          "clue": "This Baroque master dedicated six \"Brandenburg Concertos\" to a margrave in 1721.",
+          "answer": "Johann Sebastian Bach",
+          "alternates": [
+            "Bach",
+            "J. S. Bach"
+          ]
+        },
+        {
+          "id": "l4c-composer-pose-3",
+          "rank": 3,
+          "clue": "This French Impressionist composer wrote \"Clair de lune\" and \"La Mer.\"",
+          "answer": "Claude Debussy",
+          "alternates": [
+            "Debussy"
+          ]
+        },
+        {
+          "id": "l4c-composer-pose-4",
+          "rank": 4,
+          "clue": "The 1913 Paris premiere of his ballet \"The Rite of Spring\" nearly caused a riot.",
+          "answer": "Igor Stravinsky",
+          "alternates": [
+            "Stravinsky"
+          ]
+        },
+        {
+          "id": "l4c-composer-pose-5",
+          "rank": 5,
+          "clue": "This English composer wrote \"The Planets,\" whose movements include \"Mars, the Bringer of War.\"",
+          "answer": "Gustav Holst",
+          "alternates": [
+            "Holst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-orchestral-maneuvers",
+      "name": "Orchestral Maneuvers",
+      "clues": [
+        {
+          "id": "l4c-orchestral-maneuvers-1",
+          "rank": 1,
+          "clue": "The number of strings on a standard violin.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l4c-orchestral-maneuvers-2",
+          "rank": 2,
+          "clue": "The finale of Beethoven's Ninth Symphony sets this Friedrich Schiller poem.",
+          "answer": "Ode to Joy",
+          "alternates": [
+            "An die Freude"
+          ]
+        },
+        {
+          "id": "l4c-orchestral-maneuvers-3",
+          "rank": 3,
+          "clue": "Handel oratorio whose most famous movement is the \"Hallelujah\" chorus.",
+          "answer": "Messiah",
+          "alternates": []
+        },
+        {
+          "id": "l4c-orchestral-maneuvers-4",
+          "rank": 4,
+          "clue": "In a concerto, this is a showy solo passage, sometimes improvised, played without the orchestra.",
+          "answer": "Cadenza",
+          "alternates": []
+        },
+        {
+          "id": "l4c-orchestral-maneuvers-5",
+          "rank": 5,
+          "clue": "Schubert's Symphony No. 8 in B minor is known by this nickname because it has only two movements.",
+          "answer": "Unfinished",
+          "alternates": [
+            "Unfinished Symphony"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-instrumental-value",
+      "name": "Instrumental Value",
+      "clues": [
+        {
+          "id": "l4c-instrumental-value-1",
+          "rank": 1,
+          "clue": "A standard modern one has 88 keys.",
+          "answer": "Piano",
+          "alternates": [
+            "pianoforte"
+          ]
+        },
+        {
+          "id": "l4c-instrumental-value-2",
+          "rank": 2,
+          "clue": "Its Italian name, fagotto, means \"bundle of sticks\"; this double-reed woodwind plays in the bass range.",
+          "answer": "Bassoon",
+          "alternates": []
+        },
+        {
+          "id": "l4c-instrumental-value-3",
+          "rank": 3,
+          "clue": "Belgian inventor Adolphe patented this single-reed instrument made of brass in 1846 and named it after himself.",
+          "answer": "Saxophone",
+          "alternates": [
+            "sax"
+          ]
+        },
+        {
+          "id": "l4c-instrumental-value-4",
+          "rank": 4,
+          "clue": "These pitched copper-bowled orchestral drums are tuned with foot pedals.",
+          "answer": "Timpani",
+          "alternates": [
+            "kettledrums",
+            "kettle drums"
+          ]
+        },
+        {
+          "id": "l4c-instrumental-value-5",
+          "rank": 5,
+          "clue": "Ravi Shankar popularized this long-necked Indian string instrument in the West, notably with George Harrison.",
+          "answer": "Sitar",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-rock-of-ages",
+      "name": "Rock of Ages",
+      "clues": [
+        {
+          "id": "l4c-rock-of-ages-1",
+          "rank": 1,
+          "clue": "John, Paul, George and Ringo made up this Liverpool band.",
+          "answer": "The Beatles",
+          "alternates": [
+            "Beatles"
+          ]
+        },
+        {
+          "id": "l4c-rock-of-ages-2",
+          "rank": 2,
+          "clue": "Called the \"King of Rock and Roll,\" he had his first No. 1 hit with \"Heartbreak Hotel\" in 1956.",
+          "answer": "Elvis Presley",
+          "alternates": [
+            "Elvis"
+          ]
+        },
+        {
+          "id": "l4c-rock-of-ages-3",
+          "rank": 3,
+          "clue": "This 1969 festival was held on Max Yasgur's dairy farm in Bethel, New York.",
+          "answer": "Woodstock",
+          "alternates": []
+        },
+        {
+          "id": "l4c-rock-of-ages-4",
+          "rank": 4,
+          "clue": "Their 1973 album \"The Dark Side of the Moon\" spent more than 900 weeks on the Billboard 200.",
+          "answer": "Pink Floyd",
+          "alternates": []
+        },
+        {
+          "id": "l4c-rock-of-ages-5",
+          "rank": 5,
+          "clue": "Don McLean's name for February 3, 1959, when Buddy Holly, Ritchie Valens and the Big Bopper died in a plane crash.",
+          "answer": "The Day the Music Died",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-soul-searching",
+      "name": "Soul Searching",
+      "clues": [
+        {
+          "id": "l4c-soul-searching-1",
+          "rank": 1,
+          "clue": "Berry Gordy founded this Detroit record label, nicknamed Hitsville U.S.A.",
+          "answer": "Motown",
+          "alternates": [
+            "Motown Records"
+          ]
+        },
+        {
+          "id": "l4c-soul-searching-2",
+          "rank": 2,
+          "clue": "The \"Queen of Soul\" who spelled out \"R-E-S-P-E-C-T\" in 1967.",
+          "answer": "Aretha Franklin",
+          "alternates": [
+            "Aretha"
+          ]
+        },
+        {
+          "id": "l4c-soul-searching-3",
+          "rank": 3,
+          "clue": "The \"Godfather of Soul\" who sang \"I Got You (I Feel Good).\"",
+          "answer": "James Brown",
+          "alternates": []
+        },
+        {
+          "id": "l4c-soul-searching-4",
+          "rank": 4,
+          "clue": "Diana Ross rose to fame as lead singer of this Motown trio.",
+          "answer": "The Supremes",
+          "alternates": [
+            "Supremes"
+          ]
+        },
+        {
+          "id": "l4c-soul-searching-5",
+          "rank": 5,
+          "clue": "Marvin Gaye's 1971 concept album whose title asks a question about the state of the world.",
+          "answer": "What's Going On",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-all-that-jazz",
+      "name": "All That Jazz",
+      "clues": [
+        {
+          "id": "l4c-all-that-jazz-1",
+          "rank": 1,
+          "clue": "This trumpeter and singer was nicknamed \"Satchmo.\"",
+          "answer": "Louis Armstrong",
+          "alternates": [
+            "Armstrong"
+          ]
+        },
+        {
+          "id": "l4c-all-that-jazz-2",
+          "rank": 2,
+          "clue": "Known as the \"First Lady of Song,\" she was a master of scat singing.",
+          "answer": "Ella Fitzgerald",
+          "alternates": [
+            "Ella"
+          ]
+        },
+        {
+          "id": "l4c-all-that-jazz-3",
+          "rank": 3,
+          "clue": "Born Edward Kennedy, this bandleader led his orchestra at Harlem's Cotton Club.",
+          "answer": "Duke Ellington",
+          "alternates": [
+            "Ellington"
+          ]
+        },
+        {
+          "id": "l4c-all-that-jazz-4",
+          "rank": 4,
+          "clue": "Miles Davis's 1959 album, widely cited as the best-selling jazz record ever.",
+          "answer": "Kind of Blue",
+          "alternates": []
+        },
+        {
+          "id": "l4c-all-that-jazz-5",
+          "rank": 5,
+          "clue": "Bebop alto saxophonist nicknamed \"Bird.\"",
+          "answer": "Charlie Parker",
+          "alternates": [
+            "Parker"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-master-of-suspense",
+      "name": "Master of Suspense",
+      "clues": [
+        {
+          "id": "l4c-master-of-suspense-1",
+          "rank": 1,
+          "clue": "Hitchcock's 1960 thriller with a notorious shower scene at the Bates Motel.",
+          "answer": "Psycho",
+          "alternates": []
+        },
+        {
+          "id": "l4c-master-of-suspense-2",
+          "rank": 2,
+          "clue": "In this 1963 Hitchcock film, feathered creatures terrorize Bodega Bay, California.",
+          "answer": "The Birds",
+          "alternates": []
+        },
+        {
+          "id": "l4c-master-of-suspense-3",
+          "rank": 3,
+          "clue": "James Stewart plays an acrophobic detective in this 1958 Hitchcock film set in San Francisco.",
+          "answer": "Vertigo",
+          "alternates": []
+        },
+        {
+          "id": "l4c-master-of-suspense-4",
+          "rank": 4,
+          "clue": "A photographer with a broken leg spies on his neighbors in this 1954 Hitchcock film.",
+          "answer": "Rear Window",
+          "alternates": []
+        },
+        {
+          "id": "l4c-master-of-suspense-5",
+          "rank": 5,
+          "clue": "Hitchcock's only film to win Best Picture, a 1940 adaptation of a Daphne du Maurier novel.",
+          "answer": "Rebecca",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-directors-cut",
+      "name": "Director's Cut",
+      "clues": [
+        {
+          "id": "l4c-directors-cut-1",
+          "rank": 1,
+          "clue": "He directed \"The Godfather\" (1972) and \"Apocalypse Now\" (1979).",
+          "answer": "Francis Ford Coppola",
+          "alternates": [
+            "Coppola"
+          ]
+        },
+        {
+          "id": "l4c-directors-cut-2",
+          "rank": 2,
+          "clue": "He directed \"2001: A Space Odyssey\" and \"Dr. Strangelove.\"",
+          "answer": "Stanley Kubrick",
+          "alternates": [
+            "Kubrick"
+          ]
+        },
+        {
+          "id": "l4c-directors-cut-3",
+          "rank": 3,
+          "clue": "Swedish director of \"The Seventh Seal,\" in which a knight plays chess with Death.",
+          "answer": "Ingmar Bergman",
+          "alternates": [
+            "Bergman"
+          ]
+        },
+        {
+          "id": "l4c-directors-cut-4",
+          "rank": 4,
+          "clue": "Italian director of \"La Dolce Vita\" and \"8 1/2.\"",
+          "answer": "Federico Fellini",
+          "alternates": [
+            "Fellini"
+          ]
+        },
+        {
+          "id": "l4c-directors-cut-5",
+          "rank": 5,
+          "clue": "French New Wave director of \"The 400 Blows\" (1959).",
+          "answer": "Francois Truffaut",
+          "alternates": [
+            "Truffaut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-golden-age-gems",
+      "name": "Golden Age Gems",
+      "clues": [
+        {
+          "id": "l4c-golden-age-gems-1",
+          "rank": 1,
+          "clue": "In this 1939 film, Judy Garland follows a yellow brick road.",
+          "answer": "The Wizard of Oz",
+          "alternates": [
+            "Wizard of Oz"
+          ]
+        },
+        {
+          "id": "l4c-golden-age-gems-2",
+          "rank": 2,
+          "clue": "Humphrey Bogart says \"Here's looking at you, kid\" in this 1942 film.",
+          "answer": "Casablanca",
+          "alternates": []
+        },
+        {
+          "id": "l4c-golden-age-gems-3",
+          "rank": 3,
+          "clue": "Gene Kelly splashes through puddles under a lamppost in this 1952 musical.",
+          "answer": "Singin' in the Rain",
+          "alternates": [
+            "Singing in the Rain"
+          ]
+        },
+        {
+          "id": "l4c-golden-age-gems-4",
+          "rank": 4,
+          "clue": "Bette Davis warns \"Fasten your seatbelts, it's going to be a bumpy night\" in this 1950 Best Picture winner.",
+          "answer": "All About Eve",
+          "alternates": []
+        },
+        {
+          "id": "l4c-golden-age-gems-5",
+          "rank": 5,
+          "clue": "This 1927 Al Jolson film was the first feature-length movie with synchronized dialogue sequences.",
+          "answer": "The Jazz Singer",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-envelope-please",
+      "name": "Envelope, Please",
+      "clues": [
+        {
+          "id": "l4c-envelope-please-1",
+          "rank": 1,
+          "clue": "This 1997 James Cameron epic about a doomed ocean liner tied the record of 11 Oscar wins.",
+          "answer": "Titanic",
+          "alternates": []
+        },
+        {
+          "id": "l4c-envelope-please-2",
+          "rank": 2,
+          "clue": "This actress won a record four Academy Awards for Best Actress.",
+          "answer": "Katharine Hepburn",
+          "alternates": [
+            "Hepburn"
+          ]
+        },
+        {
+          "id": "l4c-envelope-please-3",
+          "rank": 3,
+          "clue": "The World War I aviation drama that won the first Academy Award for Best Picture.",
+          "answer": "Wings",
+          "alternates": []
+        },
+        {
+          "id": "l4c-envelope-please-4",
+          "rank": 4,
+          "clue": "This animation pioneer won a record 22 competitive Academy Awards.",
+          "answer": "Walt Disney",
+          "alternates": [
+            "Disney"
+          ]
+        },
+        {
+          "id": "l4c-envelope-please-5",
+          "rank": 5,
+          "clue": "This 1934 Clark Gable and Claudette Colbert comedy was the first film to win all five major Oscars.",
+          "answer": "It Happened One Night",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-silent-treatment",
+      "name": "Silent Treatment",
+      "clues": [
+        {
+          "id": "l4c-silent-treatment-1",
+          "rank": 1,
+          "clue": "This comedian created the bowler-hatted \"Little Tramp\" character.",
+          "answer": "Charlie Chaplin",
+          "alternates": [
+            "Chaplin"
+          ]
+        },
+        {
+          "id": "l4c-silent-treatment-2",
+          "rank": 2,
+          "clue": "Nicknamed \"The Great Stone Face,\" he starred in and co-directed \"The General\" (1926).",
+          "answer": "Buster Keaton",
+          "alternates": [
+            "Keaton"
+          ]
+        },
+        {
+          "id": "l4c-silent-treatment-3",
+          "rank": 3,
+          "clue": "Fritz Lang's 1927 science-fiction epic featuring the robot Maria.",
+          "answer": "Metropolis",
+          "alternates": []
+        },
+        {
+          "id": "l4c-silent-treatment-4",
+          "rank": 4,
+          "clue": "This 1922 German film features the vampire Count Orlok.",
+          "answer": "Nosferatu",
+          "alternates": []
+        },
+        {
+          "id": "l4c-silent-treatment-5",
+          "rank": 5,
+          "clue": "Harold Lloyd famously dangles from a building's clock in this 1923 comedy.",
+          "answer": "Safety Last!",
+          "alternates": [
+            "Safety Last"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-tube-talk",
+      "name": "Tube Talk",
+      "clues": [
+        {
+          "id": "l4c-tube-talk-1",
+          "rank": 1,
+          "clue": "Lucille Ball and Desi Arnaz starred in this 1950s sitcom.",
+          "answer": "I Love Lucy",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tube-talk-2",
+          "rank": 2,
+          "clue": "Rod Serling created and hosted this anthology series that debuted in 1959.",
+          "answer": "The Twilight Zone",
+          "alternates": [
+            "Twilight Zone"
+          ]
+        },
+        {
+          "id": "l4c-tube-talk-3",
+          "rank": 3,
+          "clue": "Over 100 million viewers watched the 1983 finale of this sitcom about the 4077th army hospital unit.",
+          "answer": "M*A*S*H",
+          "alternates": [
+            "MASH"
+          ]
+        },
+        {
+          "id": "l4c-tube-talk-4",
+          "rank": 4,
+          "clue": "\"The Mary Tyler Moore Show\" was set at TV station WJM in this city.",
+          "answer": "Minneapolis",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tube-talk-5",
+          "rank": 5,
+          "clue": "Herman and Lily lived at 1313 Mockingbird Lane in this 1960s sitcom.",
+          "answer": "The Munsters",
+          "alternates": [
+            "Munsters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-small-screen-legends",
+      "name": "Small Screen Legends",
+      "clues": [
+        {
+          "id": "l4c-small-screen-legends-1",
+          "rank": 1,
+          "clue": "This animated family from Springfield first got its own series in 1989.",
+          "answer": "The Simpsons",
+          "alternates": [
+            "Simpsons"
+          ]
+        },
+        {
+          "id": "l4c-small-screen-legends-2",
+          "rank": 2,
+          "clue": "This NBC sketch comedy show opening with \"Live from New York\" premiered in 1975.",
+          "answer": "Saturday Night Live",
+          "alternates": [
+            "SNL"
+          ]
+        },
+        {
+          "id": "l4c-small-screen-legends-3",
+          "rank": 3,
+          "clue": "\"Who shot J.R.?\" was the 1980 cliffhanger question on this prime-time soap.",
+          "answer": "Dallas",
+          "alternates": []
+        },
+        {
+          "id": "l4c-small-screen-legends-4",
+          "rank": 4,
+          "clue": "This 1977 miniseries based on Alex Haley's book follows Kunta Kinte and his descendants.",
+          "answer": "Roots",
+          "alternates": []
+        },
+        {
+          "id": "l4c-small-screen-legends-5",
+          "rank": 5,
+          "clue": "In this 1960s series, Patrick McGoohan plays \"Number Six,\" trapped in a mysterious village.",
+          "answer": "The Prisoner",
+          "alternates": [
+            "Prisoner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-masterpiece-theater",
+      "name": "Masterpiece Theater",
+      "clues": [
+        {
+          "id": "l4c-masterpiece-theater-1",
+          "rank": 1,
+          "clue": "Leonardo da Vinci's portrait of Lisa Gherardini, displayed behind glass in the Louvre.",
+          "answer": "Mona Lisa",
+          "alternates": [
+            "La Gioconda",
+            "La Joconde"
+          ]
+        },
+        {
+          "id": "l4c-masterpiece-theater-2",
+          "rank": 2,
+          "clue": "Edvard Munch's painting of an anguished figure clutching its face under a blood-red sky.",
+          "answer": "The Scream",
+          "alternates": [
+            "Scream"
+          ]
+        },
+        {
+          "id": "l4c-masterpiece-theater-3",
+          "rank": 3,
+          "clue": "Picasso's 1937 mural protesting the bombing of a Basque town, named for that town.",
+          "answer": "Guernica",
+          "alternates": []
+        },
+        {
+          "id": "l4c-masterpiece-theater-4",
+          "rank": 4,
+          "clue": "Grant Wood's 1930 painting of a stern farmer holding a pitchfork beside a woman.",
+          "answer": "American Gothic",
+          "alternates": []
+        },
+        {
+          "id": "l4c-masterpiece-theater-5",
+          "rank": 5,
+          "clue": "Hokusai's famous woodblock print of a towering wave with Mount Fuji in the background.",
+          "answer": "The Great Wave off Kanagawa",
+          "alternates": [
+            "The Great Wave",
+            "Great Wave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-isms-of-art",
+      "name": "Isms of Art",
+      "clues": [
+        {
+          "id": "l4c-isms-of-art-1",
+          "rank": 1,
+          "clue": "This movement took its name from Monet's painting \"Impression, Sunrise.\"",
+          "answer": "Impressionism",
+          "alternates": []
+        },
+        {
+          "id": "l4c-isms-of-art-2",
+          "rank": 2,
+          "clue": "Picasso and Braque developed this movement of fragmented, geometric forms.",
+          "answer": "Cubism",
+          "alternates": []
+        },
+        {
+          "id": "l4c-isms-of-art-3",
+          "rank": 3,
+          "clue": "Dali and Magritte were leading figures in this dreamlike movement founded by Andre Breton.",
+          "answer": "Surrealism",
+          "alternates": []
+        },
+        {
+          "id": "l4c-isms-of-art-4",
+          "rank": 4,
+          "clue": "This anti-art movement was born in 1916 at Zurich's Cabaret Voltaire.",
+          "answer": "Dada",
+          "alternates": [
+            "Dadaism"
+          ]
+        },
+        {
+          "id": "l4c-isms-of-art-5",
+          "rank": 5,
+          "clue": "Led by Matisse, this movement's name comes from a critic's term for \"wild beasts.\"",
+          "answer": "Fauvism",
+          "alternates": [
+            "Fauves"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-artists-palette",
+      "name": "Artist's Palette",
+      "clues": [
+        {
+          "id": "l4c-artists-palette-1",
+          "rank": 1,
+          "clue": "This French Impressionist painted his water lily pond at Giverny over and over.",
+          "answer": "Claude Monet",
+          "alternates": [
+            "Monet"
+          ]
+        },
+        {
+          "id": "l4c-artists-palette-2",
+          "rank": 2,
+          "clue": "This Pop artist painted 32 Campbell's soup cans.",
+          "answer": "Andy Warhol",
+          "alternates": [
+            "Warhol"
+          ]
+        },
+        {
+          "id": "l4c-artists-palette-3",
+          "rank": 3,
+          "clue": "This Mexican painter, married to Diego Rivera, is known for her vivid self-portraits.",
+          "answer": "Frida Kahlo",
+          "alternates": [
+            "Kahlo"
+          ]
+        },
+        {
+          "id": "l4c-artists-palette-4",
+          "rank": 4,
+          "clue": "Nicknamed \"Jack the Dripper,\" he poured and splattered paint on canvases laid on the floor.",
+          "answer": "Jackson Pollock",
+          "alternates": [
+            "Pollock"
+          ]
+        },
+        {
+          "id": "l4c-artists-palette-5",
+          "rank": 5,
+          "clue": "This Netherlandish painter created the triptych \"The Garden of Earthly Delights.\"",
+          "answer": "Hieronymus Bosch",
+          "alternates": [
+            "Bosch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-sculpt-fiction",
+      "name": "Sculpt Fiction",
+      "clues": [
+        {
+          "id": "l4c-sculpt-fiction-1",
+          "rank": 1,
+          "clue": "Rodin's bronze of a seated man resting his chin on his hand.",
+          "answer": "The Thinker",
+          "alternates": [
+            "Thinker"
+          ]
+        },
+        {
+          "id": "l4c-sculpt-fiction-2",
+          "rank": 2,
+          "clue": "This armless marble statue of Aphrodite, discovered on an Aegean island in 1820, is in the Louvre.",
+          "answer": "Venus de Milo",
+          "alternates": [
+            "Aphrodite of Milos"
+          ]
+        },
+        {
+          "id": "l4c-sculpt-fiction-3",
+          "rank": 3,
+          "clue": "Copenhagen's harbor statue of this Hans Christian Andersen heroine was unveiled in 1913.",
+          "answer": "The Little Mermaid",
+          "alternates": [
+            "Little Mermaid"
+          ]
+        },
+        {
+          "id": "l4c-sculpt-fiction-4",
+          "rank": 4,
+          "clue": "This Baroque sculptor created \"The Ecstasy of Saint Teresa\" in Rome.",
+          "answer": "Gian Lorenzo Bernini",
+          "alternates": [
+            "Bernini"
+          ]
+        },
+        {
+          "id": "l4c-sculpt-fiction-5",
+          "rank": 5,
+          "clue": "This sculptor designed \"Cloud Gate,\" Chicago's mirrored sculpture nicknamed \"The Bean.\"",
+          "answer": "Anish Kapoor",
+          "alternates": [
+            "Kapoor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-building-character",
+      "name": "Building Character",
+      "clues": [
+        {
+          "id": "l4c-building-character-1",
+          "rank": 1,
+          "clue": "This American architect designed Fallingwater, a house built over a Pennsylvania waterfall.",
+          "answer": "Frank Lloyd Wright",
+          "alternates": [
+            "Wright"
+          ]
+        },
+        {
+          "id": "l4c-building-character-2",
+          "rank": 2,
+          "clue": "Antoni Gaudi's Barcelona basilica, under construction since 1882.",
+          "answer": "Sagrada Familia",
+          "alternates": [
+            "La Sagrada Familia"
+          ]
+        },
+        {
+          "id": "l4c-building-character-3",
+          "rank": 3,
+          "clue": "This Chinese-American architect designed the glass pyramid at the Louvre.",
+          "answer": "I. M. Pei",
+          "alternates": [
+            "IM Pei",
+            "Pei"
+          ]
+        },
+        {
+          "id": "l4c-building-character-4",
+          "rank": 4,
+          "clue": "This architect designed the Guggenheim Museum Bilbao, clad in titanium.",
+          "answer": "Frank Gehry",
+          "alternates": [
+            "Gehry"
+          ]
+        },
+        {
+          "id": "l4c-building-character-5",
+          "rank": 5,
+          "clue": "After the Great Fire of 1666, he designed the new St Paul's Cathedral in London.",
+          "answer": "Christopher Wren",
+          "alternates": [
+            "Wren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-landmark-decisions",
+      "name": "Raising the Roof",
+      "clues": [
+        {
+          "id": "l4c-landmark-decisions-1",
+          "rank": 1,
+          "clue": "Emperor Shah Jahan built this white marble mausoleum in Agra for his wife Mumtaz Mahal.",
+          "answer": "Taj Mahal",
+          "alternates": []
+        },
+        {
+          "id": "l4c-landmark-decisions-2",
+          "rank": 2,
+          "clue": "This temple to Athena sits atop the Acropolis in Athens.",
+          "answer": "Parthenon",
+          "alternates": []
+        },
+        {
+          "id": "l4c-landmark-decisions-3",
+          "rank": 3,
+          "clue": "Jorn Utzon designed this Australian performing-arts center with sail-like shells, opened in 1973.",
+          "answer": "Sydney Opera House",
+          "alternates": [
+            "Opera House"
+          ]
+        },
+        {
+          "id": "l4c-landmark-decisions-4",
+          "rank": 4,
+          "clue": "This ancient Roman temple has a huge unreinforced concrete dome with an oculus at its top.",
+          "answer": "Pantheon",
+          "alternates": []
+        },
+        {
+          "id": "l4c-landmark-decisions-5",
+          "rank": 5,
+          "clue": "Built as a cathedral under Emperor Justinian in the 6th century, this domed Istanbul landmark later became a mosque.",
+          "answer": "Hagia Sophia",
+          "alternates": [
+            "Aya Sofya"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-broadway-bound",
+      "name": "Broadway Bound",
+      "clues": [
+        {
+          "id": "l4c-broadway-bound-1",
+          "rank": 1,
+          "clue": "Lin-Manuel Miranda's 2015 hip-hop musical about the first U.S. Treasury secretary.",
+          "answer": "Hamilton",
+          "alternates": []
+        },
+        {
+          "id": "l4c-broadway-bound-2",
+          "rank": 2,
+          "clue": "A masked composer haunts the Paris Opera House in this Andrew Lloyd Webber musical.",
+          "answer": "The Phantom of the Opera",
+          "alternates": [
+            "Phantom of the Opera",
+            "Phantom"
+          ]
+        },
+        {
+          "id": "l4c-broadway-bound-3",
+          "rank": 3,
+          "clue": "Bernstein and Sondheim's 1957 musical moving Romeo and Juliet to rival New York gangs.",
+          "answer": "West Side Story",
+          "alternates": []
+        },
+        {
+          "id": "l4c-broadway-bound-4",
+          "rank": 4,
+          "clue": "Rodgers and Hammerstein's first collaboration (1943), set in Indian Territory.",
+          "answer": "Oklahoma!",
+          "alternates": [
+            "Oklahoma"
+          ]
+        },
+        {
+          "id": "l4c-broadway-bound-5",
+          "rank": 5,
+          "clue": "Sondheim's musical thriller about the \"Demon Barber of Fleet Street.\"",
+          "answer": "Sweeney Todd",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-playwright-stuff",
+      "name": "Playwright Stuff",
+      "clues": [
+        {
+          "id": "l4c-playwright-stuff-1",
+          "rank": 1,
+          "clue": "Arthur Miller's 1949 tragedy about the aging, struggling Willy Loman.",
+          "answer": "Death of a Salesman",
+          "alternates": []
+        },
+        {
+          "id": "l4c-playwright-stuff-2",
+          "rank": 2,
+          "clue": "Tennessee Williams play in which Blanche DuBois clashes with Stanley Kowalski in New Orleans.",
+          "answer": "A Streetcar Named Desire",
+          "alternates": [
+            "Streetcar Named Desire"
+          ]
+        },
+        {
+          "id": "l4c-playwright-stuff-3",
+          "rank": 3,
+          "clue": "Samuel Beckett play in which Vladimir and Estragon wait for someone who never arrives.",
+          "answer": "Waiting for Godot",
+          "alternates": []
+        },
+        {
+          "id": "l4c-playwright-stuff-4",
+          "rank": 4,
+          "clue": "This Norwegian playwright wrote \"A Doll's House\" and \"Hedda Gabler.\"",
+          "answer": "Henrik Ibsen",
+          "alternates": [
+            "Ibsen"
+          ]
+        },
+        {
+          "id": "l4c-playwright-stuff-5",
+          "rank": 5,
+          "clue": "This Russian playwright wrote \"The Cherry Orchard\" and \"The Seagull.\"",
+          "answer": "Anton Chekhov",
+          "alternates": [
+            "Chekhov"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-stage-directions",
+      "name": "Stage Directions",
+      "clues": [
+        {
+          "id": "l4c-stage-directions-1",
+          "rank": 1,
+          "clue": "The part of the stage farthest from the audience, opposite of downstage.",
+          "answer": "Upstage",
+          "alternates": []
+        },
+        {
+          "id": "l4c-stage-directions-2",
+          "rank": 2,
+          "clue": "A speech in which a character alone onstage voices inner thoughts, like \"To be, or not to be.\"",
+          "answer": "Soliloquy",
+          "alternates": []
+        },
+        {
+          "id": "l4c-stage-directions-3",
+          "rank": 3,
+          "clue": "An actor who addresses the audience directly is said to break this imaginary barrier.",
+          "answer": "Fourth wall",
+          "alternates": []
+        },
+        {
+          "id": "l4c-stage-directions-4",
+          "rank": 4,
+          "clue": "The arch that frames the stage opening in a traditional theater.",
+          "answer": "Proscenium",
+          "alternates": [
+            "proscenium arch"
+          ]
+        },
+        {
+          "id": "l4c-stage-directions-5",
+          "rank": 5,
+          "clue": "Latin for \"god from the machine,\" it's a contrived plot device that suddenly resolves a story.",
+          "answer": "Deus ex machina",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-whodunit",
+      "name": "Whodunit",
+      "clues": [
+        {
+          "id": "l4c-whodunit-1",
+          "rank": 1,
+          "clue": "Arthur Conan Doyle's detective lived at 221B Baker Street.",
+          "answer": "Sherlock Holmes",
+          "alternates": [
+            "Holmes"
+          ]
+        },
+        {
+          "id": "l4c-whodunit-2",
+          "rank": 2,
+          "clue": "Agatha Christie's Belgian detective, proud of his \"little grey cells.\"",
+          "answer": "Hercule Poirot",
+          "alternates": [
+            "Poirot"
+          ]
+        },
+        {
+          "id": "l4c-whodunit-3",
+          "rank": 3,
+          "clue": "Christie's elderly amateur sleuth from the village of St. Mary Mead.",
+          "answer": "Miss Marple",
+          "alternates": [
+            "Jane Marple",
+            "Marple"
+          ]
+        },
+        {
+          "id": "l4c-whodunit-4",
+          "rank": 4,
+          "clue": "G. K. Chesterton's crime-solving Catholic priest.",
+          "answer": "Father Brown",
+          "alternates": []
+        },
+        {
+          "id": "l4c-whodunit-5",
+          "rank": 5,
+          "clue": "Edgar Allan Poe's detective C. Auguste solved \"The Murders in the Rue Morgue\" under this surname.",
+          "answer": "Dupin",
+          "alternates": [
+            "C. Auguste Dupin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-from-russia-with-lit",
+      "name": "From Russia with Lit",
+      "clues": [
+        {
+          "id": "l4c-from-russia-with-lit-1",
+          "rank": 1,
+          "clue": "Dostoevsky novel in which the student Raskolnikov murders a pawnbroker.",
+          "answer": "Crime and Punishment",
+          "alternates": []
+        },
+        {
+          "id": "l4c-from-russia-with-lit-2",
+          "rank": 2,
+          "clue": "Boris Pasternak novel about a physician-poet caught up in the Russian Revolution.",
+          "answer": "Doctor Zhivago",
+          "alternates": [
+            "Dr. Zhivago"
+          ]
+        },
+        {
+          "id": "l4c-from-russia-with-lit-3",
+          "rank": 3,
+          "clue": "Solzhenitsyn's 1962 novella depicting a single day for a prisoner in a Soviet labor camp.",
+          "answer": "One Day in the Life of Ivan Denisovich",
+          "alternates": []
+        },
+        {
+          "id": "l4c-from-russia-with-lit-4",
+          "rank": 4,
+          "clue": "Mikhail Bulgakov's novel in which the Devil, as Woland, visits Moscow.",
+          "answer": "The Master and Margarita",
+          "alternates": [
+            "Master and Margarita"
+          ]
+        },
+        {
+          "id": "l4c-from-russia-with-lit-5",
+          "rank": 5,
+          "clue": "Gogol novel in which Chichikov schemes to buy deceased serfs.",
+          "answer": "Dead Souls",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-tea-and-novels",
+      "name": "Tea and Novels",
+      "clues": [
+        {
+          "id": "l4c-tea-and-novels-1",
+          "rank": 1,
+          "clue": "Mary Shelley's 1818 novel about a scientist and the creature he brings to life.",
+          "answer": "Frankenstein",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tea-and-novels-2",
+          "rank": 2,
+          "clue": "Charles Dickens novel featuring the orphan Pip and the jilted Miss Havisham.",
+          "answer": "Great Expectations",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tea-and-novels-3",
+          "rank": 3,
+          "clue": "Charlotte Bronte novel about a governess who falls for Mr. Rochester at Thornfield Hall.",
+          "answer": "Jane Eyre",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tea-and-novels-4",
+          "rank": 4,
+          "clue": "Emily Bronte's only novel, featuring Heathcliff and Catherine on the Yorkshire moors.",
+          "answer": "Wuthering Heights",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tea-and-novels-5",
+          "rank": 5,
+          "clue": "Thomas Hardy novel subtitled \"A Pure Woman Faithfully Presented.\"",
+          "answer": "Tess of the d'Urbervilles",
+          "alternates": [
+            "Tess"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-made-in-america",
+      "name": "Made in America",
+      "clues": [
+        {
+          "id": "l4c-made-in-america-1",
+          "rank": 1,
+          "clue": "F. Scott Fitzgerald novel narrated by Nick Carraway, set on Long Island in 1922.",
+          "answer": "The Great Gatsby",
+          "alternates": [
+            "Great Gatsby"
+          ]
+        },
+        {
+          "id": "l4c-made-in-america-2",
+          "rank": 2,
+          "clue": "Harper Lee's 1960 novel in which lawyer Atticus Finch defends Tom Robinson.",
+          "answer": "To Kill a Mockingbird",
+          "alternates": []
+        },
+        {
+          "id": "l4c-made-in-america-3",
+          "rank": 3,
+          "clue": "J. D. Salinger novel narrated by Holden Caulfield.",
+          "answer": "The Catcher in the Rye",
+          "alternates": [
+            "Catcher in the Rye"
+          ]
+        },
+        {
+          "id": "l4c-made-in-america-4",
+          "rank": 4,
+          "clue": "John Steinbeck novel following the Joad family from the Dust Bowl to California.",
+          "answer": "The Grapes of Wrath",
+          "alternates": [
+            "Grapes of Wrath"
+          ]
+        },
+        {
+          "id": "l4c-made-in-america-5",
+          "rank": 5,
+          "clue": "Ralph Ellison's 1952 novel whose unnamed narrator says society refuses to see him.",
+          "answer": "Invisible Man",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-author-author",
+      "name": "Author, Author",
+      "clues": [
+        {
+          "id": "l4c-author-author-1",
+          "rank": 1,
+          "clue": "He wrote \"The Old Man and the Sea\" and \"A Farewell to Arms.\"",
+          "answer": "Ernest Hemingway",
+          "alternates": [
+            "Hemingway"
+          ]
+        },
+        {
+          "id": "l4c-author-author-2",
+          "rank": 2,
+          "clue": "This Nobel laureate wrote \"Beloved\" and \"Song of Solomon.\"",
+          "answer": "Toni Morrison",
+          "alternates": [
+            "Morrison"
+          ]
+        },
+        {
+          "id": "l4c-author-author-3",
+          "rank": 3,
+          "clue": "His novel \"Ulysses\" takes place in Dublin on June 16, 1904.",
+          "answer": "James Joyce",
+          "alternates": [
+            "Joyce"
+          ]
+        },
+        {
+          "id": "l4c-author-author-4",
+          "rank": 4,
+          "clue": "This Bloomsbury Group author wrote \"Mrs Dalloway\" and \"To the Lighthouse.\"",
+          "answer": "Virginia Woolf",
+          "alternates": [
+            "Woolf"
+          ]
+        },
+        {
+          "id": "l4c-author-author-5",
+          "rank": 5,
+          "clue": "This French author's multivolume \"In Search of Lost Time\" features a memory-triggering madeleine.",
+          "answer": "Marcel Proust",
+          "alternates": [
+            "Proust"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-map-of-make-believe",
+      "name": "Map of Make-Believe",
+      "clues": [
+        {
+          "id": "l4c-map-of-make-believe-1",
+          "rank": 1,
+          "clue": "C. S. Lewis's children reach this land through a wardrobe.",
+          "answer": "Narnia",
+          "alternates": []
+        },
+        {
+          "id": "l4c-map-of-make-believe-2",
+          "rank": 2,
+          "clue": "J. R. R. Tolkien's world that includes the Shire and Mordor.",
+          "answer": "Middle-earth",
+          "alternates": [
+            "Middle Earth"
+          ]
+        },
+        {
+          "id": "l4c-map-of-make-believe-3",
+          "rank": 3,
+          "clue": "Thomas More coined this name for an ideal island society in 1516.",
+          "answer": "Utopia",
+          "alternates": []
+        },
+        {
+          "id": "l4c-map-of-make-believe-4",
+          "rank": 4,
+          "clue": "James Hilton's hidden Himalayan paradise in \"Lost Horizon.\"",
+          "answer": "Shangri-La",
+          "alternates": [
+            "Shangrila"
+          ]
+        },
+        {
+          "id": "l4c-map-of-make-believe-5",
+          "rank": 5,
+          "clue": "William Faulkner's fictional Mississippi county, setting of many of his novels.",
+          "answer": "Yoknapatawpha County",
+          "alternates": [
+            "Yoknapatawpha"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-kid-lit-quiz",
+      "name": "Kid Lit Quiz",
+      "clues": [
+        {
+          "id": "l4c-kid-lit-quiz-1",
+          "rank": 1,
+          "clue": "He wrote \"Charlie and the Chocolate Factory\" and \"Matilda.\"",
+          "answer": "Roald Dahl",
+          "alternates": [
+            "Dahl"
+          ]
+        },
+        {
+          "id": "l4c-kid-lit-quiz-2",
+          "rank": 2,
+          "clue": "This English author and illustrator created Peter Rabbit.",
+          "answer": "Beatrix Potter",
+          "alternates": [
+            "Potter"
+          ]
+        },
+        {
+          "id": "l4c-kid-lit-quiz-3",
+          "rank": 3,
+          "clue": "J. M. Barrie's boy who never grows up.",
+          "answer": "Peter Pan",
+          "alternates": []
+        },
+        {
+          "id": "l4c-kid-lit-quiz-4",
+          "rank": 4,
+          "clue": "Maurice Sendak's 1963 picture book in which Max sails off to become king of monsters.",
+          "answer": "Where the Wild Things Are",
+          "alternates": []
+        },
+        {
+          "id": "l4c-kid-lit-quiz-5",
+          "rank": 5,
+          "clue": "Kenneth Grahame's 1908 book featuring Mole, Ratty and Mr. Toad.",
+          "answer": "The Wind in the Willows",
+          "alternates": [
+            "Wind in the Willows"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-epic-proportions",
+      "name": "Epic Proportions",
+      "clues": [
+        {
+          "id": "l4c-epic-proportions-1",
+          "rank": 1,
+          "clue": "Homer's epic about a Greek hero's ten-year voyage home after the Trojan War.",
+          "answer": "The Odyssey",
+          "alternates": [
+            "Odyssey"
+          ]
+        },
+        {
+          "id": "l4c-epic-proportions-2",
+          "rank": 2,
+          "clue": "Dante's three-part poem journeying through Inferno, Purgatorio and Paradiso.",
+          "answer": "The Divine Comedy",
+          "alternates": [
+            "Divine Comedy"
+          ]
+        },
+        {
+          "id": "l4c-epic-proportions-3",
+          "rank": 3,
+          "clue": "In this Old English epic, the hero slays Grendel and Grendel's mother.",
+          "answer": "Beowulf",
+          "alternates": []
+        },
+        {
+          "id": "l4c-epic-proportions-4",
+          "rank": 4,
+          "clue": "Virgil's Latin epic about a Trojan prince who flees burning Troy and settles in Italy.",
+          "answer": "The Aeneid",
+          "alternates": [
+            "Aeneid"
+          ]
+        },
+        {
+          "id": "l4c-epic-proportions-5",
+          "rank": 5,
+          "clue": "The oldest known great epic, about a Mesopotamian king of Uruk and his friend Enkidu.",
+          "answer": "Epic of Gilgamesh",
+          "alternates": [
+            "Gilgamesh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-unbreakable",
+      "name": "Unbreakable",
+      "clues": [
+        {
+          "id": "l4c-unbreakable-1",
+          "rank": 1,
+          "clue": "Cal Ripken Jr. broke this \"Iron Horse\" Yankee's consecutive-games record in 1995.",
+          "answer": "Lou Gehrig",
+          "alternates": [
+            "Gehrig"
+          ]
+        },
+        {
+          "id": "l4c-unbreakable-2",
+          "rank": 2,
+          "clue": "Wilt Chamberlain scored this many points in a single NBA game in 1962.",
+          "answer": "100",
+          "alternates": [
+            "one hundred"
+          ]
+        },
+        {
+          "id": "l4c-unbreakable-3",
+          "rank": 3,
+          "clue": "The length, in games, of Joe DiMaggio's 1941 hitting streak.",
+          "answer": "56",
+          "alternates": [
+            "fifty-six"
+          ]
+        },
+        {
+          "id": "l4c-unbreakable-4",
+          "rank": 4,
+          "clue": "Romanian gymnast Nadia Comaneci scored the first perfect 10 in Olympic history at the Games in this city.",
+          "answer": "Montreal",
+          "alternates": []
+        },
+        {
+          "id": "l4c-unbreakable-5",
+          "rank": 5,
+          "clue": "Bob Beamon's stunning 1968 long jump came at the Olympics in this high-altitude city.",
+          "answer": "Mexico City",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-going-for-gold",
+      "name": "Going for Gold",
+      "clues": [
+        {
+          "id": "l4c-going-for-gold-1",
+          "rank": 1,
+          "clue": "This American swimmer won 23 Olympic gold medals between 2004 and 2016.",
+          "answer": "Michael Phelps",
+          "alternates": [
+            "Phelps"
+          ]
+        },
+        {
+          "id": "l4c-going-for-gold-2",
+          "rank": 2,
+          "clue": "Jesse Owens won four gold medals at the 1936 Olympics in this city.",
+          "answer": "Berlin",
+          "alternates": []
+        },
+        {
+          "id": "l4c-going-for-gold-3",
+          "rank": 3,
+          "clue": "This city hosted the first modern Olympic Games in 1896.",
+          "answer": "Athens",
+          "alternates": []
+        },
+        {
+          "id": "l4c-going-for-gold-4",
+          "rank": 4,
+          "clue": "In the 1980 \"Miracle on Ice,\" U.S. college players beat this nation's hockey team.",
+          "answer": "Soviet Union",
+          "alternates": [
+            "USSR"
+          ]
+        },
+        {
+          "id": "l4c-going-for-gold-5",
+          "rank": 5,
+          "clue": "Ethiopia's Abebe Bikila won the 1960 Olympic marathon in Rome running this way.",
+          "answer": "Barefoot",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-diamond-lore",
+      "name": "Diamond Lore",
+      "clues": [
+        {
+          "id": "l4c-diamond-lore-1",
+          "rank": 1,
+          "clue": "Babe Ruth was sold by the Red Sox to this team in 1920.",
+          "answer": "New York Yankees",
+          "alternates": [
+            "Yankees"
+          ]
+        },
+        {
+          "id": "l4c-diamond-lore-2",
+          "rank": 2,
+          "clue": "The number of balls that earns a batter a walk.",
+          "answer": "4",
+          "alternates": [
+            "four"
+          ]
+        },
+        {
+          "id": "l4c-diamond-lore-3",
+          "rank": 3,
+          "clue": "Jackie Robinson broke Major League Baseball's color barrier with this team in 1947.",
+          "answer": "Brooklyn Dodgers",
+          "alternates": [
+            "Dodgers"
+          ]
+        },
+        {
+          "id": "l4c-diamond-lore-4",
+          "rank": 4,
+          "clue": "Nickname for the 1919 Chicago White Sox after players took money to throw the World Series.",
+          "answer": "Black Sox",
+          "alternates": []
+        },
+        {
+          "id": "l4c-diamond-lore-5",
+          "rank": 5,
+          "clue": "This pitcher, namesake of baseball's annual pitching award, won a record 511 games.",
+          "answer": "Cy Young",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-gridiron-greats",
+      "name": "Gridiron Greats",
+      "clues": [
+        {
+          "id": "l4c-gridiron-greats-1",
+          "rank": 1,
+          "clue": "The number of points scored for a touchdown in American football.",
+          "answer": "6",
+          "alternates": [
+            "six"
+          ]
+        },
+        {
+          "id": "l4c-gridiron-greats-2",
+          "rank": 2,
+          "clue": "The Super Bowl champion receives a trophy named after this legendary Green Bay coach.",
+          "answer": "Vince Lombardi",
+          "alternates": [
+            "Lombardi",
+            "Lombardi Trophy"
+          ]
+        },
+        {
+          "id": "l4c-gridiron-greats-3",
+          "rank": 3,
+          "clue": "This trophy goes to college football's most outstanding player each year.",
+          "answer": "Heisman Trophy",
+          "alternates": [
+            "Heisman"
+          ]
+        },
+        {
+          "id": "l4c-gridiron-greats-4",
+          "rank": 4,
+          "clue": "This NFL team went 17-0 in 1972, capping its season with a Super Bowl win.",
+          "answer": "Miami Dolphins",
+          "alternates": [
+            "Dolphins"
+          ]
+        },
+        {
+          "id": "l4c-gridiron-greats-5",
+          "rank": 5,
+          "clue": "Dwight Clark's \"The Catch\" in January 1982 sent this team to its first Super Bowl.",
+          "answer": "San Francisco 49ers",
+          "alternates": [
+            "49ers",
+            "Niners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-hoop-dreams",
+      "name": "Hoop Dreams",
+      "clues": [
+        {
+          "id": "l4c-hoop-dreams-1",
+          "rank": 1,
+          "clue": "The number of players each team has on the court in basketball.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l4c-hoop-dreams-2",
+          "rank": 2,
+          "clue": "This Canadian-born instructor invented basketball in Springfield, Massachusetts, in 1891.",
+          "answer": "James Naismith",
+          "alternates": [
+            "Naismith"
+          ]
+        },
+        {
+          "id": "l4c-hoop-dreams-3",
+          "rank": 3,
+          "clue": "Nickname of the 1992 U.S. Olympic men's basketball team featuring Jordan, Magic and Bird.",
+          "answer": "Dream Team",
+          "alternates": []
+        },
+        {
+          "id": "l4c-hoop-dreams-4",
+          "rank": 4,
+          "clue": "This franchise won eight straight NBA championships from 1959 to 1966.",
+          "answer": "Boston Celtics",
+          "alternates": [
+            "Celtics"
+          ]
+        },
+        {
+          "id": "l4c-hoop-dreams-5",
+          "rank": 5,
+          "clue": "The first basketball goals were these fruit containers nailed to a gym balcony.",
+          "answer": "Peach baskets",
+          "alternates": [
+            "peach basket"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-tennis-anyone",
+      "name": "Tennis, Anyone?",
+      "clues": [
+        {
+          "id": "l4c-tennis-anyone-1",
+          "rank": 1,
+          "clue": "The only Grand Slam tournament still played on grass, held in southwest London.",
+          "answer": "Wimbledon",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tennis-anyone-2",
+          "rank": 2,
+          "clue": "In tennis scoring, this word means zero.",
+          "answer": "Love",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tennis-anyone-3",
+          "rank": 3,
+          "clue": "Steffi Graf's 1988 feat of winning all four majors plus Olympic gold in one year.",
+          "answer": "Golden Slam",
+          "alternates": []
+        },
+        {
+          "id": "l4c-tennis-anyone-4",
+          "rank": 4,
+          "clue": "In the 1973 \"Battle of the Sexes,\" Billie Jean King defeated this man.",
+          "answer": "Bobby Riggs",
+          "alternates": [
+            "Riggs"
+          ]
+        },
+        {
+          "id": "l4c-tennis-anyone-5",
+          "rank": 5,
+          "clue": "In 1938 this American became the first player to win all four majors in a calendar year.",
+          "answer": "Don Budge",
+          "alternates": [
+            "Budge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-links-lore",
+      "name": "Links Lore",
+      "clues": [
+        {
+          "id": "l4c-links-lore-1",
+          "rank": 1,
+          "clue": "A golf score of one under par on a hole.",
+          "answer": "Birdie",
+          "alternates": []
+        },
+        {
+          "id": "l4c-links-lore-2",
+          "rank": 2,
+          "clue": "Played at Augusta National, this major awards its winner a green jacket.",
+          "answer": "The Masters",
+          "alternates": [
+            "Masters"
+          ]
+        },
+        {
+          "id": "l4c-links-lore-3",
+          "rank": 3,
+          "clue": "This Scottish town, the \"Home of Golf,\" hosts the Old Course.",
+          "answer": "St Andrews",
+          "alternates": [
+            "Saint Andrews"
+          ]
+        },
+        {
+          "id": "l4c-links-lore-4",
+          "rank": 4,
+          "clue": "The number of professional major championships won by Jack Nicklaus.",
+          "answer": "18",
+          "alternates": [
+            "eighteen"
+          ]
+        },
+        {
+          "id": "l4c-links-lore-5",
+          "rank": 5,
+          "clue": "This biennial team competition pits golfers from the United States against Europe.",
+          "answer": "Ryder Cup",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-soccer-it-to-me",
+      "name": "Soccer It to Me",
+      "clues": [
+        {
+          "id": "l4c-soccer-it-to-me-1",
+          "rank": 1,
+          "clue": "Born Edson Arantes do Nascimento, this Brazilian won three World Cups.",
+          "answer": "Pele",
+          "alternates": []
+        },
+        {
+          "id": "l4c-soccer-it-to-me-2",
+          "rank": 2,
+          "clue": "Three goals scored by one player in a single game.",
+          "answer": "Hat trick",
+          "alternates": [
+            "hat-trick"
+          ]
+        },
+        {
+          "id": "l4c-soccer-it-to-me-3",
+          "rank": 3,
+          "clue": "This nation hosted and won the first FIFA World Cup in 1930.",
+          "answer": "Uruguay",
+          "alternates": []
+        },
+        {
+          "id": "l4c-soccer-it-to-me-4",
+          "rank": 4,
+          "clue": "Diego Maradona's name for his handball goal against England in 1986.",
+          "answer": "Hand of God",
+          "alternates": []
+        },
+        {
+          "id": "l4c-soccer-it-to-me-5",
+          "rank": 5,
+          "clue": "Geoff Hurst scored a hat trick against this team in the 1966 World Cup final.",
+          "answer": "West Germany",
+          "alternates": [
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-on-the-board",
+      "name": "On the Board",
+      "clues": [
+        {
+          "id": "l4c-on-the-board-1",
+          "rank": 1,
+          "clue": "Players buy Boardwalk and Park Place in this Parker Brothers game.",
+          "answer": "Monopoly",
+          "alternates": []
+        },
+        {
+          "id": "l4c-on-the-board-2",
+          "rank": 2,
+          "clue": "The chess piece that moves in an L shape.",
+          "answer": "Knight",
+          "alternates": []
+        },
+        {
+          "id": "l4c-on-the-board-3",
+          "rank": 3,
+          "clue": "Colonel Mustard and Professor Plum are suspects in this whodunit board game.",
+          "answer": "Clue",
+          "alternates": [
+            "Cluedo"
+          ]
+        },
+        {
+          "id": "l4c-on-the-board-4",
+          "rank": 4,
+          "clue": "In chess, this move lets the king and a rook move at the same time.",
+          "answer": "Castling",
+          "alternates": [
+            "castle"
+          ]
+        },
+        {
+          "id": "l4c-on-the-board-5",
+          "rank": 5,
+          "clue": "This ancient strategy game is played with black and white stones on a 19-by-19 grid.",
+          "answer": "Go",
+          "alternates": [
+            "Weiqi",
+            "Baduk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-game-theory",
+      "name": "Game Theory",
+      "clues": [
+        {
+          "id": "l4c-game-theory-1",
+          "rank": 1,
+          "clue": "Nintendo's mustachioed plumber hero, introduced in \"Donkey Kong\" as Jumpman.",
+          "answer": "Mario",
+          "alternates": []
+        },
+        {
+          "id": "l4c-game-theory-2",
+          "rank": 2,
+          "clue": "Alexey Pajitnov created this falling-block puzzle game in 1984.",
+          "answer": "Tetris",
+          "alternates": []
+        },
+        {
+          "id": "l4c-game-theory-3",
+          "rank": 3,
+          "clue": "Atari's 1972 arcade hit simulating table tennis.",
+          "answer": "Pong",
+          "alternates": []
+        },
+        {
+          "id": "l4c-game-theory-4",
+          "rank": 4,
+          "clue": "Tomohiro Nishikado's 1978 arcade game in which rows of aliens march down the screen.",
+          "answer": "Space Invaders",
+          "alternates": []
+        },
+        {
+          "id": "l4c-game-theory-5",
+          "rank": 5,
+          "clue": "In bridge, the term for winning all 13 tricks.",
+          "answer": "Grand slam",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4c-check-please",
+      "name": "Check, Please",
+      "clues": [
+        {
+          "id": "l4c-check-please-1",
+          "rank": 1,
+          "clue": "The number of squares on a chessboard.",
+          "answer": "64",
+          "alternates": [
+            "sixty-four"
+          ]
+        },
+        {
+          "id": "l4c-check-please-2",
+          "rank": 2,
+          "clue": "This American won the 1972 World Chess Championship in Reykjavik.",
+          "answer": "Bobby Fischer",
+          "alternates": [
+            "Fischer"
+          ]
+        },
+        {
+          "id": "l4c-check-please-3",
+          "rank": 3,
+          "clue": "This IBM computer defeated world champion Garry Kasparov in a 1997 match.",
+          "answer": "Deep Blue",
+          "alternates": []
+        },
+        {
+          "id": "l4c-check-please-4",
+          "rank": 4,
+          "clue": "A drawn position in which the player to move is not in check but has no legal move.",
+          "answer": "Stalemate",
+          "alternates": []
+        },
+        {
+          "id": "l4c-check-please-5",
+          "rank": 5,
+          "clue": "This opening begins 1. e4 c5.",
+          "answer": "Sicilian Defense",
+          "alternates": [
+            "Sicilian",
+            "Sicilian Defence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-ring-leaders",
+      "name": "Ring Leaders",
+      "clues": [
+        {
+          "id": "l4c-ring-leaders-1",
+          "rank": 1,
+          "clue": "Born Cassius Clay, this boxer called himself \"The Greatest.\"",
+          "answer": "Muhammad Ali",
+          "alternates": [
+            "Ali"
+          ]
+        },
+        {
+          "id": "l4c-ring-leaders-2",
+          "rank": 2,
+          "clue": "Name for the 1974 Ali vs. George Foreman fight in Kinshasa, Zaire.",
+          "answer": "Rumble in the Jungle",
+          "alternates": []
+        },
+        {
+          "id": "l4c-ring-leaders-3",
+          "rank": 3,
+          "clue": "Name for the third Ali vs. Joe Frazier fight, held in the Philippines in 1975.",
+          "answer": "Thrilla in Manila",
+          "alternates": [
+            "Thriller in Manila"
+          ]
+        },
+        {
+          "id": "l4c-ring-leaders-4",
+          "rank": 4,
+          "clue": "The \"Brown Bomber\" held the heavyweight title from 1937 to 1949.",
+          "answer": "Joe Louis",
+          "alternates": []
+        },
+        {
+          "id": "l4c-ring-leaders-5",
+          "rank": 5,
+          "clue": "This heavyweight champion retired undefeated in 1956 with a 49-0 record.",
+          "answer": "Rocky Marciano",
+          "alternates": [
+            "Marciano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4c-track-meet",
+      "name": "Track Meet",
+      "clues": [
+        {
+          "id": "l4c-track-meet-1",
+          "rank": 1,
+          "clue": "The length of a marathon, in miles (to one decimal place).",
+          "answer": "26.2",
+          "alternates": [
+            "26.2 miles"
+          ]
+        },
+        {
+          "id": "l4c-track-meet-2",
+          "rank": 2,
+          "clue": "In 1954 Roger Bannister became the first person to run this distance in under four minutes.",
+          "answer": "Mile",
+          "alternates": [
+            "one mile"
+          ]
+        },
+        {
+          "id": "l4c-track-meet-3",
+          "rank": 3,
+          "clue": "The number of events in the Olympic decathlon.",
+          "answer": "10",
+          "alternates": [
+            "ten"
+          ]
+        },
+        {
+          "id": "l4c-track-meet-4",
+          "rank": 4,
+          "clue": "This American won 1968 Olympic high-jump gold going over the bar backward, a style now named for him.",
+          "answer": "Dick Fosbury",
+          "alternates": [
+            "Fosbury"
+          ]
+        },
+        {
+          "id": "l4c-track-meet-5",
+          "rank": 5,
+          "clue": "Legend says this messenger ran from the plain of Marathon to Athens to announce a Greek victory.",
+          "answer": "Pheidippides",
+          "alternates": [
+            "Philippides"
+          ]
+        }
+      ]
+    }
+  ]
+}

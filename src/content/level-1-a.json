@@ -1,0 +1,2356 @@
+{
+  "level": 1,
+  "categories": [
+    {
+      "id": "l1a-fur-real",
+      "name": "Fur Real",
+      "clues": [
+        {
+          "id": "l1a-fur-real-1",
+          "rank": 1,
+          "clue": "This animal hops on strong back legs and carries its baby in a pouch.",
+          "answer": "Kangaroo",
+          "alternates": []
+        },
+        {
+          "id": "l1a-fur-real-2",
+          "rank": 2,
+          "clue": "This black-and-white striped animal is a close cousin of the horse.",
+          "answer": "Zebra",
+          "alternates": []
+        },
+        {
+          "id": "l1a-fur-real-3",
+          "rank": 3,
+          "clue": "This very slow animal spends most of its life hanging upside down in rainforest trees.",
+          "answer": "Sloth",
+          "alternates": []
+        },
+        {
+          "id": "l1a-fur-real-4",
+          "rank": 4,
+          "clue": "This is the only mammal that can truly fly.",
+          "answer": "Bat",
+          "alternates": []
+        },
+        {
+          "id": "l1a-fur-real-5",
+          "rank": 5,
+          "clue": "This furry Australian mammal has a bill like a duck and lays eggs.",
+          "answer": "Platypus",
+          "alternates": [
+            "duck-billed platypus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-bird-is-the-word",
+      "name": "Bird Is the Word",
+      "clues": [
+        {
+          "id": "l1a-bird-is-the-word-1",
+          "rank": 1,
+          "clue": "This night bird says \"hoo\" and can turn its head very far around.",
+          "answer": "Owl",
+          "alternates": []
+        },
+        {
+          "id": "l1a-bird-is-the-word-2",
+          "rank": 2,
+          "clue": "This bird taps holes in tree trunks with its strong beak.",
+          "answer": "Woodpecker",
+          "alternates": []
+        },
+        {
+          "id": "l1a-bird-is-the-word-3",
+          "rank": 3,
+          "clue": "This pink bird often stands on one leg, and it gets its color from the food it eats.",
+          "answer": "Flamingo",
+          "alternates": []
+        },
+        {
+          "id": "l1a-bird-is-the-word-4",
+          "rank": 4,
+          "clue": "This tiny bird beats its wings so fast they hum, and it can even fly backward.",
+          "answer": "Hummingbird",
+          "alternates": []
+        },
+        {
+          "id": "l1a-bird-is-the-word-5",
+          "rank": 5,
+          "clue": "This is the biggest bird in the world, and it runs fast but cannot fly.",
+          "answer": "Ostrich",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-cold-blooded-crew",
+      "name": "Cold-Blooded Crew",
+      "clues": [
+        {
+          "id": "l1a-cold-blooded-crew-1",
+          "rank": 1,
+          "clue": "This long reptile has no legs and smells with its flicking tongue.",
+          "answer": "Snake",
+          "alternates": []
+        },
+        {
+          "id": "l1a-cold-blooded-crew-2",
+          "rank": 2,
+          "clue": "This slow reptile carries a hard shell on its back and can pull its head inside.",
+          "answer": "Turtle",
+          "alternates": [
+            "tortoise"
+          ]
+        },
+        {
+          "id": "l1a-cold-blooded-crew-3",
+          "rank": 3,
+          "clue": "This lizard can change its color, and its eyes can look in two directions at once.",
+          "answer": "Chameleon",
+          "alternates": []
+        },
+        {
+          "id": "l1a-cold-blooded-crew-4",
+          "rank": 4,
+          "clue": "This small lizard has sticky toe pads that let it climb up walls and even glass.",
+          "answer": "Gecko",
+          "alternates": []
+        },
+        {
+          "id": "l1a-cold-blooded-crew-5",
+          "rank": 5,
+          "clue": "This giant lizard from Indonesia is the largest lizard in the world.",
+          "answer": "Komodo dragon",
+          "alternates": [
+            "komodo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-ribbit-ribbit",
+      "name": "Ribbit Ribbit",
+      "clues": [
+        {
+          "id": "l1a-ribbit-ribbit-1",
+          "rank": 1,
+          "clue": "This green, croaking animal hops from lily pad to lily pad.",
+          "answer": "Frog",
+          "alternates": []
+        },
+        {
+          "id": "l1a-ribbit-ribbit-2",
+          "rank": 2,
+          "clue": "This frog cousin has dry, bumpy skin and spends more time on land.",
+          "answer": "Toad",
+          "alternates": []
+        },
+        {
+          "id": "l1a-ribbit-ribbit-3",
+          "rank": 3,
+          "clue": "Frogs and toads belong to this animal group that lives both in water and on land.",
+          "answer": "Amphibian",
+          "alternates": [
+            "amphibians"
+          ]
+        },
+        {
+          "id": "l1a-ribbit-ribbit-4",
+          "rank": 4,
+          "clue": "This amphibian with moist skin and a long tail looks a bit like a lizard.",
+          "answer": "Salamander",
+          "alternates": [
+            "newt"
+          ]
+        },
+        {
+          "id": "l1a-ribbit-ribbit-5",
+          "rank": 5,
+          "clue": "This big word names the change from tadpole to frog.",
+          "answer": "Metamorphosis",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-something-fishy",
+      "name": "Something Fishy",
+      "clues": [
+        {
+          "id": "l1a-something-fishy-1",
+          "rank": 1,
+          "clue": "Fish breathe underwater using these body parts instead of lungs.",
+          "answer": "Gills",
+          "alternates": [
+            "gill"
+          ]
+        },
+        {
+          "id": "l1a-something-fishy-2",
+          "rank": 2,
+          "clue": "Fish steer and swim using these flat flaps on their bodies.",
+          "answer": "Fins",
+          "alternates": [
+            "fin"
+          ]
+        },
+        {
+          "id": "l1a-something-fishy-3",
+          "rank": 3,
+          "clue": "This ocean fish has rows and rows of sharp teeth and a skeleton made of cartilage instead of bone.",
+          "answer": "Shark",
+          "alternates": []
+        },
+        {
+          "id": "l1a-something-fishy-4",
+          "rank": 4,
+          "clue": "This orange-and-white striped fish lives safely among the stinging arms of a sea anemone.",
+          "answer": "Clownfish",
+          "alternates": [
+            "clown fish"
+          ]
+        },
+        {
+          "id": "l1a-something-fishy-5",
+          "rank": 5,
+          "clue": "This fish swims upstream to lay its eggs in the same stream where it hatched.",
+          "answer": "Salmon",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-home-sweet-habitat",
+      "name": "Home Sweet Habitat",
+      "clues": [
+        {
+          "id": "l1a-home-sweet-habitat-1",
+          "rank": 1,
+          "clue": "A bird lays its eggs in this home made of twigs and grass.",
+          "answer": "Nest",
+          "alternates": []
+        },
+        {
+          "id": "l1a-home-sweet-habitat-2",
+          "rank": 2,
+          "clue": "Bees live together in this home.",
+          "answer": "Hive",
+          "alternates": [
+            "beehive"
+          ]
+        },
+        {
+          "id": "l1a-home-sweet-habitat-3",
+          "rank": 3,
+          "clue": "A spider spins this sticky home to catch bugs.",
+          "answer": "Web",
+          "alternates": [
+            "spiderweb",
+            "spider web"
+          ]
+        },
+        {
+          "id": "l1a-home-sweet-habitat-4",
+          "rank": 4,
+          "clue": "A rabbit digs this underground tunnel home.",
+          "answer": "Burrow",
+          "alternates": [
+            "warren",
+            "hole"
+          ]
+        },
+        {
+          "id": "l1a-home-sweet-habitat-5",
+          "rank": 5,
+          "clue": "A beaver builds this dome-shaped home of sticks and mud in a pond.",
+          "answer": "Lodge",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-animal-groupies",
+      "name": "Animal Groupies",
+      "clues": [
+        {
+          "id": "l1a-animal-groupies-1",
+          "rank": 1,
+          "clue": "A group of cows is called this.",
+          "answer": "Herd",
+          "alternates": []
+        },
+        {
+          "id": "l1a-animal-groupies-2",
+          "rank": 2,
+          "clue": "A group of sheep or birds is called this.",
+          "answer": "Flock",
+          "alternates": []
+        },
+        {
+          "id": "l1a-animal-groupies-3",
+          "rank": 3,
+          "clue": "A group of wolves that hunts together is called this.",
+          "answer": "Pack",
+          "alternates": []
+        },
+        {
+          "id": "l1a-animal-groupies-4",
+          "rank": 4,
+          "clue": "A group of fish swimming together is called this, just like a place where kids learn.",
+          "answer": "School",
+          "alternates": []
+        },
+        {
+          "id": "l1a-animal-groupies-5",
+          "rank": 5,
+          "clue": "A group of lions is called this.",
+          "answer": "Pride",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-who-said-that",
+      "name": "Who Said That?",
+      "clues": [
+        {
+          "id": "l1a-who-said-that-1",
+          "rank": 1,
+          "clue": "This farm animal rolls in mud and says \"oink.\"",
+          "answer": "Pig",
+          "alternates": []
+        },
+        {
+          "id": "l1a-who-said-that-2",
+          "rank": 2,
+          "clue": "This bird with webbed feet says \"quack.\"",
+          "answer": "Duck",
+          "alternates": []
+        },
+        {
+          "id": "l1a-who-said-that-3",
+          "rank": 3,
+          "clue": "This farm animal says \"neigh.\"",
+          "answer": "Horse",
+          "alternates": [
+            "pony"
+          ]
+        },
+        {
+          "id": "l1a-who-said-that-4",
+          "rank": 4,
+          "clue": "This long-eared animal makes a loud \"hee-haw\" sound called a bray.",
+          "answer": "Donkey",
+          "alternates": []
+        },
+        {
+          "id": "l1a-who-said-that-5",
+          "rank": 5,
+          "clue": "This big farm bird says \"gobble, gobble.\"",
+          "answer": "Turkey",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-plant-parts",
+      "name": "Plant Parts",
+      "clues": [
+        {
+          "id": "l1a-plant-parts-1",
+          "rank": 1,
+          "clue": "These colorful parts of a flower attract bees.",
+          "answer": "Petals",
+          "alternates": [
+            "petal"
+          ]
+        },
+        {
+          "id": "l1a-plant-parts-2",
+          "rank": 2,
+          "clue": "New plants grow from these, which you can plant in the ground.",
+          "answer": "Seeds",
+          "alternates": [
+            "seed"
+          ]
+        },
+        {
+          "id": "l1a-plant-parts-3",
+          "rank": 3,
+          "clue": "These green parts of a plant soak up sunlight to make food.",
+          "answer": "Leaves",
+          "alternates": [
+            "leaf"
+          ]
+        },
+        {
+          "id": "l1a-plant-parts-4",
+          "rank": 4,
+          "clue": "This part of a plant holds it up and carries water from the bottom to the top.",
+          "answer": "Stem",
+          "alternates": [
+            "stalk"
+          ]
+        },
+        {
+          "id": "l1a-plant-parts-5",
+          "rank": 5,
+          "clue": "These parts of a plant grow underground and soak up water from the soil.",
+          "answer": "Roots",
+          "alternates": [
+            "root"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-flower-power",
+      "name": "Flower Power",
+      "clues": [
+        {
+          "id": "l1a-flower-power-1",
+          "rank": 1,
+          "clue": "This flower has a thorny stem and is a favorite on Valentine's Day.",
+          "answer": "Rose",
+          "alternates": [
+            "roses"
+          ]
+        },
+        {
+          "id": "l1a-flower-power-2",
+          "rank": 2,
+          "clue": "This tall yellow flower has seeds that people and birds love to snack on.",
+          "answer": "Sunflower",
+          "alternates": []
+        },
+        {
+          "id": "l1a-flower-power-3",
+          "rank": 3,
+          "clue": "This yellow flower turns into a white puffball that you can blow on to make a wish.",
+          "answer": "Dandelion",
+          "alternates": []
+        },
+        {
+          "id": "l1a-flower-power-4",
+          "rank": 4,
+          "clue": "This cup-shaped spring flower is famous in the Netherlands.",
+          "answer": "Tulip",
+          "alternates": [
+            "tulips"
+          ]
+        },
+        {
+          "id": "l1a-flower-power-5",
+          "rank": 5,
+          "clue": "Bees carry this yellow powder from flower to flower.",
+          "answer": "Pollen",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-tree-mendous",
+      "name": "Tree-mendous",
+      "clues": [
+        {
+          "id": "l1a-tree-mendous-1",
+          "rank": 1,
+          "clue": "This rough outer covering protects a tree's trunk.",
+          "answer": "Bark",
+          "alternates": []
+        },
+        {
+          "id": "l1a-tree-mendous-2",
+          "rank": 2,
+          "clue": "This small nut with a little cap grows on an oak tree.",
+          "answer": "Acorn",
+          "alternates": [
+            "acorns"
+          ]
+        },
+        {
+          "id": "l1a-tree-mendous-3",
+          "rank": 3,
+          "clue": "Sweet syrup comes from the sap of this tree, whose leaf is on Canada's flag.",
+          "answer": "Maple",
+          "alternates": [
+            "maple tree",
+            "sugar maple"
+          ]
+        },
+        {
+          "id": "l1a-tree-mendous-4",
+          "rank": 4,
+          "clue": "You can tell how old a tree is by counting these circles inside its trunk.",
+          "answer": "Rings",
+          "alternates": [
+            "tree rings",
+            "growth rings"
+          ]
+        },
+        {
+          "id": "l1a-tree-mendous-5",
+          "rank": 5,
+          "clue": "Pine trees are this kind of tree, which stays green all year long.",
+          "answer": "Evergreen",
+          "alternates": [
+            "evergreens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-green-machine",
+      "name": "Green Machine",
+      "clues": [
+        {
+          "id": "l1a-green-machine-1",
+          "rank": 1,
+          "clue": "Plants need water, air, and this from the sky to make their food.",
+          "answer": "Sunlight",
+          "alternates": [
+            "sun",
+            "light",
+            "sunshine"
+          ]
+        },
+        {
+          "id": "l1a-green-machine-2",
+          "rank": 2,
+          "clue": "Plants give off this gas, which people and animals need to breathe.",
+          "answer": "Oxygen",
+          "alternates": []
+        },
+        {
+          "id": "l1a-green-machine-3",
+          "rank": 3,
+          "clue": "Plants take in this gas, which people and animals breathe out.",
+          "answer": "Carbon dioxide",
+          "alternates": [
+            "co2"
+          ]
+        },
+        {
+          "id": "l1a-green-machine-4",
+          "rank": 4,
+          "clue": "This substance inside leaves gives plants their green color.",
+          "answer": "Chlorophyll",
+          "alternates": []
+        },
+        {
+          "id": "l1a-green-machine-5",
+          "rank": 5,
+          "clue": "This is the name of the process plants use to make food from sunlight.",
+          "answer": "Photosynthesis",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-wild-things-grow",
+      "name": "Wild Things Grow",
+      "clues": [
+        {
+          "id": "l1a-wild-things-grow-1",
+          "rank": 1,
+          "clue": "This spiny desert plant stores water inside its thick stem.",
+          "answer": "Cactus",
+          "alternates": [
+            "cacti"
+          ]
+        },
+        {
+          "id": "l1a-wild-things-grow-2",
+          "rank": 2,
+          "clue": "Frogs like to sit on this big round leaf that floats on a pond.",
+          "answer": "Lily pad",
+          "alternates": [
+            "water lily",
+            "lilypad"
+          ]
+        },
+        {
+          "id": "l1a-wild-things-grow-3",
+          "rank": 3,
+          "clue": "\"Leaves of three, let it be\" warns you about this itchy plant.",
+          "answer": "Poison ivy",
+          "alternates": []
+        },
+        {
+          "id": "l1a-wild-things-grow-4",
+          "rank": 4,
+          "clue": "This plant snaps its leaves shut to trap and eat insects.",
+          "answer": "Venus flytrap",
+          "alternates": [
+            "venus fly trap",
+            "flytrap"
+          ]
+        },
+        {
+          "id": "l1a-wild-things-grow-5",
+          "rank": 5,
+          "clue": "This giant grass is one of the fastest-growing plants on Earth.",
+          "answer": "Bamboo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-cloud-nine",
+      "name": "Cloud Nine",
+      "clues": [
+        {
+          "id": "l1a-cloud-nine-1",
+          "rank": 1,
+          "clue": "Drops of water that fall from clouds are called this.",
+          "answer": "Rain",
+          "alternates": [
+            "raindrops"
+          ]
+        },
+        {
+          "id": "l1a-cloud-nine-2",
+          "rank": 2,
+          "clue": "Clouds are made of tiny drops of this liquid, or tiny bits of ice.",
+          "answer": "Water",
+          "alternates": []
+        },
+        {
+          "id": "l1a-cloud-nine-3",
+          "rank": 3,
+          "clue": "This is the name for a cloud that sits low, right down on the ground.",
+          "answer": "Fog",
+          "alternates": [
+            "mist"
+          ]
+        },
+        {
+          "id": "l1a-cloud-nine-4",
+          "rank": 4,
+          "clue": "These big, puffy white clouds look like cotton balls.",
+          "answer": "Cumulus",
+          "alternates": [
+            "cumulus clouds"
+          ]
+        },
+        {
+          "id": "l1a-cloud-nine-5",
+          "rank": 5,
+          "clue": "These thin, wispy clouds float very high in the sky.",
+          "answer": "Cirrus",
+          "alternates": [
+            "cirrus clouds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-storm-chasers",
+      "name": "Storm Chasers",
+      "clues": [
+        {
+          "id": "l1a-storm-chasers-1",
+          "rank": 1,
+          "clue": "This loud boom follows a flash of lightning.",
+          "answer": "Thunder",
+          "alternates": []
+        },
+        {
+          "id": "l1a-storm-chasers-2",
+          "rank": 2,
+          "clue": "During some storms, balls of ice called this fall from the sky.",
+          "answer": "Hail",
+          "alternates": [
+            "hailstones"
+          ]
+        },
+        {
+          "id": "l1a-storm-chasers-3",
+          "rank": 3,
+          "clue": "This huge spinning storm forms over warm ocean water and has a calm eye in the middle.",
+          "answer": "Hurricane",
+          "alternates": [
+            "typhoon",
+            "cyclone"
+          ]
+        },
+        {
+          "id": "l1a-storm-chasers-4",
+          "rank": 4,
+          "clue": "This is a big snowstorm with strong winds.",
+          "answer": "Blizzard",
+          "alternates": []
+        },
+        {
+          "id": "l1a-storm-chasers-5",
+          "rank": 5,
+          "clue": "This is a long time with little or no rain.",
+          "answer": "Drought",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-season-s-greetings",
+      "name": "Season's Greetings",
+      "clues": [
+        {
+          "id": "l1a-season-s-greetings-1",
+          "rank": 1,
+          "clue": "This is the hottest season of the year.",
+          "answer": "Summer",
+          "alternates": []
+        },
+        {
+          "id": "l1a-season-s-greetings-2",
+          "rank": 2,
+          "clue": "This is the coldest season of the year.",
+          "answer": "Winter",
+          "alternates": []
+        },
+        {
+          "id": "l1a-season-s-greetings-3",
+          "rank": 3,
+          "clue": "This season comes right after winter, when flowers start to bloom.",
+          "answer": "Spring",
+          "alternates": []
+        },
+        {
+          "id": "l1a-season-s-greetings-4",
+          "rank": 4,
+          "clue": "This season is when many leaves change color and drop from the trees.",
+          "answer": "Fall",
+          "alternates": [
+            "autumn"
+          ]
+        },
+        {
+          "id": "l1a-season-s-greetings-5",
+          "rank": 5,
+          "clue": "We have seasons because Earth is tilted on this imaginary line that it spins around.",
+          "answer": "Axis",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-forecast-fun",
+      "name": "Forecast Fun",
+      "clues": [
+        {
+          "id": "l1a-forecast-fun-1",
+          "rank": 1,
+          "clue": "This is a prediction of what the weather will be like.",
+          "answer": "Forecast",
+          "alternates": [
+            "weather forecast"
+          ]
+        },
+        {
+          "id": "l1a-forecast-fun-2",
+          "rank": 2,
+          "clue": "This is the name for a scientist who studies and predicts the weather.",
+          "answer": "Meteorologist",
+          "alternates": [
+            "weatherman",
+            "weatherperson",
+            "weather forecaster"
+          ]
+        },
+        {
+          "id": "l1a-forecast-fun-3",
+          "rank": 3,
+          "clue": "This tool, often shaped like a rooster on a rooftop, shows which way the wind blows.",
+          "answer": "Weather vane",
+          "alternates": [
+            "wind vane",
+            "weathervane"
+          ]
+        },
+        {
+          "id": "l1a-forecast-fun-4",
+          "rank": 4,
+          "clue": "This tool catches and measures how much rain has fallen.",
+          "answer": "Rain gauge",
+          "alternates": []
+        },
+        {
+          "id": "l1a-forecast-fun-5",
+          "rank": 5,
+          "clue": "This weather tool measures air pressure.",
+          "answer": "Barometer",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-what-s-the-matter",
+      "name": "What's the Matter?",
+      "clues": [
+        {
+          "id": "l1a-what-s-the-matter-1",
+          "rank": 1,
+          "clue": "An ice cube is water in this state of matter.",
+          "answer": "Solid",
+          "alternates": []
+        },
+        {
+          "id": "l1a-what-s-the-matter-2",
+          "rank": 2,
+          "clue": "Milk and juice are in this state of matter, which flows and takes the shape of its container.",
+          "answer": "Liquid",
+          "alternates": []
+        },
+        {
+          "id": "l1a-what-s-the-matter-3",
+          "rank": 3,
+          "clue": "Air is in this state of matter.",
+          "answer": "Gas",
+          "alternates": []
+        },
+        {
+          "id": "l1a-what-s-the-matter-4",
+          "rank": 4,
+          "clue": "When a solid warms up and turns into a liquid, it is doing this.",
+          "answer": "Melting",
+          "alternates": [
+            "melt",
+            "melts"
+          ]
+        },
+        {
+          "id": "l1a-what-s-the-matter-5",
+          "rank": 5,
+          "clue": "When a puddle dries up in the sun, its water is going through this process.",
+          "answer": "Evaporation",
+          "alternates": [
+            "evaporating",
+            "evaporate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-degrees-of-difference",
+      "name": "Degrees of Difference",
+      "clues": [
+        {
+          "id": "l1a-degrees-of-difference-1",
+          "rank": 1,
+          "clue": "When water gets cold enough to freeze, it turns into this.",
+          "answer": "Ice",
+          "alternates": []
+        },
+        {
+          "id": "l1a-degrees-of-difference-2",
+          "rank": 2,
+          "clue": "When water boils, it turns into this hot gas.",
+          "answer": "Steam",
+          "alternates": [
+            "water vapor"
+          ]
+        },
+        {
+          "id": "l1a-degrees-of-difference-3",
+          "rank": 3,
+          "clue": "On the Fahrenheit scale, water freezes at this many degrees.",
+          "answer": "32",
+          "alternates": [
+            "thirty-two"
+          ]
+        },
+        {
+          "id": "l1a-degrees-of-difference-4",
+          "rank": 4,
+          "clue": "At sea level, water boils at this many degrees Fahrenheit.",
+          "answer": "212",
+          "alternates": [
+            "two hundred twelve"
+          ]
+        },
+        {
+          "id": "l1a-degrees-of-difference-5",
+          "rank": 5,
+          "clue": "Water freezes at 0 degrees and boils at 100 degrees on this temperature scale.",
+          "answer": "Celsius",
+          "alternates": [
+            "centigrade"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-planet-parade",
+      "name": "Planet Parade",
+      "clues": [
+        {
+          "id": "l1a-planet-parade-1",
+          "rank": 1,
+          "clue": "There are this many planets in our solar system.",
+          "answer": "8",
+          "alternates": [
+            "eight"
+          ]
+        },
+        {
+          "id": "l1a-planet-parade-2",
+          "rank": 2,
+          "clue": "This small planet is the closest one to the sun.",
+          "answer": "Mercury",
+          "alternates": []
+        },
+        {
+          "id": "l1a-planet-parade-3",
+          "rank": 3,
+          "clue": "This planet, second from the sun, is the hottest planet.",
+          "answer": "Venus",
+          "alternates": []
+        },
+        {
+          "id": "l1a-planet-parade-4",
+          "rank": 4,
+          "clue": "This blue planet is the farthest planet from the sun.",
+          "answer": "Neptune",
+          "alternates": []
+        },
+        {
+          "id": "l1a-planet-parade-5",
+          "rank": 5,
+          "clue": "This icy planet is tipped so far over that it rolls around the sun on its side.",
+          "answer": "Uranus",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-moonstruck",
+      "name": "Moonstruck",
+      "clues": [
+        {
+          "id": "l1a-moonstruck-1",
+          "rank": 1,
+          "clue": "When the whole bright face of the moon is lit up, it is called this.",
+          "answer": "Full moon",
+          "alternates": []
+        },
+        {
+          "id": "l1a-moonstruck-2",
+          "rank": 2,
+          "clue": "These bowl-shaped holes on the moon were made by space rocks crashing into it.",
+          "answer": "Craters",
+          "alternates": [
+            "crater"
+          ]
+        },
+        {
+          "id": "l1a-moonstruck-3",
+          "rank": 3,
+          "clue": "When the moon looks like a thin banana-shaped sliver, it is called this.",
+          "answer": "Crescent",
+          "alternates": [
+            "crescent moon"
+          ]
+        },
+        {
+          "id": "l1a-moonstruck-4",
+          "rank": 4,
+          "clue": "In 1969, he became the first person to walk on the moon.",
+          "answer": "Neil Armstrong",
+          "alternates": [
+            "armstrong"
+          ]
+        },
+        {
+          "id": "l1a-moonstruck-5",
+          "rank": 5,
+          "clue": "The moon's pull on Earth causes these daily rises and falls of the ocean.",
+          "answer": "Tides",
+          "alternates": [
+            "tide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-star-light-star-bright",
+      "name": "Star Light, Star Bright",
+      "clues": [
+        {
+          "id": "l1a-star-light-star-bright-1",
+          "rank": 1,
+          "clue": "The sun is one of these, just much closer to us than the others.",
+          "answer": "Star",
+          "alternates": []
+        },
+        {
+          "id": "l1a-star-light-star-bright-2",
+          "rank": 2,
+          "clue": "This famous group of seven bright stars is shaped like a big ladle or spoon.",
+          "answer": "Big Dipper",
+          "alternates": []
+        },
+        {
+          "id": "l1a-star-light-star-bright-3",
+          "rank": 3,
+          "clue": "This is a group of stars that makes a picture in the sky, like Orion the Hunter.",
+          "answer": "Constellation",
+          "alternates": [
+            "constellations"
+          ]
+        },
+        {
+          "id": "l1a-star-light-star-bright-4",
+          "rank": 4,
+          "clue": "This streak of light across the night sky is really a meteor, not a star at all.",
+          "answer": "Shooting star",
+          "alternates": [
+            "meteor",
+            "falling star"
+          ]
+        },
+        {
+          "id": "l1a-star-light-star-bright-5",
+          "rank": 5,
+          "clue": "Also called Polaris, this star stays almost still in the sky above the North Pole.",
+          "answer": "North Star",
+          "alternates": [
+            "polestar",
+            "pole star"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-blast-off",
+      "name": "Blast Off!",
+      "clues": [
+        {
+          "id": "l1a-blast-off-1",
+          "rank": 1,
+          "clue": "This person travels into space.",
+          "answer": "Astronaut",
+          "alternates": [
+            "cosmonaut"
+          ]
+        },
+        {
+          "id": "l1a-blast-off-2",
+          "rank": 2,
+          "clue": "Astronauts blast off into space riding on this.",
+          "answer": "Rocket",
+          "alternates": [
+            "spaceship",
+            "space shuttle"
+          ]
+        },
+        {
+          "id": "l1a-blast-off-3",
+          "rank": 3,
+          "clue": "This is the US space agency that sent astronauts to the moon.",
+          "answer": "NASA",
+          "alternates": []
+        },
+        {
+          "id": "l1a-blast-off-4",
+          "rank": 4,
+          "clue": "Astronauts live and work for months aboard this orbiting laboratory, called the ISS for short.",
+          "answer": "International Space Station",
+          "alternates": [
+            "space station",
+            "iss"
+          ]
+        },
+        {
+          "id": "l1a-blast-off-5",
+          "rank": 5,
+          "clue": "This is the name for the curved path a planet travels around the sun.",
+          "answer": "Orbit",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-push-comes-to-shove",
+      "name": "Push Comes to Shove",
+      "clues": [
+        {
+          "id": "l1a-push-comes-to-shove-1",
+          "rank": 1,
+          "clue": "A force is either a push or this.",
+          "answer": "Pull",
+          "alternates": []
+        },
+        {
+          "id": "l1a-push-comes-to-shove-2",
+          "rank": 2,
+          "clue": "This force pulls things toward the ground when you drop them.",
+          "answer": "Gravity",
+          "alternates": []
+        },
+        {
+          "id": "l1a-push-comes-to-shove-3",
+          "rank": 3,
+          "clue": "This force slows things down when they rub together, and it warms your hands when you rub them.",
+          "answer": "Friction",
+          "alternates": []
+        },
+        {
+          "id": "l1a-push-comes-to-shove-4",
+          "rank": 4,
+          "clue": "This push from the air makes a parachute fall slowly.",
+          "answer": "Air resistance",
+          "alternates": [
+            "drag"
+          ]
+        },
+        {
+          "id": "l1a-push-comes-to-shove-5",
+          "rank": 5,
+          "clue": "Legend says a falling apple helped this scientist think up his ideas about gravity.",
+          "answer": "Isaac Newton",
+          "alternates": [
+            "newton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-magnetic-personality",
+      "name": "Magnetic Personality",
+      "clues": [
+        {
+          "id": "l1a-magnetic-personality-1",
+          "rank": 1,
+          "clue": "A magnet has a north pole and this pole.",
+          "answer": "South",
+          "alternates": [
+            "south pole"
+          ]
+        },
+        {
+          "id": "l1a-magnetic-personality-2",
+          "rank": 2,
+          "clue": "Magnets pull on this metal, which steel is mostly made of.",
+          "answer": "Iron",
+          "alternates": []
+        },
+        {
+          "id": "l1a-magnetic-personality-3",
+          "rank": 3,
+          "clue": "Opposite poles, like north and south, do this, pulling toward each other.",
+          "answer": "Attract",
+          "alternates": [
+            "attract each other"
+          ]
+        },
+        {
+          "id": "l1a-magnetic-personality-4",
+          "rank": 4,
+          "clue": "Two north poles pushed together do this, pushing each other away.",
+          "answer": "Repel",
+          "alternates": [
+            "repel each other"
+          ]
+        },
+        {
+          "id": "l1a-magnetic-personality-5",
+          "rank": 5,
+          "clue": "This tool has a magnetic needle that points north, helping you find your way.",
+          "answer": "Compass",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-rock-on",
+      "name": "Rock On",
+      "clues": [
+        {
+          "id": "l1a-rock-on-1",
+          "rank": 1,
+          "clue": "This red-hot melted rock pours out of an erupting volcano.",
+          "answer": "Lava",
+          "alternates": []
+        },
+        {
+          "id": "l1a-rock-on-2",
+          "rank": 2,
+          "clue": "Sparkly and super hard, this gem is the hardest natural material on Earth.",
+          "answer": "Diamond",
+          "alternates": [
+            "diamonds"
+          ]
+        },
+        {
+          "id": "l1a-rock-on-3",
+          "rank": 3,
+          "clue": "A beach is covered with this, made of tiny bits of broken rock and shells.",
+          "answer": "Sand",
+          "alternates": []
+        },
+        {
+          "id": "l1a-rock-on-4",
+          "rank": 4,
+          "clue": "This kind of scientist studies rocks.",
+          "answer": "Geologist",
+          "alternates": []
+        },
+        {
+          "id": "l1a-rock-on-5",
+          "rank": 5,
+          "clue": "This kind of rock forms when lava or magma cools and hardens.",
+          "answer": "Igneous",
+          "alternates": [
+            "igneous rock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-shake-rattle-and-roll",
+      "name": "Shake, Rattle and Roll",
+      "clues": [
+        {
+          "id": "l1a-shake-rattle-and-roll-1",
+          "rank": 1,
+          "clue": "This mountain can erupt with fire, ash, and lava.",
+          "answer": "Volcano",
+          "alternates": []
+        },
+        {
+          "id": "l1a-shake-rattle-and-roll-2",
+          "rank": 2,
+          "clue": "During one of these, the ground shakes and rumbles.",
+          "answer": "Earthquake",
+          "alternates": [
+            "quake"
+          ]
+        },
+        {
+          "id": "l1a-shake-rattle-and-roll-3",
+          "rank": 3,
+          "clue": "This is a huge rush of snow sliding down a mountain.",
+          "answer": "Avalanche",
+          "alternates": []
+        },
+        {
+          "id": "l1a-shake-rattle-and-roll-4",
+          "rank": 4,
+          "clue": "This giant ocean wave is often caused by an earthquake under the sea.",
+          "answer": "Tsunami",
+          "alternates": [
+            "tidal wave"
+          ]
+        },
+        {
+          "id": "l1a-shake-rattle-and-roll-5",
+          "rank": 5,
+          "clue": "This is the name for melted rock while it is still underground.",
+          "answer": "Magma",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-water-world",
+      "name": "Water World",
+      "clues": [
+        {
+          "id": "l1a-water-world-1",
+          "rank": 1,
+          "clue": "The Nile and the Amazon are very long examples of this kind of flowing water.",
+          "answer": "River",
+          "alternates": [
+            "rivers"
+          ]
+        },
+        {
+          "id": "l1a-water-world-2",
+          "rank": 2,
+          "clue": "Ocean water tastes this way, so it is not safe to drink.",
+          "answer": "Salty",
+          "alternates": []
+        },
+        {
+          "id": "l1a-water-world-3",
+          "rank": 3,
+          "clue": "Most of this floating chunk of ice is hidden underwater.",
+          "answer": "Iceberg",
+          "alternates": []
+        },
+        {
+          "id": "l1a-water-world-4",
+          "rank": 4,
+          "clue": "This is a huge sheet or river of ice that moves very slowly over land.",
+          "answer": "Glacier",
+          "alternates": []
+        },
+        {
+          "id": "l1a-water-world-5",
+          "rank": 5,
+          "clue": "Evaporation, condensation, and precipitation are steps in this endless loop.",
+          "answer": "Water cycle",
+          "alternates": [
+            "hydrologic cycle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-land-ho",
+      "name": "Land Ho!",
+      "clues": [
+        {
+          "id": "l1a-land-ho-1",
+          "rank": 1,
+          "clue": "This is a piece of land with water all around it.",
+          "answer": "Island",
+          "alternates": []
+        },
+        {
+          "id": "l1a-land-ho-2",
+          "rank": 2,
+          "clue": "This very dry place gets almost no rain, like the Sahara.",
+          "answer": "Desert",
+          "alternates": []
+        },
+        {
+          "id": "l1a-land-ho-3",
+          "rank": 3,
+          "clue": "This is the tallest mountain on Earth above sea level.",
+          "answer": "Mount Everest",
+          "alternates": [
+            "everest"
+          ]
+        },
+        {
+          "id": "l1a-land-ho-4",
+          "rank": 4,
+          "clue": "This is a low area of land between hills or mountains.",
+          "answer": "Valley",
+          "alternates": []
+        },
+        {
+          "id": "l1a-land-ho-5",
+          "rank": 5,
+          "clue": "This is land with water on three sides, like Florida.",
+          "answer": "Peninsula",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-down-to-earth",
+      "name": "Down to Earth",
+      "clues": [
+        {
+          "id": "l1a-down-to-earth-1",
+          "rank": 1,
+          "clue": "This is the hot center of the Earth.",
+          "answer": "Core",
+          "alternates": []
+        },
+        {
+          "id": "l1a-down-to-earth-2",
+          "rank": 2,
+          "clue": "This is the thin, rocky outer layer of the Earth that we live on.",
+          "answer": "Crust",
+          "alternates": []
+        },
+        {
+          "id": "l1a-down-to-earth-3",
+          "rank": 3,
+          "clue": "Earth takes about this many days to travel all the way around the sun.",
+          "answer": "365",
+          "alternates": [
+            "three hundred sixty-five",
+            "365 days"
+          ]
+        },
+        {
+          "id": "l1a-down-to-earth-4",
+          "rank": 4,
+          "clue": "This imaginary line circles the middle of the Earth, halfway between the poles.",
+          "answer": "Equator",
+          "alternates": []
+        },
+        {
+          "id": "l1a-down-to-earth-5",
+          "rank": 5,
+          "clue": "This thick, hot layer of the Earth sits between the crust and the core.",
+          "answer": "Mantle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-day-and-night",
+      "name": "Day and Night",
+      "clues": [
+        {
+          "id": "l1a-day-and-night-1",
+          "rank": 1,
+          "clue": "This dark shape appears on the ground when your body blocks the sunlight.",
+          "answer": "Shadow",
+          "alternates": []
+        },
+        {
+          "id": "l1a-day-and-night-2",
+          "rank": 2,
+          "clue": "The sun rises in this direction.",
+          "answer": "East",
+          "alternates": []
+        },
+        {
+          "id": "l1a-day-and-night-3",
+          "rank": 3,
+          "clue": "The sun sets in this direction.",
+          "answer": "West",
+          "alternates": []
+        },
+        {
+          "id": "l1a-day-and-night-4",
+          "rank": 4,
+          "clue": "Earth takes about this many hours to spin around one time.",
+          "answer": "24",
+          "alternates": [
+            "twenty-four",
+            "24 hours"
+          ]
+        },
+        {
+          "id": "l1a-day-and-night-5",
+          "rank": 5,
+          "clue": "Animals like owls that sleep in the day and are awake at night are called this.",
+          "answer": "Nocturnal",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-bone-zone",
+      "name": "Bone Zone",
+      "clues": [
+        {
+          "id": "l1a-bone-zone-1",
+          "rank": 1,
+          "clue": "This bony cage protects your heart and lungs.",
+          "answer": "Ribs",
+          "alternates": [
+            "rib cage",
+            "ribcage"
+          ]
+        },
+        {
+          "id": "l1a-bone-zone-2",
+          "rank": 2,
+          "clue": "This bony helmet sits inside your head.",
+          "answer": "Skull",
+          "alternates": [
+            "cranium"
+          ]
+        },
+        {
+          "id": "l1a-bone-zone-3",
+          "rank": 3,
+          "clue": "This line of bones runs down the middle of your back.",
+          "answer": "Spine",
+          "alternates": [
+            "backbone",
+            "spinal column"
+          ]
+        },
+        {
+          "id": "l1a-bone-zone-4",
+          "rank": 4,
+          "clue": "This thigh bone is the longest bone in your body.",
+          "answer": "Femur",
+          "alternates": [
+            "thigh bone",
+            "thighbone"
+          ]
+        },
+        {
+          "id": "l1a-bone-zone-5",
+          "rank": 5,
+          "clue": "A grown-up's skeleton has this many bones.",
+          "answer": "206",
+          "alternates": [
+            "two hundred six"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-sense-ational",
+      "name": "Sense-ational",
+      "clues": [
+        {
+          "id": "l1a-sense-ational-1",
+          "rank": 1,
+          "clue": "You smell with this.",
+          "answer": "Nose",
+          "alternates": []
+        },
+        {
+          "id": "l1a-sense-ational-2",
+          "rank": 2,
+          "clue": "You hear with these.",
+          "answer": "Ears",
+          "alternates": [
+            "ear"
+          ]
+        },
+        {
+          "id": "l1a-sense-ational-3",
+          "rank": 3,
+          "clue": "Taste buds are found on this.",
+          "answer": "Tongue",
+          "alternates": []
+        },
+        {
+          "id": "l1a-sense-ational-4",
+          "rank": 4,
+          "clue": "People have this many main senses.",
+          "answer": "5",
+          "alternates": [
+            "five"
+          ]
+        },
+        {
+          "id": "l1a-sense-ational-5",
+          "rank": 5,
+          "clue": "This is your body's largest organ, and you feel touch with it.",
+          "answer": "Skin",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-inside-job",
+      "name": "Inside Job",
+      "clues": [
+        {
+          "id": "l1a-inside-job-1",
+          "rank": 1,
+          "clue": "Your heart pumps this red liquid all through your body.",
+          "answer": "Blood",
+          "alternates": []
+        },
+        {
+          "id": "l1a-inside-job-2",
+          "rank": 2,
+          "clue": "After you swallow, food goes down to this stretchy organ that churns it up.",
+          "answer": "Stomach",
+          "alternates": [
+            "tummy"
+          ]
+        },
+        {
+          "id": "l1a-inside-job-3",
+          "rank": 3,
+          "clue": "These body parts pull on your bones to help you move.",
+          "answer": "Muscles",
+          "alternates": [
+            "muscle"
+          ]
+        },
+        {
+          "id": "l1a-inside-job-4",
+          "rank": 4,
+          "clue": "These two bean-shaped organs clean your blood.",
+          "answer": "Kidneys",
+          "alternates": [
+            "kidney"
+          ]
+        },
+        {
+          "id": "l1a-inside-job-5",
+          "rank": 5,
+          "clue": "These blood vessels carry blood back to your heart.",
+          "answer": "Veins",
+          "alternates": [
+            "vein"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-tooth-be-told",
+      "name": "Tooth Be Told",
+      "clues": [
+        {
+          "id": "l1a-tooth-be-told-1",
+          "rank": 1,
+          "clue": "This kind of doctor takes care of your teeth.",
+          "answer": "Dentist",
+          "alternates": []
+        },
+        {
+          "id": "l1a-tooth-be-told-2",
+          "rank": 2,
+          "clue": "Too much sugar and not enough brushing can cause this hole in a tooth.",
+          "answer": "Cavity",
+          "alternates": [
+            "cavities"
+          ]
+        },
+        {
+          "id": "l1a-tooth-be-told-3",
+          "rank": 3,
+          "clue": "Your first set of teeth, which fall out, are called this.",
+          "answer": "Baby teeth",
+          "alternates": [
+            "milk teeth",
+            "primary teeth"
+          ]
+        },
+        {
+          "id": "l1a-tooth-be-told-4",
+          "rank": 4,
+          "clue": "These big, flat teeth in the back of your mouth grind up food.",
+          "answer": "Molars",
+          "alternates": [
+            "molar"
+          ]
+        },
+        {
+          "id": "l1a-tooth-be-told-5",
+          "rank": 5,
+          "clue": "This hard, shiny outer coating of a tooth is the hardest thing in your body.",
+          "answer": "Enamel",
+          "alternates": [
+            "tooth enamel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-body-builders",
+      "name": "Body Builders",
+      "clues": [
+        {
+          "id": "l1a-body-builders-1",
+          "rank": 1,
+          "clue": "This little dent in your tummy is where you were once connected to your mom.",
+          "answer": "Belly button",
+          "alternates": [
+            "navel",
+            "bellybutton"
+          ]
+        },
+        {
+          "id": "l1a-body-builders-2",
+          "rank": 2,
+          "clue": "A muscle under your lungs called the diaphragm causes these sudden, noisy jerks.",
+          "answer": "Hiccups",
+          "alternates": [
+            "hiccup",
+            "hiccoughs"
+          ]
+        },
+        {
+          "id": "l1a-body-builders-3",
+          "rank": 3,
+          "clue": "Your skin makes this salty liquid to cool you down when you are hot.",
+          "answer": "Sweat",
+          "alternates": [
+            "perspiration"
+          ]
+        },
+        {
+          "id": "l1a-body-builders-4",
+          "rank": 4,
+          "clue": "The swirly patterns on your fingertips, different for every person, are called these.",
+          "answer": "Fingerprints",
+          "alternates": [
+            "fingerprint"
+          ]
+        },
+        {
+          "id": "l1a-body-builders-5",
+          "rank": 5,
+          "clue": "This black circle in the middle of your eye gets bigger in the dark.",
+          "answer": "Pupil",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-simply-machines",
+      "name": "Simply Machines",
+      "clues": [
+        {
+          "id": "l1a-simply-machines-1",
+          "rank": 1,
+          "clue": "A seesaw is this simple machine.",
+          "answer": "Lever",
+          "alternates": []
+        },
+        {
+          "id": "l1a-simply-machines-2",
+          "rank": 2,
+          "clue": "This simple machine uses a wheel and a rope to raise a flag up a pole.",
+          "answer": "Pulley",
+          "alternates": []
+        },
+        {
+          "id": "l1a-simply-machines-3",
+          "rank": 3,
+          "clue": "A wheelchair ramp is this kind of simple machine.",
+          "answer": "Inclined plane",
+          "alternates": [
+            "ramp"
+          ]
+        },
+        {
+          "id": "l1a-simply-machines-4",
+          "rank": 4,
+          "clue": "An axe blade is this simple machine, which splits things apart.",
+          "answer": "Wedge",
+          "alternates": []
+        },
+        {
+          "id": "l1a-simply-machines-5",
+          "rank": 5,
+          "clue": "This simple machine is a ramp wrapped around a post, like the grooves on a jar lid.",
+          "answer": "Screw",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-tech-talk",
+      "name": "Tech Talk",
+      "clues": [
+        {
+          "id": "l1a-tech-talk-1",
+          "rank": 1,
+          "clue": "You type letters on a computer using this.",
+          "answer": "Keyboard",
+          "alternates": []
+        },
+        {
+          "id": "l1a-tech-talk-2",
+          "rank": 2,
+          "clue": "This small clicking device is named after a little animal.",
+          "answer": "Mouse",
+          "alternates": [
+            "computer mouse"
+          ]
+        },
+        {
+          "id": "l1a-tech-talk-3",
+          "rank": 3,
+          "clue": "This machine can be programmed to do jobs, like building cars.",
+          "answer": "Robot",
+          "alternates": []
+        },
+        {
+          "id": "l1a-tech-talk-4",
+          "rank": 4,
+          "clue": "This worldwide network connects computers so people can visit websites.",
+          "answer": "Internet",
+          "alternates": [
+            "web",
+            "world wide web"
+          ]
+        },
+        {
+          "id": "l1a-tech-talk-5",
+          "rank": 5,
+          "clue": "This wireless technology lets a laptop get online without plugging in a cable.",
+          "answer": "Wi-Fi",
+          "alternates": [
+            "wifi",
+            "wireless"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-shocking-facts",
+      "name": "Shocking Facts",
+      "clues": [
+        {
+          "id": "l1a-shocking-facts-1",
+          "rank": 1,
+          "clue": "A flashlight or TV remote runs on power stored in this.",
+          "answer": "Battery",
+          "alternates": [
+            "batteries"
+          ]
+        },
+        {
+          "id": "l1a-shocking-facts-2",
+          "rank": 2,
+          "clue": "Thomas Edison is famous for making this glowing invention practical.",
+          "answer": "Light bulb",
+          "alternates": [
+            "lightbulb",
+            "bulb"
+          ]
+        },
+        {
+          "id": "l1a-shocking-facts-3",
+          "rank": 3,
+          "clue": "You plug a lamp into this spot on the wall.",
+          "answer": "Outlet",
+          "alternates": [
+            "socket",
+            "electrical outlet",
+            "power outlet"
+          ]
+        },
+        {
+          "id": "l1a-shocking-facts-4",
+          "rank": 4,
+          "clue": "This flat panel on a roof turns sunlight into electricity.",
+          "answer": "Solar panel",
+          "alternates": [
+            "solar panels",
+            "solar cell"
+          ]
+        },
+        {
+          "id": "l1a-shocking-facts-5",
+          "rank": 5,
+          "clue": "A material like copper that lets electricity flow through it easily is called this.",
+          "answer": "Conductor",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-lab-partners",
+      "name": "Lab Partners",
+      "clues": [
+        {
+          "id": "l1a-lab-partners-1",
+          "rank": 1,
+          "clue": "You use this straight tool to measure how long something is.",
+          "answer": "Ruler",
+          "alternates": [
+            "tape measure"
+          ]
+        },
+        {
+          "id": "l1a-lab-partners-2",
+          "rank": 2,
+          "clue": "This handheld lens makes small things look bigger.",
+          "answer": "Magnifying glass",
+          "alternates": [
+            "magnifier",
+            "hand lens"
+          ]
+        },
+        {
+          "id": "l1a-lab-partners-3",
+          "rank": 3,
+          "clue": "Scientists use this tool to see germs and other things too tiny for the eye.",
+          "answer": "Microscope",
+          "alternates": []
+        },
+        {
+          "id": "l1a-lab-partners-4",
+          "rank": 4,
+          "clue": "Scientists use this tool to look at faraway stars and planets.",
+          "answer": "Telescope",
+          "alternates": []
+        },
+        {
+          "id": "l1a-lab-partners-5",
+          "rank": 5,
+          "clue": "This is a scientist's smart guess about what will happen in an experiment.",
+          "answer": "Hypothesis",
+          "alternates": [
+            "prediction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-eat-or-be-eaten",
+      "name": "Eat or Be Eaten",
+      "clues": [
+        {
+          "id": "l1a-eat-or-be-eaten-1",
+          "rank": 1,
+          "clue": "This is an animal that gets hunted and eaten by another animal.",
+          "answer": "Prey",
+          "alternates": []
+        },
+        {
+          "id": "l1a-eat-or-be-eaten-2",
+          "rank": 2,
+          "clue": "This is an animal that hunts other animals for food.",
+          "answer": "Predator",
+          "alternates": []
+        },
+        {
+          "id": "l1a-eat-or-be-eaten-3",
+          "rank": 3,
+          "clue": "Cows and rabbits are this kind of animal, which eats only plants.",
+          "answer": "Herbivore",
+          "alternates": [
+            "herbivores"
+          ]
+        },
+        {
+          "id": "l1a-eat-or-be-eaten-4",
+          "rank": 4,
+          "clue": "Lions and sharks are this kind of animal, which eats meat.",
+          "answer": "Carnivore",
+          "alternates": [
+            "carnivores"
+          ]
+        },
+        {
+          "id": "l1a-eat-or-be-eaten-5",
+          "rank": 5,
+          "clue": "Bears and people are this kind of animal, which eats both plants and meat.",
+          "answer": "Omnivore",
+          "alternates": [
+            "omnivores"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-animal-instincts",
+      "name": "Animal Instincts",
+      "clues": [
+        {
+          "id": "l1a-animal-instincts-1",
+          "rank": 1,
+          "clue": "Bears do this when they go into a long, deep sleep for the winter.",
+          "answer": "Hibernate",
+          "alternates": [
+            "hibernation",
+            "hibernating"
+          ]
+        },
+        {
+          "id": "l1a-animal-instincts-2",
+          "rank": 2,
+          "clue": "Many birds do this when they fly south for the winter.",
+          "answer": "Migrate",
+          "alternates": [
+            "migration",
+            "migrating"
+          ]
+        },
+        {
+          "id": "l1a-animal-instincts-3",
+          "rank": 3,
+          "clue": "As it grows, a snake does this with its old skin.",
+          "answer": "Shed",
+          "alternates": [
+            "molt",
+            "sheds"
+          ]
+        },
+        {
+          "id": "l1a-animal-instincts-4",
+          "rank": 4,
+          "clue": "This is the name for colors or patterns that help an animal blend in with its surroundings.",
+          "answer": "Camouflage",
+          "alternates": []
+        },
+        {
+          "id": "l1a-animal-instincts-5",
+          "rank": 5,
+          "clue": "Bats find food in the dark using echoes, a skill called this.",
+          "answer": "Echolocation",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-deep-blue-crew",
+      "name": "Deep Blue Crew",
+      "clues": [
+        {
+          "id": "l1a-deep-blue-crew-1",
+          "rank": 1,
+          "clue": "This smart, playful sea mammal talks with clicks and whistles.",
+          "answer": "Dolphin",
+          "alternates": [
+            "dolphins"
+          ]
+        },
+        {
+          "id": "l1a-deep-blue-crew-2",
+          "rank": 2,
+          "clue": "This see-through sea creature has no brain and stinging tentacles.",
+          "answer": "Jellyfish",
+          "alternates": [
+            "jelly"
+          ]
+        },
+        {
+          "id": "l1a-deep-blue-crew-3",
+          "rank": 3,
+          "clue": "This sea creature usually has five arms and can grow a new arm if it loses one.",
+          "answer": "Starfish",
+          "alternates": [
+            "sea star"
+          ]
+        },
+        {
+          "id": "l1a-deep-blue-crew-4",
+          "rank": 4,
+          "clue": "Whales breathe air through this hole on the top of their heads.",
+          "answer": "Blowhole",
+          "alternates": [
+            "blow hole"
+          ]
+        },
+        {
+          "id": "l1a-deep-blue-crew-5",
+          "rank": 5,
+          "clue": "The Great Barrier Reef near Australia is made of this living sea material.",
+          "answer": "Coral",
+          "alternates": [
+            "coral reef"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-polar-pals",
+      "name": "Polar Pals",
+      "clues": [
+        {
+          "id": "l1a-polar-pals-1",
+          "rank": 1,
+          "clue": "This big white bear lives in the icy Arctic.",
+          "answer": "Polar bear",
+          "alternates": []
+        },
+        {
+          "id": "l1a-polar-pals-2",
+          "rank": 2,
+          "clue": "These tuxedo-colored birds can't fly but are great swimmers.",
+          "answer": "Penguin",
+          "alternates": [
+            "penguins"
+          ]
+        },
+        {
+          "id": "l1a-polar-pals-3",
+          "rank": 3,
+          "clue": "This big, whiskered sea mammal has two long tusks.",
+          "answer": "Walrus",
+          "alternates": []
+        },
+        {
+          "id": "l1a-polar-pals-4",
+          "rank": 4,
+          "clue": "Polar bears live in this freezing region around the North Pole.",
+          "answer": "Arctic",
+          "alternates": []
+        },
+        {
+          "id": "l1a-polar-pals-5",
+          "rank": 5,
+          "clue": "Whales and seals stay warm in icy water thanks to a thick layer of this fat.",
+          "answer": "Blubber",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l1a-creepy-crawlers",
+      "name": "Creepy Crawlers",
+      "clues": [
+        {
+          "id": "l1a-creepy-crawlers-1",
+          "rank": 1,
+          "clue": "This eight-legged creature is not an insect.",
+          "answer": "Spider",
+          "alternates": []
+        },
+        {
+          "id": "l1a-creepy-crawlers-2",
+          "rank": 2,
+          "clue": "These tiny insects live in big colonies with a queen and can carry many times their own weight.",
+          "answer": "Ant",
+          "alternates": [
+            "ants"
+          ]
+        },
+        {
+          "id": "l1a-creepy-crawlers-3",
+          "rank": 3,
+          "clue": "Only the females of this buzzing insect bite and leave an itchy bump.",
+          "answer": "Mosquito",
+          "alternates": [
+            "mosquitoes"
+          ]
+        },
+        {
+          "id": "l1a-creepy-crawlers-4",
+          "rank": 4,
+          "clue": "This wiggly creature with no legs tunnels through soil and helps plants grow.",
+          "answer": "Earthworm",
+          "alternates": [
+            "worm"
+          ]
+        },
+        {
+          "id": "l1a-creepy-crawlers-5",
+          "rank": 5,
+          "clue": "Insects use these two feelers on their heads to touch and smell.",
+          "answer": "Antennae",
+          "alternates": [
+            "antenna",
+            "antennas",
+            "feelers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-growing-up-wild",
+      "name": "Growing Up Wild",
+      "clues": [
+        {
+          "id": "l1a-growing-up-wild-1",
+          "rank": 1,
+          "clue": "Birds, turtles, and snakes all start life inside one of these.",
+          "answer": "Egg",
+          "alternates": [
+            "eggs"
+          ]
+        },
+        {
+          "id": "l1a-growing-up-wild-2",
+          "rank": 2,
+          "clue": "A baby bear, lion, or tiger is called this.",
+          "answer": "Cub",
+          "alternates": []
+        },
+        {
+          "id": "l1a-growing-up-wild-3",
+          "rank": 3,
+          "clue": "This is the word for what a chick does when it breaks out of its egg.",
+          "answer": "Hatch",
+          "alternates": [
+            "hatching",
+            "hatches"
+          ]
+        },
+        {
+          "id": "l1a-growing-up-wild-4",
+          "rank": 4,
+          "clue": "A butterfly hatches from its egg as this crawly creature.",
+          "answer": "Caterpillar",
+          "alternates": [
+            "larva"
+          ]
+        },
+        {
+          "id": "l1a-growing-up-wild-5",
+          "rank": 5,
+          "clue": "This is a baby plant that has just sprouted from a seed.",
+          "answer": "Seedling",
+          "alternates": [
+            "sprout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-pet-project",
+      "name": "Pet Project",
+      "clues": [
+        {
+          "id": "l1a-pet-project-1",
+          "rank": 1,
+          "clue": "This little orange fish is a popular pet that lives in a bowl or tank.",
+          "answer": "Goldfish",
+          "alternates": []
+        },
+        {
+          "id": "l1a-pet-project-2",
+          "rank": 2,
+          "clue": "This long-eared pet hops around and loves to munch on hay.",
+          "answer": "Rabbit",
+          "alternates": [
+            "bunny"
+          ]
+        },
+        {
+          "id": "l1a-pet-project-3",
+          "rank": 3,
+          "clue": "This small furry pet stuffs food into its cheek pouches.",
+          "answer": "Hamster",
+          "alternates": []
+        },
+        {
+          "id": "l1a-pet-project-4",
+          "rank": 4,
+          "clue": "This colorful bird can learn to copy words people say.",
+          "answer": "Parrot",
+          "alternates": []
+        },
+        {
+          "id": "l1a-pet-project-5",
+          "rank": 5,
+          "clue": "This is the name for an animal doctor.",
+          "answer": "Veterinarian",
+          "alternates": [
+            "vet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-animal-accessories",
+      "name": "Animal Accessories",
+      "clues": [
+        {
+          "id": "l1a-animal-accessories-1",
+          "rank": 1,
+          "clue": "Only birds have these covering their bodies.",
+          "answer": "Feathers",
+          "alternates": [
+            "feather"
+          ]
+        },
+        {
+          "id": "l1a-animal-accessories-2",
+          "rank": 2,
+          "clue": "Cats use these long hairs on their faces to feel their way around.",
+          "answer": "Whiskers",
+          "alternates": [
+            "whisker"
+          ]
+        },
+        {
+          "id": "l1a-animal-accessories-3",
+          "rank": 3,
+          "clue": "A camel stores fat in this lump on its back.",
+          "answer": "Hump",
+          "alternates": [
+            "humps"
+          ]
+        },
+        {
+          "id": "l1a-animal-accessories-4",
+          "rank": 4,
+          "clue": "A porcupine is covered with these sharp spines.",
+          "answer": "Quills",
+          "alternates": [
+            "quill"
+          ]
+        },
+        {
+          "id": "l1a-animal-accessories-5",
+          "rank": 5,
+          "clue": "An elephant's long ivory teeth are called these.",
+          "answer": "Tusks",
+          "alternates": [
+            "tusk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-sights-and-sounds",
+      "name": "Sights and Sounds",
+      "clues": [
+        {
+          "id": "l1a-sights-and-sounds-1",
+          "rank": 1,
+          "clue": "You look into this shiny glass to see your reflection.",
+          "answer": "Mirror",
+          "alternates": []
+        },
+        {
+          "id": "l1a-sights-and-sounds-2",
+          "rank": 2,
+          "clue": "When you shout in a canyon, this sound bounces back to you.",
+          "answer": "Echo",
+          "alternates": []
+        },
+        {
+          "id": "l1a-sights-and-sounds-3",
+          "rank": 3,
+          "clue": "Sound cannot travel through this empty place beyond Earth's air.",
+          "answer": "Space",
+          "alternates": [
+            "outer space"
+          ]
+        },
+        {
+          "id": "l1a-sights-and-sounds-4",
+          "rank": 4,
+          "clue": "This glass shape splits white light into the colors of the rainbow.",
+          "answer": "Prism",
+          "alternates": []
+        },
+        {
+          "id": "l1a-sights-and-sounds-5",
+          "rank": 5,
+          "clue": "All sounds are made by these quick back-and-forth movements.",
+          "answer": "Vibrations",
+          "alternates": [
+            "vibration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1a-green-team",
+      "name": "Green Team",
+      "clues": [
+        {
+          "id": "l1a-green-team-1",
+          "rank": 1,
+          "clue": "You do this when you turn old cans and bottles into new things.",
+          "answer": "Recycle",
+          "alternates": [
+            "recycling"
+          ]
+        },
+        {
+          "id": "l1a-green-team-2",
+          "rank": 2,
+          "clue": "Trash in rivers and smoke in the air are kinds of this.",
+          "answer": "Pollution",
+          "alternates": []
+        },
+        {
+          "id": "l1a-green-team-3",
+          "rank": 3,
+          "clue": "When there are no more of a kind of animal alive anywhere, like the dinosaurs, it is this.",
+          "answer": "Extinct",
+          "alternates": []
+        },
+        {
+          "id": "l1a-green-team-4",
+          "rank": 4,
+          "clue": "Rotting food scraps and leaves can become rich soil in this pile.",
+          "answer": "Compost",
+          "alternates": [
+            "compost pile"
+          ]
+        },
+        {
+          "id": "l1a-green-team-5",
+          "rank": 5,
+          "clue": "Animals in danger of disappearing forever are called this.",
+          "answer": "Endangered",
+          "alternates": [
+            "endangered species"
+          ]
+        }
+      ]
+    }
+  ]
+}

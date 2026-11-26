@@ -1,0 +1,555 @@
+{
+  "level": 4,
+  "categories": [
+    {
+      "id": "l4b-hail-to-the-chiefs",
+      "name": "Hail to the Chiefs",
+      "clues": [
+        { "id": "l4b-hail-to-the-chiefs-1", "rank": 1, "clue": "The only president to receive every Electoral College vote, which he did twice.", "answer": "George Washington", "alternates": ["Washington"] },
+        { "id": "l4b-hail-to-the-chiefs-2", "rank": 2, "clue": "The only US president to resign from office, he stepped down in August 1974.", "answer": "Richard Nixon", "alternates": ["Nixon"] },
+        { "id": "l4b-hail-to-the-chiefs-3", "rank": 3, "clue": "The only person to serve as both US president and Chief Justice of the United States.", "answer": "William Howard Taft", "alternates": ["Taft"] },
+        { "id": "l4b-hail-to-the-chiefs-4", "rank": 4, "clue": "The 9th president, he died of illness just 31 days after his inauguration in 1841.", "answer": "William Henry Harrison", "alternates": ["Harrison"] },
+        { "id": "l4b-hail-to-the-chiefs-5", "rank": 5, "clue": "Lincoln's immediate predecessor, he is the only president who never married.", "answer": "James Buchanan", "alternates": ["Buchanan"] }
+      ]
+    },
+    {
+      "id": "l4b-first-ladies-first",
+      "name": "First Ladies First",
+      "clues": [
+        { "id": "l4b-first-ladies-first-1", "rank": 1, "clue": "This widow of FDR chaired the UN commission that drafted the Universal Declaration of Human Rights.", "answer": "Eleanor Roosevelt", "alternates": [] },
+        { "id": "l4b-first-ladies-first-2", "rank": 2, "clue": "Wife of the second president, she wrote urging him to \"remember the ladies.\"", "answer": "Abigail Adams", "alternates": [] },
+        { "id": "l4b-first-ladies-first-3", "rank": 3, "clue": "She is credited with saving a portrait of George Washington before the British burned the White House in 1814.", "answer": "Dolley Madison", "alternates": ["Dolly Madison"] },
+        { "id": "l4b-first-ladies-first-4", "rank": 4, "clue": "This Texan First Lady of the 1960s championed the Highway Beautification Act.", "answer": "Lady Bird Johnson", "alternates": ["Lady Bird", "Claudia Johnson"] },
+        { "id": "l4b-first-ladies-first-5", "rank": 5, "clue": "After her husband suffered a stroke in 1919, this First Lady controlled who and what reached him.", "answer": "Edith Wilson", "alternates": ["Edith Bolling Wilson"] }
+      ]
+    },
+    {
+      "id": "l4b-royal-flush",
+      "name": "Royal Flush",
+      "clues": [
+        { "id": "l4b-royal-flush-1", "rank": 1, "clue": "This Tudor king had six wives.", "answer": "Henry VIII", "alternates": ["Henry the Eighth", "Henry 8"] },
+        { "id": "l4b-royal-flush-2", "rank": 2, "clue": "This queen reigned from 1837 until her death in 1901.", "answer": "Queen Victoria", "alternates": ["Victoria"] },
+        { "id": "l4b-royal-flush-3", "rank": 3, "clue": "This king abdicated in 1936 in order to marry the American divorcee Wallis Simpson.", "answer": "Edward VIII", "alternates": ["Edward the Eighth", "Edward 8"] },
+        { "id": "l4b-royal-flush-4", "rank": 4, "clue": "The last Plantagenet king, he was killed at the Battle of Bosworth Field in 1485.", "answer": "Richard III", "alternates": ["Richard the Third", "Richard 3"] },
+        { "id": "l4b-royal-flush-5", "rank": 5, "clue": "This 9th-century king of Wessex defeated the Danes at the Battle of Edington in 878.", "answer": "Alfred the Great", "alternates": ["Alfred"] }
+      ]
+    },
+    {
+      "id": "l4b-tsar-search",
+      "name": "Tsar Search",
+      "clues": [
+        { "id": "l4b-tsar-search-1", "rank": 1, "clue": "This tsar founded a new capital on the Baltic in 1703 and named it after his patron saint.", "answer": "Peter the Great", "alternates": ["Peter I", "Peter"] },
+        { "id": "l4b-tsar-search-2", "rank": 2, "clue": "Born a German princess, this empress ruled Russia from 1762 to 1796.", "answer": "Catherine the Great", "alternates": ["Catherine II", "Catherine"] },
+        { "id": "l4b-tsar-search-3", "rank": 3, "clue": "Russia's last tsar, he was executed with his family in 1918.", "answer": "Nicholas II", "alternates": ["Nicholas"] },
+        { "id": "l4b-tsar-search-4", "rank": 4, "clue": "This tsar issued the 1861 decree emancipating Russia's serfs.", "answer": "Alexander II", "alternates": ["Alexander"] },
+        { "id": "l4b-tsar-search-5", "rank": 5, "clue": "In 1547 he became the first ruler crowned Tsar of All Russia; his Russian nickname is Grozny.", "answer": "Ivan the Terrible", "alternates": ["Ivan IV", "Ivan"] }
+      ]
+    },
+    {
+      "id": "l4b-empire-state-of-mind",
+      "name": "Empire State of Mind",
+      "clues": [
+        { "id": "l4b-empire-state-of-mind-1", "rank": 1, "clue": "Founded by Genghis Khan, it became the largest contiguous land empire in history.", "answer": "Mongol Empire", "alternates": ["Mongol", "Mongols"] },
+        { "id": "l4b-empire-state-of-mind-2", "rank": 2, "clue": "This empire captured Constantinople in 1453.", "answer": "Ottoman Empire", "alternates": ["Ottoman", "Ottomans"] },
+        { "id": "l4b-empire-state-of-mind-3", "rank": 3, "clue": "Cusco was the capital of this Andean empire.", "answer": "Inca Empire", "alternates": ["Inca", "Incas", "Inka"] },
+        { "id": "l4b-empire-state-of-mind-4", "rank": 4, "clue": "Mansa Musa, famed for his gold-laden pilgrimage to Mecca, ruled this West African empire.", "answer": "Mali Empire", "alternates": ["Mali"] },
+        { "id": "l4b-empire-state-of-mind-5", "rank": 5, "clue": "Founded by Cyrus the Great, this Persian empire was conquered by Alexander the Great.", "answer": "Achaemenid Empire", "alternates": ["Achaemenid", "Achaemenids"] }
+      ]
+    },
+    {
+      "id": "l4b-treaty-yourself",
+      "name": "Treaty Yourself",
+      "clues": [
+        { "id": "l4b-treaty-yourself-1", "rank": 1, "clue": "Signed in a famous palace's Hall of Mirrors in 1919, this treaty formally ended WWI with Germany.", "answer": "Treaty of Versailles", "alternates": ["Versailles"] },
+        { "id": "l4b-treaty-yourself-2", "rank": 2, "clue": "The 1783 treaty in which Britain recognized American independence is named for this city.", "answer": "Paris", "alternates": ["Treaty of Paris"] },
+        { "id": "l4b-treaty-yourself-3", "rank": 3, "clue": "This 1494 treaty divided newly found lands outside Europe between Spain and Portugal.", "answer": "Treaty of Tordesillas", "alternates": ["Tordesillas"] },
+        { "id": "l4b-treaty-yourself-4", "rank": 4, "clue": "The 1648 treaties ending the Thirty Years' War are known as the Peace of this region.", "answer": "Westphalia", "alternates": ["Peace of Westphalia"] },
+        { "id": "l4b-treaty-yourself-5", "rank": 5, "clue": "The 1992 treaty that created the European Union is named for this Dutch city.", "answer": "Maastricht", "alternates": ["Treaty of Maastricht"] }
+      ]
+    },
+    {
+      "id": "l4b-war-stories",
+      "name": "War Stories",
+      "clues": [
+        { "id": "l4b-war-stories-1", "rank": 1, "clue": "Despite its name, this Anglo-French conflict lasted 116 years, from 1337 to 1453.", "answer": "Hundred Years' War", "alternates": ["Hundred Years War"] },
+        { "id": "l4b-war-stories-2", "rank": 2, "clue": "The 15th-century English dynastic wars between Lancaster and York, named for their heraldic flowers.", "answer": "Wars of the Roses", "alternates": [] },
+        { "id": "l4b-war-stories-3", "rank": 3, "clue": "The Charge of the Light Brigade took place during this 1853 to 1856 war.", "answer": "Crimean War", "alternates": [] },
+        { "id": "l4b-war-stories-4", "rank": 4, "clue": "The 1898 sinking of the USS Maine in Havana harbor helped spark this war.", "answer": "Spanish-American War", "alternates": ["Spanish American War"] },
+        { "id": "l4b-war-stories-5", "rank": 5, "clue": "Fought from 1932 to 1935, this war between Bolivia and Paraguay was named for a dry lowland region.", "answer": "Chaco War", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-battle-stations",
+      "name": "Battle Stations",
+      "clues": [
+        { "id": "l4b-battle-stations-1", "rank": 1, "clue": "Napoleon met his final defeat at this 1815 battle in present-day Belgium.", "answer": "Waterloo", "alternates": ["Battle of Waterloo"] },
+        { "id": "l4b-battle-stations-2", "rank": 2, "clue": "William the Conqueror defeated King Harold at this 1066 battle.", "answer": "Hastings", "alternates": ["Battle of Hastings"] },
+        { "id": "l4b-battle-stations-3", "rank": 3, "clue": "Lincoln delivered a famous address at the site of this 1863 Pennsylvania battle.", "answer": "Gettysburg", "alternates": ["Battle of Gettysburg"] },
+        { "id": "l4b-battle-stations-4", "rank": 4, "clue": "Admiral Nelson was killed during his victory at this 1805 naval battle off Spain.", "answer": "Trafalgar", "alternates": ["Battle of Trafalgar"] },
+        { "id": "l4b-battle-stations-5", "rank": 5, "clue": "English longbowmen helped Henry V win this 1415 battle against the French.", "answer": "Agincourt", "alternates": ["Battle of Agincourt"] }
+      ]
+    },
+    {
+      "id": "l4b-viva-la-revolution",
+      "name": "Viva la Revolution",
+      "clues": [
+        { "id": "l4b-viva-la-revolution-1", "rank": 1, "clue": "The storming of the Bastille in 1789 was a flashpoint of this revolution.", "answer": "French Revolution", "alternates": [] },
+        { "id": "l4b-viva-la-revolution-2", "rank": 2, "clue": "This 1917 uprising that brought the Bolsheviks to power is named for a month in the old Russian calendar.", "answer": "October Revolution", "alternates": ["Bolshevik Revolution", "Russian Revolution"] },
+        { "id": "l4b-viva-la-revolution-3", "rank": 3, "clue": "The largely bloodless 1688 overthrow of England's James II.", "answer": "Glorious Revolution", "alternates": [] },
+        { "id": "l4b-viva-la-revolution-4", "rank": 4, "clue": "Czechoslovakia's peaceful 1989 end of Communist rule.", "answer": "Velvet Revolution", "alternates": [] },
+        { "id": "l4b-viva-la-revolution-5", "rank": 5, "clue": "The 1791 to 1804 uprising that created the first republic founded by formerly enslaved people.", "answer": "Haitian Revolution", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-founding-fathers-day",
+      "name": "Founding Fathers Day",
+      "clues": [
+        { "id": "l4b-founding-fathers-day-1", "rank": 1, "clue": "He was the primary author of the Declaration of Independence.", "answer": "Thomas Jefferson", "alternates": ["Jefferson"] },
+        { "id": "l4b-founding-fathers-day-2", "rank": 2, "clue": "He served as the first US Secretary of the Treasury.", "answer": "Alexander Hamilton", "alternates": ["Hamilton"] },
+        { "id": "l4b-founding-fathers-day-3", "rank": 3, "clue": "He is often called the \"Father of the Constitution.\"", "answer": "James Madison", "alternates": ["Madison"] },
+        { "id": "l4b-founding-fathers-day-4", "rank": 4, "clue": "As president of the Continental Congress, he signed the Declaration with its largest signature.", "answer": "John Hancock", "alternates": ["Hancock"] },
+        { "id": "l4b-founding-fathers-day-5", "rank": 5, "clue": "At 70, this Pennsylvanian was the oldest signer of the Declaration of Independence.", "answer": "Benjamin Franklin", "alternates": ["Franklin", "Ben Franklin"] }
+      ]
+    },
+    {
+      "id": "l4b-amendment-moment",
+      "name": "Amendment Moment",
+      "clues": [
+        { "id": "l4b-amendment-moment-1", "rank": 1, "clue": "This amendment protects freedom of speech, religion and the press.", "answer": "First Amendment", "alternates": ["First", "1st", "1"] },
+        { "id": "l4b-amendment-moment-2", "rank": 2, "clue": "Ratified in 1920, this amendment guaranteed women the right to vote.", "answer": "Nineteenth Amendment", "alternates": ["Nineteenth", "19th", "19"] },
+        { "id": "l4b-amendment-moment-3", "rank": 3, "clue": "This amendment, ratified in 1933, repealed Prohibition.", "answer": "Twenty-first Amendment", "alternates": ["Twenty-first", "21st", "21"] },
+        { "id": "l4b-amendment-moment-4", "rank": 4, "clue": "This amendment limits a president to two elected terms.", "answer": "Twenty-second Amendment", "alternates": ["Twenty-second", "22nd", "22"] },
+        { "id": "l4b-amendment-moment-5", "rank": 5, "clue": "Ratified in 1971, this amendment lowered the voting age to 18.", "answer": "Twenty-sixth Amendment", "alternates": ["Twenty-sixth", "26th", "26"] }
+      ]
+    },
+    {
+      "id": "l4b-capitol-hill-climb",
+      "name": "Capitol Hill Climb",
+      "clues": [
+        { "id": "l4b-capitol-hill-climb-1", "rank": 1, "clue": "The total number of US senators.", "answer": "100", "alternates": ["one hundred"] },
+        { "id": "l4b-capitol-hill-climb-2", "rank": 2, "clue": "The length, in years, of a term in the US House of Representatives.", "answer": "2", "alternates": ["two"] },
+        { "id": "l4b-capitol-hill-climb-3", "rank": 3, "clue": "The title of the presiding officer of the lower chamber of Congress.", "answer": "Speaker", "alternates": ["Speaker of the House"] },
+        { "id": "l4b-capitol-hill-climb-4", "rank": 4, "clue": "The total number of voting members of the US House of Representatives.", "answer": "435", "alternates": ["four hundred thirty-five"] },
+        { "id": "l4b-capitol-hill-climb-5", "rank": 5, "clue": "This Senate tactic uses prolonged debate to delay or block a vote.", "answer": "Filibuster", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-legal-eagles",
+      "name": "Legal Eagles",
+      "clues": [
+        { "id": "l4b-legal-eagles-1", "rank": 1, "clue": "The Fifth Amendment protects against this: being tried twice for the same offense.", "answer": "Double jeopardy", "alternates": [] },
+        { "id": "l4b-legal-eagles-2", "rank": 2, "clue": "A formal accusation of a crime handed up by a grand jury.", "answer": "Indictment", "alternates": [] },
+        { "id": "l4b-legal-eagles-3", "rank": 3, "clue": "The 1966 Supreme Court case behind police warnings about the right to remain silent.", "answer": "Miranda v. Arizona", "alternates": ["Miranda"] },
+        { "id": "l4b-legal-eagles-4", "rank": 4, "clue": "This writ, Latin for \"that you have the body,\" challenges unlawful detention.", "answer": "Habeas corpus", "alternates": [] },
+        { "id": "l4b-legal-eagles-5", "rank": 5, "clue": "The legal principle of following precedent, from Latin for \"to stand by things decided.\"", "answer": "Stare decisis", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-landmark-decisions",
+      "name": "Landmark Decisions",
+      "clues": [
+        { "id": "l4b-landmark-decisions-1", "rank": 1, "clue": "This 1954 Supreme Court case declared racially segregated public schools unconstitutional.", "answer": "Brown v. Board of Education", "alternates": ["Brown"] },
+        { "id": "l4b-landmark-decisions-2", "rank": 2, "clue": "This 1896 case upheld \"separate but equal\" facilities.", "answer": "Plessy v. Ferguson", "alternates": ["Plessy"] },
+        { "id": "l4b-landmark-decisions-3", "rank": 3, "clue": "This 1857 case, named for an enslaved man, held that Black Americans could not be citizens.", "answer": "Dred Scott v. Sandford", "alternates": ["Dred Scott"] },
+        { "id": "l4b-landmark-decisions-4", "rank": 4, "clue": "This 1963 case required states to provide lawyers for defendants who cannot afford one.", "answer": "Gideon v. Wainwright", "alternates": ["Gideon"] },
+        { "id": "l4b-landmark-decisions-5", "rank": 5, "clue": "The 1819 case upholding the Second Bank of the United States was McCulloch v. this state.", "answer": "Maryland", "alternates": ["McCulloch v. Maryland"] }
+      ]
+    },
+    {
+      "id": "l4b-island-hopping",
+      "name": "Island Hopping",
+      "clues": [
+        { "id": "l4b-island-hopping-1", "rank": 1, "clue": "The world's largest island that isn't a continent, an autonomous territory of Denmark.", "answer": "Greenland", "alternates": [] },
+        { "id": "l4b-island-hopping-2", "rank": 2, "clue": "Napoleon was born on this Mediterranean island in 1769.", "answer": "Corsica", "alternates": [] },
+        { "id": "l4b-island-hopping-3", "rank": 3, "clue": "This island nation off southeast Africa is the only natural home of lemurs.", "answer": "Madagascar", "alternates": [] },
+        { "id": "l4b-island-hopping-4", "rank": 4, "clue": "The world's third-largest island, it is divided among Indonesia, Malaysia and Brunei.", "answer": "Borneo", "alternates": [] },
+        { "id": "l4b-island-hopping-5", "rank": 5, "clue": "This remote Chilean island in the Pacific is famous for its moai statues.", "answer": "Easter Island", "alternates": ["Rapa Nui"] }
+      ]
+    },
+    {
+      "id": "l4b-isle-be-there",
+      "name": "Isle Be There",
+      "clues": [
+        { "id": "l4b-isle-be-there-1", "rank": 1, "clue": "The largest island in the Mediterranean Sea.", "answer": "Sicily", "alternates": [] },
+        { "id": "l4b-isle-be-there-2", "rank": 2, "clue": "The only Indonesian province with a Hindu majority, this island is a major tourist destination.", "answer": "Bali", "alternates": [] },
+        { "id": "l4b-isle-be-there-3", "rank": 3, "clue": "Napoleon spent his final exile on this remote South Atlantic island.", "answer": "Saint Helena", "alternates": ["St. Helena", "St Helena"] },
+        { "id": "l4b-isle-be-there-4", "rank": 4, "clue": "The largest of Spain's Canary Islands, home to the volcano Mount Teide.", "answer": "Tenerife", "alternates": [] },
+        { "id": "l4b-isle-be-there-5", "rank": 5, "clue": "This self-governing Danish archipelago of 18 main islands lies between Iceland and Norway.", "answer": "Faroe Islands", "alternates": ["Faroes", "Faeroe Islands"] }
+      ]
+    },
+    {
+      "id": "l4b-cry-me-a-river",
+      "name": "Cry Me a River",
+      "clues": [
+        { "id": "l4b-cry-me-a-river-1", "rank": 1, "clue": "This river flows through four capitals, including Vienna, Budapest and Belgrade.", "answer": "Danube", "alternates": ["Danube River"] },
+        { "id": "l4b-cry-me-a-river-2", "rank": 2, "clue": "This river forms much of the border between Texas and Mexico.", "answer": "Rio Grande", "alternates": ["Rio Bravo"] },
+        { "id": "l4b-cry-me-a-river-3", "rank": 3, "clue": "Europe's longest river, it empties into the Caspian Sea.", "answer": "Volga", "alternates": ["Volga River"] },
+        { "id": "l4b-cry-me-a-river-4", "rank": 4, "clue": "China's longest river, home of the Three Gorges Dam.", "answer": "Yangtze", "alternates": ["Yangtze River", "Chang Jiang"] },
+        { "id": "l4b-cry-me-a-river-5", "rank": 5, "clue": "The world's deepest known river, it crosses the equator twice.", "answer": "Congo", "alternates": ["Congo River", "Zaire River"] }
+      ]
+    },
+    {
+      "id": "l4b-peak-performance",
+      "name": "Peak Performance",
+      "clues": [
+        { "id": "l4b-peak-performance-1", "rank": 1, "clue": "Africa's highest mountain, a dormant volcano in Tanzania.", "answer": "Kilimanjaro", "alternates": ["Mount Kilimanjaro"] },
+        { "id": "l4b-peak-performance-2", "rank": 2, "clue": "Japan's highest peak, it last erupted in 1707.", "answer": "Mount Fuji", "alternates": ["Fuji", "Fujiyama"] },
+        { "id": "l4b-peak-performance-3", "rank": 3, "clue": "The second-highest mountain on Earth, on the Pakistan-China border.", "answer": "K2", "alternates": [] },
+        { "id": "l4b-peak-performance-4", "rank": 4, "clue": "The highest peak in the Alps, on the French-Italian border.", "answer": "Mont Blanc", "alternates": ["Monte Bianco"] },
+        { "id": "l4b-peak-performance-5", "rank": 5, "clue": "The highest mountain in the Americas, in Argentina.", "answer": "Aconcagua", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-flag-day",
+      "name": "Flag Day",
+      "clues": [
+        { "id": "l4b-flag-day-1", "rank": 1, "clue": "This country's flag shows an eagle perched on a cactus eating a snake.", "answer": "Mexico", "alternates": [] },
+        { "id": "l4b-flag-day-2", "rank": 2, "clue": "A green cedar tree sits at the center of this country's flag.", "answer": "Lebanon", "alternates": [] },
+        { "id": "l4b-flag-day-3", "rank": 3, "clue": "Its flag, the Dannebrog, is often called the oldest continuously used national flag.", "answer": "Denmark", "alternates": [] },
+        { "id": "l4b-flag-day-4", "rank": 4, "clue": "A white thunder dragon appears on the flag of this Himalayan kingdom.", "answer": "Bhutan", "alternates": [] },
+        { "id": "l4b-flag-day-5", "rank": 5, "clue": "This African country's flag includes an AK-47 rifle.", "answer": "Mozambique", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-state-of-the-union",
+      "name": "State of the Union",
+      "clues": [
+        { "id": "l4b-state-of-the-union-1", "rank": 1, "clue": "The last state admitted to the Union, in August 1959.", "answer": "Hawaii", "alternates": [] },
+        { "id": "l4b-state-of-the-union-2", "rank": 2, "clue": "The US bought this territory from Russia in 1867.", "answer": "Alaska", "alternates": [] },
+        { "id": "l4b-state-of-the-union-3", "rank": 3, "clue": "This state was an independent republic from 1836 to 1845.", "answer": "Texas", "alternates": [] },
+        { "id": "l4b-state-of-the-union-4", "rank": 4, "clue": "The only US state whose name has just one syllable.", "answer": "Maine", "alternates": [] },
+        { "id": "l4b-state-of-the-union-5", "rank": 5, "clue": "The only US state with a non-rectangular flag.", "answer": "Ohio", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-capital-letters",
+      "name": "Capital Letters",
+      "clues": [
+        { "id": "l4b-capital-letters-1", "rank": 1, "clue": "New Zealand's capital, at the southern tip of the North Island.", "answer": "Wellington", "alternates": [] },
+        { "id": "l4b-capital-letters-2", "rank": 2, "clue": "Turkey's capital, chosen by Ataturk over Istanbul in 1923.", "answer": "Ankara", "alternates": [] },
+        { "id": "l4b-capital-letters-3", "rank": 3, "clue": "This planned city became Brazil's capital in 1960.", "answer": "Brasilia", "alternates": [] },
+        { "id": "l4b-capital-letters-4", "rank": 4, "clue": "Morocco's capital, on the Atlantic coast.", "answer": "Rabat", "alternates": [] },
+        { "id": "l4b-capital-letters-5", "rank": 5, "clue": "This purpose-built city replaced Yangon as Myanmar's capital in the mid-2000s.", "answer": "Naypyidaw", "alternates": ["Nay Pyi Taw", "Naypyitaw"] }
+      ]
+    },
+    {
+      "id": "l4b-capital-offense",
+      "name": "Capital Offense",
+      "clues": [
+        { "id": "l4b-capital-offense-1", "rank": 1, "clue": "Switzerland's federal city and seat of government.", "answer": "Bern", "alternates": ["Berne"] },
+        { "id": "l4b-capital-offense-2", "rank": 2, "clue": "Vietnam's capital, on the Red River.", "answer": "Hanoi", "alternates": [] },
+        { "id": "l4b-capital-offense-3", "rank": 3, "clue": "Ethiopia's capital, headquarters of the African Union.", "answer": "Addis Ababa", "alternates": [] },
+        { "id": "l4b-capital-offense-4", "rank": 4, "clue": "Mongolia's capital, one of the coldest national capitals on Earth.", "answer": "Ulaanbaatar", "alternates": ["Ulan Bator"] },
+        { "id": "l4b-capital-offense-5", "rank": 5, "clue": "Kyrgyzstan's capital, once called Frunze in Soviet times.", "answer": "Bishkek", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-border-patrol",
+      "name": "Border Patrol",
+      "clues": [
+        { "id": "l4b-border-patrol-1", "rank": 1, "clue": "The only country that shares a land border with Portugal.", "answer": "Spain", "alternates": [] },
+        { "id": "l4b-border-patrol-2", "rank": 2, "clue": "The only country that shares a land border with Denmark.", "answer": "Germany", "alternates": [] },
+        { "id": "l4b-border-patrol-3", "rank": 3, "clue": "This tiny Pyrenees principality between France and Spain has two co-princes.", "answer": "Andorra", "alternates": [] },
+        { "id": "l4b-border-patrol-4", "rank": 4, "clue": "This kingdom is completely surrounded by South Africa.", "answer": "Lesotho", "alternates": [] },
+        { "id": "l4b-border-patrol-5", "rank": 5, "clue": "Along with Liechtenstein, this Central Asian nation is one of only two doubly landlocked countries.", "answer": "Uzbekistan", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-strait-talk",
+      "name": "Strait Talk",
+      "clues": [
+        { "id": "l4b-strait-talk-1", "rank": 1, "clue": "Opened in 1869, this Egyptian canal links the Mediterranean and the Red Sea.", "answer": "Suez Canal", "alternates": ["Suez"] },
+        { "id": "l4b-strait-talk-2", "rank": 2, "clue": "This waterway separates Russia's Chukotka from Alaska.", "answer": "Bering Strait", "alternates": ["Bering"] },
+        { "id": "l4b-strait-talk-3", "rank": 3, "clue": "Flowing through Istanbul, it links the Black Sea to the Sea of Marmara.", "answer": "Bosporus", "alternates": ["Bosphorus"] },
+        { "id": "l4b-strait-talk-4", "rank": 4, "clue": "This chokepoint between Iran and Oman carries a large share of the world's seaborne oil.", "answer": "Strait of Hormuz", "alternates": ["Hormuz"] },
+        { "id": "l4b-strait-talk-5", "rank": 5, "clue": "This passage near South America's tip is named for the Portuguese navigator who sailed it in 1520.", "answer": "Strait of Magellan", "alternates": ["Magellan"] }
+      ]
+    },
+    {
+      "id": "l4b-dry-humor",
+      "name": "Dry Humor",
+      "clues": [
+        { "id": "l4b-dry-humor-1", "rank": 1, "clue": "The world's largest hot desert, covering much of North Africa.", "answer": "Sahara", "alternates": ["Sahara Desert"] },
+        { "id": "l4b-dry-humor-2", "rank": 2, "clue": "This desert spans southern Mongolia and northern China.", "answer": "Gobi", "alternates": ["Gobi Desert"] },
+        { "id": "l4b-dry-humor-3", "rank": 3, "clue": "This desert covers much of Botswana.", "answer": "Kalahari", "alternates": ["Kalahari Desert"] },
+        { "id": "l4b-dry-humor-4", "rank": 4, "clue": "This Chilean desert is the driest non-polar desert on Earth.", "answer": "Atacama", "alternates": ["Atacama Desert"] },
+        { "id": "l4b-dry-humor-5", "rank": 5, "clue": "The southwest African country of Namibia is named for this coastal desert.", "answer": "Namib", "alternates": ["Namib Desert"] }
+      ]
+    },
+    {
+      "id": "l4b-lake-effect",
+      "name": "Lake Effect",
+      "clues": [
+        { "id": "l4b-lake-effect-1", "rank": 1, "clue": "This Scottish loch is famous for its legendary monster, Nessie.", "answer": "Loch Ness", "alternates": [] },
+        { "id": "l4b-lake-effect-2", "rank": 2, "clue": "The largest of the Great Lakes.", "answer": "Lake Superior", "alternates": ["Superior"] },
+        { "id": "l4b-lake-effect-3", "rank": 3, "clue": "Africa's largest lake, named for a British monarch.", "answer": "Lake Victoria", "alternates": ["Victoria"] },
+        { "id": "l4b-lake-effect-4", "rank": 4, "clue": "Shared by Peru and Bolivia, it is often called the world's highest navigable lake.", "answer": "Lake Titicaca", "alternates": ["Titicaca"] },
+        { "id": "l4b-lake-effect-5", "rank": 5, "clue": "Bordered by Russia, Iran and three other nations, it is the world's largest lake by area.", "answer": "Caspian Sea", "alternates": ["Caspian"] }
+      ]
+    },
+    {
+      "id": "l4b-pantheon-pals",
+      "name": "Pantheon Pals",
+      "clues": [
+        { "id": "l4b-pantheon-pals-1", "rank": 1, "clue": "The Roman god of war, who gave his name to a planet.", "answer": "Mars", "alternates": [] },
+        { "id": "l4b-pantheon-pals-2", "rank": 2, "clue": "This Greek messenger god wore winged sandals.", "answer": "Hermes", "alternates": [] },
+        { "id": "l4b-pantheon-pals-3", "rank": 3, "clue": "This Titan was condemned to hold up the sky.", "answer": "Atlas", "alternates": [] },
+        { "id": "l4b-pantheon-pals-4", "rank": 4, "clue": "This Greek goddess of the harvest was the mother of Persephone.", "answer": "Demeter", "alternates": [] },
+        { "id": "l4b-pantheon-pals-5", "rank": 5, "clue": "The Greek god of the forge, he was the husband of Aphrodite.", "answer": "Hephaestus", "alternates": ["Hephaistos"] }
+      ]
+    },
+    {
+      "id": "l4b-norse-code",
+      "name": "Norse Code",
+      "clues": [
+        { "id": "l4b-norse-code-1", "rank": 1, "clue": "The one-eyed chief of the Norse gods.", "answer": "Odin", "alternates": ["Woden", "Wotan"] },
+        { "id": "l4b-norse-code-2", "rank": 2, "clue": "This shape-shifting trickster god fathered the wolf Fenrir.", "answer": "Loki", "alternates": [] },
+        { "id": "l4b-norse-code-3", "rank": 3, "clue": "The great hall where Odin receives warriors slain in battle.", "answer": "Valhalla", "alternates": [] },
+        { "id": "l4b-norse-code-4", "rank": 4, "clue": "The immense ash tree that connects the nine worlds.", "answer": "Yggdrasil", "alternates": [] },
+        { "id": "l4b-norse-code-5", "rank": 5, "clue": "The prophesied final battle and destruction of the gods.", "answer": "Ragnarok", "alternates": ["Ragnarök"] }
+      ]
+    },
+    {
+      "id": "l4b-walk-like-an-egyptian",
+      "name": "Walk Like an Egyptian",
+      "clues": [
+        { "id": "l4b-walk-like-an-egyptian-1", "rank": 1, "clue": "The Egyptian sun god, often shown with a falcon's head.", "answer": "Ra", "alternates": ["Re"] },
+        { "id": "l4b-walk-like-an-egyptian-2", "rank": 2, "clue": "The last active ruler of Ptolemaic Egypt, she allied with Mark Antony.", "answer": "Cleopatra", "alternates": ["Cleopatra VII"] },
+        { "id": "l4b-walk-like-an-egyptian-3", "rank": 3, "clue": "Found in 1799, this slab's inscription in three scripts helped decipher hieroglyphs.", "answer": "Rosetta Stone", "alternates": [] },
+        { "id": "l4b-walk-like-an-egyptian-4", "rank": 4, "clue": "This pharaoh, also called Cheops, built the Great Pyramid of Giza.", "answer": "Khufu", "alternates": [] },
+        { "id": "l4b-walk-like-an-egyptian-5", "rank": 5, "clue": "This pharaoh, Nefertiti's husband, promoted worship of the sun disk Aten.", "answer": "Akhenaten", "alternates": ["Akhenaton", "Amenhotep IV"] }
+      ]
+    },
+    {
+      "id": "l4b-holy-days",
+      "name": "Holy Days",
+      "clues": [
+        { "id": "l4b-holy-days-1", "rank": 1, "clue": "The Islamic month in which Muslims fast from dawn to sunset.", "answer": "Ramadan", "alternates": [] },
+        { "id": "l4b-holy-days-2", "rank": 2, "clue": "Many Christians mark the first day of Lent by receiving a cross on the forehead on this day.", "answer": "Ash Wednesday", "alternates": [] },
+        { "id": "l4b-holy-days-3", "rank": 3, "clue": "This Hindu spring festival is famous for throwing colored powder.", "answer": "Holi", "alternates": [] },
+        { "id": "l4b-holy-days-4", "rank": 4, "clue": "The Jewish Day of Atonement.", "answer": "Yom Kippur", "alternates": [] },
+        { "id": "l4b-holy-days-5", "rank": 5, "clue": "Observed on the 10th of Muharram, this day marks the martyrdom of Husayn at Karbala.", "answer": "Ashura", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-sacred-texts",
+      "name": "Sacred Texts",
+      "clues": [
+        { "id": "l4b-sacred-texts-1", "rank": 1, "clue": "The first five books of the Hebrew Bible.", "answer": "Torah", "alternates": ["Pentateuch"] },
+        { "id": "l4b-sacred-texts-2", "rank": 2, "clue": "Part of the Mahabharata, this Hindu scripture is a dialogue between Krishna and Arjuna.", "answer": "Bhagavad Gita", "alternates": ["Gita"] },
+        { "id": "l4b-sacred-texts-3", "rank": 3, "clue": "This central text of rabbinic Judaism combines the Mishnah and the Gemara.", "answer": "Talmud", "alternates": [] },
+        { "id": "l4b-sacred-texts-4", "rank": 4, "clue": "The founding text of Taoism, traditionally attributed to Laozi.", "answer": "Tao Te Ching", "alternates": ["Daodejing", "Dao De Jing"] },
+        { "id": "l4b-sacred-texts-5", "rank": 5, "clue": "The collection of sacred texts of Zoroastrianism.", "answer": "Avesta", "alternates": ["Zend-Avesta"] }
+      ]
+    },
+    {
+      "id": "l4b-money-talks",
+      "name": "Money Talks",
+      "clues": [
+        { "id": "l4b-money-talks-1", "rank": 1, "clue": "This measure of the total value of goods and services a country produces goes by a three-letter abbreviation.", "answer": "GDP", "alternates": ["Gross domestic product"] },
+        { "id": "l4b-money-talks-2", "rank": 2, "clue": "A sustained rise in the general price level.", "answer": "Inflation", "alternates": [] },
+        { "id": "l4b-money-talks-3", "rank": 3, "clue": "This Scottish economist wrote The Wealth of Nations in 1776.", "answer": "Adam Smith", "alternates": ["Smith"] },
+        { "id": "l4b-money-talks-4", "rank": 4, "clue": "This economic principle states that \"bad money drives out good.\"", "answer": "Gresham's law", "alternates": ["Gresham"] },
+        { "id": "l4b-money-talks-5", "rank": 5, "clue": "This graph relating tax rates to tax revenue was famously sketched on a napkin in 1974.", "answer": "Laffer curve", "alternates": ["Laffer"] }
+      ]
+    },
+    {
+      "id": "l4b-currency-events",
+      "name": "Currency Events",
+      "clues": [
+        { "id": "l4b-currency-events-1", "rank": 1, "clue": "The currency of Japan.", "answer": "Yen", "alternates": [] },
+        { "id": "l4b-currency-events-2", "rank": 2, "clue": "The currency of India.", "answer": "Rupee", "alternates": ["Indian rupee", "Rupees"] },
+        { "id": "l4b-currency-events-3", "rank": 3, "clue": "Named for a gold-bearing ridge, it is South Africa's currency.", "answer": "Rand", "alternates": [] },
+        { "id": "l4b-currency-events-4", "rank": 4, "clue": "Poland's currency, whose name means \"golden.\"", "answer": "Zloty", "alternates": ["Złoty"] },
+        { "id": "l4b-currency-events-5", "rank": 5, "clue": "Vietnam's currency.", "answer": "Dong", "alternates": ["Đồng"] }
+      ]
+    },
+    {
+      "id": "l4b-market-forces",
+      "name": "Market Forces",
+      "clues": [
+        { "id": "l4b-market-forces-1", "rank": 1, "clue": "The 1929 stock market crash helped trigger this decade-long economic slump.", "answer": "Great Depression", "alternates": [] },
+        { "id": "l4b-market-forces-2", "rank": 2, "clue": "FDR's 1930s package of relief and recovery programs.", "answer": "New Deal", "alternates": [] },
+        { "id": "l4b-market-forces-3", "rank": 3, "clue": "A 1944 conference at this New Hampshire resort created the IMF and World Bank.", "answer": "Bretton Woods", "alternates": [] },
+        { "id": "l4b-market-forces-4", "rank": 4, "clue": "In the 1630s, Dutch speculators bid the price of these flower bulbs to absurd heights.", "answer": "Tulips", "alternates": ["Tulip"] },
+        { "id": "l4b-market-forces-5", "rank": 5, "clue": "The 1720 British financial collapse named for a company trading with South America.", "answer": "South Sea Bubble", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-cold-war-chill",
+      "name": "Cold War Chill",
+      "clues": [
+        { "id": "l4b-cold-war-chill-1", "rank": 1, "clue": "In a 1946 speech in Missouri, Churchill said this had descended across Europe.", "answer": "Iron Curtain", "alternates": [] },
+        { "id": "l4b-cold-war-chill-2", "rank": 2, "clue": "Its fall in November 1989 symbolized the end of a divided Germany.", "answer": "Berlin Wall", "alternates": [] },
+        { "id": "l4b-cold-war-chill-3", "rank": 3, "clue": "Launched in 1957, this Soviet satellite kicked off the space race.", "answer": "Sputnik", "alternates": ["Sputnik 1"] },
+        { "id": "l4b-cold-war-chill-4", "rank": 4, "clue": "The failed 1961 CIA-backed invasion of Cuba took place at this bay.", "answer": "Bay of Pigs", "alternates": [] },
+        { "id": "l4b-cold-war-chill-5", "rank": 5, "clue": "The 1955 military alliance of the Soviet Union and its Eastern European satellites.", "answer": "Warsaw Pact", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-world-war-two-step",
+      "name": "World War Two-Step",
+      "clues": [
+        { "id": "l4b-world-war-two-step-1", "rank": 1, "clue": "The name for June 6, 1944, when Allied troops landed in Normandy.", "answer": "D-Day", "alternates": ["D Day"] },
+        { "id": "l4b-world-war-two-step-2", "rank": 2, "clue": "Over 300,000 Allied troops were evacuated from this French port in 1940.", "answer": "Dunkirk", "alternates": ["Dunkerque"] },
+        { "id": "l4b-world-war-two-step-3", "rank": 3, "clue": "The 1942 naval battle near this Pacific atoll was a turning point against Japan.", "answer": "Midway", "alternates": ["Battle of Midway"] },
+        { "id": "l4b-world-war-two-step-4", "rank": 4, "clue": "This English estate was the center of Allied codebreaking against the Enigma machine.", "answer": "Bletchley Park", "alternates": ["Bletchley"] },
+        { "id": "l4b-world-war-two-step-5", "rank": 5, "clue": "The code name for Germany's 1941 invasion of the Soviet Union.", "answer": "Operation Barbarossa", "alternates": ["Barbarossa"] }
+      ]
+    },
+    {
+      "id": "l4b-the-great-war",
+      "name": "The Great War",
+      "clues": [
+        { "id": "l4b-the-great-war-1", "rank": 1, "clue": "His assassination in Sarajevo in 1914 sparked WWI.", "answer": "Archduke Franz Ferdinand", "alternates": ["Franz Ferdinand"] },
+        { "id": "l4b-the-great-war-2", "rank": 2, "clue": "This British ocean liner was sunk by a German U-boat in 1915.", "answer": "Lusitania", "alternates": ["RMS Lusitania"] },
+        { "id": "l4b-the-great-war-3", "rank": 3, "clue": "The British suffered more than 57,000 casualties on the first day of this 1916 battle named for a French river.", "answer": "Somme", "alternates": ["Battle of the Somme"] },
+        { "id": "l4b-the-great-war-4", "rank": 4, "clue": "This 1917 intercepted telegram proposed a German alliance with Mexico.", "answer": "Zimmermann Telegram", "alternates": ["Zimmermann"] },
+        { "id": "l4b-the-great-war-5", "rank": 5, "clue": "The 1918 armistice was signed in a railway carriage in this French forest.", "answer": "Compiegne", "alternates": ["Compiègne", "Forest of Compiegne"] }
+      ]
+    },
+    {
+      "id": "l4b-middle-ages-spread",
+      "name": "Middle Ages Spread",
+      "clues": [
+        { "id": "l4b-middle-ages-spread-1", "rank": 1, "clue": "King John sealed this charter at Runnymede in 1215.", "answer": "Magna Carta", "alternates": [] },
+        { "id": "l4b-middle-ages-spread-2", "rank": 2, "clue": "This pandemic killed roughly a third of Europe's population in the mid-1300s.", "answer": "Black Death", "alternates": ["Bubonic plague", "Plague"] },
+        { "id": "l4b-middle-ages-spread-3", "rank": 3, "clue": "The Pope crowned this Frankish king Emperor of the Romans on Christmas Day 800.", "answer": "Charlemagne", "alternates": ["Charles the Great"] },
+        { "id": "l4b-middle-ages-spread-4", "rank": 4, "clue": "This 1429 peasant teenager helped lift the English siege of Orleans.", "answer": "Joan of Arc", "alternates": ["Jeanne d'Arc"] },
+        { "id": "l4b-middle-ages-spread-5", "rank": 5, "clue": "William the Conqueror ordered this great survey of England, completed in 1086.", "answer": "Domesday Book", "alternates": ["Doomsday Book"] }
+      ]
+    },
+    {
+      "id": "l4b-sail-away",
+      "name": "Sail Away",
+      "clues": [
+        { "id": "l4b-sail-away-1", "rank": 1, "clue": "Columbus's 1492 flagship, sailing alongside the Nina and the Pinta.", "answer": "Santa Maria", "alternates": ["Santa María"] },
+        { "id": "l4b-sail-away-2", "rank": 2, "clue": "In 1498 this Portuguese navigator became the first European to reach India by sea.", "answer": "Vasco da Gama", "alternates": ["da Gama"] },
+        { "id": "l4b-sail-away-3", "rank": 3, "clue": "This conquistador brought down the Aztec Empire in 1521.", "answer": "Hernan Cortes", "alternates": ["Cortes", "Cortez", "Hernando Cortes"] },
+        { "id": "l4b-sail-away-4", "rank": 4, "clue": "In 1513 he crossed Panama to become the first European to see the Pacific from the Americas.", "answer": "Vasco Nunez de Balboa", "alternates": ["Balboa"] },
+        { "id": "l4b-sail-away-5", "rank": 5, "clue": "In 1488 this Portuguese explorer became the first European to round the Cape of Good Hope.", "answer": "Bartolomeu Dias", "alternates": ["Dias", "Diaz", "Bartholomew Diaz"] }
+      ]
+    },
+    {
+      "id": "l4b-pre-columbian-puzzles",
+      "name": "Pre-Columbian Puzzles",
+      "clues": [
+        { "id": "l4b-pre-columbian-puzzles-1", "rank": 1, "clue": "This Inca citadel high in the Andes drew world attention after Hiram Bingham's 1911 visit.", "answer": "Machu Picchu", "alternates": [] },
+        { "id": "l4b-pre-columbian-puzzles-2", "rank": 2, "clue": "This Maya city on the Yucatan Peninsula is home to the pyramid El Castillo.", "answer": "Chichen Itza", "alternates": [] },
+        { "id": "l4b-pre-columbian-puzzles-3", "rank": 3, "clue": "This Aztec capital was built on an island in Lake Texcoco.", "answer": "Tenochtitlan", "alternates": [] },
+        { "id": "l4b-pre-columbian-puzzles-4", "rank": 4, "clue": "This Inca emperor was captured by Francisco Pizarro in 1532.", "answer": "Atahualpa", "alternates": [] },
+        { "id": "l4b-pre-columbian-puzzles-5", "rank": 5, "clue": "The Incas kept records using this system of knotted cords.", "answer": "Quipu", "alternates": ["Khipu"] }
+      ]
+    },
+    {
+      "id": "l4b-when-in-rome",
+      "name": "When in Rome",
+      "clues": [
+        { "id": "l4b-when-in-rome-1", "rank": 1, "clue": "This Roman dictator was assassinated on the Ides of March in 44 BC.", "answer": "Julius Caesar", "alternates": ["Caesar"] },
+        { "id": "l4b-when-in-rome-2", "rank": 2, "clue": "Previously called Octavian, he became Rome's first emperor.", "answer": "Augustus", "alternates": ["Octavian"] },
+        { "id": "l4b-when-in-rome-3", "rank": 3, "clue": "Caesar crossed this small river in 49 BC, saying \"the die is cast.\"", "answer": "Rubicon", "alternates": [] },
+        { "id": "l4b-when-in-rome-4", "rank": 4, "clue": "This emperor ordered a wall built across northern Britain in AD 122.", "answer": "Hadrian", "alternates": [] },
+        { "id": "l4b-when-in-rome-5", "rank": 5, "clue": "This Thracian gladiator led a major slave revolt beginning in 73 BC.", "answer": "Spartacus", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-it-s-all-greek",
+      "name": "It's All Greek",
+      "clues": [
+        { "id": "l4b-it-s-all-greek-1", "rank": 1, "clue": "This philosopher tutored the young Alexander the Great.", "answer": "Aristotle", "alternates": [] },
+        { "id": "l4b-it-s-all-greek-2", "rank": 2, "clue": "The legend of a messenger's run after this 490 BC battle gave a race its name.", "answer": "Marathon", "alternates": ["Battle of Marathon"] },
+        { "id": "l4b-it-s-all-greek-3", "rank": 3, "clue": "This Spartan king led the famous 300 at Thermopylae in 480 BC.", "answer": "Leonidas", "alternates": ["Leonidas I"] },
+        { "id": "l4b-it-s-all-greek-4", "rank": 4, "clue": "This Athenian statesman led the city during its golden age and backed building the Parthenon.", "answer": "Pericles", "alternates": [] },
+        { "id": "l4b-it-s-all-greek-5", "rank": 5, "clue": "Cicero called this author of The Histories the \"Father of History.\"", "answer": "Herodotus", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-middle-kingdom-matters",
+      "name": "Middle Kingdom Matters",
+      "clues": [
+        { "id": "l4b-middle-kingdom-matters-1", "rank": 1, "clue": "This ancient network of trade routes linked China with the Mediterranean.", "answer": "Silk Road", "alternates": ["Silk Route"] },
+        { "id": "l4b-middle-kingdom-matters-2", "rank": 2, "clue": "This dynasty ruled China from 1368 to 1644 and built much of today's Great Wall.", "answer": "Ming", "alternates": ["Ming dynasty"] },
+        { "id": "l4b-middle-kingdom-matters-3", "rank": 3, "clue": "The first emperor of a unified China, buried with the Terracotta Army.", "answer": "Qin Shi Huang", "alternates": ["Shi Huangdi", "Qin Shi Huangdi"] },
+        { "id": "l4b-middle-kingdom-matters-4", "rank": 4, "clue": "China's last imperial dynasty, founded by the Manchus.", "answer": "Qing", "alternates": ["Qing dynasty", "Ching"] },
+        { "id": "l4b-middle-kingdom-matters-5", "rank": 5, "clue": "China's last emperor, he abdicated as a child in 1912.", "answer": "Puyi", "alternates": ["Pu Yi", "Xuantong"] }
+      ]
+    },
+    {
+      "id": "l4b-land-of-the-rising-fun",
+      "name": "Land of the Rising Fun",
+      "clues": [
+        { "id": "l4b-land-of-the-rising-fun-1", "rank": 1, "clue": "Japan's hereditary military rulers, who governed in the emperor's name, held this title.", "answer": "Shogun", "alternates": ["Shoguns"] },
+        { "id": "l4b-land-of-the-rising-fun-2", "rank": 2, "clue": "This US commodore's ships arrived in 1853 to pressure Japan to open its ports.", "answer": "Matthew Perry", "alternates": ["Perry", "Matthew C. Perry"] },
+        { "id": "l4b-land-of-the-rising-fun-3", "rank": 3, "clue": "This city served as Japan's imperial capital for more than a thousand years, until 1869.", "answer": "Kyoto", "alternates": [] },
+        { "id": "l4b-land-of-the-rising-fun-4", "rank": 4, "clue": "The samurai code of conduct, meaning \"way of the warrior.\"", "answer": "Bushido", "alternates": [] },
+        { "id": "l4b-land-of-the-rising-fun-5", "rank": 5, "clue": "The 1868 return of power to the emperor, launching rapid modernization, is named for this era.", "answer": "Meiji", "alternates": ["Meiji Restoration"] }
+      ]
+    },
+    {
+      "id": "l4b-subcontinental-drift",
+      "name": "Subcontinental Drift",
+      "clues": [
+        { "id": "l4b-subcontinental-drift-1", "rank": 1, "clue": "He led the 1930 Salt March against British rule.", "answer": "Mahatma Gandhi", "alternates": ["Gandhi", "Mohandas Gandhi"] },
+        { "id": "l4b-subcontinental-drift-2", "rank": 2, "clue": "The year India gained independence from Britain.", "answer": "1947", "alternates": [] },
+        { "id": "l4b-subcontinental-drift-3", "rank": 3, "clue": "This Mughal emperor built the Taj Mahal as a tomb for his wife.", "answer": "Shah Jahan", "alternates": [] },
+        { "id": "l4b-subcontinental-drift-4", "rank": 4, "clue": "This Mauryan emperor embraced Buddhism after the bloody Kalinga war.", "answer": "Ashoka", "alternates": ["Asoka"] },
+        { "id": "l4b-subcontinental-drift-5", "rank": 5, "clue": "He founded the Mughal Empire after winning the First Battle of Panipat in 1526.", "answer": "Babur", "alternates": ["Babar"] }
+      ]
+    },
+    {
+      "id": "l4b-civil-war-buffs",
+      "name": "Civil War Buffs",
+      "clues": [
+        { "id": "l4b-civil-war-buffs-1", "rank": 1, "clue": "He commanded the Confederate Army of Northern Virginia.", "answer": "Robert E. Lee", "alternates": ["Lee", "Robert Lee"] },
+        { "id": "l4b-civil-war-buffs-2", "rank": 2, "clue": "The Civil War began with the 1861 attack on this fortification in Charleston Harbor.", "answer": "Fort Sumter", "alternates": ["Sumter"] },
+        { "id": "l4b-civil-war-buffs-3", "rank": 3, "clue": "The only president of the Confederate States of America.", "answer": "Jefferson Davis", "alternates": ["Davis"] },
+        { "id": "l4b-civil-war-buffs-4", "rank": 4, "clue": "Lee surrendered to Grant at this Virginia courthouse in April 1865.", "answer": "Appomattox", "alternates": ["Appomattox Court House"] },
+        { "id": "l4b-civil-war-buffs-5", "rank": 5, "clue": "This Union general led the 1864 \"March to the Sea\" from Atlanta to Savannah.", "answer": "William Tecumseh Sherman", "alternates": ["Sherman"] }
+      ]
+    },
+    {
+      "id": "l4b-westward-ho",
+      "name": "Westward Ho",
+      "clues": [
+        { "id": "l4b-westward-ho-1", "rank": 1, "clue": "The 1803 deal with France that roughly doubled the size of the US.", "answer": "Louisiana Purchase", "alternates": [] },
+        { "id": "l4b-westward-ho-2", "rank": 2, "clue": "The two captains who led the Corps of Discovery from 1804 to 1806.", "answer": "Lewis and Clark", "alternates": ["Lewis & Clark", "Meriwether Lewis and William Clark"] },
+        { "id": "l4b-westward-ho-3", "rank": 3, "clue": "This Shoshone woman served as an interpreter for that expedition.", "answer": "Sacagawea", "alternates": ["Sacajawea"] },
+        { "id": "l4b-westward-ho-4", "rank": 4, "clue": "An 1846 treaty with Britain split this territory along the 49th parallel.", "answer": "Oregon", "alternates": ["Oregon Country", "Oregon Territory"] },
+        { "id": "l4b-westward-ho-5", "rank": 5, "clue": "The 1853 land deal with Mexico that secured a southern railroad route.", "answer": "Gadsden Purchase", "alternates": [] }
+      ]
+    },
+    {
+      "id": "l4b-oval-office-hours",
+      "name": "Oval Office Hours",
+      "clues": [
+        { "id": "l4b-oval-office-hours-1", "rank": 1, "clue": "This Civil War general and president appears on the $50 bill.", "answer": "Ulysses S. Grant", "alternates": ["Grant", "Ulysses Grant"] },
+        { "id": "l4b-oval-office-hours-2", "rank": 2, "clue": "The only president elected to more than two terms.", "answer": "Franklin D. Roosevelt", "alternates": ["FDR", "Franklin Roosevelt"] },
+        { "id": "l4b-oval-office-hours-3", "rank": 3, "clue": "His 1823 doctrine warned European powers against new colonization in the Americas.", "answer": "James Monroe", "alternates": ["Monroe"] },
+        { "id": "l4b-oval-office-hours-4", "rank": 4, "clue": "He became president when Warren Harding died in 1923.", "answer": "Calvin Coolidge", "alternates": ["Coolidge"] },
+        { "id": "l4b-oval-office-hours-5", "rank": 5, "clue": "The only president who had previously served as Speaker of the House.", "answer": "James K. Polk", "alternates": ["Polk", "James Polk"] }
+      ]
+    },
+    {
+      "id": "l4b-political-animals",
+      "name": "Political Animals",
+      "clues": [
+        { "id": "l4b-political-animals-1", "rank": 1, "clue": "This military alliance founded in 1949 is headquartered in Brussels.", "answer": "NATO", "alternates": ["North Atlantic Treaty Organization"] },
+        { "id": "l4b-political-animals-2", "rank": 2, "clue": "Rule by a small, privileged group.", "answer": "Oligarchy", "alternates": [] },
+        { "id": "l4b-political-animals-3", "rank": 3, "clue": "This UN body has five permanent members, each holding a veto.", "answer": "Security Council", "alternates": ["UN Security Council"] },
+        { "id": "l4b-political-animals-4", "rank": 4, "clue": "The system in nations like Sweden and Japan, where a hereditary head of state's powers are limited by law.", "answer": "Constitutional monarchy", "alternates": [] },
+        { "id": "l4b-political-animals-5", "rank": 5, "clue": "Machiavelli's treatise on ruling, published in 1532.", "answer": "The Prince", "alternates": ["Prince", "Il Principe"] }
+      ]
+    },
+    {
+      "id": "l4b-fathers-of-their-countries",
+      "name": "Fathers of Their Countries",
+      "clues": [
+        { "id": "l4b-fathers-of-their-countries-1", "rank": 1, "clue": "This founder of modern Turkey took a surname meaning \"Father of the Turks.\"", "answer": "Ataturk", "alternates": ["Mustafa Kemal Ataturk", "Mustafa Kemal"] },
+        { "id": "l4b-fathers-of-their-countries-2", "rank": 2, "clue": "Prussia's \"Iron Chancellor\" engineered the unification of Germany in 1871.", "answer": "Otto von Bismarck", "alternates": ["Bismarck"] },
+        { "id": "l4b-fathers-of-their-countries-3", "rank": 3, "clue": "Called \"The Liberator,\" this Venezuelan-born leader has a South American country named after him.", "answer": "Simon Bolivar", "alternates": ["Bolivar", "Simón Bolívar"] },
+        { "id": "l4b-fathers-of-their-countries-4", "rank": 4, "clue": "Known as Quaid-e-Azam, he was the founder of Pakistan.", "answer": "Muhammad Ali Jinnah", "alternates": ["Jinnah"] },
+        { "id": "l4b-fathers-of-their-countries-5", "rank": 5, "clue": "He led Ghana to independence in 1957 and became its first president.", "answer": "Kwame Nkrumah", "alternates": ["Nkrumah"] }
+      ]
+    }
+  ]
+}

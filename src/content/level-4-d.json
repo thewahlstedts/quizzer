@@ -1,0 +1,2237 @@
+{
+  "level": 4,
+  "categories": [
+    {
+      "id": "l4d-word-origins",
+      "name": "Word Origins",
+      "clues": [
+        {
+          "id": "l4d-word-origins-1",
+          "rank": 1,
+          "clue": "\"Salary\" is thought to come from the Latin word for this seasoning, once a valuable commodity.",
+          "answer": "Salt",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-origins-2",
+          "rank": 2,
+          "clue": "This word for unwanted email is widely traced to a Monty Python sketch about a canned meat.",
+          "answer": "Spam",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-origins-3",
+          "rank": 3,
+          "clue": "From Venetian Italian for \"forty days,\" this word names a period of enforced isolation.",
+          "answer": "Quarantine",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-origins-4",
+          "rank": 4,
+          "clue": "Thomas More coined this word, from Greek for \"no place,\" for his 1516 ideal island society.",
+          "answer": "Utopia",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-origins-5",
+          "rank": 5,
+          "clue": "This body word comes from the Latin for \"little mouse,\" supposedly because it seems to scurry under the skin.",
+          "answer": "Muscle",
+          "alternates": [
+            "Muscles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-name-dropping",
+      "name": "Name Dropping",
+      "clues": [
+        {
+          "id": "l4d-name-dropping-1",
+          "rank": 1,
+          "clue": "This lunch staple is named for the 4th Earl of a Kentish town who supposedly ate one at the card table.",
+          "answer": "Sandwich",
+          "alternates": []
+        },
+        {
+          "id": "l4d-name-dropping-2",
+          "rank": 2,
+          "clue": "Refusing to deal with someone comes from the name of a Captain shunned by Irish tenants in 1880.",
+          "answer": "Boycott",
+          "alternates": []
+        },
+        {
+          "id": "l4d-name-dropping-3",
+          "rank": 3,
+          "clue": "This snug one-piece garment for dancers is named for a 19th-century French trapeze artist.",
+          "answer": "Leotard",
+          "alternates": []
+        },
+        {
+          "id": "l4d-name-dropping-4",
+          "rank": 4,
+          "clue": "Union General Ambrose Burnside lent his name, in reversed form, to this facial-hair style.",
+          "answer": "Sideburns",
+          "alternates": []
+        },
+        {
+          "id": "l4d-name-dropping-5",
+          "rank": 5,
+          "clue": "Excessive, aggressive patriotism is named for Nicolas Chauvin, a possibly legendary soldier of this French emperor.",
+          "answer": "Napoleon",
+          "alternates": [
+            "Napoleon Bonaparte",
+            "Bonaparte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-foreign-exchange",
+      "name": "Foreign Exchange",
+      "clues": [
+        {
+          "id": "l4d-foreign-exchange-1",
+          "rank": 1,
+          "clue": "French for \"already seen,\" it's the eerie sense you've lived a moment before.",
+          "answer": "Deja vu",
+          "alternates": []
+        },
+        {
+          "id": "l4d-foreign-exchange-2",
+          "rank": 2,
+          "clue": "Horace's Latin advice to \"seize the day.\"",
+          "answer": "Carpe diem",
+          "alternates": []
+        },
+        {
+          "id": "l4d-foreign-exchange-3",
+          "rank": 3,
+          "clue": "German word for the pleasure taken in someone else's misfortune.",
+          "answer": "Schadenfreude",
+          "alternates": []
+        },
+        {
+          "id": "l4d-foreign-exchange-4",
+          "rank": 4,
+          "clue": "Latin for \"in glass,\" it describes experiments performed in a test tube or dish.",
+          "answer": "In vitro",
+          "alternates": []
+        },
+        {
+          "id": "l4d-foreign-exchange-5",
+          "rank": 5,
+          "clue": "Italian phrase meaning \"sweet doing nothing,\" the art of pleasant idleness.",
+          "answer": "Dolce far niente",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-rhyme-and-reason",
+      "name": "Rhyme & Reason",
+      "clues": [
+        {
+          "id": "l4d-rhyme-and-reason-1",
+          "rank": 1,
+          "clue": "The emigration of a country's highly skilled workers is called this rhyming phrase.",
+          "answer": "Brain drain",
+          "alternates": []
+        },
+        {
+          "id": "l4d-rhyme-and-reason-2",
+          "rank": 2,
+          "clue": "Rhyming slang for a sharp, savvy lawyer.",
+          "answer": "Legal eagle",
+          "alternates": []
+        },
+        {
+          "id": "l4d-rhyme-and-reason-3",
+          "rank": 3,
+          "clue": "To get down to the basic, practical details is to get down to this rhyming term.",
+          "answer": "Nitty-gritty",
+          "alternates": [
+            "Nitty gritty"
+          ]
+        },
+        {
+          "id": "l4d-rhyme-and-reason-4",
+          "rank": 4,
+          "clue": "A rhyming term for someone who avidly, perhaps pretentiously, consumes the arts.",
+          "answer": "Culture vulture",
+          "alternates": []
+        },
+        {
+          "id": "l4d-rhyme-and-reason-5",
+          "rank": 5,
+          "clue": "Macbeth's witches plan to meet again \"when the ___'s done,\" using this rhyming word for commotion.",
+          "answer": "Hurly-burly",
+          "alternates": [
+            "Hurlyburly",
+            "Hurly burly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-before-and-after-hours",
+      "name": "Before & After Hours",
+      "clues": [
+        {
+          "id": "l4d-before-and-after-hours-1",
+          "rank": 1,
+          "clue": "A slice of fruity American dessert that also displays data in wedges.",
+          "answer": "Apple pie chart",
+          "alternates": []
+        },
+        {
+          "id": "l4d-before-and-after-hours-2",
+          "rank": 2,
+          "clue": "An eggy, fried breakfast bread that also presides over the speeches at a banquet.",
+          "answer": "French toastmaster",
+          "alternates": []
+        },
+        {
+          "id": "l4d-before-and-after-hours-3",
+          "rank": 3,
+          "clue": "A low living-room table that's also the formal name for ping-pong.",
+          "answer": "Coffee table tennis",
+          "alternates": []
+        },
+        {
+          "id": "l4d-before-and-after-hours-4",
+          "rank": 4,
+          "clue": "The peak commuting period that becomes a sand timer.",
+          "answer": "Rush hourglass",
+          "alternates": []
+        },
+        {
+          "id": "l4d-before-and-after-hours-5",
+          "rank": 5,
+          "clue": "California's tech hub that was also Washington's winter camp of 1777-78.",
+          "answer": "Silicon Valley Forge",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-anagram-appetizers",
+      "name": "Anagram Appetizers",
+      "clues": [
+        {
+          "id": "l4d-anagram-appetizers-1",
+          "rank": 1,
+          "clue": "Rearrange LEMON to get this summer fruit.",
+          "answer": "Melon",
+          "alternates": []
+        },
+        {
+          "id": "l4d-anagram-appetizers-2",
+          "rank": 2,
+          "clue": "Rearrange CHEAP to get this fuzzy stone fruit.",
+          "answer": "Peach",
+          "alternates": []
+        },
+        {
+          "id": "l4d-anagram-appetizers-3",
+          "rank": 3,
+          "clue": "Spell STRESSED backward to get these sweet courses.",
+          "answer": "Desserts",
+          "alternates": [
+            "Dessert"
+          ]
+        },
+        {
+          "id": "l4d-anagram-appetizers-4",
+          "rank": 4,
+          "clue": "Rearrange AMONG to get this tropical fruit.",
+          "answer": "Mango",
+          "alternates": []
+        },
+        {
+          "id": "l4d-anagram-appetizers-5",
+          "rank": 5,
+          "clue": "Rearrange ARGENTINE to get this small citrus fruit.",
+          "answer": "Tangerine",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-crosswordese",
+      "name": "Crosswordese",
+      "clues": [
+        {
+          "id": "l4d-crosswordese-1",
+          "rank": 1,
+          "clue": "4 letters: Cream-filled sandwich cookie that fills many a grid.",
+          "answer": "Oreo",
+          "alternates": []
+        },
+        {
+          "id": "l4d-crosswordese-2",
+          "rank": 2,
+          "clue": "4 letters: Succulent plant whose gel soothes sunburn.",
+          "answer": "Aloe",
+          "alternates": [
+            "Aloe vera"
+          ]
+        },
+        {
+          "id": "l4d-crosswordese-3",
+          "rank": 3,
+          "clue": "4 letters: Fencing sword heavier than a foil.",
+          "answer": "Epee",
+          "alternates": []
+        },
+        {
+          "id": "l4d-crosswordese-4",
+          "rank": 4,
+          "clue": "4 letters: Sea eagle.",
+          "answer": "Erne",
+          "alternates": []
+        },
+        {
+          "id": "l4d-crosswordese-5",
+          "rank": 5,
+          "clue": "4 letters: Small ornamental case for needles.",
+          "answer": "Etui",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-formerly-known-as",
+      "name": "Formerly Known As",
+      "clues": [
+        {
+          "id": "l4d-formerly-known-as-1",
+          "rank": 1,
+          "clue": "Phil Knight's Blue Ribbon Sports took this name of a Greek goddess of victory.",
+          "answer": "Nike",
+          "alternates": []
+        },
+        {
+          "id": "l4d-formerly-known-as-2",
+          "rank": 2,
+          "clue": "In 1898 pharmacist Caleb Bradham renamed his \"Brad's Drink\" this.",
+          "answer": "Pepsi-Cola",
+          "alternates": [
+            "Pepsi"
+          ]
+        },
+        {
+          "id": "l4d-formerly-known-as-3",
+          "rank": 3,
+          "clue": "Larry Page and Sergey Brin's search engine was first called this, after the links pointing to a page.",
+          "answer": "BackRub",
+          "alternates": []
+        },
+        {
+          "id": "l4d-formerly-known-as-4",
+          "rank": 4,
+          "clue": "The Computing-Tabulating-Recording Company adopted this name in 1924.",
+          "answer": "IBM",
+          "alternates": [
+            "International Business Machines"
+          ]
+        },
+        {
+          "id": "l4d-formerly-known-as-5",
+          "rank": 5,
+          "clue": "Tokyo Tsushin Kogyo switched to this short, catchy name in 1958.",
+          "answer": "Sony",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-logo-motion",
+      "name": "Logo Motion",
+      "clues": [
+        {
+          "id": "l4d-logo-motion-1",
+          "rank": 1,
+          "clue": "This coffee chain's logo features a twin-tailed siren.",
+          "answer": "Starbucks",
+          "alternates": []
+        },
+        {
+          "id": "l4d-logo-motion-2",
+          "rank": 2,
+          "clue": "This shipping company's logo hides a right-pointing arrow between its last two letters.",
+          "answer": "FedEx",
+          "alternates": [
+            "Federal Express"
+          ]
+        },
+        {
+          "id": "l4d-logo-motion-3",
+          "rank": 3,
+          "clue": "This Japanese automaker's logo shows the Pleiades star cluster.",
+          "answer": "Subaru",
+          "alternates": []
+        },
+        {
+          "id": "l4d-logo-motion-4",
+          "rank": 4,
+          "clue": "The Michelin Man's official name, taken from a Latin toast.",
+          "answer": "Bibendum",
+          "alternates": []
+        },
+        {
+          "id": "l4d-logo-motion-5",
+          "rank": 5,
+          "clue": "This Italian automaker's badge pairs a red cross with a crowned serpent.",
+          "answer": "Alfa Romeo",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-founders-keepers",
+      "name": "Founders Keepers",
+      "clues": [
+        {
+          "id": "l4d-founders-keepers-1",
+          "rank": 1,
+          "clue": "In 1886 Atlanta pharmacist John Pemberton created this soft drink.",
+          "answer": "Coca-Cola",
+          "alternates": [
+            "Coke"
+          ]
+        },
+        {
+          "id": "l4d-founders-keepers-2",
+          "rank": 2,
+          "clue": "Sam Walton opened the first store of this retail chain in Rogers, Arkansas, in 1962.",
+          "answer": "Walmart",
+          "alternates": [
+            "Wal-Mart"
+          ]
+        },
+        {
+          "id": "l4d-founders-keepers-3",
+          "rank": 3,
+          "clue": "Ray Kroc bought out brothers Dick and Mac and built their burger stand into this global chain.",
+          "answer": "McDonald's",
+          "alternates": [
+            "McDonalds"
+          ]
+        },
+        {
+          "id": "l4d-founders-keepers-4",
+          "rank": 4,
+          "clue": "Adi Dassler founded this German sportswear firm; his brother Rudolf founded rival Puma.",
+          "answer": "Adidas",
+          "alternates": []
+        },
+        {
+          "id": "l4d-founders-keepers-5",
+          "rank": 5,
+          "clue": "A candle maker and a soap maker founded this Cincinnati consumer-goods giant in 1837.",
+          "answer": "Procter & Gamble",
+          "alternates": [
+            "Procter and Gamble",
+            "P&G"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-say-cheese",
+      "name": "Say Cheese",
+      "clues": [
+        {
+          "id": "l4d-say-cheese-1",
+          "rank": 1,
+          "clue": "Crumbly Greek brined cheese traditionally made with sheep's milk.",
+          "answer": "Feta",
+          "alternates": []
+        },
+        {
+          "id": "l4d-say-cheese-2",
+          "rank": 2,
+          "clue": "Italian cheese whose name means \"recooked,\" made from whey.",
+          "answer": "Ricotta",
+          "alternates": []
+        },
+        {
+          "id": "l4d-say-cheese-3",
+          "rank": 3,
+          "clue": "Dutch cheese named for a town, famously sold coated in red wax.",
+          "answer": "Edam",
+          "alternates": []
+        },
+        {
+          "id": "l4d-say-cheese-4",
+          "rank": 4,
+          "clue": "Blue sheep's-milk cheese aged in caves beneath a southern French village.",
+          "answer": "Roquefort",
+          "alternates": []
+        },
+        {
+          "id": "l4d-say-cheese-5",
+          "rank": 5,
+          "clue": "Swiss cheese whose name comes from the French for \"to scrape,\" melted and scraped over potatoes.",
+          "answer": "Raclette",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-pasta-la-vista",
+      "name": "Pasta La Vista",
+      "clues": [
+        {
+          "id": "l4d-pasta-la-vista-1",
+          "rank": 1,
+          "clue": "Flat pasta whose name means \"little tongues.\"",
+          "answer": "Linguine",
+          "alternates": [
+            "Linguini"
+          ]
+        },
+        {
+          "id": "l4d-pasta-la-vista-2",
+          "rank": 2,
+          "clue": "Rice-shaped pasta whose name is Italian for \"barley.\"",
+          "answer": "Orzo",
+          "alternates": []
+        },
+        {
+          "id": "l4d-pasta-la-vista-3",
+          "rank": 3,
+          "clue": "Bow-tie pasta named from the Italian for \"butterflies.\"",
+          "answer": "Farfalle",
+          "alternates": []
+        },
+        {
+          "id": "l4d-pasta-la-vista-4",
+          "rank": 4,
+          "clue": "\"Little ears\" pasta typical of Puglia.",
+          "answer": "Orecchiette",
+          "alternates": []
+        },
+        {
+          "id": "l4d-pasta-la-vista-5",
+          "rank": 5,
+          "clue": "Twisted pasta whose name translates as \"priest stranglers.\"",
+          "answer": "Strozzapreti",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-global-grub",
+      "name": "Global Grub",
+      "clues": [
+        {
+          "id": "l4d-global-grub-1",
+          "rank": 1,
+          "clue": "Saffron-tinted rice dish from Valencia, cooked in a wide, shallow pan.",
+          "answer": "Paella",
+          "alternates": []
+        },
+        {
+          "id": "l4d-global-grub-2",
+          "rank": 2,
+          "clue": "Spicy fermented vegetables, usually napa cabbage, essential to Korean meals.",
+          "answer": "Kimchi",
+          "alternates": [
+            "Kimchee"
+          ]
+        },
+        {
+          "id": "l4d-global-grub-3",
+          "rank": 3,
+          "clue": "Hungarian herdsman's stew richly seasoned with paprika.",
+          "answer": "Goulash",
+          "alternates": []
+        },
+        {
+          "id": "l4d-global-grub-4",
+          "rank": 4,
+          "clue": "Latin American dish of raw fish \"cooked\" in citrus juice, a pride of Peru.",
+          "answer": "Ceviche",
+          "alternates": [
+            "Seviche",
+            "Cebiche"
+          ]
+        },
+        {
+          "id": "l4d-global-grub-5",
+          "rank": 5,
+          "clue": "Brazil's national dish, a slow-cooked stew of black beans and pork.",
+          "answer": "Feijoada",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-spice-world",
+      "name": "Spice World",
+      "clues": [
+        {
+          "id": "l4d-spice-world-1",
+          "rank": 1,
+          "clue": "Golden root spice that gives curry its color, thanks to curcumin.",
+          "answer": "Turmeric",
+          "alternates": []
+        },
+        {
+          "id": "l4d-spice-world-2",
+          "rank": 2,
+          "clue": "Spice made from the inner bark of trees in the genus Cinnamomum.",
+          "answer": "Cinnamon",
+          "alternates": []
+        },
+        {
+          "id": "l4d-spice-world-3",
+          "rank": 3,
+          "clue": "Dried unopened flower buds often studded into oranges to make pomanders.",
+          "answer": "Cloves",
+          "alternates": [
+            "Clove"
+          ]
+        },
+        {
+          "id": "l4d-spice-world-4",
+          "rank": 4,
+          "clue": "This lacy red covering of the nutmeg seed is sold as a separate spice.",
+          "answer": "Mace",
+          "alternates": []
+        },
+        {
+          "id": "l4d-spice-world-5",
+          "rank": 5,
+          "clue": "Star-shaped pod that gives Chinese five-spice its licorice note.",
+          "answer": "Star anise",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-sauce-boss",
+      "name": "Sauce Boss",
+      "clues": [
+        {
+          "id": "l4d-sauce-boss-1",
+          "rank": 1,
+          "clue": "Genoese sauce of basil, pine nuts, garlic, cheese and olive oil.",
+          "answer": "Pesto",
+          "alternates": []
+        },
+        {
+          "id": "l4d-sauce-boss-2",
+          "rank": 2,
+          "clue": "French \"mother sauce\" of milk thickened with a white roux.",
+          "answer": "Bechamel",
+          "alternates": []
+        },
+        {
+          "id": "l4d-sauce-boss-3",
+          "rank": 3,
+          "clue": "Japanese sweet soy glaze whose name means \"glossy grilling.\"",
+          "answer": "Teriyaki",
+          "alternates": []
+        },
+        {
+          "id": "l4d-sauce-boss-4",
+          "rank": 4,
+          "clue": "Rich Mexican sauce of chilies and spices, sometimes including chocolate.",
+          "answer": "Mole",
+          "alternates": []
+        },
+        {
+          "id": "l4d-sauce-boss-5",
+          "rank": 5,
+          "clue": "Tarragon-scented offshoot of hollandaise, a classic partner for steak.",
+          "answer": "Bearnaise",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-just-desserts",
+      "name": "Just Desserts",
+      "clues": [
+        {
+          "id": "l4d-just-desserts-1",
+          "rank": 1,
+          "clue": "Italian dessert of coffee-soaked ladyfingers and mascarpone whose name means \"pick me up.\"",
+          "answer": "Tiramisu",
+          "alternates": []
+        },
+        {
+          "id": "l4d-just-desserts-2",
+          "rank": 2,
+          "clue": "Meringue dessert topped with fruit, named for a Russian ballerina.",
+          "answer": "Pavlova",
+          "alternates": []
+        },
+        {
+          "id": "l4d-just-desserts-3",
+          "rank": 3,
+          "clue": "Chilled custard beneath a crackly layer of caramelized sugar.",
+          "answer": "Creme brulee",
+          "alternates": []
+        },
+        {
+          "id": "l4d-just-desserts-4",
+          "rank": 4,
+          "clue": "Escoffier created this peach-and-raspberry dessert for an Australian soprano.",
+          "answer": "Peach Melba",
+          "alternates": []
+        },
+        {
+          "id": "l4d-just-desserts-5",
+          "rank": 5,
+          "clue": "Cake and ice cream encased in browned meringue, named for a U.S. territory purchased in 1867.",
+          "answer": "Baked Alaska",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-rise-and-dine",
+      "name": "Rise & Dine",
+      "clues": [
+        {
+          "id": "l4d-rise-and-dine-1",
+          "rank": 1,
+          "clue": "Poached eggs, Canadian bacon and hollandaise on an English muffin make eggs this.",
+          "answer": "Benedict",
+          "alternates": [
+            "Eggs Benedict"
+          ]
+        },
+        {
+          "id": "l4d-rise-and-dine-2",
+          "rank": 2,
+          "clue": "Brothers in Battle Creek, Michigan, who gave the world Corn Flakes.",
+          "answer": "Kellogg",
+          "alternates": [
+            "Kellogg brothers",
+            "Kelloggs"
+          ]
+        },
+        {
+          "id": "l4d-rise-and-dine-3",
+          "rank": 3,
+          "clue": "Swiss mix of oats, nuts and fruit popularized by Dr. Maximilian Bircher-Benner.",
+          "answer": "Muesli",
+          "alternates": []
+        },
+        {
+          "id": "l4d-rise-and-dine-4",
+          "rank": 4,
+          "clue": "North African and Middle Eastern dish of eggs poached in a spiced tomato sauce.",
+          "answer": "Shakshuka",
+          "alternates": [
+            "Shakshouka"
+          ]
+        },
+        {
+          "id": "l4d-rise-and-dine-5",
+          "rank": 5,
+          "clue": "Anglo-Indian breakfast of rice, flaked smoked fish and hard-boiled eggs.",
+          "answer": "Kedgeree",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-bread-winners",
+      "name": "Bread Winners",
+      "clues": [
+        {
+          "id": "l4d-bread-winners-1",
+          "rank": 1,
+          "clue": "Long, thin French loaf with a crisp crust.",
+          "answer": "Baguette",
+          "alternates": []
+        },
+        {
+          "id": "l4d-bread-winners-2",
+          "rank": 2,
+          "clue": "Leavened flatbread traditionally slapped onto the wall of a tandoor oven.",
+          "answer": "Naan",
+          "alternates": [
+            "Nan"
+          ]
+        },
+        {
+          "id": "l4d-bread-winners-3",
+          "rank": 3,
+          "clue": "Italian flatbread dimpled and drizzled with olive oil.",
+          "answer": "Focaccia",
+          "alternates": []
+        },
+        {
+          "id": "l4d-bread-winners-4",
+          "rank": 4,
+          "clue": "Braided egg bread eaten on the Jewish Sabbath.",
+          "answer": "Challah",
+          "alternates": []
+        },
+        {
+          "id": "l4d-bread-winners-5",
+          "rank": 5,
+          "clue": "German Christmas loaf studded with dried fruit and dusted with powdered sugar.",
+          "answer": "Stollen",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-fruit-loopy",
+      "name": "Fruit Loopy",
+      "clues": [
+        {
+          "id": "l4d-fruit-loopy-1",
+          "rank": 1,
+          "clue": "This tangy citrus fruit was supposedly named for growing in clusters like a vine fruit.",
+          "answer": "Grapefruit",
+          "alternates": []
+        },
+        {
+          "id": "l4d-fruit-loopy-2",
+          "rank": 2,
+          "clue": "New Zealand exporters renamed the Chinese gooseberry after this flightless bird.",
+          "answer": "Kiwi",
+          "alternates": [
+            "Kiwifruit"
+          ]
+        },
+        {
+          "id": "l4d-fruit-loopy-3",
+          "rank": 3,
+          "clue": "Spiky Southeast Asian fruit so pungent it's banned on some public transit.",
+          "answer": "Durian",
+          "alternates": []
+        },
+        {
+          "id": "l4d-fruit-loopy-4",
+          "rank": 4,
+          "clue": "Fruit of the Opuntia cactus, also called tuna in Spanish.",
+          "answer": "Prickly pear",
+          "alternates": []
+        },
+        {
+          "id": "l4d-fruit-loopy-5",
+          "rank": 5,
+          "clue": "Fragrant Japanese citrus prized for its zest and juice in ponzu.",
+          "answer": "Yuzu",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-kitchen-lingo",
+      "name": "Kitchen Lingo",
+      "clues": [
+        {
+          "id": "l4d-kitchen-lingo-1",
+          "rank": 1,
+          "clue": "To cut vegetables into thin matchsticks.",
+          "answer": "Julienne",
+          "alternates": []
+        },
+        {
+          "id": "l4d-kitchen-lingo-2",
+          "rank": 2,
+          "clue": "French for \"under vacuum,\" it's cooking sealed food in a precisely heated water bath.",
+          "answer": "Sous vide",
+          "alternates": []
+        },
+        {
+          "id": "l4d-kitchen-lingo-3",
+          "rank": 3,
+          "clue": "To add liquid to a hot pan to loosen the browned bits stuck to it.",
+          "answer": "Deglaze",
+          "alternates": []
+        },
+        {
+          "id": "l4d-kitchen-lingo-4",
+          "rank": 4,
+          "clue": "French for \"everything in its place,\" the prep done before cooking begins.",
+          "answer": "Mise en place",
+          "alternates": []
+        },
+        {
+          "id": "l4d-kitchen-lingo-5",
+          "rank": 5,
+          "clue": "Diced onion, carrot and celery forming the base of many French dishes.",
+          "answer": "Mirepoix",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-wall-street-smarts",
+      "name": "Wall Street Smarts",
+      "clues": [
+        {
+          "id": "l4d-wall-street-smarts-1",
+          "rank": 1,
+          "clue": "A market in prolonged decline is named for this animal, which swipes its paws downward.",
+          "answer": "Bear",
+          "alternates": [
+            "Bear market"
+          ]
+        },
+        {
+          "id": "l4d-wall-street-smarts-2",
+          "rank": 2,
+          "clue": "Three-letter abbreviation for a company's first sale of stock to the public.",
+          "answer": "IPO",
+          "alternates": [
+            "Initial public offering"
+          ]
+        },
+        {
+          "id": "l4d-wall-street-smarts-3",
+          "rank": 3,
+          "clue": "Startup valued at $1 billion or more, named for a mythical horned creature.",
+          "answer": "Unicorn",
+          "alternates": []
+        },
+        {
+          "id": "l4d-wall-street-smarts-4",
+          "rank": 4,
+          "clue": "Lavish payout guaranteed to an executive who loses their job in a takeover.",
+          "answer": "Golden parachute",
+          "alternates": []
+        },
+        {
+          "id": "l4d-wall-street-smarts-5",
+          "rank": 5,
+          "clue": "Takeover defense letting shareholders buy extra shares at a discount, making the target hard to swallow.",
+          "answer": "Poison pill",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-company-towns",
+      "name": "Company Towns",
+      "clues": [
+        {
+          "id": "l4d-company-towns-1",
+          "rank": 1,
+          "clue": "Coca-Cola has its headquarters in this Georgia city.",
+          "answer": "Atlanta",
+          "alternates": []
+        },
+        {
+          "id": "l4d-company-towns-2",
+          "rank": 2,
+          "clue": "Microsoft's main campus is in this Washington city.",
+          "answer": "Redmond",
+          "alternates": []
+        },
+        {
+          "id": "l4d-company-towns-3",
+          "rank": 3,
+          "clue": "Warren Buffett's holding company is based in this Nebraska city.",
+          "answer": "Omaha",
+          "alternates": []
+        },
+        {
+          "id": "l4d-company-towns-4",
+          "rank": 4,
+          "clue": "Walmart is headquartered in this northwest Arkansas city.",
+          "answer": "Bentonville",
+          "alternates": []
+        },
+        {
+          "id": "l4d-company-towns-5",
+          "rank": 5,
+          "clue": "Nike's world headquarters sits near this Oregon city west of Portland.",
+          "answer": "Beaverton",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-generic-brands",
+      "name": "Generic Brands",
+      "clues": [
+        {
+          "id": "l4d-generic-brands-1",
+          "rank": 1,
+          "clue": "Johnson & Johnson brand that became a generic term for an adhesive bandage.",
+          "answer": "Band-Aid",
+          "alternates": [
+            "Band aid"
+          ]
+        },
+        {
+          "id": "l4d-generic-brands-2",
+          "rank": 2,
+          "clue": "Wham-O's brand name for a plastic flying disc.",
+          "answer": "Frisbee",
+          "alternates": []
+        },
+        {
+          "id": "l4d-generic-brands-3",
+          "rank": 3,
+          "clue": "Bayer's trademark for acetylsalicylic acid, which lost protection in the U.S.",
+          "answer": "Aspirin",
+          "alternates": []
+        },
+        {
+          "id": "l4d-generic-brands-4",
+          "rank": 4,
+          "clue": "Otis Elevator Company once held the trademark on this word for a moving staircase.",
+          "answer": "Escalator",
+          "alternates": []
+        },
+        {
+          "id": "l4d-generic-brands-5",
+          "rank": 5,
+          "clue": "B.F. Goodrich trademarked this word for a slide fastener on its rubber boots.",
+          "answer": "Zipper",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-slogan-sense",
+      "name": "Slogan Sense",
+      "clues": [
+        {
+          "id": "l4d-slogan-sense-1",
+          "rank": 1,
+          "clue": "\"Melts in your mouth, not in your hand.\"",
+          "answer": "M&M's",
+          "alternates": [
+            "M&Ms",
+            "M and Ms"
+          ]
+        },
+        {
+          "id": "l4d-slogan-sense-2",
+          "rank": 2,
+          "clue": "\"Finger lickin' good.\"",
+          "answer": "KFC",
+          "alternates": [
+            "Kentucky Fried Chicken"
+          ]
+        },
+        {
+          "id": "l4d-slogan-sense-3",
+          "rank": 3,
+          "clue": "\"The ultimate driving machine.\"",
+          "answer": "BMW",
+          "alternates": []
+        },
+        {
+          "id": "l4d-slogan-sense-4",
+          "rank": 4,
+          "clue": "\"Snap! Crackle! Pop!\"",
+          "answer": "Rice Krispies",
+          "alternates": []
+        },
+        {
+          "id": "l4d-slogan-sense-5",
+          "rank": 5,
+          "clue": "\"Good to the last drop.\"",
+          "answer": "Maxwell House",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-toy-chest",
+      "name": "Toy Chest",
+      "clues": [
+        {
+          "id": "l4d-toy-chest-1",
+          "rank": 1,
+          "clue": "Danish brick maker whose name comes from \"leg godt,\" meaning \"play well.\"",
+          "answer": "Lego",
+          "alternates": []
+        },
+        {
+          "id": "l4d-toy-chest-2",
+          "rank": 2,
+          "clue": "Ruth Handler named this 1959 Mattel doll after her daughter.",
+          "answer": "Barbie",
+          "alternates": []
+        },
+        {
+          "id": "l4d-toy-chest-3",
+          "rank": 3,
+          "clue": "Hungarian architecture professor Erno's 1974 twisting puzzle with 54 colored stickers.",
+          "answer": "Rubik's Cube",
+          "alternates": [
+            "Rubiks Cube",
+            "Rubik Cube"
+          ]
+        },
+        {
+          "id": "l4d-toy-chest-4",
+          "rank": 4,
+          "clue": "Naval engineer Richard James watched a spring tumble and created this walking toy.",
+          "answer": "Slinky",
+          "alternates": []
+        },
+        {
+          "id": "l4d-toy-chest-5",
+          "rank": 5,
+          "clue": "This modeling compound began life as a wallpaper cleaner.",
+          "answer": "Play-Doh",
+          "alternates": [
+            "Play Doh",
+            "Playdough"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-happy-accidents",
+      "name": "Happy Accidents",
+      "clues": [
+        {
+          "id": "l4d-happy-accidents-1",
+          "rank": 1,
+          "clue": "Percy Spencer noticed a candy bar melting near a magnetron and invented this appliance.",
+          "answer": "Microwave oven",
+          "alternates": [
+            "Microwave"
+          ]
+        },
+        {
+          "id": "l4d-happy-accidents-2",
+          "rank": 2,
+          "clue": "George de Mestral modeled this fastener on burrs that clung to his dog.",
+          "answer": "Velcro",
+          "alternates": []
+        },
+        {
+          "id": "l4d-happy-accidents-3",
+          "rank": 3,
+          "clue": "Spencer Silver's \"failed\" weak adhesive became this 3M office staple.",
+          "answer": "Post-it Note",
+          "alternates": [
+            "Post-it",
+            "Post-it Notes",
+            "Sticky note"
+          ]
+        },
+        {
+          "id": "l4d-happy-accidents-4",
+          "rank": 4,
+          "clue": "Frank Epperson called his frozen treat on a stick the \"Epsicle\" before it got this name.",
+          "answer": "Popsicle",
+          "alternates": []
+        },
+        {
+          "id": "l4d-happy-accidents-5",
+          "rank": 5,
+          "clue": "Roy Plunkett of DuPont accidentally discovered this slippery polymer in 1938.",
+          "answer": "Teflon",
+          "alternates": [
+            "PTFE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-patent-pending",
+      "name": "Patent Pending",
+      "clues": [
+        {
+          "id": "l4d-patent-pending-1",
+          "rank": 1,
+          "clue": "This Yale graduate patented the cotton gin in 1794.",
+          "answer": "Eli Whitney",
+          "alternates": [
+            "Whitney"
+          ]
+        },
+        {
+          "id": "l4d-patent-pending-2",
+          "rank": 2,
+          "clue": "Elisha Otis dramatically demonstrated a safety brake for this device in 1854.",
+          "answer": "Elevator",
+          "alternates": [
+            "Lift"
+          ]
+        },
+        {
+          "id": "l4d-patent-pending-3",
+          "rank": 3,
+          "clue": "Josephine Cochrane patented this kitchen appliance in 1886.",
+          "answer": "Dishwasher",
+          "alternates": []
+        },
+        {
+          "id": "l4d-patent-pending-4",
+          "rank": 4,
+          "clue": "King Camp Gillette made his fortune with disposable blades for this.",
+          "answer": "Safety razor",
+          "alternates": [
+            "Razor"
+          ]
+        },
+        {
+          "id": "l4d-patent-pending-5",
+          "rank": 5,
+          "clue": "Typist Bette Nesmith Graham invented this correction fluid, first sold as \"Mistake Out.\"",
+          "answer": "Liquid Paper",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-fashion-statements",
+      "name": "Fashion Statements",
+      "clues": [
+        {
+          "id": "l4d-fashion-statements-1",
+          "rank": 1,
+          "clue": "Coco Chanel made this simple, short, dark garment a wardrobe essential.",
+          "answer": "Little black dress",
+          "alternates": [
+            "LBD"
+          ]
+        },
+        {
+          "id": "l4d-fashion-statements-2",
+          "rank": 2,
+          "clue": "This two-piece swimsuit was named for a Pacific atoll used for nuclear tests.",
+          "answer": "Bikini",
+          "alternates": []
+        },
+        {
+          "id": "l4d-fashion-statements-3",
+          "rank": 3,
+          "clue": "This sturdy cotton twill takes its name from the French city of Nimes.",
+          "answer": "Denim",
+          "alternates": []
+        },
+        {
+          "id": "l4d-fashion-statements-4",
+          "rank": 4,
+          "clue": "Button-front knit sweater named for a British earl who led the Charge of the Light Brigade.",
+          "answer": "Cardigan",
+          "alternates": []
+        },
+        {
+          "id": "l4d-fashion-statements-5",
+          "rank": 5,
+          "clue": "Teardrop-shaped textile motif named for a Scottish town where it was woven.",
+          "answer": "Paisley",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-haute-stuff",
+      "name": "Haute Stuff",
+      "clues": [
+        {
+          "id": "l4d-haute-stuff-1",
+          "rank": 1,
+          "clue": "This designer launched No. 5 perfume in 1921.",
+          "answer": "Coco Chanel",
+          "alternates": [
+            "Chanel",
+            "Gabrielle Chanel"
+          ]
+        },
+        {
+          "id": "l4d-haute-stuff-2",
+          "rank": 2,
+          "clue": "His 1947 \"New Look\" revived postwar fashion with full skirts and cinched waists.",
+          "answer": "Christian Dior",
+          "alternates": [
+            "Dior"
+          ]
+        },
+        {
+          "id": "l4d-haute-stuff-3",
+          "rank": 3,
+          "clue": "This trunk maker's fashion house is known by its \"LV\" monogram.",
+          "answer": "Louis Vuitton",
+          "alternates": [
+            "Vuitton"
+          ]
+        },
+        {
+          "id": "l4d-haute-stuff-4",
+          "rank": 4,
+          "clue": "Italian fashion house whose logo is the head of Medusa.",
+          "answer": "Versace",
+          "alternates": []
+        },
+        {
+          "id": "l4d-haute-stuff-5",
+          "rank": 5,
+          "clue": "French designer known for the red-lacquered soles of his shoes.",
+          "answer": "Christian Louboutin",
+          "alternates": [
+            "Louboutin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-hat-trick",
+      "name": "Hat Trick",
+      "clues": [
+        {
+          "id": "l4d-hat-trick-1",
+          "rank": 1,
+          "clue": "Abraham Lincoln's tall, cylindrical hat style.",
+          "answer": "Stovepipe",
+          "alternates": [
+            "Stovepipe hat",
+            "Top hat"
+          ]
+        },
+        {
+          "id": "l4d-hat-trick-2",
+          "rank": 2,
+          "clue": "Soft felt hat with a creased crown, named for an 1882 Victorien Sardou play.",
+          "answer": "Fedora",
+          "alternates": []
+        },
+        {
+          "id": "l4d-hat-trick-3",
+          "rank": 3,
+          "clue": "Woven straw hat made in Ecuador but named for a Central American country.",
+          "answer": "Panama hat",
+          "alternates": [
+            "Panama"
+          ]
+        },
+        {
+          "id": "l4d-hat-trick-4",
+          "rank": 4,
+          "clue": "Rounded hard felt hat called a derby in the United States.",
+          "answer": "Bowler",
+          "alternates": [
+            "Bowler hat"
+          ]
+        },
+        {
+          "id": "l4d-hat-trick-5",
+          "rank": 5,
+          "clue": "Brimless red felt hat with a tassel, named for a Moroccan city.",
+          "answer": "Fez",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-on-the-move",
+      "name": "On the Move",
+      "clues": [
+        {
+          "id": "l4d-on-the-move-1",
+          "rank": 1,
+          "clue": "This supersonic airliner made its final commercial flights in 2003.",
+          "answer": "Concorde",
+          "alternates": []
+        },
+        {
+          "id": "l4d-on-the-move-2",
+          "rank": 2,
+          "clue": "Nickname of the rail tunnel under the English Channel, opened in 1994.",
+          "answer": "Chunnel",
+          "alternates": [
+            "Channel Tunnel"
+          ]
+        },
+        {
+          "id": "l4d-on-the-move-3",
+          "rank": 3,
+          "clue": "Luxury train service launched in 1883 that came to link Paris with Constantinople.",
+          "answer": "Orient Express",
+          "alternates": []
+        },
+        {
+          "id": "l4d-on-the-move-4",
+          "rank": 4,
+          "clue": "Japanese name for its high-speed \"bullet train\" network.",
+          "answer": "Shinkansen",
+          "alternates": []
+        },
+        {
+          "id": "l4d-on-the-move-5",
+          "rank": 5,
+          "clue": "Volkswagen's name means this in German.",
+          "answer": "People's car",
+          "alternates": [
+            "Peoples car",
+            "The people's car"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-auto-motives",
+      "name": "Auto Motives",
+      "clues": [
+        {
+          "id": "l4d-auto-motives-1",
+          "rank": 1,
+          "clue": "This automaker grew out of a Japanese company that made automatic looms.",
+          "answer": "Toyota",
+          "alternates": []
+        },
+        {
+          "id": "l4d-auto-motives-2",
+          "rank": 2,
+          "clue": "This German brand's four interlocking rings represent a 1932 merger of four carmakers.",
+          "answer": "Audi",
+          "alternates": []
+        },
+        {
+          "id": "l4d-auto-motives-3",
+          "rank": 3,
+          "clue": "Swedish automaker whose name is Latin for \"I roll.\"",
+          "answer": "Volvo",
+          "alternates": []
+        },
+        {
+          "id": "l4d-auto-motives-4",
+          "rank": 4,
+          "clue": "A tractor manufacturer founded this Italian supercar maker with a raging-bull badge.",
+          "answer": "Lamborghini",
+          "alternates": []
+        },
+        {
+          "id": "l4d-auto-motives-5",
+          "rank": 5,
+          "clue": "Car brand named for the daughter of businessman Emil Jellinek.",
+          "answer": "Mercedes",
+          "alternates": [
+            "Mercedes-Benz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-ship-shape",
+      "name": "Ship Shape",
+      "clues": [
+        {
+          "id": "l4d-ship-shape-1",
+          "rank": 1,
+          "clue": "Nautical term for the left side of a vessel when facing the bow.",
+          "answer": "Port",
+          "alternates": [
+            "Larboard"
+          ]
+        },
+        {
+          "id": "l4d-ship-shape-2",
+          "rank": 2,
+          "clue": "Flat-bottomed Venetian rowing boat steered with a single oar.",
+          "answer": "Gondola",
+          "alternates": []
+        },
+        {
+          "id": "l4d-ship-shape-3",
+          "rank": 3,
+          "clue": "Nautical term for the right side of a vessel when facing the bow.",
+          "answer": "Starboard",
+          "alternates": []
+        },
+        {
+          "id": "l4d-ship-shape-4",
+          "rank": 4,
+          "clue": "Unit of speed equal to one nautical mile per hour.",
+          "answer": "Knot",
+          "alternates": [
+            "Knots"
+          ]
+        },
+        {
+          "id": "l4d-ship-shape-5",
+          "rank": 5,
+          "clue": "Traditional Chinese sailing ship with stiffened, battened sails.",
+          "answer": "Junk",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-holiday-spirit",
+      "name": "Holiday Spirit",
+      "clues": [
+        {
+          "id": "l4d-holiday-spirit-1",
+          "rank": 1,
+          "clue": "Mexican holiday on November 1 and 2 honoring departed loved ones with ofrendas.",
+          "answer": "Day of the Dead",
+          "alternates": [
+            "Dia de los Muertos",
+            "Dia de Muertos"
+          ]
+        },
+        {
+          "id": "l4d-holiday-spirit-2",
+          "rank": 2,
+          "clue": "Hindu spring festival celebrated by throwing colored powder.",
+          "answer": "Holi",
+          "alternates": []
+        },
+        {
+          "id": "l4d-holiday-spirit-3",
+          "rank": 3,
+          "clue": "British holiday on December 26, once when servants received gift boxes.",
+          "answer": "Boxing Day",
+          "alternates": []
+        },
+        {
+          "id": "l4d-holiday-spirit-4",
+          "rank": 4,
+          "clue": "In Scotland, Hogmanay is the celebration of this occasion.",
+          "answer": "New Year's Eve",
+          "alternates": [
+            "New Year",
+            "New Years Eve",
+            "New Year's"
+          ]
+        },
+        {
+          "id": "l4d-holiday-spirit-5",
+          "rank": 5,
+          "clue": "Jewish harvest festival during which families eat in temporary outdoor huts.",
+          "answer": "Sukkot",
+          "alternates": [
+            "Sukkos",
+            "Feast of Tabernacles",
+            "Succot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-seasons-eatings",
+      "name": "Season's Eatings",
+      "clues": [
+        {
+          "id": "l4d-seasons-eatings-1",
+          "rank": 1,
+          "clue": "Tall, domed sweet bread with candied fruit, a Christmas tradition from Milan.",
+          "answer": "Panettone",
+          "alternates": []
+        },
+        {
+          "id": "l4d-seasons-eatings-2",
+          "rank": 2,
+          "clue": "Log-shaped French Christmas cake.",
+          "answer": "Buche de Noel",
+          "alternates": [
+            "Yule log"
+          ]
+        },
+        {
+          "id": "l4d-seasons-eatings-3",
+          "rank": 3,
+          "clue": "Unleavened flatbread eaten during Passover.",
+          "answer": "Matzo",
+          "alternates": [
+            "Matzah",
+            "Matza",
+            "Matzoh"
+          ]
+        },
+        {
+          "id": "l4d-seasons-eatings-4",
+          "rank": 4,
+          "clue": "New Orleans king cakes, with a tiny baby hidden inside, are eaten in the season leading up to this.",
+          "answer": "Mardi Gras",
+          "alternates": [
+            "Fat Tuesday"
+          ]
+        },
+        {
+          "id": "l4d-seasons-eatings-5",
+          "rank": 5,
+          "clue": "Mooncakes are eaten during this Chinese festival held on the 15th day of the 8th lunar month.",
+          "answer": "Mid-Autumn Festival",
+          "alternates": [
+            "Moon Festival",
+            "Mooncake Festival"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-calendar-customs",
+      "name": "Calendar Customs",
+      "clues": [
+        {
+          "id": "l4d-calendar-customs-1",
+          "rank": 1,
+          "clue": "Punxsutawney Phil makes his forecast on this date each year.",
+          "answer": "February 2",
+          "alternates": [
+            "Feb 2",
+            "February 2nd",
+            "2nd of February",
+            "2/2"
+          ]
+        },
+        {
+          "id": "l4d-calendar-customs-2",
+          "rank": 2,
+          "clue": "Pancake Day is another name for this day before Ash Wednesday.",
+          "answer": "Shrove Tuesday",
+          "alternates": []
+        },
+        {
+          "id": "l4d-calendar-customs-3",
+          "rank": 3,
+          "clue": "Britain's Guy Fawkes Night, with bonfires and fireworks, falls in this month.",
+          "answer": "November",
+          "alternates": []
+        },
+        {
+          "id": "l4d-calendar-customs-4",
+          "rank": 4,
+          "clue": "The day after Twelfth Night, this feast celebrates the visit of the Magi.",
+          "answer": "Epiphany",
+          "alternates": [
+            "Three Kings Day",
+            "Theophany"
+          ]
+        },
+        {
+          "id": "l4d-calendar-customs-5",
+          "rank": 5,
+          "clue": "Nowruz, the Persian New Year, begins at this astronomical moment.",
+          "answer": "Spring equinox",
+          "alternates": [
+            "Vernal equinox",
+            "March equinox"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-tie-the-knot",
+      "name": "Tie the Knot",
+      "clues": [
+        {
+          "id": "l4d-tie-the-knot-1",
+          "rank": 1,
+          "clue": "A 25th wedding anniversary is traditionally marked with this metal.",
+          "answer": "Silver",
+          "alternates": []
+        },
+        {
+          "id": "l4d-tie-the-knot-2",
+          "rank": 2,
+          "clue": "A golden wedding anniversary celebrates this many years of marriage.",
+          "answer": "50",
+          "alternates": [
+            "fifty",
+            "50th"
+          ]
+        },
+        {
+          "id": "l4d-tie-the-knot-3",
+          "rank": 3,
+          "clue": "The traditional gift material for a first wedding anniversary.",
+          "answer": "Paper",
+          "alternates": []
+        },
+        {
+          "id": "l4d-tie-the-knot-4",
+          "rank": 4,
+          "clue": "Canopy under which a Jewish couple stands during the wedding ceremony.",
+          "answer": "Chuppah",
+          "alternates": [
+            "Huppah",
+            "Chupah"
+          ]
+        },
+        {
+          "id": "l4d-tie-the-knot-5",
+          "rank": 5,
+          "clue": "Intricate henna designs applied to a bride's hands before a South Asian wedding.",
+          "answer": "Mehndi",
+          "alternates": [
+            "Henna"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-lexicon-artist",
+      "name": "Lexicon Artist",
+      "clues": [
+        {
+          "id": "l4d-lexicon-artist-1",
+          "rank": 1,
+          "clue": "Adjective for something lasting only a very short time, like a mayfly.",
+          "answer": "Ephemeral",
+          "alternates": []
+        },
+        {
+          "id": "l4d-lexicon-artist-2",
+          "rank": 2,
+          "clue": "Word, like \"level,\" that reads the same forward and backward.",
+          "answer": "Palindrome",
+          "alternates": []
+        },
+        {
+          "id": "l4d-lexicon-artist-3",
+          "rank": 3,
+          "clue": "Adjective meaning extremely talkative, from the Latin for \"to speak.\"",
+          "answer": "Loquacious",
+          "alternates": [
+            "Garrulous"
+          ]
+        },
+        {
+          "id": "l4d-lexicon-artist-4",
+          "rank": 4,
+          "clue": "Noun for the act of throwing someone out of a window, famously in Prague.",
+          "answer": "Defenestration",
+          "alternates": []
+        },
+        {
+          "id": "l4d-lexicon-artist-5",
+          "rank": 5,
+          "clue": "Horace Walpole coined this word in 1754 for making happy discoveries by chance.",
+          "answer": "Serendipity",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-ology-class",
+      "name": "Ology Class",
+      "clues": [
+        {
+          "id": "l4d-ology-class-1",
+          "rank": 1,
+          "clue": "The study of birds.",
+          "answer": "Ornithology",
+          "alternates": []
+        },
+        {
+          "id": "l4d-ology-class-2",
+          "rank": 2,
+          "clue": "The study of word origins.",
+          "answer": "Etymology",
+          "alternates": []
+        },
+        {
+          "id": "l4d-ology-class-3",
+          "rank": 3,
+          "clue": "The analysis of handwriting, often to infer personality.",
+          "answer": "Graphology",
+          "alternates": []
+        },
+        {
+          "id": "l4d-ology-class-4",
+          "rank": 4,
+          "clue": "The study of flags.",
+          "answer": "Vexillology",
+          "alternates": []
+        },
+        {
+          "id": "l4d-ology-class-5",
+          "rank": 5,
+          "clue": "The art and study of bells and bell ringing.",
+          "answer": "Campanology",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-group-therapy",
+      "name": "Group Therapy",
+      "clues": [
+        {
+          "id": "l4d-group-therapy-1",
+          "rank": 1,
+          "clue": "A group of lions is called this.",
+          "answer": "Pride",
+          "alternates": []
+        },
+        {
+          "id": "l4d-group-therapy-2",
+          "rank": 2,
+          "clue": "Ominously, a group of crows is called this.",
+          "answer": "Murder",
+          "alternates": []
+        },
+        {
+          "id": "l4d-group-therapy-3",
+          "rank": 3,
+          "clue": "Fittingly wise, a group of owls is called this.",
+          "answer": "Parliament",
+          "alternates": []
+        },
+        {
+          "id": "l4d-group-therapy-4",
+          "rank": 4,
+          "clue": "Showily, a group of flamingos is called this.",
+          "answer": "Flamboyance",
+          "alternates": []
+        },
+        {
+          "id": "l4d-group-therapy-5",
+          "rank": 5,
+          "clue": "A group of larks is called this uplifting word.",
+          "answer": "Exaltation",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-palindrome-sweet-palindrome",
+      "name": "Palindrome Sweet Palindrome",
+      "clues": [
+        {
+          "id": "l4d-palindrome-sweet-palindrome-1",
+          "rank": 1,
+          "clue": "Palindromic word for midday.",
+          "answer": "Noon",
+          "alternates": []
+        },
+        {
+          "id": "l4d-palindrome-sweet-palindrome-2",
+          "rank": 2,
+          "clue": "Palindromic word for a narrow paddled boat of Inuit origin.",
+          "answer": "Kayak",
+          "alternates": []
+        },
+        {
+          "id": "l4d-palindrome-sweet-palindrome-3",
+          "rank": 3,
+          "clue": "Palindromic system that locates aircraft with radio waves.",
+          "answer": "Radar",
+          "alternates": []
+        },
+        {
+          "id": "l4d-palindrome-sweet-palindrome-4",
+          "rank": 4,
+          "clue": "Palindromic adjective relating to citizens or a city.",
+          "answer": "Civic",
+          "alternates": []
+        },
+        {
+          "id": "l4d-palindrome-sweet-palindrome-5",
+          "rank": 5,
+          "clue": "Nine-letter palindromic language of the Indian state of Kerala.",
+          "answer": "Malayalam",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-acronym-anonymous",
+      "name": "Acronym Anonymous",
+      "clues": [
+        {
+          "id": "l4d-acronym-anonymous-1",
+          "rank": 1,
+          "clue": "In the abbreviation ASAP, this is what the P stands for.",
+          "answer": "Possible",
+          "alternates": []
+        },
+        {
+          "id": "l4d-acronym-anonymous-2",
+          "rank": 2,
+          "clue": "In SCUBA, this is what the U stands for.",
+          "answer": "Underwater",
+          "alternates": []
+        },
+        {
+          "id": "l4d-acronym-anonymous-3",
+          "rank": 3,
+          "clue": "In LASER, this is what the L stands for.",
+          "answer": "Light",
+          "alternates": []
+        },
+        {
+          "id": "l4d-acronym-anonymous-4",
+          "rank": 4,
+          "clue": "In NASA, this is what the first A stands for.",
+          "answer": "Aeronautics",
+          "alternates": []
+        },
+        {
+          "id": "l4d-acronym-anonymous-5",
+          "rank": 5,
+          "clue": "The T in TASER stands for this first name, from a boys' adventure hero.",
+          "answer": "Thomas",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-word-blends",
+      "name": "Word Blends",
+      "clues": [
+        {
+          "id": "l4d-word-blends-1",
+          "rank": 1,
+          "clue": "Breakfast plus lunch.",
+          "answer": "Brunch",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-blends-2",
+          "rank": 2,
+          "clue": "Smoke plus fog.",
+          "answer": "Smog",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-blends-3",
+          "rank": 3,
+          "clue": "Motor plus hotel.",
+          "answer": "Motel",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-blends-4",
+          "rank": 4,
+          "clue": "A utensil that's spoon plus fork.",
+          "answer": "Spork",
+          "alternates": []
+        },
+        {
+          "id": "l4d-word-blends-5",
+          "rank": 5,
+          "clue": "Lewis Carroll's blend of \"chuckle\" and \"snort\" from \"Jabberwocky.\"",
+          "answer": "Chortle",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-idiom-savant",
+      "name": "Idiom Savant",
+      "clues": [
+        {
+          "id": "l4d-idiom-savant-1",
+          "rank": 1,
+          "clue": "Revealing a secret is letting the cat out of this.",
+          "answer": "Bag",
+          "alternates": []
+        },
+        {
+          "id": "l4d-idiom-savant-2",
+          "rank": 2,
+          "clue": "Something very easy is \"a piece of\" this.",
+          "answer": "Cake",
+          "alternates": []
+        },
+        {
+          "id": "l4d-idiom-savant-3",
+          "rank": 3,
+          "clue": "To die is to \"kick\" this.",
+          "answer": "Bucket",
+          "alternates": []
+        },
+        {
+          "id": "l4d-idiom-savant-4",
+          "rank": 4,
+          "clue": "To face something painful with courage is to \"bite\" this.",
+          "answer": "Bullet",
+          "alternates": []
+        },
+        {
+          "id": "l4d-idiom-savant-5",
+          "rank": 5,
+          "clue": "From poker, shifting responsibility to someone else is \"passing\" this.",
+          "answer": "Buck",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-by-the-numbers",
+      "name": "By the Numbers",
+      "clues": [
+        {
+          "id": "l4d-by-the-numbers-1",
+          "rank": 1,
+          "clue": "How many items are in a baker's dozen.",
+          "answer": "13",
+          "alternates": [
+            "thirteen"
+          ]
+        },
+        {
+          "id": "l4d-by-the-numbers-2",
+          "rank": 2,
+          "clue": "Lincoln's \"four score\" years adds up to this many.",
+          "answer": "80",
+          "alternates": [
+            "eighty"
+          ]
+        },
+        {
+          "id": "l4d-by-the-numbers-3",
+          "rank": 3,
+          "clue": "A gross is this many items.",
+          "answer": "144",
+          "alternates": [
+            "one hundred forty-four"
+          ]
+        },
+        {
+          "id": "l4d-by-the-numbers-4",
+          "rank": 4,
+          "clue": "A googol is 1 followed by this many zeros.",
+          "answer": "100",
+          "alternates": [
+            "one hundred",
+            "hundred"
+          ]
+        },
+        {
+          "id": "l4d-by-the-numbers-5",
+          "rank": 5,
+          "clue": "In ancient Greek, a \"myriad\" meant exactly this many.",
+          "answer": "10,000",
+          "alternates": [
+            "10000",
+            "ten thousand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4d-everyday-inventions",
+      "name": "Everyday Inventions",
+      "clues": [
+        {
+          "id": "l4d-everyday-inventions-1",
+          "rank": 1,
+          "clue": "Walter Hunt patented this clasped fastener in 1849, then sold the rights for a few hundred dollars.",
+          "answer": "Safety pin",
+          "alternates": []
+        },
+        {
+          "id": "l4d-everyday-inventions-2",
+          "rank": 2,
+          "clue": "Englishman Edwin Budding invented this grass-cutting machine in 1830.",
+          "answer": "Lawn mower",
+          "alternates": [
+            "Lawnmower",
+            "Mower"
+          ]
+        },
+        {
+          "id": "l4d-everyday-inventions-3",
+          "rank": 3,
+          "clue": "Garrett Morgan patented an improved version of this road device in 1923.",
+          "answer": "Traffic signal",
+          "alternates": [
+            "Traffic light",
+            "Stoplight"
+          ]
+        },
+        {
+          "id": "l4d-everyday-inventions-4",
+          "rank": 4,
+          "clue": "Oklahoma grocer Sylvan Goldman introduced this wheeled store item in 1937.",
+          "answer": "Shopping cart",
+          "alternates": [
+            "Shopping trolley"
+          ]
+        },
+        {
+          "id": "l4d-everyday-inventions-5",
+          "rank": 5,
+          "clue": "Bubble Wrap was originally intended to be sold as this textured home decor.",
+          "answer": "Wallpaper",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-money-talks",
+      "name": "Cash Flow",
+      "clues": [
+        {
+          "id": "l4d-money-talks-1",
+          "rank": 1,
+          "clue": "Japan's currency.",
+          "answer": "Yen",
+          "alternates": []
+        },
+        {
+          "id": "l4d-money-talks-2",
+          "rank": 2,
+          "clue": "India's currency.",
+          "answer": "Rupee",
+          "alternates": [
+            "Rupees"
+          ]
+        },
+        {
+          "id": "l4d-money-talks-3",
+          "rank": 3,
+          "clue": "Switzerland's currency, not the euro.",
+          "answer": "Franc",
+          "alternates": [
+            "Swiss franc"
+          ]
+        },
+        {
+          "id": "l4d-money-talks-4",
+          "rank": 4,
+          "clue": "South Africa's currency, named for the gold-rich Witwatersrand ridge.",
+          "answer": "Rand",
+          "alternates": []
+        },
+        {
+          "id": "l4d-money-talks-5",
+          "rank": 5,
+          "clue": "South Korea’s currency shares its name with the past tense of a verb meaning to come out on top.",
+          "answer": "Won",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-snack-attack",
+      "name": "Snack Attack",
+      "clues": [
+        {
+          "id": "l4d-snack-attack-1",
+          "rank": 1,
+          "clue": "Knot-shaped baked snack, often salted.",
+          "answer": "Pretzel",
+          "alternates": [
+            "Pretzels"
+          ]
+        },
+        {
+          "id": "l4d-snack-attack-2",
+          "rank": 2,
+          "clue": "Frito-Lay's orange cheese puffs promoted by a sunglasses-wearing big cat.",
+          "answer": "Cheetos",
+          "alternates": []
+        },
+        {
+          "id": "l4d-snack-attack-3",
+          "rank": 3,
+          "clue": "Twinkies were originally filled with this fruit-flavored cream.",
+          "answer": "Banana",
+          "alternates": []
+        },
+        {
+          "id": "l4d-snack-attack-4",
+          "rank": 4,
+          "clue": "Fig Newtons are named for this Massachusetts town.",
+          "answer": "Newton",
+          "alternates": []
+        },
+        {
+          "id": "l4d-snack-attack-5",
+          "rank": 5,
+          "clue": "Currant-filled British biscuit nicknamed \"squashed fly,\" named for an Italian patriot.",
+          "answer": "Garibaldi",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-coffee-break",
+      "name": "Coffee Break",
+      "clues": [
+        {
+          "id": "l4d-coffee-break-1",
+          "rank": 1,
+          "clue": "Espresso with steamed milk and foam, named for the color of friars' robes.",
+          "answer": "Cappuccino",
+          "alternates": []
+        },
+        {
+          "id": "l4d-coffee-break-2",
+          "rank": 2,
+          "clue": "Espresso \"stained\" with a dollop of milk foam.",
+          "answer": "Macchiato",
+          "alternates": []
+        },
+        {
+          "id": "l4d-coffee-break-3",
+          "rank": 3,
+          "clue": "Espresso diluted with hot water, supposedly named for G.I.s in Italy.",
+          "answer": "Americano",
+          "alternates": []
+        },
+        {
+          "id": "l4d-coffee-break-4",
+          "rank": 4,
+          "clue": "The most widely grown coffee species, valued over robusta.",
+          "answer": "Arabica",
+          "alternates": []
+        },
+        {
+          "id": "l4d-coffee-break-5",
+          "rank": 5,
+          "clue": "Legendary Ethiopian goatherd said to have discovered coffee.",
+          "answer": "Kaldi",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "l4d-tea-time",
+      "name": "Tea Time",
+      "clues": [
+        {
+          "id": "l4d-tea-time-1",
+          "rank": 1,
+          "clue": "Black tea scented with bergamot, named for a British prime minister.",
+          "answer": "Earl Grey",
+          "alternates": []
+        },
+        {
+          "id": "l4d-tea-time-2",
+          "rank": 2,
+          "clue": "Finely powdered green tea whisked in the Japanese tea ceremony.",
+          "answer": "Matcha",
+          "alternates": []
+        },
+        {
+          "id": "l4d-tea-time-3",
+          "rank": 3,
+          "clue": "Spiced Indian milk tea; the word itself simply means \"tea.\"",
+          "answer": "Chai",
+          "alternates": [
+            "Masala chai"
+          ]
+        },
+        {
+          "id": "l4d-tea-time-4",
+          "rank": 4,
+          "clue": "Caffeinated South American infusion sipped through a metal straw called a bombilla.",
+          "answer": "Yerba mate",
+          "alternates": [
+            "Mate"
+          ]
+        },
+        {
+          "id": "l4d-tea-time-5",
+          "rank": 5,
+          "clue": "Partially oxidized Chinese tea whose name means \"black dragon.\"",
+          "answer": "Oolong",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}
