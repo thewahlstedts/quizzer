@@ -591,6 +591,8 @@ function ClueView({
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
+  // A Bot's Daily Double: show what it wagered before its Clue appears.
+  const showingBotWager = p.kind === 'ddReading' && state.selector !== 'human' && now < p.until - TIMING.readMs + BOT_WAGER_SHOW_MS
   const humanTyping = (p.kind === 'answering' && p.contestant === 'human') || (p.kind === 'ddAnswering' && state.selector === 'human')
   const screenRef = useRef<HTMLDivElement>(null)
   useGlideOnChange(screenRef, humanTyping)
@@ -608,10 +610,14 @@ function ClueView({
         </span>
       </div>
 
-      {p.kind === 'ddWager' ? (
+      {p.kind === 'ddWager' || showingBotWager ? (
         <div ref={cardRef} className="flip-target">
           {flying && <FlipFace category={category} label={`$${cell.value}`} />}
-          <DailyDoubleWager state={state} dispatch={dispatch} />
+          {showingBotWager ? (
+            <BotWagerReveal id={state.selector} name={contestant(state, state.selector).name} wager={clueState.wager ?? 0} />
+          ) : (
+            <DailyDoubleWager state={state} dispatch={dispatch} />
+          )}
         </div>
       ) : (
         <div
@@ -633,7 +639,7 @@ function ClueView({
       {p.kind === 'reading' && clueTiming(state.mode).readMs > 0 && (
         <Timer until={p.until} total={clueTiming(state.mode).readMs} now={now} label="Read the clue" />
       )}
-      {p.kind === 'ddReading' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
+      {p.kind === 'ddReading' && !showingBotWager && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
       {p.kind === 'ringIn' && <Timer until={p.until} total={clueTiming(state.mode).ringMs} now={now} label="Ring in!" />}
       {(p.kind === 'answering' || p.kind === 'ddAnswering') && (
         <Timer
@@ -892,6 +898,22 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
         </button>
       </div>
     </form>
+  )
+}
+
+/** How long a Bot's Daily Double Wager is shown before its Clue appears (inside the reading time). */
+const BOT_WAGER_SHOW_MS = 2_500
+
+function BotWagerReveal({ id, name, wager }: { id: ContestantId; name: string; wager: number }) {
+  return (
+    <div className={`dd-splash bot-wager bot-wager-${id}`} role="status">
+      <h2>Daily Double!</h2>
+      <div className="bot-wager-line">
+        <Avatar id={id} />
+        <span>{name} wagers</span>
+      </div>
+      <div className="bot-wager-amount">{money(wager)}</div>
+    </div>
   )
 }
 
