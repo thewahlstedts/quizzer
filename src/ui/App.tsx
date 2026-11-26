@@ -12,6 +12,7 @@ import type { Attempt, BotDifficulty, CellRef, Clue, ContestantId, Level } from 
 import { useGame } from './useGame'
 import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, type FlagReason } from './review'
 import { isMuted, setMuted } from './sound'
+import { dismissKeyboard, useKeyboardInput } from './keyboard'
 
 type Dispatch = ReturnType<typeof useGame>['dispatch']
 
@@ -500,12 +501,13 @@ function Attempts({ state, attempts }: { state: GameState; attempts: Attempt[] }
 function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' }: { onSubmit: (t: string) => void; placeholder?: string }) {
   const [text, setText] = useState('')
   const ref = useRef<HTMLInputElement>(null)
-  useEffect(() => ref.current?.focus(), [])
+  useKeyboardInput(ref)
   return (
     <form
       className="answer-box"
       onSubmit={(e) => {
         e.preventDefault()
+        dismissKeyboard()
         onSubmit(text)
       }}
     >
@@ -528,7 +530,7 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
 function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onSubmit: (n: number) => void; label: string }) {
   const [value, setValue] = useState(String(Math.min(max, Math.max(min, Math.round(max / 2 / 100) * 100))))
   const ref = useRef<HTMLInputElement>(null)
-  useEffect(() => ref.current?.select(), [])
+  useKeyboardInput(ref, true)
   const n = Number(value)
   const valid = value.trim() !== '' && Number.isInteger(n) && n >= min && n <= max
   return (
@@ -536,7 +538,9 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
       className="wager-box"
       onSubmit={(e) => {
         e.preventDefault()
-        if (valid) onSubmit(n)
+        if (!valid) return
+        dismissKeyboard()
+        onSubmit(n)
       }}
     >
       <label>
