@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { MODE_LABEL, money } from './format'
 import { clearHistory, loadHistory, PERIODS, periodStart, summarize, type GameRecord, type Period } from './history'
+import { statsText } from './share'
+import { ShareButton } from './ShareButton'
 
 const PLACE = ['1st', '2nd', '3rd']
 const SHOW = 8
@@ -35,7 +37,10 @@ export function StatsCard() {
 
   return (
     <section className="stats-card">
-      <h3>Your stats</h3>
+      <div className="stats-head">
+        <h3>Your stats</h3>
+        {s.games > 0 && <ShareButton getText={() => statsText(s, PERIODS.find((x) => x.id === period)!.label)} />}
+      </div>
       <div className="segmented stats-periods" role="tablist">
         {PERIODS.map((p) => (
           <button key={p.id} role="tab" aria-selected={p.id === period} className={p.id === period ? 'on' : ''} onClick={() => choose(p.id)}>
