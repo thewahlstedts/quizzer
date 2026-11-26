@@ -861,10 +861,23 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
   )
 }
 
-function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onSubmit: (n: number) => void; label: string }) {
+function WagerBox({
+  min,
+  max,
+  onSubmit,
+  label,
+  standings,
+}: {
+  min: number
+  max: number
+  onSubmit: (n: number) => void
+  label: string
+  /** Everyone's score, shown in the box so it stays visible above the on-screen keyboard. */
+  standings?: { id: ContestantId; name: string; score: number }[]
+}) {
   const [value, setValue] = useState(String(Math.min(max, Math.max(min, Math.round(max / 2 / 100) * 100))))
   const ref = useRef<HTMLInputElement>(null)
-  useKeyboardInput(ref, { select: true })
+  useKeyboardInput(ref, { select: true, revealFrom: '.final, .dd-splash' })
   const n = Number(value)
   const valid = value.trim() !== '' && Number.isInteger(n) && n >= min && n <= max
   return (
@@ -877,6 +890,17 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
         onSubmit(n)
       }}
     >
+      {standings && (
+        <ul className="wager-standings">
+          {standings.map((c) => (
+            <li key={c.id} className={c.id}>
+              <Avatar id={c.id} />
+              <span className="name">{c.name}</span>
+              <span className={'score' + (c.score < 0 ? ' neg' : '')}>{money(c.score)}</span>
+            </li>
+          ))}
+        </ul>
+      )}
       <label>
         {label} <small>({money(min)}–{money(max)})</small>
       </label>
@@ -1092,6 +1116,7 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
           min={0}
           max={contestant(state, 'human').score}
           label="Your wager"
+          standings={state.contestants.map((c) => ({ id: c.id, name: c.name, score: c.score }))}
           onSubmit={(amount) => dispatch({ type: 'finalWager', amount })}
         />
       )}
