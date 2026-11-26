@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { newGame, step, type Action, type GameState } from '../engine/game'
-import type { BotDifficulty, Level } from '../engine/types'
+import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
 
@@ -29,9 +29,9 @@ export function useGame() {
   )
 
   const start = useCallback(
-    (level: Level, difficulty: BotDifficulty, name: string) => {
+    (level: Level, difficulty: BotDifficulty, name: string, mode: GameMode) => {
       ref.current = null
-      commit(newGame(BANKS[level], difficulty, rng, name || 'You'))
+      commit(newGame(BANKS[level], difficulty, rng, name || 'You', mode))
     },
     [commit],
   )

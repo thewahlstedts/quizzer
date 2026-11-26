@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import {
+  clueTiming,
   contestant,
   currentCell,
   dailyDoubleMax,
@@ -8,7 +9,7 @@ import {
   TIMING,
   type GameState,
 } from '../engine/game'
-import type { Attempt, BotDifficulty, CellRef, Clue, ContestantId, Level } from '../engine/types'
+import type { Attempt, BotDifficulty, CellRef, Clue, ContestantId, GameMode, Level } from '../engine/types'
 import { useGame } from './useGame'
 import { clearLog, downloadLog, FLAG_REASONS, loadLog, logFlag, logOverride, type FlagReason } from './review'
 import { isMuted, setMuted } from './sound'
@@ -36,6 +37,7 @@ export default function App() {
           {game.state && (
             <span className="round-tag">
               {game.state.round === 'final' ? 'Final Round' : `Round ${game.state.round}`} · Level {game.state.level}
+              {game.state.mode === 'quick' ? ' · Quick' : ''}
             </span>
           )}
           <button className="ghost" onClick={toggleMute} aria-label={muted ? 'Unmute' : 'Mute'}>
@@ -55,19 +57,21 @@ export default function App() {
 
 // ---------------- Setup ----------------
 
-function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: string) => void }) {
+function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: string, mode: GameMode) => void }) {
   const [level, setLevel] = useState<Level>(() => (Number(localStorage.getItem('quizzer.level')) || 1) as Level)
   const [difficulty, setDifficulty] = useState<BotDifficulty>(
     () => (localStorage.getItem('quizzer.difficulty') as BotDifficulty) || 'normal',
   )
   const [name, setName] = useState(() => localStorage.getItem('quizzer.name') ?? '')
+  const [mode, setMode] = useState<GameMode>(() => (localStorage.getItem('quizzer.mode') === 'quick' ? 'quick' : 'classic'))
   const [log, setLog] = useState(loadLog)
 
   const start = () => {
     localStorage.setItem('quizzer.level', String(level))
     localStorage.setItem('quizzer.difficulty', difficulty)
     localStorage.setItem('quizzer.name', name)
-    onStart(level, difficulty, name.trim())
+    localStorage.setItem('quizzer.mode', mode)
+    onStart(level, difficulty, name.trim(), mode)
   }
 
   return (
@@ -103,6 +107,20 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
           </div>
         </div>
 
+        <div className="field">
+          <span>Mode</span>
+          <div className="segmented">
+            {(['classic', 'quick'] as GameMode[]).map((m) => (
+              <button key={m} className={m === mode ? 'on' : ''} onClick={() => setMode(m)}>
+                {m === 'classic' ? 'Classic' : 'Quick'}
+              </button>
+            ))}
+          </div>
+          <small className="field-note">
+            {mode === 'classic' ? '10 seconds to read, then 30 seconds to ring in.' : 'Ring in as soon as the clue appears. 15 seconds to ring in.'}
+          </small>
+        </div>
+
         <button className="primary big" onClick={start}>
           Start game
         </button>
@@ -110,9 +128,10 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
         <details className="rules">
           <summary>How to play</summary>
           <ul>
-            <li>Pick a clue from the board. You get 10 seconds to read it.</li>
+            <li>Pick a clue from the board. In Classic mode you get 10 seconds to read it, then 30 seconds to ring in.</li>
+            <li>In Quick mode you can ring in as soon as the clue appears, and you have 15 seconds.</li>
             <li>
-              Then you have 30 seconds to ring in. Press <kbd>Space</kbd> or the ring-in button.
+              To ring in, press <kbd>Space</kbd> or the ring-in button.
             </li>
             <li>Once you ring in, you have 60 seconds to type your answer. Wrong answers cost you the clue's value.</li>
             <li>Bots' answers show as asterisks, one per letter. That's a hint about how long the answer is.</li>
@@ -159,6 +178,8 @@ const HIGHLIGHT_MS = 1_000
 /** How long the flying card shows the Category before it starts to fade (from when it appears). */
 const FACE_HOLD_MS = 1_600
 const FACE_FADE_MS = 400
+/** When the Clue screen's meta, timer and ring-in button rise in, from when the card appears. */
+const ENTER_DELAY_MS = FACE_HOLD_MS + FACE_FADE_MS / 2
 
 const cellKey = (r: CellRef) => `${r.col}-${r.row}`
 
@@ -435,6 +456,14 @@ function ClueView({
     const t = setTimeout(() => setFlying(false), FACE_HOLD_MS + FACE_FADE_MS + 50)
     return () => clearTimeout(t)
   }, [flying])
+  // The delayed "rise in" applies only to what is on screen during the entrance. Anything that
+  // appears later (e.g. the Ring In timer replacing the reading timer) must show at once.
+  const [entering, setEntering] = useState(!!flipFrom)
+  useEffect(() => {
+    if (!entering) return
+    const t = setTimeout(() => setEntering(false), ENTER_DELAY_MS + 400)
+    return () => clearTimeout(t)
+  }, [entering])
   const clueState = state.clue!
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
@@ -442,8 +471,8 @@ function ClueView({
 
   return (
     <div
-      className={'clue-screen' + (flipFrom ? ' entering' : '')}
-      style={{ '--enter-delay': `${FACE_HOLD_MS + FACE_FADE_MS / 2}ms` } as React.CSSProperties}
+      className={'clue-screen' + (entering ? ' entering' : '')}
+      style={{ '--enter-delay': `${ENTER_DELAY_MS}ms` } as React.CSSProperties}
     >
       <div className="clue-meta">
         <span className="clue-cat">{category}</span>
@@ -469,9 +498,9 @@ function ClueView({
         </div>
       )}
 
-      {p.kind === 'reading' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
+      {p.kind === 'reading' && state.mode === 'classic' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
       {p.kind === 'ddReading' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
-      {p.kind === 'ringIn' && <Timer until={p.until} total={TIMING.ringMs} now={now} label="Ring in!" />}
+      {p.kind === 'ringIn' && <Timer until={p.until} total={clueTiming(state.mode).ringMs} now={now} label="Ring in!" />}
       {(p.kind === 'answering' || p.kind === 'ddAnswering') && (
         <Timer
           until={p.until}
