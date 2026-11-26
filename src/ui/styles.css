@@ -31,7 +31,12 @@ button { font: inherit; color: inherit; cursor: pointer; }
 button:disabled { cursor: default; }
 input, textarea { font: inherit; color: var(--text); }
 
-.stage { min-height: 100%; display: flex; flex-direction: column; }
+.stage {
+  min-height: 100%; display: flex; flex-direction: column;
+  /* viewport-fit=cover (index.html) lets the page run edge to edge; keep content out of the notch,
+     status bar and rounded corners. The bottom inset is applied below the podiums (.game). */
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) 0 env(safe-area-inset-left, 0px);
+}
 
 /* ---------- top bar ---------- */
 .topbar {
@@ -103,7 +108,7 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 /* ---------- game layout ---------- */
 .game {
   flex: 1; display: flex; flex-direction: column; gap: 16px; min-width: 0;
-  padding: 0 clamp(10px, 3vw, 32px) calc(32px + env(safe-area-inset-bottom, 0px));
+  padding: 0 clamp(10px, 3vw, 32px) calc(40px + env(safe-area-inset-bottom, 0px));
 }
 .play-area { flex: 1; display: flex; flex-direction: column; justify-content: center; min-width: 0; }
 .hint { color: var(--muted); text-align: center; margin: 0 0 12px; }
@@ -333,6 +338,49 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
   .podium .avatar { display: none; }
   .podium-score { font-size: 18px; }
   .round-tag { display: none; }
+}
+
+/* ---------- verdict: the Human's Answer judged ---------- */
+.clue-card.verdict-ok { animation: verdict-glow 1.6s ease-out; }
+.clue-card.verdict-bad { animation: verdict-shake 0.5s cubic-bezier(.36,.07,.19,.97), verdict-flash 1.6s ease-out; }
+@keyframes verdict-glow {
+  0% { border-color: var(--teal); box-shadow: 0 0 0 0 rgba(62, 230, 196, 0.7), 0 30px 80px rgba(0, 0, 0, 0.4); }
+  30% { border-color: var(--teal); box-shadow: 0 0 0 12px rgba(62, 230, 196, 0), 0 0 60px rgba(62, 230, 196, 0.45); }
+  100% { box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4); }
+}
+@keyframes verdict-shake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(4px); }
+  30%, 50%, 70% { transform: translateX(-8px); }
+  40%, 60% { transform: translateX(8px); }
+}
+@keyframes verdict-flash {
+  0%, 40% { border-color: var(--coral); box-shadow: 0 0 50px rgba(255, 93, 115, 0.4); }
+}
+.verdict {
+  position: absolute; inset: 0; z-index: 2; border-radius: inherit; overflow: hidden;
+  display: grid; place-items: center; pointer-events: none;
+  animation: verdict-out 1.6s ease forwards;
+}
+/* Near-opaque so the Clue text underneath doesn't fight the stamp; it fades back in after. */
+.verdict.ok { background: radial-gradient(circle at 50% 50%, rgba(62, 230, 196, 0.22), transparent 65%), rgba(29, 24, 56, 0.96); }
+.verdict.bad { background: radial-gradient(circle at 50% 50%, rgba(255, 93, 115, 0.2), transparent 65%), rgba(29, 24, 56, 0.96); }
+@keyframes verdict-out { 0%, 75% { opacity: 1; } 100% { opacity: 0; } }
+.verdict-stamp { display: grid; justify-items: center; gap: 2px; animation: stamp-in 0.45s cubic-bezier(.2,1.6,.4,1) both; }
+.verdict-word { font-family: var(--display); font-weight: 800; font-size: clamp(34px, 7vw, 64px); line-height: 1; letter-spacing: -0.01em; }
+.verdict-delta { font-family: var(--display); font-weight: 800; font-size: clamp(20px, 3.5vw, 32px); }
+.verdict.ok .verdict-word, .verdict.ok .verdict-delta { color: var(--teal); text-shadow: 0 0 24px rgba(62, 230, 196, 0.6); }
+.verdict.bad .verdict-word, .verdict.bad .verdict-delta { color: var(--coral); text-shadow: 0 0 24px rgba(255, 93, 115, 0.5); }
+@keyframes stamp-in { from { opacity: 0; transform: scale(1.8) rotate(-6deg); } to { opacity: 1; transform: none; } }
+.spark {
+  position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; border-radius: 50%;
+  background: var(--gold); box-shadow: 0 0 10px var(--gold);
+  animation: spark 0.9s ease-out 0.1s both;
+}
+.spark:nth-child(3n) { background: var(--teal); box-shadow: 0 0 10px var(--teal); }
+@keyframes spark {
+  from { opacity: 1; transform: rotate(var(--a)) translateY(0) scale(1); }
+  to { opacity: 0; transform: rotate(var(--a)) translateY(calc(-1 * var(--d))) scale(0.3); }
 }
 
 /* While the Human types an Answer on a phone, keep the Clue at the top and compact so the

@@ -71,7 +71,7 @@ The closing Clue, answered by all Contestants with wagers, from a Category the l
 _Avoid_: Final Jeopardy
 
 **Masked Answer**:
-What is shown when a Bot answers: asterisks matching the Answer's character count, with spaces placed at random.
+What is shown when a Bot answers wrong: asterisks matching the correct Answer's character count, with spaces placed at random. A correct Bot shows its Answer.
 
 ## Review
 

@@ -375,7 +375,9 @@ function startAnswering(s: GameState, id: ContestantId, at: number, rng: Rng): G
 function botAnswer(s: GameState, id: ContestantId, rng: Rng): [string, string, boolean] {
   const clue = currentCell(s)!.clue
   const knows = !!s.clue!.botKnows[id]
-  return [knows ? clue.answer : '', maskAnswer(clue.answer, rng), knows]
+  const masked = maskAnswer(clue.answer, rng)
+  // A correct Bot shows its Answer; a wrong one shows the Masked Answer (a length hint).
+  return [knows ? clue.answer : '', knows ? clue.answer : masked, knows]
 }
 
 function judgeTyped(typed: string, clue: Clue, botKnows: boolean | null) {
@@ -500,10 +502,11 @@ function chooseFinal(s: GameState, categoryId: string, now: number): GameState {
 function finalBotAttempt(s: GameState, id: ContestantId, rng: Rng): Attempt {
   const clue = finalClue(s)!
   const knows = !!s.final.botKnows[id]
+  const masked = maskAnswer(clue.answer, rng)
   return {
     contestant: id,
     typed: knows ? clue.answer : '',
-    display: maskAnswer(clue.answer, rng),
+    display: knows ? clue.answer : masked,
     correct: knows,
     matchScore: knows ? 1 : 0,
     delta: 0,
