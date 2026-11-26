@@ -299,7 +299,7 @@ function Podiums({ state }: { state: GameState }) {
         >
           <Avatar id={c.id} />
           <div className="podium-name">{c.name}</div>
-          <PodiumScore score={c.score} />
+          <PodiumScore score={c.score} delay={scoreDelay(state, c.id)} />
         </div>
       ))}
     </div>
@@ -307,30 +307,59 @@ function Podiums({ state }: { state: GameState }) {
 }
 
 const SCORE_COUNT_MS = 700
+/** The Human's score changes once the "Correct!" / "Not quite" stamp has landed. */
+const HUMAN_SCORE_DELAY_MS = 900
+const FINAL_STEP_MS = 2_200
 
-/** A score that counts to its new value and floats the change above it. */
-function PodiumScore({ score }: { score: number }) {
+/**
+ * How long a Contestant's podium waits before showing a score change, so the result is revealed
+ * first: the Human's verdict, a Bot's typed Answer, or that Contestant's Final Round row.
+ */
+function scoreDelay(state: GameState, id: ContestantId): number {
+  if (state.phase.kind === 'finalReveal') {
+    const i = finalRevealOrder(state).indexOf(id)
+    return i < 0 ? 0 : i * FINAL_STEP_MS + 600
+  }
+  const attempts = state.clue?.attempts ?? []
+  const last = attempts[attempts.length - 1]
+  if (!last || last.contestant !== id || last.overridden) return 0
+  // A Bot's score changes once its typed Answer and ✓/✗ badge are showing.
+  return id === 'human' ? HUMAN_SCORE_DELAY_MS : BOT_TYPE_MS + 500
+}
+
+/** A score that, after `delay`, counts to its new value and floats the change above it. */
+function PodiumScore({ score, delay = 0 }: { score: number; delay?: number }) {
   const [shown, setShown] = useState(score)
+  const shownRef = useRef(score)
+  shownRef.current = shown
   const [delta, setDelta] = useState<{ amount: number; key: number } | null>(null)
-  const prev = useRef(score)
+  const target = useRef(score)
   useEffect(() => {
-    const from = prev.current
-    prev.current = score
-    if (from === score) return
-    setDelta((d) => ({ amount: score - from, key: (d?.key ?? 0) + 1 }))
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setShown(score)
-      return
+    if (target.current === score) return
+    target.current = score
+    // Count from what is on screen, so a change arriving mid-count (e.g. an Override) continues smoothly.
+    const from = shownRef.current
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    let frame = 0
+    const timer = setTimeout(() => {
+      setDelta((d) => ({ amount: score - from, key: (d?.key ?? 0) + 1 }))
+      if (reduced) {
+        setShown(score)
+        return
+      }
+      const start = performance.now()
+      frame = requestAnimationFrame(function tick(t) {
+        const k = Math.min(1, (t - start) / SCORE_COUNT_MS)
+        const eased = 1 - Math.pow(1 - k, 3)
+        setShown(Math.round(from + (score - from) * eased))
+        if (k < 1) frame = requestAnimationFrame(tick)
+      })
+    }, reduced ? 0 : delay)
+    return () => {
+      clearTimeout(timer)
+      cancelAnimationFrame(frame)
     }
-    const start = performance.now()
-    let frame = requestAnimationFrame(function tick(t) {
-      const k = Math.min(1, (t - start) / SCORE_COUNT_MS)
-      const eased = 1 - Math.pow(1 - k, 3)
-      setShown(Math.round(from + (score - from) * eased))
-      if (k < 1) frame = requestAnimationFrame(tick)
-    })
-    return () => cancelAnimationFrame(frame)
-  }, [score])
+  }, [score]) // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className={'podium-score' + (shown < 0 ? ' neg' : '')}>
       <span key={delta?.key} className={delta ? (delta.amount > 0 ? 'bump up' : 'bump down') : undefined}>
@@ -1023,16 +1052,21 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
   )
 }
 
-function FinalReveal({ state, dispatch }: { state: GameState; dispatch: Dispatch }) {
+/** Final Round Answers are revealed one by one, lowest pre-Final score first. */
+function finalRevealOrder(state: GameState): ContestantId[] {
   const f = state.final
-  // Lowest pre-Final score first.
-  const order = [...f.eligible].sort(
+  return [...f.eligible].sort(
     (a, b) => contestant(state, a).score - f.answers[a]!.delta - (contestant(state, b).score - f.answers[b]!.delta),
   )
+}
+
+function FinalReveal({ state, dispatch }: { state: GameState; dispatch: Dispatch }) {
+  const f = state.final
+  const order = finalRevealOrder(state)
   const [shown, setShown] = useState(1)
   useEffect(() => {
     if (shown >= order.length) return
-    const t = setTimeout(() => setShown((n) => n + 1), 2200)
+    const t = setTimeout(() => setShown((n) => n + 1), FINAL_STEP_MS)
     return () => clearTimeout(t)
   }, [shown, order.length])
 
