@@ -150,8 +150,15 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
 
 // ---------------- Game ----------------
 
-/** How long the chosen tile pulses on the Board before it flies out (part of TIMING.selectMs). */
-const HIGHLIGHT_MS = 700
+/**
+ * Selection animation, all inside TIMING.selectMs: the chosen tile (and its Category header) is
+ * highlighted on the Board, then flies into the Clue card showing the Category, which holds before
+ * fading to reveal the Clue.
+ */
+const HIGHLIGHT_MS = 1_000
+/** How long the flying card shows the Category before it starts to fade (from when it appears). */
+const FACE_HOLD_MS = 1_600
+const FACE_FADE_MS = 400
 
 const cellKey = (r: CellRef) => `${r.col}-${r.row}`
 
@@ -300,8 +307,8 @@ function BoardView({
         className={'board' + (chosen ? ' has-chosen' : '')}
         style={{ gridTemplateColumns: `repeat(${state.board.categories.length}, minmax(0, 1fr))` }}
       >
-        {state.board.categories.map((c) => (
-          <div key={c.id} className="cat">
+        {state.board.categories.map((c, ci) => (
+          <div key={c.id} className={'cat' + (chosen?.col === ci ? ' chosen' : '')}>
             {c.name}
           </div>
         ))}
@@ -328,7 +335,7 @@ function BoardView({
 }
 
 function Timer({ until, total, now, label }: { until: number; total: number; now: number; label: string }) {
-  const left = Math.max(0, until - now)
+  const left = Math.min(total, Math.max(0, until - now))
   const pct = Math.min(100, (left / total) * 100)
   return (
     <div className={'timer' + (left < 5000 ? ' urgent' : '')}>
@@ -385,7 +392,7 @@ function ClueView({
   const [flying, setFlying] = useState(!!flipFrom)
   useEffect(() => {
     if (!flying) return
-    const t = setTimeout(() => setFlying(false), FLIP_MS + 400)
+    const t = setTimeout(() => setFlying(false), FACE_HOLD_MS + FACE_FADE_MS + 50)
     return () => clearTimeout(t)
   }, [flying])
   const clueState = state.clue!
@@ -394,7 +401,10 @@ function ClueView({
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
 
   return (
-    <div className={'clue-screen' + (flipFrom ? ' entering' : '')}>
+    <div
+      className={'clue-screen' + (flipFrom ? ' entering' : '')}
+      style={{ '--enter-delay': `${FACE_HOLD_MS + FACE_FADE_MS / 2}ms` } as React.CSSProperties}
+    >
       <div className="clue-meta">
         <span className="clue-cat">{category}</span>
         <span className="clue-val">
@@ -471,7 +481,7 @@ function ClueView({
 /** The tile's face, shown on the flying card and faded out as it lands. */
 function FlipFace({ category, label }: { category: string; label: string }) {
   return (
-    <div className="flip-face" aria-hidden>
+    <div className="flip-face" aria-hidden style={{ animationDelay: `${FACE_HOLD_MS}ms`, animationDuration: `${FACE_FADE_MS}ms` }}>
       <span className="flip-cat">{category}</span>
       <span className="flip-val">{label}</span>
     </div>
