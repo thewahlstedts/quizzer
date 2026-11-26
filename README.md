@@ -24,6 +24,10 @@ npm run build
 
 While playing, **Flag** bad Clues and use **I was right** to Override rejected Answers. Both are kept in the browser; use **Download review log** on the start screen to export them as JSON for fixing the bank and tuning the matcher.
 
+## Install (PWA)
+
+Quizzer can be installed to the Home Screen (iOS Safari: Share → Add to Home Screen; Android/desktop Chrome: Install app). It runs standalone and works offline after the first visit. The manifest and icons are in `public/`, and the service worker is `public/sw.js`. It is registered in production builds only (see `docs/adr/0002-hand-written-service-worker.md`).
+
 ## Deploy
 
 Pushing to `main` builds and publishes to GitHub Pages (`.github/workflows/deploy.yml`). `quizzer.thewahlstedts.com` is proxied to Pages by Caddy in `thewahlstedts-genai`.
