@@ -52,6 +52,10 @@ _Avoid_: Grid, game board
 A Contestant claiming the right to Answer the current Clue.
 _Avoid_: Buzz, buzz in
 
+**Mode**:
+How a game paces Ring In, chosen at setup. **Classic**: 10 seconds to read a Clue, then 30 seconds to Ring In. **Quick**: Ring In as soon as the Clue appears, within 15 seconds. Daily Doubles and the Final Round play the same in both.
+_Avoid_: Speed, game type
+
 **Round**:
 One full Board of play. A game has Round 1, Round 2, then the Final Round.
 

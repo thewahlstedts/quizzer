@@ -1,15 +1,15 @@
 import { describe, expect, it } from 'vitest'
-import { contestant, currentCell, finalClue, newGame, step, TIMING, type Action, type GameState } from './game'
+import { clueTiming, contestant, currentCell, finalClue, newGame, step, TIMING, type Action, type GameState } from './game'
 import { seeded } from './rng'
-import type { ClueBank } from './types'
+import type { ClueBank, GameMode } from './types'
 import { BANKS } from '../content'
 
 /** Time from selecting a normal Clue to the ring-in window opening. */
 const READ = TIMING.selectMs + TIMING.readMs
 
-function setup(seed = 1, bank: ClueBank = BANKS[1]) {
+function setup(seed = 1, bank: ClueBank = BANKS[1], mode: GameMode = 'classic') {
   const rng = seeded(seed)
-  let s = newGame(bank, 'normal', rng)
+  let s = newGame(bank, 'normal', rng, 'You', mode)
   const dispatch = (a: Action) => (s = step(s, a, rng))
   return { get: () => s, set: (n: GameState) => (s = n), dispatch, rng }
 }
@@ -103,6 +103,44 @@ describe('normal Clue', () => {
   })
 })
 
+describe('Quick mode', () => {
+  it('opens Ring In as soon as the selection animation ends', () => {
+    const g = setup(1, BANKS[1], 'quick')
+    g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.selectMs - 1 })
+    expect(g.get().phase.kind).toBe('reading')
+    g.dispatch({ type: 'tick', now: TIMING.selectMs })
+    expect(g.get().phase.kind).toBe('ringIn')
+    const s = structuredClone(g.get())
+    silenceBots(s)
+    g.set(s)
+    g.dispatch({ type: 'ringIn', now: TIMING.selectMs + 100 })
+    expect(g.get().phase.kind).toBe('answering')
+  })
+
+  it('reveals after 15s if nobody rings in', () => {
+    const g = setup(4, BANKS[1], 'quick')
+    g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), now: 0 })
+    g.dispatch({ type: 'tick', now: TIMING.selectMs })
+    const s = structuredClone(g.get())
+    silenceBots(s)
+    g.set(s)
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 15_000 - 1 })
+    expect(g.get().phase.kind).toBe('ringIn')
+    g.dispatch({ type: 'tick', now: TIMING.selectMs + 15_000 })
+    expect(g.get().phase.kind).toBe('reveal')
+  })
+
+  it('leaves Classic timing unchanged', () => {
+    expect(clueTiming('classic')).toEqual({ readMs: TIMING.readMs, ringMs: TIMING.ringMs })
+    expect(clueTiming('quick')).toEqual({ readMs: 0, ringMs: 15_000 })
+  })
+
+  it.each([1, 2, 3, 4])('a whole Quick game terminates (seed %i)', (seed) => {
+    expect(autoplay(seed, 1, 'quick').phase.kind).toBe('gameOver')
+  })
+})
+
 describe('Daily Double', () => {
   it('clamps the Wager and only the selector answers', () => {
     const g = setup(5)
@@ -137,8 +175,8 @@ describe('Daily Double', () => {
 })
 
 /** Drive a whole game with the Human never answering, to check it always terminates. */
-function autoplay(seed: number, level: 1 | 2 | 3 | 4) {
-  const g = setup(seed, BANKS[level])
+function autoplay(seed: number, level: 1 | 2 | 3 | 4, mode: GameMode = 'classic') {
+  const g = setup(seed, BANKS[level], mode)
   let now = 0
   for (let i = 0; i < 20000 && g.get().phase.kind !== 'gameOver'; i++) {
     const s = g.get()

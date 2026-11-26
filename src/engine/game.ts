@@ -8,6 +8,7 @@ import type {
   ClueBank,
   Contestant,
   ContestantId,
+  GameMode,
   Level,
   Rng,
 } from './types'
@@ -36,6 +37,11 @@ export const TIMING = {
   finalAnswerMs: 120_000,
   botPickMs: 1_800,
   botWagerMs: 1_500,
+}
+
+/** Reading time and Ring In window for a normal Clue. Daily Doubles and the Final Round don't change. */
+export function clueTiming(mode: GameMode): { readMs: number; ringMs: number } {
+  return mode === 'quick' ? { readMs: 0, ringMs: 15_000 } : { readMs: TIMING.readMs, ringMs: TIMING.ringMs }
 }
 
 export type Phase =
@@ -79,6 +85,7 @@ export interface FinalState {
 export interface GameState {
   level: Level
   botDifficulty: BotDifficulty
+  mode: GameMode
   round: 1 | 2 | 'final'
   contestants: Contestant[]
   board: Board
@@ -109,6 +116,7 @@ export function newGame(
   botDifficulty: BotDifficulty,
   rng: Rng,
   humanName = 'You',
+  mode: GameMode = 'classic',
 ): GameState {
   const deal = dealCategories(bank, rng)
   const board = buildBoard(deal.round1, 1, rng)
@@ -117,6 +125,7 @@ export function newGame(
   return {
     level: bank.level,
     botDifficulty,
+    mode,
     round: 1,
     contestants: [
       { id: 'human', name: humanName, kind: 'human', score: 0 },
@@ -238,7 +247,7 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
       return null
     case 'reading':
       if (now < p.until) return null
-      return openRingIn(s, p.until, TIMING.ringMs, rng)
+      return openRingIn(s, p.until, clueTiming(s.mode).ringMs, rng)
     case 'ringIn': {
       const ringers = IDS.filter((id) => isBot(id) && !hasAttempted(s, id))
         .map((id) => ({ id, at: s.clue!.botRingAt[id] }))
@@ -335,7 +344,7 @@ function selectCell(s: GameState, ref: CellRef, now: number, rng: Rng): GameStat
   s.phase = cell.dailyDouble
     ? // A Bot's Wager waits for the selection animation, so its reading time isn't spent behind it.
       { kind: 'ddWager', botWagerAt: isBot(s.selector) ? now + TIMING.selectMs + TIMING.botWagerMs : undefined }
-    : { kind: 'reading', until: now + TIMING.selectMs + TIMING.readMs }
+    : { kind: 'reading', until: now + TIMING.selectMs + clueTiming(s.mode).readMs }
   return s
 }
 

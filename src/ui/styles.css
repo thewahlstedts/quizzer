@@ -85,6 +85,7 @@ input, textarea { font: inherit; color: var(--text); }
 .eyebrow { color: var(--gold); text-transform: uppercase; letter-spacing: 0.14em; font-size: 12px; font-weight: 700; margin: 0; }
 .field { display: grid; gap: 8px; margin-bottom: 18px; }
 .field > span { color: var(--muted); font-size: 13px; font-weight: 600; }
+.field-note { color: var(--muted); font-size: 13px; }
 .field input {
   background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 11px 13px;
 }
