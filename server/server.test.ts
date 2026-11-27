@@ -1,7 +1,8 @@
 import { request } from 'node:http'
 import { afterEach, describe, expect, it } from 'vitest'
 import type { ServerMessage } from '../src/net/protocol'
-import { makeRoomCode, startServer, type QuizzerServer, type ServerOptions } from './server'
+import { WebSocket as NodeWebSocket } from 'ws'
+import { clientIp, isPrivate, makeRoomCode, startServer, type QuizzerServer, type ServerOptions } from './server'
 
 // Real sockets on a random port; clients are Node 22's global WebSocket.
 
@@ -110,7 +111,7 @@ describe('server', () => {
     ann.send({ t: 'hello', room: '', name: 'Ann' })
     const annWelcome = await ann.next('welcome')
     const { lobby } = await ann.next('lobby')
-    expect(lobby.code).toMatch(/^[A-HJ-NP-Z]{4}$/)
+    expect(lobby.code).toMatch(/^[A-HJ-NP-Z]{5}$/)
     expect(lobby.host).toBe(annWelcome.you)
 
     bob.send({ t: 'hello', room: lobby.code.toLowerCase(), name: 'Bob' })
@@ -203,7 +204,81 @@ describe('server', () => {
     expect(status).toBe(1)
   })
 
-  it('makes 4-letter Room codes without I or O', () => {
-    for (let i = 0; i < 200; i++) expect(makeRoomCode()).toMatch(/^[A-HJ-NP-Z]{4}$/)
+  it('makes 5-letter Room codes without I or O', () => {
+    for (let i = 0; i < 200; i++) expect(makeRoomCode()).toMatch(/^[A-HJ-NP-Z]{5}$/)
+  })
+
+  it('limits open connections per client address, using the proxy-supplied address', async () => {
+    const s = await serve({ maxConnectionsPerIp: 2 })
+    const open = (ip: string) => wsFrom(s.port, ip)
+    const a1 = await open('5.5.5.5')
+    const a2 = await open('5.5.5.5')
+    await expect(open('5.5.5.5')).rejects.toThrow('429')
+    const other = await open('7.7.7.7') // a different player is fine
+    a1.close()
+    await new Promise((r) => a1.once('close', r))
+    await new Promise((r) => setTimeout(r, 50))
+    const again = await open('5.5.5.5') // a slot freed up
+    for (const w of [a2, other, again]) w.close()
+  })
+
+  it('limits open connections in total', async () => {
+    const s = await serve({ maxConnections: 1 })
+    const first = await wsFrom(s.port, '1.1.1.1')
+    await expect(wsFrom(s.port, '2.2.2.2')).rejects.toThrow('503')
+    first.close()
+  })
+
+  it('tells the Hub each connection\'s address, so Hosts can remove people for good', async () => {
+    const s = await serve()
+    const host = new Client(s.port)
+    await host.opened
+    host.send({ t: 'hello', room: '', name: 'Ann' })
+    const code = (await host.next('lobby')).lobby.code
+    const eve = await wsFrom(s.port, '6.6.6.6')
+    const eveSays = (m: unknown) => eve.send(JSON.stringify(m))
+    const eveGot: ServerMessage[] = []
+    eve.on('message', (d) => eveGot.push(JSON.parse(String(d))))
+    eveSays({ t: 'hello', room: code, name: 'Eve' })
+    const eveId = (await host.next('lobby')).lobby.members.find((m) => m.name === 'Eve')!.id
+    host.send({ t: 'kick', id: eveId })
+    await host.next('lobby')
+    const back = await wsFrom(s.port, '6.6.6.6')
+    const backGot: ServerMessage[] = []
+    back.on('message', (d) => backGot.push(JSON.parse(String(d))))
+    back.send(JSON.stringify({ t: 'hello', room: code, name: 'Evelyn' }))
+    await new Promise((r) => setTimeout(r, 100))
+    expect(eveGot.some((m) => m.t === 'error' && m.code === 'kicked')).toBe(true)
+    expect(backGot).toEqual([{ t: 'error', code: 'banned', message: 'You were removed from this room.' }])
+    for (const w of [eve, back]) w.close()
   })
 })
+
+describe('clientIp', () => {
+  it('trusts X-Forwarded-For only from a private address (the proxy), taking its last entry', () => {
+    expect(clientIp('172.18.0.5', '203.0.113.9')).toBe('203.0.113.9')
+    expect(clientIp('::ffff:127.0.0.1', '1.2.3.4, 203.0.113.9')).toBe('203.0.113.9')
+    expect(clientIp('10.0.0.2', ['9.9.9.9', '203.0.113.9'])).toBe('203.0.113.9')
+    // A client connecting directly can't pick its own address.
+    expect(clientIp('198.51.100.7', '1.2.3.4')).toBe('198.51.100.7')
+    expect(clientIp('::ffff:198.51.100.7', undefined)).toBe('198.51.100.7')
+    expect(clientIp('172.18.0.5', '')).toBe('172.18.0.5')
+  })
+
+  it('recognizes private and loopback addresses', () => {
+    for (const a of ['127.0.0.1', '::1', '10.1.2.3', '192.168.0.9', '172.16.0.1', '172.31.255.255', 'fd12:3456::1', '::ffff:10.0.0.1'])
+      expect(isPrivate(a)).toBe(true)
+    for (const a of ['8.8.8.8', '172.15.0.1', '172.32.0.1', '203.0.113.9', '2001:db8::1'])
+      expect(isPrivate(a)).toBe(false)
+  })
+})
+
+/** A `ws` client from 127.0.0.1 claiming (via the proxy header) to be `ip`; rejects with the HTTP status if refused. */
+function wsFrom(port: number, ip: string): Promise<NodeWebSocket> {
+  return new Promise((resolve, reject) => {
+    const w = new NodeWebSocket(`ws://127.0.0.1:${port}/ws`, { headers: { 'x-forwarded-for': ip } })
+    w.once('open', () => resolve(w))
+    w.once('unexpected-response', (_req, res) => reject(new Error(String(res.statusCode))))
+    w.once('error', reject)
+  })
+}

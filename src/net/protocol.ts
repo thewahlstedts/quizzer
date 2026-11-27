@@ -39,6 +39,8 @@ export type ClientMessage =
   | { t: 'ping'; sent: number }
   /** Leave the Room for good (closing the socket only disconnects; you keep your seat). */
   | { t: 'leave' }
+  /** Host only, between games: remove a member. They can't rejoin this Room from the same address. */
+  | { t: 'kick'; id: ContestantId }
 
 export type ServerMessage =
   /** You're in. Keep `token` to rejoin after a dropped connection. */
@@ -59,6 +61,15 @@ export type ErrorCode =
   | 'bad_token'
   | 'not_host'
   | 'not_playing'
+  | 'no_room'
+  /** You were removed from the Room by the Host. */
+  | 'kicked'
+  /** Joining a Room you were removed from. */
+  | 'banned'
+  /** The server is at its limit of Rooms. */
+  | 'server_full'
+  /** Too many Rooms created, or failed joins, from your address in the last minute. */
+  | 'slow_down'
 
 export const NAME_MAX = 20
 const TEXT_MAX = 200
@@ -93,6 +104,8 @@ export function parseClientMessage(raw: string): ClientMessage | null {
       return { t: 'start' }
     case 'leave':
       return { t: 'leave' }
+    case 'kick':
+      return isStr(m.id, 16) ? { t: 'kick', id: m.id } : null
     case 'ping':
       return isNum(m.sent) ? { t: 'ping', sent: m.sent } : null
     case 'act': {

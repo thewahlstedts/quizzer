@@ -20,7 +20,7 @@ npm run build:server && PORT=8787 npm run server   # online-play server: ws://lo
 - `src/content/level-N.json` and `level-N-<part>.json` — the Clue bank. All files for a Level are merged by `src/content/index.ts`, so new batches go in new files. Each Clue has a Rank (1–5); point values come from Rank × Round (see `docs/adr/0001-clue-rank-not-points.md`).
 - `src/ui/` — React screens, sounds, and the review log.
 - `src/net/` — online play, shared by browser and server: the message protocol, a Room per game, the Hub of Rooms and connections, and the browser client (see `docs/adr/0004-online-play-server-authoritative-rooms.md`). The screens are `src/ui/Online.tsx` (Play with friends, the Room) and `src/ui/useOnlineGame.ts`.
-- `server/` — the online-play server: Node `http` + `ws`, feeding socket events to the Hub. `GET /health`, WebSockets on `/ws`. Env: `PORT` (default 8787), `ALLOWED_ORIGINS` (comma-separated; other Origins get 403). `server/Dockerfile` builds its image.
+- `server/` — the online-play server: Node `http` + `ws`, feeding socket events to the Hub. `GET /health`, WebSockets on `/ws`. Env: `PORT` (default 8787), `ALLOWED_ORIGINS` (comma-separated; other Origins get 403). `server/Dockerfile` builds its image. Limits (connections per address, Rooms, rate limits) default sensibly and can be changed by environment variables listed in `server/index.ts`.
 - `GLOSSARY.md` — the domain language (Clue, Answer, Contestant, Rank, Override, Flag…).
 
 ## Play with friends

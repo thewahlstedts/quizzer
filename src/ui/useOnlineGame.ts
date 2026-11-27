@@ -61,6 +61,7 @@ export interface OnlineGame extends ClientSnapshot {
   dispatch(a: HumanAction): void
   changeSettings(s: RoomSettings): void
   start(): void
+  kick(id: ContestantId): void
   leave(): void
 }
 
@@ -108,6 +109,12 @@ export function useOnlineGame(): OnlineGame {
         saveSeat(null)
         setReconnecting(false)
         setSeatLost(true)
+      }
+      // Removed by the Host: the seat is gone, and there's nothing to reconnect to.
+      if (s.error?.code === 'kicked') {
+        saveSeat(null)
+        setReconnecting(false)
+        generation.current++
       }
       const next = s.view
       const prev = prevView.current
@@ -204,5 +211,6 @@ export function useOnlineGame(): OnlineGame {
     dispatch: useCallback((a: HumanAction) => client.current?.act(a), []),
     changeSettings: useCallback((s: RoomSettings) => client.current?.changeSettings(s), []),
     start: useCallback(() => client.current?.start(), []),
+    kick: useCallback((id: ContestantId) => client.current?.kick(id), []),
   }
 }
