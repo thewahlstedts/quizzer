@@ -591,6 +591,8 @@ function ClueView({
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
   const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
+  // A Bot's Daily Double: show what it wagered before its Clue appears.
+  const showingBotWager = p.kind === 'ddReading' && state.selector !== 'human' && now < p.until - TIMING.readMs + BOT_WAGER_SHOW_MS
   const humanTyping = (p.kind === 'answering' && p.contestant === 'human') || (p.kind === 'ddAnswering' && state.selector === 'human')
   const screenRef = useRef<HTMLDivElement>(null)
   useGlideOnChange(screenRef, humanTyping)
@@ -608,10 +610,14 @@ function ClueView({
         </span>
       </div>
 
-      {p.kind === 'ddWager' ? (
+      {p.kind === 'ddWager' || showingBotWager ? (
         <div ref={cardRef} className="flip-target">
           {flying && <FlipFace category={category} label={`$${cell.value}`} />}
-          <DailyDoubleWager state={state} dispatch={dispatch} />
+          {showingBotWager ? (
+            <BotWagerReveal id={state.selector} name={contestant(state, state.selector).name} wager={clueState.wager ?? 0} />
+          ) : (
+            <DailyDoubleWager state={state} dispatch={dispatch} />
+          )}
         </div>
       ) : (
         <div
@@ -633,7 +639,7 @@ function ClueView({
       {p.kind === 'reading' && clueTiming(state.mode).readMs > 0 && (
         <Timer until={p.until} total={clueTiming(state.mode).readMs} now={now} label="Read the clue" />
       )}
-      {p.kind === 'ddReading' && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
+      {p.kind === 'ddReading' && !showingBotWager && <Timer until={p.until} total={TIMING.readMs} now={now} label="Read the clue" />}
       {p.kind === 'ringIn' && <Timer until={p.until} total={clueTiming(state.mode).ringMs} now={now} label="Ring in!" />}
       {(p.kind === 'answering' || p.kind === 'ddAnswering') && (
         <Timer
@@ -834,6 +840,7 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
       className="answer-box"
       onSubmit={(e) => {
         e.preventDefault()
+        if (!text.trim()) return // an empty Answer can't be submitted (running out of time still counts as wrong)
         dismissKeyboard()
         onSubmit(text)
       }}
@@ -847,17 +854,30 @@ function AnswerBox({ onSubmit, placeholder = 'Type your answer and press Enter' 
         autoCorrect="off"
         spellCheck={false}
       />
-      <button className="primary" type="submit">
+      <button className="primary" type="submit" disabled={!text.trim()}>
         Submit
       </button>
     </form>
   )
 }
 
-function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onSubmit: (n: number) => void; label: string }) {
+function WagerBox({
+  min,
+  max,
+  onSubmit,
+  label,
+  standings,
+}: {
+  min: number
+  max: number
+  onSubmit: (n: number) => void
+  label: string
+  /** Everyone's score, shown in the box so it stays visible above the on-screen keyboard. */
+  standings?: { id: ContestantId; name: string; score: number }[]
+}) {
   const [value, setValue] = useState(String(Math.min(max, Math.max(min, Math.round(max / 2 / 100) * 100))))
   const ref = useRef<HTMLInputElement>(null)
-  useKeyboardInput(ref, { select: true })
+  useKeyboardInput(ref, { select: true, revealFrom: '.final, .dd-splash' })
   const n = Number(value)
   const valid = value.trim() !== '' && Number.isInteger(n) && n >= min && n <= max
   return (
@@ -870,6 +890,17 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
         onSubmit(n)
       }}
     >
+      {standings && (
+        <ul className="wager-standings">
+          {standings.map((c) => (
+            <li key={c.id} className={c.id}>
+              <Avatar id={c.id} />
+              <span className="name">{c.name}</span>
+              <span className={'score' + (c.score < 0 ? ' neg' : '')}>{money(c.score)}</span>
+            </li>
+          ))}
+        </ul>
+      )}
       <label>
         {label} <small>({money(min)}–{money(max)})</small>
       </label>
@@ -891,6 +922,22 @@ function WagerBox({ min, max, onSubmit, label }: { min: number; max: number; onS
         </button>
       </div>
     </form>
+  )
+}
+
+/** How long a Bot's Daily Double Wager is shown before its Clue appears (inside the reading time). */
+const BOT_WAGER_SHOW_MS = 2_500
+
+function BotWagerReveal({ id, name, wager }: { id: ContestantId; name: string; wager: number }) {
+  return (
+    <div className={`dd-splash bot-wager bot-wager-${id}`} role="status">
+      <h2>Daily Double!</h2>
+      <div className="bot-wager-line">
+        <Avatar id={id} />
+        <span>{name} wagers</span>
+      </div>
+      <div className="bot-wager-amount">{money(wager)}</div>
+    </div>
   )
 }
 
@@ -932,17 +979,10 @@ function RevealActions({
   const autoOn = useState(() => auto && loadAutoContinue())[0]
   // The countdown restarts after an Override and pauses while the Flag dialog is open.
   const [autoFrom, setAutoFrom] = useState(() => Date.now())
-  const [left, setLeft] = useState(AUTO_CONTINUE_MS)
   useEffect(() => {
     if (!autoOn || flagging) return
-    const id = setInterval(() => {
-      const rest = AUTO_CONTINUE_MS - (Date.now() - autoFrom)
-      if (rest <= 0) {
-        clearInterval(id)
-        dispatch({ type: 'continue' })
-      } else setLeft(rest)
-    }, 200)
-    return () => clearInterval(id)
+    const t = setTimeout(() => dispatch({ type: 'continue' }), Math.max(0, AUTO_CONTINUE_MS - (Date.now() - autoFrom)))
+    return () => clearTimeout(t)
   }, [autoOn, flagging, autoFrom, dispatch])
 
   return (
@@ -964,24 +1004,24 @@ function RevealActions({
         <button className="ghost" disabled={flagged} onClick={() => setFlagging(true)}>
           {flagged ? 'Flagged ✓' : 'Flag clue'}
         </button>
-        <button ref={ref} className={'primary' + (autoOn && !flagging ? ' auto' : '')} onClick={() => dispatch({ type: 'continue' })}>
-          Continue{autoOn && !flagging ? ` · ${Math.ceil(left / 1000)}` : ''}
-          {autoOn && !flagging && <span key={autoFrom} className="auto-bar" style={{ animationDuration: `${AUTO_CONTINUE_MS}ms` }} aria-hidden />}
-        </button>
+        {/* With Auto continue on, the game moves on by itself, so there's no Continue button. */}
+        {!autoOn && (
+          <button ref={ref} className="primary" onClick={() => dispatch({ type: 'continue' })}>
+            Continue
+          </button>
+        )}
       </div>
       {flagging && (
         <FlagDialog
           onCancel={() => {
             setFlagging(false)
             setAutoFrom(Date.now())
-            setLeft(AUTO_CONTINUE_MS)
           }}
           onSubmit={(reason, note) => {
             logFlag(state.level, clue, reason, note)
             setFlagging(false)
             setFlagged(true)
             setAutoFrom(Date.now())
-            setLeft(AUTO_CONTINUE_MS)
           }}
         />
       )}
@@ -1079,6 +1119,7 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
           min={0}
           max={contestant(state, 'human').score}
           label="Your wager"
+          standings={state.contestants.map((c) => ({ id: c.id, name: c.name, score: c.score }))}
           onSubmit={(amount) => dispatch({ type: 'finalWager', amount })}
         />
       )}
@@ -1174,12 +1215,69 @@ function GameOverEarnings({ earned }: { earned: number }) {
   )
 }
 
+const CONFETTI = 48
+const CONFETTI_COLORS = ['var(--gold)', 'var(--teal)', 'var(--coral)', 'var(--violet)', '#fff']
+
+/** The Human won: a trophy pops in and confetti falls over the screen for a few seconds. */
+function WinCelebration() {
+  const [on, setOn] = useState(true)
+  useEffect(() => {
+    const t = setTimeout(() => setOn(false), 5_000)
+    return () => clearTimeout(t)
+  }, [])
+  // Deterministic spread (no Math.random in render), varied enough to look random.
+  const pieces = Array.from({ length: CONFETTI }, (_, i) => {
+    // hash-based so position, delay and speed aren't correlated (a linear formula lined the pieces up)
+    const r = (n: number) => {
+      const x = Math.sin(i * 12.9898 + n * 78.233) * 43758.5453
+      return x - Math.floor(x)
+    }
+    return {
+      left: `${Math.round(r(1) * 100)}%`,
+      delay: `${(r(2) * 0.9).toFixed(2)}s`,
+      duration: `${(2.4 + r(3) * 1.6).toFixed(2)}s`,
+      drift: `${Math.round((r(4) - 0.5) * 160)}px`,
+      spin: `${Math.round(360 + r(5) * 720)}deg`,
+      color: CONFETTI_COLORS[i % CONFETTI_COLORS.length],
+      w: `${6 + Math.round(r(6) * 6)}px`,
+    }
+  })
+  return (
+    <>
+      <div className="trophy" aria-hidden>
+        🏆
+      </div>
+      {on && (
+        <div className="confetti" aria-hidden>
+          {pieces.map((p, i) => (
+            <span
+              key={i}
+              style={
+                {
+                  left: p.left,
+                  width: p.w,
+                  background: p.color,
+                  animationDelay: p.delay,
+                  animationDuration: p.duration,
+                  '--drift': p.drift,
+                  '--spin': p.spin,
+                } as React.CSSProperties
+              }
+            />
+          ))}
+        </div>
+      )}
+    </>
+  )
+}
+
 function GameOver({ state }: { state: GameState }) {
   const winners = state.winners ?? []
   const names = winners.map((id) => contestant(state, id).name)
   const humanWon = winners.includes('human')
   return (
-    <div className="interstitial gameover">
+    <div className={'interstitial gameover' + (humanWon ? ' won' : '')}>
+      {humanWon && <WinCelebration />}
       <p className="eyebrow">Game over</p>
       <h2>
         {humanWon

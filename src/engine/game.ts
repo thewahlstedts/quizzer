@@ -37,6 +37,8 @@ export const TIMING = {
   finalAnswerMs: 120_000,
   botPickMs: 1_800,
   botWagerMs: 1_500,
+  /** Once every Human has answered the Final (or none plays it), Bots still thinking answer within this. */
+  finalRushMs: 2_000,
 }
 
 /** Reading time and Ring In window for a normal Clue. Daily Doubles and the Final Round don't change. */
@@ -146,10 +148,12 @@ export function newGame(
   rng: Rng,
   humans: string | readonly Seat[] = 'You',
   mode: GameMode = 'slow',
+  /** Answers (answerKey) from recent games, to avoid dealing again. */
+  avoidAnswers: ReadonlySet<string> = new Set(),
 ): GameState {
   const seats: Seat[] = typeof humans === 'string' ? [{ id: 'human', name: humans }] : [...humans]
   validateSeats(seats)
-  const deal = dealCategories(bank, rng)
+  const deal = dealCategories(bank, rng, avoidAnswers)
   const board = buildBoard(deal.round1, 1, rng)
   const nextBoard = buildBoard(deal.round2, 2, rng)
   const botNames = dealBotNames(
@@ -356,9 +360,11 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
     case 'finalReading': {
       if (now < p.until) return null
       const clue = finalClue(s)!
+      // Nobody to wait for if no Human plays the Final.
+      const humanIn = s.final.eligible.some((id) => isHuman(s, id))
       for (const id of s.final.eligible.filter((x) => isBot(s, x))) {
         s.final.botKnows[id] = rollKnows(s.botDifficulty, clue.rank, rng)
-        s.final.botSubmitAt[id] = p.until + randomDelay(rng, 8_000, 45_000)
+        s.final.botSubmitAt[id] = p.until + (humanIn ? randomDelay(rng, 8_000, 45_000) : randomDelay(rng, 500, TIMING.finalRushMs))
       }
       s.phase = { kind: 'finalAnswering', until: p.until + TIMING.finalAnswerMs }
       return s
@@ -477,6 +483,13 @@ function submitHuman(s: GameState, prev: GameState, by: ContestantId, text: stri
     const clue = finalClue(s)!
     const { correct, matchScore } = judge(text, clue)
     s.final.answers[by] = { contestant: by, typed: text, display: text, correct, matchScore, delta: 0 }
+    // Once every eligible Human has answered, Bots still thinking answer within finalRushMs.
+    if (s.final.eligible.every((id) => isBot(s, id) || s.final.answers[id])) {
+      for (const id of s.final.eligible.filter((x) => isBot(s, x) && !s.final.answers[x])) {
+        const at = now + randomDelay(rng, 400, TIMING.finalRushMs)
+        s.final.botSubmitAt[id] = Math.min(s.final.botSubmitAt[id] ?? at, at)
+      }
+    }
     return allFinalAnswered(s) ? finishFinal(s, rng) : s
   }
   return prev

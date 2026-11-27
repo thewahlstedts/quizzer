@@ -6,7 +6,7 @@ Rules for several Humans:
 
 - Each Human may Ring In once per Clue. A Clue is revealed once someone answers it right, every Contestant has tried, or the window closes.
 - Only the selecting Human may pick a Clue or Wager on a Daily Double. Only the chooser picks the Final Round Category.
-- In the Final Round, each eligible Human Wagers once, and the Clue is read once all of them have.
+- In the Final Round, each eligible Human Wagers once, and the Clue is read once all of them have. Bots still thinking hurry (within `finalRushMs`) only once every eligible Human has answered.
 - A Human may Override only their own Answer. Each Human has their own tally of correct and wrong Answers.
 - Ties for lowest score (who picks first in Round 2, who chooses the Final Category) go to a Human over a Bot, and to a random one of the tied Humans.
 - Any Human may `continue` past a reveal or Round intro.

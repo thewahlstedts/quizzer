@@ -3,7 +3,8 @@ import { newGame, step, type GameState, type HumanAction } from '../engine/game'
 import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
-import { countdownSecond, cuesFor } from './cues'
+import { countdownSecond, cuesFor, waitSecond } from './cues'
+import { loadRecentAnswers, rememberDeal } from './recent'
 import { addRecord, recordFromState } from './history'
 
 const rng = Math.random
@@ -38,7 +39,11 @@ export function useGame() {
       ref.current = null
       // Also unlocks Web Audio inside this tap, which iOS requires before any sound plays.
       play('start')
-      commit(newGame(BANKS[level], difficulty, rng, name || 'You', mode))
+      const game = newGame(BANKS[level], difficulty, rng, name || 'You', mode, loadRecentAnswers())
+      // Remember what was dealt (not just finished games), so the next game avoids these Answers.
+      const dealt = new Set([...game.board.categories, ...game.nextBoard.categories, ...game.final.options].map((c) => c.id))
+      rememberDeal(BANKS[level].categories.filter((c) => dealt.has(c.id)))
+      commit(game)
     },
     [commit],
   )
@@ -47,6 +52,7 @@ export function useGame() {
 
   useEffect(() => {
     let lastTick: string | null = null
+    let lastBeep: string | null = null
     const id = setInterval(() => {
       const t = Date.now()
       setNow(t)
@@ -59,6 +65,11 @@ export function useGame() {
         const key = sec === null ? null : `${s!.phase.kind}:${'until' in s!.phase ? s!.phase.until : ''}:${sec}`
         if (key !== null && key !== lastTick) play(sec === 1 ? 'tickLast' : 'tick')
         lastTick = key
+        // A beep per second through the wait before the Human can Ring In / answer.
+        const w = s ? waitSecond(s, t) : null
+        const wKey = w === null ? null : `${s!.phase.kind}:${'until' in s!.phase ? s!.phase.until : ''}:${w}`
+        if (wKey !== null && wKey !== lastBeep) play('beep')
+        lastBeep = wKey
       }
     }, 100)
     return () => clearInterval(id)

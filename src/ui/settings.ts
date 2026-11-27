@@ -3,7 +3,7 @@
 const AUTO_KEY = 'quizzer.autoContinue'
 
 /** With Auto continue on, a Clue's reveal moves on by itself after this long. */
-export const AUTO_CONTINUE_MS = 5_000
+export const AUTO_CONTINUE_MS = 2_500
 
 export function loadAutoContinue(): boolean {
   try {

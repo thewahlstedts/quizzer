@@ -92,13 +92,6 @@ input, textarea { font: inherit; color: var(--text); }
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45); display: grid; gap: 14px; min-width: 0;
 }
 .stats-card h3 { margin: 0; font-family: var(--display); }
-/* Auto continue: a bar drains along the bottom of the Continue button. */
-.primary.auto { position: relative; overflow: hidden; }
-.auto-bar {
-  position: absolute; left: 0; bottom: 0; height: 3px; width: 100%; background: rgba(42, 26, 0, 0.45);
-  transform-origin: left; animation: auto-drain linear forwards;
-}
-@keyframes auto-drain { from { transform: scaleX(1); } to { transform: scaleX(0); } }
 .stats-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .gameover .primary.big { margin: 6px auto 0; }
 .stats-periods button { font-size: 14px; padding-left: 4px; padding-right: 4px; }
@@ -120,6 +113,22 @@ input, textarea { font: inherit; color: var(--text); }
 .history-earn { color: var(--gold); }
 .history-earn.neg { color: var(--coral); }
 .history-meta { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+/* ---------- winning ---------- */
+.gameover.won h2 { color: var(--gold); text-shadow: 0 0 30px rgba(255, 201, 74, 0.55); animation: win-bounce 0.9s cubic-bezier(.2, 1.6, .4, 1) 0.35s both; }
+.trophy { font-size: clamp(64px, 16vw, 110px); line-height: 1; filter: drop-shadow(0 0 30px rgba(255, 201, 74, 0.7)); animation: trophy-pop 0.8s cubic-bezier(.2, 1.7, .4, 1) both, trophy-shine 2.4s ease-in-out 0.8s infinite alternate; }
+@keyframes trophy-pop { from { opacity: 0; transform: scale(0.2) rotate(-20deg); } to { opacity: 1; transform: none; } }
+@keyframes trophy-shine { to { filter: drop-shadow(0 0 50px rgba(255, 201, 74, 1)); transform: translateY(-4px); } }
+@keyframes win-bounce { from { opacity: 0; transform: scale(0.6); } to { opacity: 1; transform: none; } }
+.confetti { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 20; }
+.confetti span {
+  position: absolute; top: -20px; height: 14px; border-radius: 2px; opacity: 0;
+  animation-name: confetti-fall; animation-timing-function: cubic-bezier(.25, .6, .45, 1); animation-fill-mode: both;
+}
+@keyframes confetti-fall {
+  0% { opacity: 1; transform: translate(0, 0) rotate(0); }
+  85% { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--drift), 105vh) rotate(var(--spin)); }
+}
 .gameover-earnings { display: flex; justify-content: center; gap: 28px; margin: 6px 0 4px; }
 .gameover-earnings > div { display: grid; justify-items: center; gap: 2px; }
 @media (max-width: 420px) {
@@ -367,7 +376,29 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
   border: 1px solid rgba(255, 201, 74, 0.5); animation: rise 0.4s ease;
 }
 .dd-splash h2 { font-family: var(--display); font-weight: 800; font-size: clamp(36px, 7vw, 72px); margin: 0 0 18px; color: var(--gold); letter-spacing: -0.02em; text-shadow: 0 4px 30px rgba(255, 201, 74, 0.5); }
+.bot-wager { --who: var(--coral); display: grid; justify-items: center; gap: 6px; }
+.bot-wager-bot2 { --who: var(--teal); }
+.bot-wager h2 { margin-bottom: 8px; }
+.bot-wager-line { display: flex; align-items: center; gap: 10px; color: var(--who); font-weight: 800; font-size: 20px; }
+.bot-wager-line .avatar { width: 34px; height: 34px; font-size: 16px; }
+.bot-wager-amount {
+  font-family: var(--display); font-weight: 800; font-size: clamp(44px, 9vw, 80px); line-height: 1; color: var(--who);
+  text-shadow: 0 0 30px var(--who); animation: stamp-in 0.45s cubic-bezier(.2, 1.6, .4, 1) 0.15s both;
+}
 .wager-box { display: grid; gap: 10px; justify-items: center; }
+/* The quick-pick buttons sit above the input, so nothing the Human needs is below the field the
+   on-screen keyboard rises to. */
+.wager-box .wager-standings { order: 0; }
+.wager-box label { order: 1; }
+.wager-box .quick { order: 2; }
+.wager-box .row { order: 3; }
+.wager-standings { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; width: 100%; }
+.wager-standings li { display: flex; align-items: center; gap: 6px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px 4px 4px; font-size: 14px; min-width: 0; }
+.wager-standings li.human { border-color: rgba(255, 201, 74, 0.5); }
+.wager-standings .avatar { width: 24px; height: 24px; font-size: 11px; }
+.wager-standings .name { font-weight: 700; max-width: 7em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wager-standings .score { font-family: var(--display); font-weight: 800; color: var(--gold); }
+.wager-standings .score.neg { color: var(--coral); }
 .wager-box label { font-weight: 700; }
 .wager-box label small { color: var(--muted); font-weight: 500; }
 .wager-box input { width: 180px; background: var(--bg); border: 2px solid var(--gold); border-radius: 12px; padding: 10px 12px; font-size: 22px; text-align: center; font-family: var(--display); font-weight: 700; }
@@ -504,7 +535,8 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 /* While the Human types an Answer on a phone, keep the Clue at the top and compact so the
    Category, Clue, timer and answer box fit above the on-screen keyboard. */
 @media (max-width: 640px), (max-height: 700px) {
-  .play-area:has(.answer-box) { justify-content: flex-start; }
+  .play-area:has(.answer-box), .play-area:has(.wager-box) { justify-content: flex-start; }
+  .final:has(.wager-box) { gap: 10px; }
   .clue-screen:has(.answer-box), .final:has(.answer-box) { gap: 10px; }
   .clue-screen:has(.answer-box) .clue-card, .final:has(.answer-box) .clue-card { min-height: 0; padding: 18px 20px; }
   .clue-screen:has(.answer-box) .clue-text, .final:has(.answer-box) .clue-text { font-size: 22px; }
