@@ -86,7 +86,7 @@ _Avoid_: Log, past games
 ## Review
 
 **Override**:
-A Human declaring their own rejected Answer correct ("I was right"). Overrides are kept as evidence for improving judging.
+A Human declaring their own rejected Answer correct ("I was right"). With other Humans in the game, it needs every one of them to agree. Overrides are kept as evidence for improving judging.
 _Avoid_: Appeal, dispute, challenge
 
 **Flag**:

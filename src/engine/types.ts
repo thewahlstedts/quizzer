@@ -76,4 +76,6 @@ export interface Attempt {
   matchScore: number
   delta: number
   overridden?: boolean
+  /** The other Humans turned down this Answer's Override. */
+  overrideDenied?: boolean
 }

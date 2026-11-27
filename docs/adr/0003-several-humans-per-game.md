@@ -7,12 +7,13 @@ Rules for several Humans:
 - Each Human may Ring In once per Clue. A Clue is revealed once someone answers it right, every Contestant has tried, or the window closes.
 - Only the selecting Human may pick a Clue or Wager on a Daily Double. Only the chooser picks the Final Round Category.
 - In the Final Round, each eligible Human Wagers once, and the Clue is read once all of them have. Bots still thinking hurry (within `finalRushMs`) only once every eligible Human has answered.
-- A Human may Override only their own Answer. Each Human has their own tally of correct and wrong Answers.
+- A Human may Override only their own Answer, and with other Humans in the game every one of them must agree: one "no", or no full agreement within 20 seconds, turns it down for good. Bots don't vote. Each Human has their own tally of correct and wrong Answers.
 - Ties for lowest score (who picks first in Round 2, who chooses the Final Category) go to a Human over a Bot, and to a random one of the tied Humans.
-- Any Human may `continue` past a reveal or Round intro.
+- A reveal, Round intro or Final reveal moves on once every Human has pressed Continue, and not while an Override vote is open.
+- With several Humans, a Human's turn has a time limit (`TURN_LIMITS`): 20 seconds to pick a Clue or the Final Category (then one is picked at random), 30 seconds to Wager (then the minimum: $5 on a Daily Double, $0 in the Final), and 30 seconds for everyone to press Continue (then the game moves on). A single-player game has no time limits, as before.
 
 ## Consequences
 
 `ContestantId` is a plain string. Bots are always `bot1`, `bot2`, so a Human may not use those ids. Anything that needs to know "is this a Bot?" asks the Contestant's `kind`, never its id. The UI, Game History and Stats still assume the device's Human has id `'human'`. A networked client will have to pass its own id through instead.
 
-Still undecided, and needed before online play: whether Override should need another Human's agreement (today a Human can award themselves points); whether `continue` should wait for everyone or advance on a timer; and time limits for a Human's turn to pick a Clue, Wager or choose the Final Category, which have none today, so one idle player can stall the game.
+The Continue time limit means "wait for everyone" can't be stalled by one player who walked away; the cost is that someone slow to read a reveal gets moved on after 30 seconds.

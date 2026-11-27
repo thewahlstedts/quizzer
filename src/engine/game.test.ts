@@ -1,5 +1,17 @@
 import { describe, expect, it } from 'vitest'
-import { clueTiming, contestant, currentCell, finalClue, newGame, step, TIMING, type Action, type GameState, type HumanAction } from './game'
+import {
+  clueTiming,
+  contestant,
+  currentCell,
+  finalClue,
+  newGame,
+  step,
+  TIMING,
+  TURN_LIMITS,
+  type Action,
+  type GameState,
+  type HumanAction,
+} from './game'
 import { seeded } from './rng'
 import { normalizeMode, type ClueBank, type GameMode } from './types'
 import { BANKS } from '../content'
@@ -475,21 +487,138 @@ describe('several Humans', () => {
     expect(g.get().phase.kind).toBe('reveal')
   })
 
-  it('lets a Human Override only their own Answer', () => {
-    const g = multi()
+  /** Ann answers wrong, nobody else rings in, and the Clue is revealed at `READ + 60_000`. */
+  function annWrong(seats = SEATS) {
+    const g = multi(1, seats)
     toRingIn(g)
     g.dispatch({ type: 'ringIn', by: 'ann', now: READ + 100 })
     g.dispatch({ type: 'submitAnswer', text: 'close enough', by: 'ann', now: READ + 200 })
     g.dispatch({ type: 'tick', now: READ + 60_000 })
     expect(g.get().phase.kind).toBe('reveal')
+    return g
+  }
+  const REVEAL = READ + 60_000
+
+  it('lets a Human ask to Override only their own Answer, and applies it once the others agree', () => {
+    const g = annWrong()
     const revealed = g.get()
-    g.dispatch({ type: 'override', by: 'ben', now: 0 })
+    g.dispatch({ type: 'override', by: 'ben', now: REVEAL })
     expect(g.get()).toBe(revealed)
-    g.dispatch({ type: 'override', by: 'ann', now: 0 })
-    const value = currentCell(g.get())!.value
-    expect(contestant(g.get(), 'ann').score).toBe(value)
+    g.dispatch({ type: 'override', by: 'ann', now: REVEAL })
+    expect(g.get().vote).toEqual({ by: 'ann', agree: [], until: REVEAL + TURN_LIMITS.voteMs })
+    expect(contestant(g.get(), 'ann').score).toBeLessThan(0)
+    // Ann can't vote on her own Override; a Bot can't vote at all.
+    const voting = g.get()
+    g.dispatch({ type: 'vote', agree: true, by: 'ann', now: REVEAL + 1 })
+    g.dispatch({ type: 'vote', agree: true, by: 'bot1', now: REVEAL + 1 })
+    expect(g.get()).toBe(voting)
+    g.dispatch({ type: 'vote', agree: true, by: 'ben', now: REVEAL + 2 })
+    const s = g.get()
+    expect(s.vote).toBeUndefined()
+    expect(contestant(s, 'ann').score).toBe(currentCell(s)!.value)
+    expect(s.selector).toBe('ann')
+    expect(s.tally.ann).toEqual({ correct: 1, wrong: 0 })
+  })
+
+  it('needs every other Human to agree to an Override', () => {
+    const g = annWrong([...SEATS, { id: 'cat', name: 'Cat' }])
+    g.dispatch({ type: 'override', by: 'ann', now: REVEAL })
+    g.dispatch({ type: 'vote', agree: true, by: 'ben', now: REVEAL + 1 })
+    expect(g.get().vote?.agree).toEqual(['ben'])
+    g.dispatch({ type: 'vote', agree: false, by: 'cat', now: REVEAL + 2 })
+    const s = g.get()
+    expect(s.vote).toBeUndefined()
+    expect(contestant(s, 'ann').score).toBeLessThan(0)
+    expect(s.clue!.attempts[0].overrideDenied).toBe(true)
+    // Turned down for good: no asking again.
+    g.dispatch({ type: 'override', by: 'ann', now: REVEAL + 3 })
+    expect(g.get()).toBe(s)
+  })
+
+  it('turns an Override down when the vote runs out of time', () => {
+    const g = annWrong()
+    g.dispatch({ type: 'override', by: 'ann', now: REVEAL })
+    g.dispatch({ type: 'tick', now: REVEAL + TURN_LIMITS.voteMs - 1 })
+    expect(g.get().vote).toBeDefined()
+    g.dispatch({ type: 'tick', now: REVEAL + TURN_LIMITS.voteMs })
+    expect(g.get().vote).toBeUndefined()
+    expect(g.get().clue!.attempts[0].overrideDenied).toBe(true)
+  })
+
+  it('moves on from a reveal only once every Human has pressed Continue', () => {
+    const g = annWrong()
+    g.dispatch({ type: 'continue', by: 'ann', now: REVEAL + 1 })
+    expect(g.get().phase.kind).toBe('reveal')
+    expect(g.get().ready).toEqual(['ann'])
+    // Pressing twice doesn't count twice.
+    const once = g.get()
+    g.dispatch({ type: 'continue', by: 'ann', now: REVEAL + 2 })
+    expect(g.get()).toBe(once)
+    g.dispatch({ type: 'continue', by: 'ben', now: REVEAL + 3 })
+    expect(g.get().phase.kind).toBe('board')
+    expect(g.get().ready).toBeUndefined()
+  })
+
+  it('waits for an open Override vote before moving on', () => {
+    const g = annWrong()
+    g.dispatch({ type: 'override', by: 'ann', now: REVEAL })
+    g.dispatch({ type: 'continue', by: 'ann', now: REVEAL + 1 })
+    g.dispatch({ type: 'continue', by: 'ben', now: REVEAL + 2 })
+    expect(g.get().phase.kind).toBe('reveal')
+    g.dispatch({ type: 'vote', agree: true, by: 'ben', now: REVEAL + 3 })
+    expect(g.get().phase.kind).toBe('board')
     expect(g.get().selector).toBe('ann')
-    expect(g.get().tally.ann).toEqual({ correct: 1, wrong: 0 })
+  })
+
+  it('moves on by itself when the Continue time limit runs out', () => {
+    const g = annWrong()
+    g.dispatch({ type: 'continue', by: 'ann', now: REVEAL + 1 })
+    g.dispatch({ type: 'tick', now: REVEAL + TURN_LIMITS.continueMs - 1 })
+    expect(g.get().phase.kind).toBe('reveal')
+    g.dispatch({ type: 'tick', now: REVEAL + TURN_LIMITS.continueMs })
+    expect(g.get().phase.kind).toBe('board')
+  })
+
+  it('has no time limits in a single-player game', () => {
+    const g = setup()
+    g.dispatch({ type: 'tick', now: 0 })
+    g.dispatch({ type: 'tick', now: 10 * 60_000 })
+    expect(g.get().phase.kind).toBe('board')
+    expect(g.get().turnUntil).toBeUndefined()
+  })
+
+  it('picks a Clue for a Human who takes too long', () => {
+    const g = multi()
+    g.dispatch({ type: 'tick', now: 0 })
+    expect(g.get().turnUntil).toBe(TURN_LIMITS.pickMs)
+    g.dispatch({ type: 'tick', now: TURN_LIMITS.pickMs - 1 })
+    expect(g.get().phase.kind).toBe('board')
+    g.dispatch({ type: 'tick', now: TURN_LIMITS.pickMs })
+    expect(['reading', 'ddWager']).toContain(g.get().phase.kind)
+    expect(g.get().board.cells.flat().filter((c) => c.played)).toHaveLength(1)
+  })
+
+  it('wagers the minimum for a Human who takes too long on a Daily Double', () => {
+    const g = multi(5)
+    let dd: { col: number; row: number } | undefined
+    g.get().board.cells.forEach((col, c) => col.forEach((cell, r) => cell.dailyDouble && (dd ??= { col: c, row: r })))
+    g.dispatch({ type: 'select', ref: dd!, by: 'ann', now: 0 })
+    g.dispatch({ type: 'tick', now: 100 })
+    g.dispatch({ type: 'tick', now: 100 + TURN_LIMITS.wagerMs })
+    expect(g.get().phase.kind).toBe('ddReading')
+    expect(g.get().clue!.wager).toBe(5)
+  })
+
+  it('chooses the Final Category and wagers $0 for Humans who take too long', () => {
+    const g = atFinal([1000, 2000, 3000])
+    g.dispatch({ type: 'tick', now: 1 })
+    g.dispatch({ type: 'tick', now: 1 + TURN_LIMITS.pickMs })
+    expect(g.get().phase.kind).toBe('finalWager')
+    expect(g.get().final.categoryId).toBeDefined()
+    g.dispatch({ type: 'finalWager', amount: 700, by: 'ben', now: 1 + TURN_LIMITS.pickMs })
+    g.dispatch({ type: 'tick', now: 1 + TURN_LIMITS.pickMs + TURN_LIMITS.wagerMs })
+    expect(g.get().phase.kind).toBe('finalReading')
+    expect(g.get().final.wagers).toMatchObject({ ann: 0, ben: 700 })
   })
 
   it('lets only the selecting Human Wager on a Daily Double', () => {
@@ -514,6 +643,7 @@ describe('several Humans', () => {
     s.clue = { ref: { col: 0, row: 0 }, attempts: [], botKnows: {}, botRingAt: {} }
     g.set(s)
     g.dispatch({ type: 'continue', by: 'ben', now: 0 })
+    g.dispatch({ type: 'continue', by: 'ann', now: 0 })
     return g
   }
 
@@ -558,7 +688,7 @@ describe('several Humans', () => {
         g.dispatch({ type: 'select', ref: firstNormalCellOrAny(s), by: s.selector, now })
       else if (s.phase.kind === 'ddWager' && hs.includes(s.selector))
         g.dispatch({ type: 'ddWager', amount: 5, by: s.selector, now })
-      else if (['reveal', 'roundIntro', 'finalReveal'].includes(s.phase.kind)) g.dispatch({ type: 'continue', by: 'ben', now })
+      else if (['reveal', 'roundIntro', 'finalReveal'].includes(s.phase.kind)) for (const by of hs) g.dispatch({ type: 'continue', by, now })
       else if (s.phase.kind === 'finalChoose' && hs.includes(s.final.chooser!))
         g.dispatch({ type: 'finalChoose', categoryId: s.final.options[0].id, by: s.final.chooser!, now })
       else if (s.phase.kind === 'finalWager') for (const by of hs) g.dispatch({ type: 'finalWager', amount: 0, by, now })

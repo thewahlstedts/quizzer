@@ -41,6 +41,21 @@ export const TIMING = {
   finalRushMs: 2_000,
 }
 
+/**
+ * Time limits for a Human's turn, used only when a game has several Humans (one idle player
+ * would otherwise stall everyone). A single-player game waits for its Human as long as it takes.
+ */
+export const TURN_LIMITS = {
+  /** Picking a Clue from the Board, or the Final Category. Then one is picked at random. */
+  pickMs: 20_000,
+  /** A Daily Double or Final Wager. Then the minimum is wagered ($5, or $0 in the Final). */
+  wagerMs: 30_000,
+  /** Everyone pressing Continue. Then the game moves on for those who haven't. */
+  continueMs: 30_000,
+  /** The other Humans voting on an Override. Then it's turned down. */
+  voteMs: 20_000,
+}
+
 /** Reading time and Ring In window for a normal Clue. Daily Doubles and the Final Round don't change. */
 export function clueTiming(mode: GameMode): { readMs: number; ringMs: number } {
   if (mode === 'instant') return { readMs: 0, ringMs: 15_000 }
@@ -102,6 +117,18 @@ export interface GameState {
   winners?: ContestantId[]
   /** Each Human's judged Answers this game (Overrides move one from wrong to correct). */
   tally: Partial<Record<ContestantId, Tally>>
+  /** Several Humans only: when the current turn's time limit runs out (see TURN_LIMITS). */
+  turnUntil?: number
+  /** Humans who have pressed Continue on the current reveal or Round intro. */
+  ready?: ContestantId[]
+  /** An Override waiting on the other Humans' votes; it needs every one of them to agree. */
+  vote?: OverrideVote
+}
+
+export interface OverrideVote {
+  by: ContestantId
+  agree: ContestantId[]
+  until: number
 }
 
 export interface Tally {
@@ -129,6 +156,8 @@ export type HumanAction =
   | { type: 'override' }
   | { type: 'finalChoose'; categoryId: string }
   | { type: 'finalWager'; amount: number }
+  /** Agree or not with another Human's Override. */
+  | { type: 'vote'; agree: boolean }
 
 export type Action = { type: 'tick'; now: number } | (HumanAction & { by: ContestantId; now: number })
 
@@ -136,6 +165,7 @@ export type Action = { type: 'tick'; now: number } | (HumanAction & { by: Contes
 const ids = (s: GameState): ContestantId[] => s.contestants.map((c) => c.id)
 const isBot = (s: GameState, id: ContestantId) => s.contestants.find((c) => c.id === id)?.kind === 'bot'
 const isHuman = (s: GameState, id: ContestantId) => s.contestants.find((c) => c.id === id)?.kind === 'human'
+const humans = (s: GameState) => s.contestants.filter((c) => c.kind === 'human').map((c) => c.id)
 const bots = (s: GameState) => s.contestants.filter((c) => c.kind === 'bot').map((c) => c.id)
 
 /**
@@ -224,7 +254,7 @@ export function overridableAttempt(state: GameState, by: ContestantId = 'human')
       : state.phase.kind === 'finalReveal'
         ? state.final.answers[by]
         : undefined
-  if (!a || a.correct || a.overridden || !a.typed.trim()) return undefined
+  if (!a || a.correct || a.overridden || a.overrideDenied || !a.typed.trim()) return undefined
   return a
 }
 
@@ -232,10 +262,23 @@ export function overridableAttempt(state: GameState, by: ContestantId = 'human')
 
 export function step(prev: GameState, action: Action, rng: Rng): GameState {
   if (action.type === 'tick') return advance(structuredClone(prev), action.now, rng)
-  const by = action.by
   // Only a seated Human acts; Bots are driven by ticks.
-  if (!isHuman(prev, by)) return prev
-  const s = structuredClone(prev)
+  if (!isHuman(prev, action.by)) return prev
+  const next = act(structuredClone(prev), prev, action, rng)
+  if (next !== prev) settleTurn(prev.phase.kind, next)
+  return next
+}
+
+/** A new phase starts a new turn: no deadline yet, nobody ready, no vote. */
+function settleTurn(before: Phase['kind'], s: GameState) {
+  if (s.phase.kind === before) return
+  s.turnUntil = undefined
+  s.ready = undefined
+  s.vote = undefined
+}
+
+function act(s: GameState, prev: GameState, action: Exclude<Action, { type: 'tick' }>, rng: Rng): GameState {
+  const by = action.by
   switch (action.type) {
     case 'select':
       if (s.phase.kind !== 'board' || s.selector !== by) return prev
@@ -253,13 +296,25 @@ export function step(prev: GameState, action: Action, rng: Rng): GameState {
       s.phase = { kind: 'ddReading', until: action.now + TIMING.readMs }
       return s
     }
-    case 'continue':
-      if (s.phase.kind === 'reveal') return afterClue(s, action.now, rng)
-      if (s.phase.kind === 'roundIntro') return startRound2(s, action.now, rng)
-      if (s.phase.kind === 'finalReveal') return endGame(s)
-      return prev
-    case 'override':
-      return applyOverride(s, prev, by)
+    case 'continue': {
+      if (!canContinue(s) || s.ready?.includes(by)) return prev
+      s.ready = [...(s.ready ?? []), by]
+      return maybeContinue(s, action.now, rng)
+    }
+    case 'override': {
+      if (s.vote || !overridableAttempt(s, by)) return prev
+      if (humans(s).length === 1) return applyOverride(s, prev, by)
+      s.vote = { by, agree: [], until: action.now + TURN_LIMITS.voteMs }
+      return s
+    }
+    case 'vote': {
+      const v = s.vote
+      if (!v || v.by === by || v.agree.includes(by)) return prev
+      if (!action.agree) return endVote(s, false, action.now, rng)
+      v.agree.push(by)
+      const allAgree = humans(s).every((id) => id === v.by || v.agree.includes(id))
+      return allAgree ? endVote(s, true, action.now, rng) : s
+    }
     case 'finalChoose':
       if (s.phase.kind !== 'finalChoose' || s.final.chooser !== by) return prev
       if (!s.final.options.some((o) => o.id === action.categoryId)) return prev
@@ -279,11 +334,70 @@ export function step(prev: GameState, action: Action, rng: Rng): GameState {
 /** Process every deadline that has passed by `now`. */
 function advance(s: GameState, now: number, rng: Rng): GameState {
   for (let i = 0; i < 20; i++) {
-    const next = advanceOnce(s, now, rng)
+    const before = s.phase.kind
+    const next = advanceTurn(s, now, rng) ?? advanceOnce(s, now, rng)
     if (!next) return s
+    settleTurn(before, next)
     s = next
   }
   return s
+}
+
+/**
+ * Several Humans only: runs Override votes and turn time limits. Returns the next state when
+ * one ran out, `null` to wait, or `undefined` when nothing is waiting on a Human.
+ */
+function advanceTurn(s: GameState, now: number, rng: Rng): GameState | null | undefined {
+  if (s.vote) return now >= s.vote.until ? endVote(s, false, s.vote.until, rng) : null
+  const limit = turnLimit(s)
+  if (limit === null) return undefined
+  if (s.turnUntil === undefined) {
+    s.turnUntil = now + limit
+    return null
+  }
+  if (now < s.turnUntil) return null
+  return timeUp(s, s.turnUntil, rng)
+}
+
+/** How long the current phase waits on a Human, or null if it doesn't (or there's only one Human). */
+function turnLimit(s: GameState): number | null {
+  if (humans(s).length < 2) return null
+  switch (s.phase.kind) {
+    case 'board':
+      return isHuman(s, s.selector) ? TURN_LIMITS.pickMs : null
+    case 'ddWager':
+      return isHuman(s, s.selector) ? TURN_LIMITS.wagerMs : null
+    case 'finalChoose':
+      return s.final.chooser && isHuman(s, s.final.chooser) ? TURN_LIMITS.pickMs : null
+    case 'finalWager':
+      return TURN_LIMITS.wagerMs
+    case 'reveal':
+    case 'roundIntro':
+    case 'finalReveal':
+      return TURN_LIMITS.continueMs
+    default:
+      return null
+  }
+}
+
+/** A Human's turn ran out at `at`: do the default for them. */
+function timeUp(s: GameState, at: number, rng: Rng): GameState {
+  switch (s.phase.kind) {
+    case 'board':
+      return selectCell(s, chooseCell(s.board, rng), at, rng)
+    case 'ddWager':
+      s.clue!.wager = 5
+      s.phase = { kind: 'ddReading', until: at + TIMING.readMs }
+      return s
+    case 'finalChoose':
+      return chooseFinal(s, pick(rng, s.final.options).id, at)
+    case 'finalWager':
+      for (const id of s.final.eligible) s.final.wagers[id] ??= 0
+      s.phase = { kind: 'finalReading', until: at + TIMING.readMs }
+      return s
+    default:
+      return doContinue(s, at, rng)
+  }
 }
 
 function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
@@ -513,6 +627,22 @@ function resolveDailyDouble(s: GameState, typed: string, display: string, botKno
 
 // ---------- between Clues and Rounds ----------
 
+function canContinue(s: GameState): boolean {
+  return s.phase.kind === 'reveal' || s.phase.kind === 'roundIntro' || s.phase.kind === 'finalReveal'
+}
+
+/** Move on once every Human has pressed Continue and no Override vote is open. */
+function maybeContinue(s: GameState, now: number, rng: Rng): GameState {
+  if (s.vote || !humans(s).every((id) => s.ready?.includes(id))) return s
+  return doContinue(s, now, rng)
+}
+
+function doContinue(s: GameState, now: number, rng: Rng): GameState {
+  if (s.phase.kind === 'reveal') return afterClue(s, now, rng)
+  if (s.phase.kind === 'roundIntro') return startRound2(s, now, rng)
+  return endGame(s)
+}
+
 function afterClue(s: GameState, now: number, rng: Rng): GameState {
   s.clue = undefined
   if (!boardCleared(s.board)) {
@@ -616,6 +746,16 @@ function endGame(s: GameState): GameState {
 }
 
 // ---------- Override ----------
+
+/** Close the Override vote. Turned down, the Answer can't be Overridden again. Either way, everyone gets a fresh Continue window. */
+function endVote(s: GameState, passed: boolean, now: number, rng: Rng): GameState {
+  const by = s.vote!.by
+  s.vote = undefined
+  s.turnUntil = undefined
+  if (passed) applyOverride(s, s, by)
+  else overridableAttempt(s, by)!.overrideDenied = true
+  return maybeContinue(s, now, rng)
+}
 
 /** A Human Overrides their own rejected Answer. */
 function applyOverride(s: GameState, prev: GameState, by: ContestantId): GameState {
