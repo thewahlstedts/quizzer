@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { createContext, useContext, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import {
   clueTiming,
   contestant,
@@ -28,8 +28,12 @@ import { resultText } from './share'
 import { ShareButton } from './ShareButton'
 import { AUTO_CONTINUE_MS, loadAutoContinue, saveAutoContinue } from './settings'
 import { StatsCard } from './Stats'
+import { avatarStyle, isBot, MeContext, useMe } from './seat'
 
 type Dispatch = ReturnType<typeof useGame>['dispatch']
+
+/** The game being shown, for small leaf components (Avatar) that would otherwise need it threaded through. */
+const StateContext = createContext<GameState | null>(null)
 
 
 export default function App() {
@@ -63,7 +67,15 @@ export default function App() {
           )}
         </div>
       </header>
-      {game.state ? <Game state={game.state} now={game.now} dispatch={game.dispatch} /> : <Setup onStart={game.start} />}
+      {game.state ? (
+        <MeContext.Provider value={game.me}>
+          <StateContext.Provider value={game.state}>
+            <Game state={game.state} now={game.now} dispatch={game.dispatch} />
+          </StateContext.Provider>
+        </MeContext.Provider>
+      ) : (
+        <Setup onStart={game.start} />
+      )}
     </div>
   )
 }
@@ -357,7 +369,7 @@ function scoreDelay(state: GameState, id: ContestantId): number {
   const last = attempts[attempts.length - 1]
   if (!last || last.contestant !== id || last.overridden) return 0
   // A Bot's score changes once its typed Answer and ✓/✗ badge are showing.
-  return id === 'human' ? HUMAN_SCORE_DELAY_MS : BOT_TYPE_MS + 500
+  return isBot(state, id) ? BOT_TYPE_MS + 500 : HUMAN_SCORE_DELAY_MS
 }
 
 /** A score that, after `delay`, counts to its new value and floats the change above it. */
@@ -425,8 +437,9 @@ function BotRangIn({ id, name }: { id: ContestantId; name: string }) {
 }
 
 function Avatar({ id }: { id: ContestantId }) {
-  const glyph = id === 'human' ? '★' : id === 'bot1' ? '◆' : '●'
-  return <div className={`avatar avatar-${id}`}>{glyph}</div>
+  const state = useContext(StateContext)
+  const { glyph, className } = avatarStyle(state!, useMe(), id)
+  return <div className={`avatar ${className}`}>{glyph}</div>
 }
 
 function BoardView({
@@ -440,7 +453,8 @@ function BoardView({
   rects: Map<string, DOMRect>
   chosen?: CellRef
 }) {
-  const humanPicks = state.selector === 'human' && !chosen
+  const me = useMe()
+  const humanPicks = state.selector === me && !chosen
   const boardRef = useRef<HTMLDivElement>(null)
   useLayoutEffect(() => {
     boardRef.current?.querySelectorAll<HTMLElement>('[data-cell]').forEach((el) => {
@@ -454,7 +468,7 @@ function BoardView({
     <div className="board-wrap">
       <p className="hint" aria-live="polite">
         {chosen
-          ? `${state.selector === 'human' ? 'You picked' : `${picker} picked`} ${chosenCat} for $${chosenValue}`
+          ? `${state.selector === me ? 'You picked' : `${picker} picked`} ${chosenCat} for $${chosenValue}`
           : humanPicks
             ? 'Your pick. Choose a clue.'
             : `${picker} is choosing…`}
@@ -586,14 +600,15 @@ function ClueView({
     return () => clearTimeout(t)
   }, [entering])
   const clueState = state.clue!
-  const verdict = useHumanVerdict(clueState.attempts)
-  const botAnswer = useBotAnswer(clueState.attempts)
+  const me = useMe()
+  const verdict = useHumanVerdict(clueState.attempts, me)
+  const botAnswer = useBotAnswer(clueState.attempts, me)
   const category = state.board.categories[clueState.ref.col].name
   const isDD = cell.dailyDouble
-  const humanTried = clueState.attempts.some((a) => a.contestant === 'human')
-  // A Bot's Daily Double: show what it wagered before its Clue appears.
-  const showingBotWager = p.kind === 'ddReading' && state.selector !== 'human' && now < p.until - TIMING.readMs + BOT_WAGER_SHOW_MS
-  const humanTyping = (p.kind === 'answering' && p.contestant === 'human') || (p.kind === 'ddAnswering' && state.selector === 'human')
+  const humanTried = clueState.attempts.some((a) => a.contestant === me)
+  // Someone else's Daily Double: show what they wagered before the Clue appears.
+  const showingBotWager = p.kind === 'ddReading' && state.selector !== me && now < p.until - TIMING.readMs + BOT_WAGER_SHOW_MS
+  const humanTyping = (p.kind === 'answering' && p.contestant === me) || (p.kind === 'ddAnswering' && state.selector === me)
   const screenRef = useRef<HTMLDivElement>(null)
   useGlideOnChange(screenRef, humanTyping)
 
@@ -667,14 +682,14 @@ function ClueView({
         </button>
       )}
 
-      {((p.kind === 'answering' && p.contestant === 'human') || (p.kind === 'ddAnswering' && state.selector === 'human')) && (
+      {humanTyping && (
         <AnswerBox onSubmit={(text) => dispatch({ type: 'submitAnswer', text })} />
       )}
 
-      {p.kind === 'answering' && p.contestant !== 'human' && (
+      {p.kind === 'answering' && p.contestant !== me && (
         <BotRangIn key={`${p.contestant}-${clueState.attempts.length}`} id={p.contestant} name={contestant(state, p.contestant).name} />
       )}
-      {p.kind === 'ddAnswering' && state.selector !== 'human' && (
+      {p.kind === 'ddAnswering' && state.selector !== me && (
         <p className="typing">
           {contestant(state, state.selector).name} is typing<span className="dots" />
         </p>
@@ -702,15 +717,15 @@ function ClueView({
 /** The tile's face, shown on the flying card and faded out as it lands. */
 const VERDICT_MS = 1_600
 
-/** The Human's newest judged Attempt on this Clue, for VERDICT_MS after it lands. */
-function useHumanVerdict(attempts: Attempt[]) {
-  const humanCount = attempts.filter((a) => a.contestant === 'human').length
+/** Your newest judged Attempt on this Clue, for VERDICT_MS after it lands. */
+function useHumanVerdict(attempts: Attempt[], me: ContestantId) {
+  const humanCount = attempts.filter((a) => a.contestant === me).length
   const seen = useRef(humanCount)
   const [verdict, setVerdict] = useState<{ correct: boolean; delta: number; key: number } | null>(null)
   useEffect(() => {
     if (humanCount <= seen.current) return
     seen.current = humanCount
-    const a = [...attempts].reverse().find((x) => x.contestant === 'human')!
+    const a = [...attempts].reverse().find((x) => x.contestant === me)!
     setVerdict((v) => ({ correct: a.correct, delta: a.delta, key: (v?.key ?? 0) + 1 }))
     const t = setTimeout(() => setVerdict(null), VERDICT_MS)
     return () => clearTimeout(t)
@@ -721,8 +736,8 @@ function useHumanVerdict(attempts: Attempt[]) {
 const BOT_ANSWER_MS = 2_400
 const BOT_TYPE_MS = 700
 
-/** A Bot's newest Attempt on this Clue, for BOT_ANSWER_MS after it lands. */
-function useBotAnswer(attempts: Attempt[]) {
+/** Someone else's newest Attempt on this Clue, for BOT_ANSWER_MS after it lands. */
+function useBotAnswer(attempts: Attempt[], me: ContestantId) {
   const count = attempts.length
   const seen = useRef(count)
   const [shown, setShown] = useState<{ attempt: Attempt; index: number } | null>(null)
@@ -731,7 +746,7 @@ function useBotAnswer(attempts: Attempt[]) {
     seen.current = count
     const index = count - 1
     const attempt = attempts[index]
-    if (attempt.contestant === 'human') return
+    if (attempt.contestant === me) return
     setShown({ attempt, index })
     const t = setTimeout(() => setShown(null), BOT_ANSWER_MS)
     return () => clearTimeout(t)
@@ -819,7 +834,7 @@ function Attempts({ state, attempts, hideIndex }: { state: GameState; attempts: 
         <li key={i} className={a.correct ? 'ok' : 'bad'}>
           <Avatar id={a.contestant} />
           <span className="who">{contestant(state, a.contestant).name}</span>
-          <span className={'what' + (a.contestant !== 'human' && !a.correct ? ' masked' : '')}>{a.display || '(no answer)'}</span>
+          <span className={'what' + (isBot(state, a.contestant) && !a.correct ? ' masked' : '')}>{a.display || '(no answer)'}</span>
           <span className="delta">
             {a.overridden ? 'overridden ' : ''}
             {a.delta > 0 ? '+' : ''}
@@ -942,7 +957,7 @@ function BotWagerReveal({ id, name, wager }: { id: ContestantId; name: string; w
 }
 
 function DailyDoubleWager({ state, dispatch }: { state: GameState; dispatch: Dispatch }) {
-  const human = state.selector === 'human'
+  const human = state.selector === useMe()
   return (
     <div className="dd-splash">
       <h2>Daily Double!</h2>
@@ -1078,25 +1093,26 @@ function Interstitial({ title, lines, action, onAction }: { title: string; lines
 function FinalView({ state, now, dispatch }: { state: GameState; now: number; dispatch: Dispatch }) {
   const p = state.phase
   const f = state.final
-  const humanIn = f.eligible.includes('human')
+  const me = useMe()
+  const humanIn = f.eligible.includes(me)
   const clue = finalClue(state)
   const category = f.options.find((o) => o.id === f.categoryId)?.name
   const finalRef = useRef<HTMLDivElement>(null)
-  useGlideOnChange(finalRef, p.kind === 'finalAnswering' && humanIn && !f.answers.human)
+  useGlideOnChange(finalRef, p.kind === 'finalAnswering' && humanIn && !f.answers[me])
 
   if (p.kind === 'finalChoose') {
     const chooser = contestant(state, f.chooser!)
     return (
       <div className="final">
         <p className="eyebrow">Final Round</p>
-        <h2>{f.chooser === 'human' ? 'You pick the category' : `${chooser.name} is choosing the category…`}</h2>
+        <h2>{f.chooser === me ? 'You pick the category' : `${chooser.name} is choosing the category…`}</h2>
         {!humanIn && <p className="hint">You need more than $0 to play the Final. You'll watch this one.</p>}
         <div className="final-options">
           {f.options.map((o) => (
             <button
               key={o.id}
               className="final-option"
-              disabled={f.chooser !== 'human'}
+              disabled={f.chooser !== me}
               onClick={() => dispatch({ type: 'finalChoose', categoryId: o.id })}
             >
               {o.name}
@@ -1117,7 +1133,7 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
       {p.kind === 'finalWager' && (
         <WagerBox
           min={0}
-          max={contestant(state, 'human').score}
+          max={contestant(state, me).score}
           label="Your wager"
           standings={state.contestants.map((c) => ({ id: c.id, name: c.name, score: c.score }))}
           onSubmit={(amount) => dispatch({ type: 'finalWager', amount })}
@@ -1146,7 +1162,7 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
               </span>
             ))}
           </div>
-          {humanIn && !f.answers.human && <AnswerBox onSubmit={(text) => dispatch({ type: 'submitAnswer', text })} />}
+          {humanIn && !f.answers[me] && <AnswerBox onSubmit={(text) => dispatch({ type: 'submitAnswer', text })} />}
         </>
       )}
 
@@ -1182,7 +1198,7 @@ function FinalReveal({ state, dispatch }: { state: GameState; dispatch: Dispatch
             <li key={id} className={(a.correct ? 'ok' : 'bad') + ' pop'}>
               <Avatar id={id} />
               <span className="who">{contestant(state, id).name}</span>
-              <span className={'what' + (id !== 'human' && !a.correct ? ' masked' : '')}>{a.display || '(no answer)'}</span>
+              <span className={'what' + (isBot(state, id) && !a.correct ? ' masked' : '')}>{a.display || '(no answer)'}</span>
               <span className="delta">
                 wagered {money(f.wagers[id] ?? 0)} → {a.delta >= 0 ? '+' : ''}
                 {money(a.delta)}
@@ -1274,7 +1290,8 @@ function WinCelebration() {
 function GameOver({ state }: { state: GameState }) {
   const winners = state.winners ?? []
   const names = winners.map((id) => contestant(state, id).name)
-  const humanWon = winners.includes('human')
+  const me = useMe()
+  const humanWon = winners.includes(me)
   return (
     <div className={'interstitial gameover' + (humanWon ? ' won' : '')}>
       {humanWon && <WinCelebration />}
@@ -1282,12 +1299,12 @@ function GameOver({ state }: { state: GameState }) {
       <h2>
         {humanWon
           ? winners.length > 1
-            ? `It's a tie! You share the win with ${names.filter((n) => n !== contestant(state, 'human').name).join(' & ')}.`
+            ? `It's a tie! You share the win with ${names.filter((n) => n !== contestant(state, me).name).join(' & ')}.`
             : 'You win! 🎉'
           : `${names.join(' & ')} win${names.length > 1 ? '' : 's'}.`}
       </h2>
       {state.round === 'final' && !state.final.categoryId && <p>Nobody had more than $0, so there was no Final Round.</p>}
-      <GameOverEarnings earned={contestant(state, 'human').score} />
+      <GameOverEarnings earned={contestant(state, me).score} />
       <ShareButton className="primary big" label="Share result" getText={() => resultText(recordFromState(state, Date.now()))} />
       <p className="hint">Press New game to play again. Your stats are on the start screen.</p>
     </div>

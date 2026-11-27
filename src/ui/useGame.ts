@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { newGame, step, type GameState, type HumanAction } from '../engine/game'
-import type { BotDifficulty, GameMode, Level } from '../engine/types'
+import type { BotDifficulty, ContestantId, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
 import { countdownSecond, cuesFor, waitSecond } from './cues'
@@ -10,7 +10,7 @@ import { addRecord, recordFromState } from './history'
 const rng = Math.random
 
 /** This device's Contestant: a single-player game's Human. */
-const ME = 'human'
+const ME: ContestantId = 'human'
 
 export function useGame() {
   const [state, setState] = useState<GameState | null>(null)
@@ -75,7 +75,7 @@ export function useGame() {
     return () => clearInterval(id)
   }, [commit])
 
-  return { state, now, dispatch, start, quit }
+  return { state, now, dispatch, start, quit, me: ME }
 }
 
 function cues(prev: GameState, next: GameState) {

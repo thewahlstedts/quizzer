@@ -73,6 +73,14 @@ _Avoid_: Final Jeopardy
 **Masked Answer**:
 What is shown when a Bot answers wrong: asterisks matching the correct Answer's character count, with spaces placed at random. A correct Bot shows its Answer.
 
+**Room**:
+An online game's gathering place, joined with a short code. Up to three Humans; it outlasts a game, so the same people can play again.
+_Avoid_: Lobby, session, party
+
+**Host**:
+The Room member who sets the Level, Bot Difficulty and Mode and starts each game. The first to join; passed on if they leave.
+_Avoid_: Owner, admin
+
 ## Stats
 
 **Earnings**:

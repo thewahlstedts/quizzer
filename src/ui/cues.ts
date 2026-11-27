@@ -1,4 +1,5 @@
 import { clueTiming, TIMING, type GameState } from '../engine/game'
+import type { ContestantId } from '../engine/types'
 import type { Cue } from './sound'
 
 /** Countdown ticks play for the last this-many seconds of a timer the Human is on. */
@@ -9,13 +10,13 @@ export const COUNTDOWN_SECONDS = 5
  * Ring In window until the Human has tried, and the Human's own answering time (normal Clue, Daily
  * Double, Final Round). Bots' answering time doesn't tick.
  */
-export function countdownSecond(s: GameState, now: number): number | null {
+export function countdownSecond(s: GameState, now: number, me: ContestantId = 'human'): number | null {
   const p = s.phase
   let until: number | undefined
-  if (p.kind === 'ringIn' && !s.clue?.attempts.some((a) => a.contestant === 'human')) until = p.until
-  else if (p.kind === 'answering' && p.contestant === 'human') until = p.until
-  else if (p.kind === 'ddAnswering' && s.selector === 'human') until = p.until
-  else if (p.kind === 'finalAnswering' && s.final.eligible.includes('human') && !s.final.answers.human) until = p.until
+  if (p.kind === 'ringIn' && !s.clue?.attempts.some((a) => a.contestant === me)) until = p.until
+  else if (p.kind === 'answering' && p.contestant === me) until = p.until
+  else if (p.kind === 'ddAnswering' && s.selector === me) until = p.until
+  else if (p.kind === 'finalAnswering' && s.final.eligible.includes(me) && !s.final.answers[me]) until = p.until
   if (until === undefined) return null
   const left = Math.ceil((until - now) / 1000)
   return left >= 1 && left <= COUNTDOWN_SECONDS ? left : null
@@ -26,17 +27,17 @@ export function countdownSecond(s: GameState, now: number): number | null {
  * time before Ring In opens (not during the selection animation), and the reading time before the
  * Human answers a Daily Double or the Final Round.
  */
-export function waitSecond(s: GameState, now: number): number | null {
+export function waitSecond(s: GameState, now: number, me: ContestantId = 'human'): number | null {
   const p = s.phase
   let until: number | undefined
   let readMs = 0
   if (p.kind === 'reading') {
     until = p.until
     readMs = clueTiming(s.mode).readMs
-  } else if (p.kind === 'ddReading' && s.selector === 'human') {
+  } else if (p.kind === 'ddReading' && s.selector === me) {
     until = p.until
     readMs = TIMING.readMs
-  } else if (p.kind === 'finalReading' && s.final.eligible.includes('human')) {
+  } else if (p.kind === 'finalReading' && s.final.eligible.includes(me)) {
     until = p.until
     readMs = TIMING.readMs
   }
@@ -46,7 +47,7 @@ export function waitSecond(s: GameState, now: number): number | null {
 }
 
 /** The sound cues for one state change. Pure, so the mapping is testable without audio. */
-export function cuesFor(prev: GameState, next: GameState): Cue[] {
+export function cuesFor(prev: GameState, next: GameState, me: ContestantId = 'human'): Cue[] {
   const pk = prev.phase.kind
   const nk = next.phase.kind
   const prevAttempts = prev.clue?.attempts.length ?? 0
@@ -61,11 +62,11 @@ export function cuesFor(prev: GameState, next: GameState): Cue[] {
     return nk === 'ddWager' ? ['select', 'dailyDouble'] : ['select']
   }
   if (pk === 'reading' && nk === 'ringIn') return ['ringOpen']
-  if (nk === 'answering' && pk !== 'answering') return [next.phase.kind === 'answering' && next.phase.contestant === 'human' ? 'ring' : 'botRing']
+  if (nk === 'answering' && pk !== 'answering') return [next.phase.kind === 'answering' && next.phase.contestant === me ? 'ring' : 'botRing']
   if ((pk === 'ddWager' && nk === 'ddReading') || (pk === 'finalWager' && nk === 'finalReading')) return ['lock']
   if (nk === 'reveal' && pk === 'ringIn') return ['timeup']
   if (nk === 'roundIntro' && pk !== 'roundIntro') return ['roundIntro']
   if (nk === 'finalReveal' && pk !== 'finalReveal') return ['reveal']
-  if (nk === 'gameOver' && pk !== 'gameOver') return [next.winners?.includes('human') ? 'win' : 'lose']
+  if (nk === 'gameOver' && pk !== 'gameOver') return [next.winners?.includes(me) ? 'win' : 'lose']
   return []
 }
