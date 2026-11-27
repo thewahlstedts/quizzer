@@ -95,11 +95,13 @@ export const BOT_NAMES: readonly string[] = [
   'Priya', 'Kenji', 'Amara', 'Diego', 'Sana', 'Tariq', 'Mei', 'Kofi', 'Lena', 'Omar',
 ]
 
-/** Two distinct Bot names, never matching the Human's name (case-insensitive). */
-export function dealBotNames(rng: Rng, humanName: string): [string, string] {
-  const taken = humanName.trim().toLowerCase()
-  const [a, b] = shuffle(rng, BOT_NAMES.filter((n) => n.toLowerCase() !== taken))
-  return [a, b]
+/**
+ * `count` distinct Bot names, never matching a Human's name (case-insensitive).
+ * Accepts one Human name or several.
+ */
+export function dealBotNames(rng: Rng, humanNames: string | readonly string[], count = 2): string[] {
+  const taken = new Set((typeof humanNames === 'string' ? [humanNames] : humanNames).map((n) => n.trim().toLowerCase()))
+  return shuffle(rng, BOT_NAMES.filter((n) => !taken.has(n.toLowerCase()))).slice(0, count)
 }
 
 export function randomDelay(rng: Rng, lo: number, hi: number): number {

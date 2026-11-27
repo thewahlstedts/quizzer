@@ -13,7 +13,12 @@ export function normalizeMode(m: unknown): GameMode {
   if (m === 'medium') return 'medium'
   return 'slow'
 }
-export type ContestantId = 'human' | 'bot1' | 'bot2'
+/**
+ * A Contestant's id within one game. A single-player game uses 'human', 'bot1' and 'bot2';
+ * a game with several Humans uses the ids it was given for them, with Bots filling the
+ * remaining seats as 'bot1', 'bot2'.
+ */
+export type ContestantId = string
 export type Rng = () => number
 
 export interface Clue {
@@ -71,4 +76,6 @@ export interface Attempt {
   matchScore: number
   delta: number
   overridden?: boolean
+  /** The other Humans turned down this Answer's Override. */
+  overrideDenied?: boolean
 }

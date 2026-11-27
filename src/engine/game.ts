@@ -37,8 +37,23 @@ export const TIMING = {
   finalAnswerMs: 120_000,
   botPickMs: 1_800,
   botWagerMs: 1_500,
-  /** Once the Human has answered the Final (or sits it out), Bots still thinking answer within this. */
+  /** Once every Human has answered the Final (or none plays it), Bots still thinking answer within this. */
   finalRushMs: 2_000,
+}
+
+/**
+ * Time limits for a Human's turn, used only when a game has several Humans (one idle player
+ * would otherwise stall everyone). A single-player game waits for its Human as long as it takes.
+ */
+export const TURN_LIMITS = {
+  /** Picking a Clue from the Board, or the Final Category. Then one is picked at random. */
+  pickMs: 20_000,
+  /** A Daily Double or Final Wager. Then the minimum is wagered ($5, or $0 in the Final). */
+  wagerMs: 30_000,
+  /** Everyone pressing Continue. Then the game moves on for those who haven't. */
+  continueMs: 30_000,
+  /** The other Humans voting on an Override. Then it's turned down. */
+  voteMs: 20_000,
 }
 
 /** Reading time and Ring In window for a normal Clue. Daily Doubles and the Final Round don't change. */
@@ -100,50 +115,94 @@ export interface GameState {
   final: FinalState
   phase: Phase
   winners?: ContestantId[]
-  /** The Human's judged Answers this game (Overrides move one from wrong to correct). */
-  tally: { correct: number; wrong: number }
+  /** Each Human's judged Answers this game (Overrides move one from wrong to correct). */
+  tally: Partial<Record<ContestantId, Tally>>
+  /** Several Humans only: when the current turn's time limit runs out (see TURN_LIMITS). */
+  turnUntil?: number
+  /** Humans who have pressed Continue on the current reveal or Round intro. */
+  ready?: ContestantId[]
+  /** An Override waiting on the other Humans' votes; it needs every one of them to agree. */
+  vote?: OverrideVote
 }
 
-export type Action =
-  | { type: 'tick'; now: number }
-  | { type: 'select'; ref: CellRef; now: number }
-  | { type: 'ringIn'; now: number }
-  | { type: 'submitAnswer'; text: string; now: number }
-  | { type: 'ddWager'; amount: number; now: number }
-  | { type: 'continue'; now: number }
-  | { type: 'override'; now: number }
-  | { type: 'finalChoose'; categoryId: string; now: number }
-  | { type: 'finalWager'; amount: number; now: number }
+export interface OverrideVote {
+  by: ContestantId
+  agree: ContestantId[]
+  until: number
+}
 
-const IDS: ContestantId[] = ['human', 'bot1', 'bot2']
-const isBot = (id: ContestantId) => id !== 'human'
+export interface Tally {
+  correct: number
+  wrong: number
+}
 
+/** A Human taking a seat in a game. */
+export interface Seat {
+  id: ContestantId
+  name: string
+}
+
+/** Seats in every game; Bots fill the ones Humans don't take. */
+export const SEATS = 3
+const BOT_IDS: ContestantId[] = ['bot1', 'bot2']
+
+/** Something a Human does; `by` says which Human. */
+export type HumanAction =
+  | { type: 'select'; ref: CellRef }
+  | { type: 'ringIn' }
+  | { type: 'submitAnswer'; text: string }
+  | { type: 'ddWager'; amount: number }
+  | { type: 'continue' }
+  | { type: 'override' }
+  | { type: 'finalChoose'; categoryId: string }
+  | { type: 'finalWager'; amount: number }
+  /** Agree or not with another Human's Override. */
+  | { type: 'vote'; agree: boolean }
+
+export type Action = { type: 'tick'; now: number } | (HumanAction & { by: ContestantId; now: number })
+
+/** Contestant ids in seat order: Humans first, then Bots. */
+const ids = (s: GameState): ContestantId[] => s.contestants.map((c) => c.id)
+const isBot = (s: GameState, id: ContestantId) => s.contestants.find((c) => c.id === id)?.kind === 'bot'
+const isHuman = (s: GameState, id: ContestantId) => s.contestants.find((c) => c.id === id)?.kind === 'human'
+const humans = (s: GameState) => s.contestants.filter((c) => c.kind === 'human').map((c) => c.id)
+const bots = (s: GameState) => s.contestants.filter((c) => c.kind === 'bot').map((c) => c.id)
+
+/**
+ * Start a game. `humans` is one name (a single-player game, whose Human has id 'human')
+ * or 1–3 Seats; Bots fill the remaining seats.
+ */
 export function newGame(
   bank: ClueBank,
   botDifficulty: BotDifficulty,
   rng: Rng,
-  humanName = 'You',
+  humans: string | readonly Seat[] = 'You',
   mode: GameMode = 'slow',
   /** Answers (answerKey) from recent games, to avoid dealing again. */
   avoidAnswers: ReadonlySet<string> = new Set(),
 ): GameState {
+  const seats: Seat[] = typeof humans === 'string' ? [{ id: 'human', name: humans }] : [...humans]
+  validateSeats(seats)
   const deal = dealCategories(bank, rng, avoidAnswers)
   const board = buildBoard(deal.round1, 1, rng)
   const nextBoard = buildBoard(deal.round2, 2, rng)
-  const [bot1Name, bot2Name] = dealBotNames(rng, humanName)
+  const botNames = dealBotNames(
+    rng,
+    seats.map((h) => h.name),
+    SEATS - seats.length,
+  )
   return {
     level: bank.level,
     botDifficulty,
     mode,
     round: 1,
     contestants: [
-      { id: 'human', name: humanName, kind: 'human', score: 0 },
-      { id: 'bot1', name: bot1Name, kind: 'bot', score: 0 },
-      { id: 'bot2', name: bot2Name, kind: 'bot', score: 0 },
+      ...seats.map((h): Contestant => ({ id: h.id, name: h.name, kind: 'human', score: 0 })),
+      ...botNames.map((name, i): Contestant => ({ id: BOT_IDS[i], name, kind: 'bot', score: 0 })),
     ],
     board,
     nextBoard,
-    selector: 'human',
+    selector: seats[0].id,
     final: {
       options: deal.finalOptions.map((c) => ({ id: c.id, name: c.name, clue: clueOfRank(c, 5) })),
       eligible: [],
@@ -153,7 +212,16 @@ export function newGame(
       botSubmitAt: {},
     },
     phase: { kind: 'board' },
-    tally: { correct: 0, wrong: 0 },
+    tally: Object.fromEntries(seats.map((h) => [h.id, { correct: 0, wrong: 0 }])),
+  }
+}
+
+function validateSeats(seats: Seat[]) {
+  if (seats.length < 1 || seats.length > SEATS) throw new Error(`A game needs 1–${SEATS} Humans, got ${seats.length}`)
+  const seen = new Set<string>()
+  for (const { id } of seats) {
+    if (!id || seen.has(id) || BOT_IDS.includes(id)) throw new Error(`Invalid or duplicate Human id: "${id}"`)
+    seen.add(id)
   }
 }
 
@@ -178,56 +246,86 @@ export function dailyDoubleMax(state: GameState): number {
   return Math.max(contestant(state, state.selector).score, topValue(round))
 }
 
-/** The Clue the Human's last Answer can be Overridden on, if any. */
-export function overridableAttempt(state: GameState): Attempt | undefined {
+/** The Answer `by` (a Human; the single-player Human by default) can Override on this Clue, if any. */
+export function overridableAttempt(state: GameState, by: ContestantId = 'human'): Attempt | undefined {
   const a =
     state.phase.kind === 'reveal'
-      ? state.clue?.attempts.find((x) => x.contestant === 'human')
+      ? state.clue?.attempts.find((x) => x.contestant === by)
       : state.phase.kind === 'finalReveal'
-        ? state.final.answers.human
+        ? state.final.answers[by]
         : undefined
-  if (!a || a.correct || a.overridden || !a.typed.trim()) return undefined
+  if (!a || a.correct || a.overridden || a.overrideDenied || !a.typed.trim()) return undefined
   return a
 }
 
 // ---------- reducer ----------
 
 export function step(prev: GameState, action: Action, rng: Rng): GameState {
-  const s = structuredClone(prev)
+  if (action.type === 'tick') return advance(structuredClone(prev), action.now, rng)
+  // Only a seated Human acts; Bots are driven by ticks.
+  if (!isHuman(prev, action.by)) return prev
+  const next = act(structuredClone(prev), prev, action, rng)
+  if (next !== prev) settleTurn(prev.phase.kind, next)
+  return next
+}
+
+/** A new phase starts a new turn: no deadline yet, nobody ready, no vote. */
+function settleTurn(before: Phase['kind'], s: GameState) {
+  if (s.phase.kind === before) return
+  s.turnUntil = undefined
+  s.ready = undefined
+  s.vote = undefined
+}
+
+function act(s: GameState, prev: GameState, action: Exclude<Action, { type: 'tick' }>, rng: Rng): GameState {
+  const by = action.by
   switch (action.type) {
-    case 'tick':
-      return advance(s, action.now, rng)
     case 'select':
-      if (s.phase.kind !== 'board' || s.selector !== 'human') return prev
+      if (s.phase.kind !== 'board' || s.selector !== by) return prev
       if (s.board.cells[action.ref.col]?.[action.ref.row]?.played !== false) return prev
       return selectCell(s, action.ref, action.now, rng)
     case 'ringIn':
-      if (s.phase.kind !== 'ringIn' || hasAttempted(s, 'human')) return prev
-      return startAnswering(s, 'human', action.now, rng)
+      if (s.phase.kind !== 'ringIn' || hasAttempted(s, by)) return prev
+      return startAnswering(s, by, action.now, rng)
     case 'submitAnswer':
-      return submitHuman(s, prev, action.text, action.now, rng)
+      return submitHuman(s, prev, by, action.text, action.now, rng)
     case 'ddWager': {
-      if (s.phase.kind !== 'ddWager' || s.selector !== 'human') return prev
+      if (s.phase.kind !== 'ddWager' || s.selector !== by) return prev
       const amount = clamp(Math.round(action.amount), 5, dailyDoubleMax(s))
       s.clue!.wager = amount
       s.phase = { kind: 'ddReading', until: action.now + TIMING.readMs }
       return s
     }
-    case 'continue':
-      if (s.phase.kind === 'reveal') return afterClue(s, action.now, rng)
-      if (s.phase.kind === 'roundIntro') return startRound2(s, action.now, rng)
-      if (s.phase.kind === 'finalReveal') return endGame(s)
-      return prev
-    case 'override':
-      return applyOverride(s, prev)
+    case 'continue': {
+      if (!canContinue(s) || s.ready?.includes(by)) return prev
+      s.ready = [...(s.ready ?? []), by]
+      return maybeContinue(s, action.now, rng)
+    }
+    case 'override': {
+      if (s.vote || !overridableAttempt(s, by)) return prev
+      if (humans(s).length === 1) return applyOverride(s, prev, by)
+      s.vote = { by, agree: [], until: action.now + TURN_LIMITS.voteMs }
+      return s
+    }
+    case 'vote': {
+      const v = s.vote
+      if (!v || v.by === by || v.agree.includes(by)) return prev
+      if (!action.agree) return endVote(s, false, action.now, rng)
+      v.agree.push(by)
+      const allAgree = humans(s).every((id) => id === v.by || v.agree.includes(id))
+      return allAgree ? endVote(s, true, action.now, rng) : s
+    }
     case 'finalChoose':
-      if (s.phase.kind !== 'finalChoose' || s.final.chooser !== 'human') return prev
+      if (s.phase.kind !== 'finalChoose' || s.final.chooser !== by) return prev
       if (!s.final.options.some((o) => o.id === action.categoryId)) return prev
       return chooseFinal(s, action.categoryId, action.now)
     case 'finalWager': {
-      if (s.phase.kind !== 'finalWager' || !s.final.eligible.includes('human')) return prev
-      s.final.wagers.human = clamp(Math.round(action.amount), 0, contestant(s, 'human').score)
-      s.phase = { kind: 'finalReading', until: action.now + TIMING.readMs }
+      if (s.phase.kind !== 'finalWager' || !s.final.eligible.includes(by) || s.final.wagers[by] !== undefined) return prev
+      s.final.wagers[by] = clamp(Math.round(action.amount), 0, contestant(s, by).score)
+      // The Clue is read once every eligible Contestant has wagered (Bots wager on the Category choice).
+      if (s.final.eligible.every((id) => s.final.wagers[id] !== undefined)) {
+        s.phase = { kind: 'finalReading', until: action.now + TIMING.readMs }
+      }
       return s
     }
   }
@@ -236,18 +334,77 @@ export function step(prev: GameState, action: Action, rng: Rng): GameState {
 /** Process every deadline that has passed by `now`. */
 function advance(s: GameState, now: number, rng: Rng): GameState {
   for (let i = 0; i < 20; i++) {
-    const next = advanceOnce(s, now, rng)
+    const before = s.phase.kind
+    const next = advanceTurn(s, now, rng) ?? advanceOnce(s, now, rng)
     if (!next) return s
+    settleTurn(before, next)
     s = next
   }
   return s
+}
+
+/**
+ * Several Humans only: runs Override votes and turn time limits. Returns the next state when
+ * one ran out, `null` to wait, or `undefined` when nothing is waiting on a Human.
+ */
+function advanceTurn(s: GameState, now: number, rng: Rng): GameState | null | undefined {
+  if (s.vote) return now >= s.vote.until ? endVote(s, false, s.vote.until, rng) : null
+  const limit = turnLimit(s)
+  if (limit === null) return undefined
+  if (s.turnUntil === undefined) {
+    s.turnUntil = now + limit
+    return null
+  }
+  if (now < s.turnUntil) return null
+  return timeUp(s, s.turnUntil, rng)
+}
+
+/** How long the current phase waits on a Human, or null if it doesn't (or there's only one Human). */
+function turnLimit(s: GameState): number | null {
+  if (humans(s).length < 2) return null
+  switch (s.phase.kind) {
+    case 'board':
+      return isHuman(s, s.selector) ? TURN_LIMITS.pickMs : null
+    case 'ddWager':
+      return isHuman(s, s.selector) ? TURN_LIMITS.wagerMs : null
+    case 'finalChoose':
+      return s.final.chooser && isHuman(s, s.final.chooser) ? TURN_LIMITS.pickMs : null
+    case 'finalWager':
+      return TURN_LIMITS.wagerMs
+    case 'reveal':
+    case 'roundIntro':
+    case 'finalReveal':
+      return TURN_LIMITS.continueMs
+    default:
+      return null
+  }
+}
+
+/** A Human's turn ran out at `at`: do the default for them. */
+function timeUp(s: GameState, at: number, rng: Rng): GameState {
+  switch (s.phase.kind) {
+    case 'board':
+      return selectCell(s, chooseCell(s.board, rng), at, rng)
+    case 'ddWager':
+      s.clue!.wager = 5
+      s.phase = { kind: 'ddReading', until: at + TIMING.readMs }
+      return s
+    case 'finalChoose':
+      return chooseFinal(s, pick(rng, s.final.options).id, at)
+    case 'finalWager':
+      for (const id of s.final.eligible) s.final.wagers[id] ??= 0
+      s.phase = { kind: 'finalReading', until: at + TIMING.readMs }
+      return s
+    default:
+      return doContinue(s, at, rng)
+  }
 }
 
 function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
   const p = s.phase
   switch (p.kind) {
     case 'board':
-      if (isBot(s.selector)) {
+      if (isBot(s, s.selector)) {
         if (p.botPickAt === undefined) {
           s.phase = { kind: 'board', botPickAt: now + TIMING.botPickMs }
           return null
@@ -259,7 +416,8 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
       if (now < p.until) return null
       return openRingIn(s, p.until, clueTiming(s.mode).ringMs, rng)
     case 'ringIn': {
-      const ringers = IDS.filter((id) => isBot(id) && !hasAttempted(s, id))
+      const ringers = bots(s)
+        .filter((id) => !hasAttempted(s, id))
         .map((id) => ({ id, at: s.clue!.botRingAt[id] }))
         .filter((x): x is { id: ContestantId; at: number } => x.at !== undefined && x.at <= now && x.at < p.until)
         .sort((a, b) => a.at - b.at)
@@ -277,7 +435,7 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
       if (now >= p.until) return resolveClueAnswer(s, p.contestant, '', '', null, p.until, rng)
       return null
     case 'ddWager':
-      if (!isBot(s.selector)) return null
+      if (!isBot(s, s.selector)) return null
       if (p.botWagerAt === undefined) {
         s.phase = { kind: 'ddWager', botWagerAt: now + TIMING.botWagerMs }
         return null
@@ -296,7 +454,7 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
       s.phase = {
         kind: 'ddAnswering',
         until: p.until + TIMING.answerMs,
-        botAnswerAt: isBot(s.selector) ? p.until + typingDelay(s.botDifficulty, rng) : undefined,
+        botAnswerAt: isBot(s, s.selector) ? p.until + typingDelay(s.botDifficulty, rng) : undefined,
       }
       return s
     case 'ddAnswering':
@@ -306,7 +464,7 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
       if (now >= p.until) return resolveDailyDouble(s, '', '', null)
       return null
     case 'finalChoose':
-      if (!s.final.chooser || !isBot(s.final.chooser)) return null
+      if (!s.final.chooser || !isBot(s, s.final.chooser)) return null
       if (p.botPickAt === undefined) {
         s.phase = { kind: 'finalChoose', botPickAt: now + TIMING.botPickMs }
         return null
@@ -316,9 +474,9 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
     case 'finalReading': {
       if (now < p.until) return null
       const clue = finalClue(s)!
-      // Nobody to wait for if the Human sits the Final out.
-      const humanIn = s.final.eligible.includes('human')
-      for (const id of s.final.eligible.filter(isBot)) {
+      // Nobody to wait for if no Human plays the Final.
+      const humanIn = s.final.eligible.some((id) => isHuman(s, id))
+      for (const id of s.final.eligible.filter((x) => isBot(s, x))) {
         s.final.botKnows[id] = rollKnows(s.botDifficulty, clue.rank, rng)
         s.final.botSubmitAt[id] = p.until + (humanIn ? randomDelay(rng, 8_000, 45_000) : randomDelay(rng, 500, TIMING.finalRushMs))
       }
@@ -327,7 +485,7 @@ function advanceOnce(s: GameState, now: number, rng: Rng): GameState | null {
     }
     case 'finalAnswering': {
       let changed = false
-      for (const id of s.final.eligible.filter(isBot)) {
+      for (const id of s.final.eligible.filter((x) => isBot(s, x))) {
         const at = s.final.botSubmitAt[id]
         if (!s.final.answers[id] && at !== undefined && now >= at) {
           s.final.answers[id] = finalBotAttempt(s, id, rng)
@@ -352,10 +510,10 @@ function selectCell(s: GameState, ref: CellRef, now: number, rng: Rng): GameStat
   const cell = s.board.cells[ref.col][ref.row]
   cell.played = true
   s.clue = { ref, attempts: [], botKnows: {}, botRingAt: {} }
-  for (const id of IDS.filter(isBot)) s.clue.botKnows[id] = rollKnows(s.botDifficulty, cell.clue.rank, rng)
+  for (const id of bots(s)) s.clue.botKnows[id] = rollKnows(s.botDifficulty, cell.clue.rank, rng)
   s.phase = cell.dailyDouble
     ? // A Bot's Wager waits for the selection animation, so its reading time isn't spent behind it.
-      { kind: 'ddWager', botWagerAt: isBot(s.selector) ? now + TIMING.selectMs + TIMING.botWagerMs : undefined }
+      { kind: 'ddWager', botWagerAt: isBot(s, s.selector) ? now + TIMING.selectMs + TIMING.botWagerMs : undefined }
     : { kind: 'reading', until: now + TIMING.selectMs + clueTiming(s.mode).readMs }
   return s
 }
@@ -363,7 +521,7 @@ function selectCell(s: GameState, ref: CellRef, now: number, rng: Rng): GameStat
 function openRingIn(s: GameState, start: number, windowMs: number, rng: Rng): GameState {
   const clue = s.clue!
   clue.botRingAt = {}
-  for (const id of IDS.filter((x) => isBot(x) && !hasAttempted(s, x))) {
+  for (const id of bots(s).filter((x) => !hasAttempted(s, x))) {
     const delay = planRingIn(s.botDifficulty, !!clue.botKnows[id], rng)
     if (delay !== null) clue.botRingAt[id] = start + delay
   }
@@ -378,7 +536,7 @@ function startAnswering(s: GameState, id: ContestantId, at: number, rng: Rng): G
     contestant: id,
     until: at + TIMING.answerMs,
     windowLeft: Math.max(0, p.until - at),
-    botAnswerAt: isBot(id) ? at + typingDelay(s.botDifficulty, rng) : undefined,
+    botAnswerAt: isBot(s, id) ? at + typingDelay(s.botDifficulty, rng) : undefined,
   }
   return s
 }
@@ -412,14 +570,14 @@ function resolveClueAnswer(
   const delta = correct ? cell.value : -cell.value
   contestant(s, id).score += delta
   s.clue!.attempts.push({ contestant: id, typed, display, correct, matchScore, delta })
-  if (id === 'human') countHuman(s, correct)
+  countHuman(s, id, correct)
   if (correct) {
     s.clue!.correctBy = id
     s.selector = id
     s.phase = { kind: 'reveal' }
     return s
   }
-  const everyoneTried = IDS.every((x) => hasAttempted(s, x))
+  const everyoneTried = ids(s).every((x) => hasAttempted(s, x))
   if (everyoneTried || p.windowLeft <= 0) {
     s.phase = { kind: 'reveal' }
     return s
@@ -427,22 +585,24 @@ function resolveClueAnswer(
   return openRingIn(s, now, p.windowLeft, rng)
 }
 
-function submitHuman(s: GameState, prev: GameState, text: string, now: number, rng: Rng): GameState {
+function submitHuman(s: GameState, prev: GameState, by: ContestantId, text: string, now: number, rng: Rng): GameState {
   const p = s.phase
-  if (p.kind === 'answering' && p.contestant === 'human') {
-    return resolveClueAnswer(s, 'human', text, text, null, now, rng)
+  if (p.kind === 'answering' && p.contestant === by) {
+    return resolveClueAnswer(s, by, text, text, null, now, rng)
   }
-  if (p.kind === 'ddAnswering' && s.selector === 'human') {
+  if (p.kind === 'ddAnswering' && s.selector === by) {
     return resolveDailyDouble(s, text, text, null)
   }
-  if (p.kind === 'finalAnswering' && s.final.eligible.includes('human') && !s.final.answers.human) {
+  if (p.kind === 'finalAnswering' && s.final.eligible.includes(by) && !s.final.answers[by]) {
     const clue = finalClue(s)!
     const { correct, matchScore } = judge(text, clue)
-    s.final.answers.human = { contestant: 'human', typed: text, display: text, correct, matchScore, delta: 0 }
-    // The only Human has answered: Bots still thinking answer within finalRushMs.
-    for (const id of s.final.eligible.filter((x) => isBot(x) && !s.final.answers[x])) {
-      const at = now + randomDelay(rng, 400, TIMING.finalRushMs)
-      s.final.botSubmitAt[id] = Math.min(s.final.botSubmitAt[id] ?? at, at)
+    s.final.answers[by] = { contestant: by, typed: text, display: text, correct, matchScore, delta: 0 }
+    // Once every eligible Human has answered, Bots still thinking answer within finalRushMs.
+    if (s.final.eligible.every((id) => isBot(s, id) || s.final.answers[id])) {
+      for (const id of s.final.eligible.filter((x) => isBot(s, x) && !s.final.answers[x])) {
+        const at = now + randomDelay(rng, 400, TIMING.finalRushMs)
+        s.final.botSubmitAt[id] = Math.min(s.final.botSubmitAt[id] ?? at, at)
+      }
     }
     return allFinalAnswered(s) ? finishFinal(s, rng) : s
   }
@@ -459,13 +619,29 @@ function resolveDailyDouble(s: GameState, typed: string, display: string, botKno
   const delta = correct ? wager : -wager
   contestant(s, id).score += delta
   s.clue!.attempts.push({ contestant: id, typed, display, correct, matchScore, delta })
-  if (id === 'human') countHuman(s, correct)
+  countHuman(s, id, correct)
   if (correct) s.clue!.correctBy = id
   s.phase = { kind: 'reveal' }
   return s
 }
 
 // ---------- between Clues and Rounds ----------
+
+function canContinue(s: GameState): boolean {
+  return s.phase.kind === 'reveal' || s.phase.kind === 'roundIntro' || s.phase.kind === 'finalReveal'
+}
+
+/** Move on once every Human has pressed Continue and no Override vote is open. */
+function maybeContinue(s: GameState, now: number, rng: Rng): GameState {
+  if (s.vote || !humans(s).every((id) => s.ready?.includes(id))) return s
+  return doContinue(s, now, rng)
+}
+
+function doContinue(s: GameState, now: number, rng: Rng): GameState {
+  if (s.phase.kind === 'reveal') return afterClue(s, now, rng)
+  if (s.phase.kind === 'roundIntro') return startRound2(s, now, rng)
+  return endGame(s)
+}
 
 function afterClue(s: GameState, now: number, rng: Rng): GameState {
   s.clue = undefined
@@ -480,17 +656,19 @@ function afterClue(s: GameState, now: number, rng: Rng): GameState {
   return startFinal(s, now, rng)
 }
 
-/** Lowest score among `ids`; the Human wins ties, otherwise random. */
-function lowest(s: GameState, ids: ContestantId[], rng: Rng): ContestantId {
-  const min = Math.min(...ids.map((id) => contestant(s, id).score))
-  const tied = ids.filter((id) => contestant(s, id).score === min)
-  return tied.includes('human') ? 'human' : pick(rng, tied)
+/** Lowest score among `among`; Humans win ties over Bots, otherwise random. */
+function lowest(s: GameState, among: ContestantId[], rng: Rng): ContestantId {
+  const min = Math.min(...among.map((id) => contestant(s, id).score))
+  const tied = among.filter((id) => contestant(s, id).score === min)
+  const tiedHumans = tied.filter((id) => isHuman(s, id))
+  if (tiedHumans.length === 1) return tiedHumans[0]
+  return pick(rng, tiedHumans.length ? tiedHumans : tied)
 }
 
 function startRound2(s: GameState, _now: number, rng: Rng): GameState {
   s.round = 2
   s.board = s.nextBoard
-  s.selector = lowest(s, IDS, rng)
+  s.selector = lowest(s, ids(s), rng)
   s.phase = { kind: 'board' }
   return s
 }
@@ -499,7 +677,7 @@ function startRound2(s: GameState, _now: number, rng: Rng): GameState {
 
 function startFinal(s: GameState, _now: number, rng: Rng): GameState {
   s.round = 'final'
-  s.final.eligible = IDS.filter((id) => contestant(s, id).score > 0)
+  s.final.eligible = ids(s).filter((id) => contestant(s, id).score > 0)
   if (!s.final.eligible.length) return endGame(s)
   s.final.chooser = lowest(s, s.final.eligible, rng)
   s.phase = { kind: 'finalChoose' }
@@ -508,11 +686,11 @@ function startFinal(s: GameState, _now: number, rng: Rng): GameState {
 
 function chooseFinal(s: GameState, categoryId: string, now: number): GameState {
   s.final.categoryId = categoryId
-  for (const id of s.final.eligible.filter(isBot)) {
+  for (const id of s.final.eligible.filter((x) => isBot(s, x))) {
     const others = s.final.eligible.filter((x) => x !== id).map((x) => contestant(s, x).score)
     s.final.wagers[id] = finalWager(contestant(s, id).score, others)
   }
-  s.phase = s.final.eligible.includes('human')
+  s.phase = s.final.eligible.some((id) => isHuman(s, id))
     ? { kind: 'finalWager' }
     : { kind: 'finalReading', until: now + TIMING.readMs }
   return s
@@ -541,21 +719,23 @@ function finishFinal(s: GameState, rng: Rng): GameState {
   for (const id of s.final.eligible) {
     const answer =
       s.final.answers[id] ??
-      (s.final.answers[id] = isBot(id)
+      (s.final.answers[id] = isBot(s, id)
         ? { contestant: id, typed: '', display: maskAnswer(clue.answer, rng), correct: false, matchScore: 0, delta: 0 }
         : { contestant: id, typed: '', display: '', correct: false, matchScore: 0, delta: 0 })
     const wager = s.final.wagers[id] ?? 0
     answer.delta = answer.correct ? wager : -wager
     contestant(s, id).score += answer.delta
-    if (id === 'human') countHuman(s, answer.correct)
+    countHuman(s, id, answer.correct)
   }
   s.phase = { kind: 'finalReveal' }
   return s
 }
 
-function countHuman(s: GameState, correct: boolean) {
-  if (correct) s.tally.correct += 1
-  else s.tally.wrong += 1
+function countHuman(s: GameState, id: ContestantId, correct: boolean) {
+  const t = s.tally[id]
+  if (!t) return // Bots aren't tallied.
+  if (correct) t.correct += 1
+  else t.wrong += 1
 }
 
 function endGame(s: GameState): GameState {
@@ -567,19 +747,31 @@ function endGame(s: GameState): GameState {
 
 // ---------- Override ----------
 
-function applyOverride(s: GameState, prev: GameState): GameState {
-  const target = overridableAttempt(s)
+/** Close the Override vote. Turned down, the Answer can't be Overridden again. Either way, everyone gets a fresh Continue window. */
+function endVote(s: GameState, passed: boolean, now: number, rng: Rng): GameState {
+  const by = s.vote!.by
+  s.vote = undefined
+  s.turnUntil = undefined
+  if (passed) applyOverride(s, s, by)
+  else overridableAttempt(s, by)!.overrideDenied = true
+  return maybeContinue(s, now, rng)
+}
+
+/** A Human Overrides their own rejected Answer. */
+function applyOverride(s: GameState, prev: GameState, by: ContestantId): GameState {
+  const target = overridableAttempt(s, by)
   if (!target) return prev
   const stake = Math.abs(target.delta)
   target.correct = true
   target.overridden = true
-  s.tally.correct += 1
-  s.tally.wrong -= 1
+  const t = s.tally[by]!
+  t.correct += 1
+  t.wrong -= 1
   target.delta = stake
-  contestant(s, 'human').score += 2 * stake
+  contestant(s, by).score += 2 * stake
   if (s.phase.kind === 'reveal' && s.clue && !s.clue.correctBy) {
-    s.clue.correctBy = 'human'
-    s.selector = 'human'
+    s.clue.correctBy = by
+    s.selector = by
   }
   return s
 }

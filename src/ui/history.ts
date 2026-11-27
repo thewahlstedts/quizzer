@@ -41,8 +41,9 @@ export interface Summary {
 const KEY = 'quizzer.history.v1'
 const MAX_RECORDS = 2000
 
-export function recordFromState(s: GameState, endedAt: number): GameRecord {
-  const human = s.contestants.find((c) => c.id === 'human')!
+/** The record of a finished game, from the point of view of `me` (a single-player game's Human by default). */
+export function recordFromState(s: GameState, endedAt: number, me: ContestantId = 'human'): GameRecord {
+  const human = s.contestants.find((c) => c.id === me)!
   return {
     v: 1,
     id: `${endedAt}-${Math.random().toString(36).slice(2, 8)}`,
@@ -53,9 +54,9 @@ export function recordFromState(s: GameState, endedAt: number): GameRecord {
     contestants: s.contestants.map((c) => ({ id: c.id, name: c.name, score: c.score })),
     earnings: human.score,
     place: 1 + s.contestants.filter((c) => c.score > human.score).length,
-    won: !!s.winners?.includes('human'),
-    correct: s.tally.correct,
-    wrong: s.tally.wrong,
+    won: !!s.winners?.includes(me),
+    correct: s.tally[me]?.correct ?? 0,
+    wrong: s.tally[me]?.wrong ?? 0,
   }
 }
 

@@ -18,6 +18,7 @@ npm run build
 - `src/engine/` — pure TypeScript game rules (state machine in `game.ts`, answer matching, Bots, Board). No UI code; fully unit-tested.
 - `src/content/level-N.json` and `level-N-<part>.json` — the Clue bank. All files for a Level are merged by `src/content/index.ts`, so new batches go in new files. Each Clue has a Rank (1–5); point values come from Rank × Round (see `docs/adr/0001-clue-rank-not-points.md`).
 - `src/ui/` — React screens, sounds, and the review log.
+- `src/net/` — online play, shared by browser and server: the message protocol, a Room per game, the Hub of Rooms and connections, and the browser client (see `docs/adr/0004-online-play-server-authoritative-rooms.md`). Not wired into the UI or deployed yet.
 - `GLOSSARY.md` — the domain language (Clue, Answer, Contestant, Rank, Override, Flag…).
 
 ## Review loop

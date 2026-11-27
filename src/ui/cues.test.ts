@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { newGame, step, TIMING, type Action, type GameState } from '../engine/game'
+import { newGame, step, TIMING, type Action, type GameState, type HumanAction } from '../engine/game'
 import { seeded } from '../engine/rng'
 import { BANKS } from '../content'
 import { countdownSecond, cuesFor, waitSecond } from './cues'
@@ -13,9 +13,9 @@ function game(seed = 1) {
     get: () => s,
     set: (n: GameState) => (s = n),
     /** Apply an action and return the cues it would play. */
-    act: (a: Action) => {
+    act: (a: Action | (HumanAction & { now: number })) => {
       const prev = s
-      s = step(s, a, rng)
+      s = step(s, a.type === 'tick' || 'by' in a ? (a as Action) : { ...a, by: 'human' }, rng)
       return cuesFor(prev, s)
     },
   }
@@ -138,7 +138,7 @@ describe('waitSecond', () => {
     for (const [mode, n] of [['instant', 0], ['fast', 2]] as const) {
       const rng = seeded(1)
       let s = newGame(BANKS[1], 'normal', rng, 'You', mode)
-      s = step(s, { type: 'select', ref: cell(s, false), now: 0 }, rng)
+      s = step(s, { type: 'select', ref: cell(s, false), by: 'human', now: 0 }, rng)
       const seconds = new Set<number>()
       for (let t = 0; t < TIMING.selectMs + 3_000; t += 100) {
         const w = waitSecond(s, t)
