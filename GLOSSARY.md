@@ -1,6 +1,6 @@
 # Quizzer
 
-A Jeopardy-style quiz game where one Human plays against two Bots across a board of Categories.
+A Jeopardy-style quiz game where Humans play against Bots across a board of Categories. Every game has three seats; today the app seats one Human and two Bots.
 
 ## Contestants
 
@@ -9,7 +9,7 @@ Anyone competing in a game — either a Human or a Bot.
 _Avoid_: Player, participant
 
 **Human**:
-The single real person playing.
+A real person playing. A game seats 1–3 Humans and fills the remaining seats with Bots.
 _Avoid_: User, player one
 
 **Bot**:
@@ -86,7 +86,7 @@ _Avoid_: Log, past games
 ## Review
 
 **Override**:
-The Human declaring a rejected Answer correct ("I was right"). Overrides are kept as evidence for improving judging.
+A Human declaring their own rejected Answer correct ("I was right"). Overrides are kept as evidence for improving judging.
 _Avoid_: Appeal, dispute, challenge
 
 **Flag**:

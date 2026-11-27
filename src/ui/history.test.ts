@@ -57,7 +57,7 @@ describe('recordFromState', () => {
     s.contestants[1].score = 5000
     s.contestants[2].score = 2000
     s.winners = ['bot1']
-    s.tally = { correct: 5, wrong: 2 }
+    s.tally = { human: { correct: 5, wrong: 2 } }
     const r = recordFromState(s, 1_000)
     expect(r).toMatchObject({ endedAt: 1_000, level: 1, botDifficulty: 'hard', mode: 'fast', earnings: 2000, place: 2, won: false, correct: 5, wrong: 2 })
     expect(r.contestants.map((c) => c.name)[0]).toBe('Sam')

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { clueTiming, contestant, currentCell, finalClue, newGame, step, TIMING, type Action, type GameState } from './game'
+import { clueTiming, contestant, currentCell, finalClue, newGame, step, TIMING, type Action, type GameState, type HumanAction } from './game'
 import { seeded } from './rng'
 import { normalizeMode, type ClueBank, type GameMode } from './types'
 import { BANKS } from '../content'
@@ -7,10 +7,14 @@ import { BANKS } from '../content'
 /** Time from selecting a normal Clue to the ring-in window opening. */
 const READ = TIMING.selectMs + TIMING.readMs
 
+/** An action; a Human's action without `by` is the single-player Human's. */
+type Act = Action | (HumanAction & { now: number })
+const asAction = (a: Act): Action => (a.type === 'tick' || 'by' in a ? (a as Action) : { ...a, by: 'human' })
+
 function setup(seed = 1, bank: ClueBank = BANKS[1], mode: GameMode = 'slow') {
   const rng = seeded(seed)
   let s = newGame(bank, 'normal', rng, 'You', mode)
-  const dispatch = (a: Action) => (s = step(s, a, rng))
+  const dispatch = (a: Act) => (s = step(s, asAction(a), rng))
   return { get: () => s, set: (n: GameState) => (s = n), dispatch, rng }
 }
 
@@ -47,7 +51,7 @@ describe('normal Clue', () => {
     expect(g.get().phase.kind).toBe('reveal')
     expect(contestant(g.get(), 'human').score).toBe(cell.value)
     expect(g.get().selector).toBe('human')
-    expect(g.get().tally).toEqual({ correct: 1, wrong: 0 })
+    expect(g.get().tally.human).toEqual({ correct: 1, wrong: 0 })
   })
 
   it('deducts on a wrong Answer, resumes the remaining window, and allows an Override', () => {
@@ -62,7 +66,7 @@ describe('normal Clue', () => {
     g.dispatch({ type: 'submitAnswer', text: 'zzzz nonsense', now: READ + 15_000 })
     const value = currentCell(g.get())!.value
     expect(contestant(g.get(), 'human').score).toBe(-value)
-    expect(g.get().tally).toEqual({ correct: 0, wrong: 1 })
+    expect(g.get().tally.human).toEqual({ correct: 0, wrong: 1 })
     const p = g.get().phase
     expect(p.kind).toBe('ringIn')
     if (p.kind === 'ringIn') expect(p.until).toBe(READ + 15_000 + 20_000)
@@ -75,11 +79,11 @@ describe('normal Clue', () => {
     g.dispatch({ type: 'override', now: 0 })
     expect(contestant(g.get(), 'human').score).toBe(value)
     expect(g.get().selector).toBe('human')
-    expect(g.get().tally).toEqual({ correct: 1, wrong: 0 })
+    expect(g.get().tally.human).toEqual({ correct: 1, wrong: 0 })
     // only once
     g.dispatch({ type: 'override', now: 0 })
     expect(contestant(g.get(), 'human').score).toBe(value)
-    expect(g.get().tally).toEqual({ correct: 1, wrong: 0 })
+    expect(g.get().tally.human).toEqual({ correct: 1, wrong: 0 })
   })
 
   it('times out an unanswered ring-in as wrong', () => {
@@ -344,5 +348,205 @@ describe('Final Round', () => {
     g.dispatch({ type: 'submitAnswer', text: finalClue(g.get())!.answer, now: READ + 50_001 })
     expect(g.get().phase.kind).toBe('finalReveal')
     expect(contestant(g.get(), 'human').score).toBe(1800)
+  })
+})
+
+describe('several Humans', () => {
+  const SEATS = [
+    { id: 'ann', name: 'Ann' },
+    { id: 'ben', name: 'Ben' },
+  ]
+
+  function multi(seed = 1, seats = SEATS) {
+    const rng = seeded(seed)
+    let s = newGame(BANKS[1], 'normal', rng, seats)
+    const dispatch = (a: Action) => (s = step(s, a, rng))
+    return { get: () => s, set: (n: GameState) => (s = n), dispatch }
+  }
+
+  /** Select a normal Clue as `by`, open Ring In, and silence the Bots. */
+  function toRingIn(g: ReturnType<typeof multi>, by = 'ann') {
+    g.dispatch({ type: 'select', ref: firstNormalCell(g.get()), by, now: 0 })
+    g.dispatch({ type: 'tick', now: READ })
+    const s = structuredClone(g.get())
+    s.clue!.botKnows = {}
+    s.clue!.botRingAt = {}
+    g.set(s)
+  }
+
+  it('seats the Humans first and fills the remaining seats with Bots', () => {
+    const s = multi().get()
+    expect(s.contestants.map((c) => [c.id, c.kind])).toEqual([
+      ['ann', 'human'],
+      ['ben', 'human'],
+      ['bot1', 'bot'],
+    ])
+    expect(['Ann', 'Ben']).not.toContain(s.contestants[2].name)
+    expect(s.selector).toBe('ann')
+    expect(s.tally).toEqual({ ann: { correct: 0, wrong: 0 }, ben: { correct: 0, wrong: 0 } })
+    const three = multi(1, [...SEATS, { id: 'cat', name: 'Cat' }]).get()
+    expect(three.contestants.every((c) => c.kind === 'human')).toBe(true)
+  })
+
+  it('rejects a bad set of Humans', () => {
+    const rng = seeded(1)
+    expect(() => newGame(BANKS[1], 'normal', rng, [])).toThrow()
+    expect(() => newGame(BANKS[1], 'normal', rng, [...SEATS, { id: 'c', name: 'C' }, { id: 'd', name: 'D' }])).toThrow()
+    expect(() => newGame(BANKS[1], 'normal', rng, [SEATS[0], SEATS[0]])).toThrow()
+    expect(() => newGame(BANKS[1], 'normal', rng, [{ id: 'bot1', name: 'Sneaky' }])).toThrow()
+  })
+
+  it('lets only the selecting Human pick, and ignores actions from Bots or strangers', () => {
+    const g = multi()
+    const ref = firstNormalCell(g.get())
+    const before = g.get()
+    g.dispatch({ type: 'select', ref, by: 'ben', now: 0 })
+    g.dispatch({ type: 'select', ref, by: 'bot1', now: 0 })
+    g.dispatch({ type: 'select', ref, by: 'human', now: 0 })
+    expect(g.get()).toBe(before)
+    g.dispatch({ type: 'select', ref, by: 'ann', now: 0 })
+    expect(g.get().phase.kind).toBe('reading')
+  })
+
+  it('gives each Human one Ring In per Clue and scores and tallies them separately', () => {
+    const g = multi()
+    toRingIn(g)
+    const cell = currentCell(g.get())!
+    // Bots ring in on ticks, never by action.
+    const open = g.get()
+    g.dispatch({ type: 'ringIn', by: 'bot1', now: READ + 50 })
+    expect(g.get()).toBe(open)
+    g.dispatch({ type: 'ringIn', by: 'ann', now: READ + 100 })
+    expect(g.get().phase).toMatchObject({ kind: 'answering', contestant: 'ann' })
+    // Ben can't answer for Ann, or ring in while she's answering.
+    const answering = g.get()
+    g.dispatch({ type: 'submitAnswer', text: cell.clue.answer, by: 'ben', now: READ + 200 })
+    g.dispatch({ type: 'ringIn', by: 'ben', now: READ + 200 })
+    expect(g.get()).toBe(answering)
+    g.dispatch({ type: 'submitAnswer', text: 'zzzz', by: 'ann', now: READ + 300 })
+    expect(g.get().phase.kind).toBe('ringIn')
+    g.dispatch({ type: 'ringIn', by: 'ann', now: READ + 400 })
+    expect(g.get().phase.kind).toBe('ringIn')
+    g.dispatch({ type: 'ringIn', by: 'ben', now: READ + 500 })
+    g.dispatch({ type: 'submitAnswer', text: cell.clue.answer, by: 'ben', now: READ + 600 })
+    const s = g.get()
+    expect(s.phase.kind).toBe('reveal')
+    expect(contestant(s, 'ann').score).toBe(-cell.value)
+    expect(contestant(s, 'ben').score).toBe(cell.value)
+    expect(s.selector).toBe('ben')
+    expect(s.tally).toEqual({ ann: { correct: 0, wrong: 1 }, ben: { correct: 1, wrong: 0 } })
+  })
+
+  it('reveals once all three Humans have answered wrong', () => {
+    const g = multi(1, [...SEATS, { id: 'cat', name: 'Cat' }])
+    toRingIn(g)
+    let t = READ
+    for (const by of ['ann', 'ben', 'cat']) {
+      g.dispatch({ type: 'ringIn', by, now: (t += 100) })
+      g.dispatch({ type: 'submitAnswer', text: 'zzzz', by, now: (t += 100) })
+    }
+    expect(g.get().phase.kind).toBe('reveal')
+  })
+
+  it('lets a Human Override only their own Answer', () => {
+    const g = multi()
+    toRingIn(g)
+    g.dispatch({ type: 'ringIn', by: 'ann', now: READ + 100 })
+    g.dispatch({ type: 'submitAnswer', text: 'close enough', by: 'ann', now: READ + 200 })
+    g.dispatch({ type: 'tick', now: READ + 60_000 })
+    expect(g.get().phase.kind).toBe('reveal')
+    const revealed = g.get()
+    g.dispatch({ type: 'override', by: 'ben', now: 0 })
+    expect(g.get()).toBe(revealed)
+    g.dispatch({ type: 'override', by: 'ann', now: 0 })
+    const value = currentCell(g.get())!.value
+    expect(contestant(g.get(), 'ann').score).toBe(value)
+    expect(g.get().selector).toBe('ann')
+    expect(g.get().tally.ann).toEqual({ correct: 1, wrong: 0 })
+  })
+
+  it('lets only the selecting Human Wager on a Daily Double', () => {
+    const g = multi(5)
+    let dd: { col: number; row: number } | undefined
+    g.get().board.cells.forEach((col, c) => col.forEach((cell, r) => cell.dailyDouble && (dd ??= { col: c, row: r })))
+    g.dispatch({ type: 'select', ref: dd!, by: 'ann', now: 0 })
+    expect(g.get().phase.kind).toBe('ddWager')
+    g.dispatch({ type: 'ddWager', amount: 500, by: 'ben', now: 100 })
+    expect(g.get().phase.kind).toBe('ddWager')
+    g.dispatch({ type: 'ddWager', amount: 500, by: 'ann', now: 100 })
+    expect(g.get().phase.kind).toBe('ddReading')
+  })
+
+  function atFinal(scores: [number, number, number], seed = 9) {
+    const g = multi(seed)
+    const s = structuredClone(g.get())
+    s.round = 2
+    s.board.cells.forEach((col) => col.forEach((c) => (c.played = true)))
+    s.contestants.forEach((c, i) => (c.score = scores[i]))
+    s.phase = { kind: 'reveal' }
+    s.clue = { ref: { col: 0, row: 0 }, attempts: [], botKnows: {}, botRingAt: {} }
+    g.set(s)
+    g.dispatch({ type: 'continue', by: 'ben', now: 0 })
+    return g
+  }
+
+  it('gives a tie for last to one of the tied Humans, never the Bot', () => {
+    for (let seed = 1; seed <= 20; seed++) {
+      expect(['ann', 'ben']).toContain(atFinal([1000, 1000, 1000], seed).get().final.chooser)
+    }
+  })
+
+  it('reads the Final Clue only once every eligible Human has wagered', () => {
+    const g = atFinal([1000, 2000, 3000])
+    expect(g.get().final.chooser).toBe('ann')
+    g.dispatch({ type: 'finalChoose', categoryId: g.get().final.options[0].id, by: 'ann', now: 0 })
+    g.dispatch({ type: 'finalWager', amount: 500, by: 'ann', now: 0 })
+    expect(g.get().phase.kind).toBe('finalWager')
+    // A second Wager from the same Human is ignored.
+    g.dispatch({ type: 'finalWager', amount: 900, by: 'ann', now: 0 })
+    expect(g.get().final.wagers.ann).toBe(500)
+    g.dispatch({ type: 'finalWager', amount: 2000, by: 'ben', now: 10 })
+    expect(g.get().phase).toEqual({ kind: 'finalReading', until: 10 + TIMING.readMs })
+    g.dispatch({ type: 'tick', now: 10 + TIMING.readMs })
+    const answer = finalClue(g.get())!.answer
+    g.dispatch({ type: 'submitAnswer', text: answer, by: 'ann', now: 20_000 })
+    g.dispatch({ type: 'submitAnswer', text: 'zzzz', by: 'ben', now: 20_001 })
+    g.dispatch({ type: 'tick', now: 10 + TIMING.readMs + 50_000 }) // the Bot has submitted by 45s
+    const s = g.get()
+    expect(s.phase.kind).toBe('finalReveal')
+    expect(contestant(s, 'ann').score).toBe(1500)
+    expect(contestant(s, 'ben').score).toBe(0)
+    expect(s.tally.ann).toEqual({ correct: 1, wrong: 0 })
+    expect(s.tally.ben).toEqual({ correct: 0, wrong: 1 })
+  })
+
+  it.each([1, 2, 3, 4])('seed %i: a game with Humans who never answer terminates', (seed) => {
+    const g = multi(seed)
+    let now = 0
+    for (let i = 0; i < 20000 && g.get().phase.kind !== 'gameOver'; i++) {
+      const s = g.get()
+      now += 500
+      const hs = ['ann', 'ben']
+      if (s.phase.kind === 'board' && hs.includes(s.selector))
+        g.dispatch({ type: 'select', ref: firstNormalCellOrAny(s), by: s.selector, now })
+      else if (s.phase.kind === 'ddWager' && hs.includes(s.selector))
+        g.dispatch({ type: 'ddWager', amount: 5, by: s.selector, now })
+      else if (['reveal', 'roundIntro', 'finalReveal'].includes(s.phase.kind)) g.dispatch({ type: 'continue', by: 'ben', now })
+      else if (s.phase.kind === 'finalChoose' && hs.includes(s.final.chooser!))
+        g.dispatch({ type: 'finalChoose', categoryId: s.final.options[0].id, by: s.final.chooser!, now })
+      else if (s.phase.kind === 'finalWager') for (const by of hs) g.dispatch({ type: 'finalWager', amount: 0, by, now })
+      else g.dispatch({ type: 'tick', now })
+    }
+    expect(g.get().phase.kind).toBe('gameOver')
+  })
+
+  it('skips the Wager step for Humans who are not eligible', () => {
+    const g = atFinal([1000, -500, 3000])
+    expect(g.get().final.eligible).toEqual(['ann', 'bot1'])
+    g.dispatch({ type: 'finalChoose', categoryId: g.get().final.options[0].id, by: 'ann', now: 0 })
+    g.dispatch({ type: 'finalWager', amount: 100, by: 'ben', now: 0 })
+    expect(g.get().final.wagers.ben).toBeUndefined()
+    g.dispatch({ type: 'finalWager', amount: 100, by: 'ann', now: 0 })
+    expect(g.get().phase.kind).toBe('finalReading')
   })
 })

@@ -54,8 +54,8 @@ export function recordFromState(s: GameState, endedAt: number): GameRecord {
     earnings: human.score,
     place: 1 + s.contestants.filter((c) => c.score > human.score).length,
     won: !!s.winners?.includes('human'),
-    correct: s.tally.correct,
-    wrong: s.tally.wrong,
+    correct: s.tally.human?.correct ?? 0,
+    wrong: s.tally.human?.wrong ?? 0,
   }
 }
 

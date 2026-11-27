@@ -1,14 +1,15 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { newGame, step, type Action, type GameState } from '../engine/game'
+import { newGame, step, type GameState, type HumanAction } from '../engine/game'
 import type { BotDifficulty, GameMode, Level } from '../engine/types'
 import { BANKS } from '../content'
 import { play } from './sound'
 import { countdownSecond, cuesFor } from './cues'
 import { addRecord, recordFromState } from './history'
 
-type Payload = Action extends infer A ? (A extends { now: number } ? Omit<A, 'now'> : never) : never
-
 const rng = Math.random
+
+/** This device's Contestant: a single-player game's Human. */
+const ME = 'human'
 
 export function useGame() {
   const [state, setState] = useState<GameState | null>(null)
@@ -25,9 +26,9 @@ export function useGame() {
   }, [])
 
   const dispatch = useCallback(
-    (a: Payload) => {
+    (a: HumanAction) => {
       if (!ref.current) return
-      commit(step(ref.current, { ...a, now: Date.now() } as Action, rng))
+      commit(step(ref.current, { ...a, by: ME, now: Date.now() }, rng))
     },
     [commit],
   )
