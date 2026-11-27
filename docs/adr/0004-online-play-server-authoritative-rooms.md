@@ -19,4 +19,16 @@ The view only hides Answers if the online client doesn't ship the Clue bank, whi
 
 In the browser, `useOnlineGame` has the same shape as the single-player `useGame` (`state`, `now`, `dispatch`, `me`), so the game screens don't know which they're showing. `now` is the estimated server time. A tab keeps its seat token in `sessionStorage`, so a reload or dropped connection rejoins the seat, while two tabs count as two players. If a rejoin is refused (the Room is gone, for example after a server restart, since Rooms live only in memory), the tab forgets the seat and says the game has ended.
 
+Limits keep one client from exhausting the server's memory or finding other people's Rooms:
+- **Server:** at most 2000 open connections, and 8 per client address.
+- **Hub:**
+  - at most 500 Rooms (a started Room is about 100KB);
+  - 10 Rooms created per address per minute;
+  - 20 joins of nonexistent Rooms per address per minute;
+  - lobbies that never started dropped 5 minutes after everyone leaves.
+- **Room codes** are 5 letters, about 8 million possibilities.
+- **Removing players:** the Host can remove a member between games, and the Room then refuses new joins from that member's address. Members already in the Room keep rejoining by token, so removing one person on a shared home connection doesn't lock out the rest. Others behind that address can't newly join that Room.
+
+The client address is the last `X-Forwarded-For` entry, but only when the connection comes from a private address (Caddy). If a CDN or second proxy ever sits in front of Caddy, every client shares its addresses, and the per-address limits must be raised (`server/index.ts` lists the environment variables).
+
 Online play needs a running server, which GitHub Pages can't be. The server is a separate deployment that serves WebSockets on the same domain. Online games don't yet count toward Earnings or Game History.

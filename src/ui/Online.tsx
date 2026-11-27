@@ -71,6 +71,20 @@ export function Lobby({ online }: { online: OnlineGame }) {
     )
   }
 
+  if (error?.code === 'kicked') {
+    return (
+      <main className="setup">
+        <section className="setup-card lobby">
+          <h2>You were removed from the room</h2>
+          <p className="hint">The host removed you. You can create your own room or join another.</p>
+          <button className="primary" onClick={online.leave}>
+            Back
+          </button>
+        </section>
+      </main>
+    )
+  }
+
   if (!lobby || !you) {
     return (
       <main className="setup">
@@ -136,6 +150,15 @@ export function Lobby({ online }: { online: OnlineGame }) {
               </span>
               {m.id === lobby.host && <span className="tag">Host</span>}
               {!m.connected && <span className="tag">away</span>}
+              {isHost && m.id !== you && !lobby.playing && (
+                <button
+                  className="ghost danger remove"
+                  aria-label={`Remove ${m.name}`}
+                  onClick={() => confirm(`Remove ${m.name} from the room? They won't be able to rejoin it.`) && online.kick(m.id)}
+                >
+                  Remove
+                </button>
+              )}
             </li>
           ))}
           {bots > 0 && (

@@ -93,6 +93,11 @@ export class RemoteClient {
     this.transport.send({ t: 'start' })
   }
 
+  /** Host only: remove a member from the Room. */
+  kick(id: ContestantId): void {
+    this.transport.send({ t: 'kick', id })
+  }
+
   /** Give up the seat for good, and close the connection. */
   leave(): void {
     this.disconnectListeners.clear()

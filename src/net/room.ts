@@ -22,6 +22,8 @@ interface Member {
   name: string
   token: string
   connected: boolean
+  /** The address they last connected from, if the server knows it (for removing them). */
+  ip?: string
 }
 
 const MEMBER_IDS: ContestantId[] = ['p1', 'p2', 'p3']
@@ -41,6 +43,8 @@ export class Room {
   private host: ContestantId | undefined
   private settings: RoomSettings = { level: 1, difficulty: 'normal', mode: 'slow' }
   private game: GameState | null = null
+  /** Addresses of members the Host removed; they can't join this Room again. */
+  private banned = new Set<string>()
   /** The last JSON sent to each member, so unchanged views aren't sent again. */
   private lastSent = new Map<string, string>()
   private readonly opts: Required<RoomOptions>
@@ -59,18 +63,31 @@ export class Room {
     return this.game
   }
 
+  /** Whether `id` is (still) a member. */
+  has(id: ContestantId): boolean {
+    return this.members.some((m) => m.id === id)
+  }
+
   /**
    * A socket's first message: join as a new member, or rejoin with a token. On success, the caller
    * ties the socket to `id`.
    */
-  hello(msg: Extract<ClientMessage, { t: 'hello' }>, now: number): { id?: ContestantId; out: Outgoing[]; error?: Extract<ServerMessage, { t: 'error' }> } {
+  hello(
+    msg: Extract<ClientMessage, { t: 'hello' }>,
+    now: number,
+    ip?: string,
+  ): { id?: ContestantId; out: Outgoing[]; error?: Extract<ServerMessage, { t: 'error' }> } {
+    // A removed member's token is dead, so rejoins by token need no address check. That matters
+    // when people share an address (one home's Wi-Fi): removing one mustn't lock out the rest.
     if (msg.token !== undefined) {
       const m = this.members.find((x) => x.token === msg.token)
       if (!m) return { out: [], error: err('bad_token', 'That seat is gone. Join again.') }
       m.connected = true
+      m.ip = ip ?? m.ip
       this.forget(m.id)
       return { id: m.id, out: [{ to: m.id, msg: { t: 'welcome', you: m.id, token: m.token } }, ...this.broadcast(now)] }
     }
+    if (ip && this.banned.has(ip)) return { out: [], error: err('banned', 'You were removed from this room.') }
     if (this.game) return { out: [], error: err('in_progress', 'This game has already started.') }
     const name = cleanName(msg.name)
     if (!name) return { out: [], error: err('bad_name', 'Pick a name of 1–20 characters.') }
@@ -79,7 +96,7 @@ export class Room {
     }
     const id = MEMBER_IDS.find((x) => !this.members.some((m) => m.id === x))
     if (!id || this.members.length >= this.opts.maxHumans) return { out: [], error: err('room_full', 'This room is full.') }
-    const m: Member = { id, name, token: this.opts.makeToken(), connected: true }
+    const m: Member = { id, name, token: this.opts.makeToken(), connected: true, ip }
     this.members.push(m)
     this.host ??= id
     return { id, out: [{ to: id, msg: { t: 'welcome', you: id, token: m.token } }, ...this.broadcast(now)] }
@@ -115,6 +132,16 @@ export class Room {
       }
       case 'leave':
         return this.leave(me, now)
+      case 'kick': {
+        if (from !== this.host) return [{ to: from, msg: err('not_host', 'Only the host can remove people.') }]
+        if (this.playing) return [{ to: from, msg: err('in_progress', 'Remove people between games.') }]
+        const target = this.members.find((m) => m.id === msg.id)
+        if (!target || target.id === from) return [{ to: from, msg: err('bad_message', 'No such member.') }]
+        this.members = this.members.filter((m) => m !== target)
+        if (target.ip) this.banned.add(target.ip)
+        this.forget(target.id)
+        return [{ to: target.id, msg: err('kicked', 'The host removed you from the room.') }, ...this.broadcast(now)]
+      }
     }
   }
 

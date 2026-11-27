@@ -574,3 +574,4 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 .banner { text-align: center; margin: 0; padding: 8px 12px; background: rgba(255, 93, 115, 0.15); color: var(--coral); }
 .vote { display: grid; gap: 8px; justify-items: center; text-align: center; }
 .vote p { margin: 0; }
+.members .remove { padding: 4px 10px; font-size: 13px; }

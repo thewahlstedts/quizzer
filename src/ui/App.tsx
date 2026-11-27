@@ -50,7 +50,8 @@ export default function App() {
   useEffect(() => {
     if (playing) setInRoom(false)
   }, [playing])
-  const showOnlineGame = online.active && !!online.state && (playing || !inRoom)
+  // Removed by the Host (between games, maybe from the Game Over screen): show why.
+  const showOnlineGame = online.active && !!online.state && (playing || !inRoom) && online.error?.code !== 'kicked'
   const game = online.active ? online : local
   const [muted, setMutedState] = useState(isMuted())
   const toggleMute = () => {

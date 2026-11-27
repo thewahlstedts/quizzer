@@ -4,7 +4,7 @@ import { seeded } from '../engine/rng'
 import { BANKS } from '../content'
 import { ClockSync } from './clock'
 import { RemoteClient, type Transport } from './client'
-import { Hub, type Conn } from './hub'
+import { Hub, type Conn, type HubOptions } from './hub'
 import { parseClientMessage, type ClientMessage, type ServerMessage } from './protocol'
 
 // ---------- protocol ----------
@@ -88,7 +88,7 @@ describe('ClockSync', () => {
 
 // ---------- Hub and Room, through fake sockets ----------
 
-function server() {
+function server(opts: Partial<HubOptions> = {}) {
   let n = 0
   let codes = 0
   const hub = new Hub({
@@ -97,14 +97,16 @@ function server() {
     makeToken: () => `tok${++n}`,
     makeCode: () => ['ROOM', 'ROOM', 'NEXT'][codes++ % 3],
     idleRoomMs: 60_000,
+    idleLobbyMs: 30_000,
+    ...opts,
   })
   return hub
 }
 
 /** A fake socket: records what the server sent it. */
-function sock() {
+function sock(ip?: string) {
   const got: ServerMessage[] = []
-  const conn: Conn = { send: (t) => got.push(JSON.parse(t)) }
+  const conn: Conn = { send: (t) => got.push(JSON.parse(t)), ip }
   return {
     conn,
     got,
@@ -261,16 +263,119 @@ describe('Hub and Room', () => {
     const lobby = ben.last('lobby')!.lobby
     expect(lobby.members.map((m) => m.id)).toEqual(['p2'])
     expect(lobby.host).toBe('p2')
+    // That socket is free to join a Room again.
+    say(hub, ann, { t: 'hello', room: 'ROOM', name: 'Ann' })
+    expect(ann.last('welcome')!.you).toBe('p1')
   })
 
-  it('drops a Room nobody has been connected to for a while', () => {
+  it('drops an empty lobby soon, and an empty started game after longer', () => {
+    const a = lobbyOfTwo()
+    a.hub.close(a.ann.conn, 0)
+    a.hub.close(a.ben.conn, 0)
+    a.hub.tick(1_000)
+    a.hub.tick(30_999)
+    expect(a.hub.roomCount).toBe(1)
+    a.hub.tick(31_000)
+    expect(a.hub.roomCount).toBe(0)
+
+    const b = lobbyOfTwo()
+    say(b.hub, b.ann, { t: 'start' })
+    b.hub.close(b.ann.conn, 0)
+    b.hub.close(b.ben.conn, 0)
+    b.hub.tick(1_000)
+    b.hub.tick(31_000)
+    expect(b.hub.roomCount).toBe(1) // players may be coming back to a game
+    b.hub.tick(61_000)
+    expect(b.hub.roomCount).toBe(0)
+  })
+
+  it('lets the Host remove someone between games, who then cannot rejoin from that address', () => {
+    const hub = server()
+    const ann = sock('1.1.1.1')
+    const eve = sock('6.6.6.6')
+    say(hub, ann, { t: 'hello', room: '', name: 'Ann' })
+    say(hub, eve, { t: 'hello', room: 'ROOM', name: 'Eve' })
+    say(hub, eve, { t: 'kick', id: 'p1' })
+    expect(eve.last('error')!.code).toBe('not_host')
+    say(hub, ann, { t: 'kick', id: 'p1' })
+    expect(ann.last('error')!.code).toBe('bad_message') // not yourself
+    say(hub, ann, { t: 'kick', id: 'p2' })
+    expect(eve.last('error')!.code).toBe('kicked')
+    expect(ann.last('lobby')!.lobby.members.map((m) => m.name)).toEqual(['Ann'])
+    // Eve's socket no longer acts in the Room, her token is dead, and her address is turned away.
+    say(hub, eve, { t: 'start' })
+    expect(eve.last('error')!.code).toBe('not_joined')
+    say(hub, eve, { t: 'hello', room: 'ROOM', name: 'Eve2', token: 'tok2' })
+    expect(eve.last('error')!.code).toBe('bad_token')
+    const eveAgain = sock('6.6.6.6')
+    say(hub, eveAgain, { t: 'hello', room: 'ROOM', name: 'Evelyn' })
+    expect(eveAgain.last('error')!.code).toBe('banned')
+    // Someone else can still join.
+    const ben = sock('2.2.2.2')
+    say(hub, ben, { t: 'hello', room: 'ROOM', name: 'Ben' })
+    expect(ben.last('welcome')).toBeDefined()
+  })
+
+  it('still lets members who share the removed address reconnect to their own seats', () => {
+    const hub = server()
+    const ann = sock('5.5.5.5')
+    const kid = sock('5.5.5.5') // same home Wi-Fi
+    say(hub, ann, { t: 'hello', room: '', name: 'Ann' })
+    say(hub, kid, { t: 'hello', room: 'ROOM', name: 'Kid' })
+    say(hub, ann, { t: 'kick', id: 'p2' })
+    hub.close(ann.conn, 1)
+    const annBack = sock('5.5.5.5')
+    say(hub, annBack, { t: 'hello', room: 'ROOM', name: 'Ann', token: 'tok1' }, 2)
+    expect(annBack.last('welcome')).toEqual({ t: 'welcome', you: 'p1', token: 'tok1' })
+  })
+
+  it("doesn't let the Host remove anyone mid-game", () => {
     const { hub, ann, ben } = lobbyOfTwo()
-    hub.close(ann.conn, 0)
-    hub.close(ben.conn, 0)
-    hub.tick(1_000)
-    expect(hub.roomCount).toBe(1)
-    hub.tick(61_000)
-    expect(hub.roomCount).toBe(0)
+    say(hub, ann, { t: 'start' })
+    say(hub, ann, { t: 'kick', id: 'p2' })
+    expect(ann.last('error')!.code).toBe('in_progress')
+    expect(ben.last('error')).toBeUndefined()
+  })
+
+  it('caps the number of Rooms', () => {
+    let c = 0
+    const hub = server({ maxRooms: 2, makeCode: () => `R${++c}` })
+    const out = [sock(), sock(), sock()]
+    out.forEach((s, i) => say(hub, s, { t: 'hello', room: '', name: `P${i}` }))
+    expect(out[1].last('welcome')).toBeDefined()
+    expect(out[2].last('error')!.code).toBe('server_full')
+    expect(hub.roomCount).toBe(2)
+  })
+
+  it('limits Rooms created per address per minute', () => {
+    let c = 0
+    const hub = server({ roomsPerIpPerMinute: 2, makeCode: () => `R${++c}` })
+    const make = (ip: string, now: number) => {
+      const s = sock(ip)
+      say(hub, s, { t: 'hello', room: '', name: 'X' }, now)
+      return s
+    }
+    make('9.9.9.9', 0)
+    make('9.9.9.9', 1)
+    expect(make('9.9.9.9', 2).last('error')!.code).toBe('slow_down')
+    expect(make('8.8.8.8', 3).last('welcome')).toBeDefined() // others aren't affected
+    expect(make('9.9.9.9', 60_001).last('welcome')).toBeDefined() // a minute later
+  })
+
+  it('limits failed joins per address per minute (code guessing)', () => {
+    const hub = server({ failedJoinsPerIpPerMinute: 3 })
+    const host = sock('1.1.1.1')
+    say(hub, host, { t: 'hello', room: '', name: 'Ann' })
+    const guesser = sock('6.6.6.6')
+    for (const code of ['AAAA', 'BBBB', 'CCCC']) {
+      say(hub, guesser, { t: 'hello', room: code, name: 'Eve' }, 10)
+      expect(guesser.last('error')!.code).toBe('no_room')
+    }
+    // Now even the right code is refused until the minute is up.
+    say(hub, guesser, { t: 'hello', room: 'ROOM', name: 'Eve' }, 20)
+    expect(guesser.last('error')!.code).toBe('slow_down')
+    say(hub, guesser, { t: 'hello', room: 'ROOM', name: 'Eve' }, 60_011)
+    expect(guesser.last('welcome')).toBeDefined()
   })
 
   it('answers pings with server time, and rejects junk', () => {
