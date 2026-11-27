@@ -545,3 +545,32 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-radius: 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ---------- online play ---------- */
+.online-card, .lobby { display: grid; gap: 12px; }
+.online-card h2, .lobby h2 { margin: 0; }
+.online-card .hint, .lobby .hint { margin: 0; }
+.join-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; }
+.join-row input {
+  background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
+  font-size: 18px; letter-spacing: 0.15em; text-transform: uppercase; min-width: 0;
+}
+.lobby .field { margin-bottom: 4px; }
+.room-code { font-family: var(--display); font-size: 56px; letter-spacing: 0.18em; color: var(--gold); text-align: center; line-height: 1; }
+.lobby .eyebrow { margin: 0; text-align: center; }
+.lobby > .row { justify-content: center; }
+.members { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.members li {
+  display: flex; align-items: center; gap: 8px; padding: 10px 12px;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+}
+.members .who { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.members .tag { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.members li.away { opacity: 0.55; }
+.members li.bots { color: var(--muted); justify-content: center; }
+.error { color: var(--coral); margin: 0; text-align: center; }
+.segmented button:disabled { cursor: default; }
+.turn-clock { text-align: center; color: var(--muted); margin: 0; font-variant-numeric: tabular-nums; }
+.banner { text-align: center; margin: 0; padding: 8px 12px; background: rgba(255, 93, 115, 0.15); color: var(--coral); }
+.vote { display: grid; gap: 8px; justify-items: center; text-align: center; }
+.vote p { margin: 0; }

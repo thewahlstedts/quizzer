@@ -146,10 +146,12 @@ describe('viewFor', () => {
       expect(shown.clue).toBe(clue.clue)
       expect(shown.answer).toBe('')
       expect(v.final.options.filter((o) => o.clue.clue !== '')).toHaveLength(1)
-      expect(v.final.answers).toEqual({})
+      // Ann sees that Ben has answered, but not what or whether he was right.
+      expect(v.final.answers).toEqual({ ben: { contestant: 'ben', typed: '', display: '', correct: false, matchScore: 0, delta: 0 } })
+      expect(JSON.stringify(v.final.answers)).not.toContain(clue.answer)
       expect(v.final.botKnows).toEqual({})
       expect(v.final.botSubmitAt).toEqual({})
-      expect(Object.keys(viewFor(g.get(), 'ben').final.answers)).toEqual(['ben'])
+      expect(viewFor(g.get(), 'ben').final.answers.ben!.typed).toBe(clue.answer)
 
       g.dispatch({ type: 'submitAnswer', text: 'zzzz', by: 'ann', now: TIMING.readMs + 2 })
       g.dispatch({ type: 'tick', now: TIMING.readMs + 60_000 })
