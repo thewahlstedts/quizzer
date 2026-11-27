@@ -11,6 +11,7 @@ npm install
 npm run dev     # http://localhost:5173
 npm test        # engine + content tests (Vitest)
 npm run build
+npm run build:server && PORT=8787 npm run server   # online-play server: ws://localhost:8787/ws
 ```
 
 ## Layout
@@ -18,7 +19,8 @@ npm run build
 - `src/engine/` — pure TypeScript game rules (state machine in `game.ts`, answer matching, Bots, Board). No UI code; fully unit-tested.
 - `src/content/level-N.json` and `level-N-<part>.json` — the Clue bank. All files for a Level are merged by `src/content/index.ts`, so new batches go in new files. Each Clue has a Rank (1–5); point values come from Rank × Round (see `docs/adr/0001-clue-rank-not-points.md`).
 - `src/ui/` — React screens, sounds, and the review log.
-- `src/net/` — online play, shared by browser and server: the message protocol, a Room per game, the Hub of Rooms and connections, and the browser client (see `docs/adr/0004-online-play-server-authoritative-rooms.md`). Not wired into the UI or deployed yet.
+- `src/net/` — online play, shared by browser and server: the message protocol, a Room per game, the Hub of Rooms and connections, and the browser client (see `docs/adr/0004-online-play-server-authoritative-rooms.md`). Not wired into the UI yet.
+- `server/` — the online-play server: Node `http` + `ws`, feeding socket events to the Hub. `GET /health`, WebSockets on `/ws`. Env: `PORT` (default 8787), `ALLOWED_ORIGINS` (comma-separated; other Origins get 403). `server/Dockerfile` builds its image.
 - `GLOSSARY.md` — the domain language (Clue, Answer, Contestant, Rank, Override, Flag…).
 
 ## Review loop
@@ -36,3 +38,5 @@ Quizzer can be installed to the Home Screen (iOS Safari: Share → Add to Home S
 ## Deploy
 
 Pushing to `main` builds and publishes to GitHub Pages (`.github/workflows/deploy.yml`). `quizzer.thewahlstedts.com` is proxied to Pages by Caddy in `thewahlstedts-genai`.
+
+The online-play server is **not** deployed by pushing here. `thewahlstedts-genai` builds `server/Dockerfile` from this repo's `main` and runs it as the `quizzer-server` container; Caddy sends `wss://quizzer.thewahlstedts.com/ws` to it. To ship a server change, merge it to `main` here, then re-run that repo's deploy (steps in its `docs/quizzer-server.md`). Pages and the server deploy separately, so keep protocol changes backward compatible or deploy both together.
