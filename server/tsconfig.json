@@ -1,0 +1,11 @@
+{
+  // The online-play server (and its tests). Node types here; `src` keeps only vite/client.
+  // vite/client is still listed because the server imports src/content, which uses import.meta.glob.
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": ["node", "vite/client"],
+    "tsBuildInfoFile": "../node_modules/.tmp/tsconfig.server.tsbuildinfo"
+  },
+  "include": ["."]
+}

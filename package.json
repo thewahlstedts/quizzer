@@ -5,19 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b . server && vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b . server",
+    "build:server": "vite build --ssr server/index.ts --outDir dist-server",
+    "server": "node dist-server/index.js"
   },
   "dependencies": {
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "ws": "8.23.0"
   },
   "devDependencies": {
+    "@types/node": "22.20.5",
     "@types/react": "^19.3.3",
     "@types/react-dom": "^19.3.0",
+    "@types/ws": "8.18.2",
     "@vitejs/plugin-react": "^6.3.0",
     "typescript": "^7.0.2",
     "vite": "^8.4.0",
