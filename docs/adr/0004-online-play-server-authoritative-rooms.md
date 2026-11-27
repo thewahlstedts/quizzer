@@ -17,4 +17,6 @@ Ring In is decided by when actions reach the server. A player with a slower conn
 
 The view only hides Answers if the online client doesn't ship the Clue bank, which the current bundle does (ADR 0003).
 
+In the browser, `useOnlineGame` has the same shape as the single-player `useGame` (`state`, `now`, `dispatch`, `me`), so the game screens don't know which they're showing. `now` is the estimated server time. A tab keeps its seat token in `sessionStorage`, so a reload or dropped connection rejoins the seat, while two tabs count as two players. If a rejoin is refused (the Room is gone, for example after a server restart, since Rooms live only in memory), the tab forgets the seat and says the game has ended.
+
 Online play needs a running server, which GitHub Pages can't be. The server is a separate deployment that serves WebSockets on the same domain. Online games don't yet count toward Earnings or Game History.

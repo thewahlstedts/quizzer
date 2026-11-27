@@ -7,6 +7,7 @@ import {
   finalClue,
   overridableAttempt,
   TIMING,
+  TURN_LIMITS,
   type GameState,
 } from '../engine/game'
 import { GAME_MODES, normalizeMode, type Attempt, type BotDifficulty, type CellRef, type Clue, type ContestantId, type GameMode, type Level } from '../engine/types'
@@ -28,16 +29,29 @@ import { resultText } from './share'
 import { ShareButton } from './ShareButton'
 import { AUTO_CONTINUE_MS, loadAutoContinue, saveAutoContinue } from './settings'
 import { StatsCard } from './Stats'
-import { avatarStyle, isBot, MeContext, useMe } from './seat'
+import { avatarStyle, isBot, MeContext, namesList, useMe, voteAttempt, waitingOn } from './seat'
+import { useOnlineGame } from './useOnlineGame'
+import { Lobby, PlayWithFriends } from './Online'
 
 type Dispatch = ReturnType<typeof useGame>['dispatch']
 
 /** The game being shown, for small leaf components (Avatar) that would otherwise need it threaded through. */
 const StateContext = createContext<GameState | null>(null)
+/** True in an online game: no local Game History, and other Humans to wait for. */
+const OnlineContext = createContext(false)
 
 
 export default function App() {
-  const game = useGame()
+  const local = useGame()
+  const online = useOnlineGame()
+  // After an online game ends, "Back to room" returns to the lobby until the next game starts.
+  const [inRoom, setInRoom] = useState(false)
+  const playing = !!online.lobby?.playing
+  useEffect(() => {
+    if (playing) setInRoom(false)
+  }, [playing])
+  const showOnlineGame = online.active && !!online.state && (playing || !inRoom)
+  const game = online.active ? online : local
   const [muted, setMutedState] = useState(isMuted())
   const toggleMute = () => {
     setMuted(!muted)
@@ -51,7 +65,7 @@ export default function App() {
           Quiz<span>zer</span>
         </h1>
         <div className="topbar-actions">
-          {game.state && (
+          {game.state && (!online.active || showOnlineGame) && (
             <span className="round-tag">
               {game.state.round === 'final' ? 'Final Round' : `Round ${game.state.round}`} · Level {game.state.level}
               {game.state.mode !== 'slow' ? ` · ${MODE_LABEL[game.state.mode]}` : ''}
@@ -60,21 +74,36 @@ export default function App() {
           <button className="ghost" onClick={toggleMute} aria-label={muted ? 'Unmute' : 'Mute'}>
             {muted ? '🔇' : '🔊'}
           </button>
-          {game.state && (
-            <button className="ghost" onClick={game.quit}>
-              {game.state.phase.kind === 'gameOver' ? 'New game' : 'Quit'}
+          {!online.active && local.state && (
+            <button className="ghost" onClick={local.quit}>
+              {local.state.phase.kind === 'gameOver' ? 'New game' : 'Quit'}
             </button>
           )}
+          {showOnlineGame &&
+            (online.state!.phase.kind === 'gameOver' ? (
+              <button className="ghost" onClick={() => setInRoom(true)}>
+                Back to room
+              </button>
+            ) : (
+              <button className="ghost" onClick={() => confirm('Leave this game? Your seat stays and the game goes on without you.') && online.leave()}>
+                Leave
+              </button>
+            ))}
         </div>
       </header>
-      {game.state ? (
-        <MeContext.Provider value={game.me}>
-          <StateContext.Provider value={game.state}>
-            <Game state={game.state} now={game.now} dispatch={game.dispatch} />
-          </StateContext.Provider>
-        </MeContext.Provider>
+      {online.active && !showOnlineGame ? (
+        <Lobby online={online} />
+      ) : game.state ? (
+        <OnlineContext.Provider value={online.active}>
+          <MeContext.Provider value={game.me}>
+            <StateContext.Provider value={game.state}>
+              {online.reconnecting && <p className="banner">Connection lost. Reconnecting…</p>}
+              <Game state={game.state} now={game.now} dispatch={game.dispatch} />
+            </StateContext.Provider>
+          </MeContext.Provider>
+        </OnlineContext.Provider>
       ) : (
-        <Setup onStart={game.start} />
+        <Setup onStart={local.start} online={online} />
       )}
     </div>
   )
@@ -82,7 +111,13 @@ export default function App() {
 
 // ---------------- Setup ----------------
 
-function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: string, mode: GameMode) => void }) {
+function Setup({
+  onStart,
+  online,
+}: {
+  onStart: (level: Level, d: BotDifficulty, name: string, mode: GameMode) => void
+  online: Parameters<typeof PlayWithFriends>[0]['online']
+}) {
   const [level, setLevel] = useState<Level>(() => (Number(localStorage.getItem('quizzer.level')) || 1) as Level)
   const [difficulty, setDifficulty] = useState<BotDifficulty>(
     () => (localStorage.getItem('quizzer.difficulty') as BotDifficulty) || 'normal',
@@ -200,6 +235,8 @@ function Setup({ onStart }: { onStart: (level: Level, d: BotDifficulty, name: st
         </details>
       </section>
 
+      <PlayWithFriends name={name} online={online} />
+
       <StatsCard />
 
       <section className="review-card">
@@ -246,6 +283,7 @@ const cellKey = (r: CellRef) => `${r.col}-${r.row}`
 
 function Game({ state, now, dispatch }: { state: GameState; now: number; dispatch: Dispatch }) {
   const p = state.phase
+  const me = useMe()
   // Board tile positions, kept fresh so a chosen tile can fly out from where it was.
   const tileRects = useRef(new Map<string, DOMRect>())
   // The Clue just selected: pulse it on the Board, then fly it into the Clue screen.
@@ -301,6 +339,7 @@ function Game({ state, now, dispatch }: { state: GameState; now: number; dispatc
           lines={['Point values double.', 'Two Daily Doubles are hiding on this board.', 'Whoever is in last place picks first.']}
           action="Let's go"
           onAction={() => dispatch({ type: 'continue' })}
+          waiting={state.ready?.includes(me) ? waitingOn(state, me) : undefined}
         />
       )
       break
@@ -317,9 +356,41 @@ function Game({ state, now, dispatch }: { state: GameState; now: number; dispatc
 
   return (
     <main className="game">
+      <TurnClock state={state} now={now} />
       <div className="play-area">{body}</div>
       <Podiums state={state} />
     </main>
+  )
+}
+
+/** Online games: how long the current turn (or Override vote) has left. */
+function TurnClock({ state, now }: { state: GameState; now: number }) {
+  const me = useMe()
+  const until = state.vote?.until ?? state.turnUntil
+  if (until === undefined) return null
+  // `now` refreshes every 100ms, so a fresh 20s turn can round up to 21s: cap it at the limit.
+  const p = state.phase.kind
+  const limit = state.vote
+    ? TURN_LIMITS.voteMs
+    : p === 'board' || p === 'finalChoose'
+      ? TURN_LIMITS.pickMs
+      : p === 'ddWager' || p === 'finalWager'
+        ? TURN_LIMITS.wagerMs
+        : TURN_LIMITS.continueMs
+  const left = `${Math.min(Math.ceil(limit / 1000), Math.max(0, Math.ceil((until - now) / 1000)))}s`
+  const whose = (id: ContestantId | undefined, what: string) =>
+    id === me ? `${left} to ${what}` : `${id ? contestant(state, id).name : 'Someone'} has ${left} to ${what}`
+  let text: string
+  if (state.vote) text = `Vote closes in ${left}`
+  else if (state.phase.kind === 'board') text = whose(state.selector, 'pick a clue')
+  else if (state.phase.kind === 'ddWager') text = whose(state.selector, 'wager')
+  else if (state.phase.kind === 'finalChoose') text = whose(state.final.chooser, 'choose the category')
+  else if (state.phase.kind === 'finalWager') text = `${left} to wager`
+  else text = `Moving on in ${left}`
+  return (
+    <p className="turn-clock" role="timer">
+      ⏱ {text}
+    </p>
   )
 }
 
@@ -988,7 +1059,12 @@ function RevealActions({
 }) {
   const [flagging, setFlagging] = useState(false)
   const [flagged, setFlagged] = useState(false)
-  const overridable = overridableAttempt(state)
+  const me = useMe()
+  const overridable = state.vote ? undefined : overridableAttempt(state, me)
+  const vote = state.vote
+  const voteOn = voteAttempt(state)
+  const mine = state.phase.kind === 'finalReveal' ? state.final.answers[me] : state.clue?.attempts.find((a) => a.contestant === me)
+  const pressed = !!state.ready?.includes(me)
   const ref = useRef<HTMLButtonElement>(null)
   useEffect(() => ref.current?.focus(), [])
   const autoOn = useState(() => auto && loadAutoContinue())[0]
@@ -1003,6 +1079,27 @@ function RevealActions({
   return (
     <div className="reveal-actions">
       <p className="summary">{summary}</p>
+      {vote &&
+        (vote.by === me ? (
+          <p className="hint">Waiting for the others to agree you were right…</p>
+        ) : vote.agree.includes(me) ? (
+          <p className="hint">You agreed. Waiting for the others…</p>
+        ) : (
+          <div className="vote">
+            <p>
+              {contestant(state, vote.by).name} says “{voteOn?.typed}” should count. Agree?
+            </p>
+            <div className="row">
+              <button className="primary" onClick={() => dispatch({ type: 'vote', agree: true })}>
+                Agree
+              </button>
+              <button className="ghost" onClick={() => dispatch({ type: 'vote', agree: false })}>
+                Disagree
+              </button>
+            </div>
+          </div>
+        ))}
+      {mine?.overrideDenied && <p className="hint">The others didn't agree, so your Answer stays wrong.</p>}
       <div className="row">
         {overridable && (
           <button
@@ -1020,12 +1117,13 @@ function RevealActions({
           {flagged ? 'Flagged ✓' : 'Flag clue'}
         </button>
         {/* With Auto continue on, the game moves on by itself, so there's no Continue button. */}
-        {!autoOn && (
+        {!autoOn && !pressed && (
           <button ref={ref} className="primary" onClick={() => dispatch({ type: 'continue' })}>
             Continue
           </button>
         )}
       </div>
+      {pressed && waitingOn(state, me).length > 0 && <p className="hint">Waiting for {namesList(waitingOn(state, me))}…</p>}
       {flagging && (
         <FlagDialog
           onCancel={() => {
@@ -1072,7 +1170,20 @@ function FlagDialog({ onSubmit, onCancel }: { onSubmit: (r: FlagReason, note: st
   )
 }
 
-function Interstitial({ title, lines, action, onAction }: { title: string; lines: string[]; action: string; onAction: () => void }) {
+function Interstitial({
+  title,
+  lines,
+  action,
+  onAction,
+  waiting,
+}: {
+  title: string
+  lines: string[]
+  action: string
+  onAction: () => void
+  /** Online: you've pressed it, and these people haven't yet. */
+  waiting?: string[]
+}) {
   const ref = useRef<HTMLButtonElement>(null)
   useEffect(() => ref.current?.focus(), [])
   return (
@@ -1081,9 +1192,13 @@ function Interstitial({ title, lines, action, onAction }: { title: string; lines
       {lines.map((l) => (
         <p key={l}>{l}</p>
       ))}
-      <button ref={ref} className="primary big" onClick={onAction}>
-        {action}
-      </button>
+      {waiting ? (
+        <p className="hint">Waiting for {namesList(waiting)}…</p>
+      ) : (
+        <button ref={ref} className="primary big" onClick={onAction}>
+          {action}
+        </button>
+      )}
     </div>
   )
 }
@@ -1130,7 +1245,13 @@ function FinalView({ state, now, dispatch }: { state: GameState; now: number; di
         <span className="clue-cat">{category}</span>
       </div>
 
-      {p.kind === 'finalWager' && (
+      {p.kind === 'finalWager' && (!humanIn || f.wagers[me] !== undefined) && (
+        <p className="typing">
+          {humanIn ? 'Wager locked in. Waiting for the others' : 'The others are wagering'}
+          <span className="dots" />
+        </p>
+      )}
+      {p.kind === 'finalWager' && humanIn && f.wagers[me] === undefined && (
         <WagerBox
           min={0}
           max={contestant(state, me).score}
@@ -1291,6 +1412,7 @@ function GameOver({ state }: { state: GameState }) {
   const winners = state.winners ?? []
   const names = winners.map((id) => contestant(state, id).name)
   const me = useMe()
+  const online = useContext(OnlineContext)
   const humanWon = winners.includes(me)
   return (
     <div className={'interstitial gameover' + (humanWon ? ' won' : '')}>
@@ -1304,9 +1426,15 @@ function GameOver({ state }: { state: GameState }) {
           : `${names.join(' & ')} win${names.length > 1 ? '' : 's'}.`}
       </h2>
       {state.round === 'final' && !state.final.categoryId && <p>Nobody had more than $0, so there was no Final Round.</p>}
-      <GameOverEarnings earned={contestant(state, me).score} />
-      <ShareButton className="primary big" label="Share result" getText={() => resultText(recordFromState(state, Date.now()))} />
-      <p className="hint">Press New game to play again. Your stats are on the start screen.</p>
+      {online ? (
+        <p className="hint">Online games don't count toward your stats. Press Back to room to play again.</p>
+      ) : (
+        <>
+          <GameOverEarnings earned={contestant(state, me).score} />
+          <ShareButton className="primary big" label="Share result" getText={() => resultText(recordFromState(state, Date.now(), me))} />
+          <p className="hint">Press New game to play again. Your stats are on the start screen.</p>
+        </>
+      )}
     </div>
   )
 }

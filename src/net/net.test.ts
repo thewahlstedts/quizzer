@@ -352,6 +352,16 @@ describe('RemoteClient', () => {
     expect(ben.snapshot.view!.selector).toBe('p2')
   })
 
+  it("doesn't ping before it has joined (the server would answer with an error)", () => {
+    const sent: ClientMessage[] = []
+    let open = () => {}
+    const t: Transport = { send: (m) => sent.push(m), close: () => {}, onOpen: (cb) => (open = cb), onMessage: () => {}, onClose: () => {} }
+    const c = new RemoteClient(t, { room: 'ABCD', name: 'Ann' }, () => 1_000)
+    open()
+    c.pingIfDue(0)
+    expect(sent.map((m) => m.t)).toEqual(['hello'])
+  })
+
   it('rejoins its seat with the saved token after the connection drops', () => {
     const hub = server()
     const clock = { now: 0 }

@@ -19,9 +19,15 @@ npm run build:server && PORT=8787 npm run server   # online-play server: ws://lo
 - `src/engine/` — pure TypeScript game rules (state machine in `game.ts`, answer matching, Bots, Board). No UI code; fully unit-tested.
 - `src/content/level-N.json` and `level-N-<part>.json` — the Clue bank. All files for a Level are merged by `src/content/index.ts`, so new batches go in new files. Each Clue has a Rank (1–5); point values come from Rank × Round (see `docs/adr/0001-clue-rank-not-points.md`).
 - `src/ui/` — React screens, sounds, and the review log.
-- `src/net/` — online play, shared by browser and server: the message protocol, a Room per game, the Hub of Rooms and connections, and the browser client (see `docs/adr/0004-online-play-server-authoritative-rooms.md`). Not wired into the UI yet.
+- `src/net/` — online play, shared by browser and server: the message protocol, a Room per game, the Hub of Rooms and connections, and the browser client (see `docs/adr/0004-online-play-server-authoritative-rooms.md`). The screens are `src/ui/Online.tsx` (Play with friends, the Room) and `src/ui/useOnlineGame.ts`.
 - `server/` — the online-play server: Node `http` + `ws`, feeding socket events to the Hub. `GET /health`, WebSockets on `/ws`. Env: `PORT` (default 8787), `ALLOWED_ORIGINS` (comma-separated; other Origins get 403). `server/Dockerfile` builds its image.
 - `GLOSSARY.md` — the domain language (Clue, Answer, Contestant, Rank, Override, Flag…).
+
+## Play with friends
+
+On the start screen, **Create a room** and send the code (or **Copy invite link**) to up to two others, who **Join** with it. Everyone plays on their own device; Bots fill empty seats. The Host picks Level, Bot difficulty and Mode and starts. An Override needs everyone else to agree, Continue waits for everyone, and turns have time limits. A dropped connection or a reload rejoins your seat. Online games don't count toward stats.
+
+Locally: `npm run build:server && npm run server` in one terminal and `npm run dev` in another. The dev server proxies `/ws` to the game server on port 8787.
 
 ## Review loop
 

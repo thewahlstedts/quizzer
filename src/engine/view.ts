@@ -8,7 +8,7 @@ import type { Board, Clue, ContestantId } from './types'
  * Hidden: every Clue not yet picked (its text, Answer and whether it's a Daily Double), Round 2's
  * Board, a Clue's Answer until it's revealed, a Daily Double's Clue until it's wagered on, the
  * Final Clue until it's read and its Answer until the reveal, other Contestants' Final Wagers and
- * Answers until the reveal, and everything about how Bots will play (who knows what, and when they
+ * Answers until the reveal (you see only that they've answered), and everything about how Bots will play (who knows what, and when they
  * act). Played Clues stay visible.
  *
  * The view is the same shape as GameState, so the UI can render either.
@@ -42,7 +42,10 @@ export function viewFor(state: GameState, viewer: ContestantId): GameState {
   f.botSubmitAt = {}
   if (!revealed) {
     f.wagers = pickOwn(f.wagers, viewer)
-    f.answers = pickOwn(f.answers, viewer)
+    // Others' Answers show only that they've answered, as a blank Attempt.
+    for (const [id, a] of Object.entries(f.answers)) {
+      if (id !== viewer && a) f.answers[id] = { contestant: id, typed: '', display: '', correct: false, matchScore: 0, delta: 0 }
+    }
   }
   return s
 }
