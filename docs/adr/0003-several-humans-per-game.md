@@ -17,3 +17,9 @@ Rules for several Humans:
 `ContestantId` is a plain string. Bots are always `bot1`, `bot2`, so a Human may not use those ids. Anything that needs to know "is this a Bot?" asks the Contestant's `kind`, never its id. The UI, Game History and Stats still assume the device's Human has id `'human'`. A networked client will have to pass its own id through instead.
 
 The Continue time limit means "wait for everyone" can't be stalled by one player who walked away; the cost is that someone slow to read a reveal gets moved on after 30 seconds.
+
+## What each player sees
+
+`viewFor(state, id)` (`src/engine/view.ts`) is what a server sends each Human instead of the full state. It has the same shape as `GameState`, with these hidden: unpicked Clues (text, Answer, Daily Double), Round 2's Board, a Clue's Answer until its reveal, a Daily Double's Clue until it's wagered on, the Final Clue until it's read and its Answer until the reveal, other Contestants' Final Wagers and Answers until the reveal, and the Bots' plans (`botKnows`, ring and answer times).
+
+This only keeps the Answers secret if the client doesn't have them some other way. Today the build ships every Level's Clue bank in the one JavaScript bundle, so anyone can look up a shown Clue's Answer there. The online client must load Clues only from the server, and the bank must be left out of its bundle, for example by splitting the single-player game into its own chunk. That needs the service worker's precache to learn about lazily loaded chunks (see ADR 0002).
